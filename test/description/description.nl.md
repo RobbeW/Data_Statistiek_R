@@ -19,8 +19,8 @@ Verkeersrapporten gebruiken de metriek 'aantal doden / 1 miljoen gereden kilomet
 Alice heeft volgende toetspunten die je moet verwerken met jouw algoritme. 
 
 ```
-c(700, 800)
-c(80, 100)
+aantal_doden <- c(700, 800)
+aantal_gereden_km <- c(80, 100)
 
 ```
 
