@@ -8,13 +8,15 @@
       "en": "Test - R-code - Traffic Safety"
     }
   },
-  "evaluation": {},
+  "evaluation": {
+  },
   "labels": [
-    "r", "robbe wulgaert"
+    "r",
+    "robbe wulgaert"
   ],
   "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
   "internals": {
-    "token": "CtAXHnWC2bI2Cwh-gN2hKsqiAfDJWAMFvhF5Fz5cndBBaIiyiWnCU_rUvvF4VHDt",
+    "token": "ZbBFa8C6Fp8cN-4CYaJ6uqDCffH4bt6xcsPTEsUBgn45Y2s-W37KGGku34Wbuy56",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }
