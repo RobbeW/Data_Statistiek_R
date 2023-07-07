@@ -23,8 +23,8 @@ Verkeersrapporten gebruiken de metriek '`aantal doden / 1 miljoen gereden kilome
 ## Invoer:
 
 ```
-aantal_doden <- c(700, 800)
-aantal_gereden_km <- c(80, 100)
+aantal_doden <- c(A, B)
+aantal_gereden_km <- c(X, Y)
 
 ```
 
