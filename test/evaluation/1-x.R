@@ -4,7 +4,9 @@ context({
     testEqual("length(aantal_gereden_km)", function(env) { length(env$aantal_gereden_km) }, 2)
   })
 
-  context({
+context({
   testcase('Risico is correct berekend:', {
     testEqual("risk", function(env) { (env$aantal_doden / env$aantal_gereden_km) * 10^8 }, risk)
   })
+
+})
