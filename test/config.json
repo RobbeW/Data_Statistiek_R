@@ -8,9 +8,7 @@
       "en": "Test - R-code - Traffic Safety"
     }
   },
-  "evaluation": {
-    "pythia_judge": "output"
-  },
+  "evaluation": {},
   "labels": [
     "r", "robbe wulgaert"
   ],
