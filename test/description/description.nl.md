@@ -17,7 +17,6 @@ Verkeersrapporten gebruiken de metriek '`aantal doden / 1 miljoen gereden kilome
 * Gebruik `risico` als `variabele` of `object` om jouw resultaat in op te slaan;
 * Schrijf daarna jouw **R-code**;
 * [Schrijf jouw code eerst in de Notebook;](https://colab.research.google.com/drive/1sPcGQ6WyeBb40wa-xmA5NTrdmbj7RpDT#scrollTo=Ff2m0lx9x7ea&line=4&uniqifier=1)
-* <a href="[http://stackoverflow.com](https://colab.research.google.com/drive/1sPcGQ6WyeBb40wa-xmA5NTrdmbj7RpDT#scrollTo=Ff2m0lx9x7ea&line=4&uniqifier=1)" target="_blank"> Schrijf jouw code eerst in de Notebook; </a>
 * Dien jouw code daarna in via Dodona om te controleren. 
 
 
