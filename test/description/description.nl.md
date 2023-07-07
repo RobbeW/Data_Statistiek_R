@@ -31,9 +31,9 @@ aantal_gereden_km <- c(80, 100)
 ## Uitvoer: 
 
 * Als resultaat krijg je twee numerieke waarden, gescheiden met een spatie. De eerste waarde is het risico voor 2013, de tweede waarde voor 2023.
-* Bewaar deze waarden in de `variabele` of `object` genaamd `risico`. 
+* Bijvoorbeeld:
 ```
 0.2364 0.2187
 ```
-
+* Bewaar deze waarden in de `variabele` of `object` genaamd `risico`. 
 * Vergeet niet om te **debuggen** en eventuele fouten op te lossen.
