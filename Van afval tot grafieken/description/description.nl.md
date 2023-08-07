@@ -2,7 +2,7 @@
 
 Hieronder vind je een tabel met allerlei soorten huishoudelijk afval. 
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,7 +20,7 @@ Hieronder vind je een tabel met allerlei soorten huishoudelijk afval.
             text-align: left;
         }
         th {
-            background-color: #f2f2f2;
+            background-color: ;
         }
     </style>
 </head>
