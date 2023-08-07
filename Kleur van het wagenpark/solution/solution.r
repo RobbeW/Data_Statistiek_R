@@ -2,7 +2,7 @@
 kleuren <- c("Zilver", "Wit", "Zwart", "Donkergrijs", "Donkerblauw", "Lichtbruin", "Rood")
 
 # 2. Variabele met alle percentages
-percentages <- c(7.4, 20.3, 10.53, 24.22, 22.74, 1.17, 13.6)
+percentages <- c(7.5, 20.4, 10.53, 24.22, 22.74, 1.27, 13.7)
 
 # 3. Som van alle percentages
 som_percentages <- sum(percentages)
