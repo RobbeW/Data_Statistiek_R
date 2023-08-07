@@ -2,7 +2,7 @@
 
 Hieronder vind je een tabel met de verdeling van verkochte auto's in 2022 op basis van kleur. 
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
