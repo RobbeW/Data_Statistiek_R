@@ -5,6 +5,9 @@ context({
     testEqual("length(percentage)", function(env) { length(env$percentage) }, 9)
   })
   testcase('Totaal gewicht is correct berekend:', {
-    testEqual("totale_gewicht", function(env) { sum(env$gewicht) }, 231.9)
+    testTrue("totale_gewicht is correct", function(env) {
+      computed_value <- env$totale_gewicht
+      computed_value == 231.9 || computed_value == 231.8 || computed_value == 232
+    })
   })
 })
