@@ -133,7 +133,6 @@ totale_gewicht <- sum(gewicht)
 
 ```
 barplot(percentage, names.arg = materialen, main = "Staafdiagram van de percentages", col = "#3dffd0", las = 2, cex.names = 0.7)
-
 ```
 
 #### Taartdiagram
@@ -141,7 +140,8 @@ barplot(percentage, names.arg = materialen, main = "Staafdiagram van de percenta
 * `percentage`: de variabele met data die we wensen te gebruiken;
 * `names.arg`: de labels die bij de grafiek zullen afgedrukt worden; 
 * `main`: de titel die bovenaan de grafiek komt te staan;
-* `col`: kleur van de grafiek. Hier dus een regenboog aan verschillende kleuren. 
+* `col`: kleur van de grafiek. Hier dus een regenboog aan verschillende kleuren.
+
 ```
 pie(percentage, labels = materialen, main = "Taartdiagram van de percentages", col = rainbow(length(materialen)))
 ```
