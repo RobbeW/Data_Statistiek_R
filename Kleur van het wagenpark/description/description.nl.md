@@ -20,7 +20,7 @@ Hieronder vind je een tabel met de verdeling van verkochte auto's in 2022 op bas
             text-align: left;
         }
         th {
-            background-color: #f2f2f2;
+            background-color:;
         }
     </style>
 </head>
