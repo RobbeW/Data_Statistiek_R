@@ -36,11 +36,11 @@ Hieronder vind je een tabel met de verdeling van verkochte auto's in 2022 op bas
     <tbody>
         <tr>
             <td>Zilver</td>
-            <td>7.4</td>
+            <td>7.5</td>
         </tr>
         <tr>
             <td>Wit</td>
-            <td>20.3</td>
+            <td>20.4</td>
         </tr>
         <tr>
             <td>Zwart</td>
@@ -56,11 +56,11 @@ Hieronder vind je een tabel met de verdeling van verkochte auto's in 2022 op bas
         </tr>
         <tr>
             <td>Lichtbruin</td>
-            <td>1.17</td>
+            <td>1.27</td>
         </tr>
         <tr>
             <td>Rood</td>
-            <td>13.6</td>
+            <td>13.7</td>
         </tr>
     </tbody>
 </table>
