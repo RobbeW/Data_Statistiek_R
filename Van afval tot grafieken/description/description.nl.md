@@ -130,6 +130,7 @@ totale_gewicht <- sum(gewicht)
 * `names.arg`: de labels die bij de grafiek zullen afgedrukt worden; 
 * `main`: de titel die bovenaan de grafiek komt te staan;
 * `col`: kleur van de grafiek
+
 ```
 barplot(percentage, names.arg = materialen, main = "Staafdiagram van de percentages", col = "#3dffd0", las = 2, cex.names = 0.7)
 
