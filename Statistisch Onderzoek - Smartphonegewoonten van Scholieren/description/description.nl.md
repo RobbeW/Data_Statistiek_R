@@ -21,8 +21,9 @@ Ouders, opvoeders en psychologen maken zich steeds meer zorgen over de mogelijke
 * Eenmaal per week
 * Zelden
 
-## Gevraagd
+
 {: .callout.callout-info}
+>## Gevraagd
 >1. **Identificeer de elementen**: 
 >* Wat onderzoeken we precies?
 >
