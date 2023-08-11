@@ -1,6 +1,6 @@
 {
     "evaluation": {
-        "handler": "r"
+        "handler": "R"
     },
-    "programming_language": "r"
+    "programming_language": "R"
 }
