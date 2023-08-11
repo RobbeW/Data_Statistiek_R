@@ -4,15 +4,18 @@
   "access": "public",
   "description": {
     "names": {
-      "nl": "Test - R-code - Verkeersveiligheid",
-      "en": "Test - R-code - Traffic Safety"
+      "nl": "Verkeersveiligheid",
+      "en": "Traffic Safety"
     }
   },
   "evaluation": {
   },
   "labels": [
     "r",
-    "robbe wulgaert"
+    "robbe wulgaert",
+    "Sint-Lievenscollege",
+    "statistiek",
+    "www.robbewulgaert.be"
   ],
   "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
   "internals": {
