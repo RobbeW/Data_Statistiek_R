@@ -1,6 +1,5 @@
-## Variabelen in statistiek
-
 {: .callout.callout-info}
+>## Variabelen in statistiek
 >### Definitie
 >Een variabele in de statistiek verwijst naar een kenmerk, getal of hoeveelheid dat gemeten of geteld kan worden. Het kan verschillende waarden aannemen, vandaar de term "variabele".
 >Bijvoorbeeld leeftijd, geslacht, bedrijfsinkomsten en -uitgaven, geboorteland, kapitaaluitgaven en klassen zijn voorbeelden van variabelen.
@@ -18,8 +17,9 @@
 
 
 
-## Variabelen in R
+
 {: .callout.callout-info}
+>## Variabelen in R
 >### Definitie
 >Bij programmeren wordt een **variabele** gebruikt **om gegevens op te slaan die in een programma kunnen worden gebruikt en gemanipuleerd.** Het krijgt zijn naam omdat de gegevens kunnen veranderen of variëren. De variabele werkt als een container of een label dat naar de gegevens wijst.
 >
@@ -36,8 +36,9 @@
 > ```x <- c(1,2,3,4,5).```
 
 
-## Waar overlappen deze begrippen?
+
 {: .callout.callout-info}
+>## Waar overlappen deze begrippen?
 > In een taal als R, die is ontworpen voor statistische berekeningen, wordt de grens tussen deze definities vaag. Wanneer je in R met gegevens werkt, zijn de **"variabelen"** in je dataset (kolommen in een gegevensframe) statistische variabelen, maar de manier waarop je die gegevens opslaat, manipuleert en ermee interageert, maakt gebruik van **programmeervariabelen**.
 >
 >Als je codeert in R (of een andere programmeertaal), gebruik je **programmeervariabelen** om **statistische variabelen** te manipuleren en analyseren.
