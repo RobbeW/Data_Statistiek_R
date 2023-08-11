@@ -21,8 +21,9 @@ De plaatselijke schooldirectie is geïnteresseerd in de fitnessgewoonten van mid
 3. **Gemiddelde Toetsscore**:
 * Opgenomen op een schaal van 0,0 tot 4,0.
 
-## Gevraagd
+
 {: .callout.callout-info}
+>## Gevraagd
 >1. **Identificeer de elementen**: 
 >* Wat onderzoeken we precies?
 >
