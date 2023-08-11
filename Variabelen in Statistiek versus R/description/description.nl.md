@@ -1,17 +1,18 @@
 ## Variabelen in statistiek
+
 {: .callout.callout-info}
->###**Definitie:**
+>### Definitie
 >Een variabele in de statistiek verwijst naar een kenmerk, getal of hoeveelheid dat gemeten of geteld kan worden. Het kan verschillende waarden aannemen, vandaar de term "variabele".
 >Bijvoorbeeld leeftijd, geslacht, bedrijfsinkomsten en -uitgaven, geboorteland, kapitaaluitgaven en klassen zijn voorbeelden van variabelen.
 >
->###**Soorten:**
+>### Soorten
 >Er zijn verschillende soorten statistische variabelen, waaronder:
 >
->####Kwantitatief (numeriek): 
+>#### Kwantitatief (numeriek)
 >* Zoals het aantal auto's of het lengte van mensen. 
 >* Hiermee kunnen berekeningen gemaakt worden. 
 >
->####Kwalitatief (categorisch): 
+>#### Kwalitatief (categorisch)
 >* Omvat nominaal (zoals kleuren: rood, blauw, groen) 
 >* en ordinaal (zoals opleidingsniveau: middelbare school, bachelor, master).
 
@@ -19,10 +20,10 @@
 
 ## Variabelen in R
 {: .callout.callout-info}
->###**Definitie:** 
+>### Definitie
 >Bij programmeren wordt een **variabele** gebruikt **om gegevens op te slaan die in een programma kunnen worden gebruikt en gemanipuleerd.** Het krijgt zijn naam omdat de gegevens kunnen veranderen of variëren. De variabele werkt als een container of een label dat naar de gegevens wijst.
 >
->###**Soorten:** 
+>### Soorten
 >Variabelen in programmeren kunnen verschillende soorten gegevens bevatten:
 >* Numerieke waarden: gehele getallen, vlotters.
 >* Tekst: tekenreeksen.
@@ -30,7 +31,7 @@
 >* Complexe gegevensstructuren: arrays, lijsten, matrices, dataframes in R.
 >* Andere: functies, modellen, enz.
 >
->###**Gebruik:** 
+>### Gebruik
 >Bij het programmeren maken variabelen de dynamische verwerking en manipulatie van gegevens mogelijk. In R kun je bijvoorbeeld een variabele x maken om een reeks getallen op te slaan: 
 > ```x <- c(1,2,3,4,5).```
 
