@@ -1,13 +1,38 @@
 ## Gegeven
 
 Je hebt gegevens gekregen over de lengte van spelers van een plaatselijk basketbalteam. Het is jouw taak om de gemiddelde lengte van deze spelers te bepalen met behulp van de programmeertaal R.
-| Naam speler  | Lengte (in cm) |
-|--------------|----------------|
-| John Smith   | 188            |
-| Alex Brown   | 192            |
-| Mia Turner   | 185            |
-| Lucas White  | 190            |
-| Zoe Davis    | 187            |
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Naam speler</th>
+            <th>Lengte (in cm)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John Smith</td>
+            <td>188</td>
+        </tr>
+        <tr>
+            <td>Alex Brown</td>
+            <td>192</td>
+        </tr>
+        <tr>
+            <td>Mia Turner</td>
+            <td>185</td>
+        </tr>
+        <tr>
+            <td>Lucas White</td>
+            <td>190</td>
+        </tr>
+        <tr>
+            <td>Zoe Davis</td>
+            <td>187</td>
+        </tr>
+    </tbody>
+</table>
+
 
 ## Variabelen aanmaken in R (invoer)
 Wanneer we deze gegevens uit de tabel willen omzetten in data die we kunnen verwerken via R-code, moeten we deze toekennen aan een variabele. 
