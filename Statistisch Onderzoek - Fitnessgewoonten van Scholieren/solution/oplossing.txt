@@ -1,0 +1,13 @@
+**Antwoorden** 
+
+1. **Elementen**: Fitnessgewoonten van middelbare scholieren met betrekking tot frequentie, type lichaamsbeweging en mogelijke invloed op schoolprestaties.
+
+2. **Statistische variabelen**:
+    - Frequentie van lichaamsbeweging
+    - Favoriete fysieke activiteit
+    - Gemiddeld GPA
+
+3. **Categorisering**:
+    - **Frequentie van lichaamsbeweging**: Kwalitatief (ordinaal, want er is een duidelijke volgorde)
+    - Favoriete lichaamsbeweging**: Kwalitatief (nominaal, want er is geen specifieke volgorde)
+    - Gemiddelde toetsscores**: Kwantitatief (continu, want GPA kan variëren binnen het bereik)
