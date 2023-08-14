@@ -36,7 +36,7 @@ Je hebt gegevens gekregen over de lengte van spelers van een plaatselijk basketb
 
 ## Variabelen aanmaken in R (invoer)
 Wanneer we deze gegevens uit de tabel willen omzetten in data die we kunnen verwerken via R-code, moeten we deze toekennen aan een variabele. 
-Net zoals in andere programmeertalen zoals **Python** of **JaveScript** hebben variabelen volgende kenmerken: 
+Net zoals in andere programmeertalen zoals **Python** of **JavaScript** hebben variabelen volgende kenmerken: 
 * een naam;
 * een datatype. 
 
