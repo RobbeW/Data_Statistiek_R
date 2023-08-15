@@ -6,6 +6,26 @@ In medisch onderzoek is het vaak essentieel om verschillende patiëntgegevens bi
 Stel je voor dat je een onderzoeker bent die werkt aan een studie waarbij vijf patiënten betrokken zijn. Hieronder staan hun namen en het aantal antilichamen:
 
 <table border="1">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materials Data</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: ;
+        }
+    </style>
+</head>
     <thead>
         <tr>
             <th>Namen Patiënten</th>
