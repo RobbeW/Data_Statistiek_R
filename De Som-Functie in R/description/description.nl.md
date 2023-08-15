@@ -10,7 +10,7 @@ We voeren een onderzoek naar het aantal verloren arbeidsjaren door ziekte (=jare
 
 We krijgen volgende tabel: 
 
-<table>
+<table border="2">
     <thead>
         <tr>
             <th>Jaar</th>
