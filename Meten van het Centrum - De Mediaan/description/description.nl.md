@@ -6,7 +6,7 @@ De mediaan is een centrale waarde die een dataset in twee helften verdeelt wanne
 ### Voordelen van de mediaan:
 1. **Robuustheid**: De mediaan is bestand tegen afwijkingen. Als een enkele uitschieter, zoals 99 in plaats van 9, per ongeluk wordt ingevoerd in een dataset, kan het gemiddelde sterk scheefgetrokken zijn, maar de mediaan blijft grotendeels onaangetast.
 
-2. **Reflecteert de centrale tendens**: De mediaan zorgt ervoor dat **50% van de waarnemingen erboven ligt en 50% eronder**. Deze eigenschap is gunstig bij het vergelijken van bijvoorbeeld salarissen. In een groep met salarissen van 2100, 1850, 2307, 1789, 6199 kan 90% onder het gemiddelde verdienen, maar nooit onder de mediaan.
+2. **Reflecteert de centrale tendens**: De mediaan zorgt ervoor dat **50% van de waarnemingen erboven ligt en 50% eronder**. Deze eigenschap is gunstig bij het vergelijken van bijvoorbeeld salarissen. In een groep met salarissen van 2100, 1850, 2307, 1789, 6199 ... euro kan 90% onder het gemiddelde verdienen, maar nooit onder de mediaan.
 
 3. **Voorspellend voor echte scenario's**: Als bij examens de slagingsscore 5 is en de **gemiddelde score** van de studenten is ook 5, dan betekent dat **niet noodzakelijk** dat de helft van de studenten geslaagd is. Maar als de **mediaan van de score 5 is**, is het **zeker dat 50% is geslaagd.**
 
