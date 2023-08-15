@@ -18,22 +18,22 @@ We krijgen volgende tabel:
         </tr>
     </thead>
     <tbody>
-        <tr><td>2008</td><td> </td>td><td>250,000</td></tr>
-        <tr><td>2009</td><td> </td>td><td>266,667</td></tr>
-        <tr><td>2010</td><td> </td>td><td>283,334</td></tr>
-        <tr><td>2011</td><td> </td>td><td>300,001</td></tr>
-        <tr><td>2012</td><td> </td>td><td>316,668</td></tr>
-        <tr><td>2013</td><td> </td>td><td>333,335</td></tr>
-        <tr><td>2014</td><td> </td>td><td>350,002</td></tr>
-        <tr><td>2015</td><td> </td>td><td>366,669</td></tr>
-        <tr><td>2016</td><td> </td>td><td>383,336</td></tr>
-        <tr><td>2017</td><td> </td>td><td>400,003</td></tr>
-        <tr><td>2018</td><td> </td>td><td>416,670</td></tr>
-        <tr><td>2019</td><td> </td>td><td>433,337</td></tr>
-        <tr><td>2020</td><td> </td>td><td>450,004</td></tr>
-        <tr><td>2021</td><td> </td>td><td>466,671</td></tr>
-        <tr><td>2022</td><td> </td>td><td>483,338</td></tr>
-        <tr><td>2023</td><td> </td>td><td>500,005</td></tr>
+        <tr><td>2008</td><td> </td><td>250,000</td></tr>
+        <tr><td>2009</td><td> </td><td>266,667</td></tr>
+        <tr><td>2010</td><td> </td>><td>283,334</td></tr>
+        <tr><td>2011</td><td> </td><td>300,001</td></tr>
+        <tr><td>2012</td><td> </td><td>316,668</td></tr>
+        <tr><td>2013</td><td> </td><td>333,335</td></tr>
+        <tr><td>2014</td><td> </td><td>350,002</td></tr>
+        <tr><td>2015</td><td> </td><td>366,669</td></tr>
+        <tr><td>2016</td><td> </td><td>383,336</td></tr>
+        <tr><td>2017</td><td> </td><td>400,003</td></tr>
+        <tr><td>2018</td><td> </td><td>416,670</td></tr>
+        <tr><td>2019</td><td> </td><td>433,337</td></tr>
+        <tr><td>2020</td><td> </td><td>450,004</td></tr>
+        <tr><td>2021</td><td> </td><td>466,671</td></tr>
+        <tr><td>2022</td><td> </td><td>483,338</td></tr>
+        <tr><td>2023</td><td> </td><td>500,005</td></tr>
     </tbody>
 </table>
 
