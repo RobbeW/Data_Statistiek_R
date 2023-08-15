@@ -14,6 +14,7 @@ We krijgen volgende tabel:
     <thead>
         <tr>
             <th>Jaar</th>
+            <th> </th>
             <th>Aantal langdurig zieken (1 jaar)</th>
         </tr>
     </thead>
