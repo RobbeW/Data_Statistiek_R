@@ -4,23 +4,19 @@
   "access": "public",
   "description": {
     "names": {
-      "nl": "De Som-Functie in R",
-      "en": "The Sum Function in R"
+      "nl": "Langdurig Zieken en de Arbeidsmarkt",
+      "en": "Long-term Inactivity in the Labor Market"
     }
   },
   "evaluation": {
     "pythia_judge": "output"
   },
   "labels": [
-    "r",
-    "robbe wulgaert",
-    "sint-lievenscollege",
-    "www.robbewulgaert.be",
-    "statistiek"
+    "r", "robbe wulgaert", "sint-lievenscollege", "www.robbewulgaert.be", "statistiek"
   ],
   "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
   "internals": {
-    "token": "BXrQffqm5U9pW5RdNJsgSzrEJIPRzy6B4gWQU2cv2V3HVfdEwdTkAMbf7WkqtUrP",
+    "token": "CtAXHnWC2bI2Cwh-gN2hKsqiAfDJWAMFvhF5Fz5cndBBaIiyiWnCU_rUvvF4VHDt",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }
