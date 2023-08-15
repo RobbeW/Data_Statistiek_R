@@ -13,12 +13,12 @@ salaries <- c(2500, 3200, 4800, 3900, 4100, 5600, 4000, 2700, 5100, 3800, 5900, 
 >
 >* **Totale som van lonen:** Bereken de totale maandelijkse uitbetaling door het bedrijf voor deze 15 werknemers.
 >* **Tip:** Gebruik de `sum()`-functie.
->
+> 
 >* **Gemiddeld loonniveau:** Bepaal het gemiddelde maandloon onder de 15 werknemers.
 >* **Tip:** Gebruik de `mean()`-functie.
->
+> 
 >* **Mediaan loon:** Zoek het mediaan loon van de werknemers. Dit zal je helpen het centrale loonniveau in het bedrijf te begrijpen en inzicht geven in de loonverdeling.
->* **Tip:** Gebruik de `median`-functie
+>* **Tip:** Gebruik de `median()`-functie
 
 ## Uitvoer: 
 
