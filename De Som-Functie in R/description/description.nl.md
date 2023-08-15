@@ -69,5 +69,5 @@ We krijgen volgende tabel:
 >print(totaal_zieken)
 >```
 >
->
-
+ 
+ 
