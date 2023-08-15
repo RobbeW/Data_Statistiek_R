@@ -5,6 +5,8 @@ In de statistiek zijn staafdiagrammen een van de meest intuïtieve en meest gebr
 ## Staafdiagrammen in R
 In R kunnen staafdiagrammen snel worden gemaakt met behulp van het grafische basispakket. De belangrijkste functie hiervoor is `barplot()`. De **syntaxis** van deze functie is de volgende: 
 
+### Syntaxis
+
 ```
 soorten <- c("goudvis", "koi", "snoek", "haai")
 aantallen <- c(10, 15, 5, 7)  
