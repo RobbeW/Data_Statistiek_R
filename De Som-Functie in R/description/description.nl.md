@@ -46,27 +46,27 @@ We krijgen volgende tabel:
 >1. **De variabele maken voor de jaren:**  
 > Creëer een variabele genaamd jaren waarin je de gegeven jaren opslaat.
 >
- >  ```
-  > jaren <- c(2008, 2009, ... )
-   >```
+>```
+> jaren <- c(2008, 2009, ... )
+>```
 >
 >2. **Variabelen aanmaken voor het aantal langdurig zieken:**  
 > Creëer een variabele genaamd aantal_zieken waarin je het aantal langdurig zieken voor de gegeven jaren opslaat.
 >
->   ```
->   aantal_zieken <- c(250.000, 266.667, ...)
->   ```
+>```
+> aantal_zieken <- c(250.000, 266.667, ...)
+>```
 >
 >3. **Totale aantal verloren arbeidsjaren door ziekte berekenen::**  
 > Bereken het totale aantal verloren arbeidsjaren door ziekte voor de gegeven jaren met behulp van de sum functie in R.
 >
->   ```
+>```
 >totaal_zieken <- sum( ... )
->   ```
+>```
 >4. **Resultaten weergeven:**
 >Gebruik de print functie om zowel de jaren als aantal_zieken en totaal_zieken te tonen.
->   ```
+>```
 >print(totaal_zieken)
->   ```
+>```
 
 
