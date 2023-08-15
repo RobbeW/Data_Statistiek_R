@@ -19,7 +19,7 @@ We zoomen in op de verschillende elementen van de syntaxis:
 * **barplot(X, ...)**: de eerste `parameter`geeft weer wat we in een grafiek willen gieten; 
 * **main**: de tweede `parameter`bepaalt de **titel** die bovenaan onze grafiek verschijnt; 
 * **xlab= ...**: de derde `parameter`bepaalt het label van de **x-as** van onze grafiek; 
-* **ylab= ...***: de vierde `parameter`bepaalt het label van de **y-as** van onze grafiek; 
+* **ylab= ...**: de vierde `parameter`bepaalt het label van de **y-as** van onze grafiek; 
 * **names.arg = ...**: de vijfde `parameter`bepaalt de namen die onder elke staaf op de x-as moeten worden uitgezet. In de context van een staafdiagram zijn dit de labels voor elke individuele staaf.
 * **col= ...**: bepaalt de kleur van onze staven in het diagram; 
 * **border= ...**: bepaalt de kleur van de rand van onze diagram. 
