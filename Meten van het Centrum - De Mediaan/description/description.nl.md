@@ -1,6 +1,5 @@
 ## De Mediaan in Statistiek 
 
-## Mediaan in Statistiek
 De mediaan is een centrale waarde die een dataset in twee helften verdeelt wanneer deze in oplopende volgorde is gesorteerd. Bijvoorbeeld, in de verzameling getallen 2, 5, 6, 7 en 9 is de mediaan 6. Als er een even aantal getallen is, is de mediaan het gemiddelde van de twee middelste waarden.
 
 ### Voordelen van de mediaan:
