@@ -9,7 +9,7 @@ In R kunnen staafdiagrammen snel worden gemaakt met behulp van het grafische bas
 soorten <- c("goudvis", "koi", "snoek", "haai")
 aantallen <- c(10, 15, 5, 7)  
 
-barplot(aantallen, main="Observaties Zoetwateronderzoek", xlab="Soorten Vis", ylab="Aantal / Frequentie", names.arg=soorten, col="blue", border="red")
+barplot(aantallen, main="Observaties Zoetwateronderzoek", xlab="Soorten Vis", ylab="Aantal / Frequentie", names.arg=soorten, col="blue", border="black")
 
 ```
 We zoomen in op de verschillende elementen van de syntaxis: 
@@ -22,7 +22,7 @@ We zoomen in op de verschillende elementen van de syntaxis:
 * **ylab= ...**: de vierde `parameter`bepaalt het label van de **y-as** van onze grafiek; 
 * **names.arg = ...**: de vijfde `parameter`bepaalt de namen die onder elke staaf op de x-as moeten worden uitgezet. In de context van een staafdiagram zijn dit de labels voor elke individuele staaf.
 * **col= ...**: bepaalt de kleur van onze staven in het diagram; 
-* **border= ...**: bepaalt de kleur van de rand van onze diagram. 
+* **border= ...**: bepaalt de kleur van de rand van de staven in het diagram. 
 
 {: .callout.callout-info}
 >## Samengevat
