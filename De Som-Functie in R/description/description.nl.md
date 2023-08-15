@@ -20,7 +20,7 @@ We krijgen volgende tabel:
     <tbody>
         <tr><td>2008</td><td> </td><td>250,000</td></tr>
         <tr><td>2009</td><td> </td><td>266,667</td></tr>
-        <tr><td>2010</td><td> </td>><td>283,334</td></tr>
+        <tr><td>2010</td><td> </td><td>283,334</td></tr>
         <tr><td>2011</td><td> </td><td>300,001</td></tr>
         <tr><td>2012</td><td> </td><td>316,668</td></tr>
         <tr><td>2013</td><td> </td><td>333,335</td></tr>
