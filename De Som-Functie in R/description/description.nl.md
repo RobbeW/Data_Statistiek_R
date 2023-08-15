@@ -10,32 +10,25 @@ We voeren een onderzoek naar het aantal verloren arbeidsjaren door ziekte (=jare
 
 We krijgen volgende tabel: 
 
-<table border="2">
-    <thead>
-        <tr>
-            <th>Jaar</th>
-            <th>Aantal langdurig zieken (1 jaar)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr><td>2008</td><td>250,000</td></tr>
-        <tr><td>2009</td><td>266,667</td></tr>
-        <tr><td>2010</td><td>283,334</td></tr>
-        <tr><td>2011</td><td>300,001</td></tr>
-        <tr><td>2012</td><td>316,668</td></tr>
-        <tr><td>2013</td><td>333,335</td></tr>
-        <tr><td>2014</td><td>350,002</td></tr>
-        <tr><td>2015</td><td>366,669</td></tr>
-        <tr><td>2016</td><td>383,336</td></tr>
-        <tr><td>2017</td><td>400,003</td></tr>
-        <tr><td>2018</td><td>416,670</td></tr>
-        <tr><td>2019</td><td>433,337</td></tr>
-        <tr><td>2020</td><td>450,004</td></tr>
-        <tr><td>2021</td><td>466,671</td></tr>
-        <tr><td>2022</td><td>483,338</td></tr>
-        <tr><td>2023</td><td>500,005</td></tr>
-    </tbody>
-</table>
+| Jaar | Aantal langdurig zieken (1 jaar) |
+|------|----------------------------------|
+| 2008 | 250,000                          |
+| 2009 | 266,667                          |
+| 2010 | 283,334                          |
+| 2011 | 300,001                          |
+| 2012 | 316,668                          |
+| 2013 | 333,335                          |
+| 2014 | 350,002                          |
+| 2015 | 366,669                          |
+| 2016 | 383,336                          |
+| 2017 | 400,003                          |
+| 2018 | 416,670                          |
+| 2019 | 433,337                          |
+| 2020 | 450,004                          |
+| 2021 | 466,671                          |
+| 2022 | 483,338                          |
+| 2023 | 500,005                          |
+
 
 
 {: .callout.callout-info}
