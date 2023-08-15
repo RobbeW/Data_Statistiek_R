@@ -65,6 +65,7 @@ We krijgen volgende tabel:
 >```
 >4. **Resultaten weergeven:**
 >Gebruik de print functie om zowel de jaren als aantal_zieken en totaal_zieken te tonen.
+>
 >```
 >print(totaal_zieken)
 >```
