@@ -1,4 +1,4 @@
-## Gegeven:
+## Gegeven
 
 Hieronder vind je een tabel met de verdeling van verkochte auto's in 2022 op basis van kleur. 
 
@@ -69,13 +69,13 @@ Hieronder vind je een tabel met de verdeling van verkochte auto's in 2022 op bas
 </html>
 
 {: .callout.callout-info}
->## Gevraagd:
+>## Gevraagd
 >* Maak een variabele met alle kleuren; 
 >* Maak een variabele met alle percentages; 
 >* Maak de som van alle percentages; 
 >* Maak een staafdiagram van deze gegevens. 
 
-## Invoer:
+## Invoer
 De volgende elementen helpen je op weg: 
 
 ```
@@ -90,7 +90,7 @@ percentages <- c(7.4, 20.3, 10.53, ...)
 barplot(percentages, names.arg = kleuren, main = "Verdeling van verkochte auto's in 2022 op basis van kleur", xlab = "...", ylab = "...", col = rainbow(length(kleuren)), las = 2, cex.names = 0.7)
 ```
 
-## Uitvoer: 
+## Uitvoer
 * Je bepaalt de som van alle percentages, 
 * Je verkrijgt een grafiek met de kleuren en percentages van de auto's. 
 
