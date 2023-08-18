@@ -59,21 +59,21 @@ Stel je voor dat je een onderzoeker bent die werkt aan een studie waarbij vijf p
 {: .callout.callout-info}
 >## Gevraagd
 >
->1. **De variabele maken:**  
+>* **De variabele maken:**  
 > Begin met het aanmaken van een variabele genaamd `patient_names` om de namen van de patiënten op te slaan. Deze variabele moet een vector zijn.
 >
  >  ```
   > namen <- c( ... )
    >```
 >
->2. **De antilichaamvariabele maken:**  
+>* **De antilichaamvariabele maken:**  
 > Maak vervolgens een andere variabele genaamd `antilichamen` om het aantal antilichamen voor elke patiënt op te slaan. Deze variabele moet ook een vector zijn.
 >
 >   ```
 >   antilichamen <- c( ... )
 >   ```
 >
->3. **De variabelen weergeven:**  
+>* **De variabelen weergeven:**  
 > Print tenslotte beide variabelen naar het scherm met de `print` functie om te controleren of ze correct zijn geïnitialiseerd.
 >
 >   ```
