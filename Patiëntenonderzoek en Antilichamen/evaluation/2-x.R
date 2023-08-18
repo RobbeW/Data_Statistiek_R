@@ -1,6 +1,6 @@
 context({
   testcase('Controleer de lengte van de vector bij variabele -namen-', {
-    testEqual("length(patient_namen)", function(env) { length(env$namen) }, 5)
+    testEqual("length(namen)", function(env) { length(env$namen) }, 5)
     testEqual("namen[1]", function(env) { env$namen[1] }, "Alice")
     testEqual("namen[2]", function(env) { env$namen[2] }, "Bob")
     testEqual("namen[3]", function(env) { env$namen[3] }, "Karen")
