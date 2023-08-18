@@ -1,5 +1,5 @@
 {
-  "type": "exercise",
+  "type": "content",
   "programming_language": "R",
   "access": "public",
   "description": {
@@ -12,12 +12,15 @@
     "pythia_judge": "output"
   },
   "labels": [
-    "r", "robbe wulgaert", "sint-lievenscollege", "www.robbewulgaert.be", "statistiek"
+    "r",
+    "robbe wulgaert",
+    "sint-lievenscollege",
+    "www.robbewulgaert.be",
+    "statistiek"
   ],
-  "type": "content",
   "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
   "internals": {
-    "token": "CtAXHnWC2bI2Cwh-gN2hKsqiAfDJWAMFvhF5Fz5cndBBaIiyiWnCU_rUvvF4VHDt",
+    "token": "7YANrT-G28FCDfPbIEggpM6TsRb66-4TQMzU-S4P7g52KidfSPNR-fdr77b4NyKr",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }
