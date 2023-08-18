@@ -61,7 +61,7 @@ Stel je voor dat je een onderzoeker bent die werkt aan een studie waarbij vijf p
 >
 >
 >* **De variabele maken:**  
-> Begin met het aanmaken van een variabele genaamd `patient_names` om de namen van de patiënten op te slaan. Deze variabele moet een vector zijn.
+> Begin met het aanmaken van een variabele genaamd `namen` om de namen van de patiënten op te slaan. Deze variabele moet een vector zijn.
 >
 >
 >* **De antilichaamvariabele maken:**  
@@ -75,6 +75,6 @@ Stel je voor dat je een onderzoeker bent die werkt aan een studie waarbij vijf p
 
 ## Uitvoer: 
 
-Na afloop van deze oefening zou je twee R-variabelen (`patient_names` en `antibody_counts`) moeten hebben met de verstrekte gegevens. Je moet ook de inhoud van deze variabelen op het scherm kunnen weergeven.
+Na afloop van deze oefening zou je twee R-variabelen (`namen` en `antilichamen`) moeten hebben met de verstrekte gegevens. Je moet ook de inhoud van deze variabelen op het scherm kunnen weergeven.
 
 
