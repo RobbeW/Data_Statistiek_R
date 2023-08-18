@@ -9,3 +9,8 @@ gemiddeld_loon <- mean(lonen)
 
 # Mediaan loon
 mediaan_loon <- median(lonen)
+
+# Printen naar het scherm: 
+print(paste('Totale som van lonen:', totaal_loon, 'euro.'))
+print(paste('Gemiddeld loonniveau:', gemiddeld_loon, 'euro.'))
+print(paste('Mediaan loon:', mediaan_loon, 'euro.'))
