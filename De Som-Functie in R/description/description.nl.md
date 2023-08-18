@@ -72,7 +72,7 @@ We krijgen volgende tabel:
 >
 >
 >
->* **Totale aantal verloren arbeidsjaren door ziekte berekenen::**  
+>* **Totale aantal verloren arbeidsjaren door ziekte berekenen:**  
 > Bereken het totale aantal verloren arbeidsjaren door ziekte voor de gegeven jaren met behulp van de sum functie in R.
 >
 >
