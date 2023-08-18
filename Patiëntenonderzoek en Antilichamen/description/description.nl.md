@@ -62,9 +62,9 @@ Stel je voor dat je een onderzoeker bent die werkt aan een studie waarbij vijf p
 >* **De variabele maken:**  
 > Begin met het aanmaken van een variabele genaamd `patient_names` om de namen van de patiënten op te slaan. Deze variabele moet een vector zijn.
 >
- >  ```
-  > namen <- c( ... )
-   >```
+>    ```
+>   namen <- c( ... )
+>   ```
 >
 >* **De antilichaamvariabele maken:**  
 > Maak vervolgens een andere variabele genaamd `antilichamen` om het aantal antilichamen voor elke patiënt op te slaan. Deze variabele moet ook een vector zijn.
