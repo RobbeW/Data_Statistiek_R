@@ -9,11 +9,11 @@ context({
   })
 
   testcase('Check if antibody_counts variable is created correctly', {
-    testEqual("length(antibody_counts)", function(env) { length(env$antibody_counts) }, 5)
-    testEqual("antibody_counts[1]", function(env) { env$antibody_counts[1] }, 120)
-    testEqual("antibody_counts[2]", function(env) { env$antibody_counts[2] }, 150)
-    testEqual("antibody_counts[3]", function(env) { env$antibody_counts[3] }, 135)
-    testEqual("antibody_counts[4]", function(env) { env$antibody_counts[4] }, 110)
-    testEqual("antibody_counts[5]", function(env) { env$antibody_counts[5] }, 145)
+    testEqual("length(antilichamen )", function(env) { length(env$antibody_counts) }, 5)
+    testEqual("antilichamen [1]", function(env) { env$antibody_counts[1] }, 120)
+    testEqual("antilichamen [2]", function(env) { env$antibody_counts[2] }, 150)
+    testEqual("antilichamen [3]", function(env) { env$antibody_counts[3] }, 135)
+    testEqual("antilichamen [4]", function(env) { env$antibody_counts[4] }, 110)
+    testEqual("antilichamen [5]", function(env) { env$antibody_counts[5] }, 145)
   })
 })
