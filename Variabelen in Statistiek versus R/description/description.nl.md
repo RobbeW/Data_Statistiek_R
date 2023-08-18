@@ -25,7 +25,7 @@
 >
 >### Soorten
 >Variabelen in programmeren kunnen verschillende soorten gegevens bevatten:
->* Numerieke waarden: gehele getallen, vlotters.
+>* Numerieke waarden: gehele getallen, decimale getallen.
 >* Tekst: tekenreeksen.
 >* Booleaanse waarden: waar of onwaar.
 >* Complexe gegevensstructuren: arrays, lijsten, matrices, dataframes in R.
