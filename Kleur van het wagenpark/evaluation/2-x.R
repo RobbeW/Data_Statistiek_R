@@ -6,5 +6,4 @@ contextWithImage({
   testcase('Som van alle percentages is correct berekend:', {
     testEqual("som_percentages", function(env) { sum(env$percentages) }, 100)
   })
-  # Note: Testing the barplot visually would require manual evaluation or a more advanced testing tool.
 })
