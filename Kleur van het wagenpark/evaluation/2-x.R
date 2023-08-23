@@ -1,4 +1,4 @@
-contextWithImage({
+context({
   testcase('kleuren en percentages hebben de juiste lengte', {
     testEqual("length(kleuren)", function(env) { length(env$kleuren) }, 7)
     testEqual("length(percentages)", function(env) { length(env$percentages) }, 7)
