@@ -12,9 +12,9 @@ De somfunctie in R wordt gebruikt om het totaal van numerieke elementen in een o
 >### Syntax van de Som-Functie
 >De syntax voor het gebruiken van de `sum`in R is volgende:  
 >
->```
+>```r
 >getallen <- c(1, 2, 3, 4, 5)
-> som <- sum(getallen)  # resultaat is 15
+>som <- sum(getallen)  # resultaat is 15
 print(som) # print de variabele som naar het scherm
 >```
 
