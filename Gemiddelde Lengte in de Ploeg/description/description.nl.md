@@ -4,13 +4,13 @@ Nu je de gegevens hebt opgeslagen via een `vector` in de variabele `lengte`, is 
 
 ## Invoer
 In de vorige oefening maakten we reeds een variabele lengte aan om de gegevens in te bewaren. 
-```
+```R
 lengte <- c(188, 192, 185, 190, 187)
 ```
 
 ## Berekenen van het gemiddelde in R
 Om het gemiddelde van de lengtes van de basketbalspelers te berekenen, gebruik je de volgende code:
-```
+```R
 gemiddelde_lengte <- mean(lengte)
 ```
 
@@ -18,7 +18,7 @@ Dit zal de gemiddelde waarde van alle lengtes in de lengte vector berekenen en o
 
 ## Uitvoer
 Net als eerder willen we het resultaat tonen aan de eindgebruiker. Dit doen we weer met de `print-functie`.
-```
+```R
 print(gemiddelde_lengte)
 ```
 
