@@ -7,12 +7,11 @@ In R kunnen staafdiagrammen snel worden gemaakt met behulp van het grafische bas
 
 ### Syntaxis
 
-```
+```R
 soorten <- c("goudvis", "koi", "snoek", "haai")
 aantallen <- c(10, 15, 5, 7)  
 
 barplot(aantallen, main="Observaties Zoetwateronderzoek", xlab="Soorten Vis", ylab="Aantal / Frequentie", names.arg=soorten, col="blue", border="black")
-
 ```
 We zoomen in op de verschillende elementen van de syntaxis: 
 
