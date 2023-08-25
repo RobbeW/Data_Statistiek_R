@@ -12,15 +12,11 @@
     "pythia_judge": "output"
   },
   "labels": [
-    "r",
-    "robbe wulgaert",
-    "sint-lievenscollege",
-    "www.robbewulgaert.be",
-    "statistiek"
+    "r", "robbe wulgaert", "sint-lievenscollege", "www.robbewulgaert.be", "statistiek"
   ],
   "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
   "internals": {
-    "token": "gVDM7cDG8MZ_Vq2p852YFeQ8aeUtYtuqT4nv4n9iB8Pi5HbSCmwn3E6TKDjiGG3z",
+    "token": "CtAXHnWC2bI2Cwh-gN2hKsqiAfDJWAMFvhF5Fz5cndBBaIiyiWnCU_rUvvF4VHDt",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }
