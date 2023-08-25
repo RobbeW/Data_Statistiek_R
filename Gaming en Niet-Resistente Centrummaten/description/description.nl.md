@@ -2,7 +2,7 @@
 
 In de les Nederlands kwam een tekst over game-verslaving aan bod. Senne wil een kleine steekproef houden of bepaalde cijfers in het artikel kloppen en vraagt zijn 19 klasgenoten hoeveel uren ze de voorbije week spendeerden aan spelletjes (op pc of smartphone).
 
-[Bron:](https://www.vrt.be/vrtnws/nl/2019/06/14/11-uur-per-week-zoveel-gamen-jongeren-gemiddeld/)
+[Bron: klik hier om het artikel te lezen.](https://www.vrt.be/vrtnws/nl/2019/06/14/11-uur-per-week-zoveel-gamen-jongeren-gemiddeld/)
 
 Senne tikt de antwoorden snel-snel in en maakt een tikfout. Hij heeft op een bepaald moment de nultoets tweemaal te veel ingedrukt.
 
