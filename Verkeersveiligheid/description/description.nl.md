@@ -1,5 +1,7 @@
 # Verkeersveiligheid in België
 
+![Een auto-ongeval.](media/will-creswick.jpg "Foto door Will Creswick op Unsplash."){:data-caption="Een auto-ongeval." width="40%"}
+
 ## Gegeven
 
 Wordt autorijden in België steeds veiliger? Het <a href="https://statbel.fgov.be/nl/themas/mobiliteit/verkeer/verkeersongevallen" target="_blank">aantal verkeersdoden daalt</a> al een aantal jaren. 
@@ -13,7 +15,6 @@ $$
  \text{overlijdensrisico} = \dfrac{\text{aantal doden}}{\text{aantal miljoen gereden kilometers}}
 $$
 
-![Een auto-ongeval.](media/will-creswick.jpg "Foto door Will Creswick op Unsplash."){:data-caption="Een auto-ongeval." width="30%"}
 
 {: .callout.callout-info}
 >## Gevraagd
