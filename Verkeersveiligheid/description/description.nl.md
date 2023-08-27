@@ -7,7 +7,7 @@ Wordt autorijden in België steeds veiliger? Het <a href="https://statbel.fgov.b
 Anderszijds is het ook zo dat de bevolkingsgrootte elk jaar wijzigt, net als het aantal personen met een rijbewijs, of de drukte op de Belgische wegen. Hoe kan men het dalende aantal verkeersdoden beter gaan interpreteren?
 
 ## Gegeven
-Volgens <a href="https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=2386c092-91a3-4a4e-8533-149411d4858a" target="_blank">Statbel</a> waren er in 2015 716 verkeersdoden. In 2022 daalde dat aantal naar 510. Maar, meer auto's genereren meer verkeerskilometers in 2023 dan in 2013. 
+Volgens <a href="https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=2386c092-91a3-4a4e-8533-149411d4858a" target="_blank">Statbel</a> waren er in 2015 maar liefst 716 verkeersdoden. In 2022 daalde dat aantal naar 510. Maar, meer auto's genereren meer verkeerskilometers in 2023 dan in 2013. 
 De overheid beweert dat in 2015 het **aantal gereden kilometers** 84,2 miljard was. In 2022 is dat aantal gestegen naar 92,9 miljard gereden kilometers. 
 
 Verkeersrapporten gebruiken de grootheid **overlijdensrisico** om hier een waarde aan toe te kennen.
