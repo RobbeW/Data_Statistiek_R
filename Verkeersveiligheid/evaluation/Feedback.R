@@ -1,0 +1,18 @@
+context({
+  testcase("doden en km_gereden hebben de juiste lengte", {
+    testEqual("length(aantal_doden)", function(env) {
+      length(env$aantal_doden)
+    }, 2)
+    testEqual("length(aantal_gereden_km)", function(env) {
+      length(env$aantal_gereden_km)
+    }, 2)
+  })
+  testcase("Risico is correct berekend:", {
+    testEqual("risico[1]", function(env) {
+      env$risico[1]
+    }, 0.00875)
+    testEqual("risico[2]", function(env) {
+      env$risico[1]
+    }, 0.00800)
+  })
+})
