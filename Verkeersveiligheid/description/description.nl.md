@@ -23,9 +23,7 @@ $$
 >* Vergelijk de cijfers voor 2015 en 2022.
 >* Wordt autorijden in België steeds veiliger?
 >* Gebruik `aantal_doden` en `aantal_miljoen_gereden_km` in jouw oplossing;
->* Gebruik `risico` als `variabele` of `object` om jouw resultaat in op te slaan;
->* Schrijf daarna jouw **R-code**;
->* Dien jouw code daarna in via Dodona om te controleren. 
+>* Gebruik `risico` als `variabele` of `object` om jouw resultaat in op te slaan.
 
 ## Invoer
 
