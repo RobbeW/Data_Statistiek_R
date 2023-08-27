@@ -1,11 +1,11 @@
 # Defineer de data en sla deze op in variabelen.
-aantal_doden <- c(700, 800)
-aantal_gereden_km <- c(80, 100) * 10^3
+aantal_doden <- c(716, 510)
+aantal_miljoen_gereden_km <- c(84.2, 92.9) * 10^3
 
 # Bereken het risico en sla op in een variabele.
-risico <- aantal_doden / aantal_gereden_km
+risico <- aantal_doden / aantal_miljoen_gereden_km
 
 # Print het berekende risico via de variabele.
 # De uitkomst lees je als:
-# Resultaat van 2013, dan dat van 2023.
+# Resultaat van 2015, dan dat van 2022.
 print(risico)
