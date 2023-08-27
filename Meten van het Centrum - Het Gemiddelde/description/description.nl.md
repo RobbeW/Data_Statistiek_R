@@ -7,19 +7,12 @@ In de statistiek geeft het "gemiddelde" ons een snelle momentopname, een enkel g
 Maar hoewel gemiddelden nuttig zijn, geven ze niet alles weer. Als twee basketbalteams een gemiddelde lengte van 1,80 m hebben, kan het zijn dat bij het ene team alle spelers bijna 1,80 m zijn, terwijl het andere team kortere en veel langere spelers heeft. Dus, hoewel gemiddelden krachtig zijn, is het ook essentieel om naar andere aspecten van de gegevens te kijken voor een compleet beeld.
 
 
-
 {: .callout.callout-info}
 >### Formule voor het rekenkundig gemiddelde
->De formule voor het gemiddelde gaat als volgt: 
+>Het rekenkundig gemiddelde $$\overline{x}$$ van een rij gegevens $$(x_1, x_2, \ldots, x_n)$$ berekent men als volgt:
 >
->```
->μ = (n₁ + n₂ + ... nₓ) / n
->```
+> $$\overline{x} = \dfrac{1}{n} \sum_{i=1}^n x_i$$
 >
->Deze formule lees je als volgt: 
->* μ: Griekse letter mu stelt het gemiddelde voor; 
->* nₓ: waarde nummer x. Met `(n₁ + n₂ + ... nₓ)` zeggen we dat we de eerste waarde, de tweede waarde ... de x'de waarde optellen. 
->* n: betekent het aantal waarden in de steekproef. 
 
 ## Het gemiddelde zegt niet alles
 Hoewel het gemiddelde eenvoudig te berekenen en begrijpen is, is het niet het begin- en eindpunt van elke analyse. Er zijn namelijk wel enkele beperkingen. 
