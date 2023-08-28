@@ -1,4 +1,4 @@
-contextWithImage({
+context({
   testcase("Variabelen hebben de juiste lengte:", {
     testEqual("worpen_10", function(env) {
       length(env$worpen_10)
@@ -13,7 +13,7 @@ contextWithImage({
       length(env$worpen_10000)
     }, 10000)
   })
-  testcase("De experimentele kansen werden correct berekend:", {
+  testcase("De experimentele kansen werden correct berekend (met seed 1234):", {
     testEqual("kans_munt_10", function(env) {
       env$kans_munt_10
     }, 0.6)
@@ -25,10 +25,10 @@ contextWithImage({
     }, 0.473)
     testEqual("kans_munt_10000", function(env) {
       env$kans_munt_10000
-    }, 0.503)
+    }, 0.5026)
   })
   testcase("De volgende functie werd gebruikt:", {
-    testFunctionUsed("barplot")
+    testFunctionUsed("mean")
   })
 }, preExec = {
   set.seed(1234)
