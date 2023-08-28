@@ -1,16 +1,16 @@
 contextWithImage({
   testcase("Variabelen hebben de juiste lengte:", {
     testEqual("worpen_10", function(env) {
-      lenght(env$worpen_10)
+      length(env$worpen_10)
     }, 10)
     testEqual("worpen_100", function(env) {
-      lenght(env$worpen_100)
+      length(env$worpen_100)
     }, 100)
     testEqual("worpen_1000", function(env) {
-      lenght(env$worpen_1000)
+      length(env$worpen_1000)
     }, 1000)
     testEqual("worpen_10000", function(env) {
-      lenght(env$worpen_10000)
+      length(env$worpen_10000)
     }, 10000)
   })
   testcase("De experimentele kansen werden correct berekend:", {
