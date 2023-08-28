@@ -8,11 +8,8 @@
       "en": "Introduction"
     }
   },
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "labels": [
-    "r",
+    "R",
     "robbe wulgaert",
     "sint-lievenscollege",
     "www.robbewulgaert.be",

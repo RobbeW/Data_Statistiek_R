@@ -2,7 +2,8 @@
   "type": "exercise",
   "description": {
     "names": {
-      "nl": "Vang en hervang"
+      "nl": "Vang en hervang",
+      "en": "Capture recapture"
     }
   },
   "labels": [
