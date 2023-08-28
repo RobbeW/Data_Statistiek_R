@@ -61,6 +61,6 @@ Bepaal eerst een variabele `graad_kouder_dan_normaal` en gebruik deze dan om de 
 >#### Tips
 >
 >R kent natuurlijk ook **booleaanse operatoren**, zo geldt:
-> - and-operator `&`, bvb: `TRUE & FALSE = FALSE`
-> - or-operator `|`, bvb: `TRUE | FALSE = TRUE`
-> - not-operator `!`, bvb: `!TRUE = FALSE`
+> - and-operator `&`, bvb: `TRUE & FALSE` is `FALSE`;
+> - or-operator `|`, bvb: `TRUE | FALSE` is `TRUE`;
+> - not-operator `!`, bvb: `!TRUE` is `FALSE`.
