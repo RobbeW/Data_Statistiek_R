@@ -1,0 +1,14 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Blauwkeel zonnebaars",
+      "en": "Bluegill fish"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "access": "public"
+}

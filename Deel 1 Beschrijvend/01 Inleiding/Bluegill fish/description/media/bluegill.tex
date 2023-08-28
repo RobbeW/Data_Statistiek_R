@@ -1,0 +1,48 @@
+\documentclass[dvipsnames,tikz]{standalone}
+\usepackage[OT1]{eulervm}
+\usepackage[eulergreek]{sansmath}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
+
+\pgfplotsset{
+	main/.style = {
+		ticklabel style = {font=\sansmath\sffamily\small, color=black, thin},
+		tick style={color=black},
+		minor x tick num=0,
+		xtick pos=left,
+		ytick pos=left,
+		enlarge x limits = false,
+		enlarge y limits = false,
+		axis line shift = 5pt,
+		tick align=outside,
+		xlabel near ticks,
+		ylabel near ticks,
+		ymin = 50,
+		ymax = 200,
+		axis y line*=left,
+		axis x line*=bottom,
+		xtick={1,2,...,6}
+	}
+}
+
+\begin{document}
+	% add color=white for dark mode
+	\begin{tikzpicture}[color=black, thick, font=\sffamily] 
+		\begin{axis}[
+				main,
+				xlabel = Leeftijd vis,
+				ylabel = Lengte (in mm),
+				width = 15cm,
+				height = 6cm,
+				x label style= {at={(axis description cs:0.925,-0.2)}}
+			]
+			\addplot[RoyalPurple, thick, only marks, mark=*, mark options={scale=0.4}] table [x=age, y=length, col sep=comma] {fish.csv};
+			\addplot[BurntOrange, thick, no marks, domain=1:6] {13.6+54.05*x-4.719*x*x};
+		\end{axis}
+	\end{tikzpicture} 
+	
+\end{document}
