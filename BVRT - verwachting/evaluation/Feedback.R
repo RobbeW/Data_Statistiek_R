@@ -1,4 +1,4 @@
-contextWithImage({
+context({
   testcase("Variabelen zijn correct:", {
     testEqual("scores", function(env) {
       env$scores
