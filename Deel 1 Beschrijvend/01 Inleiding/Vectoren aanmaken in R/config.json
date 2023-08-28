@@ -1,18 +1,15 @@
 {
   "type": "exercise",
-  "programming_language": "r",
+  "programming_language": "R",
   "access": "public",
   "description": {
     "names": {
-      "nl": "Variabelen Aanmaken in R",
-      "en": "Creating Variables in R"
+      "nl": "Basketbalspelers",
+      "en": "Basketballplayers"
     }
   },
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "labels": [
-    "r",
+    "R",
     "robbe wulgaert",
     "sint-lievenscollege",
     "www.robbewulgaert.be",
