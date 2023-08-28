@@ -1,26 +1,25 @@
-Er zijn heel wat manieren om het 'centrum' van een rij gegevens te bepalen. Het rekenkundig gemiddelde $$\overline x = \dfrac{1}{n} \sum_{i=1}^n x_i$$ is natuurlijk de bekendste soort. Maar volgende alternatieven kunnen zeker ook gebruikt worden:
+Er zijn heel wat manieren om het 'centrum' van een rij gegevens te bepalen. Het rekenkundig gemiddelde $$\overline x$$ is natuurlijk het meest gekend. Maar volgende alternatieven kunnen zeker ook gebruikt worden:
 
-Het **meetkundig gemiddelde** $$x_g$$ wordt gedefinieerd als:
+{: .callout.callout-danger}
+> Het **meetkundig gemiddelde** $$x_g$$ wordt gedefinieerd als:
+>
+>$$x_g = \sqrt[n]{x_1 \cdot x_2 \cdot \ldots \cdot x_n} = \sqrt[n]{\prod_{i=1}^n x_i}$$
 
-$$
-x_g = \sqrt[n]{x_1 \cdot x_2 \cdot \ldots \cdot x_n} = \sqrt[n]{\prod_{i=1}^n x_i} 
-$$
 
-Het **harmonisch gemiddelde** $$x_h$$ wordt gedefinieerd als:
+{: .callout.callout-danger}
+> Het **harmonisch gemiddelde** $$x_h$$ wordt gedefinieerd als:
+>
+> $$x_h = \dfrac{n}{\displaystyle \sum_{i=1}^n \dfrac{1}{x_i}}$$
 
-$$
-x_h = \dfrac{n}{\sum_{i=1}^n \dfrac{1}{x_i}}
-$$
 
-Het **kwadratisch gemiddelde** $$x_q$$ wordt gedefinieerd als:
-
-$$
-x_q = \sqrt{\dfrac{1}{n} \sum_{i=1}^n x_i^2}
-$$
+{: .callout.callout-danger}
+> Het **kwadratisch gemiddelde** $$x_q$$ wordt gedefinieerd als:
+>
+> $$x_q = \sqrt{\dfrac{1}{n} \sum_{i=1}^n x_i^2}$$
 
 ## Gegeven
 
-In een bebouwde kom worden de volgende snelheden opgemeten.
+In een bebouwde kom worden de volgende snelheden (in km/u) opgemeten.
 
 ```R
 snelheden <- c(67.4, 48.9, 40.7, 43.5, 49.8, 54.1)
