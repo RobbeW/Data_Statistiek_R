@@ -17,9 +17,9 @@ En inderdaad, in dit eenvoudige voorbeeld geldt $$\mathcal{P}(X = \text{munt}) =
 
 **Fundamenteel** is dat men bij 100 muntworpen de frequentie van het aantal keer 'munt' niet met **zekerheid** te bepalen valt. We kunnen dit wel gaan *schatten* en het spreekt voor zich dat een goeie schatting in dit geval 50 zou zijn. Het experiment vaak genoeg herhalen toont aan dat de experimentele kans om 'munt' te gooien steeds dichter bij 50% zal liggen. In onderstaande figuur zie je duidelijk deze **experimentele wet van de grote aantallen**.
 
-![De experimentele wet van grote aantallen.](media/cointoss_simulation.png "De experimentele wet van grote aantallen."){:data-caption="De experimentele wet van grote aantallen." .light-only width="500px"}
+![De experimentele wet van grote aantallen.](media/cointoss_simulation.png "De experimentele wet van grote aantallen."){:data-caption="De experimentele wet van grote aantallen." .light-only width="600px"}
 
-![De experimentele wet van grote aantallen.](media/cointoss_simulation_dark.png "De experimentele wet van grote aantallen."){:data-caption="De experimentele wet van grote aantallen." .dark-only width="500px"}
+![De experimentele wet van grote aantallen.](media/cointoss_simulation_dark.png "De experimentele wet van grote aantallen."){:data-caption="De experimentele wet van grote aantallen." .dark-only width="600px"}
 
 
 ## Gegeven
