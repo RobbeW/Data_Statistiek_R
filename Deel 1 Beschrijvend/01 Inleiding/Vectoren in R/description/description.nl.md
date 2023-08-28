@@ -1,4 +1,4 @@
-## Variabelen en Vectoren
+## Vectoren versus lijsten
 Het viel je in vorige opgave misschien op, maar we slaan onze data in R op via **vectoren**. Een nieuw soort **datatype** dat in eerste instantie lijkt op **lijsten** binnen **Python**, maar ze zijn verschillend! 
 
 Vectoren in R en lijsten in Python dienen **verschillende doelen** en hebben **verschillende kenmerken**. Laten we eens kijken waarom vectoren in R worden gebruikt en hoe ze zich verhouden tot de lijsten in Python:
