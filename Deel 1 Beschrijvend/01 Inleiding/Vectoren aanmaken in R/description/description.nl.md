@@ -23,7 +23,5 @@ Je hebt gegevens gekregen over de lengte van spelers van een plaatselijk basketb
 | Zoe Davis | 187 |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
-![Een basketbalspeler.](media/anthony-mckissic.jpg "Foto door Anthony McKissic op Unsplash"){:data-caption="Een basketbalspeler." width="45%"}
-
 ## Gevraagd
 Maak een variabele genaamd `lengte` aan en ken de gegevens uit de tabel hieraan toe.
