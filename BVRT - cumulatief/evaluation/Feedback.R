@@ -9,7 +9,7 @@ context({
          0.21341, 0.12184, 0.04003, 0.00612))
     testEqual("kanssom", function(env) {
       env$kanssom
-    }, 1)
+    }, 1.0)
     testEqual("kansen_cumulatief", function(env) {
       env$kansen_cumulatief
     }, c(0.00013, 0.00171, 0.01265, 0.05593, 0.16798, 0.36938, 0.6186, 
