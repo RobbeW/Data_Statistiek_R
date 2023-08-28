@@ -13,7 +13,8 @@ lengte = [waarde_1, waarde_2, ..., waarde_n]
 {: .callout.callout-warning}
 >#### Opgelet!
 >
-> Net zoals in Python kan je aparte elementen uit vector selecteren. Het **grote** verschil met Python (en veel andere programmeertalen) is dat de indexen in R niet vertrekken van 0, maar vanaf 1!
+> Net als in Python kan je de aparte elementen ophalen. Het **grote** verschil met Python (en veel andere programmeertalen) is dat de indexen in R **niet** vertrekken van 0, maar vanaf 1!
+> 
 > Het **eerste element** uit een vector `lengte` met lengte `n` selecteer je dus via `lengte[1]` en het **laatste element** via `lengte[n]`.
 
 ## Gegeven
