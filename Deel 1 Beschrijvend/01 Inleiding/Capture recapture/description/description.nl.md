@@ -11,7 +11,12 @@ $$
 ## Gegeven
 Het onderstaande programma bevat een voorbeeld uit het Yellowstone National Park. Er werden een eerste keer 32 berggeiten gevangen, een maand later vangt men 75 berggeiten waarvan er 10 waren die een markering hadden.
 
-Merk op dat R een andere **toekenningsoperator** gebruikt dan Python!
+Om deze gegevens te gebruiken binnen R moeten we ze toekennen aan variabelen. 
+Net zoals in andere programmeertalen zoals **Python** of **JavaScript** hebben variabelen volgende kenmerken: 
+* een naam;
+* een datatype. 
+
+Merk op dat R echter een andere **toekenningsoperator** gebruikt dan Python!
 
 In Python zou je noteren:
 ```python
