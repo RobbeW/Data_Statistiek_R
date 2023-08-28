@@ -40,7 +40,8 @@ Indien men zich nu bijvoorbeeld afvraagt welke maanden warmer waren dan 'normaal
 ```R
 warmer_dan_normaal <- (gemiddelde_temperatuur - normale_temperatuur) > 0
 maanden[warmer_dan_normaal]
-#"Januari" "Februari" "Maart" "Mei" "Juni"
+# "Januari" "Februari" "Maart" "Mei" "Juni"
+# Enkel de maanden waar respectievelijk TRUE stond worden geselecteerd! Supercool!
 ```
 
 ## Gegeven
