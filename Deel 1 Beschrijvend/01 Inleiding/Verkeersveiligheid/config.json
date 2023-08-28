@@ -5,13 +5,11 @@
   "description": {
     "names": {
       "nl": "Verkeersveiligheid",
-      "en": "Traffic Safety"
+      "en": "Traffic safety"
     }
   },
-  "evaluation": {
-  },
   "labels": [
-    "r",
+    "R",
     "robbe wulgaert",
     "Sint-Lievenscollege",
     "statistiek",
