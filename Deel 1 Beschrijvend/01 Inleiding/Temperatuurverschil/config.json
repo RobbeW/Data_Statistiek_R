@@ -1,0 +1,17 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Temperatuurverschil"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "Qgkac4XFJB5edJNC_qumZpb87YXR6-VWvIeptV6mVSWdFNfnDPydZbfNBEmI3HVY",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
