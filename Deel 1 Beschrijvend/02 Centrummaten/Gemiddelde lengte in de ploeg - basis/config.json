@@ -1,18 +1,14 @@
 {
   "type": "exercise",
-  "programming_language": "r",
   "access": "public",
   "description": {
     "names": {
-      "nl": "Gemiddelde Lengte in de Ploeg",
-      "en": "Mean Length of Players"
+      "nl": "Gemiddelde lengte in de basketbalploeg",
+      "en": "Mean length of basketballplayers"
     }
   },
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "labels": [
-    "r",
+    "R",
     "robbe wulgaert",
     "sint-lievenscollege",
     "www.robbewulgaert.be",
