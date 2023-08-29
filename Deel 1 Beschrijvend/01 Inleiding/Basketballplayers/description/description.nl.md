@@ -4,7 +4,7 @@ De programmeertaal R is **geoptimaliseerd** om met verschillende gegevens tegeli
 lengte <- c(waarde_1, waarde_2, ..., waarde_n)
 ```
 
-Dit **lijkt** wat op een lijst die je kent vanuit Python, doch zijn er subtiele verschilen.
+Dit **lijkt** wat op een lijst die je kent vanuit Python, doch zijn er subtiele verschillen.
 
 ```python
 lengte = [waarde_1, waarde_2, ..., waarde_n]
