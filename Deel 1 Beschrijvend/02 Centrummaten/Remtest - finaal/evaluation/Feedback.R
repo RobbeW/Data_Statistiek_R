@@ -3,6 +3,6 @@ context({
     testEqual("mediaan_remweg", function(env) {
       env$mediaan_remweg
     }, 31.7)
-    testFunctionUsedInVar("mean", "median")
+    testFunctionUsedInVar("median", "mediaan_remweg")
   })
 })
