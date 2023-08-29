@@ -1,0 +1,18 @@
+{
+  "type": "exercise",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "Gemiddelde lengte in de basketbalploeg",
+      "en": "Mean length of basketballplayers"
+    }
+  },
+  "labels": [
+    "R",
+    "robbe wulgaert",
+    "sint-lievenscollege",
+    "www.robbewulgaert.be",
+    "statistiek"
+  ],
+  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>"
+}
