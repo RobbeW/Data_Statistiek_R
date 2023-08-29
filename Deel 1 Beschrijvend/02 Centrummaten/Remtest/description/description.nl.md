@@ -60,4 +60,4 @@ Je kan steeds een **voorsmaakje** van de data opvragen via `head(data)`.
 
 ## Gevraagd
 
-Bereken de **mediaan** van de remweg, pas daarvoor bovenstaande voorbeeldcode aan en gebruik de juiste **accessor** `$`.
+Bereken de **mediaan** van de remweg, pas daarvoor bovenstaande voorbeeldcode aan en gebruik de juiste **accessor** `$`. Sla het resultaat op in de variabele `mediane_remweg`.
