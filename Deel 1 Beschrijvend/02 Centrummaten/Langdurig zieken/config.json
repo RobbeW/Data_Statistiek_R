@@ -1,18 +1,14 @@
 {
   "type": "exercise",
-  "programming_language": "r",
   "access": "public",
   "description": {
     "names": {
-      "nl": "Langdurig Zieken en de Arbeidsmarkt",
-      "en": "Long-term Inactivity in the Labor Market"
+      "nl": "Langdurig zieken en de arbeidsmarkt",
+      "en": "Long-term inactivity in the labor market"
     }
   },
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "labels": [
-    "r",
+    "R",
     "robbe wulgaert",
     "sint-lievenscollege",
     "www.robbewulgaert.be",
