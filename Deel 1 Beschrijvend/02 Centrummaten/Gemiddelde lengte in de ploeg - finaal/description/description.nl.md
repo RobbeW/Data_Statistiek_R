@@ -3,7 +3,6 @@ In de vorige oefening heb je de **som van de lengtes** bepaald met behulp van de
 ```R
 lengtes <- c(198, 195, 193, 202, 185, 186, 172, 185)
 gemiddelde_lengte <- sum(lengtes) / length(lengtes)
-# sum() is best handig!
 ```
 
 Rekenkundige gemiddeldes berekenen is echter zo belangrijk in de statistiek dat R hier een functie voor bezit, genaamd `mean()`.
