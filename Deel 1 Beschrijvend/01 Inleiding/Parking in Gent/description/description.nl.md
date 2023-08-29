@@ -50,7 +50,7 @@ Gebruik deze dataset (met de bijbehorende vectoren) om de volgende vragen te bea
 
 ## Gevraagd
 
-- Maak een variabele `vrije_plaatsen` waarin je voor elke parking uitrekent hoeveel plaatsen er nog vrij zijn. Gebruik de functie `floor()` om het aantal vrije plaatsen **naar beneden af te ronden**. Indien er uit je berekent volgt dat er `77.52` plaatsen vrij zijn, betekent dit dat er eigenlijk slechts `77` plaatsen vrij zijn.
+- Maak een variabele `vrije_plaatsen` waarin je voor elke parking uitrekent hoeveel plaatsen er nog vrij zijn. Gebruik de functie `floor()` om het aantal vrije plaatsen **naar beneden af te ronden**. Indien er uit je berekening volgt dat er `77.52` plaatsen vrij zijn, betekent dit dat er eigenlijk slechts `77` plaatsen vrij zijn.
 
 - Maak een variabele `veel_plaats` die bestaat uit een vector met **booleaanse waarden** van de parkings waar nog minstens 75% van de plaatsen vrij zijn.
 
