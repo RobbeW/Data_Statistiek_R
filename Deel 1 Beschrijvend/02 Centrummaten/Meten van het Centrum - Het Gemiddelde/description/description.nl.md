@@ -22,4 +22,5 @@ Hoewel het rekenkundig gemiddelde eenvoudig te berekenen en begrijpen is, is het
 Onthoud dat het "gemiddelde" een startpunt is om gegevens te begrijpen, maar er ligt altijd meer onder de oppervlakte!
 
 > "Een statisticus waadde vol vertrouwen door een rivier die gemiddeld één meter diep was. Hij verdronk."
+>
 >  *Godfried Bomans - Nederlands schrijver 1913-1971*
