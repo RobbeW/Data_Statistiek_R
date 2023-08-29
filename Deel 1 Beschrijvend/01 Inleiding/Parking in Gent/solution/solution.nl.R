@@ -10,6 +10,6 @@ colnames(data) <- c("naam", "laatste_update", "capaciteit", "percentage_bezet")
 data$percentage_bezet <- data$percentage_bezet / 100
 
 # Berekeningen
-vrije_plaatsen <- data$capaciteit * (1 - data$percentage_bezet)
+vrije_plaatsen <- floor(data$capaciteit * (1 - data$percentage_bezet))
 veel_plaats <- data$percentage_bezet < 0.25
 parking_met_veel_plaats <- data$naam[veel_plaats]
