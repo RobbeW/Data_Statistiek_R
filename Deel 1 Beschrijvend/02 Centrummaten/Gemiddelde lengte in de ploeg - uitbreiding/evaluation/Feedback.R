@@ -7,8 +7,8 @@ context({
       env$gemiddelde_vrouwen
     }, 182)
   })
-  testcase("Je hebt geen variabele som meer:", {
-    testEqual("som bestaat niet", function(env) {
+  testcase("", {
+    testEqual("Je hebt geen variabele som meer:", function(env) {
       !exists("som")
     }, TRUE)
   })
