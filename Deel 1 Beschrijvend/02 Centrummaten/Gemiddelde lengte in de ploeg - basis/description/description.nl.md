@@ -35,6 +35,11 @@ for (lengte in lengtes){
 gemiddelde_lengte <- som / length(lengtes)
 ```
 
+{: .callout.callout-warning}
+>#### Opgelet!
+>
+> De syntax van de `for`-lus verschilt met die uit Python. Zeer belangrijk zijn de **haakje** `()` en de **accolades** `{}`. Bij R speelt indentatie geen rol, maar wordt de *scope* van de lus tussen accolades geplaatst.
+
 ## Gegeven
 Gegeven zijn de lengtes van de mannelijke en vrouwelijke leden uit de Belgische 3x3 ploegen.
 
