@@ -1,10 +1,10 @@
 context({
   testcase("De variabelen zijn correct:", {
-    testEqual("lengte", function(env) {
+    testEqual("lengtes", function(env) {
       env$lengte
-    }, c(188, 192, 185, 190, 187))
-    testEqual("lengte_speler3", function(env) {
-      env$lengte_speler3
-    }, 185)
+    }, c(198, 195, 193, 202, 185, 186, 172, 185))
+    testEqual("lengte_speler4", function(env) {
+      env$lengte_speler4
+    }, 202)
   })
 })

@@ -34,6 +34,6 @@ De lengtes van de Belgische basketballspelers uit de <a href="https://www.basket
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ## Gevraagd
-Maak een variabele genaamd `lengte` aan en ken de gegevens uit de tabel hieraan toe.
+Maak een variabele genaamd `lengtes` aan en ken de gegevens uit de tabel hieraan toe.
 
 Gebruik de **indexering** om de lengte van de 4e speler op te slaan in een variabele `lengte_speler4`.

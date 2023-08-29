@@ -1,5 +1,5 @@
 # Gegevens opslaan in de variabele lengte.
-lengte <- c(188, 192, 185, 190, 187)
+lengtes <- c(198, 195, 193, 202, 185, 186, 172, 185)
 
-# Derde speler selecteren.
-lengte_speler3 <- lengte[3]
+# Vierde speler selecteren.
+lengte_speler4 <- lengtes[4]
