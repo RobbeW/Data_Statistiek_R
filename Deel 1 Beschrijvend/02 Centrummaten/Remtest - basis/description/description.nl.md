@@ -53,7 +53,7 @@ if (n %% 2 != 0) { # oneven aantal waarnemingen
 Bovenstaande tabel is maar een selectie uit het volledige onderzoek. Gebruik nu de **volledige dataset** die je inlaadt naar een dataframe via:
 
 ```R
-data <- read.table("https://tinyurl.com/4p3znsv9", header = TRUE)
+data <- read.table("https://tinyurl.com/9a6n5bep", header = TRUE)
 ```
 
 Je kan steeds een **voorsmaakje** van de data opvragen via `head(data)`.
