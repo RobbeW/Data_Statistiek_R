@@ -9,7 +9,7 @@ context({
   })
   testcase("Je hebt geen variabele som meer:", {
     testEqual("", function(env) {
-      !exists("som")
+      !exists("som", inherits = FALSE)
     }, TRUE)
   })
   testcase("De volgende functies werden gebruikt:", {
