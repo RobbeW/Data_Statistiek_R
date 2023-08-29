@@ -23,11 +23,11 @@ Stel je voor dat je een onderzoeker bent die werkt aan een kleine studie waarbij
 
 - **Combineer** deze in een data frame `coviddata` via het volgende commando:
 
-        ```R
-        coviddata <- data.frame("namen" = namen,
-                                "basis" = antistoffen_basis,
-                                "booster" = antistoffen_booster)
-        ```
+    ```R
+    coviddata <- data.frame("namen" = namen,
+                            "basis" = antistoffen_basis,
+                            "booster" = antistoffen_booster)
+    ```
 - Bereken tot slot hoeveel antistoffen er **bijkwamen** na het toedienen van de boosterprik. Sla dit resultaat op in de variabele `booster`. Gebruik bij deze berekening de **accessor** `$` op het data frame. Bijvoorbeeld `coviddata$booster`.
 
 
