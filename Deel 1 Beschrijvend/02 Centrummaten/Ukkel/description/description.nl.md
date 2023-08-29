@@ -2,7 +2,7 @@ Het was de Gentenaar <a hreft="https://nl.wikipedia.org/wiki/Adolphe_Quetelet" t
 
 ![De KMI campus te Ukkel.](media/ukkel.jpg "De KMI campus te Ukkel."){:data-caption="De KMI campus te Ukkel." width="45%"}
 
-## Meerdere vectoren in één data frame
+## Data frame ophalen
 Het weerstation staat ten dienst van de bevolking en via <a href="https://www.meteo.be/resources/climatology/uccle_month/Ukkel_waarnemingen.txt" target="_blank">deze link</a> kan je heel wat gegevens van de laatste 60 dagen raadplegen.
 
 Het is mogelijk om dit automatisch te importeren naar R, via de volgende code:
@@ -19,8 +19,8 @@ data$zonneschijn <- strtoi(as.difftime(data$zonneschijn,
                                        format = "%H:%M", units = "mins"))
 ```
 
-De precieze details van het bovenstaande stukje code zijn niet zo belangrijk. Belangrijker is dat er een zogenaamd **data frame** werd aangemaakt.
-Je kan een voorsmaakje van de variabele `data` opvragen via:
+Net zoals we vroeger al eens hebben uitgevoerd, werd hier een **data frame** aangemaakt.
+Je kan een **voorsmaakje** van de variabele `data` opvragen via:
 
 ```R
 head(data)
@@ -38,14 +38,7 @@ Dit resulteert in iets van de vorm:
 6 23-08-2023     26.6     13.9     20.9      0.0  1.6         701
 ```
 
-Je merkt dat een data frame *ruw gesproken* een combinatie is van verschillende vectoren. Je kan de vectoren apart opvragen via de **accessor** `$`.
-
-```R
-data$temp_max
-# Dit resulteert in een vector met enkel de maximale temperaturen.
-```
-
-De dataset bestaat dus uit zeven vectoren, `data$datum`, `data$temp_max`, `data$temp_min`, `data$temp_gem`, `data$neerslag`, `data$wind` en `data$zonneschijn`. Met elk van deze vectoren kan je verder werken.
+Deze dataset bestaat dus uit zeven vectoren, `data$datum`, `data$temp_max`, `data$temp_min`, `data$temp_gem`, `data$neerslag`, `data$wind` en `data$zonneschijn`. Met elk van deze vectoren kan je verder werken.
 
 ## Gegeven
 
