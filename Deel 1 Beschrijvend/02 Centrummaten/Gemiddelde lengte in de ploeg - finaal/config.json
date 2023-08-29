@@ -14,5 +14,9 @@
     "www.robbewulgaert.be",
     "statistiek"
   ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>"
+  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "internals": {
+    "token": "NtrYf-NdjaWqxi74DxFFS5XTpqSeCQrdiBpMPxFdiqMJGzwySAxWh8sh5-uJsts_",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
