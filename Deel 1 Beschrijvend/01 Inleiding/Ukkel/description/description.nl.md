@@ -49,7 +49,7 @@ De dataset bestaat dus uit zeven vectoren, `data$datum`, `data$temp_max`, `data$
 
 ## Gegeven
 
-Gebruik bovenstaande tabel (en de onderstaande vectoren) om de volgende vragen te beantwoorden.
+Gebruik bovenstaande tabel (met de bijbehorende vectoren) om de volgende vragen te beantwoorden.
 
 ## Gevraagd
 
