@@ -4,9 +4,9 @@ De somfunctie in R wordt gebruikt om het totaal van numerieke elementen in een o
 
 ## Waarom wordt het gebruikt in de statistiek?
 * **Centrale neiging**: Voor het berekenen van maten zoals het gemiddelde is de som van alle gegevenspunten nodig.
-* Variabiliteit:** Berekeningen van variantie en standaardafwijking vereisen sommatie.
-* Waarschijnlijkheid:** Om cumulatieve waarschijnlijkheden te bepalen, moeten we vaak individuele waarschijnlijkheden optellen.
-* Lineaire regressie:** Om parameters te schatten moeten we sommeren.
+* **Variabiliteit:** Berekeningen van variantie en standaardafwijking vereisen sommatie.
+* **Waarschijnlijkheid:** Om cumulatieve waarschijnlijkheden te bepalen, moeten we vaak individuele waarschijnlijkheden optellen.
+* **Lineaire regressie:** Om parameters te schatten moeten we sommeren.
 
 {: .callout.callout-info}
 >### Syntax van de Som-Functie
