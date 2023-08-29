@@ -10,7 +10,7 @@
     "statistiek"
   ],
   "evaluation":{
-    "network_enabled": true
+    "network_enabled": false
   },
   "access": "public"
 }

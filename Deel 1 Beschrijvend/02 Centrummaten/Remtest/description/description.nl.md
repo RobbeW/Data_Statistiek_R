@@ -53,9 +53,11 @@ if (n %% 2 != 0) { # oneven aantal waarnemingen
 Bovenstaande tabel is maar een selectie uit het volledige onderzoek. Gebruik nu de **volledige dataset** die je inlaadt naar een dataframe via:
 
 ```R
-
+data <- read.table("https://tinyurl.com/4p3znsv9", header = TRUE)
 ```
+
+Je kan steeds een **voorsmaakje** van de data opvragen via `head(data)`.
 
 ## Gevraagd
 
-Bereken de **mediaan** van de remweg, pas daarvoor bovenstaande code aan en gebruik de juiste **accessor** `$`.
+Bereken de **mediaan** van de remweg, pas daarvoor bovenstaande voorbeeldcode aan en gebruik de juiste **accessor** `$`.
