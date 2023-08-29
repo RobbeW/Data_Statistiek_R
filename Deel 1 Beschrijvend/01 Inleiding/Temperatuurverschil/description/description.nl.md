@@ -4,7 +4,7 @@ Het <a href="https://www.meteo.be/nl/klimaat/klimaat-van-belgie/klimatologisch-o
 
 De volgende temperaturen (in graden Celsius) werden verzameld in 2023 te Ukkel.
 
-| Maand     | Gemiddelde | Normale waarden | Minimale record | Maximale record |
+| Maand     | Gemiddelde | Normale waarden | Minimale waarde | Maximale waarde  |
 |:---------:|:-----:|:-----:|:-----:|:-----:|
 | Januari   | 5.2   | 3.7   | -0.2  | 7.2   |
 | Februari  | 5.9   | 4.2   | 0     | 7.2   |
@@ -15,11 +15,11 @@ De volgende temperaturen (in graden Celsius) werden verzameld in 2023 te Ukkel.
 | Juli      | 18.4  | 18.7  | 15.3  | 23    |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
-In deze tabel staat telkens de gemiddelde maandtemperatuur, de 'normale' (gemiddelde) waarden sinds 1991 en de koudste en warmste temperatuur sinds 1991.
+In deze tabel staat telkens de *gemiddelde maandtemperatuur*, de *'normale' (gemiddelde) waarden sinds 1991* en de *koudste* en *warmste (gemiddelde) temperatuur* sinds 1991. Zo was het in juli gemiddeld 18,4°C. Daarmee deed 2023 het iets slechter dan de 'normale' gemiddelde temperatuur sinds 1991 is 18,7°C. De koudste julimaand had een gemiddelde temperatuur van 15,3°C, terwijl de heetste julimaand het gemiddeld 23°C was.
 
 ## Rekenen met vectoren
 
-De verschillende gegevens werden reeds als vijf vectoren klaargezet. In R kan je paarsgewijs met deze vectoren rekenen.
+De verschillende gegevens werden reeds als vijf vectoren klaargezet. In R kan je **paarsgewijs** met deze vectoren rekenen.
 
 Om het verschil met de 'normale' temperaturen te berekenen gebruikt men zeer eenvoudig:
 ```R
@@ -27,15 +27,15 @@ gemiddelde_temperatuur - normale_temperatuur
 # 1.5  1.7  0.4 -1.4  0.1  3.6 -0.3
 ```
 
-Je merkt meteen dat de juni maand uitzonderlijk warm was. 
+Je merkt meteen dat de junimaand uitzonderlijk warm was. 
 
-R kan zelfs vectoren met booleaanse waarden aanmaken. Beschouw bijvoorbeeld:
+R kan zelfs vectoren met **booleaanse waarden** aanmaken. Beschouw bijvoorbeeld:
 ```R
 (gemiddelde_temperatuur - normale_temperatuur) > 0
 # TRUE TRUE TRUE FALSE TRUE TRUE FALSE
 ```
 
-Indien men zich nu bijvoorbeeld afvraagt welke maanden warmer waren dan 'normaal', dan kan men dit gemakkelijk bepalen door de maanden uit de vector `maanden` te **selecteren**:
+Indien men zich nu bijvoorbeeld afvraagt welke maanden warmer waren dan 'normaal', dan kan men dit gemakkelijk bepalen door deze uit de vector `maanden` te **selecteren**:
 
 ```R
 warmer_dan_normaal <- (gemiddelde_temperatuur - normale_temperatuur) > 0
@@ -50,7 +50,7 @@ Gebruik bovenstaande tabel (en de onderstaande vectoren) om de volgende vragen t
 
 ## Gevraagd
 
-- Maak een variabele `extreem_verschil` aan die voor elke maand het temperatuursverschil tussen het heetste en koudste record berekent.
+- Maak een variabele `extreem_verschil` aan die voor elke maand het temperatuursverschil tussen het heetste en koudste maanden berekent.
 
 - Welke maanden zijn minstens 1 graad Celsius kouder dan 'normaal'? 
 Bepaal eerst een variabele `graad_kouder_dan_normaal` en gebruik deze dan om de correcte maand(en) te selecteren. Sla deze maand(en) op in de variabele `koude_maanden`.
