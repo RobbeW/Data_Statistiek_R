@@ -26,6 +26,7 @@ context({
     testEqual("zonnige_dagen", function(env) {
       env$zonnige_dagen
     }, res1c)
+    testFunctionUsedInVar("mean", "gemiddelde_zonneschijn")
   })
   testcase("Aantal mm neerslag:", {
     testEqual("gemiddelde_neerslag", function(env) {
@@ -37,7 +38,6 @@ context({
     testEqual("droge_dagen", function(env) {
       env$droge_dagen
     }, res2c)
+    testFunctionUsedInVar("mean", "gemiddelde_neerslag")
   })
-}, preExec = {
-  
 })
