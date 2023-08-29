@@ -12,7 +12,7 @@ context({
   data$percentage_bezet <- data$percentage_bezet / 100
 
   # Berekeningen
-  vrije_plaatsen <- data$capaciteit * (1 - data$percentage_bezet)
+  vrije_plaatsen <- floor(data$capaciteit * (1 - data$percentage_bezet))
   veel_plaats <- data$percentage_bezet < 0.25
   parking_met_veel_plaats <- data$naam[veel_plaats]
 
@@ -26,5 +26,8 @@ context({
     testEqual("parking_met_veel_plaats", function(env) {
       env$parking_met_veel_plaats
     }, parking_met_veel_plaats)
+  })
+  testcase("De volgende functie werden gebruikt:", {
+    testFunctionUsedInVar("floor", "vrije_plaatsen")
   })
 })
