@@ -21,7 +21,7 @@ Stel je voor dat je een onderzoeker bent die werkt aan een kleine studie waar vi
 
 - Maak drie variabelen `namen`, `antistoffen_basis` en `antistoffen_booster` met de respectievelijke waarden.
 
-- **Combineer** deze in een data frame `coviddata` via het volgende commando:
+- **Combineer** deze in een **data frame** `coviddata` via het volgende commando:
 
     ```R
     coviddata <- data.frame("namen" = namen,
