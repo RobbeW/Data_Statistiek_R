@@ -46,7 +46,7 @@ maanden[warmer_dan_normaal]
 
 ## Gegeven
 
-Gebruik bovenstaande tabel (en de onderstaande vectoren) om de volgende vragen te beantwooden.
+Gebruik bovenstaande tabel (en de onderstaande vectoren) om de volgende vragen te beantwoorden.
 
 ## Gevraagd
 
