@@ -19,18 +19,21 @@ lengte = [waarde_1, waarde_2, ..., waarde_n]
 
 ## Gegeven
 
-Je hebt gegevens gekregen over de lengte van spelers van een plaatselijk basketbalteam. Het is jouw taak om deze lengtes te analyseren met behulp van R.
+De lengtes van de Belgische basketballspelers uit de <a href="https://www.basketballbelgium.be/nl/team/3x3-lions-3" target="_blank">3x3 Lions</a> en de <a href="https://www.basketballbelgium.be/nl/team/3x3-cats-3" target="_blank">3x3 Cats</a> staan in onderstaande tabel.
 
-| Naam speler | Lengte (in cm) |
-|:--------:|:-------------:|
-| John Smith | 188 |
-| Alex Brown | 192 |
-| Mia Turner | 185 |
-| Lucas White | 190 |
-| Zoe Davis | 187 |
+| Naam speler | Geslacht | Lengte (in cm) |
+|:---------------------:|:--:|:---:|
+| Thibaut Vervoort      | M  | 198 |
+| Bryan De Valck        | M  | 195 |
+| Dennis Donkor         | M  | 193 |
+| Casper Augustijnen    | M  | 202 |
+| Laure Resimont        | F  | 185 |
+| Becky Massey          | F  | 186 |
+| Julie Vanloo          | F  | 172 |
+| Ine Joris             | F  | 185 |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ## Gevraagd
 Maak een variabele genaamd `lengte` aan en ken de gegevens uit de tabel hieraan toe.
 
-Gebruik de **indexering** om de lengte van de 3e speler op te slaan in een variabele `lengte_speler3`.
+Gebruik de **indexering** om de lengte van de 4e speler op te slaan in een variabele `lengte_speler4`.
