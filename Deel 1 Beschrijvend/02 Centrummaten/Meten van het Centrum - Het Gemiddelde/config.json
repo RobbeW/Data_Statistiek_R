@@ -1,18 +1,14 @@
 {
   "type": "content",
-  "programming_language": "r",
   "access": "public",
   "description": {
     "names": {
-      "nl": "Meten van het Centrum - Het Gemiddelde",
-      "en": "Measuring the Centre - The Mean"
+      "nl": "Het rekenkundig gemiddelde",
+      "en": "The arithmetic mean"
     }
   },
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "labels": [
-    "r",
+    "R",
     "robbe wulgaert",
     "sint-lievenscollege",
     "www.robbewulgaert.be",
