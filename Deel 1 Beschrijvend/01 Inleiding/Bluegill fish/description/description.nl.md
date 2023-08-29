@@ -2,9 +2,9 @@ De **blauwkeel zonnebaars** of <a href="https://nl.wikipedia.org/wiki/Lepomis_ma
 
 ![Een zonnebaars.](media/kelly-sikkema.jpg "Foto door Kelly Sikkema op Unsplash."){:data-caption="Een zonnebaars." width="45%"}
 
-In 1981, werden 78 van deze vissen willekeurig uit <a href="https://en.wikipedia.org/wiki/Lake_Mary_Township,_Douglas_County,_Minnesota" target="_blank">Lake Mary</a> (Minnesota) gehengeld. Van deze vissen werden lengte en leeftijd bestudeerd door de onderzoekers <a href="https://books.google.be/books?hl=nl&lr=&id=PI2FJzBh2vMC&oi=fnd&pg=PR3&ots=3Axdp6hJeJ&sig=ChSK61zesxlUPurWDvy3ayfbZ_0&redir_esc=y#v=onepage&q&f=false" target="_blank">Cook and Weisberg</a>.
+In 1981 werden 78 van deze vissen willekeurig uit <a href="https://en.wikipedia.org/wiki/Lake_Mary_Township,_Douglas_County,_Minnesota" target="_blank">Lake Mary</a> (Minnesota) gehengeld. Van deze vissen werden lengte en leeftijd bestudeerd door de onderzoekers <a href="https://books.google.be/books?hl=nl&lr=&id=PI2FJzBh2vMC&oi=fnd&pg=PR3&ots=3Axdp6hJeJ&sig=ChSK61zesxlUPurWDvy3ayfbZ_0&redir_esc=y#v=onepage&q&f=false" target="_blank">Cook and Weisberg</a>.
 
-Cook en Weisberg merkten een verband op tussen deze variabelen. Een grafiek met de verschillende meetwaarden illustreert dit.
+Cook en Weisberg merkten een verband op tussen deze variabelen. Een grafiek met de verschillende meetwaarden (paarse punten) illustreert dit.
 
 ![Een verband tussen lengte en leeftijd.](media/bluegill.png "Een verband tussen lengte en leeftijd."){:data-caption="DEen verband tussen lengte en leeftijd.." .light-only width="700px"}
 
