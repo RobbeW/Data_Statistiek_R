@@ -27,7 +27,7 @@ context({
       env$parking_met_veel_plaats
     }, parking_met_veel_plaats)
   })
-  testcase("De volgende functie werden gebruikt:", {
+  testcase("De volgende functie werd gebruikt:", {
     testFunctionUsedInVar("floor", "vrije_plaatsen")
   })
 })
