@@ -2,8 +2,7 @@ context({
   # Parkeerdata van Stad Gent
   data <- read.csv2(paste0("https://data.stad.gent/api/explore/v2.1/catalog/d",
                            "atasets/bezetting-parkeergarages-real-time/export",
-                           "s/csv?lang=nl&timezone=Europe%2FBrussels&use_labe",
-                           "ls=true&delimiter=%3B"),
+                           "s/csv"),
                     sep = ";",
                     colClasses = c("character", "character", "NULL", "numeric",
                                    "numeric", rep("NULL", 14)))

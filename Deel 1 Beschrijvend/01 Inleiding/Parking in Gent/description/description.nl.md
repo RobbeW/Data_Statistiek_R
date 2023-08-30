@@ -8,7 +8,7 @@ Het is mogelijk om deze data automatisch te importeren naar R, via de volgende c
 
 ```R
 # Importeert data data van Stad Gent, waarbij slechts bepaalde kolommen geslecteerd worden
-data <- read.csv2("https://data.stad.gent/api/explore/v2.1/catalog/datasets/bezetting-parkeergarages-real-time/exports/csv?lang=nl&timezone=Europe%2FBrussels&use_labels=true&delimiter=%3B",
+data <- read.csv2("https://data.stad.gent/api/explore/v2.1/catalog/datasets/bezetting-parkeergarages-real-time/exports/csv",
                   sep = ";",
                   colClasses = c("character", "character", "NULL", "numeric", "numeric", rep("NULL", 14)) )
 # Geeft de kolommen een beter naam
