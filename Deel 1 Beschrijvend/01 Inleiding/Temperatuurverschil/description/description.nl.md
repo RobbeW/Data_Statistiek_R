@@ -50,7 +50,7 @@ Gebruik bovenstaande tabel (en de onderstaande vectoren) om de volgende vragen t
 
 ## Gevraagd
 
-- Maak een variabele `extreem_verschil` aan die voor elke maand het temperatuursverschil tussen het heetste en koudste maanden berekent.
+- Maak een variabele `extreem_verschil` aan die voor elke maand het temperatuursverschil tussen de heetste en koudste waarde berekent.
 
 - Welke maanden zijn minstens 1 graad Celsius kouder dan 'normaal'? 
 Bepaal eerst een variabele `graad_kouder_dan_normaal` en gebruik deze dan om de correcte maand(en) te selecteren. Sla deze maand(en) op in de variabele `koude_maanden`.

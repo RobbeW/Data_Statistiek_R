@@ -9,7 +9,7 @@ maximale_temperatuur <- c(7.2, 7.2, 9.6, 14.3, 16.4, 19.3, 23)
 extreem_verschil <- maximale_temperatuur - minimale_temperatuur
 
 # Maanden die 1 graad kouder zijn dan normaal
-graad_kouder_dan_normaal <- (gemiddelde_temperatuur - normale_temperatuur) <= 1
+graad_kouder_dan_normaal <- (normale_temperatuur - gemiddelde_temperatuur) > 1
 koude_maanden <- maanden[graad_kouder_dan_normaal]
 
 # Maand(en) die een nieuw record vastleggen
