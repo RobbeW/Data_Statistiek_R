@@ -1,0 +1,14 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "VO₂max",
+      "en": "VO₂max"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "access": "public"
+}
