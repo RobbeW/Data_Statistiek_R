@@ -15,7 +15,7 @@ De volgende temperaturen (in graden Celsius) werden verzameld in 2023 te Ukkel.
 | Juli      | 18.4  | 18.7  | 15.3  | 23    |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
-In deze tabel staat telkens de *gemiddelde maandtemperatuur*, de *'normale' (gemiddelde) waarden sinds 1991* en de *koudste* en *warmste (gemiddelde) temperatuur* sinds 1991. Zo was het in juli gemiddeld 18,4°C. Daarmee deed 2023 het iets slechter dan de 'normale' gemiddelde temperatuur sinds 1991 is 18,7°C. De koudste julimaand had een gemiddelde temperatuur van 15,3°C, terwijl de heetste julimaand het gemiddeld 23°C was.
+In deze tabel staat telkens de *gemiddelde maandtemperatuur*, de *'normale' (gemiddelde) waarden sinds 1991* en de *koudste* en *warmste (gemiddelde) temperatuur* sinds 1991. Zo was het in juli gemiddeld 18,4°C. Daarmee deed 2023 het iets slechter dan de 'normale' temperatuur sinds 1991 die 18,7°C bedraagt. De koudste julimaand had een gemiddelde temperatuur van 15,3°C, terwijl de heetste julimaand het gemiddeld 23°C was.
 
 ## Rekenen met vectoren
 
