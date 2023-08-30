@@ -10,7 +10,7 @@ context({
   testcase("Variabele werd correct berekend:", {
     testEqual("HR_rust", function(env) {
       env$HR_rust
-    }, 52.48566)
+    }, 52.49)
     testFunctionUsedInVar("round", "HR_rust")
   })
 })
