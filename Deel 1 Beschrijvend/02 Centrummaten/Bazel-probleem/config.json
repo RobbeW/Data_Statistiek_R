@@ -1,0 +1,14 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Bazel-probleem",
+      "en": "Basel problem"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "access": "public"
+}
