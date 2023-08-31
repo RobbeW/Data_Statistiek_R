@@ -1,18 +1,14 @@
 {
   "type": "content",
-  "programming_language": "R",
   "access": "public",
   "description": {
     "names": {
-      "nl": "Belgen zijn de Rijkste ter Wereld! Toch?",
-      "en": "Richest People in the World! Right?"
+      "nl": "Belgen zijn de rijkste ter wereld! Toch?",
+      "en": "Richest people in the world! Right?"
     }
   },
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "labels": [
-    "r",
+    "R",
     "robbe wulgaert",
     "sint-lievenscollege",
     "www.robbewulgaert.be",
