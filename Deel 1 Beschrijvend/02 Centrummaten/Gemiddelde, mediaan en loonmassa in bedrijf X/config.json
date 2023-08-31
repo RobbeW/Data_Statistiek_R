@@ -1,18 +1,15 @@
 {
   "type": "exercise",
-  "programming_language": "r",
+  "programming_language": "R",
   "access": "public",
   "description": {
     "names": {
-      "nl": "Gemiddelde, Mediaan en Loonmassa in Bedrijf X",
-      "en": "Mean, Median and Total Wages in Corp X"
+      "nl": "Gemiddelde, mediaan en loonmassa in bedrijf X",
+      "en": "Mean, median and total wages in corp X"
     }
   },
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "labels": [
-    "r",
+    "R",
     "robbe wulgaert",
     "sint-lievenscollege",
     "www.robbewulgaert.be",
