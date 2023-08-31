@@ -1,4 +1,4 @@
-Op de Olympische spelen bestaat het onderdeel <a href="https://nl.wikipedia.org/wiki/Atletiek" target="_blank">atletiek</a> uit verschillende onderdelen. Denk maar aan de 100 m of de 4 x 100 m estafette, maar ook sporten als hordelopen, hoogspringen, polsstokhoogspringen, verspringen, discuswerpen, kogelstoten enz. 
+Op de Olympische spelen bestaat de discipline <a href="https://nl.wikipedia.org/wiki/Atletiek" target="_blank">atletiek</a> uit verschillende onderdelen. Denk maar aan de 100 m of de 4 x 100 m estafette, maar ook sporten als hordelopen, hoogspringen, polsstokhoogspringen, verspringen, discuswerpen, kogelstoten enz. 
 
 ![De Olympische ringen.](media/bryan-turner.jpg "Foto door Bryan Turner op Unsplash."){:data-caption="De Olympische ringen." width="45%"}
 
