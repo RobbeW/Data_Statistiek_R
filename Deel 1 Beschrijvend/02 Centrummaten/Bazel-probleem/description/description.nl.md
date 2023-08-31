@@ -14,7 +14,7 @@ Men wist reeds dat dit convergeerde, maar het was Euler die bewees dat dit enigs
 
 - Maak een vector `rij10` aan met de natuurlijke getallen van 1 tot 10. 
 
-- Bereken daarna $$\sum_{n=1}^10 \dfrac{1}{n^2}$$ en sla dit getal op in `resultaat10`.
+- Bereken daarna $$\displaystyle \sum_{n=1}^{10} \dfrac{1}{n^2}$$ en sla dit getal op in `resultaat10`.
 
 - Herhaal nu met analoge variabelen `rij100`, `rij1000` en `rij10000`. Sla het resultaat van de gelijkaardige sommen analoog op in bijbehorende variabelen.
 
