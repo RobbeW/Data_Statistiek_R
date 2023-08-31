@@ -3,7 +3,7 @@ Het was wiskundige genie <a href="https://en.wikipedia.org/wiki/Leonhard_Euler" 
 Dit probleem behandelde de oneindige som van inverse kwadraten, namelijk:
 
 $$
- \sum_{n=1}^\infty \dfrac{1}{n^2} = \dfrac{1}{1^2} + \dfrac{1}{2^2} + \dfrac{1}{3^2} + \dfrac{1}{4^2} + \ldots
+ \sum_{n=1}^\infty \dfrac{1}{n^2} = \dfrac{1}{1^2} + \dfrac{1}{2^2} + \dfrac{1}{3^2} + \dfrac{1}{4^2} + \ldots = ?
 $$
 
 Men wist reeds dat dit convergeerde, maar het was Euler die bewees dat dit enigszins verassend convergeert naar $$\dfrac{\pi^2}{6}$$!
