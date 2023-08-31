@@ -1,4 +1,4 @@
-Het was wiskundige genie <a href="https://en.wikipedia.org/wiki/Leonhard_Euler" target="_blank">Leonard Euler</a> die in 1734 het beroemde Bazel-probleem oplostte.
+Het was het wiskundige genie <a href="https://en.wikipedia.org/wiki/Leonhard_Euler" target="_blank">Leonard Euler</a> die in 1734 het beroemde Bazel-probleem oplostte.
 
 Dit probleem behandelde de oneindige som van inverse kwadraten, namelijk:
 
