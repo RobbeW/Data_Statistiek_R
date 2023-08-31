@@ -1,12 +1,12 @@
-De internationale keten van koffiehuizen <a href="https://nl.wikipedia.org/wiki/Starbucks" target="_blank">Starbucks</a> is aanwezig in minsten 76 landen. Men verkoopt er een zeer grote hoeveelheid aan koffiemixen en dranken op koffiebasis.
+De internationale keten van koffiehuizen <a href="https://nl.wikipedia.org/wiki/Starbucks" target="_blank">Starbucks</a> is aanwezig in minsten 76 landen. Men verkoopt er een grote waaier aan koffiemixen en dranken op koffiebasis. Bij elk drankje kan je voor een bepaalde grootte, een hoeveelheid room, siroop, enz... kiezen. Starbucks beweert dat er <a href="file:///home/dieter/Downloads/Starbucks_Infographic-1.pdf" target="_blank">meer dan 170 000 verschillende keuzes</a> mogelijk zijn.
 
 ![De Starbucks keten](media/june-andrei-george.jpg "Foto door June Andrei George op Unsplash."){:data-caption="De Starbucks keten." width="45%"}
 
-Bevatten de *suikerarme* of *suikerrijke* drankjes het meeste cafeïne?
+In deze oefening werpen we een blik op de hoeveelheid cafeïne in  *suikerarme* en *suikerrijke* drankjes.
 
 ## Gegeven
 
-Deze <a href="https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-12-21/starbucks.csv" target="_blank">dataset</a> bevat van de verschillende drankjes het aantal calorien, het aantal gram suiker, de hoeveelheid cafeïne enz...
+Deze <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-12-21/starbucks.csv" target="_blank">dataset</a> bevat van de verschillende keuzes het aantal calorien, het aantal gram suiker, de hoeveelheid cafeïne, enz...
 
 Je kan de data inlezen via het volgende commando:
 
