@@ -42,7 +42,7 @@ context({
     testEqual("mediaan_suikerarm", function(env) {
       env$mediaan_suikerarm
     }, mediaan_suikerarm)
-    testFunctionUsedInVar("mean", "mediaan_suikerarm")
+    testFunctionUsedInVar("median", "mediaan_suikerarm")
   })
   testcase("De variabele suikerrijke_dranken werd correct berekend:", {
     testEqual("suikerrijke_dranken[1]", function(env) {

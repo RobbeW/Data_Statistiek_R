@@ -15,7 +15,7 @@ suikerarme_dranken <- data$caffeine_mg[weinig_suiker]
 
 # Berekening centrummaten
 gemiddelde_suikerrijk <- mean(data$caffeine_mg[suikerrijke_dranken])
-mediaan_suikerarm <- median(data$caffeine_mg[suikerrijke_dranken])
+mediaan_suikerrijk <- median(data$caffeine_mg[suikerrijke_dranken])
 
 gemiddelde_suikerarm <- mean(data$caffeine_mg[suikerarme_dranken])
 mediaan_suikerarm <- median(data$caffeine_mg[suikerarme_dranken])
