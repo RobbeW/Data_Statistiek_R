@@ -1,6 +1,6 @@
-Het was wiskundige genie <a href="https://en.wikipedia.org/wiki/Leonhard_Euler" target="_blank">Leonard Euler</a> die in 1734 het beroemnde Bazel-probleem oplostte.
+Het was wiskundige genie <a href="https://en.wikipedia.org/wiki/Leonhard_Euler" target="_blank">Leonard Euler</a> die in 1734 het beroemde Bazel-probleem oplostte.
 
-Het ging over de oneindige som van inverse kwadraten, namelijk:
+Dit probleem behandelde de oneindige som van inverse kwadraten, namelijk:
 
 $$
  \sum_{n=1}^\infty \dfrac{1}{n^2} = \dfrac{1}{1^2} + \dfrac{1}{2^2} + \dfrac{1}{3^2} + \dfrac{1}{4^2} + \ldots
@@ -8,7 +8,7 @@ $$
 
 Men wist reeds dat dit convergeerde, maar het was Euler die bewees dat dit enigszins verassend convergeert naar $$\dfrac{\pi^2}{6}$$!
 
-![Leonard Euler, je nieuwe held!](media/Leonhard_Euler.jpg "Leonard Euler, schilderij door Jakob Handmann."){:data-caption="Leonard Euler, je nieuwe held!" width="45%"}
+![Leonard Euler, je nieuwe held!](media/Leonhard_Euler.jpg "Leonard Euler, schilderij door Jakob Handmann."){:data-caption="Leonard Euler, je nieuwe held!" width="35%"}
 
 ## Gevraagd
 
