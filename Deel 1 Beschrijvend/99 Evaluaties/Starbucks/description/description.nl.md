@@ -25,6 +25,6 @@ Gebruik `head(data)` om een **voorsmaakje** van de gegevens te verkrijgen.
 
 - Selecteer nu uit `data$caffeine_mg` de drankjes met veel suiker. Sla dit op in de variabele `suikerrijke_dranken`.
 
-- Bereken vervolgens het gemiddelde en de mediaan van deze dranken. Sla dit op in de respectievelijke variabelen `gemiddelde_suikerrijk` en `mediaan_suikerrijk`.
+- Bereken vervolgens het gemiddelde en de mediaan van het aantal mg cafëine in deze dranken. Sla dit op in de respectievelijke variabelen `gemiddelde_suikerrijk` en `mediaan_suikerrijk`.
 
-- Herhaal dit voor de *suikerarme* dranken met minder dan of exact 20 g suiker. Maak de booleaanse variabele `weinig_suiker`, daarna de vector `suikerarme_dranken` met de cafeïne waarden en bereken nadien analoog de variabelen `gemiddelde_suikerarm` en `mediaan_suikerarm`. 
+- Herhaal dit voor de *suikerarme* dranken met minder dan of exact 20 g suiker. Maak eerst een booleaanse variabele `weinig_suiker`, daarna de vector `suikerarme_dranken` met de cafeïne waarden en bereken nadien analoog de variabelen `gemiddelde_suikerarm` en `mediaan_suikerarm`. 
