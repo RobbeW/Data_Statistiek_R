@@ -1,6 +1,6 @@
 De onafhankelijke ziekenfondsen voerden in 2019 <a href="https://www.mloz.be/nl/persberichten/jongeren-gamen-gemiddeld-11u-week" target="_blank">een onderzoek</a> over het gamegedrag van jongeren. Daaruit bleek dat jongeren gemiddeld 11u per week gamen.
 
-![Een jongere die aan het gamen is.](media/ukkel.jpg "Foto door Onur Binay op Unsplash."){:data-caption="Een jongere die aan het gamen is." width="45%"}
+![Een jongere die aan het gamen is.](media/onur-binay.jpg "Foto door Onur Binay op Unsplash."){:data-caption="Een jongere die aan het gamen is." width="45%"}
 
 ## Gegeven
 
