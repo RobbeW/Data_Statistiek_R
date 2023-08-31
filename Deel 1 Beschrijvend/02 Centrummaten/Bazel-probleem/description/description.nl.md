@@ -24,5 +24,5 @@ Men wist reeds dat dit convergeerde, maar het was Euler die bewees dat dit enigs
 {: .callout.callout-info}
 >#### Tips
 >
-> - Een vector met de natuurlijke van 1 tot 10 kan je gemakkelijk aanmaken via `rij10 <- 1:10`.
+> - Een vector met de natuurlijke getallen van 1 tot 10 kan je gemakkelijk aanmaken via `rij10 <- 1:10`.
 > - Dit is geen oefening op het rekenkundig gemiddelde, maar je gebruikt **natuurlijk** de `sum()` functie.
