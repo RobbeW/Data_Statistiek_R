@@ -22,9 +22,19 @@ context({
       env$aantal_atleten
     }, aantal_atleten)
     testFunctionUsedInVar("length", "aantal_atleten")
-    testEqual("bmi[0]", function(env) {
-      env$bmi[0]
-    }, bmi[0])
+    testEqual("mediaan_bmi", function(env) {
+      env$mediaan_bmi
+    }, mediaan_bmi)
+    testFunctionUsedInVar("median", "mediaan_bmi")
+    testEqual("gemiddelde_bmi", function(env) {
+      env$gemiddelde_bmi
+    }, gemiddelde_bmi)
+    testFunctionUsedInVar("mean", "gemiddelde_bmi")
+  })
+  testcase("De variabele bmi werd correct berekend:",{
+    testEqual("bmi[1]", function(env) {
+      env$bmi[1]
+    }, bmi[1])
     testEqual("bmi[100]", function(env) {
       env$bmi[100]
     }, bmi[100])
@@ -35,13 +45,5 @@ context({
       env$bmi[10000]
     }, bmi[10000])
     testFunctionUsedInVar("round", "bmi")
-    testEqual("mediaan_bmi", function(env) {
-      env$mediaan_bmi
-    }, mediaan_bmi)
-    testFunctionUsedInVar("median", "mediaan_bmi")
-    testEqual("gemiddelde_bmi", function(env) {
-      env$gemiddelde_bmi
-    }, gemiddelde_bmi)
-    testFunctionUsedInVar("mean", "gemiddelde_bmi")
   })
 })
