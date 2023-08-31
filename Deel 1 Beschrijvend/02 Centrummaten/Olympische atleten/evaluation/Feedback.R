@@ -22,9 +22,18 @@ context({
       env$aantal_atleten
     }, aantal_atleten)
     testFunctionUsedInVar("length", "aantal_atleten")
-    testEqual("bmi", function(env) {
-      env$bmi
-    }, bmi)
+    testEqual("bmi[0]", function(env) {
+      env$bmi[0]
+    }, bmi[0])
+    testEqual("bmi[100]", function(env) {
+      env$bmi[100]
+    }, bmi[100])
+    testEqual("bmi[1000]", function(env) {
+      env$bmi[1000]
+    }, bmi[1000])
+    testEqual("bmi[10000]", function(env) {
+      env$bmi[10000]
+    }, bmi[10000])
     testFunctionUsedInVar("round", "bmi")
     testEqual("mediaan_bmi", function(env) {
       env$mediaan_bmi
