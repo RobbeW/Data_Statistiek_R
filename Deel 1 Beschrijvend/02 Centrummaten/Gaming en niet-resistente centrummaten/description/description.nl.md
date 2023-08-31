@@ -4,7 +4,7 @@ De onafhankelijke ziekenfondsen voerden in 2019 <a href="https://www.mloz.be/nl/
 
 ## Gegeven
 
-In de les Nederlands kwam bovenstaande artikel over game-verslaving aan bod. Senne wil een kleine *steekproef* houden of bepaalde cijfers in het artikel kloppen en vraagt zijn 19 klasgenoten hoeveel uren ze de voorbije week spendeerden aan spelletjes (op pc of smartphone).
+In de les Nederlands kwam bovenstaand artikel over game-verslaving aan bod. Senne wil een kleine *steekproef* houden of bepaalde cijfers in het artikel kloppen en vraagt zijn 19 klasgenoten hoeveel uren ze de voorbije week spendeerden aan spelletjes (op pc of smartphone).
 
 Senne tikt de antwoorden snel-snel in en maakt een tikfout. Hij heeft op een bepaald moment de nultoets tweemaal te veel ingedrukt.
 
