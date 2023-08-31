@@ -11,7 +11,7 @@ context({
   aantal_atleten <- length(data$height)
 
   # Bereken het BMI
-  bmi <- data$weight / (data$height / 100)^2
+  bmi <- round(data$weight / (data$height / 100)^2, 2)
 
   # Centrummaten
   mediaan_bmi <- median(bmi)
@@ -25,6 +25,7 @@ context({
     testEqual("bmi", function(env) {
       env$bmi
     }, bmi)
+    testFunctionUsedInVar("round", "bmi")
     testEqual("mediaan_bmi", function(env) {
       env$mediaan_bmi
     }, mediaan_bmi)

@@ -10,7 +10,7 @@ data <- data[data$sport == "Athletics" &
 aantal_atleten <- length(data$height)
 
 # Bereken het BMI
-bmi <- data$weight / (data$height / 100)^2
+bmi <- round(data$weight / (data$height / 100)^2, 2)
 
 # Centrummaten
 mediaan_bmi <- median(bmi)
