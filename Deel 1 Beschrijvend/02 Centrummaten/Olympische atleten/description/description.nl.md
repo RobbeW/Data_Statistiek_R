@@ -26,4 +26,4 @@ Gebruik `head(data)` om een **voorsmaakje** van de gegevens te verkrijgen.
 
 - Maak een vector `bmi` aan waar je het BMI van de atleten bepaalt. Rond dit af op **2 cijfers na de komma**. Gebruik hiervoor de `round()` functie.
 
-- Bereken de mediaan en het gemiddelde BMI, sla deze gegevens op in `mediaan_bmi` en `gemiddelde_bmi`. Je merkt een relatief groot verschil tussen deze BMI's, kan je dit verklaren?
+- Bereken de mediaan en het gemiddelde BMI, sla deze gegevens op in `mediaan_bmi` en `gemiddelde_bmi`. Deze waarden zijn niet aan elkaar gelijk, er zit een *relatief groot* verschil op. Kan je dit verklaren?
