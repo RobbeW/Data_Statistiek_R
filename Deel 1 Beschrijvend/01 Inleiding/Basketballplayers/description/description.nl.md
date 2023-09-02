@@ -17,6 +17,12 @@ lengte = [waarde_1, waarde_2, ..., waarde_n]
 > 
 > Het **eerste element** uit een vector `lengte` met lengte `n` selecteer je dus via `lengte[1]` en het **laatste element** via `lengte[n]`.
 
+{: .callout.callout-info}
+>#### Tip
+>
+> Waarom wordt `c` gebruikt en niet `v` van vector? 
+> Dit komt omdat `c` staat voor **combine**. In R kan je gemakkelijk vectoren combineren, zo geldt er dat `c(c(1, 2), 3)` gelijk is aan `c(1, 2, 3)`. 
+
 ## Gegeven
 
 De lengtes van de Belgische basketballspelers uit de <a href="https://www.basketballbelgium.be/nl/team/3x3-lions-3" target="_blank">3x3 Lions</a> en de <a href="https://www.basketballbelgium.be/nl/team/3x3-cats-3" target="_blank">3x3 Cats</a> staan in onderstaande tabel.
