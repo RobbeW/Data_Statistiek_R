@@ -46,7 +46,7 @@ if (n %% 2 != 0) { # oneven aantal waarnemingen
 {: .callout.callout-warning}
 >#### Opgelet!
 >
-> Hier zie je een **keuzestructuur** in R. Let op de syntax van de `if-else`-selectie. Opnieuw wordt er gebruik gemaakt van **haakjes** `()` en **accolades** `{}`.
+> Hier zie je een **keuzestructuur** in R. Let op de syntax van de `if-else`-selectie. Opnieuw wordt er gebruik gemaakt van **haakjes** `()` en **accolades** `{}`. De **modulo** operator wordt binnen R geprogrammeer dals `%%`.
 
 ## Gegeven
 

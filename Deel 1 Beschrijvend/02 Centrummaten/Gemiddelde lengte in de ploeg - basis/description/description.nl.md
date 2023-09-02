@@ -29,7 +29,7 @@ In R kan dit analoog:
 ```R
 lengtes <- c(198, 195, 193, 202, 185, 186, 172, 185)
 som <- 0
-for (lengte in lengtes){
+for (lengte in lengtes) {
   som <- som + lengte
 }
 gemiddelde_lengte <- som / length(lengtes)
