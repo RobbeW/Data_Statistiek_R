@@ -1,0 +1,17 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Mario Kart",
+      "en": "Mario Kart"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "evaluation":{
+    "network_enabled": true
+  },
+  "access": "public"
+}
