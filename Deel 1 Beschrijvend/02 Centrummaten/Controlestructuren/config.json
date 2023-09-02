@@ -1,0 +1,13 @@
+{
+  "type": "content",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "Controlestructuren in R"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ]
+}
