@@ -9,5 +9,9 @@
   "labels": [
     "R",
     "statistiek"
-  ]
+  ],
+  "internals": {
+    "token": "cmbsD-j5xFekU6pKnpS2xXAy4UGTa9ykp2NeyNtC_E7RTfPmU27ZFfGvEdswDiWr",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
