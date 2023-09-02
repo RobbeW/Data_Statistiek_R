@@ -21,7 +21,7 @@ lengte = [waarde_1, waarde_2, ..., waarde_n]
 >#### Tip
 >
 > Waarom wordt `c()` gebruikt en niet `v()` van vector? 
-> Dit komt omdat `c()` staat voor **combine**. In R kan je gemakkelijk vectoren **combineren**, zo geldt er dat `c(c(1, 2), 3)` gelijk is aan `c(1, 2, 3)`. 
+> Dit komt omdat `c()` staat voor **combine**. In R kan je gemakkelijk vectoren **combineren**, zo geldt er dat `c(c(1, 2), c(3,4))` gelijk is aan `c(1, 2, 3, 4)`. 
 
 ## Gegeven
 
