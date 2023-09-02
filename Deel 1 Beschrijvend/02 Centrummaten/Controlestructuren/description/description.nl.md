@@ -1,15 +1,15 @@
-Op deze pagina vind je de syntax van de verschillende controlestructuren in R. Telkens in vergelijking met de reeds gekende structuren van Python.
+Op deze pagina vind je de syntax van de verschillende controlestructuren in R. Er wordt telken een vergelijking gemaakt met de reeds gekende structuren binnen Python.
 
 ### De selectiestructuur
 
-Een keuzestructuur in Python zag er als volgt uit:
+Een **eenvoudige keuzestructuur** in Python zag er als volgt uit:
 
 ```python
 if voorwaarde:
     actie
 ```
 
-Of een meervoudige keuze behulp van `elif`:
+Of een **meervoudige keuze** behulp van `elif`:
 
 ```python
 if voorwaarde:
@@ -23,7 +23,7 @@ else:
 Dit kan ook binnen R, met de volgende syntax:
 ```R
 if (voorwaarde) {
-    actie
+  actie
 }
 ```
 
@@ -40,7 +40,7 @@ if (voorwaarde) {
 
 ### De begrensde herhaling
 
-Een typische begrensde herhaling werd binnen Python als volgt gecodeerde:
+Een typische begrensde herhaling werd binnen Python als volgt gecodeerd:
 
 ```python
 for i in range(n):
@@ -55,7 +55,7 @@ for (i in 1:n) {
 }
 ```
 
-Je kan binnen Python itereren over **lijsten**:
+Je kon binnen Python itereren over **lijsten**:
 
 ```python
 lijst = ['item_1', 'item_2', 'item_3']
@@ -63,7 +63,7 @@ for item in lijst:
     acties
 ```
 
-Dit kan voor de **vectoren** in R.
+Dit kan analoog voor de **vectoren** in R.
 ```R
 vector <- c("item_1", "item_2", "item_3")
 for (item in vector) {
