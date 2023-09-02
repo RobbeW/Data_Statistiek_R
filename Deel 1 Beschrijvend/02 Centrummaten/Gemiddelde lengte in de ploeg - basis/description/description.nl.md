@@ -20,7 +20,7 @@ In Python zou je dit als volgt berekenen:
 lengtes = [198, 195, 193, 202, 185, 186, 172, 185]
 som = 0
 for lengte in lengtes:
-    som += lengte
+    som = som + lengte # of korter som += lengte
 gemiddelde_lengte = som / len(lengtes)
 ```
 
