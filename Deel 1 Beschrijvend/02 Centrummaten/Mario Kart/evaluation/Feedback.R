@@ -15,7 +15,8 @@ context({
   record_single_lap_no_shortcut <- data$record_time[single_lap_no_shortcut]
   record_three_lap_no_shortcut <- data$record_time[three_lap_no_shortcut]
 
-  verschil <- record_three_lap_no_shortcut - 3 * record_single_lap_no_shortcut
+  verschil <- round(record_three_lap_no_shortcut
+                  - 3 * record_single_lap_no_shortcut, 2)
 
   testcase("De variabelen werden correct bepaald:", {
     testEqual("single_lap_no_shortcut", function(env) {

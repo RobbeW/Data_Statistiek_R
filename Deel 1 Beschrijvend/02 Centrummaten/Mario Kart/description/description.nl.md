@@ -20,10 +20,9 @@ data <- data[order(data$track, data$type, data$shortcut), ]
 
 ## Gegeven
 
-Een **voorsmaakje** opvragen van de data kan via:
+Via `head(data)` een **voorsmaakje** opvragen resulteert in:
 
-```R
-head(data)
+```
                track       type shortcut record_time
 1  Banshee Boardwalk Single Lap       No       40.78
 17 Banshee Boardwalk  Three Lap       No      124.09
@@ -43,4 +42,4 @@ Je merkt dat de recordtijd van zowel **Single laps** als **Three laps** gegeven 
 
 - Maak nu twee vectoren `record_single_lap_no_shortcut` en `record_three_lap_no_shortcut` aan, met enkel de recordtijden.
 
-- Bereken het **verschil** de recordtijd op de drie rondjes en het **drievoud** van de recordtijd op één enkel rondje. Sla dit op in de variabele `verschil`.
+- Bereken het **verschil** de recordtijd op de drie rondjes en het **drievoud** van de recordtijd op één enkel rondje. Sla dit op in de variabele `verschil`. Rond dit verschil af op **twee cijfers na de komma**.
