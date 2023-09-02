@@ -1,6 +1,6 @@
-Ongetwijfeld ben je al één van de vele telpalen voorbij gefietst in Gent. Langs de Visserij is er bijvoorbeeld zo'n telpaal, via het Open Data Portaal van de stad Gent kan men de <a href="https://data.stad.gent/explore/dataset/fietstelpaal-visserij-2023-gent/table/?sort=datum" target="_blank">gegevens</a> rechtstreeks opvragen.
+Ongetwijfeld ben je al één van de vele telpalen voorbij gefietst in Gent. Langs de Visserij is er bijvoorbeeld zo'n telpaal, via het <a href="https://data.stad.gent/explore" target="_blank">Open Data Portaal</a> van de stad Gent kan men de <a href="https://data.stad.gent/explore/dataset/fietstelpaal-visserij-2023-gent/table/?sort=datum" target="_blank">gegevens</a> rechtstreeks opvragen.
 
-![Een fietstelpaal in Gent.](media/fietstelpaal.jpg "Een fietstelpaal in Gent."){:data-caption="Een fietstelpaal in Gent." width="45%"}
+![Een fietstelpaal in Gent.](media/fietstelpaal.jpg "Een fietstelpaal in Gent."){:data-caption="Een fietstelpaal in Gent." width="55%"}
 
 ## Data frame ophalen
 Gebruik onderstaande code om de gegevens op te halen.
