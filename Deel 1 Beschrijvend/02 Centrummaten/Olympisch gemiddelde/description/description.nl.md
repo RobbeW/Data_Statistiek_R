@@ -1,8 +1,8 @@
 Bij heel wat sporten waar een jury punten toekent maakt men gebruik van het zogenaamd **Olympisch gemiddelde**. Dit een gemiddelde waarbij de grootste en kleinste waarden weggelaten worden.
 
-Een **voorbeeld** als illustratie. Op het onderdeel *halfpipe* bij het snowboarden op de olympische winterspelen kennen zes juryleden de volgende scores toe: 98, 97, 98, 99, 100 en 98. De *laagste score* is 97 en de *hoogste score* is 100, deze waarden worden weggelaten. Van de resterende vier scores is het gemiddelde 98.25, dit is dan ook de score die de snowboarder krijgt.
+Een **voorbeeld** als illustratie. Op het onderdeel *halfpipe* bij het <a href="https://nl.wikipedia.org/wiki/Snowboarden" target="_blank">snowboarden</a> op de Olympische winterspelen kennen zes juryleden de volgende scores toe: 98, 97, 98, 99, 100 en 98. De *laagste score* is 97 en de *hoogste score* is 100, deze waarden worden weggelaten. Van de resterende vier scores is het gemiddelde 98.25, dit is dan ook de score die de snowboarder krijgt.
 
-![Een snowboarder.](media/patrick-t-kindt.jpg "Foto door Patrick T'Kindt op Unsplash."){:data-caption="Een snowboarder." width="35%"}
+![Een snowboarder.](media/patrick-t-kindt.jpg "Foto door Patrick T'Kindt op Unsplash."){:data-caption="Een snowboarder." width="45%"}
 
 ## Gegeven
 
