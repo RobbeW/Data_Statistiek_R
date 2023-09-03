@@ -6,11 +6,12 @@ context({
   }
 
   testcase("De functie bazel werkt:", {
-    rijtje <- 2:6
+    rijtje <- 1:6
     for (aantal in rijtje) {
-      testEqual(paste0("met parameter ", 10^aantal), function(env) {
-        env$bazel(10^aantal)
-      }, bazel(10^aantal))
+      testEqual(paste0("met parameter ", 
+                       format(10^aantal, scientific = FALSE)), function(env) {
+                  env$bazel(10^aantal)
+                }, bazel(10^aantal))
     }
   })
 })
