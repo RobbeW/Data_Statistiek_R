@@ -14,4 +14,9 @@ context({
                 }, bazel(10^aantal))
     }
   })
+  testcase("Ter controle:", {
+    testEqual("pi^2 / 6", function(env) {
+      pi^2 / 6
+    }, pi^2 / 6)
+  })
 })
