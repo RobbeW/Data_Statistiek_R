@@ -12,17 +12,15 @@ Men wist reeds dat dit convergeerde, maar het was Euler die bewees dat dit enigs
 
 ## Gevraagd
 
-- Maak een vector `rij10` aan met de natuurlijke getallen van 1 tot 10. 
+- Maak een functie `bazel(aantal)` waarbij `aantal` het aantal termen in de som voorstelt. Zo geldt dat `bazel(10)` overenkomt met $$\displaystyle \sum_{n=1}^{10} \dfrac{1}{n^2}$$.
 
-- Bereken daarna $$\displaystyle \sum_{n=1}^{10} \dfrac{1}{n^2}$$ en sla dit getal op in `resultaat10`.
+- Laat R het resultaat van de som afronden op **6 cijfers na de komma**.
 
-- Herhaal nu met analoge variabelen `rij100`, `rij1000` en `rij10000`. Sla het resultaat van de gelijkaardige sommen analoog op in bijbehorende variabelen.
-
-- Je kan **controleren** of het resultaat inderdaad Eulers vondst benaderde via `pi^2 / 6`.
+- Je kan **controleren** of het resultaat inderdaad Eulers vondst benaderde. Probeer bijvoorbeeld `bazel(10000)` uit te rekenen en controleer of dit `pi^2 / 6` benadert.
 
  
 {: .callout.callout-info}
 >#### Tips
 >
-> - Een vector met de natuurlijke getallen van 1 tot 10 kan je gemakkelijk aanmaken via `rij10 <- 1:10`.
+> - Een vector met de natuurlijke getallen van `1` tot `aantal` kan je gemakkelijk aanmaken via `1:aantal`.
 > - Dit is geen oefening op het rekenkundig gemiddelde, maar je maakt **natuurlijk** wel gebruik van de `sum()` functie.
