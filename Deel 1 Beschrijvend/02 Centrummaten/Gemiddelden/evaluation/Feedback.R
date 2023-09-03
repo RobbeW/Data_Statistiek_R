@@ -12,13 +12,13 @@ context({
     testEqual(paste0("met parameter ", print_vec(test1)), function(env) {
       env$mean_geom(test1)
     }, 98.33)
-    testEqual(paste0("met parameter ", print_vec(test1)), function(env) {
+    testEqual(paste0("met parameter ", print_vec(test2)), function(env) {
       env$mean_geom(test2)
     }, 17.23)
-    testEqual(paste0("met parameter ", print_vec(test1)), function(env) {
+    testEqual(paste0("met parameter ", print_vec(test3)), function(env) {
       env$mean_geom(test3)
     }, 32.73)
-    testEqual(paste0("met parameter ", print_vec(test1)), function(env) {
+    testEqual(paste0("met parameter ", print_vec(test4)), function(env) {
       env$mean_geom(test4)
     }, 101)
   })
@@ -26,13 +26,13 @@ context({
     testEqual(paste0("met parameter ", print_vec(test1)), function(env) {
       env$mean_harm(test1)
     }, 98.32)
-    testEqual(paste0("met parameter ", print_vec(test1)), function(env) {
+    testEqual(paste0("met parameter ", print_vec(test2)), function(env) {
       env$mean_harm(test2)
     }, 16.93)
-    testEqual(paste0("met parameter ", print_vec(test1)), function(env) {
+    testEqual(paste0("met parameter ", print_vec(test3)), function(env) {
       env$mean_harm(test3)
     }, 26.7)
-    testEqual(paste0("met parameter ", print_vec(test1)), function(env) {
+    testEqual(paste0("met parameter ", print_vec(test4)), function(env) {
       env$mean_harm(test4)
     }, 101)
   })
@@ -40,13 +40,13 @@ context({
     testEqual(paste0("met parameter ", print_vec(test1)), function(env) {
       env$mean_kwadr(test1)
     }, 98.34)
-    testEqual(paste0("met parameter ", print_vec(test1)), function(env) {
+    testEqual(paste0("met parameter ", print_vec(test2)), function(env) {
       env$mean_kwadr(test2)
     }, 17.94)
-    testEqual(paste0("met parameter ", print_vec(test1)), function(env) {
+    testEqual(paste0("met parameter ", print_vec(test3)), function(env) {
       env$mean_kwadr(test3)
     }, 55.12)
-    testEqual(paste0("met parameter ", print_vec(test1)), function(env) {
+    testEqual(paste0("met parameter ", print_vec(test4)), function(env) {
       env$mean_kwadr(test4)
     }, 101)
   })
