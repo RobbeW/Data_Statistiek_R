@@ -17,20 +17,12 @@ Er zijn heel wat manieren om het 'centrum' van een rij gegevens te bepalen. Het 
 >
 > $$x_q = \sqrt{\dfrac{1}{n} \sum_{i=1}^n x_i^2}$$
 
-## Gegeven
-
-In een bebouwde kom worden de volgende snelheden (in km/u) opgemeten.
-
-```R
-snelheden <- c(67.4, 48.9, 40.7, 43.5, 49.8, 54.1)
-```
 
 ## Gevraagd
 
-- Om efficient te kunnen werken bepaal je eerst een variabele `n` waar je de lengte van de `snelheden` in opslaat;
-- Bereken het **meetkundige gemiddelde** in variabele `x_g`;
-- Bereken het **harmonisch gemiddelde** in variabele `x_h`;
-- Bereken het **kwadratisch gemiddelde** in variabele `x_q`.
+- Programmeer de functies `mean_geom()`, `mean_harm()` en `mean_kwadr()` die gegeven een vector `data` als parameter respectievelijk het meetkundig, harmonisch en kwadratisch gemiddelde berekenen. Rond telkens af op 2 cijfers.
+
+- Bepaal binnen de functies telkens eerst de variabele `n` waar je de lengte van de vector `data` in opslaat.
 
 {: .callout.callout-info}
 >#### Tips

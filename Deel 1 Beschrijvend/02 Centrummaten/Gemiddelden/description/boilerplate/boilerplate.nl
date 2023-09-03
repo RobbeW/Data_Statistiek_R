@@ -1,2 +1,16 @@
-# Meetgegevens
-snelheden <- c(67.4, 48.9, 40.7, 43.5, 49.8, 54.1)
+# Het meetkundig gemiddelde
+mean_geom <- function(data) {
+  n <- length(data)
+
+  return(  )
+}
+
+# Het harmonisch gemiddelde
+mean_harm <- function(data) {
+  
+
+
+
+
+# Het kwadratisch gemiddelde
+mean_kwadr <- 
