@@ -11,6 +11,6 @@ context({
     testFunctionUsed("mean")
   })
   testcaseAssert("De variabele som bestaat niet meer:", function(env) {
-    isFALSE(exists("som", env))
+    isTRUE(!exists("som", env))
   })
 })
