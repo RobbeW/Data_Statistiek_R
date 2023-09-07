@@ -5,14 +5,15 @@ In 2020 waren er 15 481 overlijdens aan ziekten aan hart- of vaatstelsel, het is
 Een van de bepalende factoren is de gemiddelde bloeddruk MAP, deze wordt geschat via onderstaande formule:
 
 $$
-    \text{MAP} \approx \text{DBP} + \dfrac{1}{2}\left(\text{SBP} - \text{DBP})
+    
+    \text{MAP} \approx \text{DBP} + \dfrac{1}{2}\left(\text{SBP} - \text{DBP} \right)
 $$
 
 Waarbij DBP de diastolische en SBP de systolische bloeddruk voorstellen.
 
 ## Gegeven
 
-Deze <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-12-21/starbucks.csv" target="_blank">dataset</a> bevat van de verschillende keuzes het aantal calorien, het aantal gram suiker, de hoeveelheid cafeïne, enz...
+INLEIDING
 
 Je kan de data inlezen via het volgende commando:
 
