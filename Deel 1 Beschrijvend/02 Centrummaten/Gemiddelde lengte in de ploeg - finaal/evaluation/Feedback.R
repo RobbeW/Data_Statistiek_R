@@ -10,4 +10,7 @@ context({
   testcase("De volgende functie werden gebruikt:", {
     testFunctionUsed("mean")
   })
+  testcaseAssert("De variabele som bestaat niet meer:", function(env) {
+    isTRUE(!exists("som", env))
+  })
 })
