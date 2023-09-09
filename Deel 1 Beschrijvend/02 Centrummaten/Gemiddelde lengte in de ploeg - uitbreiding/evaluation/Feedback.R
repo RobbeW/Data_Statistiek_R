@@ -7,13 +7,12 @@ context({
       env$gemiddelde_vrouwen
     }, 182)
   })
-  testcase("Je hebt geen variabele som meer:", {
-    testEqual("", function(env) {
-      !exists("som", inherits = FALSE)
-    }, TRUE)
+  testcaseAssert("De variabele som bestaat niet meer:", function(env) {
+    isTRUE(!exists("som", env))
   })
   testcase("De volgende functies werden gebruikt:", {
     testFunctionUsed("sum")
     testFunctionUsed("length")
   })
+
 })
