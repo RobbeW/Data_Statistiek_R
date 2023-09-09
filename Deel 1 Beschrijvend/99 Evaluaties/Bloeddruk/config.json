@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Bloeddruk"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "evaluation": {
+    "network_enabled": true
+  },
+  "access": "public",
+  "internals": {
+    "token": "2vwyWcnWBuSmBPkd_399W7cZQbTjdUqqbze6pIXzanteN2IXsVHPszwuTsD6rUjN",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
