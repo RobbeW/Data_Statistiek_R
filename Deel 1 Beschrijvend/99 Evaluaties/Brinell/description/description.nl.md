@@ -4,13 +4,13 @@ Bij deze methode wordt een stalen kogel (of een kogel van wolfraamcarbide bij ha
 
 ![Een deuk van Brinell test.](media/Brinell_dent.jpg "Foto door IGW op Wikimedia Commons."){:data-caption="Een deuk van Brinell test." width="45%"}
 
-De formule om de Brinell hardheid $$HB$$ te bepalen werkt dan als volgt:
+De formule om de Brinell hardheid $$\text{HB}$$ te bepalen werkt dan als volgt:
 
 $$
-\text{HB} = 0,102 \cdot \dfrac{2 \cdot F}{\pi \cdot D (D - \sqrt{D^2 - d^2})}
+\text{HB} = 0,102 \cdot \dfrac{2 \cdot \text{F}}{\pi \cdot \text{D} (\text{D} - \sqrt{\text{D}^2 - \text{d}^2})}
 $$
 
-Men gebruikt **standaard** een kracht $$F$$ van 29 500 N en een stalen bol met diameter $$D$$ 10 mm om de deuk te maken.
+Men gebruikt **standaard** een kracht $$\text{F}$$ van 29 500 N en een stalen bol met diameter $$\text{D}$$ 10 mm om de deuk te maken.
 
 ## Gegeven
 
