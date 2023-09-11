@@ -27,7 +27,7 @@ Gebruik onderstaande gegevens (en de bijbehorende vectoren) om de volgende vrage
 - Af en toe doet zich een <a href="https://en.wikipedia.org/wiki/Acqua_alta" target="_blank">Acqua Alta</a>, een overstroming, voor.
 Men gebruikt onderstaande tabel om te bepalen hoeveel procent van Venetië *bij benadering* onder water komt te staan.
 
-Bepaal hiermee de **booleaanse** variabele `lichte_overstroming` om de jaren te bepalen waar er **minstens 5% en hoogstens 30%** van Venetië onder water stond. Gebruik daarna deze variabele de jaren van lichte overstroming te **selecteren** in de variabele `jaren_lichte_overstroming`.
+  Bepaal hiermee de **booleaanse** variabele `lichte_overstroming` om de jaren te bepalen waar er **minstens 5% en hoogstens 30%** van Venetië onder water stond. Gebruik daarna deze variabele de jaren van lichte overstroming te **selecteren** in de variabele `jaren_lichte_overstroming`.
 
 | Waterstand (in cm)  | Percentage | 
 |:----:|:-------:|
