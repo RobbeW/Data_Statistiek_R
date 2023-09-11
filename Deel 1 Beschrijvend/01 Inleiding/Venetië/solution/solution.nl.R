@@ -27,3 +27,15 @@ max <- c(0.94, 0.9, 0.97, 1.07, 0.87, 0.86, 0.94, 0.67, 1.05, 1.15,
 1.56, 1.87)
 
 # Beantwoord hieronder de vragen
+aantal_waterstanden <- length(max)
+
+# Omvormen naar cm
+max_in_cm <- max * 100
+
+# Lichte overstromingen bepalen
+lichte_overstroming <- (max_in_cm >= 100 & max_in_cm <= 120)
+jaren_lichte_overstroming <- jaren[lichte_overstroming]
+
+# Hoge overstromingen bepalen
+hoge_overstroming <- (max_in_cm >= 160)
+jaren_hoge_overstroming <- jaren[hoge_overstroming]
