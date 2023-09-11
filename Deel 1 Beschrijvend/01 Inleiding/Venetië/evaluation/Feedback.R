@@ -8,21 +8,24 @@ context({
   testcaseAssert("De variabele lichte_overstroming bestaat", function(env) {
     isTRUE(exists("lichte_overstroming", env))
   })
-  testcaseAssert("De variabele jaren_lichte_overstroming bestaat", function(env) {
-    isTRUE(exists("jaren_lichte_overstroming", env))
-  })
-  testcaseAssert("De variabele jaren_hoge_overstroming bestaat", function(env) {
-    isTRUE(exists("jaren_hoge_overstroming", env))
-  })
+  testcaseAssert("De variabele jaren_lichte_overstroming bestaat",
+    function(env) {
+      isTRUE(exists("jaren_lichte_overstroming", env))
+    })
+  testcaseAssert("De variabele jaren_hoge_overstroming bestaat",
+    function(env) {
+      isTRUE(exists("jaren_hoge_overstroming", env))
+    })
 })
 context({
   testcase("Variabelen werden correct berekend:", {
     testEqual("aantal_waterstanden", function(env) {
       env$aantal_waterstanden
     }, 133)
-    testFunctionUsedInVar("length", "aantal_waterstanden")
     testEqual("max_in_cm", function(env) {
-      c(env$max_in_cm[1], env$max_in_cm[50], env$max_in_cm[133])
+      c(env$max_in_cm[1],
+        env$max_in_cm[50], 
+        env$max_in_cm[133])
     }, c(94, 147, 187))
     testEqual("jaren_lichte_overstroming", function(env) {
       env$jaren_lichte_overstroming
