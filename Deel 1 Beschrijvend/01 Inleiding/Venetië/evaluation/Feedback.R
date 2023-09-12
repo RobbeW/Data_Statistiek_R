@@ -22,6 +22,7 @@ context({
     testEqual("aantal_waterstanden", function(env) {
       env$aantal_waterstanden
     }, 133)
+    testFunctionUsedInVar("length", "aantal_waterstanden")
     testEqual("max_in_cm", function(env) {
       c(env$max_in_cm[1],
         env$max_in_cm[50], 
