@@ -4,14 +4,14 @@ De waterstanden worden in Venetië nauwgezet bijgehouden. Op <a href="https://ww
 
 In onderstaande voorbeeld vind je van de laatste jaren de maximale waterstand in meter.
 
-| Jaar  | Maximale waterstand | 
+| Jaar  | Maximale waterstand (in m) | 
 |:-----:|:-----:|
 | 2019  | 1,87   |
 | 2018  | 1,56   |
 | 2017  | 1,27   |
 | 2016  | 1,21   |
 | 2015  | 1,24   |
-| ...   | ...   |
+| ...   | ...    |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ## Gegeven
@@ -27,7 +27,7 @@ Gebruik onderstaande gegevens (en de bijbehorende vectoren) om de volgende vrage
 - Af en toe doet zich een <a href="https://en.wikipedia.org/wiki/Acqua_alta" target="_blank">Acqua Alta</a>, een overstroming, voor.
 Men gebruikt onderstaande tabel om te bepalen hoeveel procent van Venetië *bij benadering* onder water komt te staan.
 
-  Bepaal hiermee de **booleaanse** variabele `lichte_overstroming` om de jaren te bepalen waar er **minstens 5% en hoogstens 30%** van Venetië onder water stond. Gebruik daarna deze variabele de jaren van lichte overstroming te **selecteren** in de variabele `jaren_lichte_overstroming`.
+  Maak hiermee de **booleaanse** variabele `lichte_overstroming` aan met de jaren waar er **minstens 5% en hoogstens 30%** van Venetië onder water stond. Gebruik daarna deze variabele om de **jaren** van lichte overstroming te **selecteren** in de variabele `jaren_lichte_overstroming`.
 
 | Waterstand (in cm)  | Percentage | 
 |:----:|:-------:|
