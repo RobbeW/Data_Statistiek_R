@@ -2,7 +2,7 @@ Straling is één van de manieren waarom warmte wordt overgedragen. Je voelt dat
 
 Alle objecten absorberen en geven straling af. De hoeveelheid warmte die per seconde wordt overgedragen door straling hangt in grote mate af van de kleur van het object. Zwart is zeer effectief, wit absorbeert de warmte veel minder goed. Ongetwijfeld heb je dit al gemerkt toen je op een zonnige dag een zwart shirt droeg. Het omgekeerde klopt ook, zwarte voorwerpen zullen warmte beter afgeven door straling.
 
-![De stralingswarmte van het hete metaal is zichtbaar voor het menselijke oog.](media/brano.jpg "Foto door Fir0002/Flagstaffotos op Wikimedia Commons."){:data-caption="De stralingswarmte van het hete metaal is zichtbaar voor het menselijke oog." width="45%"}
+![De stralingswarmte van het hete metaal is zichtbaar voor het menselijke oog.](media/Hot_metalwork.jpg "Foto door Fir0002/Flagstaffotos op Wikimedia Commons."){:data-caption="De stralingswarmte van het hete metaal is zichtbaar voor het menselijke oog." width="45%"}
 
 De hoeveelheid warmtestraling die overgedragen wordt per seconde $$H$$ (uitgedrukt in watt) wordt bepaald door de *Stefan-Boltzmann stralingswet*:
 
