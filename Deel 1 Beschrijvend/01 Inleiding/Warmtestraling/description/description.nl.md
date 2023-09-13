@@ -1,4 +1,4 @@
-Straling is één van de manieren waarom warmte wordt overgedragen. Je voelt dat een oven warm is zonder de deur aan te raken of naar binnen te kijken.
+Straling is één van de manieren waarop warmte wordt overgedragen. Je voelt dat een oven warm is zonder de deur aan te raken of naar binnen te kijken. Andere vormen zijn *conductie* en *convectie*.
 
 Alle objecten absorberen en geven straling af. De hoeveelheid warmte die per seconde wordt overgedragen door straling hangt in grote mate af van de kleur van het object. Zwart is zeer effectief, wit absorbeert de warmte veel minder goed. Ongetwijfeld heb je dit al gemerkt toen je op een zonnige dag een zwart shirt droeg. Het omgekeerde klopt ook, zwarte voorwerpen zullen warmte beter afgeven door straling.
 
@@ -10,11 +10,11 @@ $$
     H = \sigma \cdot \epsilon \cdot A \cdot T^4
 $$
 
-waarbij $$\sigma$$ de *Stefan-Boltzmann constante* is, namelijk $$5,67 \cdot 10^{-8} \dfrac{\text{W}}{\text{m}^2 \cdot \text{K}^4}$$. Het getal $$e$$ de emissiecoëfficiënt, een maat tussen 0 en 1 die aangeeft hoe goed een voorwerp warmte uitstraalt/absorbeert. Een perfect zwart object heeft $$e = 1$$ en een object dat alles reflecteert heeft $$\epsilon = 0$$. Tot slot stelt $$A$$ de oppervlakte van het object voor en $$T$$ de temperatuur van het object (in kelvin).
+waarbij $$\sigma$$ de *Stefan-Boltzmann constante* is, namelijk $$5,67 \cdot 10^{-8} \dfrac{\text{W}}{\text{m}^2 \cdot \text{K}^4}$$. Het getal $$\epsilon$$ de emissiecoëfficiënt, een getal tussen 0 en 1 dat aangeeft hoe goed een voorwerp warmte uitstraalt/absorbeert. Bij een perfect zwart object is dit 1 en bij een object dat alles reflecteert is dit 0. Tot slot stelt $$A$$ de oppervlakte van het object voor en $$T$$ de temperatuur van het object (in **graden kelvin**).
 
 ## Gegeven
 
-De huidoppervlakte van een volwassen mens is ongeveer 1,5 m², de huidtemperatuur bedraagt normaal ongeveer 33°C. Verschillende stoffen dragen kan de energie die je uitstraalt verminderen. In onderstaande tabel vind je de emissiecoëfficiënt $$\epsilon$$ van verschillende stoffen:
+De huidoppervlakte van een volwassen mens is ongeveer 1,5 m², de huidtemperatuur bedraagt normaal ongeveer 33°C. Verschillende stoffen dragen kan de energie die je uitstraalt verminderen. In onderstaande tabel vind je de emissiecoëfficiënt $$\epsilon$$ van verschillende stoffen. Hoe hoger de waarde, hoe gemakkelijk je warmte uit**straalt**. 
 
 | Stof                    | Emissiecoëfficiënt $$\epsilon$$ | 
 |:-----------------------:|:----------:|
@@ -33,10 +33,14 @@ De huidoppervlakte van een volwassen mens is ongeveer 1,5 m², de huidtemperatuu
 
 - Vul de gegevens `sigma`, `oppervlakte` en `temperatuur_celcius` aan. (Tip: machten geef je in via `^`)
 
-- Bereken de absolute temperatuur in de variabele `temperatuur_kelvin`. Ter herinnering: 0°C = 273,15°K.
+- Bereken de absolute temperatuur in de variabele `temperatuur_kelvin`. Ter herinnering: 0°C = 273°K.
 
 - Maak de vector `emissie` aan. (respecteer de volgorde uit de tabel)
 
-- Bereken de hoeveelheid warmtestraling per stof in een vector genaamd `warmtestraling`. **Rond af** op 2 cijfers.
+- Bereken de hoeveelheid warmtestraling (uitgedrukt in watt) die het lichaam **verlaat** in een vector genaamd `warmtestraling_uit`. **Rond af** op 2 cijfers.
 
-- extra vraagjes
+- Gelukkig **ontvangt** het lichaam ook warmtestraling van de omgeving. Indien de omgevingtemperatuur 20°C is, bereken dan op dezelfde manier de vector `warmtestraling_in`. **Rond** ook **af** op 2 cijfers.
+
+- Bereken nu het **nettoverlies** van energie door straling in de variabele `verlies`. Dit kan je beschouwen als de hoeveelheid watt die het lichaam elk uur verliest.
+
+- Een appel eten bevat ongeveer 75 kilocalorieën, of ongeveer 87 wattuur. Bepaal in de vector `zuinige_kledij` de kledij waarbij het warmteverlies gecompenseert wordt door een appel te eten. Gebruik hiervoor eerst een **booleaanse** vector `zuinig`. 
