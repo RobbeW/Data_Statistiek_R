@@ -9,5 +9,9 @@
     "R",
     "statistiek"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "UIBW7xFGYFaFcxfydxzpREp2fTstJ-NsEmkevJN2wJnaTtpfpbeF_vBrFq-Xb-Bh",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
