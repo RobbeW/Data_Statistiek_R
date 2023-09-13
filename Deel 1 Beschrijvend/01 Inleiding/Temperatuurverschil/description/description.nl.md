@@ -62,5 +62,5 @@ Bepaal eerst een variabele `graad_kouder_dan_normaal` en gebruik deze dan om de 
 >
 >R kent natuurlijk ook **booleaanse operatoren**, zo geldt:
 > - and-operator `&`, bvb: `TRUE & FALSE` is `FALSE`;
-> - or-operator `|`, bvb: `TRUE | FALSE` is `TRUE`;
+> - or-operator `|`, bvb: `TRUE | FALSE` is `TRUE`, op een mac gebruik je de combinatie <kbd>SHIFT ⇧</kbd>+<kbd>OPTION ⌥</kbd>+<kbd>L</kbd>;
 > - not-operator `!`, bvb: `!TRUE` is `FALSE`.
