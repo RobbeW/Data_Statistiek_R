@@ -1,10 +1,10 @@
 Straling is één van de manieren waarop warmte wordt overgedragen. Je voelt dat een oven warm is zonder de deur aan te raken of naar binnen te kijken. Andere vormen zijn *conductie* en *convectie*.
 
-Alle objecten absorberen en geven straling af. De hoeveelheid warmte die per seconde wordt overgedragen door straling hangt in grote mate af van de kleur van het object. Zwart is zeer effectief, wit absorbeert de warmte veel minder goed. Ongetwijfeld heb je dit al gemerkt toen je op een zonnige dag een zwart shirt droeg. Het omgekeerde klopt ook, zwarte voorwerpen zullen warmte beter afgeven door straling.
+Alle objecten absorberen en geven straling af. De hoeveelheid warmte die wordt overgedragen door **straling** hangt in grote mate af van de kleur van het object. Zwart is zeer effectief, wit absorbeert de warmte veel minder goed. Ongetwijfeld heb je dit al gemerkt toen je op een zonnige dag een zwart shirt droeg. Het omgekeerde klopt ook, zwarte voorwerpen zullen warmte beter afgeven door straling.
 
 ![De stralingswarmte van het hete metaal is zichtbaar voor het menselijke oog.](media/Hot_metalwork.jpg "Foto door Fir0002/Flagstaffotos op Wikimedia Commons."){:data-caption="De stralingswarmte van het hete metaal is zichtbaar voor het menselijke oog." width="45%"}
 
-De hoeveelheid warmtestraling die overgedragen wordt per seconde $$H$$ (uitgedrukt in watt) wordt bepaald door de *Stefan-Boltzmann stralingswet*:
+De hoeveelheid warmtestraling die overgedragen wordt per tijdseenheid $$H$$ (uitgedrukt in watt) wordt bepaald door de *Stefan-Boltzmann stralingswet*:
 
 $$
     H = \sigma \cdot \epsilon \cdot A \cdot T^4
