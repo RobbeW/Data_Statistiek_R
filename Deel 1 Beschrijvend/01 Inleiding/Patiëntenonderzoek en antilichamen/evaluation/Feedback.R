@@ -35,8 +35,11 @@ context({
     }, c(18588, 10970, 21315, 16397, 34690))
   })
   testcase("De data frame werd correct aangemaakt:", {
-    testDF("coviddata", function(env) {
-      env$coviddata
-    }, coviddata)
+    testDF("coviddata", 
+           ignore_col_order = FALSE,
+           ignore_row_order = FALSE,
+           function(env) {
+             env$coviddata
+           }, coviddata)
   })
 })
