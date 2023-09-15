@@ -6,7 +6,7 @@ Een van de bepalende factoren is de gemiddelde bloeddruk MAP, deze wordt geschat
 
 $$
     
-    \text{MAP} \approx \text{DBP} + \dfrac{1}{2}\left(\text{SBP} - \text{DBP} \right)
+    \text{MAP} \approx \text{DBP} + \dfrac{1}{3}\left(\text{SBP} - \text{DBP} \right)
 $$
 
 Waarbij DBP de diastolische en SBP de systolische bloeddruk voorstellen.
