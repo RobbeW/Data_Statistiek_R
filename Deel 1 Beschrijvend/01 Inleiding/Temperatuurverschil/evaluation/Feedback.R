@@ -1,4 +1,22 @@
 context({
+  testcaseAssert("De variabele extreem_verschil bestaat.", function(env) {
+    isTRUE(exists("extreem_verschil", env))
+  })
+  testcaseAssert("De variabele graad_kouder_dan_normaal bestaat.",
+                 function(env) {
+                   isTRUE(exists("graad_kouder_dan_normaal", env))
+                 })
+  testcaseAssert("De variabele koude_maanden bestaat.", function(env) {
+    isTRUE(exists("koude_maanden", env))
+  })
+  testcaseAssert("De variabele extreem bestaat.", function(env) {
+    isTRUE(exists("extreem", env))
+  })
+  testcaseAssert("De variabele extreme_maanden bestaat.", function(env) {
+    isTRUE(exists("extreme_maanden", env))
+  })
+})
+context({
   testcase("Variabelen werden correct berekend:", {
     testEqual("extreem_verschil", function(env) {
       env$extreem_verschil
