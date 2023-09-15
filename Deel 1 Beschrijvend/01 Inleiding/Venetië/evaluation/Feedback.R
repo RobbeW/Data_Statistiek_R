@@ -1,20 +1,20 @@
 context({
-  testcaseAssert("De variabele aantal_waterstanden bestaat", function(env) {
+  testcaseAssert("De variabele aantal_waterstanden bestaat.", function(env) {
     isTRUE(exists("aantal_waterstanden", env))
   })
-  testcaseAssert("De variabele max_in_cm bestaat", function(env) {
+  testcaseAssert("De variabele max_in_cm bestaat.", function(env) {
     isTRUE(exists("max_in_cm", env))
   })
-  testcaseAssert("De variabele lichte_overstroming bestaat", function(env) {
+  testcaseAssert("De variabele lichte_overstroming bestaat.", function(env) {
     isTRUE(exists("lichte_overstroming", env))
   })
-  testcaseAssert("De variabele jaren_lichte_overstroming bestaat",
+  testcaseAssert("De variabele jaren_lichte_overstroming bestaat.",
     function(env) {
-      isTRUE(exists("jaren_lichte_overstroming", env))
+      isTRUE(exists("jaren_lichte_overstroming.", env))
     })
-  testcaseAssert("De variabele jaren_hoge_overstroming bestaat",
+  testcaseAssert("De variabele jaren_hoge_overstroming bestaat.",
     function(env) {
-      isTRUE(exists("jaren_hoge_overstroming", env))
+      isTRUE(exists("jaren_hoge_overstroming.", env))
     })
 })
 context({
