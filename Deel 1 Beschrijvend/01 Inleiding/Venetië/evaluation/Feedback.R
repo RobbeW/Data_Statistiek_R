@@ -10,11 +10,11 @@ context({
   })
   testcaseAssert("De variabele jaren_lichte_overstroming bestaat.",
     function(env) {
-      isTRUE(exists("jaren_lichte_overstroming.", env))
+      isTRUE(exists("jaren_lichte_overstroming", env))
     })
   testcaseAssert("De variabele jaren_hoge_overstroming bestaat.",
     function(env) {
-      isTRUE(exists("jaren_hoge_overstroming.", env))
+      isTRUE(exists("jaren_hoge_overstroming", env))
     })
 })
 context({
