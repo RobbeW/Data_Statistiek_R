@@ -12,4 +12,3 @@ brinell <- round(brinell, 4)
 
 # Harde materialen
 harde_materialen <- materialen[brinell >= 200]
-
