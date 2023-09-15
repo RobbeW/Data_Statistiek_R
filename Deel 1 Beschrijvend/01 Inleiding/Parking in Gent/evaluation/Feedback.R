@@ -1,4 +1,16 @@
 context({
+  testcaseAssert("De variabele vrije_plaatsen bestaat.", function(env) {
+    isTRUE(exists("vrije_plaatsen", env))
+  })
+  testcaseAssert("De variabele veel_plaats bestaat.", function(env) {
+    isTRUE(exists("veel_plaats", env))
+  })
+  testcaseAssert("De variabele parking_met_veel_plaats bestaat.",
+                 function(env) {
+                   isTRUE(exists("parking_met_veel_plaats", env))
+                 })
+})
+context({
   # Parkeerdata van Stad Gent
   data <- read.csv2(paste0("https://data.stad.gent/api/explore/v2.1/catalog/d",
                            "atasets/bezetting-parkeergarages-real-time/export",
