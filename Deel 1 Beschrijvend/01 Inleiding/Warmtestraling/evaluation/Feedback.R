@@ -57,7 +57,7 @@ context({
       env$zuinig
     }, c(TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE))
     testEqual("zuinige_stoffen", function(env) {
-      env$zuinige_kledij
+      env$zuinige_stoffen
     }, c("Katoen", "Wol", "Linnen", "Aluminium reddingsdeken")
 )
   })
