@@ -6,7 +6,7 @@ $$
     \dfrac{\text{kinderdosis}}{\text{volwassen dosis}} = \dfrac{\text{leeftijd kind}}{\text{leeftijd kind} + 12}
 $$
 
-![Medicatie.](media/mockup-graphics.jpg "Foto door Go to Melany @ tuinfosalud.com op Unsplash."){:data-caption="Medicatie." width="45%"}
+![Medicatie.](media/melany-tuinfosalud-com.jpg "Foto door Go to Melany @ tuinfosalud.com op Unsplash."){:data-caption="Medicatie." width="45%"}
 
 ## Gegeven
 
