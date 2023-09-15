@@ -28,6 +28,6 @@ Stel je voor dat je een onderzoeker bent die werkt aan een kleine studie waar vi
                             "basis" = antistoffen_basis,
                             "booster" = antistoffen_booster)
     ```
-- Bereken tot slot hoeveel antistoffen er **bijkwamen** na het toedienen van de boosterprik. Sla dit resultaat op in de variabele `booster`. Gebruik bij deze berekening de **accessor** `$` op het data frame. Bijvoorbeeld `coviddata$booster`.
+- Bereken tot slot hoeveel antistoffen er **bijkwamen** na het toedienen van de boosterprik. Sla dit resultaat op in de variabele `toenames`. Gebruik bij deze berekening de **accessor** `$` op het data frame. Bijvoorbeeld `coviddata$booster`.
 
 
