@@ -19,4 +19,4 @@ warmtestraling_in <- round(sigma * emissie * oppervlakte * 293^4, 2)
 verlies <- warmtestraling_uit - warmtestraling_in
 
 zuinig <- verlies < 87
-zuinige_kledij <- kledij[zuinig]
+zuinige_stoffen <- kledij[zuinig]

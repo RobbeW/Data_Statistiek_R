@@ -1,24 +1,24 @@
 context({
-  testcaseAssert("De variabele emissie bestaat", function(env) {
+  testcaseAssert("De variabele emissie bestaat.", function(env) {
     isTRUE(exists("emissie", env))
   })
-  testcaseAssert("De variabele temperatuur_kelvin bestaat", function(env) {
+  testcaseAssert("De variabele temperatuur_kelvin bestaat.", function(env) {
     isTRUE(exists("temperatuur_kelvin", env))
   })
-  testcaseAssert("De variabele verlies bestaat", function(env) {
+  testcaseAssert("De variabele verlies bestaat.", function(env) {
     isTRUE(exists("verlies", env))
   })
-  testcaseAssert("De variabele warmtestraling_uit bestaat", function(env) {
+  testcaseAssert("De variabele warmtestraling_uit bestaat.", function(env) {
     isTRUE(exists("warmtestraling_uit", env))
   })
-  testcaseAssert("De variabele warmtestraling_in bestaat", function(env) {
+  testcaseAssert("De variabele warmtestraling_in bestaat.", function(env) {
     isTRUE(exists("warmtestraling_in", env))
   })
-  testcaseAssert("De variabele zuinig bestaat", function(env) {
+  testcaseAssert("De variabele zuinig bestaat.", function(env) {
     isTRUE(exists("zuinig", env))
   })
-  testcaseAssert("De variabele zuinige_kledij bestaat", function(env) {
-    isTRUE(exists("zuinige_kledij", env))
+  testcaseAssert("De variabele zuinige_stoffen bestaat.", function(env) {
+    isTRUE(exists("zuinige_stoffen", env))
   })
 })
 context({
@@ -56,7 +56,7 @@ context({
     testEqual("zuinig", function(env) {
       env$zuinig
     }, c(TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, TRUE, FALSE, TRUE))
-    testEqual("zuinige_kledij", function(env) {
+    testEqual("zuinige_stoffen", function(env) {
       env$zuinige_kledij
     }, c("Katoen", "Wol", "Linnen", "Aluminium reddingsdeken")
 )

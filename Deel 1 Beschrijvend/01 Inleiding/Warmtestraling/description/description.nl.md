@@ -10,7 +10,7 @@ $$
     H = \sigma \cdot \epsilon \cdot A \cdot T^4
 $$
 
-waarbij $$\sigma$$ de *Stefan-Boltzmann constante* is, namelijk $$5,67 \cdot 10^{-8} \dfrac{\text{W}}{\text{m}^2 \cdot \text{K}^4}$$. Het getal $$\epsilon$$ de emissiecoëfficiënt, een getal tussen 0 en 1 dat aangeeft hoe goed een voorwerp warmte uitstraalt/absorbeert. Bij een perfect zwart object is dit 1 en bij een object dat alles reflecteert is dit 0. Tot slot stelt $$A$$ de oppervlakte van het object voor en $$T$$ de temperatuur van het object (in **graden kelvin**).
+waarbij $$\sigma$$ de *Stefan-Boltzmann constante* is, namelijk $$5,67 \cdot 10^{-8}$$ W / (m²·K⁴). Het getal $$\epsilon$$ de emissiecoëfficiënt, een getal tussen 0 en 1 dat aangeeft hoe goed een voorwerp warmte uitstraalt/absorbeert. Bij een perfect zwart object is dit 1 en bij een object dat alles reflecteert is dit 0. Tot slot stelt $$A$$ de oppervlakte van het object voor en $$T$$ de temperatuur van het object (in **kelvin**).
 
 ## Gegeven
 
@@ -43,4 +43,4 @@ De huidoppervlakte van een volwassen mens is ongeveer 1,5 m², de huidtemperatuu
 
 - Bereken nu het **nettoverlies** van energie door straling in de variabele `verlies`. Dit kan je beschouwen als de hoeveelheid watt die het lichaam elk uur verliest.
 
-- Een appel eten bevat ongeveer 75 kilocalorieën, of ongeveer 87 wattuur. Bepaal in de vector `zuinige_kledij` de kledij waarbij het warmteverlies gecompenseert wordt door een appel te eten. Gebruik hiervoor eerst een **booleaanse** vector `zuinig`. 
+- Een appel eten bevat ongeveer 75 kilocalorieën, of ongeveer 87 wattuur. Bepaal in de vector `zuinige_stof` de stoffen waarbij het warmteverlies gecompenseert wordt door een appel te eten. Gebruik hiervoor eerst een **booleaanse** vector `zuinig`. 
