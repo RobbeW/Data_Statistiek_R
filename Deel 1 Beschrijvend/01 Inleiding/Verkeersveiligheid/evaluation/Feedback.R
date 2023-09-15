@@ -1,4 +1,16 @@
 context({
+  testcaseAssert("De variabele aantal_doden bestaat.", function(env) {
+    isTRUE(exists("aantal_doden", env))
+  })
+  testcaseAssert("De variabele aantal_miljoen_gereden_km bestaat.",
+                 function(env) {
+                   isTRUE(exists("aantal_miljoen_gereden_km", env))
+                 })
+  testcaseAssert("De variabele risico bestaat.", function(env) {
+    isTRUE(exists("risico", env))
+  })
+})
+context({
   testcase("Variabelen zijn correct:", {
     testEqual("aantal_doden", function(env) {
       env$aantal_doden

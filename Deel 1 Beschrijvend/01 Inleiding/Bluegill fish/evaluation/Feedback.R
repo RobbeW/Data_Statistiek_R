@@ -1,4 +1,12 @@
 context({
+  testcaseAssert("De variabele leeftijden bestaat.", function(env) {
+    isTRUE(exists("leeftijden", env))
+  })
+  testcaseAssert("De variabele schatting_lengtes bestaat.", function(env) {
+    isTRUE(exists("schatting_lengtes", env))
+  })
+})
+context({
   testcase("Variabele werden correct gedeclareerd:", {
     testEqual("leeftijden", function(env) {
       env$leeftijden
