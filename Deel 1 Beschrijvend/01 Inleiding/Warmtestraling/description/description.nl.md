@@ -10,7 +10,7 @@ $$
     H = \sigma \cdot \epsilon \cdot A \cdot T^4
 $$
 
-waarbij $$\sigma$$ de *Stefan-Boltzmann constante* is, namelijk $$5,67 \cdot 10^{-8}$$ W / (m²·K⁴). Het getal $$\epsilon$$ de emissiecoëfficiënt, een getal tussen 0 en 1 dat aangeeft hoe goed een voorwerp warmte uitstraalt/absorbeert. Bij een perfect zwart object is dit 1 en bij een object dat alles reflecteert is dit 0. Tot slot stelt $$A$$ de oppervlakte van het object voor en $$T$$ de temperatuur van het object (in **kelvin**).
+waarbij $$\sigma$$ de *Stefan-Boltzmann constante* is, namelijk $$5,67 \cdot 10^{-8}$$ W / (m² · K⁴). Het getal $$\epsilon$$ de emissiecoëfficiënt, een getal tussen 0 en 1 dat aangeeft hoe goed een voorwerp warmte uitstraalt/absorbeert. Bij een perfect zwart object is dit 1 en bij een object dat alles reflecteert is dit 0. Tot slot stelt $$A$$ de oppervlakte van het object voor en $$T$$ de temperatuur van het object (in **kelvin**).
 
 ## Gegeven
 
