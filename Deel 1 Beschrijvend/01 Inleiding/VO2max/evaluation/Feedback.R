@@ -1,11 +1,11 @@
 context({
-  testcaseAssert("De variabele VO2max bestaat", function(env) {
+  testcaseAssert("De variabele VO2max bestaat.", function(env) {
     isTRUE(exists("VO2max", env))
   })
-  testcaseAssert("De variabele HR_max bestaat", function(env) {
+  testcaseAssert("De variabele HR_max bestaat.", function(env) {
     isTRUE(exists("HR_max", env))
   })
-  testcaseAssert("De variabele HR_rust bestaat", function(env) {
+  testcaseAssert("De variabele HR_rust bestaat.", function(env) {
     isTRUE(exists("HR_rust", env))
   })
 })
