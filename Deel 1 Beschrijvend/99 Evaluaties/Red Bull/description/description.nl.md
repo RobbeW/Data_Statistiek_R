@@ -16,7 +16,7 @@ Je vindt onderaan een **data frame** met de leeftijd, het geslacht en zowel de s
 
 - Hoeveel **procent** van de proefpersonen had te kamen met een noemenswaardige stijging van de bloeddruk? Bewaar dit in de variabele `grote_stijging`. (Tip: het aantal proefpersonen kan je opvragen via `length(data$age)`)
 
-- In plaats van steeds te werken met de systolische $$SP$$ en diastolische bloeddruk $$DP$$ gebruikt men vaak de **gemiddelde bloeddruk** $$MAP$$, zoals hieronder gedefinieerd.
+- In plaats van steeds te werken met de systolische $$\text{SP}$$ en diastolische bloeddruk $$\text{DP}$$ gebruikt men vaak de **gemiddelde bloeddruk** $$\text{MAP}$$, zoals hieronder gedefinieerd.
 
   Bereken de gemiddelde bloeddruk voor en na het drinken van het blikje Red Bull in de vectoren `map_pre_rb` en `map_post_rb`. Rond beide af op **één cijfer na de komma.**
 
