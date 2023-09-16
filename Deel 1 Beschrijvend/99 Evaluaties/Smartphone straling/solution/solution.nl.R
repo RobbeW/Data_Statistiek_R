@@ -13,6 +13,6 @@ sar_jas <- c(1.43, 0.987, 1.79, 0.476, 0.646, 0.452, 1.816, 0.704, 0.715, 2.67,
              1.25, 1.178, 3.024, 1.04, 0.912, 1.37, 0.843, 1.24, 0.846)
 
 # Geef hieronder een antwoord op de vragen
-niet_conform <- sar_broek > 4 & sar_jas > 2
+niet_conform <- sar_broek > 4 | sar_jas > 2
 
 modellen_conform <- paste(merk[!niet_conform], model[!niet_conform])
