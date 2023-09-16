@@ -39,4 +39,7 @@ Er zijn evemenenten in de Gentse binnenstad waar veel bezoekers met de fiets naa
 
 - De kolom **hoofdrichting** telde het aantal fietsers richting de Gentse binnenstad, **tegenrichting** is met andere woorden richting het Keizerspark. Zijn er dagen waarop het verschil tussen hoofdrichting en tegenrichting minimaal 1000 bedroeg? Bepaal eerst een variabele `verschil` waar je dit verschil uitrekent en **selecteer** vervolgens uit `data$datum` de dagen waarop vooral richting binnenstad gefietst werd. Sla deze selectie op in de variabele `richting_binnenstad`.
 
-
+{: .callout.callout-warning}
+>#### Opgelet!
+>
+> Deze code uitvoeren kan een eindje in beslag nemen, de dataset is namelijk vrij groot.
