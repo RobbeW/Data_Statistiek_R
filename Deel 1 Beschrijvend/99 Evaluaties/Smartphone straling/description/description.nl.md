@@ -24,7 +24,7 @@ ANFR testte nog verschillende andere toestellen, met onder andere de volgende <a
 
 ## Gevraagd
 
-- De maximale SAR waarden vastgelegd door Europa zijn: 2 W/kg voor een smartphone in een jaszak en 4 W/kg in een broekzak. Bepaal een booleaanse vector `niet_conform` waarbij je nagaat welke toestellen niet voldoen aan minstens één van deze voorwaarden.
+- De maximale SAR waarden vastgelegd door Europa zijn: 2 W/kg voor een smartphone in een jaszak en 4 W/kg in een broekzak. Bepaal een booleaanse vector `niet_conform` waarbij je nagaat welke toestellen **niet voldoen** aan minstens één van deze voorwaarden.
 
 - Gebruik deze booleaanse vector om een vector aan te maken met de toestellen die **wel** binnen de Europese grenzen liggen. Sla deze op in de variabele `modellen_conform`. Plak hierbij de merknaam en de modelnaam aan elkaar met behulp van `paste()`. 
 
