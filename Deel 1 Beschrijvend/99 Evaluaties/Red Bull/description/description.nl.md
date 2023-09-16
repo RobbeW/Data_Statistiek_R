@@ -6,7 +6,7 @@ In 2014 voerde *The American Journal of Cardiology* <a href="https://www.ajconli
 
 ## Gegeven
 
-Je vindt onderaan een dataset met de leeftijd, het geslacht en zowel de systolische (bovendruk) als diastolische (onderdruk) bloeddruk voor als na het drinken van water `w` en Red Bull `rb`. Ook de hartslag werd in alle gevallen geregistreerd. Voor het drinken werd geregistreerd als `pre` en na het drinken als `post`.
+Je vindt onderaan een **data frame** met de leeftijd, het geslacht en zowel de systolische (bovendruk) als diastolische (onderdruk) bloeddruk voor als na het drinken van water `w` en Red Bull `rb`. Ook de hartslag werd in alle gevallen geregistreerd. Voor het drinken werd geregistreerd als `pre` en na het drinken als `post`.
 
 ## Gevraagd
 
@@ -16,10 +16,12 @@ Je vindt onderaan een dataset met de leeftijd, het geslacht en zowel de systolis
 
 - Hoeveel **procent** van de proefpersonen had te kamen met een noemenswaardige stijging van de bloeddruk? Bewaar dit in de variabele `grote_stijging`. (Tip: het aantal proefpersonen kan je opvragen via `length(data$age)`)
 
-- In plaats van steeds te werken met de systolische $$SP$$ en diastolische bloeddruk $$DP$$ gebruikt men van de **gemiddelde bloeddruk** $$MAP$$, gedefinieerd als:
+- In plaats van steeds te werken met de systolische $$SP$$ en diastolische bloeddruk $$DP$$ gebruikt men vaak de **gemiddelde bloeddruk** $$MAP$$, zoals hieronder gedefinieerd.
+
+  Bereken de gemiddelde bloeddruk voor en na het drinken van het blikje Red Bull in de vectoren `map_pre_rb` en `map_post_rb`. Rond beide af op **één cijfer na de komma.**
 
 $$
     \text{MAP} = \text{DP} + \dfrac{1}{3} \left( \text{SP} - \text{DP} \right)
 $$
 
-  Bereken de gemiddelde bloeddruk voor en na het drinken van het blikje Red Bull in de vectoren `map_pre_rb` en `map_post_rb`. Rond beide af op **één cijfer na de komma.**
+  
