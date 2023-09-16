@@ -2,16 +2,13 @@
   "type": "exercise",
   "description": {
     "names": {
-      "nl": "Hart- en vaatziekten"
+      "nl": "Red Bull"
     }
   },
   "labels": [
     "R",
     "statistiek"
   ],
-  "evaluation": {
-    "network_enabled": true
-  },
   "access": "public",
   "internals": {
     "token": "2vwyWcnWBuSmBPkd_399W7cZQbTjdUqqbze6pIXzanteN2IXsVHPszwuTsD6rUjN",
