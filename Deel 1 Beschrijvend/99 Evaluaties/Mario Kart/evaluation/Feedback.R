@@ -56,5 +56,6 @@ context({
     testEqual("verschil", function(env) {
       env$verschil
     }, verschil)
+    testFunctionUsedInVar("round", "verschil")
   })
 })
