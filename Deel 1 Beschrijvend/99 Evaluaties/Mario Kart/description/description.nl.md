@@ -1,8 +1,7 @@
 Mario Kart is een populair racespel ontwikkeld door Nintendo. De versie <a href="https://nl.wikipedia.org/wiki/Mario_Kart_8" target="_blank">Mario Kart 8 Deluxe</a> is het best verkochte spel voor de Nintendo Switch met maar liefst 46,82 miljoen verkochte exemplaren.
 
-![Mario Kart Deluxe 8 voor de Nintendo Switch.](media/jacob-spaccavento.jpg "Foto door Jacob Spaccavento op Unsplash."){:data-caption="Mario Kart Deluxe 8 voor de Nintendo Switch." width="45%"}
+![Het introscherm van Mario Kart 64.](media/mario64.gif "Het introscherm van Mario Kart 64."){:data-caption="Het introscherm van Mario Kart 64." width="500px"}
 
-## Data frame ophalen
 Ook <a href="https://nl.wikipedia.org/wiki/Mario_Kart_64" target="_blank">Mario Kart 64</a> wordt nog vaak gespeeld. Deze <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-05-25/records.csv" target="_blank">dataset</a> bevat een overzicht van de recordtijden voor de verschillende circuits.
 
 Met onderstaande code kan je deze recordtijden ophalen, dit voor de aparte circuits, het aantal rondjes, het nemen van shortcuts, enz...
@@ -16,6 +15,7 @@ data <- aggregate(data$time, by = list(track = data$track, type = data$type,
                                        shortcut = data$shortcut), FUN = min)
 colnames(data) <- c("track", "type", "shortcut", "record_time")
 data <- data[order(data$track, data$type, data$shortcut), ]
+rownames(data) <- seq_len(nrow(data))
 ```
 
 ## Gegeven
@@ -23,13 +23,13 @@ data <- data[order(data$track, data$type, data$shortcut), ]
 Via `head(data)` een **voorsmaakje** opvragen resulteert in:
 
 ```
-               track       type shortcut record_time
-1  Banshee Boardwalk Single Lap       No       40.78
-17 Banshee Boardwalk  Three Lap       No      124.09
-2    Bowser's Castle Single Lap       No       43.15
-18   Bowser's Castle  Three Lap       No      132.00
-3     Choco Mountain Single Lap       No       38.02
-33    Choco Mountain Single Lap      Yes       38.02
+              track       type shortcut record_time
+1 Banshee Boardwalk Single Lap       No       40.78
+2 Banshee Boardwalk  Three Lap       No      124.09
+3   Bowser's Castle Single Lap       No       43.15
+4   Bowser's Castle  Three Lap       No      132.00
+5    Choco Mountain Single Lap       No       38.02
+6    Choco Mountain Single Lap      Yes       38.02
 ```
 
 Er zijn met dus **vier vectoren** terug te vinden in de data frame `data`.

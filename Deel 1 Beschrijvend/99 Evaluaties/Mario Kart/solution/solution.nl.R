@@ -7,6 +7,7 @@ data <- aggregate(data$time, by = list(track = data$track, type = data$type,
                                        shortcut = data$shortcut), FUN = min)
 colnames(data) <- c("track", "type", "shortcut", "record_time")
 data <- data[order(data$track, data$type, data$shortcut), ]
+rownames(data) <- seq_len(nrow(data))
 
 # Filter en selectie uitvoeren
 single_lap_no_shortcut <- data$type == "Single Lap" & data$shortcut == "No"

@@ -1,12 +1,34 @@
 context({
+  testcaseAssert("De variabele single_lap_no_shortcut bestaat.", function(env) {
+    isTRUE(exists("single_lap_no_shortcut", env))
+  })
+  testcaseAssert("De variabele three_lap_no_shortcut bestaat.", function(env) {
+    isTRUE(exists("three_lap_no_shortcut", env))
+  })
+  testcaseAssert("De variabele record_single_lap_no_shortcut bestaat.",
+                 function(env) {
+                   isTRUE(exists("record_single_lap_no_shortcut", env))
+                 })
+  testcaseAssert("De variabele record_three_lap_no_shortcut bestaat.",
+                 function(env) {
+                   isTRUE(exists("record_three_lap_no_shortcut", env))
+                 })
+  testcaseAssert("De variabele verschil bestaat.", function(env) {
+    isTRUE(exists("verschil", env))
+  })
+})
+context({
   # Gegevens ophalen
-  data <- read.csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-05-25/records.csv",
+  data <- read.csv(paste0("https://raw.githubusercontent.com/rfordatascience/",
+                          "tidytuesday/master/data/2021/2021-05-25/records.cs",
+                          "v"),
                    header = TRUE)
   # Aanpassen naar de recordtijden en wijzing kolomnamen
   data <- aggregate(data$time, by = list(track = data$track, type = data$type,
                                          shortcut = data$shortcut), FUN = min)
   colnames(data) <- c("track", "type", "shortcut", "record_time")
   data <- data[order(data$track, data$type, data$shortcut), ]
+  rownames(data) <- seq_len(nrow(data))
 
   # Filter en selectie uitvoeren
   single_lap_no_shortcut <- data$type == "Single Lap" & data$shortcut == "No"
