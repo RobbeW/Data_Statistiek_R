@@ -1,4 +1,4 @@
-De elektrische wagen is overduidelijk de wagen van de toekomst. Meerdere producenten hebben al aangekondigd om hun wagenpark volledig naar elektrische wagens om te schakelen.
+De elektrische wagen is overduidelijk de wagen van de toekomst. Meerdere producenten hebben al aangekondigd om hun wagenpark volledig naar elektrische wagens om te zetten.
 
 ![Een elektrische wagen is aan het opladen.](media/michael-fousert.jpg "Foto door Michael Fousert op Unsplash."){:data-caption="Een elektrische wagen is aan het opladen." width="45%"}
 
