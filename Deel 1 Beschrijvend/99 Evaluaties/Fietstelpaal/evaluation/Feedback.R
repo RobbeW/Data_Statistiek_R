@@ -1,12 +1,24 @@
 context({
+  testcaseAssert("De variabele drukke_dagen bestaat.", function(env) {
+    isTRUE(exists("drukke_dagen", env))
+  })
+  testcaseAssert("De variabele verschil bestaat.", function(env) {
+    isTRUE(exists("verschil", env))
+  })
+  testcaseAssert("De variabele richting_binnenstad bestaat.", function(env) {
+    isTRUE(exists("richting_binnenstad", env))
+  })
+})
+context({
   # Gegevens ophalen van het Open Data portaal
-  data <- read.csv("https://data.stad.gent/api/explore/v2.1/catalog/datasets/fietstelpaal-visserij-2023-gent/exports/csv",
+  data <- read.csv(paste0("https://data.stad.gent/api/explore/v2.1/catalog/da",
+                          "tasets/fietstelpaal-visserij-2023-gent/exports/csv"),
                    sep = ";", header = TRUE)
   data <- data.frame(aggregate(totaal ~ datum, data, sum),
                      tegenrichting = aggregate(tegenrichting ~ datum,
-                                              data, sum)$tegenrichting,
+                                               data, sum)$tegenrichting,
                      hoofdrichting = aggregate(hoofdrichting ~ datum,
-                                              data, sum)$hoofdrichting)
+                                               data, sum)$hoofdrichting)
 
   # Bepaal het gevraagde
   drukke_dagen <- data$datum[data$totaal > 8500]
