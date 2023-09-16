@@ -1,8 +1,8 @@
 context({
-  testcaseAssert("De variabele brinell bestaat", function(env) {
+  testcaseAssert("De variabele brinell bestaat.", function(env) {
     isTRUE(exists("brinell", env))
   })
-  testcaseAssert("De variabele harde_materialen bestaat", function(env) {
+  testcaseAssert("De variabele harde_materialen bestaat.", function(env) {
     isTRUE(exists("harde_materialen", env))
   })
 })
