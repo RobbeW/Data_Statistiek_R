@@ -9,6 +9,9 @@
     "R",
     "statistiek"
   ],
+  "evaluation": {
+    "network_enabled": true
+  },
   "access": "public",
   "internals": {
     "token": "q9yYwVUAxT6u-7CddEyBVu5cDIdTjW2yhxbgdKN3MNKj8yNcKp3ehvCUYHu_Fty3",
