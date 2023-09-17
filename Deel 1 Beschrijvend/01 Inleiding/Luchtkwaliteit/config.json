@@ -12,5 +12,9 @@
   "evaluation": {
     "network_enabled": true
   },
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "jd5Nz5e8egzPbGDdDG2ZfWQeaVV3uwtTn-B3Y6yDhMtyDvM6eB_7X7dRaBIZNbmU",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
