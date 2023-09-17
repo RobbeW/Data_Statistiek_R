@@ -7,6 +7,7 @@ context({
 })
 context({
   # Data scrapen
+  library(rvest, polite)
   cols <- c("datum", "kwaliteit", "enterococcus", "e_coli", "temp")
   data <- data.frame(matrix(nrow = 0, ncol = length(cols)))
   # Data uit een aantal pagina's extraheren
