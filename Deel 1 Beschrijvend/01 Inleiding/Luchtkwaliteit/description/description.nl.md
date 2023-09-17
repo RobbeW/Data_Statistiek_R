@@ -1,6 +1,6 @@
 <a href="https://nl.wikipedia.org/wiki/Fijnstof" target="_blank">Fijnstof</a> is een mengsel van microscopisch kleine vaste deeltjes. Dit is een vorm van luchtvervuiling, die ernstige gezondheidsklachten kan veroorzaken. Zo verliest in Vlaanderen elke inwoner gemiddeld ongeveer één gezond levensjaar door de chronische gezondheidseffecten van fijnstof.
 
-Niet ver van onze school, in de <a href="https://aqicn.org/station/@66337#/z/18" target="_blank">Tussen 't Pas straat</a> (zijstraat van de Volmolenstraat) wordt continu de luchtkwaliteit in de gaten gehouden door het aantal PM<sub>2,5</sub> stofdeeltjes te meten. Dit zijn stofdeeltjes die kleiner dan 2,5 µm zijn.
+Niet ver van onze school, in de <a href="https://aqicn.org/station/@66337#/z/18" target="_blank">Tussen 't Pas straat</a> (zijstraat van de Volmolenstraat) wordt continu de luchtkwaliteit in de gaten gehouden door het aantal PM<sub>2,5</sub> stofdeeltjes te meten. Dit zijn stofdeeltjes die kleiner dan 2,5 µm zijn. Ook het aantal PM<sub>10</sub> deetjes van kleiner dan 10µm wordt constant gemeten.
 
 ![Een rokende schouw.](media/air-quality.jpg "Een rokende schouw."){:data-caption="Een rokende schouw." width="45%"}
 
