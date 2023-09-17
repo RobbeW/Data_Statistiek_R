@@ -13,8 +13,8 @@ context({
       isTRUE(exists("spannende_marge_seconden", env))
     }
   )
-  testcaseAssert("De variabele speciale_winnaar bestaat.", function(env) {
-    isTRUE(exists("speciale_winnaar", env))
+  testcaseAssert("De variabele speciale_winnaars bestaat.", function(env) {
+    isTRUE(exists("speciale_winnaars", env))
   })
   testcaseAssert("De variabele jaren_amerika bestaat.", function(env) {
     isTRUE(exists("jaren_amerika", env))
@@ -43,8 +43,8 @@ context({
   spannende_jaren <- data$year[marge_minuten < 1]
   spannende_marge_seconden <- marge_minuten[marge_minuten < 1] * 60
 
-  # Evenveel etappes gewonnne als aan de leiding
-  speciale_winnaar <- data$winner_name[data$stage_wins == data$stages_led]
+  # Meer ritten gewonnen dan in het geel rijden
+  speciale_winnaars <- data$winner_name[data$stage_wins > data$stages_led]
 
   # Amerikaanse winnaars
   jaren_amerika <- data$year[data$winner == "Greg LeMond"
@@ -65,9 +65,9 @@ context({
     testEqual("spannende_marge_seconden", function(env) {
       env$spannende_marge_seconden
     }, spannende_marge_seconden)
-    testEqual("speciale_winnaar", function(env) {
-      env$speciale_winnaar
-    }, speciale_winnaar)
+    testEqual("speciale_winnaars", function(env) {
+      env$speciale_winnaars
+    }, speciale_winnaars)
     testEqual("jaren_amerika", function(env) {
       env$jaren_amerika
     }, jaren_amerika)

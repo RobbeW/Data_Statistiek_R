@@ -20,8 +20,8 @@ marge_minuten <- round(data$time_margin * 60, 2)
 spannende_jaren <- data$year[marge_minuten < 1]
 spannende_marge_seconden <- marge_minuten[marge_minuten < 1] * 60
 
-# Evenveel etappes gewonnne als aan de leiding
-speciale_winnaar <- data$winner_name[data$stage_wins == data$stages_led]
+# Meer ritten gewonnen dan in het geel rijden
+speciale_winnaars <- data$winner_name[data$stage_wins > data$stages_led]
 
 # Amerikaanse winnaars
 jaren_amerika <- data$year[data$winner == "Greg LeMond" |

@@ -41,7 +41,7 @@ Zoals je merkt bestaat de dataset uit heel wat vectoren, **tien om exact** te zi
 
 - In welke jaren was het echt spannend en was het tijdverschil tussen de winnaar en de zilveren medaille **minder dan** één minuut. Sla dit op in de vector `spannende_jaren`. Sla de bijbehorende tijdsmarge op in de vector `spannende_marge_seconden`, waarbij je deze tijdsmarge omrekent naar seconden.
 
-- Is er een renner die exact even veel etappes gewonnen heeft `data$stage_wins` als hij in het geel `data$stage_led` reed? Sla dit op in de vector `speciale_winnaar`.
+- Zijn er renners die meer ritten gewonnen hebben (`data$stage_wins`) dan dat ze in het geel (`data$stages_led`) reden? Sla dit op in de vector `speciale_winnaars`.
 
 - Amerika wordt in de dataset verschillende keer vertegenwoordigd. **Selecteer** de jaren waarop er een Amerikaan won in de vector `jaren_amerika`. De Amerikaanse winnaars waren <a href="https://nl.wikipedia.org/wiki/Greg_LeMond" target="_blank">Greg LeMond</a> en <a href="https://nl.wikipedia.org/wiki/Lance_Armstrong" target="_blank">Lance Armstrong</a>. 
 
