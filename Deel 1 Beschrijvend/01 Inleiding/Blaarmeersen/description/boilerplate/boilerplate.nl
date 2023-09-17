@@ -11,8 +11,8 @@ for (i in 0:20){
   result <-  as.data.frame(
     polite::bow(url)
     %>% polite::scrape(content="text/html; charset=UTF-8")
-    %>% html_nodes(".views-table")
-    %>% html_table())
+    %>% rvest::html_nodes(".views-table")
+    %>% rvest::html_table())
   data <- rbind(data, result[, !(names(result) %in% c("Cyanobacteriën"))])
 }
 colnames(data) <- cols
