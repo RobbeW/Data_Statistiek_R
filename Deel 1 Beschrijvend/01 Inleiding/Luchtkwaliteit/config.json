@@ -1,0 +1,16 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Luchtkwaliteit"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "evaluation": {
+    "network_enabled": true
+  },
+  "access": "public"
+}
