@@ -46,6 +46,6 @@ Zoals je merkt bestaat de dataset uit heel wat vectoren, **tien om exact** te zi
 - Amerika wordt in de dataset verschillende keer vertegenwoordigd. **Selecteer** de jaren waarop er een Amerikaan won in de vector `jaren_amerika`. De Amerikaanse winnaars waren <a href="https://nl.wikipedia.org/wiki/Greg_LeMond" target="_blank">Greg LeMond</a> en <a href="https://nl.wikipedia.org/wiki/Lance_Armstrong" target="_blank">Lance Armstrong</a>. 
 
 {: .callout.callout-secondary}
->#### Tip
+>#### Als achtergrondinformatie
 >
 > Lance Armstrong verloor zijn titels echter in 2013 nadat hij toegaf <a href="https://nl.wikipedia.org/wiki/Lance_Armstrong#Doping" target="_blank">doping</a> te hebben gebruikt.
