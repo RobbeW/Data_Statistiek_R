@@ -10,7 +10,7 @@ $$
 
 ## Gegeven
 
-Een patiënte met een te hoge bloeddruk, **hypertensie**, wordt behandeld in het ziekenhuis. Haar gemiddelde bloeddruk bedraagde 122,54 mm Hg en haar onderdruk 101,14 mm Hg. 
+Een patiënte met een te hoge bloeddruk, **hypertensie**, wordt behandeld in het ziekenhuis. Haar gemiddelde bloeddruk bedroeg 122,54 mm Hg en haar onderdruk 101,14 mm Hg. 
 
 ## Gevraagd
 
