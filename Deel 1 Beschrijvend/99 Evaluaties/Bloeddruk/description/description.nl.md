@@ -14,6 +14,6 @@ Een patiënte met een te hoge bloeddruk, **hypertensie**, wordt behandeld in het
 
 ## Gevraagd
 
-Maak een schatting bepalen van haar systolische druk en sla dit op in de variabele `sys_druk`. Gebruik hierbij de **variabelen** `dia_druk` en `gem_druk`.
+Maak een schatting van haar systolische druk en sla dit op in de variabele `sys_druk`. Gebruik hierbij de **variabelen** `dia_druk` en `gem_druk`.
 
 Gebruik `round()` om net zoals in Python het resultaat **af te ronden op 2 cijfers**. 
