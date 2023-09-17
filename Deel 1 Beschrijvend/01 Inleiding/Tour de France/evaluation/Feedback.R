@@ -44,7 +44,7 @@ context({
   spannende_marge_seconden <- marge_minuten[marge_minuten < 1] * 60
 
   # Meer ritten gewonnen dan in het geel rijden
-  speciale_winnaars <- data$winner_name[data$stage_wins > data$stages_led]
+  speciale_winnaars <- data$winner[data$stage_wins > data$stages_led]
 
   # Amerikaanse winnaars
   jaren_amerika <- data$year[data$winner == "Greg LeMond"
