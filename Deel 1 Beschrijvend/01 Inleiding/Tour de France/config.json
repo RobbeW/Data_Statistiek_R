@@ -1,0 +1,13 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Tour de France"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "access": "public"
+}
