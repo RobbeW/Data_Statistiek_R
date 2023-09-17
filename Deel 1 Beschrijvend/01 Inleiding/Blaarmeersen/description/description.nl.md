@@ -1,33 +1,12 @@
 Elke week wordt de waterkwaliteit van de Blaarmeersen gecontroleerd. De resultaten vind je terug op <a href="https://kwaliteitzwemwater.be/nl/blaarmeersen/blaarmeersen-zwemsportzone-gent?page=0">deze website</a>.
 
-![Een foto van de Blaarmeersen door stad Gent.](media/blaarmeersen.jpg "Een foto van de Blaarmeersen door stad Gent."){:data-caption="Een foto van de Blaarmeersen door stad Gent.." width="45%"}
+![Een foto van de Blaarmeersen door stad Gent.](media/blaarmeersen.jpg "Een foto van de Blaarmeersen door stad Gent."){:data-caption="Een foto van de Blaarmeersen door stad Gent." width="55%"}
 
-Bij zwemvijvers controleert men de waterstalen op de aanwezigheid van *intestinale enterokokken* en de *E. coli* bacterieen. Van deze stalen worden via een petrischaal het **kiemgetal** in CFU per 100 ml bepaald. Dit kiemgetal wordt weergeven op de bovenstaande website.
+Bij zwemvijvers controleert men de waterstalen op de aanwezigheid van *intestinale enterokokken* en de *E. coli* bacterieen. Van deze stalen worden via een petrischaal het <a href="https://nl.wikipedia.org/wiki/Kiemgetal" target="_blank">**kiemgetal**</a> in CFU per 100 ml bepaald. Dit kiemgetal wordt weergeven op de bovenstaande website.
 
 ## De waterkwaliteit 'ophalen'
 
-Via onderstaand commando kan je de gegevens uit de webpagina halen. 
-
-```R
-# Je dient eerst onderstaande pakketen te installeren via
-# install.packages(c("rvest", "polite"))
-library(rvest, polite)
-cols <- c("datum", "kwaliteit", "enterococcus", "e_coli", "temp")
-data <- data.frame(matrix(nrow = 0, ncol = length(cols)))
-# De eerste 15 pagina's ophalen
-for(i in 0:15){
-  url <- paste0("https://kwaliteitzwemwater.be/nl/blaarmeersen/blaarmeersen-zwemsportzone-gent?page=", i)
-  result <- polite::bow(url) %>%
-    polite::scrape(content="text/html; charset=UTF-8") %>%
-    html_nodes(".views-table") %>%
-    html_table()
-  data <- rbind(data, as.data.frame(result))
-}
-colnames(data) <- cols
-data$temp <- as.numeric(sub(",", ".", data$temp, fixed = TRUE))
-```
-
-De details van bovenstaand stukje code zijn zeker niet belangrijk. Een **voorsmaakje** van de dataset via `head(data)` resulteert in:
+Onderaan vind je de (lastige) code om de gegevens uit de website te extraheren. De details van die code zijn niet belangrijk. Een **voorsmaakje** van de dataset via `head(data)` resulteert in:
 
 ```
        datum kwaliteit enterococcus e_coli temp
