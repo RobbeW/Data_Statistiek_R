@@ -43,4 +43,4 @@ De huidoppervlakte van een volwassen mens is ongeveer 1,5 m², de huidtemperatuu
 
 - Bereken nu het **nettoverlies** van energie door straling in de variabele `verlies`. Dit kan je beschouwen als de hoeveelheid watt die het lichaam elk uur verliest.
 
-- Een appel eten bevat ongeveer 75 kilocalorieën, of ongeveer 87 wattuur. Bepaal in de vector `zuinige_stof` de stoffen waarbij het warmteverlies gecompenseert wordt door een appel te eten. Gebruik hiervoor eerst een **booleaanse** vector `zuinig`. 
+- Een appel eten bevat ongeveer 75 kilocalorieën, of ongeveer 87 wattuur. Bepaal in de vector `zuinige_stoffen` de stoffen waarbij het warmteverlies gecompenseert wordt door een appel te eten. Gebruik hiervoor eerst een **booleaanse** vector `zuinig`. 
