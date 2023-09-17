@@ -24,4 +24,4 @@ Zoals je merkt bestaat de dataset uit **vijf vectoren**. Gebruik deze om onderst
 
 ## Gevraagd
 
-- De code `data$datum >= 2023-01-01` leidt tot een booleaanse vector met de datums die **op of na 1 januari 2023** kwamen. **Selecteer** de gemeten watertemperaturen en gebruik dit om het aantal metingen uit 2023 op te slaan in de variabele `metingen_2023`.
+- De code `data$datum >= "2023-01-01"` leidt tot een **booleaanse vector** met de datums die **op of na 1 januari 2023** kwamen. **Selecteer** de gemeten watertemperaturen en gebruik dit om het aantal metingen uit 2023 op te slaan in de variabele `metingen_2023`.
