@@ -45,6 +45,12 @@ Zoals je merkt bestaat de dataset uit heel wat vectoren, **tien om exact** te zi
 
 - Amerika wordt in de dataset verschillende keer vertegenwoordigd. **Selecteer** de jaren waarop er een Amerikaan won in de vector `jaren_amerika`. De Amerikaanse winnaars waren <a href="https://nl.wikipedia.org/wiki/Greg_LeMond" target="_blank">Greg LeMond</a> en <a href="https://nl.wikipedia.org/wiki/Lance_Armstrong" target="_blank">Lance Armstrong</a>. 
 
+{: .callout.callout-info}
+>#### Tip
+>
+> Gelijkheid controleren doe je via `==`. Noteer dus `data$winner == Lance Armstrong`.
+
+
 {: .callout.callout-secondary}
 >#### Als achtergrondinformatie
 >
