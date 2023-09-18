@@ -48,7 +48,7 @@ Zoals je merkt bestaat de dataset uit heel wat vectoren, **tien om exact** te zi
 {: .callout.callout-info}
 >#### Tip
 >
-> Gelijkheid controleren doe je via `==`. Noteer dus `data$winner == Lance Armstrong`.
+> Gelijkheid controleren doe je via `==`. Noteer dus `data$winner == "Lance Armstrong"`.
 
 
 {: .callout.callout-secondary}
