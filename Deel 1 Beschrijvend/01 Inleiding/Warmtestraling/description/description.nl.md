@@ -4,7 +4,7 @@ Alle objecten absorberen en geven straling af. De hoeveelheid warmte die wordt o
 
 ![De stralingswarmte van het hete metaal is zichtbaar voor het menselijke oog.](media/Hot_metalwork.jpg "Foto door Fir0002/Flagstaffotos op Wikimedia Commons."){:data-caption="De stralingswarmte van het hete metaal is zichtbaar voor het menselijke oog." width="45%"}
 
-De hoeveelheid warmtestraling die overgedragen wordt per tijdseenheid $$H$$ (uitgedrukt in watt) wordt bepaald door de *Stefan-Boltzmann stralingswet*:
+De hoeveelheid warmtestraling $$H$$ die overgedragen wordt per tijdseenheid  (uitgedrukt in watt) wordt bepaald door de *Stefan-Boltzmann stralingswet*:
 
 $$
     H = \sigma \cdot \epsilon \cdot A \cdot T^4
