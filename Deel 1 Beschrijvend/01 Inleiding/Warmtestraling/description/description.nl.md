@@ -33,7 +33,7 @@ De huidoppervlakte van een volwassen mens is ongeveer 1,5 m², de huidtemperatuu
 
 - Vul de gegevens `sigma`, `oppervlakte` en `temperatuur_celcius` aan. (Tip: machten geef je in via `^`)
 
-- Bereken de absolute temperatuur in de variabele `temperatuur_kelvin`. Ter herinnering: 0°C = 273°K.
+- Bereken de absolute temperatuur in de variabele `temperatuur_kelvin`. (Ter herinnering: 0°C = 273K)
 
 - Maak de **vector** `emissie` aan. (respecteer de volgorde uit de tabel)
 
