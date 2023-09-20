@@ -67,7 +67,7 @@ context({
       env$spannende_marge_seconden
     }, list(spannende_marge_seconden, spannende_marge_seconden2),
     function(gen, exp) {
-      isTRUE(all.equal(gen, exp[1]) | all.equal(gen, exp[2]))
+      isTRUE(all.equal(gen, exp[[1]]) || all.equal(gen, exp[[2]]))
     })
     testEqual("speciale_winnaars", function(env) {
       env$speciale_winnaars
