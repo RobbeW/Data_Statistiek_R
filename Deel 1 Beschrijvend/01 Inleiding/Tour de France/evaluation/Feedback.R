@@ -65,9 +65,9 @@ context({
     }, spannende_jaren)
     testEqual("spannende_marge_seconden", function(env) {
       env$spannende_marge_seconden
-    }, list(spannende_marge_seconden, spannende_marge_seconden2),
+    }, paste(toString(spannende_marge_seconden), "of afgerond", toString(spannende_marge_seconden2)),
     function(gen, exp) {
-      isTRUE(all.equal(gen, exp[[1]]) || all.equal(gen, exp[[2]]))
+      isTRUE(all.equal(gen, spannende_marge_seconden)) | isTRUE(all.equal(gen, spannende_marge_seconden2))
     })
     testEqual("speciale_winnaars", function(env) {
       env$speciale_winnaars
