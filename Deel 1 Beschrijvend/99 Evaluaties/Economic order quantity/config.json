@@ -1,0 +1,13 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Optimale bestelhoeveelheid"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "access": "public"
+}
