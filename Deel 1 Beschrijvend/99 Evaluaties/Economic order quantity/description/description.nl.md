@@ -1,4 +1,4 @@
-<span class=".text-end"> <a href="https://dodona.be/nl/courses/2690" target="_blank">Link</a> naar de vorige oefeningen.</span>
+<div style="text-end"> <i class="mdi mdi-led-on mdi-24" title="link"></i> <a href="https://dodona.be/nl/courses/2690" target="_blank">Link</a> naar de vorige oefeningen.</div>
 
 Om voorraadproblemen te voorkomen, wordt de **EOQ** (Economic Order Quantity) gebruikt als wiskundige methode om te berekenen hoe vaak en in welke hoeveelheid een bestelling bij een leverancier moet worden geplaatst. De meest gebruikt formule werd ontwikkeld door <a href="https://en.wikipedia.org/wiki/Ford_Whitman_Harris" target="_blank">Ford W. Harris</a>. Deze formule gaat als volgt:
 
@@ -17,7 +17,7 @@ $$
 Q = \sqrt{\dfrac{2\cdot 12\,000 \cdot 43}{2,85}} \approx 600
 $$
 
-Het is dus optimaal om die 12 000 schoenen op te splitsen in 600 **aparte bestellingen**. In dit geval dus telkens van een bestelling van **20** schoenen.
+Het is dus optimaal om die 12 000 schoenen op te splitsen in 600 **aparte bestellingen**. In dit geval dus telkens een bestelling van **20** schoenen.
 
 ## Gegeven
 Je mag in het vervolg van deze oefening ervan uitgaan dat de kost voor opslag steeds €2,85 is. Daarnaast krijg je onderstaande tabel met gegevens van verschillende goederen, hun jaarlijkse vraag en de kosten per bestelling.
