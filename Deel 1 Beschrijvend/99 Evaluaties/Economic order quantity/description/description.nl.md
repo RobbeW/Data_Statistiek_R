@@ -1,4 +1,4 @@
-<div style="text-end"> <i class="mdi mdi-led-on mdi-24" title="link"></i> <a href="https://dodona.be/nl/courses/2690" target="_blank">Link</a> naar de vorige oefeningen.</div>
+<div class="text-end"> <i class="mdi mdi-led-on mdi-24" title="link"></i> <a href="https://dodona.be/nl/courses/2690" target="_blank">Link</a> naar de vorige oefeningen.</div>
 
 Om voorraadproblemen te voorkomen, wordt de **EOQ** (Economic Order Quantity) gebruikt als wiskundige methode om te berekenen hoe vaak en in welke hoeveelheid een bestelling bij een leverancier moet worden geplaatst. De meest gebruikt formule werd ontwikkeld door <a href="https://en.wikipedia.org/wiki/Ford_Whitman_Harris" target="_blank">Ford W. Harris</a>. Deze formule gaat als volgt:
 
@@ -7,6 +7,8 @@ Q = \sqrt{\dfrac{2\cdot D \cdot K}{h}}
 $$
 
 waarbij $$Q$$ de optimale bestelhoeveelheid is, $$D$$ de jaarlijkse vraag, $$K$$ de kosten per bestelling en $$h$$ de kosten voor de opslag in een magazijn.
+
+![Stockage van goederen.](media/petrebels.jpg "Foto door Petrebels op Unsplash."){:data-caption="Stockage van goederen." width="45%"}
 
 #### Voorbeeld
 Stel dat men jaarlijks 12 000 schoenen ($$D$$) van een bepaald type verkoopt. Elke bestelling gaat gepaard met wat kosten, denk maar aan verzending, reclame, controle van betaling, enz... Stel dat men dit op €43 schat ($$K$$). De bestelling in een opslagruimte bewaren komt natuurlijk ook met een kostprijs, bvb €2,85 ($$h$$). 
