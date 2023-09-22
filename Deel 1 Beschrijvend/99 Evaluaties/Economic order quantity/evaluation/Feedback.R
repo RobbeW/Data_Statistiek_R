@@ -16,9 +16,9 @@ context({
     }, 2.85)
     testEqual("D", function(env) {
       env$D
-    }, c(20000, 5000, 30000, 1e+05, 10000))
+    }, c(20000, 5000, 30000, 100000, 10000))
     testEqual("K", function(env) {
-      env$D
+      env$K
     }, c(60, 100, 200, 40, 80))
   })
 })
