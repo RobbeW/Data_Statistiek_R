@@ -37,7 +37,7 @@ Je mag in het vervolg van deze oefening ervan uitgaan dat de kost voor opslag st
 
 - **Vul** de gegevens in de code **aan**. Respecteer de volgorde uit de gegeven tabel.
 
-- Bereken telkens het optimale aantal bestellingen **EQO** ($$Q$$) in de variabele `eqo`. **Rond af** op 0 cijfers na de komma.
+- Bereken telkens het optimale aantal bestellingen **EOQ** ($$Q$$) in de variabele `eoq`. **Rond af** op 0 cijfers na de komma.
 
 - Bereken hoeveel items in elk **aparte** bestelling moeten zitten en bewaar dit in de variabele `aantal_te_bestellen`. Rond dit af naar boven met behulp van het commando `ceiling()` (Tip: lees het voorbeeld opnieuw indien je niet weet hoe je dit moet berekenen.)
 

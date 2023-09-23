@@ -24,10 +24,10 @@ context({
 })
 context({
   testcase("Variabele werd correct berekend:", {
-    testEqual("eqo", function(env) {
-      env$eqo
+    testEqual("eoq", function(env) {
+      env$eoq
     }, c(918, 592, 2052, 1675, 749))
-    testFunctionUsedInVar("round", "eqo")
+    testFunctionUsedInVar("round", "eoq")
     testEqual("aantal_te_bestellen", function(env) {
       env$aantal_te_bestellen
     }, c(22, 9, 15, 60, 14))

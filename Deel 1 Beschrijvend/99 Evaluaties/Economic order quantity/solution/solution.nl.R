@@ -8,8 +8,8 @@ goederen <- c("Ontstekings auto (bougie)", "Bepaald type smartphone",
               "Bestverkopende boeken")
 
 # Geef hieronder een antwoord op de vragen
-eqo <- round(sqrt(2 * D * K / h))
+eoq <- round(sqrt(2 * D * K / h))
 
-aantal_te_bestellen <- ceiling(D / eqo)
+aantal_te_bestellen <- ceiling(D / eoq)
 
 grote_bestelling <- goederen[aantal_te_bestellen >= 15]
