@@ -4,7 +4,7 @@
 
 Mario Kart is een populair racespel ontwikkeld door Nintendo. De versie <a href="https://nl.wikipedia.org/wiki/Mario_Kart_8" target="_blank">Mario Kart 8 Deluxe</a> is het best verkochte spel voor de Nintendo Switch met maar liefst 46,82 miljoen verkochte exemplaren.
 
-![Het introscherm van Mario Kart 64.](media/mario64.gif "Het introscherm van Mario Kart 64."){:data-caption="Het introscherm van Mario Kart 64." width="500px"}
+![Het introscherm van Mario Kart 64.](media/mario64.gif "Het introscherm van Mario Kart 64."){:data-caption="Het introscherm van Mario Kart 64." width="400px"}
 
 Ook <a href="https://nl.wikipedia.org/wiki/Mario_Kart_64" target="_blank">Mario Kart 64</a> wordt nog vaak gespeeld. Deze <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-05-25/records.csv" target="_blank">dataset</a> bevat een overzicht van de recordtijden voor de verschillende circuits.
 
@@ -40,10 +40,14 @@ Er zijn met dus **vier vectoren** terug te vinden in de data frame `data`.
 
 ## Gevraagd
 
-Je merkt dat de recordtijd van zowel **Single laps** als **Three laps** gegeven wordt, eventueel met of zonder **shortcut**. Verschilt de recordtijd op de **Three laps** veel van het drievoud van de recordtijd op de **Single laps**?
+Je merkt dat de recordtijd (in seconden) van zowel **Single laps** (één rondje) als **Three laps** (drie rondjes) gegeven wordt, eventueel met of zonder **shortcut**. Verschilt de recordtijd op de **Three laps** veel van het drievoud van de recordtijd op de **Single laps**?
 
-- Maak twee **booleaanse** vectoren `single_lap_no_shortcut` en `three_lap_no_shortcut` aan, waarbij je respectievelijk de tijden op **Single lap** of **Three lap** en dit **zonder shortcut** selecteert.
+- Maak twee **booleaanse** vectoren `single_lap_no_shortcut` en `three_lap_no_shortcut` aan, waarbij je respectievelijk de tijden op **Single laps** of **Three laps** en dit **zonder shortcut** selecteert.
+
+- Selecteer de namen van de bijbehorende **tracks** in de vector `tracks`. (Kies hiervoor één van de booleaanse vectoren)
 
 - Maak nu twee vectoren `record_single_lap_no_shortcut` en `record_three_lap_no_shortcut` aan, met enkel de recordtijden.
 
 - Bereken het **verschil** de recordtijd op de drie rondjes en het **drievoud** van de recordtijd op één enkel rondje. Sla dit op in de variabele `verschil`. Rond dit verschil af op **twee cijfers na de komma**.
+
+- Voor welke **tracks** is dit verschil *minstens 5 seconden*? Bewaar dit in `trage_tracks`.

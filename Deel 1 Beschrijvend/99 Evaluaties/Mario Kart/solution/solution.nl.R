@@ -13,8 +13,12 @@ rownames(data) <- seq_len(nrow(data))
 single_lap_no_shortcut <- data$type == "Single Lap" & data$shortcut == "No"
 three_lap_no_shortcut <- data$type == "Three Lap" & data$shortcut == "No"
 
+tracks <- data$track[single_lap_no_shortcut]
+
 record_single_lap_no_shortcut <- data$record_time[single_lap_no_shortcut]
 record_three_lap_no_shortcut <- data$record_time[three_lap_no_shortcut]
 
 verschil <- round(record_three_lap_no_shortcut
                   - 3 * record_single_lap_no_shortcut, 2)
+
+trage_tracks <- tracks[verschil >= 5]
