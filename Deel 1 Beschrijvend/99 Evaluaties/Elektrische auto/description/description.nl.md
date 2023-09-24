@@ -1,3 +1,7 @@
+<div class="text-end">
+<a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 De elektrische wagen is overduidelijk de wagen van de toekomst. Meerdere producenten hebben al aangekondigd om hun wagenpark volledig naar elektrische wagens om te zetten.
 
 ![Een elektrische wagen is aan het opladen.](media/michael-fousert.jpg "Foto door Michael Fousert op Unsplash."){:data-caption="Een elektrische wagen is aan het opladen." width="45%"}

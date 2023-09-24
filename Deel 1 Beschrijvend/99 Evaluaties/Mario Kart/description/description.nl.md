@@ -1,3 +1,7 @@
+<div class="text-end">
+<a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 Mario Kart is een populair racespel ontwikkeld door Nintendo. De versie <a href="https://nl.wikipedia.org/wiki/Mario_Kart_8" target="_blank">Mario Kart 8 Deluxe</a> is het best verkochte spel voor de Nintendo Switch met maar liefst 46,82 miljoen verkochte exemplaren.
 
 ![Het introscherm van Mario Kart 64.](media/mario64.gif "Het introscherm van Mario Kart 64."){:data-caption="Het introscherm van Mario Kart 64." width="500px"}

@@ -1,3 +1,8 @@
+<div class="text-end">
+<a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
+
 De bloeddruk is de vloeistofdruk in het slagadersysteem. Deze wordt weergeven met twee kentallen, de **systolische druk** of *bovendruk* en de **diastolische druk** of *onderdruk*. Voor een gezonde persoon zijn dit waarden rond de 120/80 mm Hg, waarbij de bovendruk dus 120 mm Hg en de onderduk 80 mm Hg bedraagt. Bloeddruk wordt omwille van historische redenen uitgedrukt in mm Hg (millimeter kwikdruk) in plaats van de SI-eenheid pascal.
 
 Het is ook mogelijk een waarde voor de **gemiddelde bloeddruk** $$\text{MAP}$$ - *Mean Arterial Pressure* - te geven, hiervoor gebruikt men onderstaande formule, met $$\text{DP}$$ de diastolische druk en $$\text{SP}$$ de systolische druk:

@@ -1,3 +1,7 @@
+<div class="text-end">
+<a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 Om de **hardheid** van een materiaal in een getal te bevatten werd de Brinellhardheid in 1900 door <a href="https://nl.wikipedia.org/wiki/Johan_August_Brinell" target="_blank">Johan August Brinell</a> gedefinieerd.
 
 Bij deze methode wordt een stalen kogel (of een kogel van wolfraamcarbide bij hardere materialen) gedurende een korte periode (ca. 10 seconden) met een bepaalde kracht in een ander materiaal gedrukt. Nadien meet men de diameter $$d$$ van de indeuking.

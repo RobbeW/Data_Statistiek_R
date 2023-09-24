@@ -1,3 +1,7 @@
+<div class="text-end">
+<a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 Op 13 september 2023 lazen we op VRT.NWS <a href="https://www.vrt.be/vrtnws/nl/2023/09/13/iphone-12-frankrijk-belgie-stralingen" target="_blank">dit artikel</a> getiteld "Frankrijk verbiedt iPhone 12 door "te hoge straling".
 
 De Franse overheidsinstantie <a href="https://www.anfr.fr/liste-actualites/actualite/retrait-temporaire-du-marche-de-liphone-12-pour-non-conformite-de-ces-appareils-a-la-reglementation-europeenne" target="_blank">ANFR</a> onderzocht de zogenaamde SAR of *specific absorption rate*. Dit getal geeft aan hoeveel energie het toestel via straling afgeeft aan het lichaam. Een smartphone in je broekzak steken zorgt ervoor dat dit toestel energie afgeeft en dit mag volgens Europa niet meer dan 4 watt per kilogram lichaamsgewicht zijn.

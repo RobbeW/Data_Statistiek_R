@@ -1,3 +1,7 @@
+<div class="text-end">
+<a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 De stiptheid van de Belgische spoorwegen blijft een gevoelig punt. Infrabel deelt via zijn <a href="https://opendata.infrabel.be/explore" target="_blank">Open Data</a> geneutraliseerde cijfers van de stiptheid. **Geneutraliseerd** betekent dat vertragingen ten gevolge van kabeldiefstallen, agressie, ... niet werden meegerekend.
 
 ![Een NMBS Desiro trein in Brugge.](media/warre-van-de-wouwer.jpg "Foto door Warre Van de Wouwer op Unsplash."){:data-caption="Een NMBS Desiro trein in Brugge." width="45%"}

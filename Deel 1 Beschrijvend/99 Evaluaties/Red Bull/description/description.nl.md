@@ -1,3 +1,7 @@
+<div class="text-end">
+<a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 Het drankje Red Bull wordt in de markt gezet als bevorderlijk bij mentale stress. Men claimt dat het bijvoorbeeld zou helpen bij het studeren.
 
 In 2014 voerde *The American Journal of Cardiology* <a href="https://www.ajconline.org/article/S0002-9149(14)02005-0/fulltext" target="_blank">een onderzoek</a> uit naar deze beweringen. 20 jonge mensen moesten ofwel een blikje Red Bull, ofwel een blikje water drinken en 80 minuten later gedurende 5 minuten een rekentest uitvoeren. Enkele dagen later werden de rollen omgekeerd, de eerste groep dronk dan een blikje water, de tweede groep een blikje Red Bull.

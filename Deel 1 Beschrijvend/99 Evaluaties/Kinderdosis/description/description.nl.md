@@ -1,3 +1,7 @@
+<div class="text-end">
+<a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 De meeste geneesmiddelen bevatten in de bijsluiter informatie over de juiste kinderdosis. Indien dit ontbreekt kan de regel van Young gebruikt worden, deze werd bedacht door de geneesheer en wetenschapper <a href="https://en.wikipedia.org/wiki/Thomas_Young_(scientist)" target="_blank">Thomas Young</a>.
 
 De regel werkt als volgt:
