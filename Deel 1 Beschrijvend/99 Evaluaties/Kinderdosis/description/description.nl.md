@@ -7,7 +7,7 @@ De meeste geneesmiddelen bevatten in de bijsluiter informatie over de juiste kin
 De regel werkt als volgt:
 
 $$
-    \dfrac{\text{kinderdosis}}{\text{volwassen dosis}} = \dfrac{\text{leeftijd kind}}{\text{leeftijd kind} + 12}
+    \dfrac{\text{volwassen dosis}}{\text{kinderdosis}} = \dfrac{\text{leeftijd kind} + 12}{\text{leeftijd kind}}
 $$
 
 ![Medicatie.](media/melany-tuinfosalud-com.jpg "Foto door Go to Melany @ tuinfosalud.com op Unsplash."){:data-caption="Medicatie." width="45%"}
