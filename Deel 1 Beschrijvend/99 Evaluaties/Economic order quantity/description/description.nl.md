@@ -1,5 +1,5 @@
 <div class="text-end">
-<a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-led-on mdi-24" title="link"></i>Link</a> naar de vorige oefeningen.
+<a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
 </div>
 
 Om voorraadproblemen te voorkomen, wordt de **EOQ** (Economic Order Quantity) gebruikt als wiskundige methode om te berekenen hoe vaak en in welke hoeveelheid een bestelling bij een leverancier moet worden geplaatst. De meest gebruikt formule werd ontwikkeld door <a href="https://en.wikipedia.org/wiki/Ford_Whitman_Harris" target="_blank">Ford W. Harris</a>. Deze formule gaat als volgt:
