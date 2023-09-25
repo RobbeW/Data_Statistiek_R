@@ -18,6 +18,8 @@ context({
       env$gem_druk
     }, 122.54)
   })
+})
+context({
   testcase("Variabele werd correct berekend:", {
     testEqual("sys_druk", function(env) {
       env$sys_druk
@@ -25,4 +27,3 @@ context({
     testFunctionUsedInVar("round", "sys_druk")
   })
 })
-
