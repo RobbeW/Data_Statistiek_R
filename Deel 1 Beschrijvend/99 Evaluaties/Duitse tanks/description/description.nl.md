@@ -10,7 +10,7 @@ $$
     N = m + \dfrac{m}{k} - 1
 $$
 
-![HDe Panzerkampfwagen V type 'Panther'.](media/Panzer_V_Panther.jpg "Foto uit het Bundesarchiv, Bild 183-H26258."){:data-caption="De Panzerkampfwagen V type 'Panther'." width="40%"}
+![De Panzerkampfwagen V type 'Panther'.](media/Panzer_V_Panther.jpg "Foto uit het Bundesarchiv, Bild 183-H26258."){:data-caption="De Panzerkampfwagen V type 'Panther'." width="40%"}
 
 ## Gegeven
 
