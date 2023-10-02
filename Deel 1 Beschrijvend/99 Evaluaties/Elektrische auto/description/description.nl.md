@@ -50,4 +50,4 @@ Hier volgt wat uitleg over deze data frame met **acht vectoren**.
 
 - De kolom `fastcharge` geeft het aantal rijbare km dat *opgeladen* wordt in één uur. Bijvoorbeeld: voor de Tesla Model 3 merken we dat de actieradius 450 km, terwijl een uur opladen in 940 km rijbare km's zou resulteren. Hieruit kan je besluiten dat de Tesla Model 3 na een ongeveer half uur snelladen volledig opgeladen is. (Om exacter te zijn, na ca. 28 min)
 
-  Bepaal een vector `laadtijd` waar je het **aantal minuten** berekent voordat de wagen volledig geladen is (via een snellader). Rond af op een aantal minuten (dus 0 cijfers na de komma)
+  Bepaal een vector `laadtijden` waar je het **aantal minuten** berekent voordat de wagen volledig geladen is (via een snellader). Rond af op een aantal minuten (dus 0 cijfers na de komma)

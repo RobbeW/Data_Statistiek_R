@@ -23,4 +23,7 @@ range_winter <- data$range * 0.85
 wagens_winter <- data$model[range_winter >= 200]
 
 # Laadtijden
-laadtijden <- round(data$range / data$fastcharge * 60)
+laadtijden_round <- round(data$range / data$fastcharge * 60)
+laadtijden_ceil <- ceiling(data$range / data$fastcharge * 60)
+
+laadtijden <- laadtijden_ceil

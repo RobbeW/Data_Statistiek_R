@@ -16,26 +16,38 @@ context({
   })
 })
 context({
-  testcase("Variabelen werden correct bepaald:", {
+  testcase("Variabele werd correct bepaald:", {
     testEqual("topmodellen", function(env) {
       env$topmodellen
     }, c("Lucid Air", "Tesla Cybertruck Tri Motor", "Tesla Roadster"))
+  })
+})
+context({
+  testcase("Variabele werd correct bepaald:", {
     testEqual("topprijzen", function(env) {
       env$topprijzen
     }, c(105000, 75000, 215000))
+  })
+})
+context({
+  testcase("Variabele werd correct bepaald:", {
     testEqual("range_winter", function(env) {
       env$range_winter
-    }, c(382.5, 229.5, 340, 306, 144.5, 518.5, 161.5, 233.75, 263.5, 
-340, 314.5, 187, 340, 382.5, 212.5, 374, 318.75, 165.75, 187, 
-157.25, 233.75, 361.25, 246.5, 361.25, 369.75, 357, 297.5, 318.75, 
-199.75, 212.5, 238, 314.5, 267.75, 637.5, 153, 276.25, 229.5, 
-361.25, 263.5, 297.5, 437.75, 216.75, 323, 165.75, 165.75, 310.25, 
-284.75, 310.25, 488.75, 284.75, 310.25, 824.5, 216.75, 357, 382.5, 
-144.5, 212.5, 212.5, 429.25, 216.75, 348.5, 374, 310.25, 382.5, 
-361.25, 161.5, 391, 365.5, 195.5, 340, 327.25, 331.5, 191.25, 
-199.75, 348.5, 289, 331.5, 289, 374, 306, 280.5, 212.5, 331.5, 
-250.75, 340, 272, 272, 310.25, 357, 212.5, 289, 195.5, 276.25, 
+    }, c(382.5, 229.5, 340, 306, 144.5, 518.5, 161.5, 233.75, 263.5,
+340, 314.5, 187, 340, 382.5, 212.5, 374, 318.75, 165.75, 187,
+157.25, 233.75, 361.25, 246.5, 361.25, 369.75, 357, 297.5, 318.75,
+199.75, 212.5, 238, 314.5, 267.75, 637.5, 153, 276.25, 229.5,
+361.25, 263.5, 297.5, 437.75, 216.75, 323, 165.75, 165.75, 310.25,
+284.75, 310.25, 488.75, 284.75, 310.25, 824.5, 216.75, 357, 382.5,
+144.5, 212.5, 212.5, 429.25, 216.75, 348.5, 374, 310.25, 382.5,
+361.25, 161.5, 391, 365.5, 195.5, 340, 327.25, 331.5, 191.25,
+199.75, 348.5, 289, 331.5, 289, 374, 306, 280.5, 212.5, 331.5,
+250.75, 340, 272, 272, 310.25, 357, 212.5, 289, 195.5, 276.25,
 280.5, 284.75, 276.25, 318.75, 340))
+  })
+})
+context({
+  testcase("Variabele werd correct bepaald:", {
     testEqual("wagens_winter", function(env) {
       env$wagens_winter
     }, c("Tesla Model 3 Long Range Dual Motor", "Volkswagen ID.3 Pure", 
@@ -65,15 +77,30 @@ context({
 "Fiat 500e Convertible", "Volkswagen ID.3 Pro Performance", "Byton M-Byte 72 kWh 2WD", 
 "Nissan Ariya 63kWh", "Audi e-tron S Sportback 55 quattro", "Nissan Ariya e-4ORCE 63kWh", 
 "Nissan Ariya e-4ORCE 87kWh Performance", "Byton M-Byte 95 kWh 2WD"))
-    testEqual("laadtijden", function(env) {
-      env$laadtijden
-    }, c(29, 65, 39, 39, 54, 59, 52, 39, 29, 44, 50, 57, 63, 42, 71, 
+  })
+})
+context({
+  laadtijd_round <- c(29, 65, 39, 39, 54, 59, 52, 39, 29, 44, 50, 57, 63, 42, 71, 
 45, 29, 69, 51, 43, 39, 27, 76, 30, 29, 45, 43, 48, 52, 39, 37, 
 63, 82, 63, 45, 50, 85, 45, 81, 48, 55, 73, 37, 69, 69, 64, 96, 
 30, 64, 57, 37, 63, 39, 45, 55, 54, 39, 39, 55, 67, 27, 51, 64, 
 63, 29, 60, 39, 63, 53, 44, 30, 51, 50, 61, 45, 57, 29, 43, 55, 
 57, 68, 45, 32, 38, 44, 44, 38, 68, 50, 45, 43, 63, 46, 45, 37, 
-44, 50, 50))
-    testFunctionUsedInVar("round", "laadtijden")
+44, 50, 50)
+laadtijd_ceil <- c(29, 65, 39, 39, 54, 60, 52, 40, 29, 45, 51, 58, 64, 42, 72, 
+45, 29, 69, 51, 43, 40, 28, 76, 30, 29, 45, 43, 48, 53, 40, 38, 
+64, 83, 64, 45, 50, 86, 45, 81, 48, 56, 73, 38, 69, 69, 65, 96, 
+30, 64, 58, 38, 64, 40, 45, 56, 54, 40, 40, 56, 67, 28, 51, 65, 
+63, 29, 60, 39, 63, 54, 45, 30, 51, 50, 62, 45, 57, 29, 44, 55, 
+57, 69, 46, 32, 38, 45, 44, 38, 69, 51, 46, 44, 63, 47, 45, 38, 
+45, 50, 50)
+
+  testcase("Variabele werd correct bepaald:", {
+    testEqual("laadtijden", function(env) {
+      env$laadtijden
+    }, paste(toString(laadtijd_ceil), "of afgerond", toString(laadtijd_round)),
+    function(gen, exp) {
+      isTRUE(all.equal(gen, laadtijd_ceil)) | isTRUE(all.equal(gen, laadtijd_round))
+    })
   })
 })
