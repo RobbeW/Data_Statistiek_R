@@ -10,6 +10,7 @@
     "statistiek"
   ],
   "evaluation": {
+    "time_limit": 180,
     "network_enabled": true
   },
   "access": "public",
