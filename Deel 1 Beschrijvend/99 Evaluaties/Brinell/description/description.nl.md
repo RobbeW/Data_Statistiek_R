@@ -8,7 +8,7 @@ Bij deze methode wordt een stalen kogel (of een kogel van wolfraamcarbide bij ha
 
 ![Een deuk van Brinell test.](media/Brinell_dent.jpg "Foto door IGW op Wikimedia Commons."){:data-caption="Een deuk van Brinell test." width="45%"}
 
-De formule om de Brinell hardheid $$\text{HB}$$ te bepalen werkt dan als volgt:
+De formule om de Brinell hardheid $$\text{HB}$$ (in N/mm²) te bepalen werkt dan als volgt:
 
 $$
 \text{HB} = 0,102 \cdot \dfrac{2 \cdot \text{F}}{\pi \cdot \text{D} \cdot (\text{D} - \sqrt{\text{D}^2 - \text{d}^2})}
@@ -40,4 +40,4 @@ Men test verschillende materialen en bekomt de volgende meetresultaten:
 
 - Maak een vector `brinell` aan waar je de Brinellharheid uitrekent via de gedefinieerde formule. (Tip, R kent `pi`.) Rond de resultaten in deze vector af op **vier cijfers na de komma**.
 
-- **Selecteer** uit de vector `materialen`, deze met een Brinellhardheid van 200 HB of hoger, sla deze op in de vector `harde_materialen`. Maak hiervoor **eerst** een **booleaanse vector** aan.
+- **Selecteer** uit de vector `materialen`, deze met een Brinellhardheid van 200 N/mm² of hoger, sla deze op in de vector `harde_materialen`. Maak hiervoor **eerst** een **booleaanse vector** aan.
