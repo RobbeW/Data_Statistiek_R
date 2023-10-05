@@ -2,72 +2,39 @@ Op deze pagina vind je de syntax van de verschillende controlestructuren in R. E
 
 ### De selectiestructuur
 
-Een **eenvoudige keuzestructuur** in Python zag er als volgt uit:
-
-```python
-if voorwaarde:
-    actie
-```
-
-Of een **meervoudige keuze** behulp van `elif`:
-
-```python
-if voorwaarde:
-    actie_1
-elif voorwaarde:
-    actie_2
-else:
-    actie_3
-```
-
-Dit kan ook binnen R, met de volgende syntax:
+De **enkelvoudige keuzestructuur** binnen R heeft de volgende syntax:
 ```R
 if (voorwaarde) {
-  actie
+  <actie>
 }
 ```
 
-Of een meervoudige keuzestructuur:
+Of een **meervoudige keuzestructuur**:
 ```R
 if (voorwaarde) {
-  actie_1
+  <actie_1>
 } else if (voorwaarde) {
-  actie_2
+  <actie_2>
 } else {
-  actie_3
+  <actie_3>
 }
 ```
 
 ### De begrensde herhaling
 
-Een typische begrensde herhaling werd binnen Python als volgt gecodeerd:
-
-```python
-for i in range(n):
-    acties
-```
-
-In R wordt dit als volgt gecodeerd:
+Een typische **begrensde herhaling** wordt binnen R als volgt geprogrammeerd:
 
 ```R
 for (i in 1:n) {
-  acties
+  <acties>
 }
 ```
 
-Je kon binnen Python itereren over **lijsten**:
-
-```python
-lijst = ['item_1', 'item_2', 'item_3']
-for item in lijst:
-    acties
-```
-
-Dit kan analoog voor de **vectoren** in R.
+Dit werkt analoog voor **vectoren** in R.
 ```R
 vector <- c("item_1", "item_2", "item_3")
 for (item in vector) {
-  acties
+  <acties>
 }
 ```
 
