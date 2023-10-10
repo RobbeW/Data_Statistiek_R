@@ -42,6 +42,7 @@ context({
   # Spannende edities
   spannende_jaren <- data$year[marge_minuten < 1]
   spannende_marge_seconden <- marge_minuten[marge_minuten < 1] * 60
+  spannende_marge_seconden2 <- data$time_margin[marge_minuten < 1]*3600
 
   # Meer ritten gewonnen dan in het geel rijden
   speciale_winnaars <- data$winner[data$stage_wins > data$stages_led]
@@ -64,7 +65,10 @@ context({
     }, spannende_jaren)
     testEqual("spannende_marge_seconden", function(env) {
       env$spannende_marge_seconden
-    }, spannende_marge_seconden)
+    }, paste(toString(spannende_marge_seconden), "of afgerond", toString(spannende_marge_seconden2)),
+    function(gen, exp) {
+      isTRUE(all.equal(gen, spannende_marge_seconden)) | isTRUE(all.equal(gen, spannende_marge_seconden2))
+    })
     testEqual("speciale_winnaars", function(env) {
       env$speciale_winnaars
     }, speciale_winnaars)

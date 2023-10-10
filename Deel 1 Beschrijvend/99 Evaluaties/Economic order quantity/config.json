@@ -2,20 +2,16 @@
   "type": "exercise",
   "description": {
     "names": {
-      "nl": "Fietstelpaal"
+      "nl": "Optimale bestelhoeveelheid"
     }
   },
   "labels": [
     "R",
     "statistiek"
   ],
-  "evaluation": {
-    "time_limit": 180,
-    "network_enabled": true
-  },
   "access": "public",
   "internals": {
-    "token": "mD9qx_hmedG6vCnZSgRsSYT-HfabKzcgkQVKWNC5gEgphdtwtC7sJCXHQYpKy-NQ",
+    "token": "V5QCjhc6kAMccD8tIZExR6C_3sQDIuhQ43pWWKNgR6bw45qvxgmSCGEpDhXnNUks",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

@@ -1,3 +1,7 @@
+<div class="text-end">
+<a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 De elektrische wagen is overduidelijk de wagen van de toekomst. Meerdere producenten hebben al aangekondigd om hun wagenpark volledig naar elektrische wagens om te zetten.
 
 ![Een elektrische wagen is aan het opladen.](media/michael-fousert.jpg "Foto door Michael Fousert op Unsplash."){:data-caption="Een elektrische wagen is aan het opladen." width="45%"}
@@ -46,4 +50,4 @@ Hier volgt wat uitleg over deze data frame met **acht vectoren**.
 
 - De kolom `fastcharge` geeft het aantal rijbare km dat *opgeladen* wordt in één uur. Bijvoorbeeld: voor de Tesla Model 3 merken we dat de actieradius 450 km, terwijl een uur opladen in 940 km rijbare km's zou resulteren. Hieruit kan je besluiten dat de Tesla Model 3 na een ongeveer half uur snelladen volledig opgeladen is. (Om exacter te zijn, na ca. 28 min)
 
-  Bepaal een vector `laadtijd` waar je het **aantal minuten** berekent voordat de wagen volledig geladen is (via een snellader). Rond af op een aantal minuten (dus 0 cijfers na de komma)
+  Bepaal een vector `laadtijden` waar je het **aantal minuten** berekent voordat de wagen volledig geladen is (via een snellader). Rond af op een aantal minuten (dus 0 cijfers na de komma)

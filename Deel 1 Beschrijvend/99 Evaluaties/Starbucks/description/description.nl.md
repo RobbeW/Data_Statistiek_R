@@ -1,3 +1,7 @@
+<div class="text-end">
+<a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 De internationale keten van koffiehuizen <a href="https://nl.wikipedia.org/wiki/Starbucks" target="_blank">Starbucks</a> is aanwezig in minsten 76 landen. Men verkoopt er een grote waaier aan koffiemixen en dranken op koffiebasis. Bij elk drankje kan je voor een bepaalde grootte, een hoeveelheid room, siroop, enz... kiezen. Starbucks beweert dat er <a href="file:///home/dieter/Downloads/Starbucks_Infographic-1.pdf" target="_blank">meer dan 170 000 verschillende keuzes</a> mogelijk zijn.
 
 ![De Starbucks keten](media/june-andrei-george.jpg "Foto door June Andrei George op Unsplash."){:data-caption="De Starbucks keten." width="45%"}

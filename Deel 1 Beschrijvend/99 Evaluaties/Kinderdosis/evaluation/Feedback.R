@@ -18,6 +18,8 @@ context({
       env$leeftijd
     }, 8.5)
   })
+})
+context({
   testcase("Variabele werd correct berekend:", {
     testEqual("volwassen_dosis", function(env) {
       env$volwassen_dosis
@@ -25,4 +27,5 @@ context({
     testFunctionUsedInVar("round", "volwassen_dosis")
   })
 })
+
 

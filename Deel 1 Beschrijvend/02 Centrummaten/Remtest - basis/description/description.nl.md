@@ -28,7 +28,9 @@ n = len(remweg)
 if n % 2 != 0: # oneven aantal waarnemingen
     mediaan = remweg[( n - 1 ) // 2]
 else: # even aantal waarnemingen
-    mediaan = ( remweg[n // 2] + remweg[n // 2 - 1] ) / 2
+    a = remweg[n // 2]
+    b = remweg[n // 2 - 1]
+    mediaan = ( a + b ) / 2
 ```
 
 In R kan dit natuurlijk ook:
@@ -38,8 +40,9 @@ n <- length(remweg)
 if (n %% 2 != 0) { # oneven aantal waarnemingen
   mediaan <- remweg[(n + 1) / 2]
 } else { # even aantal waarnemingen
-  middelste_waarden <- c(remweg[n / 2], remweg[n / 2 + 1])
-  mediaan <- mean( middelste_waarden )
+  a <- remweg[n / 2]
+  b <- remweg[n / 2 + 1]
+  mediaan <- (a + b)/2
 }
 ```
 
@@ -56,7 +59,17 @@ Bovenstaande tabel is maar een selectie uit het volledige onderzoek. Gebruik nu 
 data <- read.table("https://tinyurl.com/9a6n5bep", header = TRUE)
 ```
 
-Je kan steeds een **voorsmaakje** van de data opvragen via `head(data)`.
+Je kan steeds een *voorsmaakje* van de data opvragen via `head(data)`, dit resulteert in:
+
+```
+                      model remweg
+1        Porsche 911 GT3 RS   28.2
+2             MCLaren Senna   28.5
+3        Porsche 911 GT2 RS   29.3
+4         Ferrari 488 Pista   29.6
+5 Lamborghini Aventador SVJ   29.9
+6           Ferrari 488 GTB   30.2
+```
 
 ## Gevraagd
 
