@@ -42,3 +42,8 @@ Via `head(data)` om een **voorsmaakje** van de gegevens te verkrijgen.
 - Bereken het `gemiddelde_bmi`, hoeveel procent van de atleten heeft een bmi lager dan dit gemiddelde? Sla dit op in de variabele `percentage_lager_gemiddelde`. (Rond af op 2 cijfers)
 
 - Bereken nu `mediaan_bmi`, hoeveel procent van de atleten heeft een bmi lager dan deze mediaan? Sla dit op in de variabele `percentage_lager_mediaan`. (Rond af op 2 cijfers)
+
+{: .callout.callout-warning}
+>#### Denkvragen
+> - Hoe blijkt uit dit gemiddelde dat er atleten zijn met een *veel hoger* of *veel lager* BMI?
+> - De mediaan is per definitie het middelste getal uit de vrij gegevens, waarom is het antwoord op de laatste vraag dan toch geen 50%?
