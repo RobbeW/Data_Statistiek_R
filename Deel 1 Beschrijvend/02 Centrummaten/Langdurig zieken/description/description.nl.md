@@ -37,10 +37,10 @@ We krijgen volgende tabel:
 
 - Bereken het gemiddeld aantal langdurige zieken per jaar, sla het resultaat op in `gemiddeld_aantal_zieken`.
 
-- Laat R berekenen hoeveel jaren er een bovengemiddeld aantal langdurig zieken zijn. Sla het resultaat op in `aantal_jaren_met_veel_zieken`.
+- Laat R berekenen in **welke jaren** er een bovengemiddeld aantal langdurig zieken zijn. Sla het resultaat op in `jaren_met_veel_zieken`. Geef ook het **aantal jaren** met een bovengemiddeld aantal zieken, sla dit op in `aantal_jaren_met_veel_zieken`.
  
 {: .callout.callout-info}
 >#### Tips
 >
 > - De vector met de jaartallen kan je gemakkelijk aanmaken via `2008:2023`. Een handige truc!
-> - Om de variabele `aantal_jaren_met_veel_zieken` maak je best eerst een booleaanse vector. Nadien kan je de jaartallen met bovengemiddeld aantal zieken **selecteren** uit `aantal_zieken` via `aantal_zieken[ ... ]`. De lengte is daarna gemakkelijk te bepalen.
+> - Om de variabele `jaren_met_veel_zieken` aan te maken selecteer je uit de vector `jaren` de gevraagde jaren.

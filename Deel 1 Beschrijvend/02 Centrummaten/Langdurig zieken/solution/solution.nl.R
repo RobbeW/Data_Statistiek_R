@@ -12,4 +12,5 @@ gemiddeld_aantal_zieken <- mean(aantal_zieken)
 
 # Hoeveel jaren hebben een bovengemiddeld aantal zieken
 veel_zieken <- (aantal_zieken > gemiddeld_aantal_zieken)
-aantal_jaren_met_veel_zieken <- length(aantal_zieken[veel_zieken])
+jaren_met_veel_zieken <- jaren[veel_zieken]
+aantal_jaren_met_veel_zieken <- length(jaren_met_veel_zieken)
