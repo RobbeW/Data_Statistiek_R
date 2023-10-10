@@ -6,12 +6,12 @@ dataset$zonneschijn <- strtoi(as.difftime(dataset$zonneschijn,
                                           format = "%H:%M", units = "mins"))
 
 # Dagen met bovengemiddeld aantal minuten zon
-res1a <- mean(dataset$zonneschijn)
+res1a <- round(mean(dataset$zonneschijn), 2)
 res1b <- (dataset$zonneschijn > res1a)
 res1c <- dataset$datum[res1b]
 
 # Dagen met ondergemiddelde hoeveelheid neerslag
-res2a <- mean(dataset$neerslag)
+res2a <- round(mean(dataset$neerslag), 2)
 res2b <- (dataset$neerslag < res2a)
 res2c <- dataset$datum[res2b]
 
@@ -21,6 +21,7 @@ context({
       env$gemiddelde_zonneschijn
     }, res1a)
     testFunctionUsedInVar("mean", "gemiddelde_zonneschijn")
+    testFunctionUsedInVar("round", "gemiddelde_zonneschijn")
   })
 })
 
@@ -52,5 +53,6 @@ context({
       env$droge_dagen
     }, res2c)
     testFunctionUsedInVar("mean", "gemiddelde_neerslag")
+    testFunctionUsedInVar("round", "gemiddelde_neerslag")
   })
 })

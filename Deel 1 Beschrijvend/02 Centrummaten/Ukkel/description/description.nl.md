@@ -46,6 +46,8 @@ Gebruik bovenstaande tabel (met de bijbehorende vectoren) om de volgende vragen 
 
 ## Gevraagd
 
+**Rond** de gemiddelden steeds **af** op 2 cijfers na de komma.
+
 - Maak een variabele `gemiddelde_zonneschijn` die het gemiddelde van het aantal minuten zonneschijn bevat.
 
 - Maak een variabele `veel_zon` die bestaat uit een vector met booleaanse waarden van de dagen waar een bovengemiddeld aantal minuten zon scheen.
