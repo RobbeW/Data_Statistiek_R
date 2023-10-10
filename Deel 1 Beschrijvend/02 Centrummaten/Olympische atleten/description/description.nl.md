@@ -45,5 +45,5 @@ Via `head(data)` om een **voorsmaakje** van de gegevens te verkrijgen.
 
 {: .callout.callout-warning}
 >#### Denkvragen
-> - Hoe blijkt uit dit gemiddelde dat er atleten zijn met een *veel hoger* of *veel lager* BMI?
+> - Hoe blijkt uit dit gemiddelde dat er atleten zijn met een *veel hoger* of *veel lager* BMI? Welke van de twee is het, hoger of lager?
 > - De mediaan is per definitie het middelste getal uit de vrij gegevens, waarom is het antwoord op de laatste vraag dan toch geen 50%?
