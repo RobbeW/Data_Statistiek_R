@@ -6,8 +6,9 @@ n <- length(remweg)
 if (n %% 2 != 0) { # oneven aantal waarnemingen
   mediaan <- remweg[(n + 1) / 2]
 } else { # even aantal waarnemingen
-  middelste_waarden <- c(remweg[n / 2], remweg[n / 2 + 1])
-  mediaan <- mean( middelste_waarden )
+  a <- remweg[n / 2]
+  b <- remweg[n / 2 + 1]
+  mediaan <- (a + b) / 2
 }
 ```
 
