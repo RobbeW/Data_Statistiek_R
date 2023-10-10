@@ -11,7 +11,7 @@
   ],
   "evaluation": {
     "network_enabled": true,
-    "memory_limit": 200000000
+    "memory_limit": 400000000
   },
   "access": "public",
   "internals": {
