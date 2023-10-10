@@ -10,7 +10,8 @@
     "statistiek"
   ],
   "evaluation": {
-    "network_enabled": true
+    "network_enabled": true,
+    "memory_limit": 200000000
   },
   "access": "public",
   "internals": {
