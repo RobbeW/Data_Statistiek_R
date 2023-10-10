@@ -11,14 +11,27 @@ Importeer <a href="https://github.com/rfordatascience/tidytuesday/blob/master/da
 ```R
 # Een dataset met gegevens van Olympische atleten.
 data <- read.csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-07-27/olympics.csv",
-                 header = TRUE)
-# Enkel de gegevens van de atleten worden geselecteerd.
+                 header = TRUE,
+                 colClasses = c("NULL", rep("character", 2), rep("numeric", 3), "NULL", "character", "NULL",
+                                "numeric", rep("character", 4), "NULL" ))
+# Enkel de gegevens van de atleten worden geselecteer.
 data <- data[data$sport == "Athletics" &
                !is.na(data$height) &
                !is.na(data$weight), ]
+rownames(data) <- seq_len(nrow(data))
 ```
 
-Gebruik `head(data)` om een **voorsmaakje** van de gegevens te verkrijgen.
+Via `head(data)` om een **voorsmaakje** van de gegevens te verkrijgen.
+
+```
+                                name sex age height weight noc year season      city     sport                                event
+1               Timo Antero Aaltonen   M  31    189    130 FIN 2000 Summer    Sydney Athletics             Athletics Men's Shot Put
+2                  Evald rma (rman-)   M  24    174     70 EST 1936 Summer    Berlin Athletics           Athletics Men's Pole Vault
+3 Jamale (Djamel-) Aarrass (Ahrass-)   M  30    187     76 FRA 2012 Summer    London Athletics         Athletics Men's 1,500 metres
+4               Erling Rudolf Aastad   M  22    177     74 NOR 1920 Summer Antwerpen Athletics Athletics Men's 4 x 100 metres Relay
+5               Erling Rudolf Aastad   M  22    177     74 NOR 1920 Summer Antwerpen Athletics            Athletics Men's Long Jump
+6               Erling Rudolf Aastad   M  26    177     74 NOR 1924 Summer     Paris Athletics            Athletics Men's Long Jump
+```
 
 ## Gevraagd
 
@@ -26,4 +39,6 @@ Gebruik `head(data)` om een **voorsmaakje** van de gegevens te verkrijgen.
 
 - Maak een vector `bmi` aan waar je het BMI van de atleten bepaalt. Rond dit af op **2 cijfers na de komma**. Gebruik hiervoor de `round()` functie.
 
-- Bereken de mediaan en het gemiddelde BMI, sla deze gegevens op in `mediaan_bmi` en `gemiddelde_bmi`. Deze waarden zijn niet aan elkaar gelijk, er zit een *relatief groot* verschil op. Kan je dit verklaren?
+- Bereken het `gemiddelde_bmi`, hoeveel procent van de atleten heeft een bmi lager dan dit gemiddelde? Sla dit op in de variabele `percentage_lager_gemiddelde`. (Rond af op 2 cijfers)
+
+- Bereken nu `mediaan_bmi`, hoeveel procent van de atleten heeft een bmi lager dan deze mediaan? Sla dit op in de variabele `percentage_lager_mediaan`. (Rond af op 2 cijfers)
