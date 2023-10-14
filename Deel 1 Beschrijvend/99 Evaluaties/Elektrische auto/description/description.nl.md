@@ -40,7 +40,7 @@ Hier volgt wat uitleg over deze data frame met **acht vectoren**.
 
 ## Gevraagd
 
-- Een elektrische wagen is een topmodel indien deze in 3 seconden of minder kan versnellen tot 100 km / u en indien deze een actieradius boven de 600 km heeft. Gebruik een booleaanse vector (kies zelf een naam) uit `data$model` de wagens te selecteren die hieraan voldoen. Sla dit op in de vector `topmodellen`.
+- Een elektrische wagen is een topmodel indien deze in 3 seconden of minder kan versnellen tot 100 km / u en indien deze een actieradius boven de 600 km heeft. Gebruik een booleaanse vector (kies zelf een naam) om de wagens die hieraan voldoen te **selecteren** uit `data$model`. Sla dit op in de vector `topmodellen`.
 
 - Gebruik dezelfde booleaanse vector om de prijzen van deze topmodellen op te slaan in de vector `topprijzen`.
 
