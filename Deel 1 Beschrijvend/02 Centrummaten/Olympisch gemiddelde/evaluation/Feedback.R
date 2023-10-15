@@ -7,6 +7,11 @@ olympic_mean <- function(data) {
   return(resultaat)
 }
 
+printVecAsis <- function(x) {
+  ifelse(length(x) == 1, x, 
+       ifelse(is.character(x), paste0("c(", paste(sapply(x, function(a) paste0("\'",a,"\'")), collapse=", "), ")"),
+              paste0("c(", paste(x, collapse=", "), ")")))}
+
 nsim <- 20
 cases <- list(c(98, 97, 98, 99, 100, 98) , c(14, 25, 14, 18, 16, 16, 20))
 
@@ -22,7 +27,7 @@ while( length(cases) < nsim){
 for(case in cases){
   context({
      testcase("De functie werkt:", {
-       testEqual(paste("met parameter", case), function(env) {
+       testEqual(paste("met parameter", printVecAsis(case)), function(env) {
          env$olympic_mean(case)
     }, olympic_mean(case))
      })
