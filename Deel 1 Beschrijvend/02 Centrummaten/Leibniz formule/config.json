@@ -1,0 +1,12 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Leibniz formule"
+    }
+  },
+  "labels": [
+    "R"
+  ],
+  "access": "public"
+}
