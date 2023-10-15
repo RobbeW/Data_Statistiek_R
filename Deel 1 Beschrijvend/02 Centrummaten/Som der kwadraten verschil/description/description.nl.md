@@ -6,4 +6,4 @@ $$
 
 ## Gevraagd
 
-Schrijf een functie `verschil(n)` die voor een gegeven natuurlijk getal, het **verschil** berekent tussen $$(1+2+\ldots+n)^2$$ en $1^2+2^2+\ldots + n^2$.
+Schrijf een functie `verschil(n)` die voor een gegeven natuurlijk getal $$n$$, het **verschil** berekent tussen $$(1+2+\ldots+n)^2$$ en $1^2+2^2+\ldots + n^2$$.
