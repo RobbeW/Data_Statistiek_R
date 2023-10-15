@@ -12,11 +12,11 @@ Men wist reeds dat dit convergeerde, maar het was Euler die bewees dat dit enigs
 
 ## Gevraagd
 
-- Maak een functie `bazel(aantal)` waarbij `aantal` het aantal termen in de som voorstelt. Zo geldt dat `bazel(10)` overenkomt met $$\displaystyle \sum_{n=1}^{10} \dfrac{1}{n^2}$$.
+Maak een functie `bazel(aantal)` waarbij `aantal` het aantal termen in de som voorstelt. Zo geldt dat `bazel(10)` overenkomt met $$\displaystyle \sum_{n=1}^{10} \dfrac{1}{n^2}$$.
 
 - Laat R het resultaat van de som afronden op **6 cijfers na de komma**.
 
-- Je kan **controleren** of het resultaat inderdaad Eulers vondst benaderde. Probeer bijvoorbeeld `bazel(10000)` uit te rekenen en controleer of dit `pi^2 / 6` benadert.
+- Je kan **controleren** of het resultaat inderdaad Eulers vondst benadert. Probeer bijvoorbeeld `bazel(10000)` uit te rekenen en controleer of dit `pi^2 / 6` benadert.
 
  
 {: .callout.callout-info}
