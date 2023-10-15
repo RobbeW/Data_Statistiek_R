@@ -1,0 +1,12 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Som der kwadraten verschil"
+    }
+  },
+  "labels": [
+    "R"
+  ],
+  "access": "public"
+}
