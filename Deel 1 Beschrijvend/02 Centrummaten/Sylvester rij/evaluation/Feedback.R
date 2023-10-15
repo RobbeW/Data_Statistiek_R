@@ -17,8 +17,9 @@ for(case in cases){
   context({
      testcase("De functie werkt:", {
        testEqual(paste("met parameter", case), function(env) {
-         env$sylvester(case)
-    }, sylvester(case))
+         format(env$sylvester(case), scientific = FALSE)
+    }, format(sylvester(case), scientific = FALSE))
      })
   })
 }
+
