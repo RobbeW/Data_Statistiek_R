@@ -1,53 +1,55 @@
-context({
-  test1 <- c(98, 97, 98, 99, 100, 98)
-  test2 <- c(14, 25, 14, 18, 16, 16, 20)
-  test3 <- c(102, 15, 30, 25)
-  test4 <- c(101, 101, 101, 101, 101, 101, 101, 101)
+set.seed(1234)
 
-  print_vec <- function(data){
-    paste0("c(", paste(data, collapse = ", "), ")")
-  }
+# Het meetkundig gemiddelde
+mean_geom <- function(data) {
+  n <- length(data)
+  x_g <- prod(data)^(1 / n)
+  return(round(x_g, 2))
+}
 
-  testcase("De functie mean_geom werkt:", {
-    testEqual(paste0("met parameter ", print_vec(test1)), function(env) {
-      env$mean_geom(test1)
-    }, 98.33)
-    testEqual(paste0("met parameter ", print_vec(test2)), function(env) {
-      env$mean_geom(test2)
-    }, 17.23)
-    testEqual(paste0("met parameter ", print_vec(test3)), function(env) {
-      env$mean_geom(test3)
-    }, 32.73)
-    testEqual(paste0("met parameter ", print_vec(test4)), function(env) {
-      env$mean_geom(test4)
-    }, 101)
+# Het harmonisch gemiddelde
+mean_harm <- function(data) {
+  n <- length(data)
+  x_h <- n / sum(1 / data)
+  return(round(x_h, 2))
+}
+
+# Het kwadratisch gemiddelde
+mean_kwadr <- function(data) {
+  n <- length(data)
+  x_q <- sqrt(1 / n * sum(data^2))
+  return(round(x_q, 2))
+}
+
+printVecAsis <- function(x) {
+  ifelse(length(x) == 1, x, 
+       ifelse(is.character(x), paste0("c(", paste(sapply(x, function(a) paste0("\'",a,"\'")), collapse=", "), ")"),
+              paste0("c(", paste(x, collapse=", "), ")")))}
+
+nsim <- 20
+cases <- list(c(98, 97, 98, 99, 100, 98) , c(14, 25, 14, 18, 16, 16, 20))
+
+while( length(cases) < nsim){
+  len <- length(cases)
+  n <- sample(5:20, 1)
+  min <- sample(5:20, 1)
+  max <- sample(min:200, 1)
+  vec <- sample(min:max, n)
+  cases[[len+1]] <- vec
+}
+
+for(case in cases){
+  context({
+     testcase(paste("De functies werken met parameter", printVecAsis(case)), {
+       testEqual("mean_geom()" , function(env) {
+         env$mean_geom(case)
+       }, mean_geom(case))
+       testEqual("mean_harm()" , function(env) {
+         env$mean_harm(case)
+       }, mean_harm(case))
+       testEqual("mean_kwadr()" , function(env) {
+         env$mean_kwadr(case)
+       }, mean_kwadr(case))
+     })
   })
-  testcase("De functie mean_harm werkt:", {
-    testEqual(paste0("met parameter ", print_vec(test1)), function(env) {
-      env$mean_harm(test1)
-    }, 98.32)
-    testEqual(paste0("met parameter ", print_vec(test2)), function(env) {
-      env$mean_harm(test2)
-    }, 16.93)
-    testEqual(paste0("met parameter ", print_vec(test3)), function(env) {
-      env$mean_harm(test3)
-    }, 26.7)
-    testEqual(paste0("met parameter ", print_vec(test4)), function(env) {
-      env$mean_harm(test4)
-    }, 101)
-  })
-  testcase("De functie mean_kwadr werkt:", {
-    testEqual(paste0("met parameter ", print_vec(test1)), function(env) {
-      env$mean_kwadr(test1)
-    }, 98.34)
-    testEqual(paste0("met parameter ", print_vec(test2)), function(env) {
-      env$mean_kwadr(test2)
-    }, 17.94)
-    testEqual(paste0("met parameter ", print_vec(test3)), function(env) {
-      env$mean_kwadr(test3)
-    }, 55.12)
-    testEqual(paste0("met parameter ", print_vec(test4)), function(env) {
-      env$mean_kwadr(test4)
-    }, 101)
-  })
-})
+}
