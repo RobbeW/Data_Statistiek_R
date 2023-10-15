@@ -1,11 +1,12 @@
 De rij van Sylvester is gedefinieerd als het **product van alle vorige elementen** uit de rij, **plus 1**.
 
 Er geldt dus voor het n<sup>de</sup> element $$s_n$$ uit de rij:
+
 $$
   s_n = 1+ \prod_{i=1}^{n-1} s_i
 $$
 
-De rij begint met de getallen 2, 3, 7, 43, 1807, 3263443, ...
+De rij begint met de getallen 2, 3, 7, 43, 1 807, 3 263 443, ...
 
 ## Gevraagd
 
