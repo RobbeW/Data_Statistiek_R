@@ -1,9 +1,9 @@
-De Leibniz formule is een alternerende benadering voor het getal $$\pi$$, gevonden door <a href="https://nl.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz" target="_blank">Gottfried Wilhelm Leibniz</a>. 
+De Leibniz formule is een alternerende benadering voor het getal $$\pi$$, gevonden door <a href="https://nl.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz" target="_blank">Gottfried Wilhelm Leibniz</a>. Leibniz was één van de grootste denkers uit de 17e eeuw.
 
-Hij kon namelijk bewijzen dat de reeks:
+Hij kon in 1673 aantonen dat de oneindige som
 
 $$
-  1 -\dfrac{1}{3} + \dfrac{1}{5} - \dfrac{1}{7}+\ldots = ?
+  1 -\dfrac{1}{3} + \dfrac{1}{5} - \dfrac{1}{7}+\dfrac{1}{9}-\ldots = ?
 $$
 
 convergeert naar $$\dfrac{\pi}{4}$$!
