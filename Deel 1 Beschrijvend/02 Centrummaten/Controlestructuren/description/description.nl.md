@@ -1,4 +1,4 @@
-Op deze pagina vind je de syntax van de verschillende controlestructuren in R. Er wordt telkens een vergelijking gemaakt met de reeds **gekende structuren** binnen Python.
+Op deze pagina vind je een overzicht van de verschillende belangrijkste controlestructuren in R.
 
 ### De selectiestructuur
 
