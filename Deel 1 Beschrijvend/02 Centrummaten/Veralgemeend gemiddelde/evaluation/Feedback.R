@@ -30,10 +30,10 @@ for(case in cases){
   vec <- case[[1]]
   p <- case[[2]]
   context({
-     testcase(paste("De functie werkt met als vector", printVecAsis(vec), "en als p =", p), {
+     testcase(paste("De functie werkt met als vector", printVecAsis(vec), "en p =", p), {
        testEqual("mean_generalized()" , function(env) {
-         env$mean_generalized(case, p)
-       }, mean_generalized(case, p))
+         env$mean_generalized(vec, p)
+       }, mean_generalized(vec, p))
      })
   })
 }
