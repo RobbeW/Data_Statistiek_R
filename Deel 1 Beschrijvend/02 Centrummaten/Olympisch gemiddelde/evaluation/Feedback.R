@@ -1,21 +1,31 @@
-context({
-  test1 <- c(98, 97, 98, 99, 100, 98)
-  test2 <- c(14, 25, 14, 18, 16, 16, 20)
-  test3 <- c(102, 15, 30, 25)
-  test4 <- c(101, 101, 101, 101, 101, 101, 101, 101)
+set.seed(1234)
 
-  testcase("De functie werkt:", {
-    testEqual("met parameter c(98, 97, 98, 99, 100, 98)", function(env) {
-      env$olympic_mean(test1)
-    }, 98.25)
-    testEqual("met parameter c(14, 25, 14, 18, 16, 16, 20)", function(env) {
-      env$olympic_mean(test2)
-    }, 16.8)
-    testEqual("met parameter c(102, 15, 30, 25)", function(env) {
-      env$olympic_mean(test3)
-    }, 27.5)
-    testEqual("met parameter c(101, 101, 101, 101, 101, 101, 101, 101)", function(env) {
-      env$olympic_mean(test4)
-    }, 101)
+# Olympisch gemiddelde als functie
+olympic_mean <- function(data) {
+  data_sorted <- sort(data)
+  resultaat <- mean(data_sorted[2:(length(data) - 1)])
+  return(resultaat)
+}
+
+nsim <- 20
+cases <- list()
+cases <- append(cases, c(98, 97, 98, 99, 100, 98))
+cases <- append(cases, c(14, 25, 14, 18, 16, 16, 20))
+
+while( length(cases) < nsim){
+  n <- sample(5:20, 1)
+  min <- sample(5:20, 1)
+  max <- sample(min:200, 1)
+  vec <- sample(min:max, n)
+  cases <- append(cases, vec)
+}
+
+for(case in cases){
+  context({
+     testcase("De functie werkt:", {
+       testEqual(paste("met parameter", case), function(env) {
+         env$olympic_mean(case)
+    }, olympic_mean(case))
+     })
   })
-})
+}
