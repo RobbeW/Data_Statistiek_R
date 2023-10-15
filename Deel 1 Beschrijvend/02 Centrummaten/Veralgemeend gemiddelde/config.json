@@ -1,0 +1,13 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Veralgemeend gemiddelde"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "access": "public"
+}
