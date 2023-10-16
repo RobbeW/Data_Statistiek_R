@@ -18,3 +18,14 @@ mean_kwadr <- function(data) {
   x_q <- sqrt(1 / n * sum(data^2))
   return(round(x_q, 2))
 }
+
+### Enkele testen ###
+data <- c(98, 97, 98, 99, 100, 98)
+mean_geom(data)  # 98.33
+mean_harm(data)  # 98.32
+mean_kwadr(data) # 98.34
+
+data <- c(14, 25, 14, 18, 16, 16, 20)
+mean_geom(data)  # 17.23
+mean_harm(data)  # 16.93
+mean_kwadr(data) # 17.94
