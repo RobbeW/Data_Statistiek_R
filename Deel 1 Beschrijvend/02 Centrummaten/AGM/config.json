@@ -1,0 +1,12 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "agm"
+    }
+  },
+  "labels": [
+    "R"
+  ],
+  "access": "public"
+}
