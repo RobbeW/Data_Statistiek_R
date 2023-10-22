@@ -9,7 +9,7 @@ Er zijn heel wat manieren om het 'centrum' van een rij gegevens te bepalen. Het 
 {: .callout.callout-danger}
 > Het **harmonisch gemiddelde** $$x_h$$ wordt gedefinieerd als:
 >
-> $$\dfrac{1}{x_h} = \dfrac{1}{n} \cdot \displaystyle \sum_{i=1}^n \dfrac{1}{x_i} \qquad \Rightarrow \qquad \sum x_h = \dfrac{n}{\displaystyle \sum_{i=1}^n \dfrac{1}{x_i}}$$
+> $$\dfrac{1}{x_h} = \dfrac{1}{n} \cdot \displaystyle \sum_{i=1}^n \dfrac{1}{x_i} \qquad \Rightarrow \qquad x_h = \dfrac{n}{\displaystyle \sum_{i=1}^n \dfrac{1}{x_i}}$$
 
 
 {: .callout.callout-danger}
