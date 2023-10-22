@@ -6,7 +6,7 @@ $$
 a_1 = \dfrac{1}{2} (a_0+g_0) = 19,5 \qquad \text{en} \qquad g_1 = \sqrt{a_0\cdot g_0} \approx 14,07
 $$
 
-Men herhaalt hierna dit proces met de getallen $$a_1 = 19,5$$ en $$g_1 \approx 14,07$$. Met andere woorden $$a_2 = \dfrac{1}{2}(a_1 + g_1)$$ en $$g_2 = \sqrt{a_1 \cdot g_1}$$, enz...
+Men **herhaalt** hierna dit proces met de getallen $$a_1 = 19,5$$ en $$g_1 \approx 14,07$$. Met andere woorden $$a_2 = \dfrac{1}{2}(a_1 + g_1)$$ en $$g_2 = \sqrt{a_1 \cdot g_1}$$, enz...
 
 Op zich kan dit proces zich oneindig lang herhalen, maar in de praktijk zal men dit stoppen na 10 iteraties.
 

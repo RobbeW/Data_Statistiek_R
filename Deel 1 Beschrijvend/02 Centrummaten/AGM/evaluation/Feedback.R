@@ -33,14 +33,14 @@ for(case in cases){
   context({
      testcase("De functie mean_geom werkt:", {
        testEqual(paste("met parameter", printVecAsis(case)), function(env) {
-         env$mean_geom(case),
+         env$mean_geom(case)
     }, mean_geom(case))
      })
   })
   context({
      testcase("De functie agm werkt:", {
        testEqual(paste("met parameter", printVecAsis(case)), function(env) {
-         env$agm(case),
+         env$agm(case)
     }, agm(case))
      })
   })
