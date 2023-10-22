@@ -23,3 +23,23 @@ Dit gemiddelde heeft bepaalde eigenschappen waardoor het bijvoorbeeld goed werkt
 
 Programmeer de functie `mean_generalized()` die gegeven een vector `data` **en** een parameter `p` het veralgemeend gemiddelde berekent.
 Rond telkens af op 2 cijfers.
+
+{: .callout.callout-info}
+>#### Tips
+>
+> Functies binnen R hebben onderstaande syntax. Tussen de haakjes kunnen **meerdere** parameters staan:
+> ```R
+functienaam <- function(parameters) {
+    # Allerhande berekeningen
+    return( resultaat )
+}
+```
+> Een voorbeeld ter illustratie: het BMI van een persoon hangt bijvoorbeeld af van de massa en lengte en die berekening kan je in een functie gieten:
+```R
+bepaal_bmi <- function(massa, lengte) {
+    resultaat <- massa / lengte^2
+    return(round(resultaat, 2))
+}
+```
+> Deze functie kan dan uitgevoerd worden als volgt `bepaal_bmi(70, 1.80)` en resulteert dan in `21.6`.
+

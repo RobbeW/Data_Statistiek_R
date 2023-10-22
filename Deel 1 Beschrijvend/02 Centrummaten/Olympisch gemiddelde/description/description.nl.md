@@ -6,25 +6,7 @@ Een **voorbeeld** als illustratie. Op het onderdeel *halfpipe* bij het <a href="
 
 ## Gegeven
 
-In deze oefening programmeer je een eigen **functie** `olympic_mean()`. De syntax van een functie is als volgt:
-
-```R
-functienaam <- function(parameters) {
-    # Allerhande berekeningen
-    return( resultaat )
-}
-```
-
-Het BMI van een persoon hangt bijvoorbeeld af van de massa en lengte en die berekening kan je in een functie gieten:
-
-```R
-bepaal_bmi <- function(massa, lengte) {
-    resultaat <- massa / lengte^2
-    return(round(resultaat, 2))
-}
-```
-
-Deze functie kan dan uitgevoerd worden als volgt `bepaal_bmi(70, 1.80)` resulteert in `21.6`.
+In deze oefening programmeer je een eigen **functie** `olympic_mean()` die gegeven een dataset de vorige definitie implementeert.
 
 ## Gevraagd
 
