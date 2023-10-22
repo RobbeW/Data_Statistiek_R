@@ -25,7 +25,7 @@ Programmeer de functie `mean_generalized()` die gegeven een vector `data` **en**
 Rond telkens af op 2 cijfers.
 
 {: .callout.callout-info}
->#### Tips
+>#### Tip
 >
 > Functies binnen R hebben onderstaande syntax. Tussen de haakjes kunnen **meerdere** parameters staan:
 > ```R
