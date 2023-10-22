@@ -1,4 +1,4 @@
-Binnen de wiskunde kan men het **rekenkundig-meetkundig gemiddelde** van een rij getallen berekenen, men noemt dit ook wel het **arithmetic–geometric mean** (agm). 
+Binnen de wiskunde kan men het **rekenkundig-meetkundig gemiddelde** van een rij getallen berekenen, men noemt dit ook wel het **arithmetic–geometric mean** (AGM). 
 
 Dit gemiddelde is gedefinieerd als de **limiet** van het opeenvolgend rekenkundig en meetkundig gemiddelde. Stel dat het rekenkundig gemiddelde $$a_0$$ van een reeks getallen $$33$$ is, en het meetkundig gemiddelde $$g_0 = 6$$ is. Dan berekent men in de volgende stap:
 
