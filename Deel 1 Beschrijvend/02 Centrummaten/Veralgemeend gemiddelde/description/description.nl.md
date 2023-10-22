@@ -34,7 +34,7 @@ functienaam <- function(parameters) {
     return( resultaat )
 }
 ```
-> Een voorbeeld ter illustratie: het BMI van een persoon hangt bijvoorbeeld af van de massa en lengte en die berekening kan je in een functie gieten:
+> Een voorbeeld ter illustratie: het BMI van een persoon hangt bijvoorbeeld af van de massa en lengte en die berekening kan je in een functie met **twee parameters** gieten:
 ```R
 bepaal_bmi <- function(massa, lengte) {
     resultaat <- massa / lengte^2
