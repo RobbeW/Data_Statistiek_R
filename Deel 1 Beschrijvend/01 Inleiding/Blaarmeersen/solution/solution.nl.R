@@ -4,7 +4,7 @@ library(rvest, polite)
 cols <- c("datum", "kwaliteit", "enterococcus", "e_coli", "temp")
 data <- data.frame(matrix(nrow = 0, ncol = length(cols)))
 # Data uit een aantal pagina's extraheren
-for (i in 0:20){
+for (i in 0:10){
   url <- paste0("https://kwaliteitzwemwater.be/nl/blaarmeersen/blaarmeersen-z",
                 "wemsportzone-gent?page=", i)
   result <-  as.data.frame(
