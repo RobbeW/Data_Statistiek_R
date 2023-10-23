@@ -1,0 +1,12 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Rij van Perrin"
+    }
+  },
+  "labels": [
+    "R"
+  ],
+  "access": "public"
+}
