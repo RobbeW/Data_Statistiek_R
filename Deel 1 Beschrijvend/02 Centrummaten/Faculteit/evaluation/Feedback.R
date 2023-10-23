@@ -9,7 +9,7 @@ faculteit <- function(getal) {
 }
 
 nsim <- 20
-cases <- 1:10
+cases <- 0:10
 
 for(case in cases){
   context({
