@@ -17,4 +17,4 @@ Maak een functie `sylvester(n)` waarbij `n` het rangnummer voorstelt. Zo geldt e
 >
 > - Gebruik een `for` lus. 
 > - Bepaal voor elke waarde van `n` (met $$n \geqslant 1$$) steeds de volledige sylvesterrij en `return` op het einde het laatste element.
-> - Gebruik `c(rij, resultaat)` om de rij stapsgewijs op te bouwen.
+> - Gebruik `rij <- c(rij, resultaat)` om de rij stapsgewijs op te bouwen.
