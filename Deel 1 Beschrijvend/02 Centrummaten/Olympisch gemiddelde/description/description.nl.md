@@ -14,4 +14,5 @@ Programmeer nu een functie `olympic_mean()`, de basisstructuur staat al klaar, i
 
 - Sorteer eerst de data met behulp van `sort()`.
 - Je kan het minimum en maximum nu *verwijderen* door een goede selectie te maken. Indien de data bijvoorbeeld 6 lang is, gebruik dan `data[2:5]`, indien data 10 lang is, dan moet het gemiddelde berekend worden van `data[2:9]`, enz...
+- **Opgelet** met de volgorde van de bewerkingen bij de selectie. `data[2:10-1]` is niet hetzelfde als `data[2:(10-1)]`.
 - Bereken dat gemiddelde, sla dat op in een variabele en plaats die variabele binnen de `return()` expressie.
