@@ -8,7 +8,17 @@ $$
 
 Men **herhaalt** hierna dit proces met de getallen $$a_1 = 19,5$$ en $$g_1 \approx 14,07$$. Met andere woorden $$a_2 = \dfrac{1}{2}(a_1 + g_1)$$ en $$g_2 = \sqrt{a_1 \cdot g_1}$$, enz...
 
-Op zich kan dit proces zich oneindig lang herhalen, maar in de praktijk zal men dit stoppen na 10 iteraties.
+Op zich kan dit proces zich oneindig lang herhalen, maar in de praktijk zal men dit stoppen na 10 iteraties. Voor het vorige voorbeeld met $$a_0 = 33$$ en $$g_0 = 6$$ wordt het resultaat:
+
+| $$i$$ | $$a_i$$ |$$g_i$$ | 
+|:-----:|:-------:|:------:|
+| 0     | 33      | 6      |
+| 1     | 19,5  | 14,071 247 279 470 288    |
+| 2     | 16,785 623 639 735 142  | 16,564 701 082 412 280   |
+| 3     | 16,<u>67</u>5 162 361 073 709   | 16,<u>67</u>4 796 492 733 754   |
+| 4     | 16,<u>674 979 42</u>6 903 732  | 16,<u>674 979 42</u>5 900 286  |
+| 5     | ...   | ...    |
+{:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ## Gevraagd
 
