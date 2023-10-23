@@ -8,5 +8,9 @@
   "labels": [
     "R"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "ddNM32VMWfU5SqBI_-GH5EtkN2xVn_6GpkkiN3Z9d88K9ZBQxPiNUkD84CmhrPp3",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
