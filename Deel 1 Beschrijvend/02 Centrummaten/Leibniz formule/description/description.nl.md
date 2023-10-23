@@ -16,7 +16,7 @@ Maak een functie `leibniz(aantal)` waarbij `aantal` het aantal termen in de som 
 
 - Laat R het resultaat van de som afronden op **6 cijfers na de komma**.
 
-- Je kan **controleren** of het resultaat inderdaad $$\dfrac{\pi}{4} benadert. Probeer bijvoorbeeld `leibniz(10000)` uit te rekenen en controleer of dit ongeveer gelijk is aan `pi / 4`.
+- Je kan **controleren** of het resultaat inderdaad $$\dfrac{\pi}{4}$$ benadert. Probeer bijvoorbeeld `leibniz(10000)` uit te rekenen en controleer of dit ongeveer gelijk is aan `pi / 4`.
 
  
 {: .callout.callout-info}
