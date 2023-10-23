@@ -1,14 +1,14 @@
 In de statistiek is de **mean squared error** (MSE) een belangrijke maat voor het verschil tussen een voorspelling en de realiteit.
 
 {: .callout.callout-danger}
-> De mean squared error $$\text{MSE}$$ wordt gedefinieerd als:
+> De **mean squared error** $$\text{MSE}$$ wordt gedefinieerd als:
 >
 > $$\text{MSE} = \dfrac{1}{n} \sum_{i=1}^n (y_i - \hat y_i)^2$$
 
 Hierbij stelt $$y_i$$ de **echte** waarde voor en $$\hat y_i$$ de **voorspelde** waarde.
 
 #### Voorbeeld
-Stel dat een fysicus een experiment uitvoert waarbij de *lengte* (in mm) van een aluminium staaf wordt bepaald bij verschillende *temperaturen* (in °C). Onderstaande tabel bevat de meetresultaten:
+Stel dat een fysicus een experiment uitvoert waarbij de *lengte* (in mm) van een aluminium staaf bepaald wordt bij verschillende *temperaturen* (in °C). Onderstaande tabel bevat de meetresultaten:
 
 | temperatuur $$x_i$$ | lengte $$y_i$$ | 
 |:-------------------:|:--------------:|
@@ -38,5 +38,5 @@ Het gemiddelde kwadratische verschil tussen $$\hat y_i$$ en $$y_i$$ noemt men de
 
 ## Gevraagd
 
-Programmeer de functie `mse()` die gegeven **twee** vectoren `echte_gegeves` en `voorspelde_gegegevens` als parameter de mean squared error berekent.
+Programmeer de functie `mse()` die gegeven **twee** vectoren `echte_gegeves` en `voorspelde_gegegevens` als parameters de mean squared error berekent.
 **Rond** deze **af** op 3 cijfers na de komma.
