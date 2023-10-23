@@ -2,7 +2,7 @@ set.seed(1234)
 
 mse <- function(echte_gegevens, voorspelde_gegevens) {
   result <- mean( (echte_gegevens - voorspelde_gegevens)^2)
-  return(round(result, 2))
+  return(round(result, 3))
 }
 
 printVecAsis <- function(x) {
@@ -19,8 +19,8 @@ while( length(cases) < nsim){
   n <- sample(3:8, 1)
   beta <- runif(1, min=0.001, max=2)
   alpha <- runif(1, min=200, max=1200)
-  echt <- 1:n * alpha + beta + rnorm(n)
-  pred <- 1:n * (alpha*runif(1,0.9,1.1)) + beta*runif(1,0.9,1.1) + rnorm(n)*2
+  echt <- round(1:n * alpha + beta + rnorm(n), 1)
+  pred <- round(1:n * (alpha*runif(1,0.9,1.1)) + beta*runif(1,0.9,1.1) + rnorm(n)*2,1)
 
   cases[[len+1]] <- list(echt, pred)
 }
