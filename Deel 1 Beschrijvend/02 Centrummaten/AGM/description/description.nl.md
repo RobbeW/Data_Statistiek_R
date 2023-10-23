@@ -20,6 +20,8 @@ Op zich kan dit proces zich oneindig lang herhalen, maar in de praktijk zal men 
 | 5     | ...   | ...    |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
+Je merkt dat de getallen steeds dichter bij elkaar komen te liggen. Het gedeelte dat overeenkomt werd onderlijnd.
+
 ## Gevraagd
 
 Programmeer de functie `mean_geom()` die gegeven een vector `data` het meetkundige gemiddelde implementeert. **Rond** hierbij **niet af**.
