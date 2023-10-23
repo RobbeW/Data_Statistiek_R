@@ -21,8 +21,16 @@ agm <- function(data){
 }
 
 nsim <- 20
-cases <- list(c(1.5, 1.5, 96))
+cases <- list(c(1.5, 1.5, 96), c(98, 97, 98, 99, 100, 98) , c(14, 25, 14, 18, 16, 16, 20))
 
+while( length(cases) < nsim){
+  len <- length(cases)
+  n <- sample(5:20, 1)
+  min <- sample(5:20, 1)
+  max <- sample(min:200, 1)
+  vec <- sample(min:max, n)
+  cases[[len+1]] <- vec
+}
 
 printVecAsis <- function(x) {
   ifelse(length(x) == 1, x, 
