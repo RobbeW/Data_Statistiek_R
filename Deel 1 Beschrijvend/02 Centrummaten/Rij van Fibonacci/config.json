@@ -1,0 +1,12 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Fibonacci rij"
+    }
+  },
+  "labels": [
+    "R"
+  ],
+  "access": "public"
+}
