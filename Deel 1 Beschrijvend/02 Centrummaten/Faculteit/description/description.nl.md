@@ -1,7 +1,7 @@
 De faculteit van een natuurlijk getal $$n$$, genoteerd als $$n!$$ (en gelezen als $$n$$ faculteit), is het product van de getallen 1 tot en met n:
 
 {: .callout.callout-danger}
-> $$n! = \prod{i=1}^n i = 1\cdot 2\cdot 3\cdot \ldots \cdot n$$
+> $$n! = \prod_{i=1}^n i = 1\cdot 2\cdot 3\cdot \ldots \cdot n$$
 
 Voor 5 geldt dus dat 5! = 1 · 2 · 3 · 4 · 5 = 120.
 
