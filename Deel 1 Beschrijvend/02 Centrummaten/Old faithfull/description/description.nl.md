@@ -1,7 +1,9 @@
 <a href="https://nl.wikipedia.org/wiki/Old_Faithful" target="_blank">Old Faithful</a> is de beroemdste geiser in het Amerikaanse Yellowstone National Park. Van de vele geisers is deze de meest actieve, namelijk om de 60 tot 80 minuten worden hete dampen in de lucht geblazen.
 
-<div class ="dodona-centered-group">
-    <iframe width="960" height="540" src="https://www.youtube.com/watch?v=Q8oZoVC8rGc&list=WL" title="Old Faithful" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="hidden-print">
+    <div class="dodona-centered-group">
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=Q8oZoVC8rGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </div>
 
 ## Gegeven
