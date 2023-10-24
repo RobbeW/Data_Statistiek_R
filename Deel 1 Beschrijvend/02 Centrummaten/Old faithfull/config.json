@@ -1,0 +1,17 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Old faithful"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "evaluation": {
+    "network_enabled": true,
+    "memory_limit": 400000000
+  },
+  "access": "public"
+}
