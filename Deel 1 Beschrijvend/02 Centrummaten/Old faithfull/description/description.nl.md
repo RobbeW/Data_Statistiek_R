@@ -42,4 +42,4 @@ Via `head(data)` om een **voorsmaakje** van de gegevens te verkrijgen.
 - Was de wachttijd voor de korte uitbarstingen verschillend dan deze voor de lange uitbarstingen?
   Bepaal **met behulp van de vorige booleaanse vector** de vectoren `wachttijd_kort` en `wachttijd_lang` waar je de **wachttijden** van de uitbarstingen van het korte en het lange type in opslaat. Bewaar het gemiddelde van deze wachttijden respectievelijk in `gem_wachttijd_kort` en `gem_wachttijd_lang`.
 
-- Bereken hoeveel **procent** van het totale aantal uitbarstingen een wachttijd hebben tussen `gem_wachttijd_kort` en `gem_wachttijd_lang`? Sla dit op in de variabele `percentage_wachttijd`. Rond het percentage af op **2 cijfers na de komma**.
+- Bereken hoeveel **procent** van het **totale aantal uitbarstingen** een wachttijd hebben tussen `gem_wachttijd_kort` en `gem_wachttijd_lang`. Sla dit op in de variabele `percentage_wachttijd`. Rond het percentage af op **2 cijfers na de komma**.
