@@ -10,14 +10,14 @@ kort <- data$time_eruption < 3.5
 # Vraag 2
 wachttijd_kort <- data$time_waiting[kort]
 wachttijd_lang <- data$time_waiting[!kort]
+gem_wachttijd_kort <- mean(wachttijd_kort)
+gem_wachttijd_lang <- mean(wachttijd_lang)
 
 # Vraag 3
-gemiddeld_kort <- mean(wachttijd_kort)
-gemiddeld_lang <- mean(wachttijd_lang)
+boolean <- data$time_waiting > gem_wachttijd_kort & data$time_waiting < gem_wachttijd_lang
 
-boolean <- data$time_waiting > gemiddeld_kort & data$time_waiting < gemiddeld_lang
+percentage_wachttijd <- round(mean(boolean)*100, 2)
 
-percentage_wachttijd <- round(mean(boolean), 2)
 
 context({
   testcaseAssert("De variabele kort bestaat.", function(env) {
@@ -37,6 +37,12 @@ context({
   testcaseAssert("De variabele wachttijd_lang bestaat.", function(env) {
     isTRUE(exists("wachttijd_lang", env))
   })
+  testcaseAssert("De variabele gem_wachttijd_kort bestaat.", function(env) {
+    isTRUE(exists("gem_wachttijd_kort", env))
+  })
+  testcaseAssert("De variabele gem_wachttijd_lang bestaat.", function(env) {
+    isTRUE(exists("gem_wachttijd_lang", env))
+  })
   testcase("De variabelen werden correct berekend:", {
     testEqual("wachttijd_kort", function(env) {
       env$wachttijd_kort
@@ -44,8 +50,18 @@ context({
     testEqual("wachttijd_lang", function(env) {
       env$wachttijd_lang
     }, wachttijd_lang)
+    testEqual("gem_wachttijd_kort", function(env) {
+      env$gem_wachttijd_kort
+    }, gem_wachttijd_kort)
+    testEqual("gem_wachttijd_lang", function(env) {
+      env$gem_wachttijd_lang
+    }, gem_wachttijd_lang)
+    testFunctionUsedInVar("mean", "gem_wachttijd_kort")
+    testFunctionUsedInVar("mean", "gem_wachttijd_lang")
   })
+
 })
+
 
 context({
   testcaseAssert("De variabele percentage_wachttijd bestaat.", function(env) {
@@ -56,6 +72,6 @@ context({
     testEqual("percentage_wachttijd", function(env) {
       env$percentage_wachttijd
     }, percentage_wachttijd)
-    testFunctionUsedInVar("mean", "percentage_wachttijd")
+    testFunctionUsedInVar("round", "percentage_wachttijd")
   })
 })

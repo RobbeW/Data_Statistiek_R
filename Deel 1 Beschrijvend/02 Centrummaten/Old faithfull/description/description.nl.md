@@ -39,6 +39,7 @@ Via `head(data)` om een **voorsmaakje** van de gegevens te verkrijgen.
 
 - Binnen Yellowstone National Park noemt men een uitbarsting **kort** indien deze *minder dan 3,5 minuten* duurt. Bepaal een **booleaanse** vector `kort` waarin je opslaat welke uitbarstingen van het korte type zijn. 
 
-- Bepaal nu **met behulp van de vorige booleaanse vector** de vectoren `wachttijd_kort` en `wachttijd_lang` waar je de wachttijden van de uitbarstingen van het korte type en het lange type in opslaat.
+- Was de wachttijd voor de korte uitbarstingen verschillend dan deze voor de lange uitbarstingen?
+  Bepaal **met behulp van de vorige booleaanse vector** de vectoren `wachttijd_kort` en `wachttijd_lang` waar je de **wachttijden** van de uitbarstingen van het korte en het lange type in opslaat. Bewaar het gemiddelde van deze wachttijden respectievelijk in `gem_wachttijd_kort` en `gem_wachttijd_lang`.
 
-- Hoeveel **procent** van het totale aantal uitbarstingen hebben een wachttijd tussen de gemiddelde wachttijd bij de korte uitbarstingen en de gemiddelde wachttijd bij de lange uitbarstingen? Sla dit op in de variabele `percentage_wachttijd`. Bereken hiervoor eerst de twee gemiddelden sla ze op in aparte variabelen (Kies zelf een naam). Rond het percentage af op **2 cijfers na de komma**.
+- Bereken hoeveel **procent** van het totale aantal uitbarstingen een wachttijd hebben tussen `gem_wachttijd_kort` en `gem_wachttijd_lang`? Sla dit op in de variabele `percentage_wachttijd`. Rond het percentage af op **2 cijfers na de komma**.

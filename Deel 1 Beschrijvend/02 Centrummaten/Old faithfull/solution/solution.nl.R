@@ -10,11 +10,10 @@ kort <- data$time_eruption < 3.5
 # Vraag 2
 wachttijd_kort <- data$time_waiting[kort]
 wachttijd_lang <- data$time_waiting[!kort]
+gem_wachttijd_kort <- mean(wachttijd_kort)
+gem_wachttijd_lang <- mean(wachttijd_lang)
 
 # Vraag 3
-gemiddeld_kort <- mean(wachttijd_kort)
-gemiddeld_lang <- mean(wachttijd_lang)
-
-boolean <- data$time_waiting > gemiddeld_kort & data$time_waiting < gemiddeld_lang
+boolean <- data$time_waiting > gem_wachttijd_kort & data$time_waiting < gem_wachttijd_lang
 
 percentage_wachttijd <- round(mean(boolean), 2)
