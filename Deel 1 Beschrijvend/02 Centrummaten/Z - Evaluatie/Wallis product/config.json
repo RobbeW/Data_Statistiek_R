@@ -6,12 +6,8 @@
     }
   },
   "labels": [
-    "R",
-    "statistiek"
+    "R"
   ],
-  "evaluation": {
-    "network_enabled": true
-  },
   "access": "public",
   "internals": {
     "token": "QCTjDS9jv2tnW99cTI7-R6aWiq6Quca3AayBUSFHB4IpcIQQcItpTrIKBdkR5uQY",
