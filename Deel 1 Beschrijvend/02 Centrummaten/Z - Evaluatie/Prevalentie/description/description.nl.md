@@ -46,7 +46,7 @@ colnames(NHANES) <- c("gender","age","bmi","diabetes","days_bad_mental_health","
 6 female  45 27.24       No                      3       52
   ```
 
-  In de kolom `diabetes` staat via `Yes`/`No` aangeduid of de persoon al dan niet diabetes heeft. De kolom `days_bad_mental_health` bevat op hoeveel van de laatste 30 dagen de persoon zich mentaal slecht voelde. `days_alc` bevat het aantal dagen op het voorbije jaar dat de persoon alcohol dronk.
+  In de kolom `diabetes` staat via `"Yes"`/`"No"` aangeduid of de persoon al dan niet diabetes heeft. De kolom `days_bad_mental_health` bevat op hoeveel van de laatste 30 dagen de persoon zich mentaal slecht voelde. `days_alc` bevat het aantal dagen op het voorbije jaar dat de persoon alcohol dronk.
 
 - Het doel is nu de (Agresti-Coull) **prevalentie** van diabetes te bepalen **in de groep** die **weinig** versus **veel acohol** gebruikt. Bepaal hiervoor eerst de variabele `mediaan_alc` waarin je het mediane aantal dagen waarop een alcohol gebruikt bepaalt.
 
