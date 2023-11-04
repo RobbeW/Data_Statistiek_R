@@ -1,0 +1,12 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Prevalentie - Agresti-Coull"
+    }
+  },
+  "labels": [
+    "R"
+  ],
+  "access": "public"
+}
