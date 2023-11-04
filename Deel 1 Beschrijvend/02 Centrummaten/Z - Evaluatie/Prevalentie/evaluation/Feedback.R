@@ -77,7 +77,7 @@ context({
         env$p_diabetes_veel_alc
       }, paste(p_diabetes_veel_alc, "of via negatie van weinig_alc", p_diabetes_veel_alc_alt),
       function(gen, exp) {
-        isTRUE(all.equal(gen, p_diabetes_veel_alc)) | isTRUE(all.equal(gen, p_diabetes_veel_alc))
+        isTRUE(all.equal(gen, p_diabetes_veel_alc)) | isTRUE(all.equal(gen, p_diabetes_veel_alc_alt))
       })
     #testFunctionUsedInVar("agrest_coull", "p_diabetes_weinig_alc")
     #testFunctionUsedInVar("agrest_coull", "p_diabetes_veel_alc")
