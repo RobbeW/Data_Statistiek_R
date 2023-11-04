@@ -6,6 +6,8 @@ data <- read.csv(paste0("https://opendata.infrabel.be/api/explore/v2.1/catalo",
 # De kolommen hernoemen
 colnames(data) <- c("maand", "stiptheid", "aantal", "aantal_min_6",
                     "totale_min_vertraging", "stiptheid_neutr")
+data <- data[order(data$maand, decreasing = TRUE),]
+rownames(data) <- seq_len(nrow(data))
 
 # Bepaal hier een antwoord op de vragen
 maanden_slechte_stiptheid <- data$maand[data$stiptheid_neutr < 90]
