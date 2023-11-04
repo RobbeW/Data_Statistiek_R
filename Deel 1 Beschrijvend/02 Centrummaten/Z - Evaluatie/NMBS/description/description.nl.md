@@ -4,7 +4,7 @@
 
 
 
-<div class="text-end">
+<div class="text-end" style="margin-top:15px">
     <a class="btn btn-filled with-icon" href="https://webr.r-wasm.org/latest/" target="_blank"><i class="mdi mdi-code-braces-box mdi-24" title="link"></i>Link naar WebR</a>
 </div>
 
@@ -23,6 +23,8 @@ data <- read.csv("https://opendata.infrabel.be/api/explore/v2.1/catalog/datasets
                  colClasses = c("NULL", "character", rep("numeric", 5)))
 # De kolommen hernoemen
 colnames(data) <- c("maand", "stiptheid", "aantal", "aantal_min_6", "totale_min_vertraging", "stiptheid_neutr")
+data <- data[order(data$maand, decreasing = TRUE),]
+rownames(data) <- seq_len(nrow(data))
 ```
 
 Via `head(data)` krijg je een overzicht van de dataset.
