@@ -1,21 +1,20 @@
 # Een dataset over Starbucks
 data <- read.csv(paste0("https://raw.githubusercontent.com/rfordatascience/ti",
                         "dytuesday/master/data/2021/2021-12-21/starbucks.csv"),
-                 header = TRUE)
+                 header = TRUE,
+                 colClasses = c("character", rep("NULL", 3), rep("numeric", 3), rep("NULL",4), rep("numeric", 4)))
 
-# Aantal soorten drankjes
-aantal_soorten <- length(data$product_name)
+# Enkel de grote bekers
+grote_beker <- data$serv_size_m_l == 473
 
-# Selectie van suikerhoudende dranken
-veel_suiker <- data$sugar_g > 20
-suikerrijke_dranken <- data$caffeine_mg[veel_suiker]
+# Hoeveel bevatten teveel caffeïne?
+aantal_teveel_caffeine <- sum(data$caffeine_mg[grote_beker] > 200)
 
-weinig_suiker <- data$sugar_g <= 20
-suikerarme_dranken <- data$caffeine_mg[weinig_suiker]
+# Bepalen van de 'ongezonde' drankjes.
+gem_sugar <- mean(data$sugar_g[grote_beker])
+gem_caffeine <- mean(data$caffeine_mg[grote_beker])
 
-# Berekening centrummaten
-gemiddelde_suikerrijk <- mean(data$caffeine_mg[suikerrijke_dranken])
-mediaan_suikerrijk <- median(data$caffeine_mg[suikerrijke_dranken])
+producten_in_grote_beker <- data$product_name[grote_beker]
+ongezonde_drank <- producten_in_grote_beker[data$sugar_g[grote_beker] > gem_sugar & data$caffeine_mg[grote_beker] > gem_caffeine]
 
-gemiddelde_suikerarm <- mean(data$caffeine_mg[suikerarme_dranken])
-mediaan_suikerarm <- median(data$caffeine_mg[suikerarme_dranken])
+ongezond_percentage <- round( length(ongezonde_drank)/sum(grote_beker) * 100, 2)

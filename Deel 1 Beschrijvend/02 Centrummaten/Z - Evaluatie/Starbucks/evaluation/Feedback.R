@@ -1,63 +1,62 @@
+# Een dataset over Starbucks
+data <- read.csv(paste0("https://raw.githubusercontent.com/rfordatascience/ti",
+                        "dytuesday/master/data/2021/2021-12-21/starbucks.csv"),
+                 header = TRUE,
+                 colClasses = c("character", rep("NULL", 3), rep("numeric", 3), rep("NULL",4), rep("numeric", 4)))
+
+# Enkel de grote bekers
+grote_beker <- data$serv_size_m_l == 473
+
+# Hoeveel bevatten teveel caffeïne?
+aantal_teveel_caffeine <- sum(data$caffeine_mg[grote_beker] > 200)
+
+# Bepalen van de 'ongezonde' drankjes.
+gem_sugar <- mean(data$sugar_g[grote_beker])
+gem_caffeine <- mean(data$caffeine_mg[grote_beker])
+
+producten_in_grote_beker <- data$product_name[grote_beker]
+ongezonde_drank <- producten_in_grote_beker[data$sugar_g[grote_beker] > gem_sugar & data$caffeine_mg[grote_beker] > gem_caffeine]
+
+ongezond_percentage <- round( length(ongezonde_drank)/sum(grote_beker) * 100, 2)
+
 context({
-  # Een dataset over Starbucks
-  data <- read.csv(paste0("https://raw.githubusercontent.com/rfordatascience/",
-                          "tidytuesday/master/data/2021/2021-12-21/starbucks.",
-                          "csv"),
-                   header = TRUE)
-
-  # Aantal soorten drankjes
-  aantal_soorten <- length(data$product_name)
-
-  # Selectie van suikerhoudende dranken
-  veel_suiker <- data$sugar_g > 20
-  suikerrijke_dranken <- data$caffeine_mg[veel_suiker]
-
-  weinig_suiker <- data$sugar_g <= 20
-  suikerarme_dranken <- data$caffeine_mg[weinig_suiker]
-
-  # Berekening centrummaten
-  gemiddelde_suikerrijk <- mean(data$caffeine_mg[suikerrijke_dranken])
-  mediaan_suikerrijk <- median(data$caffeine_mg[suikerrijke_dranken])
-
-  gemiddelde_suikerarm <- mean(data$caffeine_mg[suikerarme_dranken])
-  mediaan_suikerarm <- median(data$caffeine_mg[suikerarme_dranken])
-
-  testcase("De variabelen werden correct berekend:", {
-    testEqual("aantal_soorten", function(env) {
-      env$aantal_soorten
-    }, aantal_soorten)
-    testFunctionUsedInVar("length", "aantal_soorten")
-    testEqual("gemiddelde_suikerrijk", function(env) {
-      env$gemiddelde_suikerrijk
-    }, gemiddelde_suikerrijk)
-    testFunctionUsedInVar("mean", "gemiddelde_suikerrijk")
-    testEqual("mediaan_suikerrijk", function(env) {
-      env$mediaan_suikerrijk
-    }, mediaan_suikerrijk)
-    testFunctionUsedInVar("median", "mediaan_suikerrijk")
-    testEqual("gemiddelde_suikerarm", function(env) {
-      env$gemiddelde_suikerarm
-    }, gemiddelde_suikerarm)
-    testFunctionUsedInVar("mean", "gemiddelde_suikerarm")
-    testEqual("mediaan_suikerarm", function(env) {
-      env$mediaan_suikerarm
-    }, mediaan_suikerarm)
-    testFunctionUsedInVar("median", "mediaan_suikerarm")
+  testcaseAssert("De variabele grote_beker bestaat.", function(env) {
+    isTRUE(exists("grote_beker", env))
   })
-  testcase("De variabele suikerrijke_dranken werd correct berekend:", {
-    testEqual("suikerrijke_dranken[1]", function(env) {
-      env$suikerrijke_dranken[1]
-    }, suikerrijke_dranken[1])
-    testEqual("suikerrijke_dranken[100]", function(env) {
-      env$suikerrijke_dranken[100]
-    }, suikerrijke_dranken[100])
+  testcase("De variabele werden correct berekend:", {
+    testEqual("grote_beker", function(env) {
+      env$grote_beker
+    }, grote_beker)
   })
-  testcase("De variabele suikerarme_dranken werd correct berekend:", {
-    testEqual("suikerarme_dranken[1]", function(env) {
-      env$suikerarme_dranken[1]
-    }, suikerarme_dranken[1])
-    testEqual("suikerarme_dranken[100]", function(env) {
-      env$suikerarme_dranken[100]
-    }, suikerarme_dranken[100])
+})
+
+context({
+  testcaseAssert("De variabele aantal_teveel_caffeine bestaat.", function(env) {
+    isTRUE(exists("aantal_teveel_caffeine", env))
   })
+  testcase("De variabele werden aantal_teveel_caffeine berekend:", {
+    testEqual("aantal_teveel_caffeine", function(env) {
+      env$aantal_teveel_caffeine
+    }, aantal_teveel_caffeine)
+  })
+})
+
+context({
+  testcaseAssert("De variabele ongezonde_drank bestaat.", function(env) {
+    isTRUE(exists("ongezonde_drank", env))
+  })
+  testcaseAssert("De variabele ongezond_percentage bestaat.", function(env) {
+    isTRUE(exists("ongezond_percentage", env))
+  })
+  testcase("De variabele werden ongezonde_drank berekend:", {
+    testEqual("ongezonde_drank", function(env) {
+      env$ongezonde_drank
+    }, ongezonde_drank)
+  })
+  testcase("De variabele werden ongezond_percentage berekend:", {
+    testEqual("ongezond_percentage", function(env) {
+      env$ongezond_percentage
+    }, ongezond_percentage)
+  })
+  testFunctionUsedInVar("round", "ongezond_percentage")
 })
