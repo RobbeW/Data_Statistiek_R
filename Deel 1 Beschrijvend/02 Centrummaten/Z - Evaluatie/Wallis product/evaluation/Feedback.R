@@ -1,10 +1,10 @@
-  wallis <- function(n) {
-    rij <- 1:n
-    alter <- (-1)^(rij+1)
-    oneven <- rij*2 - 1
-    res <- alter * oneven
-    return(round(sum(1/res), 6))
-  }
+# solution
+wallis <- function(n) {
+  rij <- 1:n
+  factoren <- 4*rij^2 / (4*rij^2 - 1)
+  res <- prod(factoren)
+  return(round(res, 6))
+}
 
 context({
   testcase("De functie wallis werkt:", {
