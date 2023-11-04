@@ -2,8 +2,10 @@
     <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
 </div>
 
+
+
 <div class="text-end">
-    <a class="btn btn-filled with-icon" href="https://webr.r-wasm.org/latest/" target="_blank"><i class="mdi mdi-code-block-braces mdi-24" title="link"></i>Link naar WebR</a>
+    <a class="btn btn-filled with-icon" href="https://webr.r-wasm.org/latest/" target="_blank"><i class="mdi mdi-code-braces-box mdi-24" title="link"></i>Link naar WebR</a>
 </div>
 
 De stiptheid van de Belgische spoorwegen blijft een gevoelig punt. Infrabel deelt via zijn <a href="https://opendata.infrabel.be/explore" target="_blank">Open Data</a> geneutraliseerde cijfers van de stiptheid. **Geneutraliseerd** betekent dat vertragingen ten gevolge van kabeldiefstallen, agressie, ... niet werden meegerekend.
