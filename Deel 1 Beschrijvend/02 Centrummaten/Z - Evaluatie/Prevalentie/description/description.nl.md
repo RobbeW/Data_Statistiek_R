@@ -54,4 +54,4 @@ colnames(NHANES) <- c("gender","age","bmi","diabetes","days_bad_mental_health","
 
 - Gebruik nu deze booleaanse vector om een **nieuwe booleaanse vector** aan te maken van de personen met diabetes in de groep die weinig alcohol gebruikt. Gebruik daarna de vorige functie `agresti_coull()` en deze nieuwe vector om de prevalentie van diabetes in deze groep te schatten. Sla dit op in `p_diabetes_weinig_alc`.
 
-- Doe daarna hetzelfde voor de prevalantie in de groep die veel acohol gebruikt, sla dit op in `p_diabetes_veel_alc`.
+- Doe daarna hetzelfde voor de prevalentie in de groep die veel acohol gebruikt, sla dit op in `p_diabetes_veel_alc`.

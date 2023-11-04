@@ -30,9 +30,9 @@ p_diabetes_veel_alc_alt <- agresti_coull(NHANES$diabetes[!weinig_alc] == "Yes")
 context({
   testcase("De functie agresti_coull werkt:", {
     ntests <- 1:6
-    for (aantal in ntests) {
+    for (i in ntests) {
       vec <- sample(c(TRUE,FALSE), sample(5:20, 1), TRUE)
-      testEqual(paste0("met parameter ", toString(vec), function(env) {
+      testEqual(paste0("met parameter ", toString(vec)), function(env) {
                   env$agresti_coull(vec)
                 }, agresti_coull(vec))
     }
@@ -82,8 +82,8 @@ context({
       function(gen, exp) {
         isTRUE(all.equal(gen, p_diabetes_veel_alc)) | isTRUE(all.equal(gen, p_diabetes_veel_alc))
       })
-    #testFunctionUsedInVar("agrest_coull", "p_diabetes_weinig_alc")
-    #testFunctionUsedInVar("agrest_coull", "p_diabetes_veel_alc")
+    testFunctionUsedInVar("agrest_coull", "p_diabetes_weinig_alc")
+    testFunctionUsedInVar("agrest_coull", "p_diabetes_veel_alc")
   })
 })
 
