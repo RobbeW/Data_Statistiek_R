@@ -42,7 +42,7 @@ context({
   testcaseAssert("De variabele gemiddeld_min_vertraging bestaat.", function(env) {
     isTRUE(exists("gemiddeld_min_vertraging", env))
   })
-  testcase("De variabelen werden aantal_met_vertraging berekend:", {
+  testcase("De variabelen werden correct berekend:", {
     testEqual("aantal_met_vertraging", function(env) {
       env$aantal_met_vertraging
     }, aantal_met_vertraging)
