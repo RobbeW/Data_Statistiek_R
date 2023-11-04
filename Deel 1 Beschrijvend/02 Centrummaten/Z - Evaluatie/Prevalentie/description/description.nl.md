@@ -10,13 +10,13 @@
 
 De centrale vraag is natuurlijk, **hoe schat je de prevalentie?** De meest voor de hand liggende methode is om het aantal gevallen te delen door de populatiegrootte. Zijn er 21 obese personen op 100 mensen, dan is het logisch om de prevalentie (kans op) obesitas te schatten op 21%.
 
-In 1998 formuleerde de Amerikaanse statistici Alan Agresti en Brent Coull een alternatieve schatter $$\hat p$$ voor de prevalentie:
+In 1998 formuleerde de Amerikaanse statistici Alan Agresti en Brent Coull een **alternatieve** schatter $$\hat p$$ voor de prevalentie:
 
 $$
 \hat p = \dfrac{X+2}{n+4}
 $$
 
-waarbij $$X$$ het aantal gevallen met die ziekte of aandoening voorstelt. Het voorstel van Agresti & Coull doet het vooral beter bij zeer hoge of lage prevalenties.
+waarbij $$X$$ het aantal gevallen met die ziekte of aandoening voorstelt en $$n$$ het totale aantal gevallen. Het voorstel van Agresti & Coull doet het vooral beter bij hoge of lage prevalenties.
 
 ## Gevraagd
 
@@ -24,19 +24,19 @@ waarbij $$X$$ het aantal gevallen met die ziekte of aandoening voorstelt. Het vo
 
   Zo moet bijvoorbeeld gelden dat: `agresti_coull( c(TRUE, TRUE, FALSE, TRUE, FALSE) )` gelijk is aan $$\dfrac{3+2}{5+4} \approx 55,55\%$$.
 
-In het vervolg van deze opgave ga je de functie toepassen op de NHANES (National Health and Nutrition Examination Survey) dataset. Deze data bevat heel wat informatie over een pak Amerikanen in de periode van 2009 en 2012. Via onderstaande code kan je de dataset ophalen:
+  In het vervolg van deze opgave ga je de functie toepassen op de NHANES (National Health and Nutrition Examination Survey) dataset. Deze data bevat heel wat informatie over een pak Amerikanen in de periode van 2009 en 2012. Via onderstaande code kan je de dataset ophalen:
 
-```R
+  ```R
 # NHANES dataset
 NHANES <- read.csv("https://raw.githubusercontent.com/GTPB/PSLS20/master/data/NHANES.csv",
                  header = TRUE)
 NHANES <- na.omit(NHANES[, c("Gender","Age","BMI","Diabetes", "DaysMentHlthBad", "AlcoholYear")])
 rownames(NHANES) <- seq_len(nrow(NHANES))
 colnames(NHANES) <- c("gender","age","bmi","diabetes","days_bad_mental_health","days_alc")
-```
+  ```
 
-Een inleidende blik krijgen we via `head(NHANES)`, er werd een beperkte selectie van de grote hoeveelheid data gemaakt.
-```
+  Een inleidende blik krijgen we via `head(NHANES)`, er werd een beperkte selectie van de grote hoeveelheid data gemaakt.
+  ```
   gender age   bmi diabetes days_bad_mental_health days_alc
 1   male  34 32.22       No                     15        0
 2   male  34 32.22       No                     15        0
@@ -44,9 +44,9 @@ Een inleidende blik krijgen we via `head(NHANES)`, er werd een beperkte selectie
 4 female  49 30.57       No                     10       20
 5 female  45 27.24       No                      3       52
 6 female  45 27.24       No                      3       52
-```
+  ```
 
-In de kolom `diabetes` staat via `Yes`/`No` aangeduid of de persoon al dan niet diabetes heeft. De kolom `days_bad_mental_health` bevat op hoeveel van de laatste 30 dagen de persoon zich mentaal slecht voelde. `days_alc` bevat het aantal dagen op het voorbije jaar dat de persoon alcohol dronk.
+  In de kolom `diabetes` staat via `Yes`/`No` aangeduid of de persoon al dan niet diabetes heeft. De kolom `days_bad_mental_health` bevat op hoeveel van de laatste 30 dagen de persoon zich mentaal slecht voelde. `days_alc` bevat het aantal dagen op het voorbije jaar dat de persoon alcohol dronk.
 
 - Het doel is nu de (Agresti-Coull) **prevalentie** van diabetes te bepalen **in de groep** die **weinig** versus **veel acohol** gebruikt. Bepaal hiervoor eerst de variabele `mediaan_alc` waarin je het mediane aantal dagen waarop een alcohol gebruikt bepaalt.
 
