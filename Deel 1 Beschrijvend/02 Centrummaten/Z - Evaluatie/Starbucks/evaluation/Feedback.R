@@ -34,7 +34,7 @@ context({
   testcaseAssert("De variabele aantal_teveel_caffeine bestaat.", function(env) {
     isTRUE(exists("aantal_teveel_caffeine", env))
   })
-  testcase("De variabele werden aantal_teveel_caffeine berekend:", {
+  testcase("De variabele werden correct berekend:", {
     testEqual("aantal_teveel_caffeine", function(env) {
       env$aantal_teveel_caffeine
     }, aantal_teveel_caffeine)
@@ -48,12 +48,10 @@ context({
   testcaseAssert("De variabele ongezond_percentage bestaat.", function(env) {
     isTRUE(exists("ongezond_percentage", env))
   })
-  testcase("De variabele werden ongezonde_drank berekend:", {
+  testcase("De variabelen werden correct berekend:", {
     testEqual("ongezonde_drank", function(env) {
       env$ongezonde_drank
     }, ongezonde_drank)
-  })
-  testcase("De variabele werden ongezond_percentage berekend:", {
     testEqual("ongezond_percentage", function(env) {
       env$ongezond_percentage
     }, ongezond_percentage)
