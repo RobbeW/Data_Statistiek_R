@@ -11,7 +11,7 @@ Dierenproeven worden vaak gebruikt om de veiligheid en werkzaamheid van medicijn
 Stel dat men een experiment uitvoert waarbij een muis blootgesteld wordt aan een dosis radioactieve straling en men vervolgens de tijd dat het dier overleeft (in weken) gaat meten. Indien men een uitspraak wil doen over de levensverwachting van zo'n muis zal men gebruik maken van de schatters $$\hat \alpha$$ en $$\hat \beta$$.
 
 $$
-\hat \alpha = \dfrac{(\overline x)^2}{\frac{1}{n}\sum_{i=1}^n x_i^2 - (\overline x)^2} \qquad \text{\sffamily en} \qquad \hat \beta = \dfrac{\frac{1}{n} \sum_{i=1}^n x_i^2 - (\overline)^2}{\overline x}
+\hat \alpha = \dfrac{{\overline x}^2}{\frac{1}{n}\sum_{i=1}^n x_i^2 - {\overline x}^2} \qquad \text{en} \qquad \hat \beta = \dfrac{\frac{1}{n} \sum_{i=1}^n x_i^2 - {\overline x}^2}{\overline x}
 $$
 
 hierbij stelt $$\overline x$$ natuurlijk het gewone rekenkundige gemiddelde voor.
