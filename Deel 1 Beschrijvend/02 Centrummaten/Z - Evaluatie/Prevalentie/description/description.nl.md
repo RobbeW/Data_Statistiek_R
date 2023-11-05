@@ -37,7 +37,7 @@ colnames(NHANES) <- c("gender","age","bmi","diabetes","days_bad_mental_health","
 
   Een inleidende blik krijgen we via `head(NHANES)`, er werd een beperkte selectie van de grote hoeveelheid data gemaakt.
   ```
-  gender age   bmi diabetes days_bad_mental_health days_alc
+    gender age   bmi diabetes days_bad_mental_health days_alc
 1   male  34 32.22       No                     15        0
 2   male  34 32.22       No                     15        0
 3   male  34 32.22       No                     15        0
