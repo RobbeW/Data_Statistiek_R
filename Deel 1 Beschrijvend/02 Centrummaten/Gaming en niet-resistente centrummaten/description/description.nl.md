@@ -17,4 +17,4 @@ Dit zijn de data die hij ingeeft:
 ## Gevraagd
 * Bereken, op basis van de data (bewaar deze in de variabele `data`) zoals Senne die heeft ingetikt, het **gemiddelde** en de **mediaan**. Bewaar dit in de variabelen `gemiddelde` en `mediaan`;
 * Senne ziet na het printen van die centrummaten, dat er iets niet klopt. Maak een nieuwe variabele `data_correct` waarin de tikfout gecorrigeerd wordt;
-* Welke van de twee centrummaten moet Senne opnieuw berekenen? Sla **die** op in de variabele `correctie`. Deze centrummaat noemt men **niet-resistent**, want ze is uitermate gevoelig voor uitschieters.
+* Welke van de twee centrummaten zal veel wijzigen en moet Senne opnieuw berekenen? Sla **die** op in de variabele `correctie`. Deze centrummaat noemt men **niet-resistent**, want ze is uitermate gevoelig voor uitschieters.
