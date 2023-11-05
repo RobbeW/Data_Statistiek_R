@@ -1,0 +1,12 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Overleving bij proeven op dieren"
+    }
+  },
+  "labels": [
+    "R"
+  ],
+  "access": "public"
+}
