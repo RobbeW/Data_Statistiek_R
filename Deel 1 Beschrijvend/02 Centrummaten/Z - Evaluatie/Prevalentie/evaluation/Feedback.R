@@ -27,12 +27,17 @@ p_diabetes_veel_alc <- agresti_coull(NHANES$diabetes[veel_alc] == "Yes")
 # alernatief
 p_diabetes_veel_alc_alt <- agresti_coull(NHANES$diabetes[!weinig_alc] == "Yes")
 
+printVecAsis <- function(x) {
+  ifelse(length(x) == 1, x, 
+       ifelse(is.character(x), paste0("c(", paste(sapply(x, function(a) paste0("\'",a,"\'")), collapse=", "), ")"),
+              paste0("c(", paste(x, collapse=", "), ")")))}
+
 context({
   testcase("De functie agresti_coull werkt:", {
     ntests <- 1:6
     for (i in ntests) {
       vec <- sample(c(TRUE,FALSE), sample(5:20, 1), TRUE)
-      testEqual(paste0("met parameter ", toString(vec)), function(env) {
+      testEqual(paste0("met parameter ", printVecAsis(vec)), function(env) {
                   env$agresti_coull(vec)
                 }, agresti_coull(vec))
     }
