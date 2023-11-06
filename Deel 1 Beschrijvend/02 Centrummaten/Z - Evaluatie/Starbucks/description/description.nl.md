@@ -14,7 +14,7 @@ In deze oefening werpen we een blik op de **hoeveelheid cafeïne** in  *suikerar
 
 ## Gegeven
 
-Deze <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-12-21/starbucks.csv" target="_blank">dataset</a> bevat voor verschillende keuzeopties het aantal calorien, het aantal gram suiker, de hoeveelheid cafeïne, enz...
+Deze <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-12-21/starbucks.csv" target="_blank">dataset</a> bevat voor verschillende keuzeopties het aantal calorieën, het aantal gram suiker, de hoeveelheid cafeïne, enz...
 
 Je kan de data inlezen via het volgende commando:
 
@@ -42,12 +42,12 @@ De kolommen spreken eigenlijk voor zich. `product_name` bevat de naam van de ver
 
 - Je merkt dat de dataset gegevens van hetzelfde product, maar in verschillende maten bevat. We zullen ons enkel focussen op een bekermaat van 473 ml, genaamd "*Tall*". Maar hiervoor een **booleaanse** variabele aan `grote_beker`. (In de volgende opgaves werk je telkens met deze bekermaat.)
 
-- Volgens verschillende artsen mag een zwangere vrouw niet meer dan 200 mg caffeïne per dag consumeren. **Hoeveel** (grote) drankjes zijn er die hier **niet** aan voldoen? Sla dit op in de variabele `aantal_teveel_caffeine`.
+- Volgens verschillende artsen mag een zwangere vrouw niet meer dan 200 mg cafeïne per dag consumeren. **Hoeveel** (grote) drankjes zijn er die hier **niet** aan voldoen? Sla dit op in de variabele `aantal_teveel_cafeine`.
 
-- Onderzoek welke drankjes (`product_name`) **meer** dan een gemiddeld aantal g suiker en aantal mg caffeïne bevatten. Sla deze drankjes op in de variabele `ongezonde_drank`. **Hoeveel procent** van het aanbod is dit? Sla dit op in de variabele `ongezond_percentage` en rond af op 2 cijfers na de komma.
+- Onderzoek welke drankjes (`product_name`) **meer** dan een gemiddeld aantal g suiker en aantal mg cafeïne bevatten. Sla deze drankjes op in de variabele `ongezonde_drank`. **Hoeveel procent** van het aanbod is dit? Sla dit op in de variabele `ongezond_percentage` en rond af op 2 cijfers na de komma.
 
   Maak hiervoor zelf de nodige hulpvariabelen. Denk eraan om **enkel** te werken met de grote bekermaat.
 
 {: .callout.callout-info}
 >#### Tip
-> Maak als hulpvariabelen (onder andere) vectoren aan waar je **enkel** van de grote bekermaat de hoeveelheid suiker en caffeine in opslaat.
+> Maak als hulpvariabelen (onder andere) vectoren aan waar je **enkel** van de grote bekermaat de hoeveelheid suiker en cafeïne in opslaat.

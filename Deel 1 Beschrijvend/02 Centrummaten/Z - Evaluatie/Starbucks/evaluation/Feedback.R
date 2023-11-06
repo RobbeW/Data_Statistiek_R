@@ -8,14 +8,14 @@ data <- read.csv(paste0("https://raw.githubusercontent.com/rfordatascience/ti",
 grote_beker <- data$serv_size_m_l == 473
 
 # Hoeveel bevatten teveel caffeïne?
-aantal_teveel_caffeine <- sum(data$caffeine_mg[grote_beker] > 200)
+aantal_teveel_cafeine <- sum(data$caffeine_mg[grote_beker] > 200)
 
 # Bepalen van de 'ongezonde' drankjes.
 gem_sugar <- mean(data$sugar_g[grote_beker])
-gem_caffeine <- mean(data$caffeine_mg[grote_beker])
+gem_cafeine <- mean(data$caffeine_mg[grote_beker])
 
 producten_in_grote_beker <- data$product_name[grote_beker]
-ongezonde_drank <- producten_in_grote_beker[data$sugar_g[grote_beker] > gem_sugar & data$caffeine_mg[grote_beker] > gem_caffeine]
+ongezonde_drank <- producten_in_grote_beker[data$sugar_g[grote_beker] > gem_sugar & data$caffeine_mg[grote_beker] > gem_cafeine]
 
 ongezond_percentage <- round( length(ongezonde_drank)/sum(grote_beker) * 100, 2)
 
@@ -31,13 +31,13 @@ context({
 })
 
 context({
-  testcaseAssert("De variabele aantal_teveel_caffeine bestaat.", function(env) {
-    isTRUE(exists("aantal_teveel_caffeine", env))
+  testcaseAssert("De variabele aantal_teveel_cafeine bestaat.", function(env) {
+    isTRUE(exists("aantal_teveel_cafeine", env))
   })
   testcase("De variabele werden correct berekend:", {
-    testEqual("aantal_teveel_caffeine", function(env) {
-      env$aantal_teveel_caffeine
-    }, aantal_teveel_caffeine)
+    testEqual("aantal_teveel_cafeine", function(env) {
+      env$aantal_teveel_cafeine
+    }, aantal_teveel_cafeine)
   })
 })
 
