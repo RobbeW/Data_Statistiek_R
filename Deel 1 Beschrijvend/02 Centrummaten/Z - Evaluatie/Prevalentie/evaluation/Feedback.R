@@ -19,11 +19,11 @@ rownames(data) <- seq_len(nrow(data))
 colnames(data) <- c("gender","age","bmi","diabetes","days_bad_mental_health","days_alc")
 
 # Antwoord op de vragen
-median_alc <- median(data$days_alc)
-weinig_alc <- data$days_alc < median_alc
+mediaan_alc <- median(data$days_alc)
+weinig_alc <- data$days_alc < mediaan_alc
 p_diabetes_weinig_alc <- agresti_coull(data$diabetes[weinig_alc])
 
-veel_alc <- data$days_alc > median_alc
+veel_alc <- data$days_alc > mediaan_alc
 p_diabetes_veel_alc <- agresti_coull(data$diabetes[veel_alc])
 # alernatief
 p_diabetes_veel_alc_alt <- agresti_coull(data$diabetes[!weinig_alc])
