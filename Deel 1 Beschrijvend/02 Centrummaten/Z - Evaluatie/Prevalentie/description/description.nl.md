@@ -28,30 +28,31 @@ waarbij $$X$$ het aantal gevallen met die ziekte of aandoening voorstelt en $$n$
 
   ```R
 # NHANES dataset
-NHANES <- read.csv("https://raw.githubusercontent.com/GTPB/PSLS20/master/data/NHANES.csv",
+data <- read.csv("https://raw.githubusercontent.com/GTPB/PSLS20/master/data/NHANES.csv",
                  header = TRUE)
-NHANES <- na.omit(NHANES[, c("Gender","Age","BMI","Diabetes", "DaysMentHlthBad", "AlcoholYear")])
-rownames(NHANES) <- seq_len(nrow(NHANES))
-colnames(NHANES) <- c("gender","age","bmi","diabetes","days_bad_mental_health","days_alc")
+data <- na.omit(data[, c("Gender","Age","BMI","Diabetes", "DaysMentHlthBad", "AlcoholYear")])
+data$Diabetes <- data$Diabetes == "Yes"
+rownames(data) <- seq_len(nrow(data))
+colnames(data) <- c("gender","age","bmi","diabetes","days_bad_mental_health","days_alc")
   ```
 
-  Een inleidende blik krijgen we via `head(NHANES)`, er werd een beperkte selectie van de grote hoeveelheid data gemaakt.
+  Een inleidende blik krijgen we via `head(data)`, er werd een beperkte selectie van de grote hoeveelheid data gemaakt.
   ```
     gender age   bmi diabetes days_bad_mental_health days_alc
-1   male  34 32.22       No                     15        0
-2   male  34 32.22       No                     15        0
-3   male  34 32.22       No                     15        0
-4 female  49 30.57       No                     10       20
-5 female  45 27.24       No                      3       52
-6 female  45 27.24       No                      3       52
+1   male  34 32.22      FALSE                     15        0
+2   male  34 32.22      FALSE                     15        0
+3   male  34 32.22      FALSE                     15        0
+4 female  49 30.57      FALSE                     10       20
+5 female  45 27.24      FALSE                      3       52
+6 female  45 27.24      FALSE                      3       52
   ```
 
-  In de kolom `diabetes` staat via `"Yes"`/`"No"` aangeduid of de persoon al dan niet diabetes heeft. De kolom `days_bad_mental_health` bevat op hoeveel van de laatste 30 dagen de persoon zich mentaal slecht voelde. `days_alc` bevat het aantal dagen op het voorbije jaar dat de persoon alcohol dronk.
+  `diabetes` is een **booleaanse kolom**, met `TRUE` indien de persoon diabetes heeft. De kolom `days_bad_mental_health` bevat op hoeveel van de laatste 30 dagen de persoon zich mentaal slecht voelde. `days_alc` bevat het aantal dagen op het voorbije jaar dat de persoon alcohol dronk.
 
 - Het doel is nu de (Agresti-Coull) **prevalentie** van diabetes te bepalen **in de groep** die **weinig** versus **veel acohol** gebruikt. Bepaal hiervoor eerst de variabele `mediaan_alc` waarin je het mediane aantal dagen waarop een alcohol gebruikt bepaalt.
 
 - Maak nu de **booleaanse** vector `weinig_alc` waar je in opslaat welke personen **minder** dan het mediane aantal dagen alcohol gebruikten.
 
-- Gebruik nu deze booleaanse vector om een **nieuwe booleaanse vector** aan te maken van de personen met diabetes in de groep die weinig alcohol gebruikt. Gebruik daarna de vorige functie `agresti_coull()` en deze nieuwe vector om de prevalentie van diabetes in deze groep te schatten. Sla dit op in `p_diabetes_weinig_alc`.
+- Selecteer nu uit de kolom `diabetes` de personen die weinig alcohol gebruiken. Gebruik daarna de vorige functie `agresti_coull()` en deze nieuwe vector om de prevalentie van diabetes in deze groep te schatten. Sla dit op in `p_diabetes_weinig_alc`.
 
 - Doe daarna hetzelfde voor de prevalentie in de groep die veel acohol gebruikt, sla dit op in `p_diabetes_veel_alc`.
