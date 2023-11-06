@@ -38,7 +38,7 @@ colnames(data) <- c("gender","age","bmi","diabetes","days_bad_mental_health","da
 
   Een inleidende blik krijgen we via `head(data)`, er werd een beperkte selectie van de grote hoeveelheid data gemaakt.
   ```
-    gender age   bmi diabetes days_bad_mental_health days_alc
+    gender age   bmi   diabetes days_bad_mental_health days_alc
 1   male  34 32.22      FALSE                     15        0
 2   male  34 32.22      FALSE                     15        0
 3   male  34 32.22      FALSE                     15        0
@@ -49,7 +49,7 @@ colnames(data) <- c("gender","age","bmi","diabetes","days_bad_mental_health","da
 
   `diabetes` is een **booleaanse kolom**, met `TRUE` indien de persoon diabetes heeft. De kolom `days_bad_mental_health` bevat op hoeveel van de laatste 30 dagen de persoon zich mentaal slecht voelde. `days_alc` bevat het aantal dagen op het voorbije jaar dat de persoon alcohol dronk.
 
-- Het doel is nu de (Agresti-Coull) **prevalentie** van diabetes te bepalen **in de groep** die **weinig** versus **veel acohol** gebruikt. Bepaal hiervoor eerst de variabele `mediaan_alc` waarin je het mediane aantal dagen waarop een alcohol gebruikt bepaalt.
+- Het doel is nu de (Agresti-Coull) **prevalentie** van diabetes te bepalen **in de groep** die **weinig** versus **veel acohol** gebruikt. Bepaal hiervoor eerst de variabele `mediaan_alc` waarin je de mediaan bepaalt van het aantal dagen waarop alcohol werd gedronken.
 
 - Maak nu de **booleaanse** vector `weinig_alc` waar je in opslaat welke personen **minder** dan het mediane aantal dagen alcohol gebruikten.
 
