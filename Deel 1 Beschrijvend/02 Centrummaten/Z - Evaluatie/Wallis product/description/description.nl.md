@@ -16,7 +16,7 @@ $$
 
 ## Gevraagd
 
-Maak een functie `wallis(aantal)` waarbij `aantal` het aantal factoren in de product voorstelt. Zo geldt dat `wallis(2)` overeenkomt met 
+Maak een functie `wallis(aantal)` waarbij `aantal` het aantal factoren in het product voorstelt. Zo geldt dat `wallis(2)` overeenkomt met 
 
 $$
 \prod_{n=1}^2 \dfrac{4n^2}{4n^2-1} = \dfrac{4 \cdot 1^2}{4\cdot 1^2 -1} \cdot \dfrac{4\cdot 2^2}{4\cdot 2^2 -1} = \dfrac{4}{3}\cdot \dfrac{16}{15} \approx 1,422\ldots
