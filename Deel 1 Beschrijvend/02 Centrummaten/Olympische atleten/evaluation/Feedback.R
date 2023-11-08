@@ -29,7 +29,7 @@ context({
     testEqual("aantal_atleten", function(env) {
       env$aantal_atleten
     }, aantal_atleten)
-    #testFunctionUsedInVar("length", "aantal_atleten")
+    testFunctionUsedInVar("length", "aantal_atleten")
   })
 })
 
