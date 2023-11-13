@@ -1,0 +1,12 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Rij van Recamán"
+    }
+  },
+  "labels": [
+    "R"
+  ],
+  "access": "public"
+}
