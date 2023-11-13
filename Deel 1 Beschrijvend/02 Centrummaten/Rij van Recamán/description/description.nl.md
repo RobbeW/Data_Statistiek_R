@@ -1,10 +1,10 @@
 De **rij van Recamán** is genoemd naar de uitvinder Bernardo Recamán Santos. De rij start met het getal 0 en nadien de volgende formule:
 
 $$
-  r_i = \begin{cases}
-  r_{i-1}-(i-1) & \text{als }r_{i-1}-(i-1)>0\text{ en niet al in de rij}\\
+  \mathsf{r_i = \begin{cases}
+  r_{i-1}-(i-1) & \text{als } r_{i-1}-(i-1) > 0\text{ en niet al in de rij}\\
   r_{i-1}+(i-1) & \text{anders}
-  \end{cases}
+  \end{cases}}
 $$
 
 De rij begint dus als volgt: 0, 1, 3, 6, 2, 7, 13, 20, 12, 21, 11, 22, 10, 23, 9,...
