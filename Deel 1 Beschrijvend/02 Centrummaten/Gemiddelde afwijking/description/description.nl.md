@@ -2,7 +2,7 @@ Een ander belangrijk begrip binnen de statistiek is de **variantie** en **standa
 De **steekproef**variantie $$s^2$$ van een rij $$(x_1,x_2, \ldots, x_n)$$ met ($$n$$ het aantal gegevens) wordt gedefinieerd als:
 
 $$
-s^2 \dfrac{1}{n} \sum_{i=1}^n (x_i - \overline x)^2
+s^2 = \dfrac{1}{n-1} \sum_{i=1}^n (x_i - \overline x)^2
 $$
 
 Hierbij stelt $$\overline x$$ het gewone rekenkundige gemiddelde van de rij gegevens voor.
@@ -10,7 +10,7 @@ Hierbij stelt $$\overline x$$ het gewone rekenkundige gemiddelde van de rij gege
 De **steekproef**standaardafwijking $$s$$ kan men nadien eenvoudig berekenen via:
 
 $$
-    s = \sqrt(s^2)
+    s = \sqrt{s^2}
 $$
 
 ## Gevraagd
