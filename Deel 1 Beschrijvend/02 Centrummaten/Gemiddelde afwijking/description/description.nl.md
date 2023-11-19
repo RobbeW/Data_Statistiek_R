@@ -17,5 +17,5 @@ $$
 
 Programmeer de functie `var_steekproef()` die gegeven een vector `data` bovenstaande steekproefvariantie berekent en het resultaat afrond tot op 4 cijfers na de komma.
 
-Programmeer daarna de fucntie `sd_steekproef()` die gegeven een vector `data` de steekproefstandaardafwijking uitrekent. Gebruik in deze functie de vorige functie en rond het resultaat af op 4 cijfers na de komma.
+Programmeer **daarna** de fucntie `sd_steekproef()` die gegeven een vector `data` de steekproefstandaardafwijking uitrekent. Gebruik **in deze functie de vorige functie** en rond het resultaat af op 4 cijfers na de komma.
 
