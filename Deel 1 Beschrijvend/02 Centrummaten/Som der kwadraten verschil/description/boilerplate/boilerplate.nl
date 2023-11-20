@@ -1,14 +1,6 @@
 
 
 
-
-
-
-
-
-
-
-
 ### Enkele testen ###
 verschil(10)  # 2640
 
