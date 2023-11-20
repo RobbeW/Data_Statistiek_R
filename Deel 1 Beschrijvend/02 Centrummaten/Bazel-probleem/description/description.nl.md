@@ -18,6 +18,21 @@ Maak een functie `bazel(aantal)` waarbij `aantal` het aantal termen in de som vo
 
 - Je kan **controleren** of het resultaat inderdaad Eulers vondst benadert. Probeer bijvoorbeeld `bazel(10000)` uit te rekenen en controleer of dit `pi^2 / 6` benadert.
 
+ #### Voorbeelden
+
+De eerste `10` termen van de som optellen resulteert in:
+
+ ```R
+ > bazel(10)
+1.549768
+ ```
+
+ De eerste `100` termen van de som optellen resulteert in:
+
+ ```R
+ > bazel(100)
+1.634984
+ ```
  
 {: .callout.callout-info}
 >#### Tips
