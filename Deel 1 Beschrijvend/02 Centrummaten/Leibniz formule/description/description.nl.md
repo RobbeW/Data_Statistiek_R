@@ -24,14 +24,14 @@ Maak een functie `leibniz(aantal)` waarbij `aantal` het aantal termen in de som 
 De eerste `10` termen van de som optellen resulteert in:
 
  ```R
- > leibniz(10)
+> leibniz(10)
 0.76046
  ```
 
  De eerste `100` termen van de som optellen resulteert in:
 
  ```R
- > leibniz(100)
+> leibniz(100)
 0.782898
  ```
  
