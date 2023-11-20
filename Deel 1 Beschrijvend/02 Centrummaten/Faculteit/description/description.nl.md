@@ -10,8 +10,24 @@ Ook 0! bestaat, dit werd gedefinieerd als 0! = 1.
 ## Gevraagd
 
 Maak een functie `faculteit(getal)`. Er geldt bijvoorbeeld dat `faculteit(5)` gelijk is aan 120.
- 
+
+ #### Voorbeelden
+
+Het speciale geval `0` heeft als uitvoer:
+
+ ```R
+ > faculteit(0)
+1
+ ```
+
+Het product van de eerste `5` factoren:
+
+ ```R
+ > faculteit(5)
+120
+ ```
+
 {: .callout.callout-info}
 >#### Tip
 >
-> - Gebruik de keuzestructuur `if`.
+> - Gebruik de keuzestructuur `if` om het geval waarbij `getal` 0 is apart op te vangen.
