@@ -18,6 +18,22 @@ Maak een functie `leibniz(aantal)` waarbij `aantal` het aantal termen in de som 
 
 - Je kan **controleren** of het resultaat inderdaad $$\dfrac{\pi}{4}$$ benadert. Probeer bijvoorbeeld `leibniz(10000)` uit te rekenen en controleer of dit ongeveer gelijk is aan `pi / 4`.
 
+
+ #### Voorbeelden
+
+De eerste `10` termen van de som optellen resulteert in:
+
+ ```R
+ > leibniz(10)
+0.76046
+ ```
+
+ De eerste `100` termen van de som optellen resulteert in:
+
+ ```R
+ > leibniz(100)
+0.782898
+ ```
  
 {: .callout.callout-info}
 >#### Tips
