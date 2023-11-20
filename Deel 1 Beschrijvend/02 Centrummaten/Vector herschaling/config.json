@@ -1,0 +1,13 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Eenheidslengte"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "access": "public"
+}
