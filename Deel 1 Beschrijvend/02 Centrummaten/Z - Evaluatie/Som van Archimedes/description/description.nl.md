@@ -23,7 +23,7 @@ Er bestaat een *ontroerend* mooi meetkundig argument voor deze reekssom. In onde
 Maak een functie `archimedes(aantal)` waarbij `aantal` het aantal termen uit de som voorstelt. Zo geldt dat `archimedes(3)` overeenkomt met 
 
 $$
-\sum_{n=1}^3 \dfrac{1}{4^n} = \dfrac{1}{4} + \dfrac{1}{16} + \dfrac{1}{64} \approx 0,328\ldotsw
+\sum_{n=1}^3 \dfrac{1}{4^n} = \dfrac{1}{4} + \dfrac{1}{16} + \dfrac{1}{64} \approx 0,328\ldots
 $$
 
 - Laat R het resultaat van het product afronden op **9 cijfers na de komma**.
