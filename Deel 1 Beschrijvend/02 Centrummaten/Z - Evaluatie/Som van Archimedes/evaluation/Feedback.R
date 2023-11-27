@@ -1,4 +1,4 @@
-options(digits=15)
+options(digits=20)
 # Een functie die de Archimedes som simuleert
 archimedes <- function(n) {
   rij <- 1:n
@@ -13,7 +13,6 @@ for (aantal in rijtje) {
     testcase("De functie archimedes() werkt:", {
       testEqual(paste0("met parameter ", 
                         format(aantal, scientific = FALSE)), function(env) {
-                env$options(digits=15)
                 env$archimedes(aantal)
                 }, archimedes(aantal))
     })
