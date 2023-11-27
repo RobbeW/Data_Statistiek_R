@@ -1,0 +1,13 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Som van Archimedes"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "access": "public"
+}
