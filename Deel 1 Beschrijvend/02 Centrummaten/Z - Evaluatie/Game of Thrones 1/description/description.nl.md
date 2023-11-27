@@ -23,13 +23,13 @@ colnames(data) <- c("season", "episode", "name", "director",
 Via `head(data)` krijg je een overzicht van de dataset.
 
 ```
-  season episode                                  name       director US_viewers_million runtime_mins IMDB_votes IMDB_score notable_deaths
-1      1       1                      Winter Is Coming Tim Van Patten               2.22           62      27685        9.0              4
-2      1       2                         The Kingsroad Tim Van Patten               2.20           56      21256        8.8              3
-3      1       3                             Lord Snow     Brian Kirk               2.44           58      20090        8.7              0
-4      1       4 Cripples, Bastards, and Broken Things     Brian Kirk               2.45           56      19123        8.8              1
-5      1       5                 The Wolf and the Lion     Brian Kirk               2.58           55      20062        9.1              5
-6      1       6                        A Golden Crown Daniel Minahan               2.44           53      19908        9.2              4
+  season episode                       name       director US_viewers_million runtime_mins IMDB_votes IMDB_score notable_deaths
+1      1       1           Winter Is Coming Tim Van Patten               2.22           62      27685        9.0              4
+2      1       2              The Kingsroad Tim Van Patten               2.20           56      21256        8.8              3
+3      1       3                  Lord Snow     Brian Kirk               2.44           58      20090        8.7              0
+4      1       4 Cripples, Bastards, and...     Brian Kirk               2.45           56      19123        8.8              1
+5      1       5      The Wolf and the Lion     Brian Kirk               2.58           55      20062        9.1              5
+6      1       6             A Golden Crown Daniel Minahan               2.44           53      19908        9.2              4
 ```
 
 De kolom `US_viewers_million` stelt het aantal Amerikaanse kijkers voor (in miljoen), `runtime_mins` het aantal minuten dat de aflevering (episode) duurt, `IMDB_votes` het aantal stemmers op de ratingwebsite IMDB, `IMDB_score` de score op 10 gegeven door de stemmers en `notable_deaths` het aantal hoofdpersonages die stierven in de aflevering. De betekenis van de andere kolommen is vanzelfsprekend.
