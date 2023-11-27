@@ -6,17 +6,17 @@
     <a class="btn btn-filled with-icon" href="https://webr.r-wasm.org/latest/" target="_blank"><i class="mdi mdi-cloud-tags mdi-24" title="link"></i>Link naar WebR</a>
 </div>
 
-Onderstaande reeks is één van de eerste oneindige reeksen die bepaald werd in de geschiedenis van de wiskunde. De Griek Archimedes bepaalde som hiervan reeds in 200 voor Christus.
+Onderstaande reeks is één van de eerste oneindige reeksen die bepaald werd in de geschiedenis van de wiskunde. De Griekse wiskundige Archimedes bepaalde de som hiervan reeds in 200 voor Christus.
 
 $$
 \dfrac{1}{3} = \sum_{n=1}^\infty \dfrac{1}{4^n}
 $$
 
-Er bestaat een ontroerend mooi meetkundig argument voor deze reekssom. In onderstaand vierkant stelt het oranje deel deze oneindige som voor, eerst één vierde, daarna één zestiende, enz... De groene en blauwe oppervlaktes werden echter net op dezelfde manier opgebouwd. Alles samen krijg je dus de oppervlakte van het vierkant. Dat betekent dat één gekleurd deel een derde van het volledige vierkant vormt.
+Er bestaat een *ontroerend* mooi meetkundig argument voor deze reekssom. In onderstaand vierkant stelt het oranje deel deze oneindige som voor, eerst één vierde, daarna één zestiende, enz... De groene en blauwe oppervlaktes werden echter net op dezelfde manier opgebouwd. Alles samen krijg je dus de oppervlakte van het volledige vierkant. Dat betekent dat één gekleurd deel één derde van het volledige vierkant vormt.
 
-![De som van Archimedes](media/image.png "De som van Archimedes"){:data-caption="De som van Archimedes" .light-only width="30%"}
+![De som van Archimedes](media/image.png "De som van Archimedes"){:data-caption="De som van Archimedes" .light-only width="20%"}
 
-![De som van Archimedes](media/image_dark.png "De som van Archimedes"){:data-caption="De som van Archimedes" .dark-only width="30%"}
+![De som van Archimedes](media/image_dark.png "De som van Archimedes"){:data-caption="De som van Archimedes" .dark-only width="20%"}
 
 ## Gevraagd
 

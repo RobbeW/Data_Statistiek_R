@@ -1,3 +1,4 @@
+options(digits=15)
 # Een functie die de Archimedes som simuleert
 archimedes <- function(n) {
   rij <- 1:n
@@ -7,5 +8,5 @@ archimedes <- function(n) {
 
 ### Enkele testen ###
 archimedes(3)    # 0.328125
-archimedes(4)    # 0.3320312
-archimedes(10)   # 0.333333
+archimedes(4)    # 0.33203125
+archimedes(10)   # 0.333333015
