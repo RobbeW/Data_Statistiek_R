@@ -20,7 +20,7 @@ Er bestaat een *ontroerend* mooi meetkundig argument voor deze reekssom. In onde
 
 ## Gevraagd
 
-Maak een functie `archimedes(aantal)` waarbij `aantal` het aantal termen uit de som voorstelt. Zo geldt dat `archimedes(3)` overeenkomt met 
+- Maak een functie `archimedes(aantal)` waarbij `aantal` het aantal termen uit de som voorstelt. Zo geldt dat `archimedes(3)` overeenkomt met 
 
 $$
 \sum_{n=1}^3 \dfrac{1}{4^n} = \dfrac{1}{4} + \dfrac{1}{16} + \dfrac{1}{64} \approx 0,328\ldots
