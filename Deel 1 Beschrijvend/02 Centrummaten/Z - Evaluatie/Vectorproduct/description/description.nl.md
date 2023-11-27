@@ -8,15 +8,15 @@
 
 Het **inwendig product**, ook wel **inproduct** genoemd is een belangrijke bewerking op vectoren. Deze bewerking wordt bijvoorbeeld gebruikt bij het programmeren van 3D computergames.
 
-Het inproduct van twee vectoren (met dezelfde lengte) $$\mathsf{x}$$ en $$\mathsf{y}$$ kan men berekenen als volgt:
+Het inproduct van twee vectoren (met dezelfde lengte) $$\mathsf{\boldsymbol{x}}$$ en $$\mathsf{\boldsymbol{y}}$$ kan men berekenen als volgt:
 
 $$
-\mathsf{ x \cdot y = \sum_{i=1}^n x_i \cdot y_i }
+\mathsf{ \boldsymbol{x} \cdot \boldsymbol{y} = \sum_{i=1}^n x_i \cdot y_i }
 $$
 
 Waarbij $$\mathsf{n}$$ de lengte van de vector voorstelt en $$\mathsf{x_i}$$ en $$\mathsf{y_i}$$ de opeenvolgende elementen van de vector.
 
-Een voorbeeld in 3D. Stel dat vector $$\mathsf{x}$$ `c(1, 2, 3)` is en vector $$\mathsf{y}$$ `c(3, -1, 2)` is. Dan berekent men $$\mathsf{x \cdot y}$$ als `1*3 + 2*(-1) + 3*2 = 7`. De elementen worden dus paarsgewijs vermenigvuldigd en daarna opgeteld.
+Een voorbeeld in 3D. Stel dat vector $$\mathsf{\boldsymbol{x}}$$ `c(1, 2, 3)` is en vector $$\mathsf{\boldsymbol{y}}$$ `c(3, -1, 2)` is. Dan berekent men $$\mathsf{\boldsymbol{x} \cdot \boldsymbol{y}}$$ als `1*3 + 2*(-1) + 3*2 = 7`. De elementen worden dus paarsgewijs vermenigvuldigd en daarna opgeteld.
 
 ## Gevraagd
 
