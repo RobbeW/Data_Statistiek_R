@@ -25,14 +25,14 @@ $$
 
 De eerste `3` factoren van het product berekenen resulteert in:
 
- ```R
- > product_pi(3)
+```R
+> product_pi(3)
 0.835918
- ```
+```
 
 De eerste `10` factoren van het product berekenen resulteert in:
 
- ```R
- > product_pi(10)
+```R
+> product_pi(10)
 0.803446
- ```
+```
