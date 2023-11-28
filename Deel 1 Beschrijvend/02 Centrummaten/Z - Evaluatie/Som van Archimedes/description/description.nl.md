@@ -32,14 +32,14 @@ $$
 
 De eerste `3` termen van de som optellen resulteert in:
 
- ```R
- > archimedes(3)
+```R
+> archimedes(3)
 0.328125
- ```
+```
 
- De eerste `10` termen van de som optellen resulteert in:
+De eerste `10` termen van de som optellen resulteert in:
 
- ```R
- > archimedes(10)
- 0.333333
- ```
+```R
+> archimedes(10)
+0.333333
+```
