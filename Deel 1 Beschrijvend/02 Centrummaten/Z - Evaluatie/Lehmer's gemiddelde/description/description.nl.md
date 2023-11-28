@@ -9,16 +9,16 @@
 Het Lehmer gemiddelde $$\mathsf{\boldsymbol{L_p}}$$ van een vector $$\mathsf{\boldsymbol{x}}$$ bestaande uit positieve getallen, genaamd naar <a href="https://nl.wikipedia.org/wiki/Derrick_Henry_Lehmer" target="_blank">Derrick Henry Lehmer</a> kan je als volgt berekenen:
 
 $$
-\mathsf{L_p(\boldsymbol{x}) = \dfrac{\sum_{i=1}^n x_i^p }{\sum_{i=1}^n x_i^{p-1}}}
+\mathsf{L_p(\boldsymbol{x}) = \dfrac{\displaystyle \sum_{i=1}^n x_i^p }{\displaystyle \sum_{i=1}^n x_i^{p-1}}}
 $$
 
 waarbij $$\mathsf{p}$$ meestal een natuurlijk getal is. Zo geldt bij $$\mathsf{p = 2}$$ dat:
 
 $$
-\mathsf{L_2(\boldsymbol{x}) = \dfrac{\sum_{i=1}^n x_i^2 }{\sum_{i=1}^n x_i} = \dfrac{x_1^2 + x_2^2 + \ldots + x_n^2}{x_1+x_2+\ldots +x_n}}
+\mathsf{L_2(\boldsymbol{x}) = \dfrac{\displaystyle \sum_{i=1}^n x_i^2 }{ \displaystyle \sum_{i=1}^n x_i} = \dfrac{x_1^2 + x_2^2 + \ldots + x_n^2}{x_1+x_2+\ldots +x_n}}
 $$
 
-![Derrick Henry Lehmer](media/lehmer.jpg "Derrick Henry Lehmer"){:data-caption="Derrick Henry Lehmer" width="25%"}
+![Derrick Henry Lehmer](media/lehmer.png "Derrick Henry Lehmer"){:data-caption="Derrick Henry Lehmer" width="25%"}
 
 ## Gevraagd
 
