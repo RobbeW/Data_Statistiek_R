@@ -28,14 +28,14 @@ Een voorbeeld in 3D. Stel dat vector $$\mathsf{\boldsymbol{x}}$$ `c(1, 2, 3)` is
 
 Voor de vectoren `c(1, 2, 3)` en `c(3, -1, 2)` geldt er:
 
- ```R
- > inproduct( c(1, 2, 3), c(3, -1, 2) )
+```R
+> inproduct( c(1, 2, 3), c(3, -1, 2) )
 7
- ```
+```
 
 Voor de vectoren `c(-1,3)` en `c(3, 1)` geldt er:
 
- ```R
- > inproduct( c(-1, 3), c(3, 1) )
+```R
+> inproduct( c(-1, 3), c(3, 1) )
 0
- ```
+```
