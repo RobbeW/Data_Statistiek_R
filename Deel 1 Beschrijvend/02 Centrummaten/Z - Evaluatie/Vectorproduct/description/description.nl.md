@@ -6,7 +6,7 @@
     <a class="btn btn-filled with-icon" href="https://webr.r-wasm.org/latest/" target="_blank"><i class="mdi mdi-cloud-tags mdi-24" title="link"></i>Link naar WebR</a>
 </div>
 
-Het **inwendig product**, ook wel **inproduct** genoemd is een belangrijke bewerking op vectoren. Deze bewerking wordt bijvoorbeeld gebruikt bij het programmeren van 3D computergames.
+Het **inwendig product**, ook wel **inproduct** (met een $$\mathsf{\cdot}$$ als **symbool**) genoemd is een belangrijke bewerking op vectoren. Deze bewerking wordt bijvoorbeeld gebruikt bij het programmeren van 3D computergames.
 
 Het inproduct van twee vectoren (met dezelfde lengte) $$\mathsf{\boldsymbol{x}}$$ en $$\mathsf{\boldsymbol{y}}$$ kan men berekenen als volgt:
 
