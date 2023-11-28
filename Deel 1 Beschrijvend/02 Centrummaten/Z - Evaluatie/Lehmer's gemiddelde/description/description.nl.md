@@ -32,7 +32,7 @@ $$
 
 #### Voorbeeld
 
-Indien de vector $$\mathsf{\boldsymbol{x}}$$ gelijk is aan `c(1, 2, 5)` en $$\mathsf{p}$$ `2` is geldt er:
+Indien de vector $$\mathsf{\boldsymbol{x}}$$ gelijk is aan `c(1, 2, 5)` en $$\mathsf{p}$$ als waarde `2` heeft, geldt er:
 
  ```R
  > lehmer( c(1, 2, 5), 2)
