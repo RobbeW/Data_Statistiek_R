@@ -26,7 +26,7 @@ $$
 \sum_{n=1}^3 \dfrac{1}{4^n} = \dfrac{1}{4} + \dfrac{1}{16} + \dfrac{1}{64} \approx 0,328\ldots
 $$
 
-- Laat R het resultaat van het product afronden op **9 cijfers na de komma**.
+- Laat R het resultaat van de som afronden op **9 cijfers na de komma**.
 
 #### Voorbeelden
 
