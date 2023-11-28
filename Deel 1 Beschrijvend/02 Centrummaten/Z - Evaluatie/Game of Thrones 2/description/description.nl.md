@@ -40,5 +40,5 @@ De kolom `US_viewers_million` stelt het aantal Amerikaanse kijkers voor (in milj
 
 - Sommige afleveringen kenden een lange speeltijd. **Selecteer** de namen van de afleveringen die **minstens** 1 uur en een kwartier duurden en sla dit op in `lange_afleveringen`.
 
-- Verschillende mensen beweren dat het eerste seizoen het beste seizoen is. Vergelijk de **mediane** score van het eerste en het achtste (laatste) seizoen. Sla dit op in `mediaan_seizoen1` en `mediaan_seizoen1`.  
-Tip: bepaal eerst een booleaanse vector `seizoen1` waar je de scores van de afleveringen uit het eerste seizoen in opslaat. Doe hetzelfde voor het tweede seizoen.
+- Verschillende mensen beweren dat het eerste seizoen het beste seizoen is. Vergelijk de **mediane** score van het eerste en het achtste (laatste) seizoen. Sla dit op in `mediaan_seizoen1` en `mediaan_seizoen8`.  
+Tip: bepaal eerst een booleaanse vector `seizoen1` waar je de scores van de afleveringen uit het eerste seizoen in opslaat. Doe hetzelfde voor het laatste seizoen.
