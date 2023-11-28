@@ -29,7 +29,7 @@ context({
       env$gem_speeltijd
     }, gem_speeltijd)
   })
-  testFunctionUsedInVar("mean", "gem_speeltijd")
+  testFunctionUsedInVar("round", "gem_speeltijd")
 })
 
 context({
