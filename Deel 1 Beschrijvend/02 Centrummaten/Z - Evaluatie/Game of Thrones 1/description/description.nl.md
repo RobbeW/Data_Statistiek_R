@@ -38,8 +38,8 @@ De kolom `US_viewers_million` stelt het aantal Amerikaanse kijkers voor (in milj
 
 - Bepaal de **mediaan** van het aantal Amerikaanse kijkers per uitzending, geef hierbij het volledige getal. Sla dit op in `mediaan_kijkers`.
 
-- Verschillende mensen beweren dat het eerste seizoen het beste seizoen is. Vergelijk de **gemiddelde** score van het eerste en het achtste (laatste) seizoen. Sla dit op in `gem_seizoen1` en `gem_seizoen2`.  
-Tip: bepaal eerst een booleaanse vector `seizoen1` waar je de scores van de afleveringen uit het eerste seizoen in opslaat. Doe hetzelfde voor het tweede seizoen.
+- Verschillende mensen beweren dat het eerste seizoen het beste seizoen is. Vergelijk de **gemiddelde** score van het eerste en het achtste (laatste) seizoen. Sla dit op in `gem_seizoen1` en `gem_seizoen8`.  
+Tip: bepaal eerst een booleaanse vector `seizoen1` waar je de scores van de afleveringen uit het eerste seizoen in opslaat. Doe hetzelfde voor het laatste seizoen.
 
 - Game of Thrones is gekend als een reeks waar veel hoofdpersonages plots sterven. In welke afleveringen sterven buitengewoon veel hoofdpersonages?  
 Bepaal eerst de mediaan van het sterftes van hoofdpersonages, sla dit op in `mediaan_notable_death`. **Selecteer** daarna de namen van de afleveringen waar meer dan 2 keer zoveel hoofdpersonages sterven. Sla dit op in `bloederige_afleveringen`.
