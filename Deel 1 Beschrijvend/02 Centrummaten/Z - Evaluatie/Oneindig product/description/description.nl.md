@@ -41,5 +41,5 @@ De eerste `10` factoren van het product berekenen resulteert in:
 ```
 
 {: .callout.callout-warning}
->#### Opgelet
+>#### Opgelet!
 > De parameter `aantal` stelt het **aantal factoren** voor. Indien `aantal` gelijk is aan 3, dan zijn er drie factoren beginnende vanaf `n=2`, `n=3` en `n=4`.
