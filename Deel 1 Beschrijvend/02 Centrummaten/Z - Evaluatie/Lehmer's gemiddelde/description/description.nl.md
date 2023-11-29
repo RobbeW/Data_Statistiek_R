@@ -28,7 +28,7 @@ $$
 
 - Maak een functie `lehmer(vector, p)` waarbij `vector` de vector $$\mathsf{\boldsymbol{x}}$$ voorstelt en $$\mathsf{p}$$ de exponenten in de teller.
 
-- Laat R het resultaat van het product afronden op **4 cijfers na de komma**.
+- Laat R het resultaat van het quotiënt afronden op **4 cijfers na de komma**.
 
 #### Voorbeeld
 
