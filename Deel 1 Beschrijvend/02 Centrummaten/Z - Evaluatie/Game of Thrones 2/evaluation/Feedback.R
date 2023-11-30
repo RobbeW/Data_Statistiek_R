@@ -28,8 +28,9 @@ context({
     testEqual("gem_speeltijd", function(env) {
       env$gem_speeltijd
     }, gem_speeltijd)
+    testFunctionUsedInVar("round", "gem_speeltijd")
   })
-  testFunctionUsedInVar("round", "gem_speeltijd")
+  
 })
 
 context({

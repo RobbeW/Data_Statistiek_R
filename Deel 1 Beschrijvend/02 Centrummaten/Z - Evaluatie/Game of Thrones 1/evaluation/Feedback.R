@@ -29,8 +29,9 @@ context({
     testEqual("mediaan_kijkers", function(env) {
       env$mediaan_kijkers
     }, mediaan_kijkers)
+    testFunctionUsedInVar("median", "mediaan_kijkers")
   })
-  testFunctionUsedInVar("median", "mediaan_kijkers")
+  
 })
 
 context({
