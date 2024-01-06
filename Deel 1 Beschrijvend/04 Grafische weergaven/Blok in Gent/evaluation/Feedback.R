@@ -17,6 +17,7 @@ context({
     testEqual("reserveringsgraad", function(env) {
       env$reserveringsgraad
     }, reserveringsgraad)
+    testFunctionUsedInVar("round", "reserveringsgraad")
   })
 })
 
