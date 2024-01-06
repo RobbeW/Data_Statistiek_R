@@ -3,7 +3,12 @@ Een staafdiagram is een eenvoudige manier om gegevens te visualiseren. Deze word
 In R kan je zeer snel een grafiek maken met behulp van de functie `barplot()`. Dit ziet er meestal als volgt uit:
 
 ```R
-barplot(gegevens, main = "Grafiektitel", xlab = "x-as", col = "blue", names.arg = xlabels, ylim = c(0,10)) 
+barplot(gegevens,
+        main = "Grafiektitel",
+        xlab = "x-as",
+        col = "blue",
+        names.arg = xlabels,
+        ylim = c(0,10)) 
 ```
 
 Hierbij stelt `gegevens` de data voor die voorgesteld moet worden. Dit kunnen bijvoorbeeld aantallen of percentages zijn. `main` vormt de titel van de grafiek, `xlab` de eventuele tekst die op de x-as moet verschijnen (`ylab` bestaat ook), `col` de kleur van de grafiek (of de **vector** van kleuren) en `names.arg` eventueel een vector met de labels van de staven (die op de x-as verschijnen). De laatste parameter `ylim` bepaalt de onder- en bovengrenzen van de y-as, hierbij heeft de y-as een bereik van 0 tot en met 10.
@@ -29,7 +34,9 @@ De volgende code levert leidt nu tot onderstaande grafiek.
 kleuren <- c("Oranje", "Paars", "Rood", "Wit", "Geel", "Blauw", "Groen")
 percentages <- c(28, 17, 16, 2, 26, 5, 6)
 
-barplot(percentages, main = "Leuke kleuren", names.arg = kleuren)
+barplot(percentages,
+        main = "Leuke kleuren",
+        names.arg = kleuren)
 ```
 
 ![Een staafdiagram](media/plot1.png "Een staafdiagram."){:data-caption="Een staafdiagram" .light-only width="480px"}
@@ -43,7 +50,10 @@ kleuren <- c("Oranje", "Paars", "Rood", "Wit", "Geel", "Blauw", "Groen")
 staaf_kleuren <- c("orange", "purple", "red", "white", "yellow", "blue", "green")
 percentages <- c(28, 17, 16, 2, 26, 5, 6)
 
-barplot(percentages, main = "Leuke kleuren", col = staaf_kleuren, ylim = c(0, 30))
+barplot(percentages,
+        main = "Leuke kleuren",
+        col = staaf_kleuren,
+        ylim = c(0, 30))
 ```
 
 ![Een staafdiagram](media/plot2.png "Een staafdiagram."){:data-caption="Een staafdiagram" .light-only width="480px"}
