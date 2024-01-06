@@ -12,7 +12,8 @@
     "statistiek"
   ],
   "evaluation": {
-    "network_enabled": true
+    "network_enabled": true,
+    "time_limit": 200
   },
   "internals": {
     "token": "f3PMyi8Wvzzp6PUKyzNW7KJCzI-PMFVDYxTEytc6eEw6M6EDFxHZea4XFvy8Tngs",
