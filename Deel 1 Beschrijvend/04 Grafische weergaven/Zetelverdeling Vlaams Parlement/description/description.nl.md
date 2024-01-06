@@ -24,4 +24,8 @@ Maak onderstaand staafdiagram met de zetelsverdeling na, gebruik hiervoor de vol
 - Maak een vector `zetels` met het aantal zetels in dalende volgorde.
 - R kent heel wat standaardkleuren, in dit <a href="http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf" target="_blank">document</a> vind je een overzicht van alle kleuren. Gebruik de kleuren `gold` en `firebrick` voor respectievelijk de NV-A en PVDA. Sla de kleuren van de partijen op in de vector `kleuren`.
 
+{: .callout.callout-info}
+>#### Tip
+> Voeg het argument `las = 2` toe aan de functie `barplot` om **verticale labels** te krijgen. (`las` staat voor *label style* en `2` betekent *loodrecht op de as*.)
+
 ![Zetelverdeling Vlaams Parlement 2019](media/plot.png "Zetelverdeling Vlaams Parlement 2019."){:data-caption="Zetelverdeling Vlaams Parlement 2019" width="480px"}
