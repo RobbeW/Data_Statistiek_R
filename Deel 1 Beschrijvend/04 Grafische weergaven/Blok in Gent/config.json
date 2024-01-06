@@ -8,8 +8,12 @@
     }
   },
   "labels": [
-    "R"
+    "R",
+    "statistiek"
   ],
+  "evaluation": {
+    "network_enabled": true
+  },
   "internals": {
     "token": "nYKI4tVksIR_RMGUPA2KeGwrPpmjtvEXV85Hq_KqTItvKebMa_JTznBqRwzUvDV8",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
