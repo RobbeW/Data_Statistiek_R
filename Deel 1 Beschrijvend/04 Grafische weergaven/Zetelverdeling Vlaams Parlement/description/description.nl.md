@@ -28,4 +28,5 @@ Maak onderstaand staafdiagram met de zetelsverdeling na, gebruik hiervoor de vol
 >#### Tip
 > Voeg het argument `las = 2` toe aan de functie `barplot` om **verticale labels** te krijgen. (`las` staat voor *label style* en `2` betekent *loodrecht op de as*.)
 
-![Zetelverdeling Vlaams Parlement 2019](media/plot.png "Zetelverdeling Vlaams Parlement 2019."){:data-caption="Zetelverdeling Vlaams Parlement 2019" width="480px"}
+![Zetelverdeling Vlaams Parlement 2019](media/plot.png "Zetelverdeling Vlaams Parlement 2019."){:data-caption="Zetelverdeling Vlaams Parlement 2019" .light-only width="480px"}
+![Zetelverdeling Vlaams Parlement 2019](media/plot_dark.png "Zetelverdeling Vlaams Parlement 2019."){:data-caption="Zetelverdeling Vlaams Parlement 2019" .dark-only width="480px"}
