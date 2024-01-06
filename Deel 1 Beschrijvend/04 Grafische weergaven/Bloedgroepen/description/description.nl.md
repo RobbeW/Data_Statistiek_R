@@ -2,7 +2,7 @@
 
 Er bestaan vier verschillende **bloedgroepen**: A, B, AB of O. Welke bloedgroep jij hebt, wordt bepaald door piepkleine proteïnen (of eiwitten) die zich op het oppervlak van je rode bloedcellen bevinden. Om het verhaal nog iets ingewikkelder te maken, bestaat er nog een tweede indeling van bloedtypes: de **rhesusfactor**. De rhesusfactor is een specifiek eiwit dat je wel of niet op je rode bloedcellen hebt. Heb je dit eiwit, dan ben je rhesus-positief (bv. A+ of O+), zoals ongeveer 85% van alle Europeanen. Heb je dit eiwit níét, dan behoor je tot de kleine groep mensen (15%) die rhesus-negatief is.
 
-![Bloed geven blijft belangrijk.](media/lucas-van-oort.jpg "Foto door Luann Hunt op Unsplash."){:data-caption="Bloed geven blijft belangrijk." width="40%"}
+![Bloed geven blijft belangrijk.](media/luann-hunt.jpg "Foto door Luann Hunt op Unsplash."){:data-caption="Bloed geven blijft belangrijk." width="40%"}
 
 Het aandeel van elke bloedgroep en rhesusfactor in de Belgische bevolking vinden we in <a href="https://www.libelle.be/gezond/bloedgroep-bloed-geven/" target="_blank">dit artikel</a> terug.
 
