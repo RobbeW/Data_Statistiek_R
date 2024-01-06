@@ -7,7 +7,7 @@ context({
       env$partijen
     }, c("NV-A", "Vlaams Belang", "CD&V", "Open Vld", "GROEN", "sp.a", 
 "PVDA"))
-  }
+  })
 })
 
 context({
