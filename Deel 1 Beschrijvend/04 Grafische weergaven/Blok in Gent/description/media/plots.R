@@ -1,9 +1,16 @@
-# Variabelen
-partijen <- c("NV-A", "Vlaams Belang", "CD&V", "Open Vld", "GROEN", "sp.a", "PVDA")
-kleuren <- c("gold", "yellow", "orange", "blue", "green", "red", "firebrick")
-zetels <- c(35, 23, 19, 16, 14, 13, 4)
+# Importeert de data van Stad Gent
+data <- read.csv2("https://data.stad.gent/api/explore/v2.1/catalog/datasets/bloklocaties-gent/exports/csv",
+                  sep = ";",
+                  colClasses = c("NULL", "character", rep("NULL", 5), rep("numeric", 2), rep("NULL", 4), "character", rep("NULL", 5)) )
+colnames(data) <- c("naam", "capaciteit", "gereserveerd", "status")
+data <- data[data$status == "Reserveerbaar" & data$capaciteit != 0, 1:3]
+data <- data[order(data$capaciteit, decreasing=TRUE),]
+rownames(data) <- seq_len(nrow(data))
 
-res <- 300
+# Plot
+reserveringsgraad <- round(data$gereserveerd/data$capaciteit * 100, 1)
+
+res <- 150
 # Plot
 png("plot.png",
     res = res,
@@ -12,12 +19,14 @@ png("plot.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "black")
-barplot(zetels,
-        main = "Zetelverdeling Vlaams Parlement 2019", 
-        col = kleuren,
-        ylab = "zetels",
-        names.arg = partijen,
-        las = 2)
+par(mar = c(4, 20, 4, 4)) # zorgt voor een bredere marge voor de lange titels
+barplot(reserveringsgraad,
+        main = "Reserveringsgraad blok@Gent",
+        col = "tomato",
+        xlab = "Percentage bezet",
+        names.arg = data$naam,
+        las = 1,
+        horiz = TRUE)
 dev.off()
 
 # Plot
@@ -28,12 +37,14 @@ png("plot_dark.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "white")
-barplot(zetels,
-        main = "Zetelverdeling Vlaams Parlement 2019",
-        col = kleuren,
-        ylab = "zetels",
-        names.arg = partijen,
-        las = 2,
+par(mar = c(4, 20, 4, 4)) # zorgt voor een bredere marge voor de lange titels
+barplot(reserveringsgraad,
+        main = "Reserveringsgraad blok@Gent",
+        col = "tomato",
+        xlab = "Percentage bezet",
+        names.arg = data$naam,
+        las = 1,
+        horiz = TRUE,
         border = "white",
         col.main = "white",
         col.lab = "white",
