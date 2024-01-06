@@ -4,21 +4,15 @@
   "access": "public",
   "description": {
     "names": {
-      "nl": "Kleur van het wagenpark",
-      "en": "Colour of the cars"
+      "nl": "Staafdiagram - Kleur en psychologie"
     }
   },
   "evaluation": {
     "pythia_judge": "output"
   },
   "labels": [
-    "r",
-    "robbe wulgaert",
-    "sint-lievenscollege",
-    "www.robbewulgaert.be",
-    "statistiek"
+    "r"
   ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
   "internals": {
     "token": "EDdHpDQDHjkHmPu_ZacSvbKkjzSZqs_peWXPXWFRsuae63q3IPFWNaQVAMUZt9MS",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
