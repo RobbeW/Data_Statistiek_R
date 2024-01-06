@@ -44,7 +44,7 @@ percentages <- c(28, 17, 16, 2, 26, 5, 6)
 barplot(percentages, main = "Leuke kleuren", col = staaf_kleuren, ylim = c(0,30))
 ```
 
-![Een staafdiagram](media/plot2.png "Een staafdiagram."){:data-caption="Een staafdiagram" width="480px"}
+![Een staafdiagram](media/plot2.png "Een staafdiagram."){:data-caption="Een staafdiagram" width="380px"}
 
 ## Gegeven
 In hetzelfde onderzoek werd nagegaan welke kleuren met associeert met angst. Dit leidde tot onderstaande resultaten.
@@ -65,4 +65,4 @@ In hetzelfde onderzoek werd nagegaan welke kleuren met associeert met angst. Dit
 
 Vul de gegeven code aan en maak onderstaande grafiek.
 
-![Een staafdiagram](media/plot3.png "Een staafdiagram."){:data-caption="Een staafdiagram" width="480px"}
+![Een staafdiagram](media/plot3.png "Een staafdiagram."){:data-caption="Een staafdiagram" width="400px"}
