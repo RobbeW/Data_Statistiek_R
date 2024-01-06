@@ -19,7 +19,7 @@ par(fg = "black")
 pie(afval,
     main = "Sorteeranalyse Vlaming",
     labels = fracties,
-    col = rainbow(length(afval))
+    col = rainbow(length(afval)))
 dev.off()
 
 # Plot
@@ -33,12 +33,12 @@ par(fg = "white")
 pie(afval,
     main = "Sorteeranalyse Vlaming",
     labels = fracties,
-    col = rainbow(length(afval),
+    col = rainbow(length(afval)),
     border = "white",
     col.main = "white",
     col.lab = "white",
-    col.axis = "white"
-)
+    col.axis = "white" )
 
 dev.off()
+
 
