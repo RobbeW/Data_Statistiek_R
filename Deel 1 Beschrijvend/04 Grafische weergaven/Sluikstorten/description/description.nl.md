@@ -1,4 +1,4 @@
-![Zwerfvuil.](media/lucas-van-oort.jpg "Foto door Lucas Van Oort op Unsplash."){:data-caption="Zwerfvuil." width="40%"}
+![Zwerfvuil.](media/lucas-van-oort.jpg "Foto door Lucas Van Oort op Unsplash."){:data-caption="Zwerfvuil." width="30%"}
 
 ## Gegeven
 
