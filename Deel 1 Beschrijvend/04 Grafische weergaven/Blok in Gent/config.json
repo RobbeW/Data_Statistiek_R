@@ -1,0 +1,13 @@
+{
+  "type": "exercise",
+  "programming_language": "r",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "Bloklocaties in Gent"
+    }
+  },
+  "labels": [
+    "R"
+  ]
+}
