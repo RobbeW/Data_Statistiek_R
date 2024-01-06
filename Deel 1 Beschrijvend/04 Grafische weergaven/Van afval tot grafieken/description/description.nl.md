@@ -7,15 +7,13 @@ Onderstaande tabel bevat een benadering van het aantal kg per inwoner per jaar:
 | Fractie           | Aantal kg |
 |-------------------|:---------:|
 | GFT               | 46,26     |
+| KGA               | 0,23      | 
 | Papier & karton   | 17,43     |
 | Glas              | 2,14      |
-| PMD               | 19        |
-| Elektro           | 0,63      |
-| KGA               | 0,23      | 
 | Houtafval         | 1,22      |
+| PMD               | 19        |
 | Bouwafval         | 2,75      |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
-
 
 ## Gevraagd
 
