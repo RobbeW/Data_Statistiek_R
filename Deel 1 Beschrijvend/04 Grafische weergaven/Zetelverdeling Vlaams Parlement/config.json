@@ -1,0 +1,13 @@
+{
+  "type": "exercise",
+  "programming_language": "r",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "Zetelverdeling Vlaams Parlement"
+    }
+  },
+  "labels": [
+    "R"
+  ]
+}
