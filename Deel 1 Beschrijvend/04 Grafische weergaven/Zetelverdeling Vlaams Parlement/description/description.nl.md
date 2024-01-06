@@ -3,7 +3,7 @@
 In 2019 werd een nieuw Vlaams Parlement verkozen. De <a href="https://www.vlaanderenkiest.be/verkiezingen2019/#/parlement/02000" target="_blank">resultaten</a> waren als volgt:
 
 | Lijst             | Stemmen   | Percentage    | Zetels    |
-|:-----------------:|:---------:|:-------------:|:---------:|
+|-------------------|-----------|:-------------:|-----------|
 | N-VA              | 1 052 252 | 24,8%         | 35        |
 | Vlaams Belang     | 783 977   | 18,5%         | 23        |
 | CD&V              | 652 766   | 15,4%         | 19        |
