@@ -7,6 +7,9 @@ contextWithImage({
       env$percentages
     }, c(38, 2, 2, 5, 4, 42, 4, 3))
   })
+  testcase("De volgende functie werd gebruikt:", {
+    testFunctionUsed("barplot")
+  })
 })
 
 
