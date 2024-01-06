@@ -5,5 +5,3 @@ zetels <- c(35, 23, 19, 16, 14, 13, 4)
 
 # Plot
 barplot(zetels, main = "Zetelverdeling Vlaams Parlement 2019", col = kleuren, ylab = "zetels", names.arg = partijen)
-
-
