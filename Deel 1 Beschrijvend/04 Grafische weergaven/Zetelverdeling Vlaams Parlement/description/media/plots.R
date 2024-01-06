@@ -3,7 +3,13 @@ partijen <- c("NV-A", "Vlaams Belang", "CD&V", "Open Vld", "GROEN", "sp.a", "PVD
 kleuren <- c("gold", "yellow", "orange", "blue", "green", "red", "firebrick")
 zetels <- c(35, 23, 19, 16, 14, 13, 4)
 
+res <- 300
 # Plot
+png("plot.png",
+    res = res,
+    width = 480 / 72 * res,
+    height = 480 / 72 * res,
+    antialias = "none")
 par(bg = NA)
 par(fg = "black")
 barplot(zetels,
@@ -12,13 +18,14 @@ barplot(zetels,
         ylab = "zetels",
         names.arg = partijen,
         las = 2)
-png("plot.png", res = 300)
-
 dev.off()
 
-
-dev.copy(png, "plot.png", res=300)
 # Plot
+png("plot_dark.png",
+    res = res,
+    width = 480 / 72 * res,
+    height = 480 / 72 * res,
+    antialias = "none")
 par(bg = NA)
 par(fg = "white")
 barplot(zetels,
@@ -33,6 +40,5 @@ barplot(zetels,
         col.axis = "white"
 )
 
-
-dev.copy(png, "plot_dark.png")
 dev.off()
+
