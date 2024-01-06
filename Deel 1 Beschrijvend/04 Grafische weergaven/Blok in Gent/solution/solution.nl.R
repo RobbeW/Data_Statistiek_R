@@ -11,7 +11,7 @@ rownames(data) <- seq_len(nrow(data))
 reserveringsgraad <- round(data$gereserveerd/data$capaciteit * 100, 1)
 par(mar = c(4,20,4,4)) # zorgt voor een bredere marge voor de lange titels
 barplot(reserveringsgraad,
-        main = "Reserveringsgraad bloklocaties", 
+        main = "Reserveringsgraad blok@Gent", 
         col = "steelblue",
         xlab = "Percentage bezet",
         names.arg = data$naam,
