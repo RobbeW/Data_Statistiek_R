@@ -1,3 +1,5 @@
+![Zwerfvuil.](media/lucas-van-oort.jpg "Foto door Lucas Van Oort op Unsplash."){:data-caption="Zwerfvuil." width="40%"}
+
 ## Gegeven
 
 Sluikstorten is een echte plaag. In Gent kan je onder andere via een app een melding maken, want hoe sneller zwerfvuil wordt opgeruimd, hoe minder dit aantrekt. Het overzicht van alle meldingen uit 2023 vind je <a href="https://data.stad.gent/explore/dataset/sluikstort-meldingen-gent-2023/" target="_blank">hier</a>.
