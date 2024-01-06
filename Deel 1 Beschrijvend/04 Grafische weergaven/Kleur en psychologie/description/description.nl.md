@@ -61,7 +61,7 @@ barplot(percentages,
 ![Een staafdiagram](media/plot2_dark.png "Een staafdiagram."){:data-caption="Een staafdiagram" .dark-only width="480px"}
 
 ## Gegeven
-In hetzelfde onderzoek werd nagegaan welke kleuren met associeert met angst. Dit leidde tot onderstaande resultaten.
+In hetzelfde onderzoek werd nagegaan welke kleuren men associeert met angst. Dit leidde tot onderstaande resultaten.
 
 | Kleur     | Percentage |
 |:---------:|:----------:|
