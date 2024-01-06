@@ -20,7 +20,9 @@ Het aandeel van elke bloedgroep en rhesusfactor in de Belgische bevolking vinden
 
 ## Gevraagd
 
-Maak onderstaand schijfdiagram van deze gegevens. Je merkt dat de labels een samenvoegsels zijn van de vector `type` en `percentage`. Dit doe je door in een nieuwe variabele `bloedlabels` de functie `paste0()` te gebruiken als volgt `paste0(type," (", percentage, "%)")`. Deze functie **plakt** de variabelen aan elkaar (zonder een spatie tussen te voegen).
+Maak onderstaand schijfdiagram van deze gegevens. 
+
+Je merkt dat de labels een samenvoegsels zijn van de vector `type` en `percentage`. Dit doe je door in een nieuwe variabele `bloedlabels` de functie `paste0()` te gebruiken als volgt `paste0(type," (", percentage, "%)")`. Deze functie **plakt** de variabelen aan elkaar (zonder een spatie tussen te voegen).
 
 {: .callout.callout-info}
 >#### Tip
