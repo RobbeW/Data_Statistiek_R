@@ -40,5 +40,3 @@ pie(afval,
     col.axis = "white" )
 
 dev.off()
-
-
