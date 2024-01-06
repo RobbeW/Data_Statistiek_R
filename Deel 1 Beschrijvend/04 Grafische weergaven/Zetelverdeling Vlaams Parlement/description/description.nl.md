@@ -18,7 +18,7 @@ In de praktijk sluit de ene verkozene voor sp.a-one brussels aan bij de sp.a fra
 
 ## Gevraagd
 
-Maak onderstaand staafdiagram met de zetelsverdeling na, gebruik hiervoor de volgende richtlijnen.
+Maak onderstaand staafdiagram met de zetelverdeling na, gebruik hiervoor de volgende richtlijnen.
 
 - Maak een vector `partijen` met de namen van de lijsten. (Zonder sp.a-one brussels, zie vorige opmerking)
 - Maak een vector `zetels` met het aantal zetels in dalende volgorde.
