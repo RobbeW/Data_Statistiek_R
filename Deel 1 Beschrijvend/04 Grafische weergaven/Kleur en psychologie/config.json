@@ -7,11 +7,8 @@
       "nl": "Staafdiagram - Kleur en psychologie"
     }
   },
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "labels": [
-    "r"
+    "R"
   ],
   "internals": {
     "token": "EDdHpDQDHjkHmPu_ZacSvbKkjzSZqs_peWXPXWFRsuae63q3IPFWNaQVAMUZt9MS",
