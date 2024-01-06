@@ -1,6 +1,6 @@
 *Welke score verwachten we op de Benton Visual Rentention test? (BVRT)*
 
-Deze vraag beantwoordt men door de verwachtingswaarde $$E[X]$$ (*expection*) te berekenen. Men definieert de verwachtingswaarde van een toevalsveranderlijke als volgt:
+Deze vraag beantwoordt men door de verwachtingswaarde $$E[X]$$ (*expected value*) te berekenen. Men definieert de verwachtingswaarde van een toevalsveranderlijke als volgt:
 
 {: .callout.callout-danger}
 >### Verwachtingswaarde (discreet)
