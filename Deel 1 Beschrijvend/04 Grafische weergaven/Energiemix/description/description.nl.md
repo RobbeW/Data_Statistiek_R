@@ -2,6 +2,8 @@
 
 De beheerder van het Belgische energienetwerk Elia, stelt via zijn <a href="https://opendata.elia.be/explore/dataset/ods033/table/?sort=datetime" target="_blank">Open Data portaal</a> ter beschikking hoeveel stroom er wordt opgewekt per energiebron.
 
+![Koeltorens van een kernreactor.](media/lukas-lehotsky.jpg "Foto door Lukas Lehotsky op Unsplash."){:data-caption="Koeltorens van een kernreactor." width="40%"}
+
 Dit inladen in R kan via:
 
 ```R
