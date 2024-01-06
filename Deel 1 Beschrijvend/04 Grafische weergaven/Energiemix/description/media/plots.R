@@ -51,4 +51,3 @@ pie(data$generatedpower[niet_nul],
     col.axis = "white"
 )
 dev.off()
-
