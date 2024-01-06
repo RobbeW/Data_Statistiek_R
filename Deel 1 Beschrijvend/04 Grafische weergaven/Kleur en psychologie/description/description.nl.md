@@ -3,7 +3,7 @@ Een staafdiagram is een eenvoudige manier om gegevens te visualiseren. Deze word
 In R kan je zeer snel een grafiek maken met behulp van de functie `barplot()`. Dit ziet er meestal als volgt uit:
 
 ```R
-barplot( gegevens, main = "Grafiektitel", xlab = "x-as", col = "blue", names.arg = xlabels, ylim = c(0,10)) 
+barplot(gegevens, main = "Grafiektitel", xlab = "x-as", col = "blue", names.arg = xlabels, ylim = c(0,10)) 
 ```
 
 Hierbij stelt `gegevens` de data voor die voorgesteld moet worden. Dit kunnen bijvoorbeeld aantallen of percentages zijn. `main` vormt de titel van de grafiek, `xlab` de eventuele tekst die op de x-as moet verschijnen (`ylab` bestaat ook), `col` de kleur van de grafiek (of de **vector** van kleuren) en `names.arg` eventueel een vector met de labels van de staven (die op de x-as verschijnen). De laatste parameter `ylim` bepaalt de onder- en bovengrenzen van de y-as, hierbij heeft de y-as een bereik van 0 tot en met 10.
