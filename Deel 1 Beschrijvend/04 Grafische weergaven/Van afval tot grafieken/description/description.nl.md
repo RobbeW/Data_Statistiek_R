@@ -1,148 +1,28 @@
-## Gegeven:
+## Gegeven
 
-Hieronder vind je een tabel met allerlei soorten huishoudelijk afval. 
+In 2019-2020 liet Vlaanderen een onderzoek uitvoeren naar het sorteergedrag bij huisvuil. In <a href="https://publicaties.vlaanderen.be/view-file/49047" target="_blank">dit rapport</a> lezen we dat in 2020 elke inwoner uit een stedelijke gemeente gemiddeld 118,15 kg aan de deur plaatste of naar het containerpark bracht.
+
+Onderstaande tabel bevat een benadering van het aantal kg per inwoner per jaar:
+
+| Fractie           | Aantal kg |
+|-------------------|:---------:|
+| GFT               | 46,26     |
+| Papier & karton   | 17,43     |
+| Glas              | 2,14      |
+| PMD               | 19        |
+| Elektro           | 0,63      |
+| KGA               | 0,23      | 
+| Houtafval         | 1,22      |
+| Bouwafval         | 2,75      |
+{:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Materials Data</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        th, td {
-            border: 1px solid #dddddd;
-            padding: 8px 12px;
-            text-align: left;
-        }
-        th {
-            background-color: ;
-        }
-    </style>
-</head>
-<body>
+## Gevraagd
 
-<table>
-    <thead>
-        <tr>
-            <th>Materialen</th>
-            <th>Gewicht (in miljoenen tonnen)</th>
-            <th>Percentage van het totaal</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Voedselresten</td>
-            <td>25.9</td>
-            <td>11.2%</td>
-        </tr>
-        <tr>
-            <td>Glas</td>
-            <td>12.8</td>
-            <td>5.5%</td>
-        </tr>
-        <tr>
-            <td>Metalen</td>
-            <td>18</td>
-            <td>7.8%</td>
-        </tr>
-        <tr>
-            <td>Papier & karton</td>
-            <td>86.7</td>
-            <td>37.4%</td>
-        </tr>
-        <tr>
-            <td>Plastic</td>
-            <td>24.7</td>
-            <td>10.7%</td>
-        </tr>
-        <tr>
-            <td>Rubber</td>
-            <td>15.8</td>
-            <td>6.8%</td>
-        </tr>
-        <tr>
-            <td>Hout</td>
-            <td>12.7</td>
-            <td>5.5%</td>
-        </tr>
-        <tr>
-            <td>Tuinafval</td>
-            <td>27.7</td>
-            <td>11.9%</td>
-        </tr>
-        <tr>
-            <td>Overige</td>
-            <td>7.5</td>
-            <td>3.2%</td>
-        </tr>
-    </tbody>
-    <tfoot>
-        <tr>
-            <th>Totaal</th>
-            <th>231.9</th>
-            <th>100.0%</th>
-        </tr>
-    </tfoot>
-</table>
-
-</body>
-</html>
+- Sla in de variabele `restafval` op hoeveel kg er nog resteert. Gebruik hierbij de functie `sum()` en de informatie die je reeds krijgt. 
+- Voeg deze variabele vervolgens toe aan de vector `afval` via `afval <- c(afval, restafval)`.
+- Maak een gelijkaardig schijfdiagram van deze gegevens.
 
 {: .callout.callout-info}
->## Gevraagd:
->* Maak een `som`van alle materialen; 
->* Opgelet: deze zijn reeds afgerond, dus er kunnen **afrondingsfouten** ontstaan; 
->* Maak een **staafdiagram** van de **percentages**; 
->* Een diagram kan een duidelijker beeld geven van de verhoudingen; 
->* Maak een taartdiagram van de percentages; 
->* Vergelijk tenslotte de leesbaarheid van de staafdiagrammen versus het taartdiagram. 
-
-## Invoer:
-De volgende elementen helpen je op weg: 
-
-```
-# Data
-materialen <- c("Voedselresten", "Glas", "Metalen", ...)
-gewicht <- c(25.9, 12.8, 18, ...)
-percentage <- c(11.2, 5.5, 7.8, ...) / 100
-
-```
-
-## Uitvoer: 
-
-### Som
-De syntax om de som te berekenen gaat als volgt:
-```
-naam_variabele_X <- sum(naam_variabele_Y)
-of
-totale_gewicht <- sum(gewicht)
-```
-
-### Grafieken
-#### Staafdiagram
-* `barplot`: type grafiek;
-* `percentage`: de variabele met data die we wensen te gebruiken;
-* `names.arg`: de labels die bij de grafiek zullen afgedrukt worden; 
-* `main`: de titel die bovenaan de grafiek komt te staan;
-* `col`: kleur van de grafiek
-
-```
-barplot(percentage, names.arg = materialen, main = "Staafdiagram van de percentages", col = "#3dffd0", las = 2, cex.names = 0.7)
-```
-
-#### Taartdiagram
-* `pie`: type grafiek;
-* `percentage`: de variabele met data die we wensen te gebruiken;
-* `names.arg`: de labels die bij de grafiek zullen afgedrukt worden; 
-* `main`: de titel die bovenaan de grafiek komt te staan;
-* `col`: kleur van de grafiek. Hier dus een regenboog aan verschillende kleuren.
-
-```
-pie(percentage, labels = materialen, main = "Taartdiagram van de percentages", col = rainbow(length(materialen)))
-```
-
+>#### Tip
+> Je hoeft niet zelf voor elke categorie een kleur te kiezen, maar je kan het argument `col` gelijkstellen aan `rainbow(length(afval))` om een kleurrijke grafiek te bekomen.
