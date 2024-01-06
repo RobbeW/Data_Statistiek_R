@@ -29,7 +29,7 @@ barplot(percentages,
         ylab = "percentage",
         xlab = "dag van de week",
         col = "steelblue",
-        ylim = c(0,20))
+        ylim = c(0, 20))
 dev.off()
 
 # Plot
@@ -46,7 +46,7 @@ barplot(percentages,
         ylab = "percentage",
         xlab = "dag van de week",
         col = "steelblue",
-        ylim = c(0,20),
+        ylim = c(0, 20),
         border = "white",
         col.main = "white",
         col.lab = "white",
