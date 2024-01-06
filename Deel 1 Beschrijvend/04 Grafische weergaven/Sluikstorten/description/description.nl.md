@@ -39,7 +39,8 @@ In de uiteindelijke dataframe vind je een overzicht met het aantal meldingen per
 {: .callout.callout-info}
 >#### Tip
 > Kies zelf een kleur en vergeet de titel en labels op de x- en y-as niet.
+> Het verwerken van de dataset kan een tijdje in beslag nemen want ze bevat bijna 60 000 meldingen.
 
-![Zetelverdeling Vlaams Parlement 2019](media/plot.png "Zetelverdeling Vlaams Parlement 2019."){:data-caption="Zetelverdeling Vlaams Parlement 2019" .light-only width="480px"}
+![Percentage meldingen sluikstorten 2023.](media/plot.png "Percentage meldingen sluikstorten 2023."){:data-caption="Percentage meldingen sluikstorten 2023." .light-only width="480px"}
 
-![Zetelverdeling Vlaams Parlement 2019](media/plot_dark.png "Zetelverdeling Vlaams Parlement 2019."){:data-caption="Zetelverdeling Vlaams Parlement 2019" .dark-only width="480px"}
+![Percentage meldingen sluikstorten 2023.](media/plot_dark.png "Percentage meldingen sluikstorten 2023."){:data-caption="Percentage meldingen sluikstorten 2023." .dark-only width="480px"}
