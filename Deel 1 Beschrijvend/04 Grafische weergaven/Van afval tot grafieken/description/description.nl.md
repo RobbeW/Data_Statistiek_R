@@ -26,3 +26,7 @@ Onderstaande tabel bevat een benadering van het aantal kg per inwoner per jaar:
 {: .callout.callout-info}
 >#### Tip
 > Je hoeft niet zelf voor elke categorie een kleur te kiezen, maar je kan het argument `col` gelijkstellen aan `rainbow(length(afval))` om een kleurrijke grafiek te bekomen.
+
+![Afvalanalyse 2020.](media/plot.png "Afvalanalyse 2020."){:data-caption="Afvalanalyse 2020." .light-only width="480px"}
+
+![Afvalanalyse 2020.](media/plot_dark.png "Afvalanalyse 2020."){:data-caption="Afvalanalyse 2020." .dark-only width="480px"}
