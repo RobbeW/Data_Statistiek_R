@@ -11,7 +11,7 @@ Ook 0! bestaat, dit werd gedefinieerd als 0! = 1.
 
 Maak een functie `faculteit(getal)`. Er geldt bijvoorbeeld dat `faculteit(5)` gelijk is aan 120.
 
- #### Voorbeelden
+#### Voorbeelden
 
 Het speciale geval `0` heeft als uitvoer:
 
