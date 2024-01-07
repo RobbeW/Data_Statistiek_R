@@ -5,7 +5,7 @@ context({
   testcase("De variabele werd correct bepaald:", {
     testEqual("partijen", function(env) {
       env$partijen
-    }, c("NV-A", "Vlaams Belang", "CD&V", "Open Vld", "GROEN", "sp.a", 
+    }, c("N-VA", "Vlaams Belang", "CD&V", "Open Vld", "GROEN", "sp.a", 
 "PVDA"))
   })
 })

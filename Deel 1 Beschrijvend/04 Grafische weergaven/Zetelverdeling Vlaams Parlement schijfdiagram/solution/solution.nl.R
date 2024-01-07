@@ -1,5 +1,5 @@
 # Variabelen
-partijen <- c("NV-A", "Vlaams Belang", "CD&V", "Open Vld", "GROEN", "sp.a", "PVDA")
+partijen <- c("N-VA", "Vlaams Belang", "CD&V", "Open Vld", "GROEN", "sp.a", "PVDA")
 kleuren <- c("gold", "yellow", "orange", "blue", "green", "red", "firebrick")
 zetels <- c(35, 23, 19, 16, 14, 13, 4)
 
