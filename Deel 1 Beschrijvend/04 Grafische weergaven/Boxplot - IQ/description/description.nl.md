@@ -2,7 +2,7 @@
 
 Is er een verband tussen hersengrootte en IQ? Wetenschapper Willerman voerde in 1991 een <a href="http://bcs.whfreeman.com/WebPub/Statistics/shared_resources/EESEE/BrainSize/index.html" target="_blank">onderzoek</a> uit en bepaalde van verschillende proefpersonen het IQ en de hersengrootte met behulp van MRI scans.
 
-![Foto door Robina Weermeijer op Unsplash.](media/robina-weermeijer.jpg "Foto door Robina Weermeijer op Unsplash."){:data-caption="Foto door Robina Weermeijer op Unsplash." width="40%"}
+![Foto door Robina Weermeijer op Unsplash.](media/robina-weermeijer.jpg "Foto door Robina Weermeijer op Unsplash."){:data-caption="Foto door Robina Weermeijer op Unsplash." width="45%"}
 
 Je kan de resultaten van het onderzoek inladen via onderstaande code:
 
