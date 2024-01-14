@@ -2,7 +2,7 @@
 
 Op de <a href="https://geo.irceline.be/www/pm10_24hmean_EN.html" target="_blank">website</a> van de Intergewestelijke Cel voor het Leefmilieu (IRCEL) kan men controleren hoe het zit met de luchtkwaliteit. Op verschillende plaatsen in België meet men bijvoorbeeld continu de hoeveelheid <a href="https://www.irceline.be/nl/documentatie/faq/wat-is-fijnstof" target="_blank">PM10 fijnstofdeeltjes</a>. 
 
-![Uitstoot van wagens tijdens de spits.](media/jacek_dylag.jpg "Foto door Jacek Dylag op Unsplash."){:data-caption="Uitstoot van wagens tijdens de spits." width="40%"}
+![Uitstoot van wagens tijdens de spits.](media/jacek-dylag.jpg "Foto door Jacek Dylag op Unsplash."){:data-caption="Uitstoot van wagens tijdens de spits." width="40%"}
 
 Je kan de meetgegevens van IRCEL inladen via deze code
 
