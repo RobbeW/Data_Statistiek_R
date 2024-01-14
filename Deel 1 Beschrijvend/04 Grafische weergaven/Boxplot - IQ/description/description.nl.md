@@ -36,12 +36,15 @@ De kolom `MRI` bevat het **totale aantal pixels** van de hersenen dat men heeft 
 
 Het is meteen mogelijk een boxplot op te stellen van het verbale IQ via `boxplot(data$VIQ)`. Dit leidt tot:
 
+![Een eenvoudige boxplot.](media/plot_simple.png "Een eenvoudige boxplot."){:data-caption="Een eenvoudige boxplot." .light-only width="480px"}
 
+![Een eenvoudige boxplot.](media/plot_dark_simple.png "Een eenvoudige boxplot."){:data-caption="Een eenvoudige boxplot." .dark-only width="480px"}
 
 Maar het is interessanter om groepen te vergelijken. Is het verbaal IQ bijvoorbeeld sterk verschillend voor mannen versus vrouwen? Dat doe je met behulp van het commando: `boxplot(data$VIQ~data$geslacht)`. Dit resulteert in:
 
+![Verbaal IQ, mannen versus vrouwen.](media/plot_geslacht.png "Verbaal IQ, mannen versus vrouwen."){:data-caption="Verbaal IQ, mannen versus vrouwen." .light-only width="480px"}
 
-
+![Verbaal IQ, mannen versus vrouwen.](media/plot_dark_geslacht.png "Verbaal IQ, mannen versus vrouwen."){:data-caption="Verbaal IQ, mannen versus vrouwen." .dark-only width="480px"}
 
 ## Gevraagd
 
@@ -53,6 +56,6 @@ We maken nu een boxplot waarin we de verbale IQ waarden van personen met bovenge
 
 - Maak nu een boxplot via `boxplot(data$VIQ~bovengemiddeld_MRI)`. Je zal merken dat er `FALSE` en `TRUE` verschijnt als namen van de categorieën. Dit kan je aanpassen via het **argument** `names = c("kleiner", "groter")`. Pas ook de titels aan op de verschillende assen en kies een vector met kleuren voor het argument `col`.
 
-![Luchtkwaliteit in en rondom Gent.](media/plot.png "Luchtkwaliteit in en rondom Gent."){:data-caption="Luchtkwaliteit in en rondom Gent." .light-only width="480px"}
+![Uiteindelijke boxplot.](media/plot.png "Uiteindelijke boxplot."){:data-caption="Uiteindelijke boxplot." .light-only width="480px"}
 
-![Luchtkwaliteit in en rondom Gent.](media/plot_dark.png "Luchtkwaliteit in en rondom Gent."){:data-caption="Luchtkwaliteit in en rondom Gent." .dark-only width="480px"}
+![Uiteindelijke boxplot.](media/plot_dark.png "Uiteindelijke boxplot."){:data-caption="Uiteindelijke boxplot." .dark-only width="480px"}
