@@ -53,7 +53,7 @@ $$
 \mathsf{ 2 \cdot \sqrt[3]{n}}
 $$
 
-    met $$\mathsf{n}$$ het aantal observaties. Maak dus een variabele aan met de naam `n` waar je het aantal observaties in bewaart.
+  met $$\mathsf{n}$$ het aantal observaties. Maak dus een variabele aan met de naam `n` waar je het aantal observaties in bewaart.
 
 - Bereken nu het `aantal_staven` conform de vorige formule. Rond dit af naar onder met behulp van de `floor()` functie.
 
