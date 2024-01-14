@@ -43,9 +43,9 @@ Via `head(data)` om een **voorsmaakje** van de gegevens te verkrijgen.
 hist(bmi)
 ```
 
-![Eenvoudige verdeling van het BMI.](media/plot_simple.png "Eenvoudige verdeling van het BMI."){:data-caption="Eenvoudige verdeling van het BMI." .light-only width="480px"}
+    ![Eenvoudige verdeling van het BMI.](media/plot_simple.png "Eenvoudige verdeling van het BMI."){:data-caption="Eenvoudige verdeling van het BMI." .light-only width="480px"}
 
-![Eenvoudige verdeling van het BMI.](media/plot_dark_simple.png "Eenvoudige verdeling van het BMI."){:data-caption="Eenvoudige verdeling van het BMI." .dark-only width="480px"}
+    ![Eenvoudige verdeling van het BMI.](media/plot_dark_simple.png "Eenvoudige verdeling van het BMI."){:data-caption="Eenvoudige verdeling van het BMI." .dark-only width="480px"}
 
     Dit histogram toont meteen de **verdeling** van het BMI. In dit geval merken we dat dit niet perfect symmetrisch is, er zijn namelijk nogal wat atleten met een BMI boven de 30. (De kogelstoters hebben meestal een hoger BMI bijvoorbeeld).
 
