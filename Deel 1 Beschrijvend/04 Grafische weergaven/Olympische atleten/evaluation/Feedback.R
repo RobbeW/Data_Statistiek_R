@@ -50,7 +50,7 @@ context({
     testEqual("aantal_staven", function(env) {
       env$aantal_staven
     }, aantal_staven)
-    testFunctionUsedInVar("n", "length")
+    testFunctionUsedInVar("length", "n")
     testFunctionUsedInVar("floor", "aantal_staven")
   })
 })
