@@ -39,13 +39,13 @@ Via `head(data)` om een **voorsmaakje** van de gegevens te verkrijgen.
 
 - Het heeft weinig zin om een staafdiagram van de BMI's op te stellen, deze kan namelijk heel wat verschillende waarden aannemen. Men noemt het een **kwantitatieve variabele**. In plaats daarvan stelt men een histogram op.
 
-```R
+    ```R
 hist(bmi)
 ```
 
-Dit histogram toont meteen de **verdeling** van het BMI. In dit geval merken we dat dit niet perfect symmetrisch is, er zijn namelijk nogal wat atleten met een BMI boven de 30. (De kogelstoters hebben meestal een hoger BMI bijvoorbeeld).
+    Dit histogram toont meteen de **verdeling** van het BMI. In dit geval merken we dat dit niet perfect symmetrisch is, er zijn namelijk nogal wat atleten met een BMI boven de 30. (De kogelstoters hebben meestal een hoger BMI bijvoorbeeld).
 
-   Je kan met de **argumenten** `main`, `xlab, ylab` en `col` opnieuw gemakkelijk de labels en de kleur aanpassen. Specifiek bij het histogram is dat je ook het aantal staven kan aanpassen. Dit doe je via het argument `breaks`.
+    Je kan met de **argumenten** `main`, `xlab, ylab` en `col` opnieuw gemakkelijk de labels en de kleur aanpassen. Specifiek bij het histogram is dat je ook het aantal staven kan aanpassen. Dit doe je via het argument `breaks`.
 
 - We passen het aantal staven aan, door hiervoor de regel van Rice te gebruiken. Deze stelt dat het aantal staven gekozen kan worden via:
 
@@ -53,7 +53,7 @@ $$
 \mathsf{ 2 \cdot \sqrt[3]{n}}
 $$
 
-met $$\mathsf{n}$$ het aantal observaties. Maak dus een variabele aan met de naam `n` waar je het aantal observaties in bewaart.
+    met $$\mathsf{n}$$ het aantal observaties. Maak dus een variabele aan met de naam `n` waar je het aantal observaties in bewaart.
 
 - Bereken nu het `aantal_staven` conform de vorige formule. Rond dit af naar onder met behulp van de `floor()` functie.
 
