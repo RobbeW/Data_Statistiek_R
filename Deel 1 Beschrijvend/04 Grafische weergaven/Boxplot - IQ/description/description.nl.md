@@ -52,7 +52,7 @@ We maken nu een boxplot waarin we de verbale IQ waarden van personen met bovenge
 
 - Sla de gemiddelde hersengrootte (uit de kolom `MRI`) op in `gemiddeld_MRI`.
 
-- Maak nu een **booleaanse vector** `bovengemiddeld_MRI`.
+- Maak nu een **booleaanse vector** `bovengemiddeld_MRI` waarin je opslaat welke personen een MRI score van meer dan het gemiddelde MRI hebben.
 
 - Maak nu een boxplot via `boxplot(data$VIQ~bovengemiddeld_MRI)`. Je zal merken dat er `FALSE` en `TRUE` verschijnt als namen van de categorieën. Dit kan je aanpassen via het **argument** `names = c("kleiner", "groter")`. Pas ook de titels aan op de verschillende assen en kies een vector met kleuren voor het argument `col`.
 
