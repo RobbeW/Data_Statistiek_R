@@ -38,7 +38,7 @@ Maak nu onderstaande grafiek.
 
 - Bepaal de mediaan van de waarden uit het Baudelopark, sla dit op in de variabele `mediaan_baudelo`.
 
-- Maak onderstaande boxplot na. Hierbij wordt de waarde uitgezet **per locatie**. Kies zelf drie verschillende kleuren naar keuze uit dit <a href="http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf" target="_blank">document</a>. Komt de mediaan die je berekende overeen met de boxplot van het Baudelopark?
+- Maak onderstaande boxplot na. Hierbij wordt de waarde uitgezet **per locatie**. Kies zelf drie verschillende kleuren naar keuze uit dit <a href="http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf" target="_blank">document</a>. Zorg ervoor dat de titel, zowel op de assen als de hoofdtitel juist zijn. Komt de mediaan die je berekende overeen met de boxplot van het Baudelopark?
 
 ![Luchtkwaliteit in en rondom Gent.](media/plot.png "Luchtkwaliteit in en rondom Gent."){:data-caption="Luchtkwaliteit in en rondom Gent." .light-only width="480px"}
 
