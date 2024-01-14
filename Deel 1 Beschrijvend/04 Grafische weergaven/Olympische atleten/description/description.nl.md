@@ -43,6 +43,10 @@ Via `head(data)` om een **voorsmaakje** van de gegevens te verkrijgen.
 hist(bmi)
 ```
 
+![Eenvoudige verdeling van het BMI.](media/plot_simple.png "Eenvoudige verdeling van het BMI."){:data-caption="Eenvoudige verdeling van het BMI." .light-only width="480px"}
+
+![Eenvoudige verdeling van het BMI.](media/plot_dark_simple.png "Eenvoudige verdeling van het BMI."){:data-caption="Eenvoudige verdeling van het BMI." .dark-only width="480px"}
+
     Dit histogram toont meteen de **verdeling** van het BMI. In dit geval merken we dat dit niet perfect symmetrisch is, er zijn namelijk nogal wat atleten met een BMI boven de 30. (De kogelstoters hebben meestal een hoger BMI bijvoorbeeld).
 
     Je kan met de **argumenten** `main`, `xlab, ylab` en `col` opnieuw gemakkelijk de labels en de kleur aanpassen. Specifiek bij het histogram is dat je ook het aantal staven kan aanpassen. Dit doe je via het argument `breaks`.
@@ -53,8 +57,12 @@ $$
 \mathsf{ 2 \cdot \sqrt[3]{n}}
 $$
 
-  met $$\mathsf{n}$$ het aantal observaties. Maak dus een variabele aan met de naam `n` waar je het aantal observaties in bewaart.
+   met $$\mathsf{n}$$ het aantal observaties. Maak dus een variabele aan met de naam `n` waar je het aantal observaties in bewaart.
 
 - Bereken nu het `aantal_staven` conform de vorige formule. Rond dit af naar onder met behulp van de `floor()` functie.
 
 - Stel nu een histogram op met het **argument** `breaks = aantal_staven`. Kies zelf een kleur en zorg ervoor dat de titels overeenkomen met het onderstaande voorbeeld.
+
+![Verdeling van het BMI.](media/plot.png "Eenvoudige verdeling van het BMI."){:data-caption="Verdeling van het BMI." .light-only width="480px"}
+
+![Verdeling van het BMI.](media/plot_dark.png "Eenvoudige verdeling van het BMI."){:data-caption="Verdeling van het BMI." .dark-only width="480px"}
