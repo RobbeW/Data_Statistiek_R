@@ -63,6 +63,6 @@ $$
 
 - Stel nu een histogram op met het **argument** `breaks = aantal_staven`. Kies zelf een kleur en zorg ervoor dat de titels overeenkomen met het onderstaande voorbeeld.
 
-![Verdeling van het BMI.](media/plot.png "Eenvoudige verdeling van het BMI."){:data-caption="Verdeling van het BMI." .light-only width="480px"}
+![Verdeling van het BMI.](media/plot.png "Uiteindelijke verdeling van het BMI."){:data-caption="Verdeling van het BMI." .light-only width="480px"}
 
-![Verdeling van het BMI.](media/plot_dark.png "Eenvoudige verdeling van het BMI."){:data-caption="Verdeling van het BMI." .dark-only width="480px"}
+![Verdeling van het BMI.](media/plot_dark.png "Uiteindelijke verdeling van het BMI."){:data-caption="Verdeling van het BMI." .dark-only width="480px"}
