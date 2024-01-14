@@ -53,7 +53,7 @@ hist(bmi)
 
 - We passen het aantal staven aan, door hiervoor de regel van Rice te gebruiken. Deze stelt dat het aantal staven gekozen kan worden via:
 
-$$
+    $$
 \mathsf{ 2 \cdot \sqrt[3]{n}}
 $$
 
