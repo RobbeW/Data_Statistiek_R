@@ -24,6 +24,7 @@ hist(data$runtime,
      main = "Histogram van de speeltijd",
      xlab = "Speeltijd in minuten",
      ylab = "Aantal films",
+     xlim = c(60,200),
      col = "cadetblue")
 dev.off()
 
@@ -41,6 +42,7 @@ hist(data$runtime,
      xlab = "Speeltijd in minuten",
      ylab = "Aantal films",
      col = "cadetblue",
+     xlim = c(60,200),
     border = "white",
     col.main = "white",
     col.lab = "white",
