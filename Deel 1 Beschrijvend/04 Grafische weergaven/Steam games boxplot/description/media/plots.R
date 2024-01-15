@@ -19,7 +19,7 @@ png("plot.png",
 par(bg = NA)
 par(fg = "black")
 boxplot(data$metascore~lang,
-     col = "cadetblue",
+     col = c("cadetblue", "coral"),
      ylab = "Metascore",
      xlab = "Uitspeeltijd",
      names = c("Kort (< 24 uur)", "Lang (>= 24 uur)"),
@@ -35,7 +35,7 @@ png("plot_dark.png",
 par(bg = NA)
 par(fg = "white")
 boxplot(data$metascore~lang,
-     col = "cadetblue",
+     col = c("cadetblue", "coral"),
      ylab = "Metascore",
      xlab = "Uitspeeltijd",
      names = c("Kort (< 24 uur)", "Lang (>= 24 uur)"),
@@ -46,3 +46,4 @@ boxplot(data$metascore~lang,
      col.axis = "white"
 )
 dev.off()
+
