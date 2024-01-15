@@ -1,3 +1,6 @@
+
+![Een gamer.](media/axville.jpg "Foto door Axville op Unsplash."){:data-caption="Een gamer." width="45%"}
+
 ## Gegeven
 Via het Steam platform kan je samen met vrienden games spelen. Er wordt dan ook heel wat gegevens bewaard van verschillende computerspellen. Via onderstaande code kan je wat data ophalen:
 
