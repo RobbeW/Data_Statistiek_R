@@ -19,6 +19,6 @@ We onderzoeken nu met behulp van een boxplot of *betere* films ook langer zijn?
 
 - Maak nu een boxplot waar je de speeltijd uitzet ten opzichte van deze afgeronde metascore.
 
-![Luchtkwaliteit in en rondom Gent.](media/plot.png "Luchtkwaliteit in en rondom Gent."){:data-caption="Luchtkwaliteit in en rondom Gent." .light-only width="480px"}
+![Speeltijd versus metascore.](media/plot.png "Speeltijd versus metascore."){:data-caption="Speeltijd versus metascore." .light-only width="480px"}
 
-![Luchtkwaliteit in en rondom Gent.](media/plot_dark.png "Luchtkwaliteit in en rondom Gent."){:data-caption="Luchtkwaliteit in en rondom Gent." .dark-only width="480px"}
+![Speeltijd versus metascore.](media/plot_dark.png "Speeltijd versus metascore."){:data-caption="Speeltijd versus metascore." .dark-only width="480px"}
