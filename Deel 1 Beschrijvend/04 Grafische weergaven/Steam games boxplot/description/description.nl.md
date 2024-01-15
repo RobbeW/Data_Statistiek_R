@@ -1,23 +1,37 @@
 ## Gegeven
-In de vorige oefening ging je een hoeveelheid filmdata ophalen. Deze kwam uiteindelijk in een dataframe van onderstaande vorm terecht.
+Via het Steam platform kan je samen met vrienden games spelen. Er wordt dan ook heel wat gegevens bewaard van verschillende computerspellen. Via onderstaande code kan je wat data ophalen:
+
+```R
+# Steam data inlezen
+data <- read.csv2("http://tinyurl.com/mr4b4bz8",
+                  sep=",",dec=".",
+                  colClasses = c("NULL", rep("character", 2), rep("numeric", 5), rep("NULL",2)))
+data <- na.omit(data)
+colnames(data) <- c("title", "year", "metascore", "rating", "positivity_ratio", "time_to_beat","time_to_beat_extra")
+rownames(data) <- seq_len(nrow(data))
+```
+
+Dit leidt tot een dataframe van de vorm:
 
 ```
-                    title year runtime rating  votes revenue_millions metascore
-1 Guardians of the Galaxy 2014     121    8.1 757074           333.13        76
-2              Prometheus 2012     124    7.0 485820           126.46        65
-3                   Split 2016     117    7.3 157606           138.12        62
-4                    Sing 2016     108    7.2  60545           270.32        59
-5           Suicide Squad 2016     123    6.2 393727           325.02        40
-6          The Great Wall 2016     103    6.1  56036            45.13        42
+                   title year metascore rating positivity_ratio time_to_beat time_to_beat_extra
+1    The Tiny Bang Story 2011        63      8         7.073879         3.60               3.60
+2                Hacknet 2015        82      8        14.548520         7.06               8.73
+3              SpaceChem 2011        84      8        11.440415        43.32              57.79
+4            Baba Is You 2019        87      9        49.397183         6.84              19.28
+5 Human Resource Machine 2015        78      8        15.220833         4.18               7.57
+6            Opus Magnum 2017        90      9        37.977444        15.24              26.06
 ```
+
+In deze dataframe vind je de titel, het jaar van publicatie, `metascore` stelt een beoordeling voor van één of meerdere proffesionele gamers, `rating` stelt de score van het publiek voor. `positivity_ration` is de verhouding van het aantal goede revieuws gedeeld door het aantal slechte reviews. `time_to_beat` en `time_to_beat_extra` stellen de tijd in uren voor die nodig zijn om het spel te beëindigen, respectievelijk zonder en met extra bonus materiaal.
 
 ## Gevraagd
 
-We onderzoeken nu met behulp van een boxplot of *betere* films ook langer zijn?
+Worden games met een lange speeltijd ook beter beoordeeld door de professionals?
 
-- Aan elke film werd een **metascore** toegekend. Het is via een eenvoudige berekening mogelijk om deze af te ronden op een tiental. Werk hiervoor als volgt. Eerst deel je de metascore door 10, daarna rond je deze af op een geheel en tot slot vermenigvuldig je opnieuw met 10. Sla dit op in de variabele `metascore_afgerond`.
+- Men zegt dat een AAA game (een professioneel spel, ontwikkeld door een grote studio) minstens 24 uren speeltijd moet hebben. Maak een **booleaanse vector** `lang` aan, waar je in opslaat welke games een gewone speeltijd van meer dan 24 uur hebben.
 
-- Maak nu een boxplot waar je de speeltijd uitzet ten opzichte van deze afgeronde metascore.
+- Maak nu een boxplot waar je de metascore uitzet tegenover deze booleaanse vector. Maak gebruik van het argument `names = c("categorie1", "categorie2")` om de juiste labels te voorzien. Zorg ook voor de juiste titels op de assen en boven de grafiek. Kies zelf voor een kleurtje.
 
 ![Luchtkwaliteit in en rondom Gent.](media/plot.png "Luchtkwaliteit in en rondom Gent."){:data-caption="Luchtkwaliteit in en rondom Gent." .light-only width="480px"}
 
