@@ -36,6 +36,6 @@ Worden games met een lange speeltijd ook beter beoordeeld door de professionals?
 
 - Maak nu een boxplot waar je de metascore uitzet tegenover deze booleaanse vector. Maak gebruik van het argument `names = c("categorie1", "categorie2")` om de juiste labels te voorzien. Zorg ook voor de juiste titels op de assen en boven de grafiek. Kies zelf voor een kleurtje.
 
-![Luchtkwaliteit in en rondom Gent.](media/plot.png "Luchtkwaliteit in en rondom Gent."){:data-caption="Luchtkwaliteit in en rondom Gent." .light-only width="480px"}
+![Langere speeltijd versus metascore.](media/plot.png "Langere speeltijd versus metascore."){:data-caption="Langere speeltijd versus metascore." .light-only width="480px"}
 
-![Luchtkwaliteit in en rondom Gent.](media/plot_dark.png "Luchtkwaliteit in en rondom Gent."){:data-caption="Luchtkwaliteit in en rondom Gent." .dark-only width="480px"}
+![Langere speeltijd versus metascore.](media/plot_dark.png "Langere speeltijd versus metascore."){:data-caption="Langere speeltijd versus metascore." .dark-only width="480px"}
