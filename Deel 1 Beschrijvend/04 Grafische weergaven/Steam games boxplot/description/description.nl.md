@@ -23,7 +23,7 @@ Dit leidt tot een dataframe van de vorm:
 6            Opus Magnum 2017        90      9        37.977444        15.24              26.06
 ```
 
-In deze dataframe vind je de titel, het jaar van publicatie, `metascore` stelt een beoordeling voor van één of meerdere proffesionele gamers, `rating` stelt de score van het publiek voor. `positivity_ration` is de verhouding van het aantal goede revieuws gedeeld door het aantal slechte reviews. `time_to_beat` en `time_to_beat_extra` stellen de tijd in uren voor die nodig zijn om het spel te beëindigen, respectievelijk zonder en met extra bonus materiaal.
+In deze dataframe vind je de titel, het jaar van publicatie, `metascore` stelt een beoordeling voor van één of meerdere professionele gamers, `rating` stelt de score van het publiek voor. `positivity_ration` is de verhouding van het aantal goede revieuws gedeeld door het aantal slechte reviews. `time_to_beat` en `time_to_beat_extra` stellen de tijd in uren voor die nodig zijn om het spel te beëindigen, respectievelijk zonder en met extra bonus materiaal.
 
 ![Een gamer.](media/axville.jpg "Foto door Axville op Unsplash."){:data-caption="Een gamer." width="40%"}
 
