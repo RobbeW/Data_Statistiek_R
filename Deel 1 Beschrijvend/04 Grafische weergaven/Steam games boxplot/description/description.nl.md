@@ -31,7 +31,7 @@ In deze dataframe vind je de titel, het jaar van publicatie, `metascore` stelt e
 
 Worden games met een langere uitspeeltijd ook beter beoordeeld door de professionals?
 
-- Men zegt dat een *AAA game* (een professioneel spel, ontwikkeld door een grote studio) minstens 24 uren speeltijd moet hebben. Maak een **booleaanse vector** `lang` aan, waar je in opslaat welke games een gewone speeltijd van meer dan 24 uur hebben.
+- Men zegt dat een *AAA game* (een professioneel spel, ontwikkeld door een grote studio) minstens 24 uren speeltijd moet hebben. Maak een **booleaanse vector** `lang` aan, waar je in opslaat welke games een gewone speeltijd van **minstens** 24 uur hebben.
 
 - Maak nu een boxplot waar je de metascore uitzet tegenover deze booleaanse vector. Maak gebruik van het argument `names = c("categorie1", "categorie2")` om de juiste labels te voorzien. Zorg ook voor de juiste titels op de assen en boven de grafiek. Zorg voor **twee kleuren** per categorie.
 
