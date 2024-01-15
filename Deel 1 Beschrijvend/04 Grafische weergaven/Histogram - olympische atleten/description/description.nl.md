@@ -37,7 +37,7 @@ Via `head(data)` om een **voorsmaakje** van de gegevens te verkrijgen.
 
 - Maak een vector `bmi` aan waar je het BMI van de atleten bepaalt. Het BMI bereken je door de massa te delen door het kwadraat van de lengte (in m uitgedrukt). Rond dit af op **2 cijfers na de komma**. Gebruik hiervoor de `round()` functie.
 
-- Het heeft weinig zin om een staafdiagram van de BMI's op te stellen, deze kan namelijk heel wat verschillende waarden aannemen. Men noemt het een **kwantitatieve variabele**. In plaats daarvan stelt men een histogram op.
+- Het heeft weinig zin om een staafdiagram van de BMI's op te stellen, deze kan namelijk heel wat verschillende waarden aannemen. Men noemt het een **kwantitatieve variabele**. In plaats daarvan stelt men een **histogram** op, dit kan via het onderstaande commando:
 
     ```R
 hist(bmi)
@@ -59,7 +59,7 @@ $$
 
    met $$\mathsf{n}$$ het aantal observaties. Maak dus een variabele aan met de naam `n` waar je het aantal observaties in bewaart.
 
-- Bereken nu het `aantal_staven` conform de vorige formule. Rond dit af naar onder met behulp van de `floor()` functie.
+- Bereken nu het `aantal_staven` conform de vorige formule. **Rond dit af naar onder** met behulp van de `floor()` functie.
 
 - Stel nu een histogram op met het **argument** `breaks = aantal_staven`. Kies zelf een kleur en zorg ervoor dat de titels overeenkomen met het onderstaande voorbeeld.
 
