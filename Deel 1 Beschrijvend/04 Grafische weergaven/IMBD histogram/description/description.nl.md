@@ -40,6 +40,6 @@ In deze en de volgende oefening onderzoeken we of *goede* films een langere spee
 
 - Maak onderstaande histogram na. Zorg ervoor dat de titel, zowel op de assen als de hoofdtitel juist zijn. Kies zelf een kleurtje.
 
-![Luchtkwaliteit in en rondom Gent.](media/plot.png "Luchtkwaliteit in en rondom Gent."){:data-caption="Luchtkwaliteit in en rondom Gent." .light-only width="480px"}
+![Speeltijd in minuten.](media/plot.png "Speeltijd in minuten."){:data-caption="Speeltijd in minuten." .light-only width="480px"}
 
-![Luchtkwaliteit in en rondom Gent.](media/plot_dark.png "Luchtkwaliteit in en rondom Gent."){:data-caption="Luchtkwaliteit in en rondom Gent." .dark-only width="480px"}
+![Speeltijd in minuten.](media/plot_dark.png "Speeltijd in minuten."){:data-caption="Speeltijd in minuten." .dark-only width="480px"}
