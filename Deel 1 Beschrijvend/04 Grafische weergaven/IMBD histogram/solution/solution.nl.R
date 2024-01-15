@@ -15,4 +15,5 @@ hist(data$runtime,
      main = "Histogram van de speeltijd",
      xlab = "Speeltijd in minuten",
      ylab = "Aantal films",
+     xlim = c(60,200),
      col = "cadetblue")
