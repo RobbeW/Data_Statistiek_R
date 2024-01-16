@@ -7,7 +7,7 @@ colnames(data) <- c("title", "year", "metascore", "rating", "positivity_ratio", 
 rownames(data) <- seq_len(nrow(data))
 
 # Beantwoord hieronder de vragen
-lang <- data$time_to_beat > 24
+lang <- data$time_to_beat >= 24
 
 context({
   testcaseAssert("De variabele lang bestaat.", function(env) {

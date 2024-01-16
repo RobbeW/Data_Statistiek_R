@@ -1,6 +1,3 @@
-
-![Een gamer.](media/axville.jpg "Foto door Axville op Unsplash."){:data-caption="Een gamer." width="45%"}
-
 ## Gegeven
 Via het Steam platform kan je samen met vrienden games spelen. Er wordt dan ook heel wat gegevens bewaard van verschillende computerspellen. Via onderstaande code kan je wat data ophalen:
 
@@ -26,15 +23,17 @@ Dit leidt tot een dataframe van de vorm:
 6            Opus Magnum 2017        90      9        37.977444        15.24              26.06
 ```
 
-In deze dataframe vind je de titel, het jaar van publicatie, `metascore` stelt een beoordeling voor van één of meerdere proffesionele gamers, `rating` stelt de score van het publiek voor. `positivity_ration` is de verhouding van het aantal goede revieuws gedeeld door het aantal slechte reviews. `time_to_beat` en `time_to_beat_extra` stellen de tijd in uren voor die nodig zijn om het spel te beëindigen, respectievelijk zonder en met extra bonus materiaal.
+In deze dataframe vind je de titel, het jaar van publicatie, `metascore` stelt een beoordeling voor van één of meerdere professionele gamers, `rating` stelt de score van het publiek voor. `positivity_ration` is de verhouding van het aantal goede revieuws gedeeld door het aantal slechte reviews. `time_to_beat` en `time_to_beat_extra` stellen de tijd in uren voor die nodig zijn om het spel te beëindigen, respectievelijk zonder en met extra bonus materiaal.
+
+![Een gamer.](media/axville.jpg "Foto door Axville op Unsplash."){:data-caption="Een gamer." width="40%"}
 
 ## Gevraagd
 
-Worden games met een lange speeltijd ook beter beoordeeld door de professionals?
+Worden games met een langere uitspeeltijd ook beter beoordeeld door de professionals?
 
-- Men zegt dat een AAA game (een professioneel spel, ontwikkeld door een grote studio) minstens 24 uren speeltijd moet hebben. Maak een **booleaanse vector** `lang` aan, waar je in opslaat welke games een gewone speeltijd van meer dan 24 uur hebben.
+- Men zegt dat een *AAA game* (een professioneel spel, ontwikkeld door een grote studio) minstens 24 uren speeltijd moet hebben. Maak een **booleaanse vector** `lang` aan, waar je in opslaat welke games een gewone speeltijd van **minstens** 24 uur hebben.
 
-- Maak nu een boxplot waar je de metascore uitzet tegenover deze booleaanse vector. Maak gebruik van het argument `names = c("categorie1", "categorie2")` om de juiste labels te voorzien. Zorg ook voor de juiste titels op de assen en boven de grafiek. Kies zelf voor een kleurtje.
+- Maak nu een boxplot waar je de metascore uitzet tegenover deze booleaanse vector. Maak gebruik van het argument `names = c("categorie1", "categorie2")` om de juiste labels te voorzien. Zorg ook voor de juiste titels op de assen en boven de grafiek. Zorg voor **twee kleuren** per categorie.
 
 ![Langere speeltijd versus metascore.](media/plot.png "Langere speeltijd versus metascore."){:data-caption="Langere speeltijd versus metascore." .light-only width="480px"}
 

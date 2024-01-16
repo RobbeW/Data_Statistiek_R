@@ -15,9 +15,9 @@ In de vorige oefening ging je een hoeveelheid filmdata ophalen. Deze kwam uitein
 
 We onderzoeken nu met behulp van een boxplot of *betere* films ook langer zijn?
 
-- Aan elke film werd een **metascore** toegekend. Het is via een eenvoudige berekening mogelijk om deze af te ronden op een tiental. Werk hiervoor als volgt. Eerst deel je de metascore door 10, daarna rond je deze af op een geheel en tot slot vermenigvuldig je opnieuw met 10. Sla dit op in de variabele `metascore_afgerond`.
+- Aan elke film werd een **metascore** toegekend. Het is via een vrij eenvoudige berekening mogelijk om deze **af te ronden op een tiental**. Werk hiervoor als volgt. Eerst deel je de metascore door 10, daarna rond je dit resultaat af op een geheel en tot slot vermenigvuldig je opnieuw met 10. Sla dit op in de variabele `metascore_afgerond`.
 
-- Maak nu een boxplot waar je de speeltijd uitzet ten opzichte van deze afgeronde metascore.
+- Maak nu een boxplot waar je de speeltijd uitzet ten opzichte van deze afgeronde metascore. Kies zelf een kleur en zorg dat de titels overeenkomen met onderstaand voorbeeld.
 
 ![Speeltijd versus metascore.](media/plot.png "Speeltijd versus metascore."){:data-caption="Speeltijd versus metascore." .light-only width="480px"}
 

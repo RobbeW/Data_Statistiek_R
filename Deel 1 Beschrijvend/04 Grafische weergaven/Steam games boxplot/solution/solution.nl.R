@@ -10,7 +10,7 @@ rownames(data) <- seq_len(nrow(data))
 lang <- data$time_to_beat >= 24
 
 boxplot(data$metascore~lang,
-     col = "cadetblue",
+     col = c("cadetblue", "coral"),
      ylab = "Metascore",
      xlab = "Uitspeeltijd",
      names = c("Kort (< 24 uur)", "Lang (>= 24 uur)"),

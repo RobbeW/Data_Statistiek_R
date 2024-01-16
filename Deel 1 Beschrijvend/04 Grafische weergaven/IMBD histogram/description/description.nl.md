@@ -32,13 +32,13 @@ Hierin merken we de titel `title`, het jaar van uitgave `year`, de speeltijd in 
 
 ## Gevraagd
 
-In deze en de volgende oefening onderzoeken we of *goede* films een langere speeltijd hebben. Voordat we dit doen, onderzoeken we eerst welke speeltijden er voorkomen.
+In deze en de volgende oefening onderzoeken we of *goede* films een langere speeltijd (in minuten) hebben. Voordat we dit doen, onderzoeken we eerst welke speeltijden er voorkomen.
 
 - We zullen die speeltijden voorstellen in een histogram, waarvan het aantal staven gelijk is aan $$\mathsf{\sqrt{n}}$$. Bepaal een variabele `n` waar je het aantal films in opslaat.
 
 - Bereken vervolgens het aantal staven in `aantal_staven`.
 
-- Maak onderstaande histogram na. Zorg ervoor dat de titel, zowel op de assen als de hoofdtitel juist zijn. Kies zelf een kleurtje.
+- Maak onderstaande histogram na. Zorg ervoor dat de **titels**, zowel op de assen als de hoofdtitel juist zijn. Kies zelf een passende kleur. Let ook op het **bereik** op de x-as.
 
 ![Speeltijd in minuten.](media/plot.png "Speeltijd in minuten."){:data-caption="Speeltijd in minuten." .light-only width="480px"}
 
