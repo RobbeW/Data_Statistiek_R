@@ -1,7 +1,3 @@
-<div class="text-end">
-    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
-</div>
-
 Game of Thrones is een Amerikaanse fantasy-televisieserie die werd uitgezonden op de televisiezender HBO. Het is gebaseerd op de boeken uit de serie "A song of Ice and Fire" van de Amerikaanse schrijver George R.R. Martin. De serie liep van 17 april 2011 tot 19 mei 2019. 
 
 ![Een scene uit Game of Thrones.](media/got.png "Een scene uit game of Thrones."){:data-caption="Een scene uit game of Thrones." width="45%"}

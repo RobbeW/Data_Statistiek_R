@@ -1,11 +1,3 @@
-<div class="text-end">
-    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
-</div>
-
-<div class="text-end" style="margin-top:15px">
-    <a class="btn btn-filled with-icon" href="https://webr.r-wasm.org/latest/" target="_blank"><i class="mdi mdi-cloud-tags mdi-24" title="link"></i>Link naar WebR</a>
-</div>
-
 Onderstaande reeks is één van de eerste oneindige reeksen die bepaald werd in de geschiedenis van de wiskunde. De Griekse wiskundige Archimedes bepaalde de som hiervan reeds in 200 voor Christus.
 
 $$

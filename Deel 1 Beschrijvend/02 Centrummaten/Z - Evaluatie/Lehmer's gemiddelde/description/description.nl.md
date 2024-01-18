@@ -1,11 +1,3 @@
-<div class="text-end">
-    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
-</div>
-
-<div class="text-end" style="margin-top:15px">
-    <a class="btn btn-filled with-icon" href="https://webr.r-wasm.org/latest/" target="_blank"><i class="mdi mdi-cloud-tags mdi-24" title="link"></i>Link naar WebR</a>
-</div>
-
 ![Derrick Henry Lehmer](media/lehmer.png "Derrick Henry Lehmer"){:data-caption="Derrick Henry Lehmer" width="25%"}
 
 Het Lehmer gemiddelde $$\mathsf{\boldsymbol{L_p}}$$ van een vector $$\mathsf{\boldsymbol{x}}$$ bestaande uit positieve getallen, genaamd naar <a href="https://nl.wikipedia.org/wiki/Derrick_Henry_Lehmer" target="_blank">Derrick Henry Lehmer</a> kan je als volgt berekenen:
