@@ -13,7 +13,7 @@ Hierbij zijn 1, 3, 6, 10, ... driehoeksgetallen omdat je ze kan vormen door het 
 Bovenstaande som kan herschreven worden in de volgende vorm:
 
 $$
-\mathsf{ \sum_{i=1}^\infty \dfrac{2}{i\cdot (i+1)}}
+\mathsf{ \sum_{n=1}^\infty \dfrac{2}{n\cdot (n+1)}}
 $$
 
 ## Gevraagd
