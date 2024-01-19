@@ -14,7 +14,7 @@ $$
 
 ## Gevraagd
 
-We programmeren deze berekning voor de hoek $$\mathsf{x = \dfrac{\pi}{3}}$$, in dit geval ziet de vorige formule er als volgt uit:
+We programmeren deze formule voor de hoek $$\mathsf{x = \dfrac{\pi}{3}}$$, in dit geval ziet de vorige formule er (na vereenvoudiging) als volgt uit:
 
 $$
 \mathsf{\sin \dfrac{\pi}{3} = \dfrac{\pi}{3} \cdot \prod_{i=1}^\infty \left( 1 - \dfrac{1}{9\cdot i^2}\right)}
