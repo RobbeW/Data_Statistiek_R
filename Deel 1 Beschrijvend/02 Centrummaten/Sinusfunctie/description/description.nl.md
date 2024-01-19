@@ -9,7 +9,7 @@ Maar hoe berekent een computer de sinus van een *willekeurige* hoek?
 Computers berekenen voor een hoek $$\mathsf{x}$$ (in radialen uitgedrukt natuurlijk) de hoekgrootte door middel van een *oneindig* product:
 
 $$
-\mathsf{\sin x = x \cdot \prod_{i=1}^\infty \left( 1 - \dfrac{x^2}{\pi^2\cdot i^2})}
+\mathsf{\sin x = x \cdot \prod_{i=1}^\infty \left( 1 - \dfrac{x^2}{\pi^2\cdot i^2}\right)}
 $$
 
 ## Gevraagd
@@ -17,7 +17,7 @@ $$
 We programmeren deze berekning voor de hoek $$\mathsf{x = \dfrac{\pi}{3}}$$, in dit geval ziet de vorige formule er als volgt uit:
 
 $$
-\mathsf{\sin \dfrac{\pi}{3} = \dfrac{\pi}{3} \cdot \prod_{i=1}^\infty \left( 1 - \dfrac{1}{9\cdot i^2})}
+\mathsf{\sin \dfrac{\pi}{3} = \dfrac{\pi}{3} \cdot \prod_{i=1}^\infty \left( 1 - \dfrac{1}{9\cdot i^2}\right)}
 $$
 
 - Maak een functie `sin_benadering(aantal)` waarbij `aantal` het aantal factoren uit het product voorstelt. Zo geldt dat `sin_benadering(3)` overeenkomt met 
