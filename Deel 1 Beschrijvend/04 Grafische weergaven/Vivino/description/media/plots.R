@@ -17,7 +17,7 @@ png("plot.png",
 par(bg = NA)
 par(fg = "black")
 plot(data$pH[hoge_kwaliteit]~data$alcohol[hoge_kwaliteit],
-     main = "Verband tussen alcoholgehalte en zuurtegraad",
+     main = "Verband tussen alcoholgehalte en zuurtegraad (bij goede wijn)",
      xlab = "Alcoholgehalte",
      ylab = "Zuurtegraad (pH)")
 abline(lm(data$pH[hoge_kwaliteit]~data$alcohol[hoge_kwaliteit]),
@@ -33,7 +33,7 @@ png("plot_dark.png",
 par(bg = NA)
 par(fg = "white")
 plot(data$pH[hoge_kwaliteit]~data$alcohol[hoge_kwaliteit],
-     main = "Verband tussen alcoholgehalte en zuurtegraad",
+     main = "Verband tussen alcoholgehalte en zuurtegraad (bij goede wijn)",
      xlab = "Alcoholgehalte",
      ylab = "Zuurtegraad (pH)",
      col.main = "white",

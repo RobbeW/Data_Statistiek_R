@@ -15,7 +15,7 @@ context({
     testEqual("mediaan", function(env) {
       env$mediaan
     }, mediaan)
-    functionUsedInVar('mediaan', 'median')
+    testFunctionUsedInVar("mediaan", "median")
   })
 })
 
