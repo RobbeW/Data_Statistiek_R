@@ -2,7 +2,7 @@
 
 De <a href="https://www.who.int/" target="_blank">Wereldgezondheidsorganisatie (WHO)</a> is een gespecialiseerd onderdeel van de Verenigde Naties die een sturende en coördinerende rol heeft op het gebied van gezondheid en welzijn.
 
-![Het logo van de WHO.](media/WHO_logo.png "Het logo van de WHO."){:data-caption="Het logo van de WHO." width="40%"}
+![Het logo van de WHO.](media/WHO_logo.png "Het logo van de WHO."){:data-caption="Het logo van de WHO." width="25%"}
 
 Deze organisatie houdt van alle landen een veelheid aan statistieken bij, zoals bijvoorbeeld: de levensverwachting, het gemiddelde BMI, het aantal AIDS infecties, enz... 
 
