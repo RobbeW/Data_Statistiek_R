@@ -14,5 +14,9 @@
   "evaluation": {
     "network_enabled": true,
     "time_limit": 200
+  },
+  "internals": {
+    "token": "7kgqFDxtQYEEWZ7tBfucY3aMFzhYTiC8D8iGG_7U8kKWfp6jMAC4ERqjhiw_AK42",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }
