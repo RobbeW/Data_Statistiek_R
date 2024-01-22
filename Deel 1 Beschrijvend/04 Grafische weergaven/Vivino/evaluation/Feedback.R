@@ -9,7 +9,7 @@ goede_wijnen <- data$quality > mediaan
 
 context({
   testcaseAssert("De variabele mediaan bestaat.", function(env) {
-    isTRUE(exists("vrouwen", env))
+    isTRUE(exists("mediaan", env))
   })
   testcase("De variabele werd correct berekend:", {
     testEqual("mediaan", function(env) {
