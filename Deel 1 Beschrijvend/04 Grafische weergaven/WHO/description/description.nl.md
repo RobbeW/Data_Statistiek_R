@@ -49,4 +49,4 @@ We vermoeden dat indien een land meer spendeert aan het departement volksgezondh
 {: .callout.callout-info}
 >#### Merk op
 >
-> Uit de grafiek kan je afleiden dat indien de uitgaven met ongeveer 1% stijgen er te verwachten valt dat de levensverwachting met ongeveer 1 jaar zal stijgen. Het loont dus wel degelijk dat een overheid investeert in volksgezondheid.
+> Uit de grafiek kan je afleiden dat indien de uitgaven met ongeveer 1% stijgen er te voorspellen valt dat de levensverwachting met ongeveer 1 jaar zal stijgen. Het loont dus wel degelijk dat een overheid investeert in volksgezondheid.
