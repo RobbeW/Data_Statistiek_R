@@ -30,6 +30,9 @@ plot(data$MRI~data$VIQ,
 
 Het argument `pch = 19` (komt van *plot characters*) zorgt voor andere markeringen. Dit kan van 1 tot 25 varieren.
 
+![Spreidingsdiagram.](media/plot_simple.png "Spreidingsdiagram."){:data-caption="Spreidingsdiagram." .light-only width="480px"}
+
+![Spreidingsdiagram.](media/plot_dark_simple.png "Spreidingsdiagram."){:data-caption="Spreidingsdiagram." .dark-only width="480px"}
 
 Nog duidelijker wordt het indien een regressierechte (best passende rechte) wordt toegevoegd. Dit kan met het commando `abline()`, waarme je aangeeft wat constante (*a*) en de rico (*b*) is. Het commando `lm(data$MRI~data$VIQ)` bepaalt automatisch de constante en de rico.
 
@@ -43,6 +46,11 @@ abline(lm(data$MRI~data$VIQ),
        col = "red")
 ```
 
+![Spreidingsdiagram met een best passende rechte.](media/plot.png "Spreidingsdiagram met een best passende rechte."){:data-caption="Spreidingsdiagram met een best passende rechte." .light-only width="480px"}
+
+![Spreidingsdiagram met een best passende rechte.](media/plot_dark.png "Spreidingsdiagram met een best passende rechte."){:data-caption="Spreidingsdiagram met een best passende rechte." .dark-only width="480px"}
+
+
 ## Gevraagd
 
 Maak nu een spreidingsdiagram waarbij je enkel de gegevens van de **vrouwelijke** deelneemsters in een grafiek uitzet.
@@ -51,6 +59,6 @@ Maak nu een spreidingsdiagram waarbij je enkel de gegevens van de **vrouwelijke*
 
 - Gebruik deze booleaanse vector om de vorige instructies aan te passen zodat je het spreidingsdiagram van enkel de vrouwelijke proefpersonen krijgt.
 
-![Uiteindelijke boxplot.](media/plot.png "Uiteindelijke boxplot."){:data-caption="Uiteindelijke boxplot." .light-only width="480px"}
+![Uiteindelijk spreidingsdiagram.](media/plot_female.png "Uiteindelijk spreidingsdiagram."){:data-caption="Uiteindelijk spreidingsdiagram." .light-only width="480px"}
 
-![Uiteindelijke boxplot.](media/plot_dark.png "Uiteindelijke boxplot."){:data-caption="Uiteindelijke boxplot." .dark-only width="480px"}
+![Uiteindelijk spreidingsdiagram.](media/plot_dark_female.png "Uiteindelijk spreidingsdiagram."){:data-caption="Uiteindelijk spreidingsdiagram." .dark-only width="480px"}

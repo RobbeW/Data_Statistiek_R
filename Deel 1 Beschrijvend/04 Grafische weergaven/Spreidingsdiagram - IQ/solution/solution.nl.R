@@ -14,7 +14,7 @@ vrouwen <- data$geslacht ==  "Female"
 plot(data$VIQ[vrouwen]~data$MRI[vrouwen],
      xlab = "Verbaal IQ",
      ylab = "aantal pixels hersenen (MRI)",
-     main = "Verbaal IQ versus MRI scan",
+     main = "Verbaal IQ versus MRI scan bij vrouwen",
      pch = 19)
 abline(lm(data$VIQ[vrouwen]~data$MRI[vrouwen]),
        col = "red")
