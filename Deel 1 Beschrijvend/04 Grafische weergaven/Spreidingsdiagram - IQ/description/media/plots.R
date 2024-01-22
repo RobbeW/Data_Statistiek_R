@@ -20,7 +20,7 @@ png("plot_simple.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "black")
-plot(data$MRI~data$VIQ,
+plot(data$VIQ~data$MRI,
      ylab = "Verbaal IQ",
      xlab = "aantal pixels hersenen (MRI)",
      main = "Verbaal IQ versus MRI scan",
@@ -35,7 +35,7 @@ png("plot_dark_simple.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "white")
-plot(data$MRI~data$VIQ,
+plot(data$VIQ~data$MRI,
      ylab = "Verbaal IQ",
      xlab = "aantal pixels hersenen (MRI)",
      main = "Verbaal IQ versus MRI scan",
@@ -54,12 +54,12 @@ png("plot1_simple.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "black")
-plot(data$MRI~data$VIQ,
+plot(data$VIQ~data$MRI,
      ylab = "Verbaal IQ",
      xlab = "aantal pixels hersenen (MRI)",
      main = "Verbaal IQ versus MRI scan",
      pch = 19)
-abline(lm(data$MRI~data$VIQ),
+abline(lm(data$VIQ~data$MRI),
        col = "red")
 dev.off()
 
@@ -71,7 +71,7 @@ png("plot2_dark_simple.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "white")
-plot(data$MRI~data$VIQ,
+plot(data$VIQ~data$MRI,
      ylab = "Verbaal IQ",
      xlab = "aantal pixels hersenen (MRI)",
      main = "Verbaal IQ versus MRI scan",
@@ -80,7 +80,7 @@ plot(data$MRI~data$VIQ,
      col.lab = "white",
      col.axis = "white"
 )
-abline(lm(data$MRI~data$VIQ),
+abline(lm(data$VIQ~data$MRI),
        col = "red")
 dev.off()
 
@@ -95,13 +95,13 @@ png("plot_female.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "black")
-plot(data$MRI[vrouwen]~data$VIQ[vrouwen],
+plot(data$VIQ[vrouwen]~data$MRI[vrouwen],
      ylab = "Verbaal IQ",
      xlab = "aantal pixels hersenen (MRI)",
      main = "Verbaal IQ versus MRI scan bij vrouwen",
-     ylim = c(800000, 1000000),
+     xlim = c(800000, 1000000),
      pch = 19)
-abline(lm(data$MRI[vrouwen]~data$VIQ[vrouwen]),
+abline(lm(data$VIQ[vrouwen]~data$MRI[vrouwen]),
        col = "red")
 dev.off()
 
@@ -113,16 +113,16 @@ png("plot_dark_female.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "white")
-plot(data$MRI[vrouwen]~data$VIQ[vrouwen],
+plot(data$VIQ[vrouwen]~data$MRI[vrouwen],
      ylab = "Verbaal IQ",
      xlab = "aantal pixels hersenen (MRI)",
      main = "Verbaal IQ versus MRI scan bij vrouwen",
-     ylim = c(800000, 1000000),
+     xlim = c(800000, 1000000),
      pch = 19,
      col.main = "white",
      col.lab = "white",
      col.axis = "white"
 )
-abline(lm(data$MRI[vrouwen]~data$VIQ[vrouwen]),
+abline(lm(data$VIQ[vrouwen]~data$MRI[vrouwen]),
        col = "red")
 dev.off()

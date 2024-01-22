@@ -21,7 +21,7 @@ De kolom `MRI` bevat het **totale aantal pixels** van de hersenen dat men heeft 
 Je kan onderzoeken in welke mate het aantal pixels hersenen (`data$MRI`) het verbaal IQ voorspelt. Een spreidingsdiagram krijg je bijvoorbeeld via de volgende code:
 
 ```R
-plot(data$MRI~data$VIQ,
+plot(data$VIQ~data$MRI,
      ylab = "Verbaal IQ",
      xlab = "aantal pixels hersenen (MRI)",
      main = "Verbaal IQ versus MRI scan",
@@ -37,12 +37,12 @@ Het argument `pch = 19` (komt van *plot characters*) zorgt voor andere markering
 Nog duidelijker wordt het indien een regressierechte (best passende rechte) wordt toegevoegd. Dit kan met het commando `abline()`, waarme je aangeeft wat constante (*a*) en de rico (*b*) is. Het commando `lm(data$MRI~data$VIQ)` bepaalt automatisch de constante en de rico.
 
 ```R
-plot(data$MRI~data$VIQ,
+plot(data$VIQ~data$MRI,
      ylab = "Verbaal IQ",
      xlab = "aantal pixels hersenen (MRI)",
      main = "Verbaal IQ versus MRI scan",
      pch = 19)
-abline(lm(data$MRI~data$VIQ),
+abline(lm(data$VIQ~data$MRI),
        col = "red")
 ```
 
