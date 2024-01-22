@@ -20,7 +20,7 @@ png("plot.png",
 par(bg = NA)
 par(fg = "black")
 plot(data$levensverwachting[meest_recent]~data$uitgavepercentage[meest_recent],
-     xlab = "Percentage uitgaven in volksgezondheid.",
+     xlab = "Percentage uitgaven in volksgezondheid",
      ylab = "Levensverwachting",
      pch = 22)
 abline(lm(data$levensverwachting[meest_recent]~data$uitgavepercentage[meest_recent]),
@@ -36,7 +36,7 @@ png("plot_dark.png",
 par(bg = NA)
 par(fg = "white")
 plot(data$levensverwachting[meest_recent]~data$uitgavepercentage[meest_recent],
-     xlab = "Percentage uitgaven in volksgezondheid.",
+     xlab = "Percentage uitgaven in volksgezondheid",
      ylab = "Levensverwachting",
      pch = 22,
      col.main = "white",
