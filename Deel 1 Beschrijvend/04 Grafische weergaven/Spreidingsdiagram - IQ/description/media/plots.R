@@ -124,4 +124,3 @@ plot(data$VIQ[vrouwen]~data$MRI[vrouwen],
 abline(lm(data$VIQ[vrouwen]~data$MRI[vrouwen]),
        col = "red")
 dev.off()
-
