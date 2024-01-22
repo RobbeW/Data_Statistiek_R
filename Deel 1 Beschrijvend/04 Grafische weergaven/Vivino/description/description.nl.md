@@ -35,7 +35,7 @@ We onderzoeken of je de zuurtegraad van goede wijnen goed kan voorspellen met be
 
 - Maak vervolgens een **booleaanse vector** waarin je de wijnen bewaart die een kwaliteit toegekend kregen van meer dan de mediaan. Bewaar deze in de vector `goede_wijnen`.
 
-- Gebruik deze booleaanse vector onderstaand spreidingsdiagram aan te maken. Verzorg de titels en de labels op de assen.
+- Gebruik deze booleaanse vector om onderstaand spreidingsdiagram aan te maken. Verzorg de titels en de labels op de assen.
 
 ![Verband tussen alcoholpercentage en zuurtegraad.](media/plot.png "Verband tussen alcoholpercentage en zuurtegraad."){:data-caption="Verband tussen alcoholpercentage en zuurtegraad." .light-only width="480px"}
 
