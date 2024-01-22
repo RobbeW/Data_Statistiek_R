@@ -40,7 +40,7 @@ We vermoeden dat indien een land meer spendeert aan het departement volksgezondh
 
 - Alhoewel WHO de gegevens goed bijhoudt, zijn de gegevens in deze dataset niet de meest recente. We zullen enkel gebruik maken van de gevens uit het jaar 2014. Maak dus een **booleaanse vector** `meest_recent` waarin je enkel de resultaten van **2014** opslaat. 
 
-- Gebruik deze booleaanse vector om onderstaand spreidingsdiagram aan te maken. Verzorg de titels en de labels op de assen.
+- Gebruik deze booleaanse vector om onderstaand spreidingsdiagram aan te maken. Verzorg de titels en de labels op de assen. Kies zelf een ander symbool voor de verschillende punten via het argument `pcr`.
 
 ![Verband uitgaven in volksgezondheid en levensverwachting.](media/plot.png "Verband uitgaven in volksgezondheid en levensverwachting."){:data-caption="Verband uitgaven in volksgezondheid en levensverwachting." .light-only width="480px"}
 
