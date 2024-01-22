@@ -1,4 +1,4 @@
-library(dplyr)  
+library(dplyr)
 # Data inlezen
 data <- read.csv2("http://bcs.whfreeman.com/WebPub/Statistics/shared_resources/EESEE/BrainSize/Data_Files/BRAINSZE.TXT",
                   sep="\t")
@@ -47,7 +47,7 @@ plot(data$VIQ~data$MRI,
 dev.off()
 
 # Plot
-png("plot1_simple.png",
+png("plot.png",
     res = res,
     width = 480 / 72 * res,
     height = 480 / 72 * res,
@@ -64,7 +64,7 @@ abline(lm(data$VIQ~data$MRI),
 dev.off()
 
 # Plot
-png("plot2_dark_simple.png",
+png("plot_dark.png",
     res = res,
     width = 480 / 72 * res,
     height = 480 / 72 * res,
