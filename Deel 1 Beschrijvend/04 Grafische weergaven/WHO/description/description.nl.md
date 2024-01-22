@@ -13,7 +13,7 @@ In onderstaande dataset wordt een voorbeeld van dergelijke informatie ingelezen.
 data <- read.csv2("https://gist.githubusercontent.com/aishwarya8615/89d9f36fc014dea62487f7347864d16a/raw/8629d284e13976dcb13bb0b27043224b9266fffa/Life_Expectancy_Data.csv",
                   sep=",", dec=".",
                   colClasses=c("character", "NULL", "numeric", "NULL", "numeric", rep("NULL", 2), "numeric", rep("NULL", 3), "numeric",rep("NULL", 2), "character",rep("NULL",2), "numeric", rep("NULL",5)))
-colnames(data) <- c("land", "jaar","levensverwachting", "alcohol", "BMI","uitgavepercentage","GDP")
+colnames(data) <- c("land", "jaar","levensverwachting", "alcohol", "BMI","uitgavepercentage","BBP")
 data$uitgavepercentage <- suppressWarnings(as.numeric(data$uitgavepercentage))
 data <- na.omit(data)
 rownames(data) <- seq_len(nrow(data))
@@ -23,7 +23,7 @@ In de oorspronkeleijk dataset vind je heel wat informatie, maar er werd reeds ee
 Via `head(data)` bekomt men onderstaand voorbeeld:
 
 ```
-         land jaar levensverwachting alcohol  BMI uitgavepercentage       GDP
+         land jaar levensverwachting alcohol  BMI uitgavepercentage       BBP
 1 Afghanistan 2015              65.0    0.01 19.1              8.16 584.25921
 2 Afghanistan 2014              59.9    0.01 18.6              8.18 612.69651
 3 Afghanistan 2013              59.9    0.01 18.1              8.13 631.74498
