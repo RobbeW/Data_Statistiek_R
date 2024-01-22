@@ -21,7 +21,7 @@ plot(data$pH[hoge_kwaliteit]~data$alcohol[hoge_kwaliteit],
      xlab = "Alcoholgehalte",
      ylab = "Zuurtegraad (pH)")
 abline(lm(data$pH[hoge_kwaliteit]~data$alcohol[hoge_kwaliteit]),
-       col="blue")
+       col="red")
 dev.off()
 
 # Plot
@@ -41,5 +41,5 @@ plot(data$pH[hoge_kwaliteit]~data$alcohol[hoge_kwaliteit],
      col.axis = "white"
 )
 abline(lm(data$pH[hoge_kwaliteit]~data$alcohol[hoge_kwaliteit]),
-       col="blue")
+       col="red")
 dev.off()
