@@ -57,7 +57,7 @@ Maak nu een spreidingsdiagram waarbij je enkel de gegevens van de **vrouwelijke*
 
 - Maak eerst een **booleaanse vector** `vrouwen` waarin je opslaat welke proefpersonen van het geslacht `Female` waren.
 
-- Gebruik deze booleaanse vector om de vorige instructies aan te passen zodat je het spreidingsdiagram van enkel de vrouwelijke proefpersonen krijgt. Voorzie de nodige labels en besteed ook aandacht aan het bereik van de assen indien nodig!
+- Gebruik deze booleaanse vector om de vorige instructies aan te passen zodat je het spreidingsdiagram van enkel de vrouwelijke proefpersonen krijgt. Voorzie de nodige labels en besteed ook aandacht aan het **bereik** van de assen indien nodig!
 
 ![Uiteindelijk spreidingsdiagram.](media/plot_female.png "Uiteindelijk spreidingsdiagram."){:data-caption="Uiteindelijk spreidingsdiagram." .light-only width="480px"}
 
