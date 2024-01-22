@@ -2,7 +2,7 @@
 
 Misschien ken je wel de <a href="https://www.vivino.com/BE/nl/" target="_blank">Vivino</a> smartphone-app. Deze app laat je toe wijnen te beoordelen en na een eindje krijg je suggesties van wijnen die bij je smaakvoorkeuren passen.
 
-![De Vivino app in werking.](media/vivino.jpg "De Vivino app in werking."){:data-caption="De Vivino app in werking." width="40%"}
+![De Vivino app in werking.](media/vivino.jpg "De Vivino app in werking."){:data-caption="De Vivino app in werking." width="45%"}
 
 De goede werking van deze app steunt op een gigantische dataset, waarbij van zo goed als alle wijnen heel wat karakterstieken worden bijgehouden. In dit <a href="https://www.semanticscholar.org/paper/Modeling-wine-preferences-by-data-mining-from-Cortez-Cerdeira/bf15a0ccc14ac1deb5cea570c870389c16be019c" target="_blank">onderzoek</a> uit 2009 ging men van heel wat wijnen allerlei gegevens opmeten, wat uiteindelijk in onderstaande dataset resulteerde.
 
