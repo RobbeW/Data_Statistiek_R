@@ -95,12 +95,13 @@ png("plot_female.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "black")
-plot(data$VIQ[vrouwen]~data$MRI[vrouwen],
-     xlab = "Verbaal IQ",
-     ylab = "aantal pixels hersenen (MRI)",
+plot(data$MRI[vrouwen]~data$VIQ[vrouwen],
+     ylab = "Verbaal IQ",
+     xlab = "aantal pixels hersenen (MRI)",
      main = "Verbaal IQ versus MRI scan bij vrouwen",
+     ylim = c(800000, 1000000),
      pch = 19)
-abline(lm(data$VIQ[vrouwen]~data$MRI[vrouwen]),
+abline(lm(data$MRI[vrouwen]~data$VIQ[vrouwen]),
        col = "red")
 dev.off()
 
@@ -112,15 +113,16 @@ png("plot_dark_female.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "white")
-plot(data$VIQ[vrouwen]~data$MRI[vrouwen],
-     xlab = "Verbaal IQ",
-     ylab = "aantal pixels hersenen (MRI)",
+plot(data$MRI[vrouwen]~data$VIQ[vrouwen],
+     ylab = "Verbaal IQ",
+     xlab = "aantal pixels hersenen (MRI)",
      main = "Verbaal IQ versus MRI scan bij vrouwen",
+     ylim = c(800000, 1000000),
      pch = 19,
      col.main = "white",
      col.lab = "white",
      col.axis = "white"
 )
-abline(lm(data$VIQ[vrouwen]~data$MRI[vrouwen]),
+abline(lm(data$MRI[vrouwen]~data$VIQ[vrouwen]),
        col = "red")
 dev.off()
