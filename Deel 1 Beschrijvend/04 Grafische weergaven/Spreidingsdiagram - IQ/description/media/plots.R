@@ -25,8 +25,6 @@ plot(data$MRI~data$VIQ,
      xlab = "aantal pixels hersenen (MRI)",
      main = "Verbaal IQ versus MRI scan",
      pch = 19)
-abline(lm(data$MRI~data$VIQ),
-       col = "red")
 dev.off()
 
 # Plot
@@ -42,7 +40,42 @@ plot(data$MRI~data$VIQ,
      xlab = "aantal pixels hersenen (MRI)",
      main = "Verbaal IQ versus MRI scan",
      pch = 19,
-     border = "white",
+     col.main = "white",
+     col.lab = "white",
+     col.axis = "white"
+)
+dev.off()
+
+# Plot
+png("plot1_simple.png",
+    res = res,
+    width = 480 / 72 * res,
+    height = 480 / 72 * res,
+    antialias = "none")
+par(bg = NA)
+par(fg = "black")
+plot(data$MRI~data$VIQ,
+     ylab = "Verbaal IQ",
+     xlab = "aantal pixels hersenen (MRI)",
+     main = "Verbaal IQ versus MRI scan",
+     pch = 19)
+abline(lm(data$MRI~data$VIQ),
+       col = "red")
+dev.off()
+
+# Plot
+png("plot2_dark_simple.png",
+    res = res,
+    width = 480 / 72 * res,
+    height = 480 / 72 * res,
+    antialias = "none")
+par(bg = NA)
+par(fg = "white")
+plot(data$MRI~data$VIQ,
+     ylab = "Verbaal IQ",
+     xlab = "aantal pixels hersenen (MRI)",
+     main = "Verbaal IQ versus MRI scan",
+     pch = 19,
      col.main = "white",
      col.lab = "white",
      col.axis = "white"
@@ -51,69 +84,44 @@ abline(lm(data$MRI~data$VIQ),
        col = "red")
 dev.off()
 
+
+vrouwen <- data$geslacht ==  "Female"
+
 # Plot2
-png("plot_geslacht.png",
+png("plot_female.png",
     res = res,
     width = 480 / 72 * res,
     height = 480 / 72 * res,
     antialias = "none")
 par(bg = NA)
 par(fg = "black")
-boxplot(data$VIQ~data$geslacht,
-        col = rainbow(2))
+plot(data$VIQ[vrouwen]~data$MRI[vrouwen],
+     xlab = "Verbaal IQ",
+     ylab = "aantal pixels hersenen (MRI)",
+     main = "Verbaal IQ versus MRI scan bij vrouwen",
+     pch = 19)
+abline(lm(data$VIQ[vrouwen]~data$MRI[vrouwen]),
+       col = "red")
 dev.off()
 
 # Plot
-png("plot_dark_geslacht.png",
+png("plot_dark_female.png",
     res = res,
     width = 480 / 72 * res,
     height = 480 / 72 * res,
     antialias = "none")
 par(bg = NA)
 par(fg = "white")
-boxplot(data$VIQ~data$geslacht,
-        col = rainbow(2),
-        border = "white",
-        col.main = "white",
-        col.lab = "white",
-        col.axis = "white"
+plot(data$VIQ[vrouwen]~data$MRI[vrouwen],
+     xlab = "Verbaal IQ",
+     ylab = "aantal pixels hersenen (MRI)",
+     main = "Verbaal IQ versus MRI scan bij vrouwen",
+     pch = 19,
+     col.main = "white",
+     col.lab = "white",
+     col.axis = "white"
 )
+abline(lm(data$VIQ[vrouwen]~data$MRI[vrouwen]),
+       col = "red")
 dev.off()
 
-
-# Plot3
-png("plot.png",
-    res = res,
-    width = 480 / 72 * res,
-    height = 480 / 72 * res,
-    antialias = "none")
-par(bg = NA)
-par(fg = "black")
-boxplot(data$VIQ~bovengemiddeld_MRI,
-        main = "VIQ versus hersengrootte",
-        names = c("kleiner", "groter"),
-        ylab = "Verbaal IQ",
-        xlab = "Hersengrootte",
-        col = rainbow(2))
-dev.off()
-
-# Plot
-png("plot_dark.png",
-    res = res,
-    width = 480 / 72 * res,
-    height = 480 / 72 * res,
-    antialias = "none")
-par(bg = NA)
-par(fg = "white")
-boxplot(data$VIQ~bovengemiddeld_MRI,
-        main = "VIQ versus hersengrootte",
-        names = c("kleiner", "groter"),
-        ylab = "Verbaal IQ",
-        xlab = "Hersengrootte",
-        col = rainbow(2),
-        border = "white",
-        col.main = "white",
-        col.lab = "white",
-        col.axis = "white"
-)
-dev.off()

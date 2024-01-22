@@ -9,15 +9,8 @@ data$Height <- as.numeric(data$Height)*2.54
 colnames(data) <- c("geslacht", "FSIQ", "VIQ", "PIQ", "massa", "lengte", "MRI")
 
 # Beantwoord hieronder de vragen
-plot(data$MRI~data$VIQ,
-     ylab = "Verbaal IQ",
-     xlab = "aantal pixels hersenen (MRI)",
-     main = "Verbaal IQ versus MRI scan",
-     pch = 19)
-abline(lm(data$MRI~data$VIQ),
-       col = "red")
-
 vrouwen <- data$geslacht ==  "Female"
+
 plot(data$VIQ[vrouwen]~data$MRI[vrouwen],
      xlab = "Verbaal IQ",
      ylab = "aantal pixels hersenen (MRI)",
