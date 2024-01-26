@@ -34,7 +34,7 @@ $$
 \mathsf{ \left(1-\dfrac{1}{9\cdot 1^2}\right)\cdot \left(1-\dfrac{1}{9\cdot 3^2}\right)\cdot \left(1-\dfrac{1}{9\cdot 5^2}\right)   \approx 0,893813}
 $$
 
-- Laat R het resultaat van het product afronden op **6 cijfers na de komma**.
+- Laat R het resultaat van het product afronden op **9 cijfers na de komma**.
 
 #### Voorbeelden
 
@@ -42,12 +42,12 @@ De eerste `3` factoren van het product berekenen resulteert in:
 
 ```R
 > cos_benadering(3)
-0.874013
+0.8740131078
 ```
 
 De eerste `10` factoren van het product berekenen resulteert in:
 
 ```R
 > cos_benadering(10)
-0.868432
+0.8684324820
 ```

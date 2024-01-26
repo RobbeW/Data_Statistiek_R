@@ -4,9 +4,8 @@ set.seed(1234)
 cos_benadering <- function(aantal) {
   rij <- 1:aantal
   resultaat <- prod( 1-1/(9*(2*rij-1)^2)) 
-  return(round(resultaat, 10))
+  return(round(resultaat, 9))
 }
-
 
 rijtje <- c(2,3,4,5)
 rijtje <- c(rijtje, 10^(1:4))
