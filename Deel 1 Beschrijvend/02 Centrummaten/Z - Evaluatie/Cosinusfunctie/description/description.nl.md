@@ -31,7 +31,7 @@ $$
 - Maak een functie `cos_benadering(aantal)` waarbij `aantal` het aantal factoren uit het product voorstelt. Zo geldt dat `cos_benadering(3)` overeenkomt met 
 
 $$
-\mathsf{ \left(1-\dfrac{1}{9\cdot 1^2}\right)\cdot \left(1-\dfrac{1}{9\cdot 3^2}\right)\cdot \left(1-\dfrac{1}{9\cdot 5^2}\right)   \approx 0,893813}
+\mathsf{ \left(1-\dfrac{1}{9\cdot 1^2}\right)\cdot \left(1-\dfrac{1}{9\cdot 3^2}\right)\cdot \left(1-\dfrac{1}{9\cdot 5^2}\right)   \approx 0.8740131078}
 $$
 
 - Laat R het resultaat van het product afronden op **9 cijfers na de komma**.
