@@ -6,7 +6,7 @@ $$
 
 Maar hoe berekent een computer de sinus van een *willekeurige* hoek?
 
-Computers berekenen voor een hoek $$\mathsf{x}$$ (in radialen uitgedrukt natuurlijk) de hoekgrootte door middel van een *oneindig* product:
+Computers berekenen voor een hoek $$\mathsf{x}$$ (in radialen uitgedrukt natuurlijk) de goniometrische waarde door middel van een *oneindig* product:
 
 $$
 \mathsf{\sin x = x \cdot \prod_{n=1}^\infty \left( 1 - \dfrac{x^2}{\pi^2\cdot n^2}\right)}
