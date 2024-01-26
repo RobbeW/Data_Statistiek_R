@@ -34,12 +34,12 @@ De eerste `3` factoren van het product berekenen resulteert in:
 
 ```R
 > cos_benadering(3)
-0.893813
+0.874013
 ```
 
 De eerste `10` factoren van het product berekenen resulteert in:
 
 ```R
 > cos_benadering(10)
-0.875233
+0.868432
 ```
