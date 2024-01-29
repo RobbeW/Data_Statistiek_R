@@ -38,8 +38,9 @@ In de uiteindelijke dataframe vind je een overzicht het aantal kinderen jonger d
 - Maak onderstaande grafiek na.
 
 {: .callout.callout-info}
->#### Tip
-> Gebruik `rainbow(aantal_landen)` als parameter bij de kleuren.
+>#### Tips
+> - Gebruik `rainbow(aantal_landen)` als parameter bij de kleuren.
+> - Gebruik het commando `par(mar = c(8,4,4,4))` **voordat** je de grafiek aanmaakt, om extra marge onderaan te creëren.
 
 ![Kindersterfte in 2021.](media/plot.png "Kindersterfte in 2021."){:data-caption="Kindersterfte in 2021." .light-only width="480px"}
 

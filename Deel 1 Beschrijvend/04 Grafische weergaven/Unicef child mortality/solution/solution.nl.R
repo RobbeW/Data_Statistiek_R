@@ -10,9 +10,13 @@ max_year <- max(data$year)
 selectie <- data$year == max_year
 aantal_landen <- length(data$country[selectie])
 
+# Extra marge
+par(mar = c(8,4,4,4))
+# Grafiek
 barplot(data$rate[selectie],
         main = "Kindersterfte (jonger dan 5 jaar) in Europe",
         ylab = "Aantal kinderen per 1000 geboortes",
         names.arg = data$country[selectie],
         ylim = c(0,5),
-        col = rainbow(aantal_landen))
+        col = rainbow(aantal_landen),
+        las = 2)
