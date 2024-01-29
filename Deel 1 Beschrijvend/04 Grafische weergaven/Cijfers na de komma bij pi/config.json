@@ -1,0 +1,14 @@
+{
+  "type": "exercise",
+  "programming_language": "r",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "Cijfers na de komma bij π"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ]
+}
