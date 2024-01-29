@@ -11,6 +11,10 @@
     "R",
     "statistiek"
   ],
+  "evaluation": {
+    "network_enabled": true,
+    "time_limit": 200
+  },
   "internals": {
     "token": "Hi_n9PUT4UUsuUISvavZvnwzpJHeMuUENX8khVRTntB7cFiTrAmUSw_qTnYKk3j3",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
