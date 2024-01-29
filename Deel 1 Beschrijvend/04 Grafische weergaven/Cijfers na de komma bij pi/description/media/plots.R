@@ -1,5 +1,6 @@
 # needed library
 library(dplyr)
+library(readr)
 
 # downloading 100 000 digits of pi
 url <- "https://www.angio.net/pi/digits/100000.txt"
@@ -29,8 +30,8 @@ barplot(relatieve_frequentie,
         names.arg = data$cijfer,
         main = "Verdeling van de 100 000 cijfers na de komma in pi",
         col = "cadetblue",
-        ylab = "Relatieve frequentie",
-        xlab = "Cijfer")
+        ylab = "Relatieve frequentie (in %)",
+        xlab = "Cijfer na de komma")
 dev.off()
 
 # Plot
@@ -45,8 +46,8 @@ barplot(relatieve_frequentie,
         names.arg = data$cijfer,
         main = "Verdeling van de 100 000 cijfers na de komma in pi",
         col = "cadetblue",
-        ylab = "Relatieve frequentie",
-        xlab = "Cijfer",
+        ylab = "Relatieve frequentie (in %)",
+        xlab = "Cijfer na de komma",
         border = "white",
         col.main = "white",
         col.lab = "white",
@@ -54,4 +55,5 @@ barplot(relatieve_frequentie,
 )
 
 dev.off()
+
 
