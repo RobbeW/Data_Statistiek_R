@@ -21,7 +21,7 @@ par(bg = NA)
 par(mar = c(8,4,4,4))
 par(fg = "black")
 barplot(data$rate[selectie],
-        main = "Kindersterfte (jonger dan 5 jaar) in Europe",
+        main = "Kindersterfte (jonger dan 5 jaar) in Europa",
         ylab = "Aantal kinderen per 1000 geboortes",
         names.arg = data$country[selectie],
         ylim = c(0, 5),
@@ -39,7 +39,7 @@ par(bg = NA)
 par(mar = c(8,4,4,4))
 par(fg = "white")
 barplot(data$rate[selectie],
-        main = "Kindersterfte (jonger dan 5 jaar) in Europe",
+        main = "Kindersterfte (jonger dan 5 jaar) in Europa",
         ylab = "Aantal kinderen per 1000 geboortes",
         names.arg = data$country[selectie],
         ylim = c(0,5),
