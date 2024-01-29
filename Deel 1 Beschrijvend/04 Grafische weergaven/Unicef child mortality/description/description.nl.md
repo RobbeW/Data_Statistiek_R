@@ -1,4 +1,4 @@
-![Het data portaal van Unicef.](media/unicef_data.png "Het data portaal van Unicef."){:data-caption="Unicef Data." width="462px"}
+![Het data portaal van Unicef.](media/unicef_data.png "Het data portaal van Unicef."){:data-caption="Unicef Data." width="300px"}
 
 ## Gegeven
 
