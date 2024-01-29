@@ -18,13 +18,15 @@ png("plot.png",
     height = 480 / 72 * res,
     antialias = "none")
 par(bg = NA)
+par(mar = c(8,4,4,4))
 par(fg = "black")
 barplot(data$rate[selectie],
         main = "Kindersterfte (jonger dan 5 jaar) in Europe",
         ylab = "Aantal kinderen per 1000 geboortes",
         names.arg = data$country[selectie],
-        ylim = c(0,5),
-        col = rainbow(aantal_landen))
+        ylim = c(0, 5),
+        col = rainbow(aantal_landen),
+        las = 2)
 dev.off()
 
 # Plot
@@ -34,6 +36,7 @@ png("plot_dark.png",
     height = 480 / 72 * res,
     antialias = "none")
 par(bg = NA)
+par(mar = c(8,4,4,4))
 par(fg = "white")
 barplot(data$rate[selectie],
         main = "Kindersterfte (jonger dan 5 jaar) in Europe",
@@ -41,6 +44,7 @@ barplot(data$rate[selectie],
         names.arg = data$country[selectie],
         ylim = c(0,5),
         col = rainbow(aantal_landen),
+        las = 2,
         border = "white",
         col.main = "white",
         col.lab = "white",
