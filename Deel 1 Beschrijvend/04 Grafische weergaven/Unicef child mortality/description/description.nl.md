@@ -35,7 +35,7 @@ In de uiteindelijke dataframe vind je een overzicht het aantal kinderen jonger d
 - Maak een **booleaanse vector** met welke rijen gegevens bevatten uit het meest recente jaar, noemt dit `selectie`.
 - Bepaal het aantal landen dat in deze dataset zit en waarvan gegevens gekend zijn in dit meest recente jaar. Sla dit op in de variabele `aantal_landen`.
 
-- Maak onderstaande grafiek na.
+- Maak onderstaande grafiek na waarin je de kindersterftes van het meest recente jaar uitzet.
 
 {: .callout.callout-info}
 >#### Tips
