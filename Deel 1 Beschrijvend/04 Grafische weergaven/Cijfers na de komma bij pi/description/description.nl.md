@@ -38,7 +38,7 @@ In de dataframe `data` vind je nu de frequentie van de getallen na de komma. Via
 
 - Hoeveel getalen na de komma werden hier opgehaald? Sla dit op in de variabele `aantal_cijfers`.
 
-- Maak nu een nieuwe vector `relatieve_frequentie` waar je de relatieve frequenties in opslaat. Denk hierbij aan hoeveel procent van de cijfers een `0`, `1`, `2`, ... is. Rond hierbij af op 2 cijfers na de komma.
+- Maak nu een nieuwe vector `relatieve_frequentie` waar je de relatieve frequenties in opslaat. Denk hierbij aan hoeveel procent van de cijfers een `0`, `1`, `2`, ... is. Rond af op 2 cijfers na de komma.
 
 - Maak vervolgens onderstaande grafiek.
 
