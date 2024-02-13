@@ -13,7 +13,7 @@ laatste <- data$jaar == 2023
 totaal <- sum(data$aantal[laatste])
 percentages <- round(data$aantal[laatste] / totaal * 100, 0)
 
-labels <- paste0(data$wijk[laatste], " (", percentages,"%)")
+labels <- paste0(data$wijk[laatste], " - ", percentages,"%")
 
 context({
   testcaseAssert("De variabele laatste bestaat.", function(env) {
@@ -34,7 +34,7 @@ context({
     testEqual("totaal", function(env) {
       env$totaal
     }, totaal)
-    functionUsedInVar("sum","totaal")
+    testFunctionUsedInVar("sum","totaal")
   })
 })
 
@@ -46,7 +46,7 @@ context({
     testEqual("percentages", function(env) {
       env$percentages
     }, percentages)
-    functionUsedInVar("round","percentages")
+    testFunctionUsedInVar("round","percentages")
   })
 })
 
@@ -59,7 +59,7 @@ context({
     testEqual("labels", function(env) {
       env$labels
     }, labels)
-    functionUsedInVar("paste0","labels")
+    testFunctionUsedInVar("paste0","labels")
   })
 })
 

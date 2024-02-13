@@ -34,7 +34,7 @@ Maak onderstaand taartdiagram met de bevolkingscijfers van het laatste jaar, geb
 - Maak een **booleaanse** vector `laatste` aan, waarin je opslaat welke rijen van het jaar 2023 zijn.
 - Bereken het totaal aantal inwonders van 2023 in de variabele `totaal`.
 - Maak een vector `percentages` aan, waarin je berekent het relatieve aandeel van elke wijk berekent. Rond af op een geheel.
-- Maak met behulp van de `past0()` functie een vector `labels`, die voor elke wijk het percentage bevat `Binnenstad - 7%`.
+- Maak met behulp van de `paste0()` functie een vector `labels`, die voor elke wijk het percentage bevat `Binnenstad - 7%`.
 
 - Maak nu onderstaand taartdiagram, gebruik hierbij `col = rainbow(25)` om 25 kleuren te genereren.
 
