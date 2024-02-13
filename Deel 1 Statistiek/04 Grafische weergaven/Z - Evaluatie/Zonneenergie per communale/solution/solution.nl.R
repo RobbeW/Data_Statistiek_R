@@ -16,7 +16,6 @@ boxplot(gemiddeld_vermogen[zon]~data$netbeheerder[zon],
         main = "Zonne-energie per netbeheerder",
         ylab = "Gemiddeld vermogen per gemeente",
         col = "gold2",
+        ylim = c(0,20),
         xlab = "",
         las = 2)
-
-
