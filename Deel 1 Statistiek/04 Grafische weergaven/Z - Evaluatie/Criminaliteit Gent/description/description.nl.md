@@ -36,6 +36,6 @@ Maak onderstaand taartdiagram met de criminaliteitscijfers per categorie, gebrui
 
 - Maak nu onderstaand taartdiagram, gebruik hierbij `col = rainbow(15)` om verschillende kleuren te genereren.
 
-![Criminaliteit in Gent](media/plot.png "Criminaliteit in Gent."){:data-caption="Criminaliteit in Gent." .light-only width="480px"}
+![Criminaliteit in Gent](media/plot.png "Criminaliteit in Gent."){:data-caption="Criminaliteit in Gent." .light-only width="720px"}
 
-![Criminaliteit in Gent.](media/plot_dark.png "Criminaliteit in Gentk."){:data-caption="Criminaliteit in Gent." .dark-only width="480px"}
+![Criminaliteit in Gent.](media/plot_dark.png "Criminaliteit in Gentk."){:data-caption="Criminaliteit in Gent." .dark-only width="720px"}
