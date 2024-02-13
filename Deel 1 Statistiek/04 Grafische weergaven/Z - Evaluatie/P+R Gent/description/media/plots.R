@@ -17,7 +17,7 @@ png("plot.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "black")
-par(mar = c(4, 15, 4, 4)) # zorgt voor een bredere marge voor de lange titels
+par(mar = c(4, 13, 4, 4)) # zorgt voor een bredere marge voor de lange titels
 barplot(reserveringsgraad,
         main = "Reserveringsgraad P+R",
         col = "dodgerblue3",
@@ -34,7 +34,7 @@ png("plot_dark.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "white")
-par(mar = c(4, 15, 4, 4)) # zorgt voor een bredere marge voor de lange titels
+par(mar = c(4, 13, 4, 4)) # zorgt voor een bredere marge voor de lange titels
 barplot(reserveringsgraad,
         main = "Reserveringsgraad P+R",
         col = "dodgerblue3",
