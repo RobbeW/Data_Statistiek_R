@@ -8,14 +8,14 @@ data$vermogen <- as.numeric(data$vermogen)
 rownames(data) <- seq_len(nrow(data))
 
 # Plot
-gemiddeld_vermogen <- round( data$vermogen/data$aantal, 2)
+gemiddeld_vermogen <- round(data$vermogen / data$aantal, 2)
 zon <- data$technologie == "ZONNE-ENERGIE"
 
-par(mar=c(13,4,4,4))
+par(mar = c(13, 4, 4, 4))
 boxplot(gemiddeld_vermogen[zon]~data$netbeheerder[zon],
         main = "Zonne-energie per netbeheerder",
         ylab = "Gemiddeld vermogen per gemeente",
         col = "gold2",
-        ylim = c(0,20),
+        ylim = c(0, 20),
         xlab = "",
         las = 2)
