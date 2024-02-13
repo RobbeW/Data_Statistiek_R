@@ -6,17 +6,17 @@ colnames(data) <- c("naam", "nu_open", "aantal_plaatsen", "beschikbaar")
 data$nu_open <- data$nu_open == 1
 
 # Plot
-reserveringsgraad <- round((1-data$beschikbaar/data$aantal_plaatsen) * 100, 1)
+bezettingsgraad <- round((1-data$beschikbaar/data$aantal_plaatsen) * 100, 1)
 
 context({
-  testcaseAssert("De variabele reserveringsgraad bestaat.", function(env) {
-    isTRUE(exists("reserveringsgraad", env))
+  testcaseAssert("De variabele bezettingsgraad bestaat.", function(env) {
+    isTRUE(exists("bezettingsgraad", env))
   })
   testcase("De variabele werd correct bepaald:", {
-    testEqual("reserveringsgraad", function(env) {
-      env$reserveringsgraad
-    }, reserveringsgraad)
-    testFunctionUsedInVar("round", "reserveringsgraad")
+    testEqual("bezettingsgraad", function(env) {
+      env$bezettingsgraad
+    }, bezettingsgraad)
+    testFunctionUsedInVar("round", "bezettingsgraad")
   })
 })
 

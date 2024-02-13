@@ -28,9 +28,9 @@ via `head(data)` krijgen we een overzicht van deze gegevens:
 
 Maak onderstaand staafdiagram met de reserveringsgraad na, gebruik hiervoor de volgende richtlijnen.
 
-- Maak een vector `reserveringsgraad` aan, waar je het percentage gereserveerde plaatsen berekent. Rond hier af op **1 cijfer na de komma**.
+- Maak een vector `bezettingsgraad` aan, waar je het percentage bezette plaatsen berekent. Rond hier af op **1 cijfer na de komma**.
 - Maak het staafdiagram, kies zelf een kleur uit dit <a href="http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf" target="_blank">document</a>. Gebruik enkele extra argumenten om het staafdiagram horizontaal te plaatsen, zoals `las = 1`. Om de linkermarge te vergroten geef je het commando `par(mar = c(4, 13, 4, 4))` in **voordat** je de grafiek aanmaakt.
 
-![Reserveringsgraad P+R Gent](media/plot.png "Reserveringsgraad P+R Gent."){:data-caption="Reserveringsgraad P+R Gent" .light-only width="480px"}
+![Bezettingsgraad P+R Gent](media/plot.png "Bezettingsgraad P+R Gent."){:data-caption="Bezettingsgraad P+R Gent" .light-only width="480px"}
 
-![Reserveringsgraad P+R Gent](media/plot_dark.png "Reserveringsgraad P+R Gent."){:data-caption="Reserveringsgraad P+R Gent" .dark-only width="480px"}
+![Bezettingsgraad P+R Gent](media/plot_dark.png "Bezettingsgraad P+R Gent."){:data-caption="Bezettingsgraad P+R Gent" .dark-only width="480px"}
