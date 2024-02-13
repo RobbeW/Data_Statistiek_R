@@ -42,4 +42,5 @@ Is er een groot verschil tussen deze gemiddelde vermogens per netbeheerder? Of m
 ![Gemiddeld vermogen zonne-energie per netbeheerder.](media/plot_dark.png "Gemiddeld vermogen zonne-energie per netbeheerder."){:data-caption="Gemiddeld vermogen zonne-energie per netbeheerder." .dark-only width="480px"}
 
 {: .callout.callout-info}
+>#### Ter info
 > In Gent is IMEWO de distributienetbeheerder.
