@@ -1,0 +1,17 @@
+{
+  "type": "exercise",
+  "programming_language": "r",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "Bevolking Gent"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "evaluation": {
+    "network_enabled": true
+  }
+}
