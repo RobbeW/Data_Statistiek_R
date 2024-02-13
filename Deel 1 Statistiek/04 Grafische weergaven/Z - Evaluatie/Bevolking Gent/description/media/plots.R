@@ -8,7 +8,7 @@ data <- data[order(data$jaar),]
 rownames(data) <- seq_len(nrow(data))
 
 # Plot
-laatste_15 <- data$jaar > 2023-15
+laatste_15 <- data$jaar > 2023 - 15
 
 res <- 150
 # Plot
