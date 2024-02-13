@@ -30,7 +30,7 @@ Het resultaat is een dataframe van de vorm:
 Maak onderstaand staafdiagram met de bevolkingscijfers van de laatste 15 jaar na, gebruik hiervoor de volgende richtlijnen.
 
 - Maak een **booleaanse** vector `laatste_15` aan, waarin je opslaat wat de laatste 15 jaren zijn. (De gegevens van dit jaar zijn nog niet beschikbaar)
-- Maak het staafdiagram, kies zelf een kleur uit dit <a href="http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf" target="_blank">document</a>. Om de y-as juist onder te verdelen gebruik je het argument `yaxp= c(0, 280000, 14)`.
+- Maak het staafdiagram, kies zelf een kleur uit dit <a href="http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf" target="_blank">document</a>. Om de y-as juist onder te verdelen gebruik je het argument `yaxp = c(0, 280000, 14)`.
 
 ![Bevolkingsaantal Gent.](media/plot.png "Bevolkingsaantal Gent."){:data-caption="Bevolkingsaantal Gent." .light-only width="480px"}
 
