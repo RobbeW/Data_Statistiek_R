@@ -1,7 +1,7 @@
 ## Gegeven
 Gent probeert het verkeer buiten de stad te houden en voorziet hiervoor in verschillende 'Park and Ride' zones. Via het <a href="https://data.stad.gent/explore/dataset/real-time-bezetting-pr-gent/information/" target="_blank">Open Data Portaal</a> van Stad Gent kan je realtime de bezetting opvragen.
 
-![Park and Ride 'The Loop'.](media/the_loop.jpg "P+R The Loop."){:data-caption="Park and ride 'The Loop'." width="40%"}
+![Park and Ride 'The Loop'.](media/the_loop.jpg "P+R The Loop."){:data-caption="Park and ride 'The Loop'." width="45%"}
 
 De volgende code vraagt de bezetting op.
 ```R
