@@ -15,11 +15,11 @@ percentages <- round(data$aantal[misdrijven] / totaal * 100, 0)
 
 labels <- paste0(data$categorie[misdrijven], " - ", percentages,"%")
 
-res <- 150
+res <- 300
 # Plot
 png("plot.png",
     res = res,
-    width = 480 / 72 * res,
+    width = 480 / 72 * res * 1.5,
     height = 480 / 72 * res,
     antialias = "none")
 par(bg = NA)
@@ -33,7 +33,7 @@ dev.off()
 # Plot
 png("plot_dark.png",
     res = res,
-    width = 480 / 72 * res,
+    width = 480 / 72 * res * 1.5,
     height = 480 / 72 * res,
     antialias = "none")
 par(bg = NA)
@@ -49,4 +49,5 @@ pie(percentages,
 )
 
 dev.off()
+
 
