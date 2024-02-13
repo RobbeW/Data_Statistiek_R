@@ -8,15 +8,13 @@ Dit inladen in R kan via:
 
 ```R
 # Benodigde bibliotheken
-library(dplyr)
-library(lubridate)
+library('jsonlite')
+library('httr')
 
 # Importeert de data van Stad Gent en vormt om
-src <- read.csv2("https://data.stad.gent/api/explore/v2.1/catalog/datasets/sluikstort-meldingen-gent-2023/exports/csv",
-                  sep = ";" )
-src$datum <- as.Date(src$gemaakt_op)
-data <- as.data.frame( src %>% group_by(jaar = year(datum), dag =wday(datum, week_start = 1, label= TRUE)) %>% count())
-colnames(data) <- c("jaar","dag","aantal")
+res <- GET("https://data.stad.gent/api/explore/v2.1/catalog/datasets/sluikstort-meldingen-gent-2023/records?select=2023%20as%20jaar%2C%20count(*)%20as%20aantal&group_by=date_format(gemaakt_op%2C%20%27E%27)%20as%20dag%2C%20date_format(gemaakt_op%2C%20%27e%27)%20as%20weekday&order_by=weekday")
+data <- fromJSON(rawToChar(res$content))$results
+data$weekday <- NULL
 ```
 
 In de uiteindelijke dataframe vind je een overzicht met het aantal meldingen per dag. Dit ziet er als volgt uit:
