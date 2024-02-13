@@ -20,11 +20,12 @@ png("plot.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "black")
-par(mar=c(13,4,4,4))
+par(mar = c(13, 4, 4, 4))
 boxplot(gemiddeld_vermogen[zon]~data$netbeheerder[zon],
         main = "Zonne-energie per netbeheerder",
         ylab = "Gemiddeld vermogen per gemeente",
         col = "gold2",
+        ylim = c(0, 20),
         xlab = "",
         las = 2)
 dev.off()
@@ -37,11 +38,12 @@ png("plot_dark.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "white")
-par(mar=c(13,4,4,4))
+par(mar = c(13, 4, 4, 4))
 boxplot(gemiddeld_vermogen[zon]~data$netbeheerder[zon],
         main = "Zonne-energie per netbeheerder",
         ylab = "Gemiddeld vermogen per gemeente",
         col = "gold2",
+        ylim = c(0, 20),
         xlab = "",
         las = 2,
         border = "white",
