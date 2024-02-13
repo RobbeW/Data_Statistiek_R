@@ -7,9 +7,9 @@ data$nu_open <- data$nu_open == 1
 
 # Plot
 reserveringsgraad <- round((1-data$beschikbaar/data$aantal_plaatsen) * 100, 1)
-par(mar = c(4,20,4,4)) # zorgt voor een bredere marge voor de lange titels
+par(mar = c(4, 15, 4, 4)) # zorgt voor een bredere marge voor de lange titels
 barplot(reserveringsgraad,
-        main = "Reserveringsgraad P+R", 
+        main = "Reserveringsgraad P+R",
         col = "dodgerblue3",
         xlab = "Percentage bezet",
         names.arg = data$naam,

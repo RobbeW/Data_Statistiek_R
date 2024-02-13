@@ -7,7 +7,6 @@ data$nu_open <- data$nu_open == 1
 
 # Plot
 reserveringsgraad <- round((1-data$beschikbaar/data$aantal_plaatsen) * 100, 1)
-)
 
 res <- 150
 # Plot
@@ -18,9 +17,9 @@ png("plot.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "black")
-par(mar = c(4,20,4,4)) # zorgt voor een bredere marge voor de lange titels
+par(mar = c(4, 15, 4, 4)) # zorgt voor een bredere marge voor de lange titels
 barplot(reserveringsgraad,
-        main = "Reserveringsgraad P+R", 
+        main = "Reserveringsgraad P+R",
         col = "dodgerblue3",
         xlab = "Percentage bezet",
         names.arg = data$naam,
@@ -35,9 +34,9 @@ png("plot_dark.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "white")
-par(mar = c(4,20,4,4)) # zorgt voor een bredere marge voor de lange titels
+par(mar = c(4, 15, 4, 4)) # zorgt voor een bredere marge voor de lange titels
 barplot(reserveringsgraad,
-        main = "Reserveringsgraad P+R", 
+        main = "Reserveringsgraad P+R",
         col = "dodgerblue3",
         xlab = "Percentage bezet",
         names.arg = data$naam,
@@ -49,4 +48,3 @@ barplot(reserveringsgraad,
 )
 
 dev.off()
-
