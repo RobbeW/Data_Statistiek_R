@@ -15,11 +15,11 @@ percentages <- round(data$aantal[laatste] / totaal * 100, 0)
 
 labels <- paste0(data$wijk[laatste], " (", percentages,"%)")
 
-res <- 150
+res <- 300
 # Plot
 png("plot.png",
     res = res,
-    width = 480 / 72 * res,
+    width = 480 / 72 * res * 2,
     height = 480 / 72 * res,
     antialias = "none")
 par(bg = NA)
@@ -33,7 +33,7 @@ dev.off()
 # Plot
 png("plot_dark.png",
     res = res,
-    width = 480 / 72 * res,
+    width = 480 / 72 * res * 2,
     height = 480 / 72 * res,
     antialias = "none")
 par(bg = NA)
