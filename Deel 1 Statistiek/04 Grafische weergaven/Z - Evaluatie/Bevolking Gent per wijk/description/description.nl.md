@@ -38,6 +38,6 @@ Maak onderstaand taartdiagram met de bevolkingscijfers van het laatste jaar, geb
 
 - Maak nu onderstaand taartdiagram, gebruik hierbij `col = rainbow(25)` om 25 kleuren te genereren.
 
-![Bevolkingsaantal Gent per wijk.](media/plot.png "Bevolkingsaantal Gent per wijk."){:data-caption="Bevolkingsaantal Gent per wijk." .light-only width="480px"}
+![Bevolkingsaantal Gent per wijk.](media/plot.png "Bevolkingsaantal Gent per wijk."){:data-caption="Bevolkingsaantal Gent per wijk." .light-only width="960px"}
 
-![Bevolkingsaantal Gent per wijk.](media/plot_dark.png "Bevolkingsaantal Gent per wijk."){:data-caption="Bevolkingsaantal Gent per wijk." .dark-only width="480px"}
+![Bevolkingsaantal Gent per wijk.](media/plot_dark.png "Bevolkingsaantal Gent per wijk."){:data-caption="Bevolkingsaantal Gent per wijk." .dark-only width="960px"}
