@@ -50,7 +50,6 @@ context({
   })
 })
 
-
 context({
   testcaseAssert("De variabele labels bestaat.", function(env) {
     isTRUE(exists("labels", env))
@@ -62,7 +61,6 @@ context({
     testFunctionUsedInVar("paste0","labels")
   })
 })
-
 
 contextWithImage({
   testcase("De volgende functie werd gebruikt:", {
