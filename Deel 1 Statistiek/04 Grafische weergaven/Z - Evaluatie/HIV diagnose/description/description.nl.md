@@ -35,4 +35,4 @@ Maak onderstaand staafdiagram met het gemiddeld aantal besmettingen per dag gedu
 
 {: .callout.callout-info}
 >#### Ter info
-> In 2022 werd elke dag gemiddeld gesproken 1,6 nieuwe HIV infecties vastgesteld... Het virus is dus zeker niet verdwenen.
+> In 2022 werden elke dag gemiddeld gesproken 1,6 nieuwe HIV infecties vastgesteld... Het virus is dus zeker niet verdwenen.
