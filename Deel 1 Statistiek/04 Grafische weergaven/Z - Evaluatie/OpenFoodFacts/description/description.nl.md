@@ -1,6 +1,6 @@
 ## Gegeven
 
-<a href="https://be.openfoodfacts.org/" target="_blank">Open Food Facts</a> is een gratis, online en crowdsourced database van voedingsmiddelen van over de hele wereld. Net zoals Wikipedia kan iedereen er informatie over voeding aan toevoegen. Het resultaat is ondertussen een gigantische databank met een schat aan informatie. Er bestaat bijvoorbeeld een smartphone app en na het scannen van een barcode krijg je informatie over hoe gezond het product is.
+<a href="https://be.openfoodfacts.org/" target="_blank">Open Food Facts</a> is een gratis, online en crowdsourced database van voedingsmiddelen van over de hele wereld. Net zoals Wikipedia kan iedereen er informatie over voeding aan toevoegen. Het resultaat is ondertussen een gigantische databank met een schat aan informatie. Er bestaat bijvoorbeeld een <a href="https://play.google.com/store/apps/details?id=org.openfoodfacts.scanner&hl=nl" target="_blank">smartphone app</a> en na het scannen van een barcode krijg je informatie over hoe gezond het product is.
 
 ![Open Food Facts.](media/off.jpg "Open Food Facts."){:data-caption="Open Food Facts." width="40%"}
 
@@ -39,6 +39,6 @@ Bevatten ongezondere producten ook meer kilocalorieën (dus meer energie)?
 
 - Maak onderstaande boxplot (enkel van de ecologische producten!) en gebruik als kleuren `green4`, `chartreuse3`, `gold2`, `darkorange2` en `firebrick2`
 
-![Gemiddeld aantal minuten vertraging per tijdstip.](media/plot.png "Gemiddeld aantal minuten vertraging per tijdstip."){:data-caption="Gemiddeld aantal minuten vertraging per tijdstip." .light-only width="480px"}
+![Energie per nutriscore.](media/plot.png "Energie per nutriscore."){:data-caption="Energie per nutriscore." .light-only width="480px"}
 
-![Gemiddeld aantal minuten vertraging per tijdstip.](media/plot_dark.png "Gemiddeld aantal minuten vertraging per tijdstip."){:data-caption="Gemiddeld aantal minuten vertraging per tijdstip." .dark-only width="480px"}
+![Energie per nutriscore.](media/plot_dark.png "Energie per nutriscore."){:data-caption="Energie per nutriscore." .dark-only width="480px"}
