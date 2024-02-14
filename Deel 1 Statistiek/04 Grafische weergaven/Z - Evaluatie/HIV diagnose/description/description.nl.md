@@ -1,12 +1,15 @@
 ## Gegeven
-HIV blijft ook in België slachtoffers maken. Sciensano volgt de gegevens op en publiceert jaarlijks het aantal nieuwe infecties op <a href="https://www.healthybelgium.be/en/health-status/communicable-diseases/hiv-and-other-sexually-transmitted-infections" target="_blank">deze site</a>. Via onderstaande kan je de laatste gegevens ophalen.
+HIV blijft ook in België slachtoffers maken. HIV of **humaan immunodeficiëntievirus** is een snel muterend virus dat verantwoordelijk is voor **aids**, een ziekte die het immuunsysteem zodanig verzwakt dat zich levensbedreigende infecties en bepaalde vormen van kanker kunnen ontwikkelen. Zonder behandeling wordt de gemiddelde overlevingstijd na infectie met HIV geschat op 9 tot 11 jaar.
 
-De volgende code vraagt deze aantallen op.
+![Foto door Tomfiqu Barbhuiya op Pexels.](media/towfiqu-barbhuiya.jpg "Foto door Tomfiqu Barbhuiya op Pexels."){:data-caption="Foto door Tomfiqu Barbhuiya op Pexels." width="40%"}
+
+Sciensano volgt de gegevens op en publiceert jaarlijks het aantal nieuwe infecties op <a href="https://www.healthybelgium.be/en/health-status/communicable-diseases/hiv-and-other-sexually-transmitted-infections" target="_blank">deze site</a>. Via onderstaande kan je de laatste gegevens ophalen.
+
 ```R
 read.csv2("hiv.csv")
 ```
 
-Het resultaat is een dataframe, dat je via `head(data)` kan inkijken.
+Het resultaat is een dataframe. Via `head(data)` kan je dit inkijken.
 
 ```
   jaar new_AIDS new_HIV
@@ -18,11 +21,9 @@ Het resultaat is een dataframe, dat je via `head(data)` kan inkijken.
 6 1991      252     773
 ```
 
-![Foto door Tomfiqu Barbhuiya op Pexels.](media/towfiqu-barbhuiya.jpg "Foto door Tomfiqu Barbhuiya op Pexels."){:data-caption="Foto door Tomfiqu Barbhuiya op Pexels." width="40%"}
-
 ## Gevraagd
 
-Maak onderstaand staafdiagram met de bevolkingscijfers van de laatste 15 jaar na, gebruik hiervoor de volgende richtlijnen.
+Maak onderstaand staafdiagram met het gemiddeld aantal besmettingen per dag gedurende de laatste 10 jaar na, gebruik hiervoor de volgende richtlijnen.
 
 - De kolom `new_HIV` bevat het aantal nieuwe HIV infecties per jaar. Reken dit om naar het aantal besmettingen per dag in een variabele `dagelijks`. Gebruik voor 1 jaar 365.25 dagen (om te compenseren voor eventuele schrikkeljaren) en **rond af** op 1 cijfer na de komma.
 - Maak een **booleaanse** vector `laatste_10` aan, waarin je opslaat wat de laatste 10 jaren zijn. Tip: gebruik het maximum `max()` van de kolom `jaar`.
