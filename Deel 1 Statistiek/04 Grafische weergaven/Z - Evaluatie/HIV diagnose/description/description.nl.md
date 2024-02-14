@@ -1,0 +1,33 @@
+## Gegeven
+HIV blijft ook in België slachtoffers maken. Sciensano volgt de gegevens op en publiceert jaarlijks het aantal nieuwe infecties op <a href="https://www.healthybelgium.be/en/health-status/communicable-diseases/hiv-and-other-sexually-transmitted-infections" target="_blank">deze site</a>. Via onderstaande kan je de laatste gegevens ophalen.
+
+De volgende code vraagt deze aantallen op.
+```R
+read.csv2("hiv.csv")
+```
+
+Het resultaat is een dataframe, dat je via `head(data)` kan inkijken.
+
+```
+  jaar new_AIDS new_HIV
+1 1986       71     729
+2 1987      121     895
+3 1988      139     726
+4 1989      162     735
+5 1990      203     796
+6 1991      252     773
+```
+
+![Foto door Tomfiqu Barbhuiya op Pexels.](media/towfiqu-barbhuiya.jpg "Foto door Tomfiqu Barbhuiya op Pexels."){:data-caption="Foto door Tomfiqu Barbhuiya op Pexels." width="40%"}
+
+## Gevraagd
+
+Maak onderstaand staafdiagram met de bevolkingscijfers van de laatste 15 jaar na, gebruik hiervoor de volgende richtlijnen.
+
+- De kolom `new_HIV` bevat het aantal nieuwe HIV infecties per jaar. Reken dit om naar het aantal besmettingen per dag in een variabele `dagelijks`. Gebruik voor 1 jaar 365.25 dagen (om te compenseren voor eventuele schrikkeljaren) en **rond af** op 1 cijfer na de komma.
+- Maak een **booleaanse** vector `laatste_10` aan, waarin je opslaat wat de laatste 10 jaren zijn. Tip: gebruik het maximum `max()` van de kolom `jaar`.
+- Maak nu onderstaand staafdiagram, kies zelf een kleur uit dit <a href="http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf" target="_blank">document</a>.
+
+![Bevolkingsaantal Gent.](media/plot.png "Bevolkingsaantal Gent."){:data-caption="Bevolkingsaantal Gent." .light-only width="480px"}
+
+![Bevolkingsaantal Gent.](media/plot_dark.png "Bevolkingsaantal Gent."){:data-caption="Bevolkingsaantal Gent." .dark-only width="480px"}
