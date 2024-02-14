@@ -26,9 +26,13 @@ Het resultaat is een dataframe. Via `head(data)` kan je dit inkijken.
 Maak onderstaand staafdiagram met het gemiddeld aantal besmettingen per dag gedurende de laatste 10 jaar na, gebruik hiervoor de volgende richtlijnen.
 
 - De kolom `new_HIV` bevat het aantal nieuwe HIV infecties per jaar. Reken dit om naar het aantal besmettingen per dag in een variabele `dagelijks`. Gebruik voor 1 jaar 365.25 dagen (om te compenseren voor eventuele schrikkeljaren) en **rond af** op 1 cijfer na de komma.
-- Maak een **booleaanse** vector `laatste_10` aan, waarin je opslaat wat de laatste 10 jaren zijn. Tip: gebruik het maximum `max()` van de kolom `jaar`.
+- Maak een **booleaanse** vector `laatste_10` aan, waarin je opslaat wat de laatste 10 jaren zijn. **Tip**: gebruik hierbij het maximum `max()` van de kolom `jaar`.
 - Maak nu onderstaand staafdiagram, kies zelf een kleur uit dit <a href="http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf" target="_blank">document</a>.
 
-![Bevolkingsaantal Gent.](media/plot.png "Bevolkingsaantal Gent."){:data-caption="Bevolkingsaantal Gent." .light-only width="480px"}
+![Gemiddeld aantal besmettingen per dag.](media/plot.png "Gemiddeld aantal besmettingen per dag."){:data-caption="Gemiddeld aantal besmettingen per dag." .light-only width="480px"}
 
-![Bevolkingsaantal Gent.](media/plot_dark.png "Bevolkingsaantal Gent."){:data-caption="Bevolkingsaantal Gent." .dark-only width="480px"}
+![Gemiddeld aantal besmettingen per dag.](media/plot_dark.png "Gemiddeld aantal besmettingen per dag."){:data-caption="Gemiddeld aantal besmettingen per dag." .dark-only width="480px"}
+
+{: .callout.callout-info}
+>#### Ter info
+> In 2022 werd elke dag gemiddeld gesproken 1,6 nieuwe HIV infecties vastgesteld... Het virus is dus zeker niet verdwenen.
