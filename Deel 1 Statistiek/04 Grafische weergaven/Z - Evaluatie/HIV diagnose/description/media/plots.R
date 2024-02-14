@@ -20,6 +20,7 @@ barplot(dagelijks[laatste_10],
         main = "Dagelijks aantal nieuwe HIV besmettingen",
         col = "indianred",
         ylim = c(0,3),
+        las = 2,
         names.arg = data$jaar[laatste_10])
 dev.off()
 
@@ -35,6 +36,7 @@ barplot(dagelijks[laatste_10],
         main = "Dagelijks aantal nieuwe HIV besmettingen",
         col = "indianred",
         ylim = c(0,3),
+        las = 2,
         names.arg = data$jaar[laatste_10],
         border = "white",
         col.main = "white",
