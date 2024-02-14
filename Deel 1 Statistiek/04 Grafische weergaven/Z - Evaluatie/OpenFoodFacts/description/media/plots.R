@@ -22,7 +22,7 @@ par(fg = "black")
 boxplot(data$kcal[ecologisch]~data$nutri[ecologisch],
         main = "Energie per nutriscore (voor ecologische producten)",
         col = c("green4", "chartreuse3", "gold2", "darkorange2", "firebrick2"),
-        xlab = "",
+        xlab = "Nutriscore",
         ylab = "Aantal kilocalorieën")
 dev.off()
 
@@ -37,7 +37,7 @@ par(fg = "white")
 boxplot(data$kcal[ecologisch]~data$nutri[ecologisch],
         main = "Energie per nutriscore (voor ecologische producten)",
         col = c("green4", "chartreuse3", "gold2", "darkorange2", "firebrick2"),
-        xlab = "",
+        xlab = "Nutriscore",
         ylab = "Aantal kilocalorieën",
         border = "white",
         col.main = "white",
