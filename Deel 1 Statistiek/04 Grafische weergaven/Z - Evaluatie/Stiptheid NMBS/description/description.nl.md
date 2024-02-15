@@ -37,7 +37,7 @@ Maak onderstaand histogram met de gemiddelde vertraging.
 - Maak een vector `trein_vertraging` aan, waarin je per maand berekent hoeveel treinen er **wel** (noemenswaardige) vertraging hadden.
 - Je kan nu gaan *inschatten* hoeveel minuten deze treinen gemiddelde gesproken te laat kwamen. Je kent immers het totale aantal minuten vertraging. Sla dit op in de variabele `minuten_vertraging` en rond af op 2 cijfers na de komma.
 - Om de grenswaarden van het histogram te bepalen maak je twee variabelen `xmin` en `xmax`. In `xmin` bewaar je de kleinste waarde van dit gemiddeld aantal minuten vertraging. Rond hierbij naar beneden af via `floor()`. Doe hetzelfde voor `xmax`, maar rond daarbij naar boven af via `ceiling()`.
-- Maak het histogram, kies zelf een kleur uit dit <a href="http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf" target="_blank">document</a>. Gebruik `xlim = (xmin - 1, xmax + 1)` om voldoende marge te hebben op de x-as.
+- Maak het histogram, kies zelf een kleur uit deze <a href="https://r-charts.com/colors/" target="_blank">website</a>. Gebruik `xlim = c(xmin - 1, xmax + 1)` om voldoende marge te hebben op de x-as.
 
 ![Gemiddeld aantal minuten vertraging.](media/plot.png "Gemiddeld aantal minuten vertraging."){:data-caption="Gemiddeld aantal minuten vertraging." .light-only width="480px"}
 

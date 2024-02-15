@@ -27,7 +27,7 @@ Maak onderstaand staafdiagram met het gemiddeld aantal besmettingen per dag gedu
 
 - De kolom `new_HIV` bevat het aantal nieuwe HIV infecties per jaar. Reken dit om naar het aantal besmettingen per dag in een variabele `dagelijks`. Gebruik voor 1 jaar 365.25 dagen (om te compenseren voor eventuele schrikkeljaren) en **rond af** op 1 cijfer na de komma.
 - Maak een **booleaanse** vector `laatste_10` aan, waarin je opslaat wat de laatste 10 jaren zijn. **Tip**: gebruik hierbij het maximum `max()` van de kolom `jaar`.
-- Maak nu onderstaand staafdiagram, kies zelf een kleur uit dit <a href="http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf" target="_blank">document</a>.
+- Maak nu onderstaand staafdiagram, kies zelf een kleur uit deze <a href="https://r-charts.com/colors/" target="_blank">website</a>. Kies `las = 2` om de labels op de x-as te draaien.
 
 ![Gemiddeld aantal besmettingen per dag.](media/plot.png "Gemiddeld aantal besmettingen per dag."){:data-caption="Gemiddeld aantal besmettingen per dag." .light-only width="480px"}
 
