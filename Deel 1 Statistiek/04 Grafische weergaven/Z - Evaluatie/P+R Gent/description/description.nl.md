@@ -26,7 +26,7 @@ via `head(data)` krijgen we een overzicht van deze gegevens:
 
 ## Gevraagd
 
-Maak onderstaand staafdiagram met de reserveringsgraad na, gebruik hiervoor de volgende richtlijnen.
+Maak onderstaand staafdiagram met de bezettingsgraad na, gebruik hiervoor de volgende richtlijnen.
 
 - Maak een vector `bezettingsgraad` aan, waar je het percentage bezette plaatsen berekent. Rond hier af op **1 cijfer na de komma**.
 - Maak het staafdiagram, kies zelf een kleur uit dit <a href="http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf" target="_blank">document</a>. Gebruik enkele extra argumenten om het staafdiagram horizontaal te plaatsen, zoals `las = 1`. Om de linkermarge te vergroten geef je het commando `par(mar = c(4, 13, 4, 4))` in **voordat** je de grafiek aanmaakt.
