@@ -1,3 +1,7 @@
+<div class="text-end">
+    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 ## Gegeven
 Via het <a href="https://data.stad.gent/explore/dataset/criminaliteitscijfers-per-wijk-per-maand-gent-2023/table" target="_blank">Open Data Portaal</a> van Stad Gent kan men de criminaliteitscijfers van 2023, per maand, per wijk opvragen.
 
@@ -33,7 +37,6 @@ Maak onderstaand taartdiagram met de criminaliteitscijfers per categorie, gebrui
 - Bereken het totaal aantal misdrijven (**zonder** de parkeerovertredingen) in de variabele `totaal`.
 - Maak een vector `percentages` aan, waarin je berekent het relatieve aandeel van elke categorie berekent. Rond af op een geheel.
 - Maak met behulp van de `paste0()` functie een vector `labels`, die voor elke categorie het percentage bevat. Deze zijn van de vorm: `Autodiefstal - 1%`.
-
 - Maak nu onderstaand taartdiagram, gebruik hierbij `col = rainbow(15)` om verschillende kleuren te genereren.
 
 ![Criminaliteit in Gent](media/plot.png "Criminaliteit in Gent."){:data-caption="Criminaliteit in Gent." .light-only width="720px"}

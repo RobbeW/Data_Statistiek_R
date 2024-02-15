@@ -1,3 +1,7 @@
+<div class="text-end">
+    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 ## Gegeven
 Fluvius houdt het vermogen en het aantal lokale productie-installaties bij per gemeente en publiceert deze data op <a href="https://opendata.fluvius.be/explore/dataset/1_33-lp-open-data-fluvius/information/" target="_blank">het open data portaal</a>. 
 
@@ -34,7 +38,6 @@ Is er een groot verschil tussen deze gemiddelde vermogens per netbeheerder? Of m
 
 - Maak variabele `gemiddeld_vermogen` waar je voor alle technologieën het gemiddeld vermogen per individuele installatie berekent. **Rond** dit **af** op 2 cijfers na de komma.
 - Maak een **booleaanse** vector `zon` waar je enkel de installaties met zonne-energie in opslaat.
-
 - Maak nu onderstaand boxplots, gebruik hierbij `par(mar=c(13,4,4,4))` om extra ruimte te creëren onderaan de grafiek. Kies zelf voor een andere kleur voor de grafiek.
 
 ![Gemiddeld vermogen zonne-energie per netbeheerder.](media/plot.png "Gemiddeld vermogen zonne-energie per netbeheerder."){:data-caption="Gemiddeld vermogen zonne-energie per netbeheerder." .light-only width="480px"}

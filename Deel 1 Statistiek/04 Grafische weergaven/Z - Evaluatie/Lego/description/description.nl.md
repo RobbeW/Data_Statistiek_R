@@ -1,3 +1,7 @@
+<div class="text-end">
+    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 ## Gegeven
 
 Via <a href="https://rebrickable.com/" target="_blank">Rebrickable</a> kan je de waarde van je oude Lego blokken inschatten. Achter de website zit een databank met alle sets die LEGO ooit heeft in de markt gezet.
@@ -33,7 +37,6 @@ Je vindt er de naam van de set, in wel thema dit past, het aantal stukken in de 
 In welke mate voorspelt het aantal stukken de verkoopprijs?
 
 - Analyseer hiervoor enkel de LEGO sets uit het *thema* `City`. Maak een **booleaanse** vector `thema_city` aan, waarin je bewaart welke sets dit *thema* hadden.
-
 - Maak het volgende spreidingsdiagram en kies ook voor een ander symbool. Voeg ook een best passende rechte toe.
 
 ![Verband tussen kostprijs en aantal stukken.](media/plot.png "Verband tussen kostprijs en aantal stukken."){:data-caption="Verband tussen kostprijs en aantal stukken." .light-only width="480px"}

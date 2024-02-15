@@ -1,3 +1,7 @@
+<div class="text-end">
+    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 ## Gegeven
 Gent probeert het verkeer buiten de stad te houden en voorziet hiervoor in verschillende 'Park and Ride' zones. Via het <a href="https://data.stad.gent/explore/dataset/real-time-bezetting-pr-gent/information/" target="_blank">Open Data Portaal</a> van Stad Gent kan je realtime de bezetting opvragen.
 

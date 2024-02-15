@@ -1,3 +1,7 @@
+<div class="text-end">
+    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 ## Gegeven
 
 Begin februari kon je in de <a href="https://www.nieuwsblad.be/cnt/dmf20240209_93685873" target="_blank">krant</a> lezen: *"Stiptheid bij NMBS blijft historisch laag: meer dan 6000 treinen afgeschaft in januari"*. Gelukkig biedt Infrabel een kijkje in hun gegevens via hun <a href="https://opendata.infrabel.be/explore/dataset/nationale-stiptheid-per-moment-en-per-maand" target="_blank">open data portaal</a>.

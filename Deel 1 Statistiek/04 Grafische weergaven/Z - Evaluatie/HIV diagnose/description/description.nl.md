@@ -1,3 +1,7 @@
+<div class="text-end">
+    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 ## Gegeven
 HIV blijft ook in België slachtoffers maken. HIV of **humaan immunodeficiëntievirus** is een snel muterend virus dat verantwoordelijk is voor **aids**, een ziekte die het immuunsysteem zodanig verzwakt dat zich levensbedreigende infecties en bepaalde vormen van kanker kunnen ontwikkelen. Zonder behandeling wordt de gemiddelde overlevingstijd na infectie met HIV geschat op 9 tot 11 jaar.
 
