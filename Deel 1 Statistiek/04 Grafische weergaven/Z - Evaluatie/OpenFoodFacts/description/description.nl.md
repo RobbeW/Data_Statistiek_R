@@ -36,7 +36,6 @@ De andere kolommen bevatten voedingsinformatie. `kcal` bevat het aantal kilocalo
 Bevatten ongezondere producten ook meer kilocalorieën (dus meer energie)?
 
 - We beschouwen in onze analyse **enkel** producten met een ecoscore `A` of `B`. Maak dus een **booleaanse** vector `ecologisch` aan, waarin je opslaat welke producten deze ecoscore hebben. Tip: *of* programmeer je in R met behulp van `|`.
-
 - Maak onderstaande boxplot (enkel van de ecologische producten!) en gebruik als kleuren `green4`, `chartreuse3`, `gold2`, `darkorange2` en `firebrick2`
 
 ![Energie per nutriscore.](media/plot.png "Energie per nutriscore."){:data-caption="Energie per nutriscore." .light-only width="480px"}

@@ -1,7 +1,11 @@
-# Data inlezen van de IMDB
-data <- read.csv2("http://tinyurl.com/mr4b4bz8",
+# Data inlezen van STEAM
+data <- read.csv2("Deel\ 1\ Statistiek/04\ Grafische\ weergaven/Steam\ games\ boxplot/workdir/dataset.csv",
                   sep=",",dec=".",
                   colClasses = c("NULL", rep("character", 2), rep("numeric", 5), rep("NULL",2)))
+# if run a solution
+# data <- read.csv2("dataset.csv",
+#                   sep=",",dec=".",
+#                   colClasses = c("NULL", rep("character", 2), rep("numeric", 5), rep("NULL",2)))
 data <- na.omit(data)
 colnames(data) <- c("title", "year", "metascore", "rating", "positivity_ratio", "time_to_beat","time_to_beat_extra")
 rownames(data) <- seq_len(nrow(data))
@@ -15,3 +19,4 @@ boxplot(data$metascore~lang,
      xlab = "Uitspeeltijd",
      names = c("Kort (< 24 uur)", "Lang (>= 24 uur)"),
      main = "Metascore versus speeltijd")
+

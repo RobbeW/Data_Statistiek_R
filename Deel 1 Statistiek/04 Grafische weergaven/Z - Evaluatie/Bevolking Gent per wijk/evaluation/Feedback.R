@@ -68,7 +68,7 @@ contextWithImage({
   testcase("De volgende functie werd gebruikt:", {
     testFunctionUsed("pie")
   })
-})
+}, width = 720)
 
 
 

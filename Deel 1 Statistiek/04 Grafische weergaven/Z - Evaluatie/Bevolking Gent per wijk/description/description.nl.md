@@ -1,3 +1,7 @@
+<div class="text-end">
+    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
+</div>
+
 ## Gegeven
 Gent bestaat uit 25 wijken, je kan opvragen in welke wijk je woont via <a href="https://stad.gent/nl/stadsplan" target="_blank">het stadsplan</a>.
 
@@ -34,8 +38,7 @@ Maak onderstaand taartdiagram met de bevolkingscijfers van het laatste jaar, geb
 - Maak een **booleaanse** vector `laatste` aan, waarin je opslaat welke rijen van het jaar 2023 zijn.
 - Bereken het totaal aantal inwonders van 2023 in de variabele `totaal`.
 - Maak een vector `percentages` aan, waarin je berekent het relatieve aandeel van elke wijk berekent. Rond af op een geheel.
-- Maak met behulp van de `paste0()` functie een vector `labels`, die voor elke wijk het percentage bevat `Binnenstad - 7%`.
-
+- Maak met behulp van de `paste0()` functie een vector `labels`, die voor elke wijk het percentage bevat `Binnenstad (7%)`.
 - Maak nu onderstaand taartdiagram, gebruik hierbij `col = rainbow(25)` om 25 kleuren te genereren.
 
 ![Bevolkingsaantal Gent per wijk.](media/plot.png "Bevolkingsaantal Gent per wijk."){:data-caption="Bevolkingsaantal Gent per wijk." .light-only width="960px"}
