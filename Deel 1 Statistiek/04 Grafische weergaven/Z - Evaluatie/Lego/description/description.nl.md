@@ -30,7 +30,7 @@ via `head(data)` krijgen we een (beperkt) overzicht van deze gegevens:
 6 Sparkly Unicorn Bracelet    DOTS     33  4.99 2020 Ages_6+
 ```
 
-Je vindt er de naam van de set, in wel thema dit past, het aantal stukken in de doos, de verkoopprijs (in $), het jaar van uitgave en de doelgroep.
+Je vindt er de naam van de set, `theme` stelt het thema voor, `pieces` het aantal stukken in een doos, `price` de verkoopprijs (in $), `year` het jaar van uitgave en `ages` de doelgroep.
 
 ## Gevraagd
 
