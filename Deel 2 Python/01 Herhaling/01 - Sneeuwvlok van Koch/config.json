@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Sequentie Toetsvraag - Sneeuwvlok van Koch"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.json"
+  },
+  "labels": [
+    "python"
+  ],
+  "access": "public"
+}

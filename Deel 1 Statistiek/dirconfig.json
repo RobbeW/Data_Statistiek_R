@@ -1,4 +1,6 @@
 {
-  "labels":[
-  ]
+  "evaluation": {
+    "handler": "R"
+  },
+  "programming_language": "R"
 }
