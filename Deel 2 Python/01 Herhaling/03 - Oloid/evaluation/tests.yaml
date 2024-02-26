@@ -1,0 +1,42 @@
+- tab: Feedback
+  testcases:
+  - stdin: '3.2'
+    stdout: Het hoogteverschil is 0.18 cm.
+  - stdin: '36.29'
+    stdout: Het hoogteverschil is 2.09 cm.
+  - stdin: '32.02'
+    stdout: Het hoogteverschil is 1.84 cm.
+  - stdin: '12.21'
+    stdout: Het hoogteverschil is 0.7 cm.
+  - stdin: '13.37'
+    stdout: Het hoogteverschil is 0.77 cm.
+  - stdin: '30.7'
+    stdout: Het hoogteverschil is 1.77 cm.
+  - stdin: '29.74'
+    stdout: Het hoogteverschil is 1.71 cm.
+  - stdin: '45.64'
+    stdout: Het hoogteverschil is 2.63 cm.
+  - stdin: '4.78'
+    stdout: Het hoogteverschil is 0.28 cm.
+  - stdin: '17.43'
+    stdout: Het hoogteverschil is 1.0 cm.
+  - stdin: '8.3'
+    stdout: Het hoogteverschil is 0.48 cm.
+  - stdin: '42.19'
+    stdout: Het hoogteverschil is 2.43 cm.
+  - stdin: '2.15'
+    stdout: Het hoogteverschil is 0.12 cm.
+  - stdin: '48.06'
+    stdout: Het hoogteverschil is 2.77 cm.
+  - stdin: '25.23'
+    stdout: Het hoogteverschil is 1.45 cm.
+  - stdin: '38.7'
+    stdout: Het hoogteverschil is 2.23 cm.
+  - stdin: '42.09'
+    stdout: Het hoogteverschil is 2.42 cm.
+  - stdin: '36.33'
+    stdout: Het hoogteverschil is 2.09 cm.
+  - stdin: '12.02'
+    stdout: Het hoogteverschil is 0.69 cm.
+  - stdin: '27.51'
+    stdout: Het hoogteverschil is 1.58 cm.
