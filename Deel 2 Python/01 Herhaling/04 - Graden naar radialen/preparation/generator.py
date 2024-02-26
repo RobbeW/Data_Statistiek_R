@@ -26,7 +26,7 @@ def write_yaml( data:list ):
         yaml.dump(data, f)
 # generate test data
 ntests = 20
-cases = [ (90, ),]
+cases = [ (90, ), (180,), (360,)]
 
 while len( cases ) < ntests:
     graden = random.randint(0,36) * 5
