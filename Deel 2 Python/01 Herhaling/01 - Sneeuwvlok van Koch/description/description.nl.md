@@ -18,8 +18,13 @@ waarbij $$z$$ de zijde van de oorspronkelijke gelijkzijdige driehoek voorstelt.
 ## Gevraagd
 Schrijf een programma dat de zijde van de oorspronkelijke driehoek (in cm) vraagt en nadien de oppervlakte van de sneeuwvlok van Koch berekent en op het scherm weergeeft. Rond af op 2 cijfers.
 
-#### Voorbeeld
+#### Voorbeelden
 Meet de zijde `2.0` cm, dan verschijnt:
 ```
 De oppervlakte bedraagt 2.77 cm².
+```
+
+Meet de zijde `36.29` cm, dan verschijnt:
+```
+De oppervlakte bedraagt 912.42 cm².
 ```
