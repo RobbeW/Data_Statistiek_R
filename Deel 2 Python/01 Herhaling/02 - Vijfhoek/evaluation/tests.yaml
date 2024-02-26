@@ -1,0 +1,42 @@
+- tab: Feedback
+  testcases:
+  - stdin: '3.0'
+    stdout: De oppervlakte bedraagt 7.07 cm².
+  - stdin: '36.29'
+    stdout: De oppervlakte bedraagt 1034.34 cm².
+  - stdin: '32.02'
+    stdout: De oppervlakte bedraagt 805.25 cm².
+  - stdin: '12.21'
+    stdout: De oppervlakte bedraagt 117.09 cm².
+  - stdin: '13.37'
+    stdout: De oppervlakte bedraagt 140.4 cm².
+  - stdin: '30.7'
+    stdout: De oppervlakte bedraagt 740.23 cm².
+  - stdin: '29.74'
+    stdout: De oppervlakte bedraagt 694.66 cm².
+  - stdin: '45.64'
+    stdout: De oppervlakte bedraagt 1635.99 cm².
+  - stdin: '4.78'
+    stdout: De oppervlakte bedraagt 17.95 cm².
+  - stdin: '17.43'
+    stdout: De oppervlakte bedraagt 238.61 cm².
+  - stdin: '8.3'
+    stdout: De oppervlakte bedraagt 54.11 cm².
+  - stdin: '42.19'
+    stdout: De oppervlakte bedraagt 1398.01 cm².
+  - stdin: '2.15'
+    stdout: De oppervlakte bedraagt 3.63 cm².
+  - stdin: '48.06'
+    stdout: De oppervlakte bedraagt 1814.08 cm².
+  - stdin: '25.23'
+    stdout: De oppervlakte bedraagt 499.95 cm².
+  - stdin: '38.7'
+    stdout: De oppervlakte bedraagt 1176.28 cm².
+  - stdin: '42.09'
+    stdout: De oppervlakte bedraagt 1391.39 cm².
+  - stdin: '36.33'
+    stdout: De oppervlakte bedraagt 1036.62 cm².
+  - stdin: '12.02'
+    stdout: De oppervlakte bedraagt 113.47 cm².
+  - stdin: '27.51'
+    stdout: De oppervlakte bedraagt 594.39 cm².
