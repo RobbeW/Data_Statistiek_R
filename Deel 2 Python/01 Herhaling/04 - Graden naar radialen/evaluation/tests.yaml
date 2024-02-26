@@ -1,0 +1,42 @@
+- tab: Feedback
+  testcases:
+  - stdin: '90'
+    stdout: Een hoek van 90 graden is gelijk aan 1.5708 radialen.
+  - stdin: '30'
+    stdout: Een hoek van 30 graden is gelijk aan 0.5236 radialen.
+  - stdin: '70'
+    stdout: Een hoek van 70 graden is gelijk aan 1.2217 radialen.
+  - stdin: '80'
+    stdout: Een hoek van 80 graden is gelijk aan 1.3963 radialen.
+  - stdin: '160'
+    stdout: Een hoek van 160 graden is gelijk aan 2.7925 radialen.
+  - stdin: '160'
+    stdout: Een hoek van 160 graden is gelijk aan 2.7925 radialen.
+  - stdin: '20'
+    stdout: Een hoek van 20 graden is gelijk aan 0.3491 radialen.
+  - stdin: '105'
+    stdout: Een hoek van 105 graden is gelijk aan 1.8326 radialen.
+  - stdin: '35'
+    stdout: Een hoek van 35 graden is gelijk aan 0.6109 radialen.
+  - stdin: '45'
+    stdout: Een hoek van 45 graden is gelijk aan 0.7854 radialen.
+  - stdin: '110'
+    stdout: Een hoek van 110 graden is gelijk aan 1.9199 radialen.
+  - stdin: '5'
+    stdout: Een hoek van 5 graden is gelijk aan 0.0873 radialen.
+  - stdin: '155'
+    stdout: Een hoek van 155 graden is gelijk aan 2.7053 radialen.
+  - stdin: '10'
+    stdout: Een hoek van 10 graden is gelijk aan 0.1745 radialen.
+  - stdin: '115'
+    stdout: Een hoek van 115 graden is gelijk aan 2.0071 radialen.
+  - stdin: '70'
+    stdout: Een hoek van 70 graden is gelijk aan 1.2217 radialen.
+  - stdin: '150'
+    stdout: Een hoek van 150 graden is gelijk aan 2.618 radialen.
+  - stdin: '170'
+    stdout: Een hoek van 170 graden is gelijk aan 2.9671 radialen.
+  - stdin: '10'
+    stdout: Een hoek van 10 graden is gelijk aan 0.1745 radialen.
+  - stdin: '145'
+    stdout: Een hoek van 145 graden is gelijk aan 2.5307 radialen.
