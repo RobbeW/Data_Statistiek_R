@@ -1,9 +1,9 @@
 ## Gegeven
 Eén <a href="https://nl.wikipedia.org/wiki/Radiaal_(wiskunde)" target="_blank">radiaal</a> is gedefinieerd als de hoek die gevormd wordt door een boog met de lengte van een straal. Hieronder zie je dit in een animatie uitgevoerd.
 
-![Definitie van een radiaal.](media/image.png "Definitie van een radiaal."){:data-caption="Definitie van een radiaal." .light-only width="40%"}
+![Definitie van een radiaal.](media/image.png "Definitie van een radiaal."){:data-caption="Definitie van een radiaal." .light-only width="35%"}
 
-![Definitie van een radiaal.](media/image-dark.png "Definitie van een radiaal."){:data-caption="Definitie van een radiaal." .dark-only width="40%"}
+![Definitie van een radiaal.](media/image-dark.png "Definitie van een radiaal."){:data-caption="Definitie van een radiaal." .dark-only width="35%"}
 
 ## Gevraagd
 Schrijf een programma dat de grootte van een hoek (in radialen) vraagt en dit vervolgens omzet naar graden. 
