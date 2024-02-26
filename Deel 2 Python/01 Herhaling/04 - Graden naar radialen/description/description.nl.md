@@ -14,3 +14,8 @@ Voor een hoek van `90` graden verschijnt er:
 ```
 Een hoek van 90 graden is gelijk aan 1.5708 radialen.
 ```
+
+{: .callout.callout-info}
+>#### Tip
+>
+> Hoeveel radialen passen in 180°? Gebruik daarna de regel van 3...
