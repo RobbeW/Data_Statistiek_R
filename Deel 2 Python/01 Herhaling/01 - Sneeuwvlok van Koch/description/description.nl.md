@@ -3,9 +3,9 @@ De sneeuwvlok van Koch is een <a href="https://nl.wikipedia.org/wiki/Fractal" ta
 
 Het was wiskundige <a href="https://nl.wikipedia.org/wiki/Helge_von_Koch" target="_blank">Helge von Koch</a> die zijn naam gaf aan deze fractaal.
 
-![Vorming van Koch's sneeuwvlok.](media/image.png "Vorming van Koch's sneeuwvlok."){:data-caption="Vorming van Koch's sneeuwvlok." .light-only width="30%"}
+![Vorming van Koch's sneeuwvlok.](media/image.png "Vorming van Koch's sneeuwvlok."){:data-caption="Vorming van Koch's sneeuwvlok." .light-only width="20%"}
 
-![Vorming van Koch's sneeuwvlok.](media/image_dark.png "Vorming van Koch's sneeuwvlok."){:data-caption="Vorming van Koch's sneeuwvlok." .dark-only width="30%"}
+![Vorming van Koch's sneeuwvlok.](media/image_dark.png "Vorming van Koch's sneeuwvlok."){:data-caption="Vorming van Koch's sneeuwvlok." .dark-only width="20%"}
 
 De oppervlakte van de sneeuwvlok kan berekend worden met onderstaande formule:
 
