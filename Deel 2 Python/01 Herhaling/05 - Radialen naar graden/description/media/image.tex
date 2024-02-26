@@ -1,0 +1,43 @@
+\documentclass[dvipsnames, border=1cm,tikz]{standalone}
+\usetikzlibrary{arrows.meta}
+\def\Only<#1-#2>#3{\ifnum\numexpr\X+1>#1
+	\ifnum\numexpr\X-1<#2
+	\pgfmathtruncatemacro{\DeltaX}{\X+1-#1}
+	\xdef\DeltaX{\DeltaX}
+	#3
+	\fi\fi}
+\begin{document}
+	\pgfmathtruncatemacro{\Xmax}{50}
+	\foreach \X in {0,1,...,\Xmax}
+	{\begin{tikzpicture}[fat line/.style={line width=0.15cm,red,{Circle}-{Circle},shorten >=-2*\pgflinewidth,shorten
+				<=-2*\pgflinewidth},cc/.style={line width=0.15cm,
+				NavyBlue},annot/.style={scale=15.5}]
+			\draw[line width=0.05cm,-stealth] (-12,0) -- (12,0) node[right] {\Huge $x$};
+			\draw[line width=0.05cm,-stealth] (0,-12) -- (0,12) node[above] {\Huge $y$};
+			%
+			\Only<2-5>{
+				\draw[fat line] (0,0) -- (2*\X,0);
+			}
+			\Only<6-10>{
+				\draw[fat line] (0,0) -- (10,0) node[midway,above,annot,red]{$r$};
+			}
+			\Only<11-25>{
+				\typeout{Delta=\DeltaX}
+				\draw[cc] (10,0) arc[start angle=0,end angle={\DeltaX*24},radius=10];
+				\draw[fat line] (0,0) -- ({\DeltaX*24}:10);
+			}
+			\Only<26-\Xmax>{
+				\draw[cc] circle[radius=10cm];
+			}
+			\Only<26-35>{\draw[fat line] (10,0)  -- ++ ({180-\DeltaX*9}:10);}
+			\Only<36-45>{\draw[fat line] (10,0) arc(0:{18*\DeltaX/pi}:10) -- ++
+				({18*\DeltaX/pi+90}:{10-\DeltaX});}
+			\Only<46-50>{
+				\draw [LimeGreen, fill=LimeGreen,fill opacity=0.2] (0,0) -- (3,0) 
+				node[LimeGreen,below,annot,opacity=1]{1 rad} arc[start angle=0,
+				end angle={180/pi},radius=3] -- cycle;
+				\draw[cc,LimeGreen] (10,0) -- (0,0) 
+				-- ({180/pi}:10);
+			}
+	\end{tikzpicture}}
+\end{document}

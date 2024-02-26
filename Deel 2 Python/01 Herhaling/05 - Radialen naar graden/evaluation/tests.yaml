@@ -1,0 +1,62 @@
+- tab: Feedback
+  testcases:
+  - stdin: '1.5707'
+    stdout: Een hoek van 1.5707 radialen is 89.994481 graden, oftewel  89 graden 59
+      minuten en 40.1 seconden.
+  - stdin: '3.1415'
+    stdout: Een hoek van 3.1415 radialen is 179.994691 graden, oftewel  179 graden
+      59 minuten en 40.9 seconden.
+  - stdin: '2.2627'
+    stdout: Een hoek van 2.2627 radialen is 129.64316 graden, oftewel  129 graden
+      38 minuten en 35.4 seconden.
+  - stdin: '1.9887'
+    stdout: Een hoek van 1.9887 radialen is 113.944117 graden, oftewel  113 graden
+      56 minuten en 38.8 seconden.
+  - stdin: '0.7187'
+    stdout: Een hoek van 0.7187 radialen is 41.178477 graden, oftewel  41 graden 10
+      minuten en 42.5 seconden.
+  - stdin: '0.7934'
+    stdout: Een hoek van 0.7934 radialen is 45.458471 graden, oftewel  45 graden 27
+      minuten en 30.5 seconden.
+  - stdin: '1.904'
+    stdout: Een hoek van 1.904 radialen is 109.091164 graden, oftewel  109 graden
+      5 minuten en 28.2 seconden.
+  - stdin: '1.8426'
+    stdout: Een hoek van 1.8426 radialen is 105.573203 graden, oftewel  105 graden
+      34 minuten en 23.5 seconden.
+  - stdin: '2.862'
+    stdout: Een hoek van 2.862 radialen is 163.980521 graden, oftewel  163 graden
+      58 minuten en 49.9 seconden.
+  - stdin: '0.2425'
+    stdout: Een hoek van 0.2425 radialen is 13.894227 graden, oftewel  13 graden 53
+      minuten en 39.2 seconden.
+  - stdin: '1.0533'
+    stdout: Een hoek van 1.0533 radialen is 60.349645 graden, oftewel  60 graden 20
+      minuten en 58.7 seconden.
+  - stdin: '0.4682'
+    stdout: Een hoek van 0.4682 radialen is 26.825884 graden, oftewel  26 graden 49
+      minuten en 33.2 seconden.
+  - stdin: '2.6405'
+    stdout: Een hoek van 2.6405 radialen is 151.289506 graden, oftewel  151 graden
+      17 minuten en 22.2 seconden.
+  - stdin: '0.0738'
+    stdout: Een hoek van 0.0738 radialen is 4.228429 graden, oftewel  4 graden 13
+      minuten en 42.3 seconden.
+  - stdin: '3.0174'
+    stdout: Een hoek van 3.0174 radialen is 172.884285 graden, oftewel  172 graden
+      53 minuten en 3.4 seconden.
+  - stdin: '1.5538'
+    stdout: Een hoek van 1.5538 radialen is 89.026182 graden, oftewel  89 graden 1
+      minuten en 34.3 seconden.
+  - stdin: '2.4171'
+    stdout: Een hoek van 2.4171 radialen is 138.489629 graden, oftewel  138 graden
+      29 minuten en 22.7 seconden.
+  - stdin: '2.6344'
+    stdout: Een hoek van 2.6344 radialen is 150.940002 graden, oftewel  150 graden
+      56 minuten en 24.0 seconden.
+  - stdin: '2.2651'
+    stdout: Een hoek van 2.2651 radialen is 129.78067 graden, oftewel  129 graden
+      46 minuten en 50.4 seconden.
+  - stdin: '0.7067'
+    stdout: Een hoek van 0.7067 radialen is 40.490927 graden, oftewel  40 graden 29
+      minuten en 27.3 seconden.
