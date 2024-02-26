@@ -1,5 +1,5 @@
 ## Gegeven
-Eén radiaal is gedefinieerd als de hoek die gevormd wordt door een boog met de lengte van een straal. Hieronder zie je dit in een animatie uitgevoerd.
+Eén <a href="https://nl.wikipedia.org/wiki/Radiaal_(wiskunde)" target="_blank">radiaal</a> is gedefinieerd als de hoek die gevormd wordt door een boog met de lengte van een straal. Hieronder zie je dit in een animatie uitgevoerd.
 
 ![Definitie van een radiaal.](media/image.png "Definitie van een radiaal."){:data-caption="Definitie van een radiaal." .light-only width="45%"}
 
