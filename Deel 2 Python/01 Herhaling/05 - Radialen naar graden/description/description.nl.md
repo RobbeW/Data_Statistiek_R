@@ -7,7 +7,7 @@ Eén <a href="https://nl.wikipedia.org/wiki/Radiaal_(wiskunde)" target="_blank">
 
 ## Gevraagd
 Schrijf een programma dat de grootte van een hoek (in radialen) vraagt en dit vervolgens omzet naar graden. 
-Geef de hoek **zowel** in decimale vorm (**afronden** op 5 cijfers) weer, als in **graden**, **minuten** en **seconden**.
+Geef de hoek **zowel** in decimale vorm (**afronden** op 6 cijfers) weer, als in **graden**, **minuten** en **seconden**.
 
 Rond de seconden af op 1 cijfers na de komma.
 
