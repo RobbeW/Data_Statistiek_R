@@ -14,4 +14,4 @@ rest = (minuten - min_afgerond)
 sec = round( rest * 60, 1)
 
 # Weergave
-print( 'Een hoek van', radialen, 'radialen is', round(graden, 6), 'graden, oftewel ', graden_afgerond, "graden", min_afgerond, "minuten en", sec, "seconden." )
+print( 'Een hoek van', radialen, 'radialen is', round(graden, 6), 'graden, oftewel', graden_afgerond, "graden", min_afgerond, "minuten en", sec, "seconden." )
