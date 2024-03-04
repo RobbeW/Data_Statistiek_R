@@ -2,9 +2,9 @@
 
 Net zoals een gelijkzijdige driehoek een omgeschreven en ingeschreven cirkel heeft, heeft elk **regelmatig viervlak** of **tetraëder** een omgeschreven en ingeschreven **bol**. 
 
-![Een regelmatige tetraëder.](media/image.png "Een regelmatige tetraëder."){:data-caption="Een regelmatige tetraëder." .light-only width="40%"}
+![Een regelmatige tetraëder.](media/image.png "Een regelmatige tetraëder."){:data-caption="Een regelmatige tetraëder." .light-only width="25%"}
 
-![Een regelmatige tetraëder.](media/image_dark.png "Een regelmatige tetraëder."){:data-caption="Een regelmatige tetraëder." .dark-only width="40%"}
+![Een regelmatige tetraëder.](media/image_dark.png "Een regelmatige tetraëder."){:data-caption="Een regelmatige tetraëder." .dark-only width="25%"}
 
 Indien de tetraëder een zijde met lengte $$\mathsf{a}$$ heeft dan wordt de straal van de <span style="color:#FF8E27">omgeschreven (grootste) bol</span> $$\mathsf{R}$$ en van de <span style="color:#086FBD">ingeschreven (kleinste) bol</span> $$\mathsf{r}$$ gegeven door de volgende formules:
 
