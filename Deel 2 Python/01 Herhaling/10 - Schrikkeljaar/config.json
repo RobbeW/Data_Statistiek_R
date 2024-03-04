@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Schrikkeljaar"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "python"
+  ],
+  "access": "public"
+}
