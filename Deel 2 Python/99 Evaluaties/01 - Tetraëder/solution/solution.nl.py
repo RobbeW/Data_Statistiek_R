@@ -3,7 +3,7 @@ import math
 # Zijde vragen
 a = float( input( 'Geef de zijde in (in cm): ' ) )
 
-# Oppervlakte berekenen
+# Volume berekenen
 R = math.sqrt(6) / 4 * a
 r = math.sqrt(6) / 12 * a
 
