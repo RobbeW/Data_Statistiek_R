@@ -1,0 +1,60 @@
+- tab: Feedback
+  testcases:
+  - stdin: '3.0'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 25.01 cm³.
+  - stdin: '14.7'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 2942.369
+      cm³.
+  - stdin: '13.0'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 2035.05
+      cm³.
+  - stdin: '5.3'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 137.903
+      cm³.
+  - stdin: '5.8'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 180.73
+      cm³.
+  - stdin: '12.5'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 1809.152
+      cm³.
+  - stdin: '12.1'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 1640.972
+      cm³.
+  - stdin: '18.3'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 5676.732
+      cm³.
+  - stdin: '2.5'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 14.473
+      cm³.
+  - stdin: '7.4'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 375.353
+      cm³.
+  - stdin: '3.8'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 50.827
+      cm³.
+  - stdin: '17.0'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 4550.843
+      cm³.
+  - stdin: '1.4'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 2.542 cm³.
+  - stdin: '19.2'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 6556.148
+      cm³.
+  - stdin: '10.4'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 1041.946
+      cm³.
+  - stdin: '15.6'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 3516.567
+      cm³.
+  - stdin: '16.9'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 4471.006
+      cm³.
+  - stdin: '14.7'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 2942.369
+      cm³.
+  - stdin: '5.3'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 137.903
+      cm³.
+  - stdin: '11.3'
+    stdout: Het volume tussen de omgeschreven en ingeschreven bol bedraagt 1336.535
+      cm³.

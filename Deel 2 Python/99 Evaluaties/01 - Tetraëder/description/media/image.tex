@@ -1,0 +1,28 @@
+\documentclass[dvipsnames,tikz]{standalone}
+\usepackage{amsmath}
+\usepackage{arevmath}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
+\usepackage{tikz-3dplot} 
+
+\tikzset{main/.style={thick, circle, color=black}}
+
+\begin{document}
+	\tdplotsetmaincoords{70}{110}
+	\foreach \i in {1,...,120}{
+		\begin{tikzpicture}[tdplot_main_coords, line join=round]
+			\clip(-2,-2,-2) rectangle (2,2,2.2);
+			
+			%\draw[color = BurntOrange] (0,0,0) circle (0.975cm);
+			
+			\tdplotsetrotatedcoords{0}{0}{\i}
+			%\tdplotdrawarc[BurntOrange, tdplot_rotated_coords]{(0,0,-0.333)}{0.92}{0}{360}{}{};
+			
+			\draw[main, tdplot_rotated_coords] (0,0,1) -- (0.94280,0,-0.333) -- (-0.47140,0.816496,-0.3333)-- (-0.47140,-0.816496,-0.3333) -- cycle;
+			\draw[main, tdplot_rotated_coords] (0,0,1) -- (-0.47140,0.816496,-0.3333);
+			\draw[main, tdplot_rotated_coords] (0.94280,0,-0.333) -- (-0.47140,-0.816496,-0.3333);
+		\end{tikzpicture}
+	}
+\end{document}
