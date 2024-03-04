@@ -14,10 +14,10 @@ Schrijf een programma dat de zijde van de gelijkzijdige driehoek in cm vraagt en
 #### Voorbeelden
 Een Reuleaux driehoek met zijde 5 cm heeft als oppervlakte:
 ```
-Oppervlakte: 2.265 cm²
+Oppervlakte: 2.265 cm².
 ```
 
 Een Reuleaux driehoek met zijde 1,12 cm heeft als oppervlakte:
 ```
-Oppervlakte: 0.114 cm²
+Oppervlakte: 0.114 cm².
 ```

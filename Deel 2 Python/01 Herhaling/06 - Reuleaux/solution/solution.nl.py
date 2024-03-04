@@ -7,4 +7,4 @@ z = float( input( 'Geef de lengte van de zijde in (in cm):' ) )
 A = round( (math.pi/6 - math.sqrt(3)/4) * z **2, 3 )
 
 # Uitvoer
-print( 'Oppervlakte:', A, 'cm²')
+print( 'Oppervlakte:', A, 'cm².')
