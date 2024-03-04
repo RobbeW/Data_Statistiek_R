@@ -11,4 +11,4 @@ if speeltijd > 2*60 + 15:
     prijs = prijs + 1
 
 # Uitvoer
-print( 'Je dient', round(prijs, 2), 'EUR te betalen.')
+print( 'Je dient', round(prijs, 1), 'EUR te betalen.')
