@@ -1,0 +1,42 @@
+- tab: Feedback
+  testcases:
+  - stdin: "17\n166"
+    stdout: Je dient 14.8 EUR te betalen.
+  - stdin: "8\n83"
+    stdout: Je dient 13.8 EUR te betalen.
+  - stdin: "60\n116"
+    stdout: Je dient 13.8 EUR te betalen.
+  - stdin: "18\n120"
+    stdout: Je dient 13.8 EUR te betalen.
+  - stdin: "17\n108"
+    stdout: Je dient 13.8 EUR te betalen.
+  - stdin: "37\n108"
+    stdout: Je dient 14.8 EUR te betalen.
+  - stdin: "47\n69"
+    stdout: Je dient 14.8 EUR te betalen.
+  - stdin: "49\n91"
+    stdout: Je dient 14.8 EUR te betalen.
+  - stdin: "10\n166"
+    stdout: Je dient 14.8 EUR te betalen.
+  - stdin: "33\n154"
+    stdout: Je dient 15.8 EUR te betalen.
+  - stdin: "10\n134"
+    stdout: Je dient 13.8 EUR te betalen.
+  - stdin: "21\n124"
+    stdout: Je dient 14.8 EUR te betalen.
+  - stdin: "52\n87"
+    stdout: Je dient 14.8 EUR te betalen.
+  - stdin: "40\n144"
+    stdout: Je dient 15.8 EUR te betalen.
+  - stdin: "28\n68"
+    stdout: Je dient 14.8 EUR te betalen.
+  - stdin: "36\n111"
+    stdout: Je dient 14.8 EUR te betalen.
+  - stdin: "56\n131"
+    stdout: Je dient 14.8 EUR te betalen.
+  - stdin: "63\n83"
+    stdout: Je dient 13.8 EUR te betalen.
+  - stdin: "33\n66"
+    stdout: Je dient 14.8 EUR te betalen.
+  - stdin: "61\n113"
+    stdout: Je dient 13.8 EUR te betalen.
