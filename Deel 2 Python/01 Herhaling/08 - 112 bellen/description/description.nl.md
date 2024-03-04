@@ -4,7 +4,7 @@ De hulpdiensten worden steeds vaker geconfronteerd met grappenmakers of mensen d
 
 Men maakte daarom onderstaande <a href="https://112.be/nl/wie-en-wanneer-bellen" target="_blank">afbeelding</a> aan:
 
-![Wie en wanneer bellen?.](media/112.png "Wie en wanneer bellen?."){:data-caption="Wie en wanneer bellen?." width="40%"}
+![Wie en wanneer bellen?](media/112.png "Wie en wanneer bellen?"){:data-caption="Wie en wanneer bellen?" width="40%"}
 
 ## Opgave
 Schrijf een programma dat **eerst** vraagt `Is er mogelijk een leven in gevaar? Een brand?`. Bij een negatief antwoord, wordt de vervolgvraag gesteld: `Heb je hulp van de brandweer nodig?`. Geef telkens het corresponderende antwoord.
