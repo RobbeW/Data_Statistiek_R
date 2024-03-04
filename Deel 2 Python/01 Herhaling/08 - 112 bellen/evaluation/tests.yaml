@@ -1,0 +1,43 @@
+- tab: Feedback
+  testcases:
+  - stdin: ja
+    stdout: Bel 112!
+  - stdin: "nee\nja"
+    stdout: Heb je hulp van de brandweer nodig? Gebruik het e-loket www.1772.be of
+      bel 1722.
+  - stdin: "nee\nnee"
+    stdout: Heb je hulp van de brandweer nodig? Herstel het zelf of bel een vakman.
+  - stdin: JA
+    stdout: Bel 112!
+  - stdin: Ja
+    stdout: Bel 112!
+  - stdin: "nee\nNee"
+    stdout: Heb je hulp van de brandweer nodig? Herstel het zelf of bel een vakman.
+  - stdin: "NEE\nJa"
+    stdout: Heb je hulp van de brandweer nodig? Gebruik het e-loket www.1772.be of
+      bel 1722.
+  - stdin: "NEE\nja"
+    stdout: Heb je hulp van de brandweer nodig? Gebruik het e-loket www.1772.be of
+      bel 1722.
+  - stdin: "NEEN\nja"
+    stdout: Heb je hulp van de brandweer nodig? Gebruik het e-loket www.1772.be of
+      bel 1722.
+  - stdin: "NEE\nnee"
+    stdout: Heb je hulp van de brandweer nodig? Herstel het zelf of bel een vakman.
+  - stdin: "NEEN\nja"
+    stdout: Heb je hulp van de brandweer nodig? Gebruik het e-loket www.1772.be of
+      bel 1722.
+  - stdin: "NEEN\nnee"
+    stdout: Heb je hulp van de brandweer nodig? Herstel het zelf of bel een vakman.
+  - stdin: JA
+    stdout: Bel 112!
+  - stdin: "Nee\nJa"
+    stdout: Heb je hulp van de brandweer nodig? Gebruik het e-loket www.1772.be of
+      bel 1722.
+  - stdin: "NEE\nja"
+    stdout: Heb je hulp van de brandweer nodig? Gebruik het e-loket www.1772.be of
+      bel 1722.
+  - stdin: "neen\nNee"
+    stdout: Heb je hulp van de brandweer nodig? Herstel het zelf of bel een vakman.
+  - stdin: "Nee\nneen"
+    stdout: Heb je hulp van de brandweer nodig? Herstel het zelf of bel een vakman.
