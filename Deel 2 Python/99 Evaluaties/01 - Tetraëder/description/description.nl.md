@@ -18,5 +18,5 @@ Schrijf een programma dat de zijde van een regelmatig viervlak, $$\mathsf{a}$$, 
 #### Voorbeeld
 Meet de zijde bijvoorbeeld `3.0` cm, dan verschijnt:
 ```
-Het volume tussen de omgeschreven en ingeschreven bol bedraagt 25.01 cm³
+Het volume tussen de omgeschreven en ingeschreven bol bedraagt 25.01 cm³.
 ```
