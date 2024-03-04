@@ -61,12 +61,14 @@ for test in cases:
     
     result_lines = process.stdout.split("\n")
     result_lines = [x for x in result_lines[1:]]
+    outputtxt = ""
     for line in result_lines:
-        if not(line.startswith( 'Geef' )):
+        if not(line.startswith( 'Geef' )) and not(line.startswith( 'Heb' )):
             print(line)
+            outputtxt += line
     
     # setup for return expressions
-    testcase = { input: stdin, output: result_lines.pop(0) }
+    testcase = { input: stdin, output: outputtxt}
     yamldata[0]['testcases'].append( testcase)
 
 write_yaml(yamldata)
