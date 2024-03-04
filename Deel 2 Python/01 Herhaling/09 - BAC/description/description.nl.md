@@ -4,7 +4,7 @@ Vorig jaar lanceerde de **Vlaamse Stichting Verkeerskunde** (VSV) daarom nog de 
 
 ![Groot gelijk, door VSV.](media/groot_gelijk.jpg "Groot gelijk, door VSV."){:data-caption="Groot gelijk, door VSV." width="35%"}
 
-Je kan de formule van Widmark gebruiken om de BAC (Bloed Alcohol Concentratie) te voorspellen. De formule werkt als volgt:
+Je kan de formule van <a href="https://www.lgcstandards.com/ES/en/Resources/Articles/Logical-Erik-Widmark" target="_blank">Widmark</a> gebruiken om de BAC (Bloed Alcohol Concentratie) te voorspellen. De formule werkt als volgt:
 
 $$
  \mathsf{\text{BAC} \approx \dfrac{n \cdot V \cdot p \cdot 8 \cdot 1,055}{r\cdot m} - t\cdot 0,17}
