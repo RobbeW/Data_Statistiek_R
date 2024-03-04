@@ -13,7 +13,7 @@ $$
 Hierbij stelt $$\mathsf{n}$$ het aantal consumpties voor, $$\mathsf{V}$$ het volume per glas (in cl), $$\mathsf{p}$$ het alcoholpercentage, $$\mathsf{m}$$ de lichaamsmassa (in kg) en $$\mathsf{t}$$ de tijd in uren. $$\mathsf{r}$$ is de Widmarkfactor en deze bedraagt 0,68 voor het mannelijke en 0,55 voor het vrouwelijke geslacht.
 
 ## Opgave
-Je mag in deze opgave ervan uitgaan dat er telkens gewone pintjes gedronken worden, met een alcoholpercentage $$\mathsf{p = 0,05}$$ en $$\mathsf{V = 0,33 \text{c}\ell}$$.
+Je mag in deze opgave ervan uitgaan dat er telkens gewone pintjes gedronken worden, met een alcoholpercentage $$\mathsf{p = 0,05}$$ en $$\mathsf{V = 33 \text{c}\ell}$$.
 
 Vraag nu **in volgorde** naar het aantal consumpties, de massa, de tijd in uren en het geslacht `V` of `M`. Bepaal vervolgens de schatting van de BAC. Rond deze waarde af op 3 cijfers.
 
