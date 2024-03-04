@@ -9,7 +9,7 @@ Net zoals een gelijkzijdige driehoek een omgeschreven en ingeschreven cirkel hee
 Indien de tetraëder een zijde met lengte $$\mathsf{a}$$ heeft dan wordt de straal van de <span style="color:#FF8E27">omgeschreven (grootste) bol</span> $$\mathsf{R}$$ en van de <span style="color:#086FBD">ingeschreven (kleinste) bol</span> $$\mathsf{r}$$ gegeven door de volgende formules:
 
 $$
- \mathsf{R =\dfrac{\sqrt{6}}{4}a \qquad \text{en}\qquad r = \dfrac{\sqrt{6}}{12}a  }}
+ \mathsf{R =\dfrac{\sqrt{6}}{4}a \qquad \text{en}\qquad r = \dfrac{\sqrt{6}}{12}a  }
 $$
 
 ## Gevraagd
