@@ -12,10 +12,10 @@ Schrijf een programma dat **in volgorde** vraagt naar je leeftijd en **daarna** 
 #### Voorbeelden
 Voor een leerling van `17` jaar die de lange speelfilm *Dune: Part Two* van `166` minuten gaat bekijken verschijnt er:
 ```
-Je dient 14.8 EUR te betalen.
+Je dient 13.8 EUR te betalen.
 ```
 
 Voor een kind van `8` jaar dat de animatiefilm *Kattenkwaad in het museum* van `83` minuten wil bekijken verschijnt er:
 ```
-Je dient 13.8 EUR te betalen.
+Je dient 12.8 EUR te betalen.
 ```
