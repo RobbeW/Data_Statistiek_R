@@ -15,15 +15,15 @@ $$
 Hierbij staat $$\mathsf{W}$$ voor de zijde van het vel papier (in mm), $$\mathsf{t}$$ voor de dikte ervan (in mm) en $$\mathsf{n}$$ voor het aantal keer dat je het vel dubbel wil vouwen.
 
 ## Gevraagd
-Schrijf een programma dat de **dikte** van het vel papier vraagt en **vervolgens** het **aantal keer** dat je het blad wil gaan dubbelvouwen. Je programma berekent vervolgens welke zijde dit blad *minstens* moet hebben. Druk dit uit in **volledige meters**.
+Schrijf een programma dat de **dikte** van het vel papier vraagt en **vervolgens** het **aantal keer** dat je het blad wil gaan dubbelvouwen. Je programma berekent vervolgens welke zijde dit blad *minstens* moet hebben. Druk dit uit in **volledige centimeters**.
 
 #### Voorbeelden
 Voor een blad van `0.05` mm dik dat men `7` wil dubbel vouwen, verschijnt er:
 ```
-De zijde van het blad papier moet minstens 1 m meten
+De zijde van het blad papier moet minstens 9 cm meten.
 ```
 
 Voor een blad van `0.05` mm dik dat men `12` wil dubbel vouwen, verschijnt er:
 ```
-De zijde van het blad papier moet minstens 146 m meten
+De zijde van het blad papier moet minstens 1456 cm meten.
 ```

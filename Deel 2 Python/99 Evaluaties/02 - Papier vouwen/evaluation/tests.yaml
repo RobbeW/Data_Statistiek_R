@@ -1,42 +1,36 @@
 - tab: Feedback
   testcases:
   - stdin: "0.05\n7"
-    stdout: De zijde van het blad papier moet minstens 1 m meten.
+    stdout: De zijde van het blad papier moet minstens 9 cm meten.
   - stdin: "0.05\n12"
-    stdout: De zijde van het blad papier moet minstens 146 m meten.
+    stdout: De zijde van het blad papier moet minstens 1456 cm meten.
   - stdin: "0.09\n15"
-    stdout: De zijde van het blad papier moet minstens 5930 m meten.
+    stdout: De zijde van het blad papier moet minstens 59296 cm meten.
   - stdin: "0.06\n10"
-    stdout: De zijde van het blad papier moet minstens 22 m meten.
+    stdout: De zijde van het blad papier moet minstens 219 cm meten.
   - stdin: "0.09\n14"
-    stdout: De zijde van het blad papier moet minstens 2097 m meten.
+    stdout: De zijde van het blad papier moet minstens 20965 cm meten.
   - stdin: "0.08\n14"
-    stdout: De zijde van het blad papier moet minstens 1864 m meten.
+    stdout: De zijde van het blad papier moet minstens 18635 cm meten.
   - stdin: "0.05\n11"
-    stdout: De zijde van het blad papier moet minstens 52 m meten.
+    stdout: De zijde van het blad papier moet minstens 515 cm meten.
   - stdin: "0.06\n11"
-    stdout: De zijde van het blad papier moet minstens 62 m meten.
+    stdout: De zijde van het blad papier moet minstens 618 cm meten.
   - stdin: "0.05\n13"
-    stdout: De zijde van het blad papier moet minstens 412 m meten.
-  - stdin: "0.05\n11"
-    stdout: De zijde van het blad papier moet minstens 52 m meten.
+    stdout: De zijde van het blad papier moet minstens 4118 cm meten.
   - stdin: "0.09\n9"
-    stdout: De zijde van het blad papier moet minstens 12 m meten.
+    stdout: De zijde van het blad papier moet minstens 116 cm meten.
   - stdin: "0.07\n6"
-    stdout: De zijde van het blad papier moet minstens 1 m meten.
+    stdout: De zijde van het blad papier moet minstens 4 cm meten.
   - stdin: "0.07\n14"
-    stdout: De zijde van het blad papier moet minstens 1631 m meten.
+    stdout: De zijde van het blad papier moet minstens 16306 cm meten.
   - stdin: "0.06\n7"
-    stdout: De zijde van het blad papier moet minstens 1 m meten.
+    stdout: De zijde van het blad papier moet minstens 10 cm meten.
   - stdin: "0.07\n12"
-    stdout: De zijde van het blad papier moet minstens 204 m meten.
+    stdout: De zijde van het blad papier moet minstens 2039 cm meten.
   - stdin: "0.09\n14"
-    stdout: De zijde van het blad papier moet minstens 2097 m meten.
-  - stdin: "0.09\n10"
-    stdout: De zijde van het blad papier moet minstens 33 m meten.
-  - stdin: "0.07\n6"
-    stdout: De zijde van het blad papier moet minstens 1 m meten.
+    stdout: De zijde van het blad papier moet minstens 328 cm meten.
   - stdin: "0.06\n9"
-    stdout: De zijde van het blad papier moet minstens 8 m meten.
+    stdout: De zijde van het blad papier moet minstens 78 cm meten.
   - stdin: "0.09\n12"
-    stdout: De zijde van het blad papier moet minstens 263 m meten.
+    stdout: De zijde van het blad papier moet minstens 2621 cm meten.
