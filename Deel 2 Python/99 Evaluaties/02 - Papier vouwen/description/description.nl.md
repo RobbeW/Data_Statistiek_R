@@ -6,7 +6,7 @@ Gegeven een vierkant vel papier, **hoeveel keer** kan je dit dubbel vouwen?
 
 Vaak zegt men dat, ongeacht de grootte van het vel papier, dit maar een zevental keer lukt.
 
-In januari 2002 bedacht Britney Gallivan op 17-jarige leeftijd echter enkele formules waarmee je de afmetingen van een vel papier kan bepalen zodat je dit **meer** dan zeven keer kan dubbelvouwen. Bij een vierkant vel papier ziet de formule er als volgt uit:
+In januari 2002 bedacht <a href="https://gkorpal.github.io/files/folding_paper_in_half.pdf" target="_blank">Britney Gallivan</a> op 17-jarige leeftijd echter enkele formules waarmee je de afmetingen van een vel papier kan bepalen zodat je dit **meer** dan zeven keer kan dubbelvouwen. Bij een vierkant vel papier ziet de formule er als volgt uit:
 
 $$
  \mathsf{W = \pi \cdot t \cdot 2^{3\cdot (n-1) : 2}  }
