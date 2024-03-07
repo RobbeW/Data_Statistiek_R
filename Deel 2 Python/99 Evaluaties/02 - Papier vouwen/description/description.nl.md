@@ -2,7 +2,7 @@
 
 Gegeven een vierkant vel papier, **hoeveel keer** kan je dit dubbel vouwen?
 
-![Papier vouwen.](media/folding.gif "Papier vouwen."){:data-caption="Papier vouwen." width="35%"}
+![Papier vouwen.](media/folding.gif "Papier vouwen."){:data-caption="Papier vouwen." width="40%"}
 
 Vaak zegt men dat, ongeacht de grootte van het vel papier, dit maar een zevental keer lukt.
 
