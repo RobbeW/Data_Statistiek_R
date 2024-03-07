@@ -28,7 +28,7 @@
     stdout: De zijde van het blad papier moet minstens 10 cm meten.
   - stdin: "0.07\n12"
     stdout: De zijde van het blad papier moet minstens 2039 cm meten.
-  - stdin: "0.09\n14"
+  - stdin: "0.09\n10"
     stdout: De zijde van het blad papier moet minstens 328 cm meten.
   - stdin: "0.06\n9"
     stdout: De zijde van het blad papier moet minstens 78 cm meten.

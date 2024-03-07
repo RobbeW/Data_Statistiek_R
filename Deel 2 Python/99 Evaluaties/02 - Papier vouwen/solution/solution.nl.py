@@ -11,5 +11,4 @@ W = math.pi * t * 2**( 3*(n-1)/2 )
 W_in_m = math.ceil( W / 10 )
 
 # Weergeven op het scherm
-print()
 print( "De zijde van het blad papier moet minstens", W_in_m, "cm meten." )
