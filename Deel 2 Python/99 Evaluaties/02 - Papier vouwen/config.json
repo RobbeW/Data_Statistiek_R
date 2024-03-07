@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Papier vouwen"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "python"
+  ],
+  "access": "public"
+}
