@@ -12,7 +12,7 @@ $$
 
 ## Opgave
 
-Schrijf een programma vraagt naar een **aantal termen** van deze harmonische reeks, en vervolgens de **partieelsom** uitrekent. Rond hierbij af op 4 cijfers na de komma.
+Schrijf een programma dat vraagt naar een **aantal termen** van deze harmonische reeks en vervolgens de **partieelsom** uitrekent. Rond hierbij af op 4 cijfers na de komma.
 
 #### Voorbeelden
 
