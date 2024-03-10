@@ -1,0 +1,42 @@
+- tab: Feedback
+  testcases:
+  - stdin: "0.5\n1.8"
+    stdout: Er ligt geen nulpunt tussen 0.5 en 1.8
+  - stdin: "-0.5\n1.8"
+    stdout: Er ligt minstens één nulpunt tussen -0.5 en 1.8
+  - stdin: "-3.18\n3.18"
+    stdout: Er ligt minstens één nulpunt tussen -3.18 en 3.18
+  - stdin: "3.08\n1.86"
+    stdout: Er ligt geen nulpunt tussen 1.86 en 3.08
+  - stdin: "-3.8\n-3.46"
+    stdout: Er ligt geen nulpunt tussen -3.8 en -3.46
+  - stdin: "1.48\n1.21"
+    stdout: Er ligt geen nulpunt tussen 1.21 en 1.48
+  - stdin: "5.75\n-5.92"
+    stdout: Er ligt minstens één nulpunt tussen -5.92 en 5.75
+  - stdin: "-2.31\n-4.91"
+    stdout: Er ligt minstens één nulpunt tussen -4.91 en -2.31
+  - stdin: "4.77\n-6.67"
+    stdout: Er ligt minstens één nulpunt tussen -6.67 en 4.77
+  - stdin: "6.45\n-0.08"
+    stdout: Er ligt minstens één nulpunt tussen -0.08 en 6.45
+  - stdin: "3.77\n4.74"
+    stdout: Er ligt geen nulpunt tussen 3.77 en 4.74
+  - stdin: "3.09\n-3.85"
+    stdout: Er ligt minstens één nulpunt tussen -3.85 en 3.09
+  - stdin: "0.58\n-0.6"
+    stdout: Er ligt minstens één nulpunt tussen -0.6 en 0.58
+  - stdin: "0.68\n-3.42"
+    stdout: Er ligt minstens één nulpunt tussen -3.42 en 0.68
+  - stdin: "-1.79\n-1.0"
+    stdout: Er ligt geen nulpunt tussen -1.79 en -1.0
+  - stdin: "-3.15\n4.63"
+    stdout: Er ligt minstens één nulpunt tussen -3.15 en 4.63
+  - stdin: "6.78\n-1.65"
+    stdout: Er ligt minstens één nulpunt tussen -1.65 en 6.78
+  - stdin: "3.05\n-5.24"
+    stdout: Er ligt minstens één nulpunt tussen -5.24 en 3.05
+  - stdin: "-3.96\n0.57"
+    stdout: Er ligt minstens één nulpunt tussen -3.96 en 0.57
+  - stdin: "-0.14\n5.3"
+    stdout: Er ligt minstens één nulpunt tussen -0.14 en 5.3
