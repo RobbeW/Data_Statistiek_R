@@ -14,11 +14,15 @@
 	\foreach \n in {1,...,6} {
 		\begin{tikzpicture}[scale=0.75, main, line join=bevel]
 			\clip (-4,-1) rectangle (4,6);
+			\ifthenelse{\n = 1}{}{
+				\draw[main] (2.5,4.5) node [right]{\sffamily \bfseries \LARGE \pgfmathdiv{(\n-1) * (\n)}{2}\pgfmathresult};
+			}
 			\begin{scope}[xshift=-0.5cm]
 				\foreach \i in {1, ..., \n}{
 					\foreach \j in {1,...,\i} {
 						\ifthenelse{\i=\n}{
 							\fill[BurntOrange] (\j-\i/2,\n-\i) circle (0.45cm);
+							\draw[BurntOrange] (2.75,3.5) node[right] {\sffamily \bfseries \LARGE $+$\n};
 						}{
 							\fill[main] (\j-\i/2,\n-\i) circle (0.45cm);
 						}
@@ -30,6 +34,7 @@
 		
 		\begin{tikzpicture}[scale=0.75, main, line join=bevel]
 			\clip (-4,-1) rectangle (4,6);
+			\draw[main] (2.5,4.5) node [right] {\sffamily \bfseries \LARGE \pgfmathdiv{\n * (\n+1)}{2}\pgfmathresult};
 			\begin{scope}[xshift=-0.5cm]
 				\foreach \i in {1, ..., \n}{
 					\foreach \j in {1,...,\i} {
