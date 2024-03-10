@@ -37,6 +37,6 @@
 		\draw[main, ->,thick] (-6.5,0) -- (6.5,0) node[right] {$x$};
 		\draw[main, ->,thick] (0,-1.25) -- (0, 1.25) node[above] {$y$};
 		% curve
-		\draw[thick,draw=PineGreen,	domain=-6.5:6.5,samples=300,variable=\x] plot(\x,{sin(deg{\x})});
+		\draw[thick,PineGreen, draw=PineGreen,	domain=-6.5:6.5,samples=300,variable=\x] plot(\x,{sin(deg{\x})}) node [above] {$y=f(x)$};
 	\end{tikzpicture}
 \end{document}
