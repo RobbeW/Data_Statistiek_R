@@ -4,9 +4,9 @@ $$
 \mathsf{f(x) = sin(x)}
 $$
 
-![De eenvoudige sinusfunctie.](media/image.png "De eenvoudige sinusfunctie."){:data-caption="De eenvoudige sinusfunctie." .light-only width="40%"}
+![De eenvoudige sinusfunctie.](media/image.png "De eenvoudige sinusfunctie."){:data-caption="De eenvoudige sinusfunctie." .light-only width="80%"}
 
-![De eenvoudige sinusfunctie.](media/image_dark.png "De eenvoudige sinusfunctie."){:data-caption="De eenvoudige sinusfunctie." .dark-only width="40%"}
+![De eenvoudige sinusfunctie.](media/image_dark.png "De eenvoudige sinusfunctie."){:data-caption="De eenvoudige sinusfunctie." .dark-only width="80%"}
 
 
 ## Opgave
