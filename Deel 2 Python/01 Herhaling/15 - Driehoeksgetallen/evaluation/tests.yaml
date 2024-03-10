@@ -1,0 +1,42 @@
+- tab: Feedback
+  testcases:
+  - stdin: '1'
+    stdout: "Het 1 e driehoeksgetal is: 1\n"
+  - stdin: '2'
+    stdout: "Het 2 e driehoeksgetal is: 3\n"
+  - stdin: '3'
+    stdout: "Het 3 e driehoeksgetal is: 6\n"
+  - stdin: '4'
+    stdout: "Het 4 e driehoeksgetal is: 10\n"
+  - stdin: '5'
+    stdout: "Het 5 e driehoeksgetal is: 15\n"
+  - stdin: '6'
+    stdout: "Het 6 e driehoeksgetal is: 21\n"
+  - stdin: '7'
+    stdout: "Het 7 e driehoeksgetal is: 28\n"
+  - stdin: '8'
+    stdout: "Het 8 e driehoeksgetal is: 36\n"
+  - stdin: '9'
+    stdout: "Het 9 e driehoeksgetal is: 45\n"
+  - stdin: '10'
+    stdout: "Het 10 e driehoeksgetal is: 55\n"
+  - stdin: '11'
+    stdout: "Het 11 e driehoeksgetal is: 66\n"
+  - stdin: '12'
+    stdout: "Het 12 e driehoeksgetal is: 78\n"
+  - stdin: '13'
+    stdout: "Het 13 e driehoeksgetal is: 91\n"
+  - stdin: '14'
+    stdout: "Het 14 e driehoeksgetal is: 105\n"
+  - stdin: '15'
+    stdout: "Het 15 e driehoeksgetal is: 120\n"
+  - stdin: '16'
+    stdout: "Het 16 e driehoeksgetal is: 136\n"
+  - stdin: '17'
+    stdout: "Het 17 e driehoeksgetal is: 153\n"
+  - stdin: '18'
+    stdout: "Het 18 e driehoeksgetal is: 171\n"
+  - stdin: '19'
+    stdout: "Het 19 e driehoeksgetal is: 190\n"
+  - stdin: '20'
+    stdout: "Het 20 e driehoeksgetal is: 210\n"

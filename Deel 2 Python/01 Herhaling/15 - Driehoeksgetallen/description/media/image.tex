@@ -1,0 +1,47 @@
+\documentclass[dvipsnames,tikz]{standalone}
+\usepackage{amsmath}
+\usepackage{arevmath}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
+\usetikzlibrary{lindenmayersystems}
+
+\tikzset{main/.style={draw=black, circle, color=black}}
+
+
+\begin{document}
+	\foreach \n in {1,...,6} {
+		\begin{tikzpicture}[scale=0.75, main, line join=bevel]
+			\clip (-4,-1) rectangle (4,6);
+			\begin{scope}[xshift=-0.5cm]
+				\foreach \i in {1, ..., \n}{
+					\foreach \j in {1,...,\i} {
+						\ifthenelse{\i=\n}{
+							\fill[BurntOrange] (\j-\i/2,\n-\i) circle (0.45cm);
+						}{
+							\fill[main] (\j-\i/2,\n-\i) circle (0.45cm);
+						}
+										
+					}
+				}
+			\end{scope}			
+		\end{tikzpicture}
+		
+		\begin{tikzpicture}[scale=0.75, main, line join=bevel]
+			\clip (-4,-1) rectangle (4,6);
+			\begin{scope}[xshift=-0.5cm]
+				\foreach \i in {1, ..., \n}{
+					\foreach \j in {1,...,\i} {
+						\ifthenelse{\i=\n}{
+							\fill[main] (\j-\i/2,\n-\i) circle (0.45cm);
+						}{
+							\fill[main] (\j-\i/2,\n-\i) circle (0.45cm);
+						}
+						
+					}
+				}
+			\end{scope}			
+		\end{tikzpicture}
+	}
+\end{document}
