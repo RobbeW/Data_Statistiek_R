@@ -1,0 +1,42 @@
+- tab: Feedback
+  testcases:
+  - stdin: "8\n2"
+    stdout: '256'
+  - stdin: "3\n5"
+    stdout: '125'
+  - stdin: "0\n5"
+    stdout: '1'
+  - stdin: "5\n0"
+    stdout: '0'
+  - stdin: "1\n81"
+    stdout: '81'
+  - stdin: "9\n29"
+    stdout: '14507145975869'
+  - stdin: "4\n99"
+    stdout: '96059601'
+  - stdin: "9\n65"
+    stdout: '20711912837890625'
+  - stdin: "9\n93"
+    stdout: '520411082988487293'
+  - stdin: "8\n9"
+    stdout: '43046721'
+  - stdin: "5\n15"
+    stdout: '759375'
+  - stdin: "2\n44"
+    stdout: '1936'
+  - stdin: "0\n63"
+    stdout: '1'
+  - stdin: "0\n98"
+    stdout: '1'
+  - stdin: "5\n92"
+    stdout: '6590815232'
+  - stdin: "3\n61"
+    stdout: '226981'
+  - stdin: "8\n5"
+    stdout: '390625'
+  - stdin: "7\n28"
+    stdout: '13492928512'
+  - stdin: "8\n16"
+    stdout: '4294967296'
+  - stdin: "4\n8"
+    stdout: '4096'
