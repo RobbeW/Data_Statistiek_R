@@ -1,0 +1,102 @@
+- tab: Feedback
+  testcases:
+  - stdin: '1'
+    stdout: "De partieelsom met enkel de eerste term is: 1.0\n"
+  - stdin: '2'
+    stdout: "De partieelsom van de eerste 2 termen is: 1.5\n"
+  - stdin: '3'
+    stdout: "De partieelsom van de eerste 3 termen is: 1.8333\n"
+  - stdin: '4'
+    stdout: "De partieelsom van de eerste 4 termen is: 2.0833\n"
+  - stdin: '5'
+    stdout: "De partieelsom van de eerste 5 termen is: 2.2833\n"
+  - stdin: '6'
+    stdout: "De partieelsom van de eerste 6 termen is: 2.45\n"
+  - stdin: '7'
+    stdout: "De partieelsom van de eerste 7 termen is: 2.5929\n"
+  - stdin: '8'
+    stdout: "De partieelsom van de eerste 8 termen is: 2.7179\n"
+  - stdin: '9'
+    stdout: "De partieelsom van de eerste 9 termen is: 2.829\n"
+  - stdin: '10'
+    stdout: "De partieelsom van de eerste 10 termen is: 2.929\n"
+  - stdin: '11'
+    stdout: "De partieelsom van de eerste 11 termen is: 3.0199\n"
+  - stdin: '12'
+    stdout: "De partieelsom van de eerste 12 termen is: 3.1032\n"
+  - stdin: '13'
+    stdout: "De partieelsom van de eerste 13 termen is: 3.1801\n"
+  - stdin: '14'
+    stdout: "De partieelsom van de eerste 14 termen is: 3.2516\n"
+  - stdin: '15'
+    stdout: "De partieelsom van de eerste 15 termen is: 3.3182\n"
+  - stdin: '16'
+    stdout: "De partieelsom van de eerste 16 termen is: 3.3807\n"
+  - stdin: '17'
+    stdout: "De partieelsom van de eerste 17 termen is: 3.4396\n"
+  - stdin: '18'
+    stdout: "De partieelsom van de eerste 18 termen is: 3.4951\n"
+  - stdin: '19'
+    stdout: "De partieelsom van de eerste 19 termen is: 3.5477\n"
+  - stdin: '20'
+    stdout: "De partieelsom van de eerste 20 termen is: 3.5977\n"
+  - stdin: '21'
+    stdout: "De partieelsom van de eerste 21 termen is: 3.6454\n"
+  - stdin: '22'
+    stdout: "De partieelsom van de eerste 22 termen is: 3.6908\n"
+  - stdin: '23'
+    stdout: "De partieelsom van de eerste 23 termen is: 3.7343\n"
+  - stdin: '24'
+    stdout: "De partieelsom van de eerste 24 termen is: 3.776\n"
+  - stdin: '25'
+    stdout: "De partieelsom van de eerste 25 termen is: 3.816\n"
+  - stdin: '26'
+    stdout: "De partieelsom van de eerste 26 termen is: 3.8544\n"
+  - stdin: '27'
+    stdout: "De partieelsom van de eerste 27 termen is: 3.8915\n"
+  - stdin: '28'
+    stdout: "De partieelsom van de eerste 28 termen is: 3.9272\n"
+  - stdin: '29'
+    stdout: "De partieelsom van de eerste 29 termen is: 3.9617\n"
+  - stdin: '30'
+    stdout: "De partieelsom van de eerste 30 termen is: 3.995\n"
+  - stdin: '31'
+    stdout: "De partieelsom van de eerste 31 termen is: 4.0272\n"
+  - stdin: '32'
+    stdout: "De partieelsom van de eerste 32 termen is: 4.0585\n"
+  - stdin: '33'
+    stdout: "De partieelsom van de eerste 33 termen is: 4.0888\n"
+  - stdin: '34'
+    stdout: "De partieelsom van de eerste 34 termen is: 4.1182\n"
+  - stdin: '35'
+    stdout: "De partieelsom van de eerste 35 termen is: 4.1468\n"
+  - stdin: '36'
+    stdout: "De partieelsom van de eerste 36 termen is: 4.1746\n"
+  - stdin: '37'
+    stdout: "De partieelsom van de eerste 37 termen is: 4.2016\n"
+  - stdin: '38'
+    stdout: "De partieelsom van de eerste 38 termen is: 4.2279\n"
+  - stdin: '39'
+    stdout: "De partieelsom van de eerste 39 termen is: 4.2535\n"
+  - stdin: '40'
+    stdout: "De partieelsom van de eerste 40 termen is: 4.2785\n"
+  - stdin: '41'
+    stdout: "De partieelsom van de eerste 41 termen is: 4.3029\n"
+  - stdin: '42'
+    stdout: "De partieelsom van de eerste 42 termen is: 4.3267\n"
+  - stdin: '43'
+    stdout: "De partieelsom van de eerste 43 termen is: 4.35\n"
+  - stdin: '44'
+    stdout: "De partieelsom van de eerste 44 termen is: 4.3727\n"
+  - stdin: '45'
+    stdout: "De partieelsom van de eerste 45 termen is: 4.3949\n"
+  - stdin: '46'
+    stdout: "De partieelsom van de eerste 46 termen is: 4.4167\n"
+  - stdin: '47'
+    stdout: "De partieelsom van de eerste 47 termen is: 4.438\n"
+  - stdin: '48'
+    stdout: "De partieelsom van de eerste 48 termen is: 4.4588\n"
+  - stdin: '49'
+    stdout: "De partieelsom van de eerste 49 termen is: 4.4792\n"
+  - stdin: '50'
+    stdout: "De partieelsom van de eerste 50 termen is: 4.4992\n"
