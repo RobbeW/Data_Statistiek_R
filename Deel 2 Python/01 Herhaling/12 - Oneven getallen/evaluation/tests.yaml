@@ -1,0 +1,52 @@
+- tab: Feedback
+  testcases:
+  - stdin: "0\n10"
+    stdout: "1\n3\n5\n7\n9\nTussen 0 en 10 zijn er 5 oneven getallen.\n"
+  - stdin: "11\n17"
+    stdout: "13\n15\nTussen 11 en 17 zijn er 2 oneven getallen.\n"
+  - stdin: "11\n15"
+    stdout: "13\nTussen 11 en 15 is er slechts één oneven getal.\n"
+  - stdin: "11\n12"
+    stdout: "Tussen 11 en 12 zijn er geen oneven getallen.\n"
+  - stdin: "46\n57"
+    stdout: "47\n49\n51\n53\n55\nTussen 46 en 57 zijn er 5 oneven getallen.\n"
+  - stdin: "37\n62"
+    stdout: "39\n41\n43\n45\n47\n49\n51\n53\n55\n57\n59\n61\nTussen 37 en 62 zijn\
+      \ er 12 oneven getallen.\n"
+  - stdin: "16\n94"
+    stdout: "17\n19\n21\n23\n25\n27\n29\n31\n33\n35\n37\n39\n41\n43\n45\n47\n49\n\
+      51\n53\n55\n57\n59\n61\n63\n65\n67\n69\n71\n73\n75\n77\n79\n81\n83\n85\n87\n\
+      89\n91\n93\nTussen 16 en 94 zijn er 39 oneven getallen.\n"
+  - stdin: "32\n98"
+    stdout: "33\n35\n37\n39\n41\n43\n45\n47\n49\n51\n53\n55\n57\n59\n61\n63\n65\n\
+      67\n69\n71\n73\n75\n77\n79\n81\n83\n85\n87\n89\n91\n93\n95\n97\nTussen 32 en\
+      \ 98 zijn er 33 oneven getallen.\n"
+  - stdin: "4\n47"
+    stdout: "5\n7\n9\n11\n13\n15\n17\n19\n21\n23\n25\n27\n29\n31\n33\n35\n37\n39\n\
+      41\n43\n45\nTussen 4 en 47 zijn er 21 oneven getallen.\n"
+  - stdin: "7\n19"
+    stdout: "9\n11\n13\n15\n17\nTussen 7 en 19 zijn er 5 oneven getallen.\n"
+  - stdin: "1\n7"
+    stdout: "3\n5\nTussen 1 en 7 zijn er 2 oneven getallen.\n"
+  - stdin: "49\n96"
+    stdout: "51\n53\n55\n57\n59\n61\n63\n65\n67\n69\n71\n73\n75\n77\n79\n81\n83\n\
+      85\n87\n89\n91\n93\n95\nTussen 49 en 96 zijn er 23 oneven getallen.\n"
+  - stdin: "14\n49"
+    stdout: "15\n17\n19\n21\n23\n25\n27\n29\n31\n33\n35\n37\n39\n41\n43\n45\n47\n\
+      Tussen 14 en 49 zijn er 17 oneven getallen.\n"
+  - stdin: "2\n17"
+    stdout: "3\n5\n7\n9\n11\n13\n15\nTussen 2 en 17 zijn er 7 oneven getallen.\n"
+  - stdin: "35\n44"
+    stdout: "37\n39\n41\n43\nTussen 35 en 44 zijn er 4 oneven getallen.\n"
+  - stdin: "4\n7"
+    stdout: "5\nTussen 4 en 7 is er slechts één oneven getal.\n"
+  - stdin: "27\n63"
+    stdout: "29\n31\n33\n35\n37\n39\n41\n43\n45\n47\n49\n51\n53\n55\n57\n59\n61\n\
+      Tussen 27 en 63 zijn er 17 oneven getallen.\n"
+  - stdin: "40\n65"
+    stdout: "41\n43\n45\n47\n49\n51\n53\n55\n57\n59\n61\n63\nTussen 40 en 65 zijn\
+      \ er 12 oneven getallen.\n"
+  - stdin: "11\n19"
+    stdout: "13\n15\n17\nTussen 11 en 19 zijn er 3 oneven getallen.\n"
+  - stdin: "8\n22"
+    stdout: "9\n11\n13\n15\n17\n19\n21\nTussen 8 en 22 zijn er 7 oneven getallen.\n"
