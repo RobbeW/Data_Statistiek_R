@@ -7,7 +7,7 @@ $$
 De bijbehorende **reeks** noemt men logischerwijs de harmonische **reeks**. Het valt eenvoudig te bewijzen dat deze reeks **divergent** is.
 
 $$
-    \mathsf{\sum_{n=1}^{+\inty} \dfrac{1}{n}}
+    \mathsf{\sum_{n=1}^{+\infty} \dfrac{1}{n}}
 $$
 
 ## Opgave
