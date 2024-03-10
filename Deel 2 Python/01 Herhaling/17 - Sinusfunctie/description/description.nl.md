@@ -15,17 +15,17 @@ Schrijf een programma dat twee x-waarden (*kommagetallen*) aan de gebruiker vraa
 Vervolgens onderzoekt je programma of hier een nulpunt van de sinusfunctie tussen zit. Je geeft dit weer en zorgt dat de kleinste x-waarde steeds **eerst** wordt getoond.
 
 #### Voorbeelden
-Bij achtereenvolgende input `0.5` en `1.8` verschijnt er:
+Bij achtereenvolgende invoer `0.5` en `1.8` verschijnt er:
 ```
 Er ligt geen nulpunt tussen 0.5 en 1.8
 ```
 
-Bij achtereenvolgende input `-0.5` en `1.8` verschijnt er:
+Bij achtereenvolgende invoer `-0.5` en `1.8` verschijnt er:
 ```
 Er ligt minstens één nulpunt tussen -0.5 en 1.8
 ```
 
-Bij achtereenvolgende input `3.18` en `-3.18` verschijnt er:
+Bij achtereenvolgende invoer `3.18` en `-3.18` verschijnt er:
 ```
 Er ligt minstens één nulpunt tussen -3.18 en 3.18
 ```
