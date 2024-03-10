@@ -17,7 +17,7 @@ for i in range(6):
     print("Het getal is", i)
 ```
 
-Indien we noteren `range(6)` dan neemt de variablee `i` achtereenvolgend **zes waarden** aan, namelijk `0`, `1`, `2`, `3`, `4` en `5`. Wil je enkel de cijfers van 1 tot en met 5 dan gebruikt men het onderstaande:
+Indien we noteren `range(6)` dan neemt de variablee `i` achtereenvolgens **zes waarden** aan, namelijk `0`, `1`, `2`, `3`, `4` en `5`. Wil je enkel de cijfers van 1 tot en met 5 dan gebruikt men het onderstaande:
 
 ```python
 for i in range(1, 6): # in dit geval begint de lus met 1
@@ -26,7 +26,7 @@ for i in range(1, 6): # in dit geval begint de lus met 1
 
 
 ## Opgave
-Het volgende stukje code berekent het product $$\mathsf{n \cdot x}$$ via een **begrensde herhaling**. In deze herhaling wordt de optelling herhaaldelijk gebruikt: $$\mathsf{n\cdot x = x + x + \ldots + x}$$.
+Het volgende stukje code berekent het product $$\mathsf{n \cdot x}$$ via een **begrensde herhaling**. In deze herhaling wordt de optelling herhaaldelijk gebruikt want $$\mathsf{n\cdot x = x + x + \ldots + x}$$.
 
 ```python
 n = int( input( 'n = ' ) )
