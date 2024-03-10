@@ -13,7 +13,7 @@ b = int( input( 'Geef de volgende waarde in:' ) )
 v = b - a
 print( 1, ':', a )
 print( 2, ':', b )
-for i in range( 10 ):
+for i in range( 8 ):
     b = b + v
     print( i+3, ':', b )
 ```
