@@ -11,10 +11,17 @@
 
 
 \begin{document}
+	\begin{tikzpicture}[scale=0.75, main, line join=bevel]
+		\clip (-4,-1) rectangle (4,6);
+		\draw[main] (2.5,4.5) node [right] {\sffamily \bfseries \LARGE 0};		
+	\end{tikzpicture}
+	
 	\foreach \n in {1,...,6} {
 		\begin{tikzpicture}[scale=0.75, main, line join=bevel]
 			\clip (-4,-1) rectangle (4,6);
-			\ifthenelse{\n = 1}{}{
+			\ifthenelse{\n = 1}{
+				\draw[main] (2.5,4.5) node [right] {\sffamily \bfseries \LARGE 0};
+			}{
 				\draw[main] (2.5,4.5) node [right]{\sffamily \bfseries \LARGE \pgfmathdiv{(\n-1) * (\n)}{2}\pgfmathresult};
 			}
 			\begin{scope}[xshift=-0.5cm]

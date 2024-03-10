@@ -4,9 +4,9 @@ $$
     \mathsf{1,\qquad 3,\qquad 6,\qquad 10,\qquad 15,\qquad 31,\ldots}
 $$
 
-![De eerste 6 driehoeksgetallen.](media/image.png "De eerste 6 driehoeksgetallen."){:data-caption="De eerste 6 driehoeksgetallen." .light-only width="20%"}
+![De eerste 6 driehoeksgetallen.](media/image.png "De eerste 6 driehoeksgetallen."){:data-caption="De eerste 6 driehoeksgetallen." .light-only width="30%"}
 
-![De eerste 6 driehoeksgetallen.](media/image_dark.png "De eerste 6 driehoeksgetallen."){:data-caption="De eerste 6 driehoeksgetallen." .dark-only width="20%"}
+![De eerste 6 driehoeksgetallen.](media/image_dark.png "De eerste 6 driehoeksgetallen."){:data-caption="De eerste 6 driehoeksgetallen." .dark-only width="30%"}
 
 
 ## Opgave
