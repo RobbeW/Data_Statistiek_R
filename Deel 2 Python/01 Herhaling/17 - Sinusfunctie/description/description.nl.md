@@ -12,7 +12,7 @@ $$
 ## Opgave
 Schrijf een programma dat twee x-waarden (*kommagetallen*) aan de gebruiker vraagt (in radialen natuurlijk). 
 
-Vervolgens onderzoekt je programma of hier een nulpunt van de sinusfunctie tussen zit. Je geeft dit weer en zorgt dat de kleinste x-waarde steeds **eerst** wordt getoond. **Opgelet**, je moet de eventuele nulpunten tussen de twee waarden niet bepalen, maar hier in je programma ook geen gebruik van.
+Vervolgens onderzoekt je programma of hier een nulpunt van de sinusfunctie tussen zit. Je geeft dit weer en zorgt dat de kleinste x-waarde steeds **eerst** wordt getoond. **Opgelet**, je moet de eventuele nulpunten tussen de twee waarden niet bepalen, maak hier in je programma dan ook **geen gebruik** van.
 
 #### Voorbeelden
 Bij achtereenvolgende invoer `0.5` en `1.8` verschijnt er:
