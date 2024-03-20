@@ -4,7 +4,7 @@ Naast een classificatie op basis van zijden kan je een driehoek ook onderverdele
 
 {: .callout.callout-secondary}
 > #### Classificatie op basis van hoeken
-> Indien in een driehoek met langste zijde $$x$$ en andere zijden $$y$$ en $$z$$ geldt dat $$x^2 < y^2+z^2$$ dan is de driehoek scherphoekig. Indien $$x^2=y^2+z^2$$ of $$x^2 > y^2+z^2$$, dan is de driehoek respectievelijk rechthoekig of stomphoekig.
+> Indien in een driehoek met langste zijde $$\mathsf{x}$$ en andere zijden $$\mathsf{y}$$ en $$\mathsf{z}$$ geldt dat $$\mathsf{x^2 < y^2+z^2}$$ dan is de driehoek scherphoekig. Indien $$\mathsf{x^2=y^2+z^2}$$ of $$\mathsf{x^2 > y^2+z^2}$$, dan is de driehoek respectievelijk rechthoekig of stomphoekig.
 
 ## Opgave
 Schrijf een programma dat de drie zijden van een driehoek vraagt en vervolgens op het scherm de classificatie van de driehoek weergeeft.
