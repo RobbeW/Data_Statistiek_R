@@ -24,21 +24,33 @@ $$
 Is de graad van de teller één hoger dan de graad van de noemer, dan bepaalt men met de formules van <a href="https://nl.wikipedia.org/wiki/Augustin_Louis_Cauchy" target="_blank">Cauchy</a> de rico $$\mathsf{a}$$ en constante $$\mathsf{b}$$ van de bijbehorende schuine asymptoot.
 
 $$
-\mathsf{\lim_{x\to\pm \infty}\dfrac{f(x)}{x} = a, \qquad \qquad \lim_{x\to\pm \infty}f(x) - ax = b}
+\mathsf{\lim_{x\to\pm \infty}\dfrac{f(x)}{x} = a, \qquad \qquad \lim_{x\to\pm \infty} [f(x) - ax] = b}
 $$
 
-![De richtingscoëfficient bepalen.](media/image.png "De richtingscoëfficient bepalen."){:data-caption="De richtingscoëfficient bepalen." .light-only width="55%"}
+![Een rationale functie met schuine asymptoot.](media/image.png "Een rationale functie met schuine asymptoot."){:data-caption="Een rationale functie met schuine asymptoot." .light-only width="55%"}
 
-![De richtingscoëfficient bepalen.](media/image_dark.png "EDe richtingscoëfficient bepalen."){:data-caption="De richtingscoëfficient bepalen." .dark-only width="55%"}
+![Een rationale functie met schuine asymptoot.](media/image_dark.png "Een rationale functie met schuine asymptoot."){:data-caption="Een rationale functie met schuine asymptoot." .dark-only width="55%"}
 
 ## Opgave
-Schrijf een programma dat achtereenvolgens de **graad** van teller en noemer bevraagt, **daarna** worden de **hoogstegraadscoëfficienten** uit teller en noemer gevraagd.
+Schrijf een programma dat achtereenvolgens de **graad** van teller en noemer bevraagt, **daarna** worden (in volgorde) de **hoogstegraadscoëfficienten** uit teller en noemer gevraagd.
 
-Geef vervolgens weer of er een horizontale dan wel een schuine asymptoot aanwezig is. Geef ook meer details over deze asymptoot.
+Geef vervolgens weer of er een horizontale dan wel een schuine asymptoot aanwezig is. Geef ook meer details, zoals de vergelijking of rico, van deze asymptoot. Rond de kommagetallen af op 4 decimalen.
 
 #### Voorbeelden
-Indien het eerste punt als coördinaat (`1`, `3`) en het tweede punt als coördinaat (`5`, `1`) heeft, dan verschijnt er:
+
+Voor een functie $$\mathsf{f(x) = \dfrac{2x^2+1}{5x}}$$ verschijnt er:
+
 ```
-De rico van de rechte door deze punten is -0.5
-Deze rechte is dalend.
+0.4 is de rico van de schuine asymptoot.
+```
+
+Voor een functie $$\mathsf{f(x) = \dfrac{2x^2+1}{5x^4}}$$ verschijnt er:
+
+```
+De x-as is een horizontale asymptoot.
+```
+
+Voor een functie $$\mathsf{f(x) = \dfrac{2x^2+1}{3x^2}}$$ verschijnt er:
+```
+y = 0.6667 is de vergelijking van de horizontale asymptoot.
 ```
