@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "1\n3\n-3\n5"
+      stdout: "De rico van de rechte door deze punten is -0.5\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "1\n3\n-3\n3"
+      stdout: "De rico van de rechte door deze punten is -0.0\nDeze rechte is horizontaal."
+  - testcases:
+    - stdin: "-4\n1\n4\n-1"
+      stdout: "De rico van de rechte door deze punten is -0.25\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "-14\n20\n17\n-6"
+      stdout: "De rico van de rechte door deze punten is -0.84\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "-4\n18\n12\n17"
+      stdout: "De rico van de rechte door deze punten is -0.06\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "12\n-16\n1\n-13"
+      stdout: "De rico van de rechte door deze punten is -0.27\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "-11\n2\n-19\n11"
+      stdout: "De rico van de rechte door deze punten is -1.12\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "-18\n3\n-6\n10"
+      stdout: "De rico van de rechte door deze punten is 0.58\nDeze rechte is stijgend."
+  - testcases:
+    - stdin: "14\n-18\n9\n-6"
+      stdout: "De rico van de rechte door deze punten is -2.4\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "15\n-12\n-4\n-16"
+      stdout: "De rico van de rechte door deze punten is 0.21\nDeze rechte is stijgend."
+  - testcases:
+    - stdin: "3\n-18\n7\n-3"
+      stdout: "De rico van de rechte door deze punten is 3.75\nDeze rechte is stijgend."
+  - testcases:
+    - stdin: "15\n20\n-1\n4"
+      stdout: "De rico van de rechte door deze punten is 1.0\nDeze rechte is stijgend."
+  - testcases:
+    - stdin: "-9\n-17\n-12\n-5"
+      stdout: "De rico van de rechte door deze punten is -4.0\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "-7\n14\n5\n11"
+      stdout: "De rico van de rechte door deze punten is -0.25\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "-9\n13\n17\n9"
+      stdout: "De rico van de rechte door deze punten is -0.15\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "-17\n3\n18\n-6"
+      stdout: "De rico van de rechte door deze punten is -0.26\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "-11\n-14\n8\n-11"
+      stdout: "De rico van de rechte door deze punten is 0.16\nDeze rechte is stijgend."
+  - testcases:
+    - stdin: "5\n-5\n-7\n13"
+      stdout: "De rico van de rechte door deze punten is -1.5\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "-3\n-7\n-16\n5"
+      stdout: "De rico van de rechte door deze punten is -0.92\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "-6\n19\n9\n-18"
+      stdout: "De rico van de rechte door deze punten is -2.47\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "0\n20\n5\n6"
+      stdout: "De rico van de rechte door deze punten is -2.8\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "-4\n3\n19\n-4"
+      stdout: "De rico van de rechte door deze punten is -0.3\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "-1\n-8\n0\n7"
+      stdout: "De rico van de rechte door deze punten is 15.0\nDeze rechte is stijgend."
+  - testcases:
+    - stdin: "-13\n14\n0\n-14"
+      stdout: "De rico van de rechte door deze punten is -2.15\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "-8\n10\n-14\n2"
+      stdout: "De rico van de rechte door deze punten is 1.33\nDeze rechte is stijgend."
+  - testcases:
+    - stdin: "-5\n-2\n13\n19"
+      stdout: "De rico van de rechte door deze punten is 1.17\nDeze rechte is stijgend."
+  - testcases:
+    - stdin: "5\n-17\n-8\n-3"
+      stdout: "De rico van de rechte door deze punten is -1.08\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "-6\n-20\n19\n11"
+      stdout: "De rico van de rechte door deze punten is 1.24\nDeze rechte is stijgend."
+  - testcases:
+    - stdin: "1\n5\n1\n-10"
+      stdout: Deze rechte heeft geen rico!
+  - testcases:
+    - stdin: "11\n-14\n9\n-5"
+      stdout: "De rico van de rechte door deze punten is -4.5\nDeze rechte is dalend."

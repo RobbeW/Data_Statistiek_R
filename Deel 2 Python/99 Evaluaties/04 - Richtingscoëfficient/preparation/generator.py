@@ -77,9 +77,9 @@ for i in range(len(cases)):
     for line in result_lines:
         if not(line.startswith( 'Geef' )):
             print(line)
-            outputtxt += line
+            outputtxt += line + "\n"
             
-    testcase = { input: stdin, output: outputtxt }            
+    testcase = { input: stdin, output: outputtxt[:-1] }            
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
 
 write_yaml(yamldata)
