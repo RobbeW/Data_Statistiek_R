@@ -1,0 +1,40 @@
+\documentclass[dvipsnames,tikz]{standalone}
+\usepackage{amsmath}
+\usepackage{arevmath}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
+\usetikzlibrary{lindenmayersystems}
+\usepackage{pgfplots}
+\pgfplotsset{compat = newest}
+
+\tikzset{main/.style={draw=black, color=black}}
+
+
+\begin{document}
+	\begin{tikzpicture}[xscale=0.5, font=\small, tl/.style = {black, inner sep=1pt, font=\scriptsize} ]
+		% grid
+		\draw[main, very thin, xstep=0.5235, ystep=0.5, semitransparent] (-13,-3.8) grid (13,2.8);
+		
+		% y tick label
+		%\foreach \y in {-1, 1}{\node[tl,left=1mm] at (0,\y) {$\y$};}
+		% x tick label
+		\foreach \x [count=\xx from -3] in {
+			-3\pi,
+			-2\pi,          %-\frac{11\pi}{2}, -\frac{5\pi}{3},
+			-\pi,           %-\frac{5\pi}{6},  -\frac{2\pi}{3},
+			{ },
+			%\frac{\pi}{6},  \frac{\pi}{3},   
+			%\frac{2\pi}{3}, \frac{5\pi}{6},
+			\pi,           %-\frac{7\pi}{6},   \frac{4\pi}{3},
+			2\pi,
+			3\pi
+		}{\node[tl,below=1mm] at (3*1.0472*\xx,0) {$\x$};}
+		% axes
+		\draw[main, ->,very thick] (-13,0) -- (13,0) node[above right] {$x$};
+		\draw[main, ->,very thick] (0,-3.8) -- (0, 2.8) node[above left] {$y$};
+		% curve
+		\draw[yscale=0.33,thick,PineGreen, draw=PineGreen,	domain=-12.5:12.5,samples=300,variable=\x] plot(\x,{sin(deg{\x})*\x}) node [below right] {$y=f(x)$};
+	\end{tikzpicture}
+\end{document}
