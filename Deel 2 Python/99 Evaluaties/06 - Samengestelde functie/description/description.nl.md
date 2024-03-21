@@ -4,9 +4,9 @@ $$
 \mathsf{f(x) = x\cdot sin(x)}
 $$
 
-![Samengestelde functie.](media/image.png "Samengestelde functie."){:data-caption="Samengestelde functie." .light-only width="95%"}
+![Samengestelde functie.](media/image.png "Samengestelde functie."){:data-caption="Samengestelde functie." .light-only width="75%"}
 
-![Samengestelde functie.](media/image_dark.png "Samengestelde functie."){:data-caption="Samengestelde functie." .dark-only width="95%"}
+![Samengestelde functie.](media/image_dark.png "Samengestelde functie."){:data-caption="Samengestelde functie." .dark-only width="75%"}
 
 ## Opgave
 Schrijf een programma dat twee x-waarden (*kommagetallen*) aan de gebruiker vraagt (in radialen natuurlijk). 
