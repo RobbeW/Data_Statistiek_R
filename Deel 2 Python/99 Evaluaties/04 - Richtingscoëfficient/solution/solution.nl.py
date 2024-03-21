@@ -1,5 +1,3 @@
-import math
-
 # invoer
 x1 = int(input())
 y1 = int(input())
