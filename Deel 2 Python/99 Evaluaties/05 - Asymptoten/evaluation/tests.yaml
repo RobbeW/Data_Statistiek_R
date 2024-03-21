@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "2\n1\n2\n5"
+      stdout: 0.4 is de rico van de schuine asymptoot.
+  - testcases:
+    - stdin: "2\n4\n2\n5"
+      stdout: De x-as is een horizontale asymptoot.
+  - testcases:
+    - stdin: "2\n2\n2\n3"
+      stdout: y = 0.6667 is de vergelijking van de horizontale asymptoot.
+  - testcases:
+    - stdin: "0\n0\n5\n2"
+      stdout: y = 2.5 is de vergelijking van de horizontale asymptoot.
+  - testcases:
+    - stdin: "0\n1\n0\n5"
+      stdout: De x-as is een horizontale asymptoot.
+  - testcases:
+    - stdin: "3\n5\n17\n-6"
+      stdout: De x-as is een horizontale asymptoot.
+  - testcases:
+    - stdin: "8\n11\n18\n12"
+      stdout: De x-as is een horizontale asymptoot.
+  - testcases:
+    - stdin: "18\n20\n12\n-16"
+      stdout: De x-as is een horizontale asymptoot.
+  - testcases:
+    - stdin: "10\n7\n-11\n2"
+      stdout: Er is geen horizontale, noch een schuine asymptoot.
+  - testcases:
+    - stdin: "0\n0\n-18\n3"
+      stdout: y = -6.0 is de vergelijking van de horizontale asymptoot.
+  - testcases:
+    - stdin: "7\n7\n14\n-18"
+      stdout: y = -0.7778 is de vergelijking van de horizontale asymptoot.
+  - testcases:
+    - stdin: "14\n12\n15\n-12"
+      stdout: Er is geen horizontale, noch een schuine asymptoot.
+  - testcases:
+    - stdin: "8\n5\n3\n-18"
+      stdout: Er is geen horizontale, noch een schuine asymptoot.
+  - testcases:
+    - stdin: "13\n16\n-3\n15"
+      stdout: De x-as is een horizontale asymptoot.
+  - testcases:
+    - stdin: "20\n19\n4\n-9"
+      stdout: -0.4444 is de rico van de schuine asymptoot.
+  - testcases:
+    - stdin: "1\n-1\n-5\n-7"
+      stdout: Er is geen horizontale, noch een schuine asymptoot.
+  - testcases:
+    - stdin: "17\n17\n11\n-9"
+      stdout: y = -1.2222 is de vergelijking van de horizontale asymptoot.
+  - testcases:
+    - stdin: "16\n17\n9\n-17"
+      stdout: De x-as is een horizontale asymptoot.
+  - testcases:
+    - stdin: "11\n12\n-6\n-11"
+      stdout: De x-as is een horizontale asymptoot.
+  - testcases:
+    - stdin: "3\n3\n-11\n5"
+      stdout: y = -2.2 is de vergelijking van de horizontale asymptoot.
+  - testcases:
+    - stdin: "7\n10\n-7\n13"
+      stdout: De x-as is een horizontale asymptoot.
+  - testcases:
+    - stdin: "8\n10\n-7\n-16"
+      stdout: De x-as is een horizontale asymptoot.
+  - testcases:
+    - stdin: "12\n10\n19\n9"
+      stdout: Er is geen horizontale, noch een schuine asymptoot.
+  - testcases:
+    - stdin: "1\n3\n0\n20"
+      stdout: De x-as is een horizontale asymptoot.
+  - testcases:
+    - stdin: "12\n12\n-4\n3"
+      stdout: y = -1.3333 is de vergelijking van de horizontale asymptoot.
+  - testcases:
+    - stdin: "19\n21\n-4\n-1"
+      stdout: De x-as is een horizontale asymptoot.
+  - testcases:
+    - stdin: "6\n5\n7\n-13"
+      stdout: -0.5385 is de rico van de schuine asymptoot.
+  - testcases:
+    - stdin: "17\n16\n-14\n-8"
+      stdout: 1.75 is de rico van de schuine asymptoot.
+  - testcases:
+    - stdin: "20\n20\n-14\n2"
+      stdout: y = -7.0 is de vergelijking van de horizontale asymptoot.
+  - testcases:
+    - stdin: "7\n10\n-2\n13"
+      stdout: De x-as is een horizontale asymptoot.
