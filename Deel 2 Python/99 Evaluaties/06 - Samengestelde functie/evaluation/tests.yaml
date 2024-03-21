@@ -2,61 +2,81 @@
   contexts:
   - testcases:
     - stdin: "0.5\n1.8"
-      stdout: Er ligt geen nulpunt tussen 0.5 en 1.8
+      stdout: "Er ligt geen nulpunt tussen 0.5 en 1.8\nDe kleinste x-coördinaat heeft\
+        \ beeld: 0.23971\nDe grootste x-coördinaat heeft beeld: 1.75293"
   - testcases:
     - stdin: "-0.5\n1.8"
-      stdout: Er ligt minstens één nulpunt tussen -0.5 en 1.8
+      stdout: "Er ligt minstens één nulpunt tussen -0.5 en 1.8\nDe kleinste x-coördinaat\
+        \ heeft beeld: 0.23971\nDe grootste x-coördinaat heeft beeld: 1.75293"
   - testcases:
     - stdin: "-0.5\n0.5"
-      stdout: Er ligt minstens één nulpunt tussen -0.5 en 0.5
+      stdout: "Er ligt minstens één nulpunt tussen -0.5 en 0.5\nDe kleinste x-coördinaat\
+        \ heeft beeld: 0.23971\nDe grootste x-coördinaat heeft beeld: 0.23971"
   - testcases:
     - stdin: "1.35\n-2.58"
-      stdout: Er ligt minstens één nulpunt tussen -2.58 en 1.35
+      stdout: "Er ligt minstens één nulpunt tussen -2.58 en 1.35\nDe kleinste x-coördinaat\
+        \ heeft beeld: 1.37394\nDe grootste x-coördinaat heeft beeld: 1.31723"
   - testcases:
     - stdin: "-3.18\n3.18"
-      stdout: Er ligt minstens één nulpunt tussen -3.18 en 3.18
+      stdout: "Er ligt minstens één nulpunt tussen -3.18 en 3.18\nDe kleinste x-coördinaat\
+        \ heeft beeld: -0.12211\nDe grootste x-coördinaat heeft beeld: -0.12211"
   - testcases:
     - stdin: "0.1\n3.1"
-      stdout: Er ligt geen nulpunt tussen 0.1 en 3.1
+      stdout: "Er ligt geen nulpunt tussen 0.1 en 3.1\nDe kleinste x-coördinaat heeft\
+        \ beeld: 0.00998\nDe grootste x-coördinaat heeft beeld: 0.1289"
   - testcases:
     - stdin: "3.1\n0.1"
-      stdout: Er ligt geen nulpunt tussen 0.1 en 3.1
+      stdout: "Er ligt geen nulpunt tussen 0.1 en 3.1\nDe kleinste x-coördinaat heeft\
+        \ beeld: 0.00998\nDe grootste x-coördinaat heeft beeld: 0.1289"
   - testcases:
     - stdin: "-6\n-3.2"
-      stdout: Er ligt geen nulpunt tussen -6.0 en -3.2
+      stdout: "Er ligt geen nulpunt tussen -6.0 en -3.2\nDe kleinste x-coördinaat\
+        \ heeft beeld: -1.67649\nDe grootste x-coördinaat heeft beeld: -0.1868"
   - testcases:
     - stdin: "5.73\n3.46"
-      stdout: Er ligt geen nulpunt tussen 3.46 en 5.73
+      stdout: "Er ligt geen nulpunt tussen 3.46 en 5.73\nDe kleinste x-coördinaat\
+        \ heeft beeld: -1.08317\nDe grootste x-coördinaat heeft beeld: -3.01054"
   - testcases:
     - stdin: "-7.05\n-6.43"
-      stdout: Er ligt geen nulpunt tussen -7.05 en -6.43
+      stdout: "Er ligt geen nulpunt tussen -7.05 en -6.43\nDe kleinste x-coördinaat\
+        \ heeft beeld: 4.89161\nDe grootste x-coördinaat heeft beeld: 0.94063"
   - testcases:
     - stdin: "2.76\n2.25"
-      stdout: Er ligt geen nulpunt tussen 2.25 en 2.76
+      stdout: "Er ligt geen nulpunt tussen 2.25 en 2.76\nDe kleinste x-coördinaat\
+        \ heeft beeld: 1.75066\nDe grootste x-coördinaat heeft beeld: 1.02782"
   - testcases:
     - stdin: "10.69\n-10.99"
-      stdout: Er ligt minstens één nulpunt tussen -10.99 en 10.69
+      stdout: "Er ligt minstens één nulpunt tussen -10.99 en 10.69\nDe kleinste x-coördinaat\
+        \ heeft beeld: -10.98983\nDe grootste x-coördinaat heeft beeld: -10.19478"
   - testcases:
     - stdin: "-4.28\n-9.13"
-      stdout: Er ligt minstens één nulpunt tussen -9.13 en -4.28
+      stdout: "Er ligt minstens één nulpunt tussen -9.13 en -4.28\nDe kleinste x-coördinaat\
+        \ heeft beeld: 2.65252\nDe grootste x-coördinaat heeft beeld: -3.8861"
   - testcases:
     - stdin: "8.85\n-12.39"
-      stdout: Er ligt minstens één nulpunt tussen -12.39 en 8.85
+      stdout: "Er ligt minstens één nulpunt tussen -12.39 en 8.85\nDe kleinste x-coördinaat\
+        \ heeft beeld: -2.17392\nDe grootste x-coördinaat heeft beeld: 4.81129"
   - testcases:
     - stdin: "11.97\n-0.14"
-      stdout: Er ligt minstens één nulpunt tussen -0.14 en 11.97
+      stdout: "Er ligt minstens één nulpunt tussen -0.14 en 11.97\nDe kleinste x-coördinaat\
+        \ heeft beeld: 0.01954\nDe grootste x-coördinaat heeft beeld: -6.72287"
   - testcases:
     - stdin: "7.0\n8.8"
-      stdout: Er ligt geen nulpunt tussen 7.0 en 8.8
+      stdout: "Er ligt geen nulpunt tussen 7.0 en 8.8\nDe kleinste x-coördinaat heeft\
+        \ beeld: 4.59891\nDe grootste x-coördinaat heeft beeld: 5.14727"
   - testcases:
     - stdin: "5.75\n-7.15"
-      stdout: Er ligt minstens één nulpunt tussen -7.15 en 5.75
+      stdout: "Er ligt minstens één nulpunt tussen -7.15 en 5.75\nDe kleinste x-coördinaat\
+        \ heeft beeld: 5.45024\nDe grootste x-coördinaat heeft beeld: -2.9226"
   - testcases:
     - stdin: "1.07\n-1.11"
-      stdout: Er ligt minstens één nulpunt tussen -1.11 en 1.07
+      stdout: "Er ligt minstens één nulpunt tussen -1.11 en 1.07\nDe kleinste x-coördinaat\
+        \ heeft beeld: 0.99423\nDe grootste x-coördinaat heeft beeld: 0.9386"
   - testcases:
     - stdin: "1.27\n-6.36"
-      stdout: Er ligt minstens één nulpunt tussen -6.36 en 1.27
+      stdout: "Er ligt minstens één nulpunt tussen -6.36 en 1.27\nDe kleinste x-coördinaat\
+        \ heeft beeld: 0.48806\nDe grootste x-coördinaat heeft beeld: 1.21298"
   - testcases:
     - stdin: "-3.32\n-1.87"
-      stdout: Er ligt minstens één nulpunt tussen -3.32 en -1.87
+      stdout: "Er ligt minstens één nulpunt tussen -3.32 en -1.87\nDe kleinste x-coördinaat\
+        \ heeft beeld: -0.58918\nDe grootste x-coördinaat heeft beeld: 1.78692"
