@@ -7,6 +7,12 @@
     - stdin: "-0.5\n1.8"
       stdout: Er ligt minstens één nulpunt tussen -0.5 en 1.8
   - testcases:
+    - stdin: "-0.5\n0.5"
+      stdout: Er ligt minstens één nulpunt tussen -0.5 en 0.5
+  - testcases:
+    - stdin: "1.35\n-2.58"
+      stdout: Er ligt minstens één nulpunt tussen -2.58 en 1.35
+  - testcases:
     - stdin: "-3.18\n3.18"
       stdout: Er ligt minstens één nulpunt tussen -3.18 en 3.18
   - testcases:
@@ -54,9 +60,3 @@
   - testcases:
     - stdin: "-3.32\n-1.87"
       stdout: Er ligt minstens één nulpunt tussen -3.32 en -1.87
-  - testcases:
-    - stdin: "-5.86\n8.6"
-      stdout: Er ligt minstens één nulpunt tussen -5.86 en 8.6
-  - testcases:
-    - stdin: "12.59\n-3.06"
-      stdout: Er ligt minstens één nulpunt tussen -3.06 en 12.59

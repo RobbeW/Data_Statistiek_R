@@ -34,7 +34,7 @@ spec.loader.exec_module(module)
 
 # generate test data
 ntests= 20
-cases = [(0.5,1.8), (-0.5,1.8), (-3.18,3.18), (0.1,3.1), (3.1,0.1),(-6,-3.2)]
+cases = [(0.5,1.8), (-0.5,1.8), (-0.5,0.5), (1.35,-2.58), (-3.18,3.18), (0.1,3.1), (3.1,0.1),(-6,-3.2)]
 
 while len(cases) < ntests:
     x_a = round(random.uniform(-13,13), 2)
