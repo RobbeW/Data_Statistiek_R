@@ -1,11 +1,14 @@
 - tab: Feedback
   contexts:
   - testcases:
-    - stdin: "1\n3\n-3\n5"
+    - stdin: "1\n3\n5\n1"
+      stdout: "De rico van de rechte door deze punten is -0.5\nDeze rechte is dalend."
+  - testcases:
+    - stdin: "5\n1\n1\n3"
       stdout: "De rico van de rechte door deze punten is -0.5\nDeze rechte is dalend."
   - testcases:
     - stdin: "1\n3\n-3\n3"
-      stdout: "De rico van de rechte door deze punten is -0.0\nDeze rechte is horizontaal."
+      stdout: "De rico van de rechte door deze punten is 0\nDeze rechte is horizontaal."
   - testcases:
     - stdin: "-4\n1\n4\n-1"
       stdout: "De rico van de rechte door deze punten is -0.25\nDeze rechte is dalend."
@@ -87,6 +90,3 @@
   - testcases:
     - stdin: "1\n5\n1\n-10"
       stdout: Deze rechte heeft geen rico!
-  - testcases:
-    - stdin: "11\n-14\n9\n-5"
-      stdout: "De rico van de rechte door deze punten is -4.5\nDeze rechte is dalend."
