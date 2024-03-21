@@ -2,7 +2,7 @@
 
 Naast een classificatie op basis van zijden kan je een driehoek ook onderverdelen op basis van de hoeken. De driehoek kan namelijk scherphoekig, rechthoekig of stomphoekig zijn.
 
-{: .callout.callout-secondary}
+{: .callout.callout-success}
 > #### Classificatie op basis van hoeken
 > Indien in een driehoek met langste zijde $$\mathsf{x}$$ en andere zijden $$\mathsf{y}$$ en $$\mathsf{z}$$ geldt dat $$\mathsf{x^2 < y^2+z^2}$$ dan is de driehoek scherphoekig. Indien $$\mathsf{x^2=y^2+z^2}$$ of $$\mathsf{x^2 > y^2+z^2}$$, dan is de driehoek respectievelijk rechthoekig of stomphoekig.
 
