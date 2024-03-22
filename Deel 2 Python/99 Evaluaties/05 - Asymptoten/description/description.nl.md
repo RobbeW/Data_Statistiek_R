@@ -9,7 +9,7 @@ Een rationale functie wordt als volgt gedefinieerd:
 > waarbij $$\mathsf{g(x)}$$ en $$\mathsf{h(x)}$$ veeltermfuncties zijn en $$\mathsf{h(x)}$$ verschillend van de nulfunctie.
 
 
-Een rationale functie kan, zoals wel weten, **asymptoten** hebben. De graad van de veeltermen in teller en noemer zijn hiervoor bepalend. Is de graad van de veelterm in de noemer groter dan deze in de teller dan geldt:
+Een rationale functie kan, zoals jullie wel weten, **asymptoten** hebben. De **graad** van de veeltermen in teller en noemer zijn hiervoor **bepalend**. Is de graad van de veelterm in de noemer groter dan deze in de teller dan geldt:
 
 $$\mathsf{\lim_{x\to\pm \infty}f(x) = 0}$$
 
@@ -25,6 +25,12 @@ Is de graad van de teller één hoger dan de graad van de noemer, dan bepaalt me
 
 $$
 \mathsf{\lim_{x\to\pm \infty}\dfrac{f(x)}{x} = a, \qquad \qquad \lim_{x\to\pm \infty} [f(x) - ax] = b}
+$$
+
+Voor de rationale functie $$\mathsf{f(x) = \dfrac{2x^2+1}{5x}}$$ geldt er dat de rico $$\mathsf{\dfrac{2}{5}}$$ is, want:
+
+$$
+\mathsf{\lim_{x\to\pm \infty}\dfrac{f(x)}{x} = \lim_{x\to \pm \infty} \dfrac{2x^2+1}{5x^2} = \dfrac{2}{5}}
 $$
 
 ![Een rationale functie met schuine asymptoot.](media/image.png "Een rationale functie met schuine asymptoot."){:data-caption="Een rationale functie met schuine asymptoot." .light-only width="65%"}
