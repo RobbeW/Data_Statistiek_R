@@ -27,7 +27,7 @@ $$
 \mathsf{\lim_{x\to\pm \infty}\dfrac{f(x)}{x} = a, \qquad \qquad \lim_{x\to\pm \infty} [f(x) - ax] = b}
 $$
 
-Voor de rationale functie $$\mathsf{f(x) = \dfrac{2x^2+1}{5x}}$$ geldt er dat de rico $$\mathsf{\dfrac{2}{5}}$$ is, want:
+Voor de rationale functie $$\mathsf{f(x) = \dfrac{2x^2+1}{5x}}$$ geldt er dat de rico van de schuine asymptoot $$\mathsf{\dfrac{2}{5}}$$ is, want:
 
 $$
 \mathsf{\lim_{x\to\pm \infty}\dfrac{f(x)}{x} = \lim_{x\to \pm \infty} \dfrac{2x^2+1}{5x^2} = \dfrac{2}{5}}
