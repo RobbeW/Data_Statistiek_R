@@ -43,6 +43,10 @@ while len( cases ) < ntests:
     d = random.randint(-20, 20)
     cases.append( ( a, b, c, d ) )
     
+cases.append( (-3, 5, -3, 6) )
+cases.append( (13, 3, 13, -3) )
+cases.append( (10, -5, 10, -6) )
+
 # generate unit tests for functions
 yamldata = []
 
