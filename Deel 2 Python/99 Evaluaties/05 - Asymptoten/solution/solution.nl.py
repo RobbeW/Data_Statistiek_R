@@ -12,6 +12,6 @@ elif m == n:
     print("y =", round(verhouding, 4), "is de vergelijking van de horizontale asymptoot.")
 elif m + 1 == n:
     verhouding = a / b
-    print(round(verhouding, 4), "is de rico van de schuine asymptoot.")
+    print("Er is een schuine asymptoot.")
 else:
     print("Er is geen horizontale, noch een schuine asymptoot.")

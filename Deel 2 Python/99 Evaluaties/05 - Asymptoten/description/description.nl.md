@@ -21,17 +21,7 @@ $$
 \mathsf{\lim_{x\to\pm \infty}f(x) = \dfrac{2}{3}}
 $$
 
-Is de graad van de teller één hoger dan de graad van de noemer, dan bepaalt men met de formules van <a href="https://nl.wikipedia.org/wiki/Augustin_Louis_Cauchy" target="_blank">Cauchy</a> de rico $$\mathsf{a}$$ en constante $$\mathsf{b}$$ van de bijbehorende schuine asymptoot.
-
-$$
-\mathsf{\lim_{x\to\pm \infty}\dfrac{f(x)}{x} = a, \qquad \qquad \lim_{x\to\pm \infty} [f(x) - ax] = b}
-$$
-
-Voor de rationale functie $$\mathsf{f(x) = \dfrac{2x^2+1}{5x}}$$ geldt er dat de rico van de schuine asymptoot $$\mathsf{\dfrac{2}{5}}$$ is, want:
-
-$$
-\mathsf{\lim_{x\to\pm \infty}\dfrac{f(x)}{x} = \lim_{x\to \pm \infty} \dfrac{2x^2+1}{5x^2} = \dfrac{2}{5}}
-$$
+Is de graad van de teller één hoger dan de graad van de noemer, dan is er een schuine asymptoot. Er geldt bijvoorbeeld dat de rationale functie $$\mathsf{f(x) = \dfrac{2x^2+1}{5x}}$$ als schuine asymptoot de rechte met als vergelijking $$\mathsf{y = \dfrac{2}{5}x}$$ heeft.
 
 ![Een rationale functie met schuine asymptoot.](media/image.png "Een rationale functie met schuine asymptoot."){:data-caption="Een rationale functie met schuine asymptoot." .light-only width="65%"}
 
@@ -40,14 +30,14 @@ $$
 ## Opgave
 Schrijf een programma dat achtereenvolgens de **graad** van teller en noemer bevraagt, **daarna** worden (in volgorde) de **hoogstegraadscoëfficienten** uit teller en noemer gevraagd.
 
-Geef vervolgens weer of er een horizontale dan wel een schuine asymptoot aanwezig is. Geef ook meer details, zoals de vergelijking of rico, van deze asymptoot. Rond de kommagetallen af op 4 decimalen.
+Geef vervolgens weer of er een horizontale dan wel een schuine asymptoot aanwezig is. Geef indien mogelijk meer details, zoals de vergelijking van deze asymptoot. Rond de kommagetallen af op 4 decimalen.
 
 #### Voorbeelden
 
 Voor een functie $$\mathsf{f(x) = \dfrac{2x^2+1}{5x}}$$ verschijnt er:
 
 ```
-0.4 is de rico van de schuine asymptoot.
+Er is een schuine asymptoot.
 ```
 
 Voor een functie $$\mathsf{f(x) = \dfrac{2x^2+1}{5x^4}}$$ verschijnt er:
@@ -60,3 +50,7 @@ Voor een functie $$\mathsf{f(x) = \dfrac{2x^2+1}{3x^2}}$$ verschijnt er:
 ```
 y = 0.6667 is de vergelijking van de horizontale asymptoot.
 ```
+
+{: .callout.callout-info}
+>#### Tip
+> Er zijn ook rationale functies geen horizontale, noch een schuine asymptoot hebben.
