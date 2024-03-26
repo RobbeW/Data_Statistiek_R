@@ -19,10 +19,30 @@
 			
 			\tdplotsetrotatedcoords{0}{0}{\i}
 			%\tdplotdrawarc[BurntOrange, tdplot_rotated_coords]{(0,0,-0.333)}{0.92}{0}{360}{}{};
-			
-			\draw[main, tdplot_rotated_coords] (0,0,1) -- (0.94280,0,-0.333) -- (-0.47140,0.816496,-0.3333)-- (-0.47140,-0.816496,-0.3333) -- cycle;
-			\draw[main, tdplot_rotated_coords] (0,0,1) -- (-0.47140,0.816496,-0.3333);
-			\draw[main, tdplot_rotated_coords] (0.94280,0,-0.333) -- (-0.47140,-0.816496,-0.3333);
+				
+			\ifthenelse{\i < 59}{
+				\draw[main, tdplot_rotated_coords] (-0.47140,-0.816496,-0.3333) -- (0.94280,0,-0.333) -- (-0.47140,0.816496,-0.3333);
+				\draw[main, densely dotted, tdplot_rotated_coords] (-0.47140,-0.816496,-0.3333) -- (-0.47140,0.816496,-0.3333);
+				
+				\draw[main, tdplot_rotated_coords] (0,0,1) -- (-0.47140,0.816496,-0.3333);
+				\draw[main, tdplot_rotated_coords] (0.94280,0,-0.333) -- (0,0,1)  -- (-0.47140,-0.816496,-0.333);
+			}{
+				\ifthenelse{\i < 101}{
+					\draw[main, tdplot_rotated_coords] (-0.47140,-0.816496,-0.3333) -- (0.94280,0,-0.333);
+					\draw[main, densely dotted, tdplot_rotated_coords] (-0.47140,-0.816496,-0.3333) -- (-0.47140,0.816496,-0.3333) -- (0.94280,0,-0.333);
+					
+					
+					\draw[main,densely dotted, tdplot_rotated_coords] (0,0,1) -- (-0.47140,0.816496,-0.3333);
+					\draw[main, tdplot_rotated_coords] (0.94280,0,-0.333) -- (0,0,1)  -- (-0.47140,-0.816496,-0.333);
+				}{}
+			}
+			\ifthenelse{\i > 100}{
+				\draw[main, tdplot_rotated_coords] (0.94280,0,-0.333) -- (-0.47140,-0.816496,-0.3333) --  (-0.47140,0.816496,-0.3333);
+				\draw[main, densely dotted, tdplot_rotated_coords] (-0.47140,0.816496,-0.3333) -- (0.94280,0,-0.333);
+				
+				\draw[main, tdplot_rotated_coords] (0,0,1) -- (-0.47140,0.816496,-0.3333);
+				\draw[main, tdplot_rotated_coords] (0.94280,0,-0.333) -- (0,0,1)  -- (-0.47140,-0.816496,-0.333);
+			}{}
 		\end{tikzpicture}
 	}
 \end{document}
