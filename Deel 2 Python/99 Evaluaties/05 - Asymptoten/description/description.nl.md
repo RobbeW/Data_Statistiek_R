@@ -53,4 +53,4 @@ y = 0.6667 is de vergelijking van de horizontale asymptoot.
 
 {: .callout.callout-info}
 >#### Tip
-> Er zijn ook rationale functies geen horizontale, noch een schuine asymptoot hebben.
+> Er zijn ook rationale functies die geen horizontale, noch een schuine asymptoot hebben.
