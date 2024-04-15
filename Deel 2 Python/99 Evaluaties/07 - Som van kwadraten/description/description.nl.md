@@ -1,4 +1,4 @@
-Vierhoekige piramidegetallen zijn getallen die geschreven kunnen worden een som van kwadraten. Dit komt overeen met een stapeling van bollen in een piramidestructuur.
+Vierhoekige piramidegetallen zijn getallen die geschreven kunnen worden als **een som van kwadraten**. Dit komt overeen met een stapeling van bollen in een piramidestructuur.
 
 ![Het 4e piramidegetal.](media/image.png "Het 4e piramidegetal."){:data-caption="Het 4e piramidegetal." width="45%"}
 
