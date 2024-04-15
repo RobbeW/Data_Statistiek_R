@@ -1,0 +1,42 @@
+- tab: Feedback
+  testcases:
+  - stdin: '1'
+    stdout: "Het 1 e piramidegetal is: 1\n"
+  - stdin: '2'
+    stdout: "Het 2 e piramidegetal is: 5\n"
+  - stdin: '3'
+    stdout: "Het 3 e piramidegetal is: 14\n"
+  - stdin: '4'
+    stdout: "Het 4 e piramidegetal is: 30\n"
+  - stdin: '5'
+    stdout: "Het 5 e piramidegetal is: 55\n"
+  - stdin: '6'
+    stdout: "Het 6 e piramidegetal is: 91\n"
+  - stdin: '7'
+    stdout: "Het 7 e piramidegetal is: 140\n"
+  - stdin: '8'
+    stdout: "Het 8 e piramidegetal is: 204\n"
+  - stdin: '9'
+    stdout: "Het 9 e piramidegetal is: 285\n"
+  - stdin: '10'
+    stdout: "Het 10 e piramidegetal is: 385\n"
+  - stdin: '11'
+    stdout: "Het 11 e piramidegetal is: 506\n"
+  - stdin: '12'
+    stdout: "Het 12 e piramidegetal is: 650\n"
+  - stdin: '13'
+    stdout: "Het 13 e piramidegetal is: 819\n"
+  - stdin: '14'
+    stdout: "Het 14 e piramidegetal is: 1015\n"
+  - stdin: '15'
+    stdout: "Het 15 e piramidegetal is: 1240\n"
+  - stdin: '16'
+    stdout: "Het 16 e piramidegetal is: 1496\n"
+  - stdin: '17'
+    stdout: "Het 17 e piramidegetal is: 1785\n"
+  - stdin: '18'
+    stdout: "Het 18 e piramidegetal is: 2109\n"
+  - stdin: '19'
+    stdout: "Het 19 e piramidegetal is: 2470\n"
+  - stdin: '20'
+    stdout: "Het 20 e piramidegetal is: 2870\n"
