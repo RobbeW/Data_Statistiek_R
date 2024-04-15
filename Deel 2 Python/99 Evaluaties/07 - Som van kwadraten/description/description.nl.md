@@ -1,6 +1,6 @@
 Vierhoekige piramidegetallen zijn getallen die geschreven kunnen worden een som van kwadraten. Dit komt overeen met een stapeling van bollen in een piramidestructuur.
 
-![Het 4e piramidegetal.](media/image.png "Het 4e piramidegetal."){:data-caption="Het 4e piramidegetal." width="40%"}
+![Het 4e piramidegetal.](media/image.png "Het 4e piramidegetal."){:data-caption="Het 4e piramidegetal." width="45%"}
 
 Er geldt bijvoorbeeld dat het vierde piramidegetal 30 is, want:
 
@@ -9,7 +9,7 @@ $$
 $$
 
 ## Opgave
-Schrijf een programma dat het **rangnummer** van het vierhoekige piramidegetal vraagt en vervolgens dit getal door middel van een begrensde herhaling op het scherm afdrukt.
+Schrijf een programma dat het **rangnummer** van zo'n piramidegetal vraagt en vervolgens dit piramidegetal door middel van een begrensde herhaling op het scherm afdrukt.
 
 #### Voorbeelden
 Bij invoer `4` verschijnt er:
