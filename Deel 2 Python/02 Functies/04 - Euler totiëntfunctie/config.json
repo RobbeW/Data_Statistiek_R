@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Eulers totiëntfunctie"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "python"
+  ],
+  "access": "public"
+}
