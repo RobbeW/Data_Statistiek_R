@@ -1,0 +1,202 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "28\n16"
+      stdout: De grootste gemene deler van 28 en 16 is 4
+    - expression: ggd( 28, 16 )
+      return: 4
+  - testcases:
+    - stdin: "16\n28"
+      stdout: De grootste gemene deler van 16 en 28 is 4
+    - expression: ggd( 16, 28 )
+      return: 4
+  - testcases:
+    - stdin: "13\n10"
+      stdout: De grootste gemene deler van 13 en 10 is 1
+    - expression: ggd( 13, 10 )
+      return: 1
+  - testcases:
+    - stdin: "24\n48"
+      stdout: De grootste gemene deler van 24 en 48 is 24
+    - expression: ggd( 24, 48 )
+      return: 24
+  - testcases:
+    - stdin: "48\n24"
+      stdout: De grootste gemene deler van 48 en 24 is 24
+    - expression: ggd( 48, 24 )
+      return: 24
+  - testcases:
+    - stdin: "108\n72"
+      stdout: De grootste gemene deler van 108 en 72 is 36
+    - expression: ggd( 108, 72 )
+      return: 36
+  - testcases:
+    - stdin: "72\n108"
+      stdout: De grootste gemene deler van 72 en 108 is 36
+    - expression: ggd( 72, 108 )
+      return: 36
+  - testcases:
+    - stdin: "185\n26"
+      stdout: De grootste gemene deler van 185 en 26 is 1
+    - expression: ggd( 185, 26 )
+      return: 1
+  - testcases:
+    - stdin: "163\n151"
+      stdout: De grootste gemene deler van 163 en 151 is 1
+    - expression: ggd( 163, 151 )
+      return: 1
+  - testcases:
+    - stdin: "59\n195"
+      stdout: De grootste gemene deler van 59 en 195 is 1
+    - expression: ggd( 59, 195 )
+      return: 1
+  - testcases:
+    - stdin: "65\n199"
+      stdout: De grootste gemene deler van 65 en 199 is 1
+    - expression: ggd( 65, 199 )
+      return: 1
+  - testcases:
+    - stdin: "156\n132"
+      stdout: De grootste gemene deler van 156 en 132 is 12
+    - expression: ggd( 156, 132 )
+      return: 12
+  - testcases:
+    - stdin: "151\n188"
+      stdout: De grootste gemene deler van 151 en 188 is 1
+    - expression: ggd( 151, 188 )
+      return: 1
+  - testcases:
+    - stdin: "131\n20"
+      stdout: De grootste gemene deler van 131 en 20 is 1
+    - expression: ggd( 131, 20 )
+      return: 1
+  - testcases:
+    - stdin: "196\n86"
+      stdout: De grootste gemene deler van 196 en 86 is 2
+    - expression: ggd( 196, 86 )
+      return: 2
+  - testcases:
+    - stdin: "32\n39"
+      stdout: De grootste gemene deler van 32 en 39 is 1
+    - expression: ggd( 32, 39 )
+      return: 1
+  - testcases:
+    - stdin: "90\n7"
+      stdout: De grootste gemene deler van 90 en 7 is 1
+    - expression: ggd( 90, 7 )
+      return: 1
+  - testcases:
+    - stdin: "127\n11"
+      stdout: De grootste gemene deler van 127 en 11 is 1
+    - expression: ggd( 127, 11 )
+      return: 1
+  - testcases:
+    - stdin: "197\n95"
+      stdout: De grootste gemene deler van 197 en 95 is 1
+    - expression: ggd( 197, 95 )
+      return: 1
+  - testcases:
+    - stdin: "185\n58"
+      stdout: De grootste gemene deler van 185 en 58 is 1
+    - expression: ggd( 185, 58 )
+      return: 1
+  - testcases:
+    - stdin: "124\n139"
+      stdout: De grootste gemene deler van 124 en 139 is 1
+    - expression: ggd( 124, 139 )
+      return: 1
+  - testcases:
+    - stdin: "12\n118"
+      stdout: De grootste gemene deler van 12 en 118 is 2
+    - expression: ggd( 12, 118 )
+      return: 2
+  - testcases:
+    - stdin: "57\n141"
+      stdout: De grootste gemene deler van 57 en 141 is 3
+    - expression: ggd( 57, 141 )
+      return: 3
+  - testcases:
+    - stdin: "33\n66"
+      stdout: De grootste gemene deler van 33 en 66 is 33
+    - expression: ggd( 33, 66 )
+      return: 33
+  - testcases:
+    - stdin: "18\n96"
+      stdout: De grootste gemene deler van 18 en 96 is 6
+    - expression: ggd( 18, 96 )
+      return: 6
+  - testcases:
+    - stdin: "10\n110"
+      stdout: De grootste gemene deler van 10 en 110 is 10
+    - expression: ggd( 10, 110 )
+      return: 10
+  - testcases:
+    - stdin: "71\n144"
+      stdout: De grootste gemene deler van 71 en 144 is 1
+    - expression: ggd( 71, 144 )
+      return: 1
+  - testcases:
+    - stdin: "163\n79"
+      stdout: De grootste gemene deler van 163 en 79 is 1
+    - expression: ggd( 163, 79 )
+      return: 1
+  - testcases:
+    - stdin: "98\n48"
+      stdout: De grootste gemene deler van 98 en 48 is 2
+    - expression: ggd( 98, 48 )
+      return: 2
+  - testcases:
+    - stdin: "184\n15"
+      stdout: De grootste gemene deler van 184 en 15 is 1
+    - expression: ggd( 184, 15 )
+      return: 1
+  - testcases:
+    - stdin: "33\n63"
+      stdout: De grootste gemene deler van 33 en 63 is 3
+    - expression: ggd( 33, 63 )
+      return: 3
+  - testcases:
+    - stdin: "56\n139"
+      stdout: De grootste gemene deler van 56 en 139 is 1
+    - expression: ggd( 56, 139 )
+      return: 1
+  - testcases:
+    - stdin: "104\n126"
+      stdout: De grootste gemene deler van 104 en 126 is 2
+    - expression: ggd( 104, 126 )
+      return: 2
+  - testcases:
+    - stdin: "45\n134"
+      stdout: De grootste gemene deler van 45 en 134 is 1
+    - expression: ggd( 45, 134 )
+      return: 1
+  - testcases:
+    - stdin: "150\n117"
+      stdout: De grootste gemene deler van 150 en 117 is 3
+    - expression: ggd( 150, 117 )
+      return: 3
+  - testcases:
+    - stdin: "192\n16"
+      stdout: De grootste gemene deler van 192 en 16 is 16
+    - expression: ggd( 192, 16 )
+      return: 16
+  - testcases:
+    - stdin: "96\n156"
+      stdout: De grootste gemene deler van 96 en 156 is 12
+    - expression: ggd( 96, 156 )
+      return: 12
+  - testcases:
+    - stdin: "57\n38"
+      stdout: De grootste gemene deler van 57 en 38 is 19
+    - expression: ggd( 57, 38 )
+      return: 19
+  - testcases:
+    - stdin: "27\n113"
+      stdout: De grootste gemene deler van 27 en 113 is 1
+    - expression: ggd( 27, 113 )
+      return: 1
+  - testcases:
+    - stdin: "37\n104"
+      stdout: De grootste gemene deler van 37 en 104 is 1
+    - expression: ggd( 37, 104 )
+      return: 1
