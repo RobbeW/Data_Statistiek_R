@@ -1,5 +1,102 @@
 - tab: Feedback
-  testcases:
-  - stdin: "365"
-    stdout: "De getalsom is 14"
- 
+  contexts:
+  - testcases:
+    - stdin: '365'
+      stdout: De getalsom is 14
+    - expression: getalsom( 365 )
+      return: 14
+  - testcases:
+    - stdin: '123456'
+      stdout: De getalsom is 21
+    - expression: getalsom( 123456 )
+      return: 21
+  - testcases:
+    - stdin: '812332699767149556697792'
+      stdout: De getalsom is 133
+    - expression: getalsom( 812332699767149556697792 )
+      return: 133
+  - testcases:
+    - stdin: '43896108'
+      stdout: De getalsom is 39
+    - expression: getalsom( 43896108 )
+      return: 39
+  - testcases:
+    - stdin: '6672530882430458017567009'
+      stdout: De getalsom is 106
+    - expression: getalsom( 6672530882430458017567009 )
+      return: 106
+  - testcases:
+    - stdin: '193313023145936848244373'
+      stdout: De getalsom is 96
+    - expression: getalsom( 193313023145936848244373 )
+      return: 96
+  - testcases:
+    - stdin: '2441320162459731967234640'
+      stdout: De getalsom is 95
+    - expression: getalsom( 2441320162459731967234640 )
+      return: 95
+  - testcases:
+    - stdin: '712271912364713225624957558'
+      stdout: De getalsom is 116
+    - expression: getalsom( 712271912364713225624957558 )
+      return: 116
+  - testcases:
+    - stdin: '57'
+      stdout: De getalsom is 12
+    - expression: getalsom( 57 )
+      return: 12
+  - testcases:
+    - stdin: '683659132398852161212163'
+      stdout: De getalsom is 101
+    - expression: getalsom( 683659132398852161212163 )
+      return: 101
+  - testcases:
+    - stdin: '627213068338990344'
+      stdout: De getalsom is 78
+    - expression: getalsom( 627213068338990344 )
+      return: 78
+  - testcases:
+    - stdin: '83652279'
+      stdout: De getalsom is 42
+    - expression: getalsom( 83652279 )
+      return: 42
+  - testcases:
+    - stdin: '43494'
+      stdout: De getalsom is 24
+    - expression: getalsom( 43494 )
+      return: 24
+  - testcases:
+    - stdin: '481'
+      stdout: De getalsom is 13
+    - expression: getalsom( 481 )
+      return: 13
+  - testcases:
+    - stdin: '64'
+      stdout: De getalsom is 10
+    - expression: getalsom( 64 )
+      return: 10
+  - testcases:
+    - stdin: '9227166609282470432869035858'
+      stdout: De getalsom is 132
+    - expression: getalsom( 9227166609282470432869035858 )
+      return: 132
+  - testcases:
+    - stdin: '548401301356145694108'
+      stdout: De getalsom is 78
+    - expression: getalsom( 548401301356145694108 )
+      return: 78
+  - testcases:
+    - stdin: '852396'
+      stdout: De getalsom is 33
+    - expression: getalsom( 852396 )
+      return: 33
+  - testcases:
+    - stdin: '26'
+      stdout: De getalsom is 8
+    - expression: getalsom( 26 )
+      return: 8
+  - testcases:
+    - stdin: '39176282'
+      stdout: De getalsom is 38
+    - expression: getalsom( 39176282 )
+      return: 38
