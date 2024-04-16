@@ -1,0 +1,19 @@
+{
+  "description": {
+    "names": {
+      "nl": "Vierhoekige piramidegetallen"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "python"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "qNZN4tjkFZU5nQcJamXvT-ErZWMSNdYFkBKb3iiNzUzqUGPEb5tkX9JkJidUybDI",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

@@ -30,14 +30,14 @@ Is de graad van de teller één hoger dan de graad van de noemer, dan is er een 
 ## Opgave
 Schrijf een programma dat achtereenvolgens de **graad** van teller en noemer bevraagt, **daarna** worden (in volgorde) de **hoogstegraadscoëfficienten** uit teller en noemer gevraagd.
 
-Geef vervolgens weer of er een horizontale dan wel een schuine asymptoot aanwezig is. Geef indien mogelijk meer details, zoals de vergelijking van deze asymptoot. Rond de kommagetallen af op 4 decimalen.
+Geef vervolgens weer of er een horizontale dan wel een schuine asymptoot aanwezig is. Geef indien mogelijk meer details, zoals de vergelijking of de rico van deze asymptoot. Rond de kommagetallen af op 4 decimalen.
 
 #### Voorbeelden
 
 Voor een functie $$\mathsf{f(x) = \dfrac{2x^2+1}{5x}}$$ verschijnt er:
 
 ```
-Er is een schuine asymptoot.
+0.4 is de rico van de schuine asymptoot.
 ```
 
 Voor een functie $$\mathsf{f(x) = \dfrac{2x^2+1}{5x^4}}$$ verschijnt er:
@@ -53,4 +53,4 @@ y = 0.6667 is de vergelijking van de horizontale asymptoot.
 
 {: .callout.callout-info}
 >#### Tip
-> Er zijn ook rationale functies geen horizontale, noch een schuine asymptoot hebben.
+> Er zijn ook rationale functies die geen horizontale, noch een schuine asymptoot hebben.
