@@ -1,5 +1,5 @@
 - tab: Feedback
   testcases:
   - stdin: "365"
-    stdout: "14"
+    stdout: "De getalsom is 14"
  
