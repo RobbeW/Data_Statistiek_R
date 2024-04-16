@@ -12,7 +12,6 @@ def ggd( getal1, getal2 ):
 # Invoer
 getal = int( input( 'Geef een getal in: ' ) )
 
-print()
 # Berekening
 for i in range(2, getal):
     aantal = 0

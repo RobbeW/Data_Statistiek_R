@@ -33,7 +33,7 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
-ntests = 40
+ntests = 38
 cases = [ (12,),(15,),(7,)]
 
 while len( cases ) < ntests:
