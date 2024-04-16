@@ -8,7 +8,7 @@ De <a href="https://nl.wikipedia.org/wiki/Indicator_(getaltheorie)" target="_bla
 
 Schrijf een functie `phi(getal)` dat de totiëntfunctie van het positieve natuurlijke getal bepaalt.
 
-Vraag aan de gebruik vervolgens een strikt positief natuurlijk getal en bepaal de totiëntfunctie van dat getal.
+Vraag aan de gebruiker vervolgens een strikt positief natuurlijk getal en bepaal de totiëntfunctie van dat getal.
 
 #### Voorbeelden
 
@@ -29,4 +29,5 @@ De getallen die onderling ondeelbaar zijn met 15 zijn immers: 1, 2, 4, 7, 8, 11,
 
 {: .callout.callout-info}
 > #### Tip
-> Getallen zijn onderling ondeelbaar indien hun grootste gemene deler 1 is. Gebruik dus de functie `ggd()` uit de vorige oefeningen.
+> Getallen zijn onderling ondeelbaar indien hun grootste gemene deler 1 is. 
+> Gebruik dus de functie `ggd()` uit de vorige oefeningen.
