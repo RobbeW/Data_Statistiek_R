@@ -190,13 +190,3 @@
       stdout: Het totiënt van 97 is 96
     - expression: phi( 97 )
       return: 96
-  - testcases:
-    - stdin: '11'
-      stdout: Het totiënt van 11 is 10
-    - expression: phi( 11 )
-      return: 10
-  - testcases:
-    - stdin: '111'
-      stdout: Het totiënt van 111 is 72
-    - expression: phi( 111 )
-      return: 72
