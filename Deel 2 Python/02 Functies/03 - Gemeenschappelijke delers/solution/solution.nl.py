@@ -13,8 +13,8 @@ def ggd( getal1, getal2 ):
 getal = int( input( 'Geef een getal in: ' ) )
 
 # Berekening
+aantal = 0
 for i in range(2, getal):
-    aantal = 0
     if ggd(i, getal) != 1:
         aantal += 1
         print(i,"heeft een deler groter dan 1 gemeenschappelijk met", getal)

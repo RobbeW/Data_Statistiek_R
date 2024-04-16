@@ -7,8 +7,7 @@
         \ 1 gemeenschappelijk met 12\n6 heeft een deler groter dan 1 gemeenschappelijk\
         \ met 12\n8 heeft een deler groter dan 1 gemeenschappelijk met 12\n9 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 12\n10 heeft een deler groter\
-        \ dan 1 gemeenschappelijk met 12\nEr waren geen kleinere getallen die een\
-        \ deler groter dan 1 gemeenschappelijk hadden met 12\n"
+        \ dan 1 gemeenschappelijk met 12\n"
     - expression: ggd( 2, 12 )
       return: 2
     - expression: ggd( 3, 12 )
@@ -35,8 +34,7 @@
         \ deler groter dan 1 gemeenschappelijk met 15\n6 heeft een deler groter dan\
         \ 1 gemeenschappelijk met 15\n9 heeft een deler groter dan 1 gemeenschappelijk\
         \ met 15\n10 heeft een deler groter dan 1 gemeenschappelijk met 15\n12 heeft\
-        \ een deler groter dan 1 gemeenschappelijk met 15\nEr waren geen kleinere\
-        \ getallen die een deler groter dan 1 gemeenschappelijk hadden met 15\n"
+        \ een deler groter dan 1 gemeenschappelijk met 15\n"
     - expression: ggd( 2, 15 )
       return: 1
     - expression: ggd( 3, 15 )
@@ -103,8 +101,7 @@
         \ met 93\n81 heeft een deler groter dan 1 gemeenschappelijk met 93\n84 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 93\n87 heeft een deler groter\
         \ dan 1 gemeenschappelijk met 93\n90 heeft een deler groter dan 1 gemeenschappelijk\
-        \ met 93\nEr waren geen kleinere getallen die een deler groter dan 1 gemeenschappelijk\
-        \ hadden met 93\n"
+        \ met 93\n"
     - expression: ggd( 2, 93 )
       return: 1
     - expression: ggd( 3, 93 )
@@ -345,9 +342,7 @@
         \ met 82\n72 heeft een deler groter dan 1 gemeenschappelijk met 82\n74 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 82\n76 heeft een deler groter\
         \ dan 1 gemeenschappelijk met 82\n78 heeft een deler groter dan 1 gemeenschappelijk\
-        \ met 82\n80 heeft een deler groter dan 1 gemeenschappelijk met 82\nEr waren\
-        \ geen kleinere getallen die een deler groter dan 1 gemeenschappelijk hadden\
-        \ met 82\n"
+        \ met 82\n80 heeft een deler groter dan 1 gemeenschappelijk met 82\n"
     - expression: ggd( 2, 82 )
       return: 2
     - expression: ggd( 3, 82 )
@@ -539,8 +534,7 @@
         \ dan 1 gemeenschappelijk met 76\n68 heeft een deler groter dan 1 gemeenschappelijk\
         \ met 76\n70 heeft een deler groter dan 1 gemeenschappelijk met 76\n72 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 76\n74 heeft een deler groter\
-        \ dan 1 gemeenschappelijk met 76\nEr waren geen kleinere getallen die een\
-        \ deler groter dan 1 gemeenschappelijk hadden met 76\n"
+        \ dan 1 gemeenschappelijk met 76\n"
     - expression: ggd( 2, 76 )
       return: 2
     - expression: ggd( 3, 76 )
@@ -706,9 +700,7 @@
         \ met 30\n24 heeft een deler groter dan 1 gemeenschappelijk met 30\n25 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 30\n26 heeft een deler groter\
         \ dan 1 gemeenschappelijk met 30\n27 heeft een deler groter dan 1 gemeenschappelijk\
-        \ met 30\n28 heeft een deler groter dan 1 gemeenschappelijk met 30\nEr waren\
-        \ geen kleinere getallen die een deler groter dan 1 gemeenschappelijk hadden\
-        \ met 30\n"
+        \ met 30\n28 heeft een deler groter dan 1 gemeenschappelijk met 30\n"
     - expression: ggd( 2, 30 )
       return: 2
     - expression: ggd( 3, 30 )
@@ -808,8 +800,7 @@
         \ dan 1 gemeenschappelijk met 98\n91 heeft een deler groter dan 1 gemeenschappelijk\
         \ met 98\n92 heeft een deler groter dan 1 gemeenschappelijk met 98\n94 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 98\n96 heeft een deler groter\
-        \ dan 1 gemeenschappelijk met 98\nEr waren geen kleinere getallen die een\
-        \ deler groter dan 1 gemeenschappelijk hadden met 98\n"
+        \ dan 1 gemeenschappelijk met 98\n"
     - expression: ggd( 2, 98 )
       return: 2
     - expression: ggd( 3, 98 )
@@ -1013,8 +1004,7 @@
         \ met 33\n22 heeft een deler groter dan 1 gemeenschappelijk met 33\n24 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 33\n27 heeft een deler groter\
         \ dan 1 gemeenschappelijk met 33\n30 heeft een deler groter dan 1 gemeenschappelijk\
-        \ met 33\nEr waren geen kleinere getallen die een deler groter dan 1 gemeenschappelijk\
-        \ hadden met 33\n"
+        \ met 33\n"
     - expression: ggd( 2, 33 )
       return: 1
     - expression: ggd( 3, 33 )
@@ -1123,8 +1113,7 @@
         \ dan 1 gemeenschappelijk met 100\n94 heeft een deler groter dan 1 gemeenschappelijk\
         \ met 100\n95 heeft een deler groter dan 1 gemeenschappelijk met 100\n96 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 100\n98 heeft een deler groter\
-        \ dan 1 gemeenschappelijk met 100\nEr waren geen kleinere getallen die een\
-        \ deler groter dan 1 gemeenschappelijk hadden met 100\n"
+        \ dan 1 gemeenschappelijk met 100\n"
     - expression: ggd( 2, 100 )
       return: 2
     - expression: ggd( 3, 100 )
@@ -1362,9 +1351,7 @@
         \ met 78\n70 heeft een deler groter dan 1 gemeenschappelijk met 78\n72 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 78\n74 heeft een deler groter\
         \ dan 1 gemeenschappelijk met 78\n75 heeft een deler groter dan 1 gemeenschappelijk\
-        \ met 78\n76 heeft een deler groter dan 1 gemeenschappelijk met 78\nEr waren\
-        \ geen kleinere getallen die een deler groter dan 1 gemeenschappelijk hadden\
-        \ met 78\n"
+        \ met 78\n76 heeft een deler groter dan 1 gemeenschappelijk met 78\n"
     - expression: ggd( 2, 78 )
       return: 2
     - expression: ggd( 3, 78 )
@@ -1552,9 +1539,7 @@
         \ met 66\n58 heeft een deler groter dan 1 gemeenschappelijk met 66\n60 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 66\n62 heeft een deler groter\
         \ dan 1 gemeenschappelijk met 66\n63 heeft een deler groter dan 1 gemeenschappelijk\
-        \ met 66\n64 heeft een deler groter dan 1 gemeenschappelijk met 66\nEr waren\
-        \ geen kleinere getallen die een deler groter dan 1 gemeenschappelijk hadden\
-        \ met 66\n"
+        \ met 66\n64 heeft een deler groter dan 1 gemeenschappelijk met 66\n"
     - expression: ggd( 2, 66 )
       return: 2
     - expression: ggd( 3, 66 )
@@ -1714,8 +1699,7 @@
         \ dan 1 gemeenschappelijk met 76\n68 heeft een deler groter dan 1 gemeenschappelijk\
         \ met 76\n70 heeft een deler groter dan 1 gemeenschappelijk met 76\n72 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 76\n74 heeft een deler groter\
-        \ dan 1 gemeenschappelijk met 76\nEr waren geen kleinere getallen die een\
-        \ deler groter dan 1 gemeenschappelijk hadden met 76\n"
+        \ dan 1 gemeenschappelijk met 76\n"
     - expression: ggd( 2, 76 )
       return: 2
     - expression: ggd( 3, 76 )
@@ -1901,8 +1885,7 @@
         \ dan 1 gemeenschappelijk met 94\n86 heeft een deler groter dan 1 gemeenschappelijk\
         \ met 94\n88 heeft een deler groter dan 1 gemeenschappelijk met 94\n90 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 94\n92 heeft een deler groter\
-        \ dan 1 gemeenschappelijk met 94\nEr waren geen kleinere getallen die een\
-        \ deler groter dan 1 gemeenschappelijk hadden met 94\n"
+        \ dan 1 gemeenschappelijk met 94\n"
     - expression: ggd( 2, 94 )
       return: 2
     - expression: ggd( 3, 94 )
@@ -2122,9 +2105,7 @@
         \ met 66\n58 heeft een deler groter dan 1 gemeenschappelijk met 66\n60 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 66\n62 heeft een deler groter\
         \ dan 1 gemeenschappelijk met 66\n63 heeft een deler groter dan 1 gemeenschappelijk\
-        \ met 66\n64 heeft een deler groter dan 1 gemeenschappelijk met 66\nEr waren\
-        \ geen kleinere getallen die een deler groter dan 1 gemeenschappelijk hadden\
-        \ met 66\n"
+        \ met 66\n64 heeft een deler groter dan 1 gemeenschappelijk met 66\n"
     - expression: ggd( 2, 66 )
       return: 2
     - expression: ggd( 3, 66 )
@@ -2258,9 +2239,7 @@
       stdout: "2 heeft een deler groter dan 1 gemeenschappelijk met 10\n4 heeft een\
         \ deler groter dan 1 gemeenschappelijk met 10\n5 heeft een deler groter dan\
         \ 1 gemeenschappelijk met 10\n6 heeft een deler groter dan 1 gemeenschappelijk\
-        \ met 10\n8 heeft een deler groter dan 1 gemeenschappelijk met 10\nEr waren\
-        \ geen kleinere getallen die een deler groter dan 1 gemeenschappelijk hadden\
-        \ met 10\n"
+        \ met 10\n8 heeft een deler groter dan 1 gemeenschappelijk met 10\n"
     - expression: ggd( 2, 10 )
       return: 2
     - expression: ggd( 3, 10 )
@@ -2320,8 +2299,7 @@
         \ dan 1 gemeenschappelijk met 98\n91 heeft een deler groter dan 1 gemeenschappelijk\
         \ met 98\n92 heeft een deler groter dan 1 gemeenschappelijk met 98\n94 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 98\n96 heeft een deler groter\
-        \ dan 1 gemeenschappelijk met 98\nEr waren geen kleinere getallen die een\
-        \ deler groter dan 1 gemeenschappelijk hadden met 98\n"
+        \ dan 1 gemeenschappelijk met 98\n"
     - expression: ggd( 2, 98 )
       return: 2
     - expression: ggd( 3, 98 )
@@ -2607,8 +2585,7 @@
         \ 1 gemeenschappelijk met 16\n8 heeft een deler groter dan 1 gemeenschappelijk\
         \ met 16\n10 heeft een deler groter dan 1 gemeenschappelijk met 16\n12 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 16\n14 heeft een deler groter\
-        \ dan 1 gemeenschappelijk met 16\nEr waren geen kleinere getallen die een\
-        \ deler groter dan 1 gemeenschappelijk hadden met 16\n"
+        \ dan 1 gemeenschappelijk met 16\n"
     - expression: ggd( 2, 16 )
       return: 2
     - expression: ggd( 3, 16 )
@@ -2647,8 +2624,7 @@
         \ dan 1 gemeenschappelijk met 20\n14 heeft een deler groter dan 1 gemeenschappelijk\
         \ met 20\n15 heeft een deler groter dan 1 gemeenschappelijk met 20\n16 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 20\n18 heeft een deler groter\
-        \ dan 1 gemeenschappelijk met 20\nEr waren geen kleinere getallen die een\
-        \ deler groter dan 1 gemeenschappelijk hadden met 20\n"
+        \ dan 1 gemeenschappelijk met 20\n"
     - expression: ggd( 2, 20 )
       return: 2
     - expression: ggd( 3, 20 )
@@ -2702,8 +2678,7 @@
         \ met 45\n36 heeft een deler groter dan 1 gemeenschappelijk met 45\n39 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 45\n40 heeft een deler groter\
         \ dan 1 gemeenschappelijk met 45\n42 heeft een deler groter dan 1 gemeenschappelijk\
-        \ met 45\nEr waren geen kleinere getallen die een deler groter dan 1 gemeenschappelijk\
-        \ hadden met 45\n"
+        \ met 45\n"
     - expression: ggd( 2, 45 )
       return: 1
     - expression: ggd( 3, 45 )
@@ -2792,9 +2767,7 @@
       return: 1
   - testcases:
     - stdin: '4'
-      stdout: "2 heeft een deler groter dan 1 gemeenschappelijk met 4\nEr waren geen\
-        \ kleinere getallen die een deler groter dan 1 gemeenschappelijk hadden met\
-        \ 4\n"
+      stdout: "2 heeft een deler groter dan 1 gemeenschappelijk met 4\n"
     - expression: ggd( 2, 4 )
       return: 2
     - expression: ggd( 3, 4 )
@@ -2824,8 +2797,7 @@
         \ dan 1 gemeenschappelijk met 64\n56 heeft een deler groter dan 1 gemeenschappelijk\
         \ met 64\n58 heeft een deler groter dan 1 gemeenschappelijk met 64\n60 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 64\n62 heeft een deler groter\
-        \ dan 1 gemeenschappelijk met 64\nEr waren geen kleinere getallen die een\
-        \ deler groter dan 1 gemeenschappelijk hadden met 64\n"
+        \ dan 1 gemeenschappelijk met 64\n"
     - expression: ggd( 2, 64 )
       return: 2
     - expression: ggd( 3, 64 )
@@ -2954,8 +2926,7 @@
     - stdin: '6'
       stdout: "2 heeft een deler groter dan 1 gemeenschappelijk met 6\n3 heeft een\
         \ deler groter dan 1 gemeenschappelijk met 6\n4 heeft een deler groter dan\
-        \ 1 gemeenschappelijk met 6\nEr waren geen kleinere getallen die een deler\
-        \ groter dan 1 gemeenschappelijk hadden met 6\n"
+        \ 1 gemeenschappelijk met 6\n"
     - expression: ggd( 2, 6 )
       return: 2
     - expression: ggd( 3, 6 )
@@ -2994,8 +2965,7 @@
         \ een deler groter dan 1 gemeenschappelijk met 99\n88 heeft een deler groter\
         \ dan 1 gemeenschappelijk met 99\n90 heeft een deler groter dan 1 gemeenschappelijk\
         \ met 99\n93 heeft een deler groter dan 1 gemeenschappelijk met 99\n96 heeft\
-        \ een deler groter dan 1 gemeenschappelijk met 99\nEr waren geen kleinere\
-        \ getallen die een deler groter dan 1 gemeenschappelijk hadden met 99\n"
+        \ een deler groter dan 1 gemeenschappelijk met 99\n"
     - expression: ggd( 2, 99 )
       return: 1
     - expression: ggd( 3, 99 )
@@ -3215,8 +3185,7 @@
         \ dan 1 gemeenschappelijk met 48\n42 heeft een deler groter dan 1 gemeenschappelijk\
         \ met 48\n44 heeft een deler groter dan 1 gemeenschappelijk met 48\n45 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 48\n46 heeft een deler groter\
-        \ dan 1 gemeenschappelijk met 48\nEr waren geen kleinere getallen die een\
-        \ deler groter dan 1 gemeenschappelijk hadden met 48\n"
+        \ dan 1 gemeenschappelijk met 48\n"
     - expression: ggd( 2, 48 )
       return: 2
     - expression: ggd( 3, 48 )
@@ -3335,8 +3304,7 @@
         \ met 93\n81 heeft een deler groter dan 1 gemeenschappelijk met 93\n84 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 93\n87 heeft een deler groter\
         \ dan 1 gemeenschappelijk met 93\n90 heeft een deler groter dan 1 gemeenschappelijk\
-        \ met 93\nEr waren geen kleinere getallen die een deler groter dan 1 gemeenschappelijk\
-        \ hadden met 93\n"
+        \ met 93\n"
     - expression: ggd( 2, 93 )
       return: 1
     - expression: ggd( 3, 93 )
@@ -3602,8 +3570,7 @@
         \ dan 1 gemeenschappelijk met 62\n54 heeft een deler groter dan 1 gemeenschappelijk\
         \ met 62\n56 heeft een deler groter dan 1 gemeenschappelijk met 62\n58 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 62\n60 heeft een deler groter\
-        \ dan 1 gemeenschappelijk met 62\nEr waren geen kleinere getallen die een\
-        \ deler groter dan 1 gemeenschappelijk hadden met 62\n"
+        \ dan 1 gemeenschappelijk met 62\n"
     - expression: ggd( 2, 62 )
       return: 2
     - expression: ggd( 3, 62 )
@@ -3759,9 +3726,7 @@
         \ met 70\n63 heeft een deler groter dan 1 gemeenschappelijk met 70\n64 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 70\n65 heeft een deler groter\
         \ dan 1 gemeenschappelijk met 70\n66 heeft een deler groter dan 1 gemeenschappelijk\
-        \ met 70\n68 heeft een deler groter dan 1 gemeenschappelijk met 70\nEr waren\
-        \ geen kleinere getallen die een deler groter dan 1 gemeenschappelijk hadden\
-        \ met 70\n"
+        \ met 70\n68 heeft een deler groter dan 1 gemeenschappelijk met 70\n"
     - expression: ggd( 2, 70 )
       return: 2
     - expression: ggd( 3, 70 )
@@ -3902,8 +3867,7 @@
     - stdin: '6'
       stdout: "2 heeft een deler groter dan 1 gemeenschappelijk met 6\n3 heeft een\
         \ deler groter dan 1 gemeenschappelijk met 6\n4 heeft een deler groter dan\
-        \ 1 gemeenschappelijk met 6\nEr waren geen kleinere getallen die een deler\
-        \ groter dan 1 gemeenschappelijk hadden met 6\n"
+        \ 1 gemeenschappelijk met 6\n"
     - expression: ggd( 2, 6 )
       return: 2
     - expression: ggd( 3, 6 )
@@ -4275,8 +4239,7 @@
         \ met 33\n22 heeft een deler groter dan 1 gemeenschappelijk met 33\n24 heeft\
         \ een deler groter dan 1 gemeenschappelijk met 33\n27 heeft een deler groter\
         \ dan 1 gemeenschappelijk met 33\n30 heeft een deler groter dan 1 gemeenschappelijk\
-        \ met 33\nEr waren geen kleinere getallen die een deler groter dan 1 gemeenschappelijk\
-        \ hadden met 33\n"
+        \ met 33\n"
     - expression: ggd( 2, 33 )
       return: 1
     - expression: ggd( 3, 33 )
@@ -4342,8 +4305,7 @@
   - testcases:
     - stdin: '9'
       stdout: "3 heeft een deler groter dan 1 gemeenschappelijk met 9\n6 heeft een\
-        \ deler groter dan 1 gemeenschappelijk met 9\nEr waren geen kleinere getallen\
-        \ die een deler groter dan 1 gemeenschappelijk hadden met 9\n"
+        \ deler groter dan 1 gemeenschappelijk met 9\n"
     - expression: ggd( 2, 9 )
       return: 1
     - expression: ggd( 3, 9 )
