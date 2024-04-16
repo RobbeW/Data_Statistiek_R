@@ -37,7 +37,7 @@ ntests = 38
 cases = [ (12,),(15,),(7,)]
 
 while len( cases ) < ntests:
-    a = random.randint(1,200)
+    a = random.randint(1,100)
     cases.append( (a, ) )
     
 # generate unit tests for functions

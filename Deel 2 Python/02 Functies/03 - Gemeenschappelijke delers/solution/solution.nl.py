@@ -16,7 +16,7 @@ getal = int( input( 'Geef een getal in: ' ) )
 for i in range(2, getal):
     aantal = 0
     if ggd(i, getal) != 1:
-        aantal += 0
+        aantal += 1
         print(i,"heeft een deler groter dan 1 gemeenschappelijk met", getal)
 
 if aantal == 0:
