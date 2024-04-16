@@ -1,0 +1,5 @@
+- tab: Feedback
+  testcases:
+  - stdin: "365"
+    stdout: "14"
+ 
