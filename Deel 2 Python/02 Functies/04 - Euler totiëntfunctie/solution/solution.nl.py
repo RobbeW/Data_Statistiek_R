@@ -23,5 +23,4 @@ getal = int( input( 'Geef een getal in: ' ) )
 uitkomst = phi(getal)
 
 # Uitvoer
-print()
-print("Het totiënt van", getal, "is", uitkomst)
+print("De totiëntfunctiewaarde van", getal, "is", uitkomst)

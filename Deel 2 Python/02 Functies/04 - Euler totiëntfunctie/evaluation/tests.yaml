@@ -2,191 +2,191 @@
   contexts:
   - testcases:
     - stdin: '8'
-      stdout: Het totiënt van 8 is 4
+      stdout: De totiëntfunctiewaarde van 8 is 4
     - expression: phi( 8 )
       return: 4
   - testcases:
     - stdin: '15'
-      stdout: Het totiënt van 15 is 8
+      stdout: De totiëntfunctiewaarde van 15 is 8
     - expression: phi( 15 )
       return: 8
   - testcases:
     - stdin: '186'
-      stdout: Het totiënt van 186 is 60
+      stdout: De totiëntfunctiewaarde van 186 is 60
     - expression: phi( 186 )
       return: 60
   - testcases:
     - stdin: '27'
-      stdout: Het totiënt van 27 is 18
+      stdout: De totiëntfunctiewaarde van 27 is 18
     - expression: phi( 27 )
       return: 18
   - testcases:
     - stdin: '164'
-      stdout: Het totiënt van 164 is 80
+      stdout: De totiëntfunctiewaarde van 164 is 80
     - expression: phi( 164 )
       return: 80
   - testcases:
     - stdin: '152'
-      stdout: Het totiënt van 152 is 72
+      stdout: De totiëntfunctiewaarde van 152 is 72
     - expression: phi( 152 )
       return: 72
   - testcases:
     - stdin: '60'
-      stdout: Het totiënt van 60 is 16
+      stdout: De totiëntfunctiewaarde van 60 is 16
     - expression: phi( 60 )
       return: 16
   - testcases:
     - stdin: '196'
-      stdout: Het totiënt van 196 is 84
+      stdout: De totiëntfunctiewaarde van 196 is 84
     - expression: phi( 196 )
       return: 84
   - testcases:
     - stdin: '66'
-      stdout: Het totiënt van 66 is 20
+      stdout: De totiëntfunctiewaarde van 66 is 20
     - expression: phi( 66 )
       return: 20
   - testcases:
     - stdin: '200'
-      stdout: Het totiënt van 200 is 80
+      stdout: De totiëntfunctiewaarde van 200 is 80
     - expression: phi( 200 )
       return: 80
   - testcases:
     - stdin: '157'
-      stdout: Het totiënt van 157 is 156
+      stdout: De totiëntfunctiewaarde van 157 is 156
     - expression: phi( 157 )
       return: 156
   - testcases:
     - stdin: '133'
-      stdout: Het totiënt van 133 is 108
+      stdout: De totiëntfunctiewaarde van 133 is 108
     - expression: phi( 133 )
       return: 108
   - testcases:
     - stdin: '152'
-      stdout: Het totiënt van 152 is 72
+      stdout: De totiëntfunctiewaarde van 152 is 72
     - expression: phi( 152 )
       return: 72
   - testcases:
     - stdin: '189'
-      stdout: Het totiënt van 189 is 108
+      stdout: De totiëntfunctiewaarde van 189 is 108
     - expression: phi( 189 )
       return: 108
   - testcases:
     - stdin: '132'
-      stdout: Het totiënt van 132 is 40
+      stdout: De totiëntfunctiewaarde van 132 is 40
     - expression: phi( 132 )
       return: 40
   - testcases:
     - stdin: '21'
-      stdout: Het totiënt van 21 is 12
+      stdout: De totiëntfunctiewaarde van 21 is 12
     - expression: phi( 21 )
       return: 12
   - testcases:
     - stdin: '197'
-      stdout: Het totiënt van 197 is 196
+      stdout: De totiëntfunctiewaarde van 197 is 196
     - expression: phi( 197 )
       return: 196
   - testcases:
     - stdin: '87'
-      stdout: Het totiënt van 87 is 56
+      stdout: De totiëntfunctiewaarde van 87 is 56
     - expression: phi( 87 )
       return: 56
   - testcases:
     - stdin: '33'
-      stdout: Het totiënt van 33 is 20
+      stdout: De totiëntfunctiewaarde van 33 is 20
     - expression: phi( 33 )
       return: 20
   - testcases:
     - stdin: '40'
-      stdout: Het totiënt van 40 is 16
+      stdout: De totiëntfunctiewaarde van 40 is 16
     - expression: phi( 40 )
       return: 16
   - testcases:
     - stdin: '91'
-      stdout: Het totiënt van 91 is 72
+      stdout: De totiëntfunctiewaarde van 91 is 72
     - expression: phi( 91 )
       return: 72
   - testcases:
     - stdin: '8'
-      stdout: Het totiënt van 8 is 4
+      stdout: De totiëntfunctiewaarde van 8 is 4
     - expression: phi( 8 )
       return: 4
   - testcases:
     - stdin: '128'
-      stdout: Het totiënt van 128 is 64
+      stdout: De totiëntfunctiewaarde van 128 is 64
     - expression: phi( 128 )
       return: 64
   - testcases:
     - stdin: '12'
-      stdout: Het totiënt van 12 is 4
+      stdout: De totiëntfunctiewaarde van 12 is 4
     - expression: phi( 12 )
       return: 4
   - testcases:
     - stdin: '198'
-      stdout: Het totiënt van 198 is 60
+      stdout: De totiëntfunctiewaarde van 198 is 60
     - expression: phi( 198 )
       return: 60
   - testcases:
     - stdin: '96'
-      stdout: Het totiënt van 96 is 32
+      stdout: De totiëntfunctiewaarde van 96 is 32
     - expression: phi( 96 )
       return: 32
   - testcases:
     - stdin: '186'
-      stdout: Het totiënt van 186 is 60
+      stdout: De totiëntfunctiewaarde van 186 is 60
     - expression: phi( 186 )
       return: 60
   - testcases:
     - stdin: '59'
-      stdout: Het totiënt van 59 is 58
+      stdout: De totiëntfunctiewaarde van 59 is 58
     - expression: phi( 59 )
       return: 58
   - testcases:
     - stdin: '125'
-      stdout: Het totiënt van 125 is 100
+      stdout: De totiëntfunctiewaarde van 125 is 100
     - expression: phi( 125 )
       return: 100
   - testcases:
     - stdin: '140'
-      stdout: Het totiënt van 140 is 48
+      stdout: De totiëntfunctiewaarde van 140 is 48
     - expression: phi( 140 )
       return: 48
   - testcases:
     - stdin: '13'
-      stdout: Het totiënt van 13 is 12
+      stdout: De totiëntfunctiewaarde van 13 is 12
     - expression: phi( 13 )
       return: 12
   - testcases:
     - stdin: '119'
-      stdout: Het totiënt van 119 is 96
+      stdout: De totiëntfunctiewaarde van 119 is 96
     - expression: phi( 119 )
       return: 96
   - testcases:
     - stdin: '58'
-      stdout: Het totiënt van 58 is 28
+      stdout: De totiëntfunctiewaarde van 58 is 28
     - expression: phi( 58 )
       return: 28
   - testcases:
     - stdin: '142'
-      stdout: Het totiënt van 142 is 70
+      stdout: De totiëntfunctiewaarde van 142 is 70
     - expression: phi( 142 )
       return: 70
   - testcases:
     - stdin: '34'
-      stdout: Het totiënt van 34 is 16
+      stdout: De totiëntfunctiewaarde van 34 is 16
     - expression: phi( 34 )
       return: 16
   - testcases:
     - stdin: '67'
-      stdout: Het totiënt van 67 is 66
+      stdout: De totiëntfunctiewaarde van 67 is 66
     - expression: phi( 67 )
       return: 66
   - testcases:
     - stdin: '19'
-      stdout: Het totiënt van 19 is 18
+      stdout: De totiëntfunctiewaarde van 19 is 18
     - expression: phi( 19 )
       return: 18
   - testcases:
     - stdin: '97'
-      stdout: Het totiënt van 97 is 96
+      stdout: De totiëntfunctiewaarde van 97 is 96
     - expression: phi( 97 )
       return: 96
