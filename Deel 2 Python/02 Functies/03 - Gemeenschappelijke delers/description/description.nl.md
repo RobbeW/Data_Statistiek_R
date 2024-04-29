@@ -1,6 +1,6 @@
 ## Opgave
 
-Schrijf een programma dat aan de gebruiker een getal vraagt en vervolgens, alle getallen kleiner dat het getal bepaalt dat een deler **groter dan 1** gemeenschappelijk heeft met het gegeven getal.
+Schrijf een programma dat aan de gebruiker een getal vraagt en vervolgens, alle getallen kleiner dat het gegeven getal bepaalt die een deler **groter dan 1** gemeenschappelijk hebben met het gegeven getal.
 
 Gebruik hierbij de vorige `ggd()` functie.
 
