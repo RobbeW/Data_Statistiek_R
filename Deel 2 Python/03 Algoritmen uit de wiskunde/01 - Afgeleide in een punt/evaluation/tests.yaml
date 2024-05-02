@@ -5,3 +5,24 @@
         python: "def f( x ) : return x - 2"
     - expression: "afgeleide( 0, f )"
       return: 1.0
+      stdout: |
+        In iteratie 1 is de benadering: 1.0
+        In iteratie 2 is de benadering: 1.0
+        In iteratie 3 is de benadering: 1.0
+        In iteratie 4 is de benadering: 1.0
+        In iteratie 5 is de benadering: 1.0
+        In iteratie 6 is de benadering: 1.0
+        In iteratie 7 is de benadering: 1.0
+        In iteratie 8 is de benadering: 1.0
+        In iteratie 9 is de benadering: 1.0
+        In iteratie 10 is de benadering: 1.0
+        In iteratie 11 is de benadering: 1.0
+        In iteratie 12 is de benadering: 1.0
+        In iteratie 13 is de benadering: 1.0
+        In iteratie 14 is de benadering: 1.0
+        In iteratie 15 is de benadering: 1.0
+        In iteratie 16 is de benadering: 1.0
+        In iteratie 17 is de benadering: 1.0
+        In iteratie 18 is de benadering: 1.0
+        In iteratie 19 is de benadering: 1.0
+        In iteratie 20 is de benadering: 1.0
