@@ -1,0 +1,102 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "1.1\n1.2\n0.85"
+      stdout: Het meetkundig gemiddelde is 1.04
+    - expression: meetkundig_gemiddelde( 1.1, 1.2, 0.85 )
+      return: 1.04
+  - testcases:
+    - stdin: "1.22\n1.13\n0.73"
+      stdout: Het meetkundig gemiddelde is 1.0
+    - expression: meetkundig_gemiddelde( 1.22, 1.13, 0.73 )
+      return: 1.0
+  - testcases:
+    - stdin: "0.75\n1.11\n1.09"
+      stdout: Het meetkundig gemiddelde is 0.97
+    - expression: meetkundig_gemiddelde( 0.75, 1.11, 1.09 )
+      return: 0.97
+  - testcases:
+    - stdin: "1.41\n0.58\n0.84"
+      stdout: Het meetkundig gemiddelde is 0.88
+    - expression: meetkundig_gemiddelde( 1.41, 0.58, 0.84 )
+      return: 0.88
+  - testcases:
+    - stdin: "0.65\n1.34\n0.52"
+      stdout: Het meetkundig gemiddelde is 0.77
+    - expression: meetkundig_gemiddelde( 0.65, 1.34, 0.52 )
+      return: 0.77
+  - testcases:
+    - stdin: "1.46\n0.99\n1.27"
+      stdout: Het meetkundig gemiddelde is 1.22
+    - expression: meetkundig_gemiddelde( 1.46, 0.99, 1.27 )
+      return: 1.22
+  - testcases:
+    - stdin: "1.34\n1.22\n0.72"
+      stdout: Het meetkundig gemiddelde is 1.06
+    - expression: meetkundig_gemiddelde( 1.34, 1.22, 0.72 )
+      return: 1.06
+  - testcases:
+    - stdin: "1.04\n0.96\n1.05"
+      stdout: Het meetkundig gemiddelde is 1.02
+    - expression: meetkundig_gemiddelde( 1.04, 0.96, 1.05 )
+      return: 1.02
+  - testcases:
+    - stdin: "0.76\n0.87\n0.93"
+      stdout: Het meetkundig gemiddelde is 0.85
+    - expression: meetkundig_gemiddelde( 0.76, 0.87, 0.93 )
+      return: 0.85
+  - testcases:
+    - stdin: "0.77\n1.33\n1.48"
+      stdout: Het meetkundig gemiddelde is 1.15
+    - expression: meetkundig_gemiddelde( 0.77, 1.33, 1.48 )
+      return: 1.15
+  - testcases:
+    - stdin: "0.88\n1.22\n0.63"
+      stdout: Het meetkundig gemiddelde is 0.88
+    - expression: meetkundig_gemiddelde( 0.88, 1.22, 0.63 )
+      return: 0.88
+  - testcases:
+    - stdin: "0.72\n1.04\n0.99"
+      stdout: Het meetkundig gemiddelde is 0.91
+    - expression: meetkundig_gemiddelde( 0.72, 1.04, 0.99 )
+      return: 0.91
+  - testcases:
+    - stdin: "1.38\n1.08\n1.25"
+      stdout: Het meetkundig gemiddelde is 1.23
+    - expression: meetkundig_gemiddelde( 1.38, 1.08, 1.25 )
+      return: 1.23
+  - testcases:
+    - stdin: "0.87\n0.72\n0.6"
+      stdout: Het meetkundig gemiddelde is 0.72
+    - expression: meetkundig_gemiddelde( 0.87, 0.72, 0.6 )
+      return: 0.72
+  - testcases:
+    - stdin: "0.64\n0.9\n1.3"
+      stdout: Het meetkundig gemiddelde is 0.91
+    - expression: meetkundig_gemiddelde( 0.64, 0.9, 1.3 )
+      return: 0.91
+  - testcases:
+    - stdin: "0.71\n0.78\n0.72"
+      stdout: Het meetkundig gemiddelde is 0.74
+    - expression: meetkundig_gemiddelde( 0.71, 0.78, 0.72 )
+      return: 0.74
+  - testcases:
+    - stdin: "0.89\n1.36\n0.96"
+      stdout: Het meetkundig gemiddelde is 1.05
+    - expression: meetkundig_gemiddelde( 0.89, 1.36, 0.96 )
+      return: 1.05
+  - testcases:
+    - stdin: "1.19\n1.15\n1.14"
+      stdout: Het meetkundig gemiddelde is 1.16
+    - expression: meetkundig_gemiddelde( 1.19, 1.15, 1.14 )
+      return: 1.16
+  - testcases:
+    - stdin: "0.91\n0.87\n1.2"
+      stdout: Het meetkundig gemiddelde is 0.98
+    - expression: meetkundig_gemiddelde( 0.91, 0.87, 1.2 )
+      return: 0.98
+  - testcases:
+    - stdin: "1.21\n0.8\n1.48"
+      stdout: Het meetkundig gemiddelde is 1.13
+    - expression: meetkundig_gemiddelde( 1.21, 0.8, 1.48 )
+      return: 1.13
