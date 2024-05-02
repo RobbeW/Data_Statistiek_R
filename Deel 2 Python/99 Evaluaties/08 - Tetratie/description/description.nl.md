@@ -4,7 +4,7 @@ Er is echter een andere wiskundige bewerking, genaamd **tetratie**, die nog snel
 
 {: .callout.callout-danger}
 > #### Definitie
-> Voor twee natuurlijke getallen $$\mathsf{a}$$ en $$\mathsf{n}$$ geldt er dat de tetratie van $$\mathsf{a}$$ en $$\mathsf{n}$$ gedefinieerd wordt als:
+> Voor twee natuurlijke getallen $$\mathsf{a}$$ en $$\mathsf{n}$$ geldt er dat de tetratie van $$\mathsf{a}$$ en $$\mathsf{n}$$, genoteerd als $$\mathsf{{^{n}a}}$$, gedefinieerd wordt als:
 >
 > $$\mathsf{{^{n}a} = {a^{a^{\cdot^{\cdot^{a}}}}}}$$
 > 
