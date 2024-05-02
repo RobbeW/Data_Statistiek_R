@@ -8,7 +8,7 @@ Er is echter een andere wiskundige bewerking, genaamd **tetratie**, die nog snel
 >
 > $$\mathsf{{^{n}a} = {a^{a^{\cdot^{\cdot^{a}}}}}}$$
 > 
-> met $$\mathsf{n-1}$$ machtsverheffingen. Dit wordt soms ook genoteerd als $$\mathsf{a \uparrow \uparrow n}$$
+> met $$\mathsf{n-1}$$ machtsverheffingen. Dit wordt ook genoteerd als $$\mathsf{a \uparrow \uparrow n}$$
 
 Er geldt bijvoorbeeld $$\mathsf{{^{4}2} =2\uparrow\uparrow 4= {2^{2^{2^{2}}}} = 2^{2^{4}} = 2^{16} = 65536 }$$.
 
