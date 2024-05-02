@@ -27,3 +27,8 @@ Bij invoer `3` en `3` verschijnt er:
 ```
 3 ￪￪ 3 = 7625597484987
 ```
+
+{: .callout.callout-info}
+> #### Tips
+> - Welke berekeningen moet je uitvoeren indien je $$\mathsf{{^{3}2}}$$ wil uit gaan rekenen?
+> - Kopieer dit symbool in je uitvoer: ￪ 
