@@ -1,0 +1,152 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "1\n5"
+      stdout: Het punt ( 1 , 5 ) behoort tot het I e kwadrant.
+    - expression: kwadrant( 1, 5 )
+      return: I
+  - testcases:
+    - stdin: "-1\n-5"
+      stdout: Het punt ( -1 , -5 ) behoort tot het III e kwadrant.
+    - expression: kwadrant( -1, -5 )
+      return: III
+  - testcases:
+    - stdin: "0\n-5"
+      stdout: Het punt ( 0 , -5 ) behoort tot geen enkel kwadrant.
+    - expression: kwadrant( 0, -5 )
+      return: 0
+  - testcases:
+    - stdin: "-14\n17"
+      stdout: Het punt ( -14 , 17 ) behoort tot het II e kwadrant.
+    - expression: kwadrant( -14, 17 )
+      return: II
+  - testcases:
+    - stdin: "-4\n12"
+      stdout: Het punt ( -4 , 12 ) behoort tot het II e kwadrant.
+    - expression: kwadrant( -4, 12 )
+      return: II
+  - testcases:
+    - stdin: "12\n1"
+      stdout: Het punt ( 12 , 1 ) behoort tot het I e kwadrant.
+    - expression: kwadrant( 12, 1 )
+      return: I
+  - testcases:
+    - stdin: "-11\n0"
+      stdout: Het punt ( -11 , 0 ) behoort tot geen enkel kwadrant.
+    - expression: kwadrant( -11, 0 )
+      return: 0
+  - testcases:
+    - stdin: "-18\n0"
+      stdout: Het punt ( -18 , 0 ) behoort tot geen enkel kwadrant.
+    - expression: kwadrant( -18, 0 )
+      return: 0
+  - testcases:
+    - stdin: "14\n9"
+      stdout: Het punt ( 14 , 9 ) behoort tot het I e kwadrant.
+    - expression: kwadrant( 14, 9 )
+      return: I
+  - testcases:
+    - stdin: "15\n-4"
+      stdout: Het punt ( 15 , -4 ) behoort tot het IV e kwadrant.
+    - expression: kwadrant( 15, -4 )
+      return: IV
+  - testcases:
+    - stdin: "3\n7"
+      stdout: Het punt ( 3 , 7 ) behoort tot het I e kwadrant.
+    - expression: kwadrant( 3, 7 )
+      return: I
+  - testcases:
+    - stdin: "15\n0"
+      stdout: Het punt ( 15 , 0 ) behoort tot geen enkel kwadrant.
+    - expression: kwadrant( 15, 0 )
+      return: 0
+  - testcases:
+    - stdin: "-9\n-17"
+      stdout: Het punt ( -9 , -17 ) behoort tot het III e kwadrant.
+    - expression: kwadrant( -9, -17 )
+      return: III
+  - testcases:
+    - stdin: "-5\n0"
+      stdout: Het punt ( -5 , 0 ) behoort tot geen enkel kwadrant.
+    - expression: kwadrant( -5, 0 )
+      return: 0
+  - testcases:
+    - stdin: "11\n13"
+      stdout: Het punt ( 11 , 13 ) behoort tot het I e kwadrant.
+    - expression: kwadrant( 11, 13 )
+      return: I
+  - testcases:
+    - stdin: "9\n-17"
+      stdout: Het punt ( 9 , -17 ) behoort tot het IV e kwadrant.
+    - expression: kwadrant( 9, -17 )
+      return: IV
+  - testcases:
+    - stdin: "18\n-11"
+      stdout: Het punt ( 18 , -11 ) behoort tot het IV e kwadrant.
+    - expression: kwadrant( 18, -11 )
+      return: IV
+  - testcases:
+    - stdin: "8\n5"
+      stdout: Het punt ( 8 , 5 ) behoort tot het I e kwadrant.
+    - expression: kwadrant( 8, 5 )
+      return: I
+  - testcases:
+    - stdin: "-7\n-3"
+      stdout: Het punt ( -7 , -3 ) behoort tot het III e kwadrant.
+    - expression: kwadrant( -7, -3 )
+      return: III
+  - testcases:
+    - stdin: "-7\n5"
+      stdout: Het punt ( -7 , 5 ) behoort tot het II e kwadrant.
+    - expression: kwadrant( -7, 5 )
+      return: II
+  - testcases:
+    - stdin: "0\n-18"
+      stdout: Het punt ( 0 , -18 ) behoort tot geen enkel kwadrant.
+    - expression: kwadrant( 0, -18 )
+      return: 0
+  - testcases:
+    - stdin: "0\n0"
+      stdout: Het punt ( 0 , 0 ) behoort tot geen enkel kwadrant.
+    - expression: kwadrant( 0, 0 )
+      return: 0
+  - testcases:
+    - stdin: "-4\n19"
+      stdout: Het punt ( -4 , 19 ) behoort tot het II e kwadrant.
+    - expression: kwadrant( -4, 19 )
+      return: II
+  - testcases:
+    - stdin: "-4\n-1"
+      stdout: Het punt ( -4 , -1 ) behoort tot het III e kwadrant.
+    - expression: kwadrant( -4, -1 )
+      return: III
+  - testcases:
+    - stdin: "-8\n7"
+      stdout: Het punt ( -8 , 7 ) behoort tot het II e kwadrant.
+    - expression: kwadrant( -8, 7 )
+      return: II
+  - testcases:
+    - stdin: "14\n-14"
+      stdout: Het punt ( 14 , -14 ) behoort tot het IV e kwadrant.
+    - expression: kwadrant( 14, -14 )
+      return: IV
+  - testcases:
+    - stdin: "-8\n10"
+      stdout: Het punt ( -8 , 10 ) behoort tot het II e kwadrant.
+    - expression: kwadrant( -8, 10 )
+      return: II
+  - testcases:
+    - stdin: "-14\n2"
+      stdout: Het punt ( -14 , 2 ) behoort tot het II e kwadrant.
+    - expression: kwadrant( -14, 2 )
+      return: II
+  - testcases:
+    - stdin: "-2\n0"
+      stdout: Het punt ( -2 , 0 ) behoort tot geen enkel kwadrant.
+    - expression: kwadrant( -2, 0 )
+      return: 0
+  - testcases:
+    - stdin: "-17\n-3"
+      stdout: Het punt ( -17 , -3 ) behoort tot het III e kwadrant.
+    - expression: kwadrant( -17, -3 )
+      return: III
