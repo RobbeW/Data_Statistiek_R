@@ -24,20 +24,32 @@ def write_yaml( data:list ):
     """ A function to write YAML file"""
     with open(os.path.join('..', 'evaluation', 'tests.yaml'), 'w', encoding='utf-8') as f:
         yaml.dump(data, f)
+
+module_name = 'solution'
+file_path = os.path.join(solutiondir, 'solution.nl.py')
+spec = importlib.util.spec_from_file_location(module_name, file_path)
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+
 # generate test data
-ntests= 20
+
+# generate test data
 cases = [(1,1),(1,2),(1,3),(1,4),(2,1),(2,2),(2,3),(2,4),(2,5),(3,1),(3,2),(3,3),(4,1),(4,2),(4,3), (5,1),(5,2),(5,3), (6,1),(6,2),(6,3)]
-    
+
 # generate unit tests for functions
 yamldata = []
-yamldata.append( {'tab': 'Feedback', 'testcases': []})
-# input, expression, statement or stdin?
 
+# input, expression, statement or stdin?
 input = 'stdin'
 # output, stdout or return?
 output = 'stdout'
+tabtitle = "Feedback"
 
-for test in cases:
+yamldata.append( {'tab': tabtitle, 'contexts': []})
+
+for i in range(len(cases)):
+    test = cases[i]
+    yamldata[0]['contexts'].append( {'testcases' : []})
     # generate test expression
     # add input to input file
     stdin = '\n'.join(f'{line}' for line in test)
@@ -52,15 +64,15 @@ for test in cases:
     )
     
     result_lines = process.stdout.split("\n")
-    result_lines = [x for x in result_lines[1:]]
+    result_lines = [x for x in result_lines[:-1]] ## drop last element
+    
     outputtxt = ""
     for line in result_lines:
         if not(line.startswith( 'Geef' )):
             print(line)
-            outputtxt += line + "\n"
-    
-    # setup for return expressions
-    testcase = { input: stdin, output: outputtxt[:-1] }
-    yamldata[0]['testcases'].append( testcase)
+            outputtxt += line
+            
+    testcase = { input: stdin, output: outputtxt }            
+    yamldata[0]['contexts'][i]["testcases"].append( testcase)
 
 write_yaml(yamldata)
