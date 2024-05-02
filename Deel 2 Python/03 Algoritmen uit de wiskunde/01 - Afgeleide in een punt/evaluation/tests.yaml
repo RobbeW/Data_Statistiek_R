@@ -1,6 +1,7 @@
 - tab: Feedback
   contexts:
   - testcases:
-    - statement: "def f( x ) : return x - 2"
-    - statement: "afgeleide( 0, f )"
+    - statement: 
+      python: "def f( x ) : return x - 2"
+    - expression: "afgeleide( 0, f )"
       return: 1.0
