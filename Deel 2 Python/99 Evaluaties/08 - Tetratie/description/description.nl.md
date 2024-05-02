@@ -10,9 +10,9 @@ Er is echter een andere wiskundige bewerking, genaamd **tetratie**, die nog snel
 > 
 > met $$\mathsf{n-1}$$ machtsverheffingen. Dit wordt soms ook genoteerd als $$\mathsf{a \uparrow \uparrow n}$$
 
-Er geldt bijvoorbeeld $$\mathsf{{^{4}2} =2\uparrow\uparrow 4= {2^{2^{2^{2}}}} = 2^{2^{4}} = 2^{16} = 65536$$.
+Er geldt bijvoorbeeld $$\mathsf{{^{4}2} =2\uparrow\uparrow 4= {2^{2^{2^{2}}}} = 2^{2^{4}} = 2^{16} = 65536 }$$.
 
-Een ander voorbeeld $$\mathsf{{^{3}3} =3\uparrow\uparrow 3= {3^{3^{3}}} = 3^{27} = 7625597484987$$.
+Een ander voorbeeld $$\mathsf{{^{3}3} =3\uparrow\uparrow 3= {3^{3^{3}}} = 3^{27} = 7625597484987}$$.
 
 ## Opgave
 Schrijf een programma dat **in volgorde** de getallen `a` en `n` vraagt en vervolgens de tetratie $$\mathsf{{^{n}a}}$$ uitrekent.
