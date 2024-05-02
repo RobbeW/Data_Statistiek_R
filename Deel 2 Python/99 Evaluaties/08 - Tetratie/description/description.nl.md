@@ -1,4 +1,4 @@
-In de lessen wiskunde werd de exponentiële functie reeds behandeld. Denk maar aan een functie waarbij de waarden steeds verdubbelen, 1, 2, 4, 8, 16, ... Dit stijgt zeer snel, vandaar ook de uitdrukking *exponentiële stijging*. 
+In de lessen wiskunde werd de exponentiële functie reeds behandeld. Denk maar aan een functie waarbij de waarden steeds verdubbelen: 1, 2, 4, 8, 16, ... Dit stijgt zeer snel, vandaar ook de uitdrukking *exponentiële stijging*. 
 
 Er is echter een andere wiskundige bewerking, genaamd **tetratie**, die nog sneller stijgt. Dit wordt als volgt gedefinieerd:
 
@@ -30,5 +30,5 @@ Bij invoer `3` en `3` verschijnt er:
 
 {: .callout.callout-info}
 > #### Tips
-> - Welke berekeningen moet je uitvoeren indien je $$\mathsf{{^{3}2}}$$ wil uit gaan rekenen?
-> - Kopieer dit symbool in je uitvoer: ￪ 
+> - Hoe pak je het aan indien je $$\mathsf{{^{3}2}}$$ wil uit rekenen? Probeer dit eens op papier.
+> - Kopieer dit symbool voor je uitvoer: ￪ 
