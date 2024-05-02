@@ -20,12 +20,12 @@ Schrijf een programma dat **in volgorde** de getallen `a` en `n` vraagt en vervo
 #### Voorbeelden
 Bij invoer `2` en `4` verschijnt er:
 ```
-2 ￪￪ 4 = 65536
+2 ￪￪ 4 is gelijk aan 65536
 ```
 
 Bij invoer `3` en `3` verschijnt er:
 ```
-3 ￪￪ 3 = 7625597484987
+3 ￪￪ 3 is gelijk aan 7625597484987
 ```
 
 {: .callout.callout-info}
