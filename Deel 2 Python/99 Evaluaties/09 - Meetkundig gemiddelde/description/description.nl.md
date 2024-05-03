@@ -8,7 +8,7 @@ $$
 
 ## Opgave
 
-Schrijf een functie `meetkundig_gemiddelde( a, b, c )` die het meetkundig gemiddelde berekent, rond hierbij af op 2 cijfers. 
+Schrijf een functie `meetkundig_gemiddelde( a, b, c )` die het meetkundig gemiddelde van 3 getallen berekent, rond hierbij af op 2 cijfers. 
 
 Vraag aan de gebruiker **vervolgens** drie (komma)getallen en laat de functie `meetkundig_gemiddelde` dit gemiddelde ervan berekenen. Druk dit gemiddelde vervolgens af op het scherm.
 
