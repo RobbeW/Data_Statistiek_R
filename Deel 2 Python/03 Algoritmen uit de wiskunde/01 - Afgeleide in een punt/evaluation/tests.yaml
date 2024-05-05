@@ -2,6 +2,8 @@
   contexts:
   - testcases:
     - statement:
+        python: 'import math'
+    - statement:
         python: 'def f( x ) : return math.sin(x)'
     - expression: afgeleide( 3.141592654, f )
       return: -0.9999999999993933
