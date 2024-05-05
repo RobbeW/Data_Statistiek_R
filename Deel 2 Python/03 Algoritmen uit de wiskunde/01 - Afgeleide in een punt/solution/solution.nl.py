@@ -5,5 +5,5 @@ def afgeleide( a, f ):
     for i in range(20):
         h = h / 2
         benadering = (f(a+h)-f(a))/h
-        print("In iteratie", i+1, "is de benadering:", round(benadering, 14))
+        print("In iteratie", i+1, "is de benadering:", round(benadering, 15))
     return benadering

@@ -6,6 +6,11 @@ import ruamel.yaml
 import subprocess
 
 yaml = ruamel.yaml.YAML()
+import math
+
+import contextlib, io
+
+
 
 # set fixed seed for generating test cases
 random.seed(12345678)
@@ -25,7 +30,8 @@ def write_yaml( data:list ):
     with open(os.path.join('..', 'evaluation', 'tests.yaml'), 'w', encoding='utf-8') as f:
         yaml.dump(data, f)
 
-def makeF( script ): # turns a string into a function
+def makeF(): # some weird function
+    script = test[0]
     exec(script, globals())
     return f
 
@@ -35,25 +41,27 @@ spec = importlib.util.spec_from_file_location(module_name, file_path)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
-# generate test data
 
 # generate test data
 cases = []
-cases.append( ['def f( x ) : return x - 2', 0])
-#cases.append( ['def f( x ) : return x**3 - 2', 0] )
-#cases.append( ['def f( x ) : return (x-2)**(1/3)-1', 0] )
-#cases.append( ['def f( x ) : return 5 * (x - 2) * (x - 3) * (x - 4)', 0] )
-#cases.append( ['def f( x ) : return -5 / (x**2 + 1) + 2', 0] )
-#cases.append( ['def f( x ) : return -5 / (x**2 + 1) + 2', 0] )
-#cases.append( ['def f( x ) : return -5 / (x**2 + 1) + 2', 0] )
+cases.append( ['def f( x ) : return math.sin(x)', round(math.pi, 9)])
+cases.append( ['def f( x ) : return math.sin(x)', 0])
+cases.append( ['def f( x ) : return math.sin(x)', round(math.pi/2, 9)])
+cases.append( ['def f( x ) : return x - 2', 5])
+cases.append( ['def f( x ) : return x - 2', -5])
+cases.append( ['def f( x ) : return x**3 - 2', 0] )
+cases.append( ['def f( x ) : return x**3 - 2', 1] )
+cases.append( ['def f( x ) : return x**3 - 2', 2] )
+cases.append( ['def f( x ) : return (x)**(1/3)', 1] )
+#cases.append( ['def f( x ) : return (x)**(1/3)', -1] )
+cases.append( ['def f( x ) : return (x)**(1/3)', 0] )
+cases.append( ['def f( x ) : return 5 * (x - 2) * (x - 3) * (x - 4)', 0] )
+cases.append( ['def f( x ) : return -5 / (x**2 + 1) + 2', 0] )
+cases.append( ['def f( x ) : return -5 / (x**2 + 1) + 2', 0] )
+cases.append( ['def f( x ) : return -5 / (x**2 + 1) + 2', 0] )
     
 # generate unit tests for functions
 yamldata = []
-
-# input, expression, statement or stdin?
-input = 'stdin'
-# output, stdout or return?
-output = 'stdout'
 tabtitle = "Feedback"
 
 yamldata.append( {'tab': tabtitle, 'contexts': []})
@@ -61,15 +69,29 @@ yamldata.append( {'tab': tabtitle, 'contexts': []})
 for i in range(len(cases)):
     test = cases[i]
     yamldata[0]['contexts'].append( {'testcases' : []})
-
+    
+    # functie definitie toevoegne als python statement
+    stmt = {"statement": {"python": test[0]}}
+    yamldata[0]['contexts'][i]["testcases"].append( stmt )
+    
     # generate test expression
-    expression_name = 'afgeleide( {}, {} )'.format( test[0], test[1] )
-    result = module.afgeleide( test[0] )
+    expression_name = 'afgeleide( {}, f )'.format( test[1] )
+    
+    try:
+        f = makeF()
+        
+        outputF = io.StringIO()
+        with contextlib.redirect_stdout(outputF):
+            result = module.afgeleide( test[1],f )
+        output = outputF.getvalue()
 
-    print(result)
-    # setup for return expressions
-    testcase = { "expression": expression_name, "return": result }
-    yamldata[0]['contexts'][i]["testcases"].append( testcase)
+        print(output)
+        print(result)
+        # setup for return expressions
+        testcase = { "expression": expression_name, "return": result, "stdout" : output }
+        yamldata[0]['contexts'][i]["testcases"].append( testcase)
+    except Exception as e:
+        print(e)    
 
 write_yaml(yamldata)
 
