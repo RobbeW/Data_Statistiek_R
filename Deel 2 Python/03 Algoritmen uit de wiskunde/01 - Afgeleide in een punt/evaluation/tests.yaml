@@ -23,6 +23,8 @@
         \ benadering: -0.999999999999393\n"
   - testcases:
     - statement:
+        python: 'import math'
+    - statement:
         python: 'def f( x ) : return math.sin(x)'
     - expression: afgeleide( 0, f )
       return: 0.9999999999993937
@@ -41,6 +43,8 @@
         In iteratie 19 is de benadering: 0.999999999997575\nIn iteratie 20 is de benadering:\
         \ 0.999999999999394\n"
   - testcases:
+    - statement:
+        python: 'import math'
     - statement:
         python: 'def f( x ) : return math.sin(x)'
     - expression: afgeleide( 1.570796327, f )
