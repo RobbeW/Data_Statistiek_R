@@ -2,6 +2,24 @@
   contexts:
   - testcases:
     - statement:
+        python: 'def f( x ) : return x**3 - 2'
+    - expression: afgeleide( 1, f )
+      return: 3.0000057220458984
+      stdout: "In iteratie 1 is de benadering: 7.0\nIn iteratie 2 is de benadering:\
+        \ 4.75\nIn iteratie 3 is de benadering: 3.8125\nIn iteratie 4 is de benadering:\
+        \ 3.390625\nIn iteratie 5 is de benadering: 3.19140625\nIn iteratie 6 is de\
+        \ benadering: 3.0947265625\nIn iteratie 7 is de benadering: 3.047119140625\n\
+        In iteratie 8 is de benadering: 3.02349853515625\nIn iteratie 9 is de benadering:\
+        \ 3.011734008789062\nIn iteratie 10 is de benadering: 3.005863189697266\n\
+        In iteratie 11 is de benadering: 3.002930641174316\nIn iteratie 12 is de benadering:\
+        \ 3.001465082168579\nIn iteratie 13 is de benadering: 3.000732481479645\n\
+        In iteratie 14 is de benadering: 3.000366225838661\nIn iteratie 15 is de benadering:\
+        \ 3.00018310919404\nIn iteratie 16 is de benadering: 3.000091553665698\nIn\
+        \ iteratie 17 is de benadering: 3.000045776600018\nIn iteratie 18 is de benadering:\
+        \ 3.000022888241801\nIn iteratie 19 is de benadering: 3.000011444091797\n\
+        In iteratie 20 is de benadering: 3.000005722045898\n"
+  - testcases:
+    - statement:
         python: 'import math'
     - statement:
         python: 'def f( x ) : return math.sin(x)'
@@ -21,6 +39,27 @@
         \ benadering: -0.999999999961192\nIn iteratie 18 is de benadering: -0.999999999990297\n\
         In iteratie 19 is de benadering: -0.999999999997574\nIn iteratie 20 is de\
         \ benadering: -0.999999999999393\n"
+  - testcases:
+    - statement:
+        python: 'import math'
+    - statement:
+        python: 'def f( x ) : return (1+x**2+(1-x**2)*math.log10(x))/((1+x**2)**2)'
+    - expression: afgeleide( 0.333333333, f )
+      return: 1.0679478441597894
+      stdout: "In iteratie 1 is de benadering: -0.209066520763498\nIn iteratie 2 is\
+        \ de benadering: 0.050529064449308\nIn iteratie 3 is de benadering: 0.414689283462606\n\
+        In iteratie 4 is de benadering: 0.697146220796911\nIn iteratie 5 is de benadering:\
+        \ 0.869948380318515\nIn iteratie 6 is de benadering: 0.965501212982979\nIn\
+        \ iteratie 7 is de benadering: 1.015815900071594\nIn iteratie 8 is de benadering:\
+        \ 1.04164996322001\nIn iteratie 9 is de benadering: 1.054742384286584\nIn\
+        \ iteratie 10 is de benadering: 1.061333287988703\nIn iteratie 11 is de benadering:\
+        \ 1.064640023597917\nIn iteratie 12 is de benadering: 1.066296226459826\n\
+        In iteratie 13 is de benadering: 1.067125038439826\nIn iteratie 14 is de benadering:\
+        \ 1.067539622291406\nIn iteratie 15 is de benadering: 1.067746958711723\n\
+        In iteratie 16 is de benadering: 1.067850638046366\nIn iteratie 17 is de benadering:\
+        \ 1.067902480506746\nIn iteratie 18 is de benadering: 1.067928402422694\n\
+        In iteratie 19 is de benadering: 1.067941363551654\nIn iteratie 20 is de benadering:\
+        \ 1.067947844159789\n"
   - testcases:
     - statement:
         python: 'import math'
@@ -112,24 +151,6 @@
         \ 16 is de benadering: 9.31323e-10\nIn iteratie 17 is de benadering: 2.32831e-10\n\
         In iteratie 18 is de benadering: 5.8208e-11\nIn iteratie 19 is de benadering:\
         \ 0.0\nIn iteratie 20 is de benadering: 0.0\n"
-  - testcases:
-    - statement:
-        python: 'def f( x ) : return x**3 - 2'
-    - expression: afgeleide( 1, f )
-      return: 3.0000057220458984
-      stdout: "In iteratie 1 is de benadering: 7.0\nIn iteratie 2 is de benadering:\
-        \ 4.75\nIn iteratie 3 is de benadering: 3.8125\nIn iteratie 4 is de benadering:\
-        \ 3.390625\nIn iteratie 5 is de benadering: 3.19140625\nIn iteratie 6 is de\
-        \ benadering: 3.0947265625\nIn iteratie 7 is de benadering: 3.047119140625\n\
-        In iteratie 8 is de benadering: 3.02349853515625\nIn iteratie 9 is de benadering:\
-        \ 3.011734008789062\nIn iteratie 10 is de benadering: 3.005863189697266\n\
-        In iteratie 11 is de benadering: 3.002930641174316\nIn iteratie 12 is de benadering:\
-        \ 3.001465082168579\nIn iteratie 13 is de benadering: 3.000732481479645\n\
-        In iteratie 14 is de benadering: 3.000366225838661\nIn iteratie 15 is de benadering:\
-        \ 3.00018310919404\nIn iteratie 16 is de benadering: 3.000091553665698\nIn\
-        \ iteratie 17 is de benadering: 3.000045776600018\nIn iteratie 18 is de benadering:\
-        \ 3.000022888241801\nIn iteratie 19 is de benadering: 3.000011444091797\n\
-        In iteratie 20 is de benadering: 3.000005722045898\n"
   - testcases:
     - statement:
         python: 'def f( x ) : return x**3 - 2'

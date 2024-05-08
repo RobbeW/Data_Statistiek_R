@@ -44,13 +44,14 @@ spec.loader.exec_module(module)
 
 # generate test data
 cases = []
+cases.append( ['def f( x ) : return x**3 - 2', 1] )
 cases.append( ['def f( x ) : return math.sin(x)', round(math.pi, 9)])
+cases.append( ['def f( x ) : return (1+x**2+(1-x**2)*math.log10(x))/((1+x**2)**2)', round(1/3, 9)])
 cases.append( ['def f( x ) : return math.sin(x)', 0])
 cases.append( ['def f( x ) : return math.sin(x)', round(math.pi/2, 9)])
 cases.append( ['def f( x ) : return x - 2', 5])
 cases.append( ['def f( x ) : return x - 2', -5])
 cases.append( ['def f( x ) : return x**3 - 2', 0] )
-cases.append( ['def f( x ) : return x**3 - 2', 1] )
 cases.append( ['def f( x ) : return x**3 - 2', 2] )
 cases.append( ['def f( x ) : return (x)**(1/3)', 1] )
 #cases.append( ['def f( x ) : return (x)**(1/3)', -1] )
