@@ -4,9 +4,9 @@ Zo geldt bijvoorbeeld voor het getal `365` dat de getalsom gelijk is aan `5 + 6 
 
 ## Opgave
 
-Schrijf een functie `getalsom( getal )` dat van een natuurlijk getal de getalsom uitrekent.
+Schrijf een functie `getalsom(getal)` dat van een natuurlijk getal de getalsom uitrekent.
 
-Vraag vervolgens aan de gebruik een getal en laat de getalsom uitrekenen.
+Vraag **daarna** aan de gebruiker een getal en laat de getalsom uitrekenen.
 
 #### Voorbeelden
 
