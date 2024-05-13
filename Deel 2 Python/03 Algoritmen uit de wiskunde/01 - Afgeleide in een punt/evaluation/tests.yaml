@@ -20,7 +20,7 @@
         In iteratie 20 is de benadering: 3.000005722045898\n"
   - testcases:
     - statement:
-        python: 'import math'
+        python: import math
     - statement:
         python: 'def f( x ) : return math.sin(x)'
     - expression: afgeleide( 3.141592654, f )
@@ -41,7 +41,7 @@
         \ benadering: -0.999999999999393\n"
   - testcases:
     - statement:
-        python: 'import math'
+        python: import math
     - statement:
         python: 'def f( x ) : return (1+x**2+(1-x**2)*math.log10(x))/((1+x**2)**2)'
     - expression: afgeleide( 0.333333333, f )
@@ -62,7 +62,7 @@
         \ 1.067947844159789\n"
   - testcases:
     - statement:
-        python: 'import math'
+        python: import math
     - statement:
         python: 'def f( x ) : return math.sin(x)'
     - expression: afgeleide( 0, f )
@@ -83,7 +83,7 @@
         \ 0.999999999999394\n"
   - testcases:
     - statement:
-        python: 'import math'
+        python: import math
     - statement:
         python: 'def f( x ) : return math.sin(x)'
     - expression: afgeleide( 1.570796327, f )
