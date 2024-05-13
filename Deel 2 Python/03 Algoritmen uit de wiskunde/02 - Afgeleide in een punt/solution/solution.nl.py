@@ -7,7 +7,7 @@ def afgeleide( a, f ):
         benadering = (f(a+h)-f(a))/h
         print("In iteratie", i+1, "is de benadering:", round(benadering, 15))
     
-    if abs(benadering - benadering_oud) > 500:
+    if abs(benadering - benadering_oud) > 200:
         return "Niet afleidbaar in dit punt"
     else:
         return benadering

@@ -319,7 +319,7 @@
     - statement:
         python: 'def f( x ) : return (x+3)**(1/2)'
     - expression: afgeleide( -3, f )
-      return: 724.0773439350247
+      return: Niet afleidbaar in dit punt
       stdout: "In iteratie 1 is de benadering: 1.0\nIn iteratie 2 is de benadering:\
         \ 1.414213562373095\nIn iteratie 3 is de benadering: 2.0\nIn iteratie 4 is\
         \ de benadering: 2.82842712474619\nIn iteratie 5 is de benadering: 4.0\nIn\
