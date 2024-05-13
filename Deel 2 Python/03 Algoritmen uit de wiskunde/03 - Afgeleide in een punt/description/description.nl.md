@@ -1,18 +1,8 @@
-De afgeleide in een punt heb je in de lessen wiskunde als volgt gedefinieerd:
-
-{: .callout.callout-danger}
-> #### Afgeleide in een punt
-> Indien een functie $$\mathsf{f}$$ afleidbaar is in een punt $$\mathsf{a}$$, dan wordt de afgeleide in dat punt $$\mathsf{f'(a)}$$ gedefinieerd als volgt:
-> 
-> $$\mathsf{f'(a) = \lim_{h\to 0} \dfrac{f(a+h)-f(a)}{h}}$$
-
 ## Opgave
 
-Schrijf een functie `afgeleide(a, f)` dat van een functie `f` de afgeleide in het punt met x-coördinaat `a` bepaalt.
+Schrijf een functie `afgeleide(a, f, delta)` dat van een functie `f` de afgeleide in het punt met x-coördinaat `a` tot op nauwkeurigheid `delta` bepaalt. 
 
-Een eerste implementatie van het algoritme werkt **iteratief** en herhaalt de definitie **20 keer**. De eerste keer stel je `h=1`, daarna `0.5`, daarna `0.25`, enz...
-
-Je geeft de benaderende waarde telkens weer op het scherm, afgerond op **15 cijfers na de komma**. Uiteindelijk `return` je de laatste waarde.
+Je geeft de benaderende waarde telkens weer op het scherm, afgerond op **15 cijfers na de komma**. Uiteindelijk `return` je de laatste waarde. Indien het algoritme na 50 waarden nog **steeds** niet convergeert `return` je de tekst `Niet afleidbaar in dit punt`.
 
 #### Voorbeeld 1
 
@@ -35,16 +25,6 @@ In iteratie 7 is de benadering: 3.047119140625
 In iteratie 8 is de benadering: 3.02349853515625
 In iteratie 9 is de benadering: 3.011734008789062
 In iteratie 10 is de benadering: 3.005863189697266
-In iteratie 11 is de benadering: 3.002930641174316
-In iteratie 12 is de benadering: 3.001465082168579
-In iteratie 13 is de benadering: 3.000732481479645
-In iteratie 14 is de benadering: 3.000366225838661
-In iteratie 15 is de benadering: 3.00018310919404
-In iteratie 16 is de benadering: 3.000091553665698
-In iteratie 17 is de benadering: 3.000045776600018
-In iteratie 18 is de benadering: 3.000022888241801
-In iteratie 19 is de benadering: 3.000011444091797
-In iteratie 20 is de benadering: 3.000005722045898
 ```
 
 De uiteindelijke `return` waarde bedraagt:

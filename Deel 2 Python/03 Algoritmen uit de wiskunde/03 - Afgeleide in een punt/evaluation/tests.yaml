@@ -3,73 +3,66 @@
   - testcases:
     - statement:
         python: 'def f( x ) : return x**3 - 2'
-    - expression: afgeleide( 1, f, 0.0001 )
-      return: 3.0000915536656976
-      stdout: "In iteratie 1 is de benadering: 13.0\nIn iteratie 2 is de benadering:\
-        \ 7.0\nIn iteratie 3 is de benadering: 4.75\nIn iteratie 4 is de benadering:\
-        \ 3.8125\nIn iteratie 5 is de benadering: 3.390625\nIn iteratie 6 is de benadering:\
-        \ 3.19140625\nIn iteratie 7 is de benadering: 3.0947265625\nIn iteratie 8\
-        \ is de benadering: 3.047119140625\nIn iteratie 9 is de benadering: 3.02349853515625\n\
-        In iteratie 10 is de benadering: 3.011734008789062\nIn iteratie 11 is de benadering:\
-        \ 3.005863189697266\nIn iteratie 12 is de benadering: 3.002930641174316\n\
-        In iteratie 13 is de benadering: 3.001465082168579\nIn iteratie 14 is de benadering:\
-        \ 3.000732481479645\nIn iteratie 15 is de benadering: 3.000366225838661\n\
-        In iteratie 16 is de benadering: 3.00018310919404\nIn iteratie 17 is de benadering:\
-        \ 3.000091553665698\n"
+    - expression: afgeleide( 1, f, 0.01 )
+      return: 3.0058631896972656
+      stdout: "In iteratie 1 is de benadering: 7.0\nIn iteratie 2 is de benadering:\
+        \ 4.75\nIn iteratie 3 is de benadering: 3.8125\nIn iteratie 4 is de benadering:\
+        \ 3.390625\nIn iteratie 5 is de benadering: 3.19140625\nIn iteratie 6 is de\
+        \ benadering: 3.0947265625\nIn iteratie 7 is de benadering: 3.047119140625\n\
+        In iteratie 8 is de benadering: 3.02349853515625\nIn iteratie 9 is de benadering:\
+        \ 3.011734008789062\nIn iteratie 10 is de benadering: 3.005863189697266\n"
   - testcases:
     - statement:
+        python: import math
+    - statement:
         python: 'def f( x ) : return math.sin(x)'
-    - expression: afgeleide( 3.141592654, f, 0.0001 )
-      return: -0.9999898275034
-      stdout: "In iteratie 1 is de benadering: -0.454648713122384\nIn iteratie 2 is\
-        \ de benadering: -0.841470984619325\nIn iteratie 3 is de benadering: -0.958851077107973\n\
-        In iteratie 4 is de benadering: -0.989615836967082\nIn iteratie 5 is de benadering:\
-        \ -0.997397867056217\nIn iteratie 6 is de benadering: -0.999349085465268\n\
-        In iteratie 7 is de benadering: -0.999837247524025\nIn iteratie 8 is de benadering:\
-        \ -0.999959310389331\nIn iteratie 9 is de benadering: -0.9999898275034\n"
+    - expression: afgeleide( 3.141592654, f, 0.001 )
+      return: -0.9998372475240255
+      stdout: "In iteratie 1 is de benadering: -0.841470984619325\nIn iteratie 2 is\
+        \ de benadering: -0.958851077107973\nIn iteratie 3 is de benadering: -0.989615836967082\n\
+        In iteratie 4 is de benadering: -0.997397867056217\nIn iteratie 5 is de benadering:\
+        \ -0.999349085465268\nIn iteratie 6 is de benadering: -0.999837247524025\n"
   - testcases:
+    - statement:
+        python: import math
     - statement:
         python: 'def f( x ) : return (1+x**2+(1-x**2)*math.log10(x))/((1+x**2)**2)'
-    - expression: afgeleide( 0.333333333, f, 0.0001 )
-      return: 1.0679024805067456
-      stdout: "In iteratie 1 is de benadering: -0.220339743273837\nIn iteratie 2 is\
-        \ de benadering: -0.209066520763498\nIn iteratie 3 is de benadering: 0.050529064449308\n\
-        In iteratie 4 is de benadering: 0.414689283462606\nIn iteratie 5 is de benadering:\
-        \ 0.697146220796911\nIn iteratie 6 is de benadering: 0.869948380318515\nIn\
-        \ iteratie 7 is de benadering: 0.965501212982979\nIn iteratie 8 is de benadering:\
-        \ 1.015815900071594\nIn iteratie 9 is de benadering: 1.04164996322001\nIn\
-        \ iteratie 10 is de benadering: 1.054742384286584\nIn iteratie 11 is de benadering:\
-        \ 1.061333287988703\nIn iteratie 12 is de benadering: 1.064640023597917\n\
-        In iteratie 13 is de benadering: 1.066296226459826\nIn iteratie 14 is de benadering:\
-        \ 1.067125038439826\nIn iteratie 15 is de benadering: 1.067539622291406\n\
-        In iteratie 16 is de benadering: 1.067746958711723\nIn iteratie 17 is de benadering:\
-        \ 1.067850638046366\nIn iteratie 18 is de benadering: 1.067902480506746\n"
+    - expression: afgeleide( 0.333333333, f, 0.001 )
+      return: 1.0671250384398263
+      stdout: "In iteratie 1 is de benadering: -0.209066520763498\nIn iteratie 2 is\
+        \ de benadering: 0.050529064449308\nIn iteratie 3 is de benadering: 0.414689283462606\n\
+        In iteratie 4 is de benadering: 0.697146220796911\nIn iteratie 5 is de benadering:\
+        \ 0.869948380318515\nIn iteratie 6 is de benadering: 0.965501212982979\nIn\
+        \ iteratie 7 is de benadering: 1.015815900071594\nIn iteratie 8 is de benadering:\
+        \ 1.04164996322001\nIn iteratie 9 is de benadering: 1.054742384286584\nIn\
+        \ iteratie 10 is de benadering: 1.061333287988703\nIn iteratie 11 is de benadering:\
+        \ 1.064640023597917\nIn iteratie 12 is de benadering: 1.066296226459826\n\
+        In iteratie 13 is de benadering: 1.067125038439826\n"
   - testcases:
     - statement:
-        python: 'def f( x ) : return math.sin(x)'
-    - expression: afgeleide( 0, f, 0.0001 )
-      return: 0.9999898275050024
-      stdout: "In iteratie 1 is de benadering: 0.454648713412841\nIn iteratie 2 is\
-        \ de benadering: 0.841470984807897\nIn iteratie 3 is de benadering: 0.958851077208406\n\
-        In iteratie 4 is de benadering: 0.989615837018092\nIn iteratie 5 is de benadering:\
-        \ 0.997397867081822\nIn iteratie 6 is de benadering: 0.999349085478083\nIn\
-        \ iteratie 7 is de benadering: 0.999837247530435\nIn iteratie 8 is de benadering:\
-        \ 0.999959310392536\nIn iteratie 9 is de benadering: 0.999989827505002\n"
-  - testcases:
+        python: import math
     - statement:
         python: 'def f( x ) : return math.sin(x)'
-    - expression: afgeleide( 1.570796327, f, 0.0001 )
-      return: -6.10353608863079e-05
-      stdout: "In iteratie 1 is de benadering: -0.708073418366821\nIn iteratie 2 is\
-        \ de benadering: -0.459697694304449\nIn iteratie 3 is de benadering: -0.244834876415918\n\
-        In iteratie 4 is de benadering: -0.124350313360394\nIn iteratie 5 is de benadering:\
-        \ -0.062418662369938\nIn iteratie 6 is de benadering: -0.031239829003384\n\
-        In iteratie 7 is de benadering: -0.015623728680705\nIn iteratie 8 is de benadering:\
-        \ -0.007812341260667\nIn iteratie 9 is de benadering: -0.003906230336923\n\
-        In iteratie 10 is de benadering: -0.001953122721574\nIn iteratie 11 is de\
-        \ benadering: -0.000976562394669\nIn iteratie 12 is de benadering: -0.000488281416324\n\
-        In iteratie 13 is de benadering: -0.000244140825316\nIn iteratie 14 is de\
-        \ benadering: -0.000122070517136\nIn iteratie 15 is de benadering: -6.1035360886e-05\n"
+    - expression: afgeleide( 0, f, 0.001 )
+      return: 0.9998372475304346
+      stdout: "In iteratie 1 is de benadering: 0.841470984807897\nIn iteratie 2 is\
+        \ de benadering: 0.958851077208406\nIn iteratie 3 is de benadering: 0.989615837018092\n\
+        In iteratie 4 is de benadering: 0.997397867081822\nIn iteratie 5 is de benadering:\
+        \ 0.999349085478083\nIn iteratie 6 is de benadering: 0.999837247530435\n"
+  - testcases:
+    - statement:
+        python: import math
+    - statement:
+        python: 'def f( x ) : return math.sin(x)'
+    - expression: afgeleide( 1.570796327, f, 0.001 )
+      return: -0.0009765623946691449
+      stdout: "In iteratie 1 is de benadering: -0.459697694304449\nIn iteratie 2 is\
+        \ de benadering: -0.244834876415918\nIn iteratie 3 is de benadering: -0.124350313360394\n\
+        In iteratie 4 is de benadering: -0.062418662369938\nIn iteratie 5 is de benadering:\
+        \ -0.031239829003384\nIn iteratie 6 is de benadering: -0.015623728680705\n\
+        In iteratie 7 is de benadering: -0.007812341260667\nIn iteratie 8 is de benadering:\
+        \ -0.003906230336923\nIn iteratie 9 is de benadering: -0.001953122721574\n\
+        In iteratie 10 is de benadering: -0.000976562394669\n"
   - testcases:
     - statement:
         python: 'def f( x ) : return x - 2'
@@ -87,167 +80,291 @@
         python: 'def f( x ) : return x**3 - 2'
     - expression: afgeleide( 0, f, 0.0001 )
       return: 1.52587890625e-05
-      stdout: "In iteratie 1 is de benadering: 4.0\nIn iteratie 2 is de benadering:\
-        \ 1.0\nIn iteratie 3 is de benadering: 0.25\nIn iteratie 4 is de benadering:\
-        \ 0.0625\nIn iteratie 5 is de benadering: 0.015625\nIn iteratie 6 is de benadering:\
-        \ 0.00390625\nIn iteratie 7 is de benadering: 0.0009765625\nIn iteratie 8\
-        \ is de benadering: 0.000244140625\nIn iteratie 9 is de benadering: 6.103515625e-05\n\
-        In iteratie 10 is de benadering: 1.5258789062e-05\n"
+      stdout: "In iteratie 1 is de benadering: 1.0\nIn iteratie 2 is de benadering:\
+        \ 0.25\nIn iteratie 3 is de benadering: 0.0625\nIn iteratie 4 is de benadering:\
+        \ 0.015625\nIn iteratie 5 is de benadering: 0.00390625\nIn iteratie 6 is de\
+        \ benadering: 0.0009765625\nIn iteratie 7 is de benadering: 0.000244140625\n\
+        In iteratie 8 is de benadering: 6.103515625e-05\nIn iteratie 9 is de benadering:\
+        \ 1.5258789062e-05\n"
   - testcases:
     - statement:
         python: 'def f( x ) : return x**3 - 2'
     - expression: afgeleide( 2, f, 0.0001 )
       return: 12.000091552967206
-      stdout: "In iteratie 1 is de benadering: 28.0\nIn iteratie 2 is de benadering:\
-        \ 19.0\nIn iteratie 3 is de benadering: 15.25\nIn iteratie 4 is de benadering:\
-        \ 13.5625\nIn iteratie 5 is de benadering: 12.765625\nIn iteratie 6 is de\
-        \ benadering: 12.37890625\nIn iteratie 7 is de benadering: 12.1884765625\n\
-        In iteratie 8 is de benadering: 12.093994140625\nIn iteratie 9 is de benadering:\
-        \ 12.04693603515625\nIn iteratie 10 is de benadering: 12.023452758789062\n\
-        In iteratie 11 is de benadering: 12.011722564697266\nIn iteratie 12 is de\
-        \ benadering: 12.005860328674316\nIn iteratie 13 is de benadering: 12.002929925918579\n\
-        In iteratie 14 is de benadering: 12.001464903354645\nIn iteratie 15 is de\
-        \ benadering: 12.000732436776161\nIn iteratie 16 is de benadering: 12.00036621466279\n\
-        In iteratie 17 is de benadering: 12.000183106400073\nIn iteratie 18 is de\
-        \ benadering: 12.000091552967206\n"
+      stdout: "In iteratie 1 is de benadering: 19.0\nIn iteratie 2 is de benadering:\
+        \ 15.25\nIn iteratie 3 is de benadering: 13.5625\nIn iteratie 4 is de benadering:\
+        \ 12.765625\nIn iteratie 5 is de benadering: 12.37890625\nIn iteratie 6 is\
+        \ de benadering: 12.1884765625\nIn iteratie 7 is de benadering: 12.093994140625\n\
+        In iteratie 8 is de benadering: 12.04693603515625\nIn iteratie 9 is de benadering:\
+        \ 12.023452758789062\nIn iteratie 10 is de benadering: 12.011722564697266\n\
+        In iteratie 11 is de benadering: 12.005860328674316\nIn iteratie 12 is de\
+        \ benadering: 12.002929925918579\nIn iteratie 13 is de benadering: 12.001464903354645\n\
+        In iteratie 14 is de benadering: 12.000732436776161\nIn iteratie 15 is de\
+        \ benadering: 12.00036621466279\nIn iteratie 16 is de benadering: 12.000183106400073\n\
+        In iteratie 17 is de benadering: 12.000091552967206\n"
   - testcases:
     - statement:
-        python: 'def f( x ) : return (x)**(1/3)'
+        python: 'def f( x ) : return x**(1/3)'
     - expression: afgeleide( 1, f, 0.0001 )
       return: 0.3332790945732995
-      stdout: "In iteratie 1 is de benadering: 0.221124785153704\nIn iteratie 2 is\
-        \ de benadering: 0.259921049894873\nIn iteratie 3 is de benadering: 0.289428485106664\n\
-        In iteratie 4 is de benadering: 0.308869380063768\nIn iteratie 5 is de benadering:\
-        \ 0.320335292207616\nIn iteratie 6 is de benadering: 0.326620407669392\nIn\
-        \ iteratie 7 is de benadering: 0.329920164977523\nIn iteratie 8 is de benadering:\
-        \ 0.331612137424926\nIn iteratie 9 is de benadering: 0.332469025868818\nIn\
-        \ iteratie 10 is de benadering: 0.332900245010251\nIn iteratie 11 is de benadering:\
-        \ 0.333116554613412\nIn iteratie 12 is de benadering: 0.333224885219352\n\
-        In iteratie 13 is de benadering: 0.3332790945733\n"
+      stdout: "In iteratie 1 is de benadering: 0.259921049894873\nIn iteratie 2 is\
+        \ de benadering: 0.289428485106664\nIn iteratie 3 is de benadering: 0.308869380063768\n\
+        In iteratie 4 is de benadering: 0.320335292207616\nIn iteratie 5 is de benadering:\
+        \ 0.326620407669392\nIn iteratie 6 is de benadering: 0.329920164977523\nIn\
+        \ iteratie 7 is de benadering: 0.331612137424926\nIn iteratie 8 is de benadering:\
+        \ 0.332469025868818\nIn iteratie 9 is de benadering: 0.332900245010251\nIn\
+        \ iteratie 10 is de benadering: 0.333116554613412\nIn iteratie 11 is de benadering:\
+        \ 0.333224885219352\nIn iteratie 12 is de benadering: 0.3332790945733\n"
   - testcases:
     - statement:
-        python: 'def f( x ) : return (x)**(1/3)'
+        python: 'def f( x ) : return x**(1/3)'
     - expression: afgeleide( 0, f, 0.0001 )
-      return: 4.648288232098039e+19
-      stdout: "In iteratie 1 is de benadering: 0.629960524947437\nIn iteratie 2 is\
-        \ de benadering: 1.0\nIn iteratie 3 is de benadering: 1.5874010519682\nIn\
-        \ iteratie 4 is de benadering: 2.519842099789746\nIn iteratie 5 is de benadering:\
-        \ 4.0\nIn iteratie 6 is de benadering: 6.349604207872798\nIn iteratie 7 is\
-        \ de benadering: 10.079368399158986\nIn iteratie 8 is de benadering: 16.0\n\
-        In iteratie 9 is de benadering: 25.398416831491193\nIn iteratie 10 is de benadering:\
-        \ 40.31747359663594\nIn iteratie 11 is de benadering: 64.00000000000001\n\
-        In iteratie 12 is de benadering: 101.59366732596477\nIn iteratie 13 is de\
-        \ benadering: 161.2698943865438\nIn iteratie 14 is de benadering: 256.00000000000006\n\
-        In iteratie 15 is de benadering: 406.37466930385915\nIn iteratie 16 is de\
-        \ benadering: 645.0795775461752\nIn iteratie 17 is de benadering: 1024.0000000000002\n\
-        In iteratie 18 is de benadering: 1625.4986772154366\nIn iteratie 19 is de\
-        \ benadering: 2580.3183101847007\nIn iteratie 20 is de benadering: 4096.000000000001\n\
-        In iteratie 21 is de benadering: 6501.994708861746\nIn iteratie 22 is de benadering:\
-        \ 10321.273240738803\nIn iteratie 23 is de benadering: 16384.000000000004\n\
-        In iteratie 24 is de benadering: 26007.97883544699\nIn iteratie 25 is de benadering:\
-        \ 41285.09296295522\nIn iteratie 26 is de benadering: 65536.00000000001\n\
-        In iteratie 27 is de benadering: 104031.91534178796\nIn iteratie 28 is de\
-        \ benadering: 165140.37185182088\nIn iteratie 29 is de benadering: 262144.0000000001\n\
-        In iteratie 30 is de benadering: 416127.6613671518\nIn iteratie 31 is de benadering:\
-        \ 660561.4874072835\nIn iteratie 32 is de benadering: 1048576.0000000005\n\
-        In iteratie 33 is de benadering: 1664510.6454686073\nIn iteratie 34 is de\
-        \ benadering: 2642245.949629134\nIn iteratie 35 is de benadering: 4194304.000000002\n\
-        In iteratie 36 is de benadering: 6658042.58187443\nIn iteratie 37 is de benadering:\
-        \ 10568983.798516536\nIn iteratie 38 is de benadering: 16777216.000000007\n\
-        In iteratie 39 is de benadering: 26632170.32749772\nIn iteratie 40 is de benadering:\
-        \ 42275935.19406615\nIn iteratie 41 is de benadering: 67108864.00000003\n\
-        In iteratie 42 is de benadering: 106528681.30999088\nIn iteratie 43 is de\
-        \ benadering: 169103740.7762646\nIn iteratie 44 is de benadering: 268435456.0000001\n\
-        In iteratie 45 is de benadering: 426114725.23996353\nIn iteratie 46 is de\
-        \ benadering: 676414963.1050584\nIn iteratie 47 is de benadering: 1073741824.0000007\n\
-        In iteratie 48 is de benadering: 1704458900.9598544\nIn iteratie 49 is de\
-        \ benadering: 2705659852.4202337\nIn iteratie 50 is de benadering: 4294967296.000003\n\
-        In iteratie 51 is de benadering: 6817835603.839417\nIn iteratie 52 is de benadering:\
-        \ 10822639409.680937\nIn iteratie 53 is de benadering: 17179869184.00001\n\
-        In iteratie 54 is de benadering: 27271342415.35767\nIn iteratie 55 is de benadering:\
-        \ 43290557638.72375\nIn iteratie 56 is de benadering: 68719476736.00005\n\
-        In iteratie 57 is de benadering: 109085369661.4307\nIn iteratie 58 is de benadering:\
-        \ 173162230554.895\nIn iteratie 59 is de benadering: 274877906944.0002\nIn\
-        \ iteratie 60 is de benadering: 436341478645.7228\nIn iteratie 61 is de benadering:\
-        \ 692648922219.58\nIn iteratie 62 is de benadering: 1099511627776.0007\nIn\
-        \ iteratie 63 is de benadering: 1745365914582.891\nIn iteratie 64 is de benadering:\
-        \ 2770595688878.32\nIn iteratie 65 is de benadering: 4398046511104.004\nIn\
-        \ iteratie 66 is de benadering: 6981463658331.564\nIn iteratie 67 is de benadering:\
-        \ 11082382755513.281\nIn iteratie 68 is de benadering: 17592186044416.016\n\
-        In iteratie 69 is de benadering: 27925854633326.26\nIn iteratie 70 is de benadering:\
-        \ 44329531022053.125\nIn iteratie 71 is de benadering: 70368744177664.06\n\
-        In iteratie 72 is de benadering: 111703418533305.05\nIn iteratie 73 is de\
-        \ benadering: 177318124088212.5\nIn iteratie 74 is de benadering: 281474976710656.25\n\
-        In iteratie 75 is de benadering: 446813674133220.2\nIn iteratie 76 is de benadering:\
-        \ 709272496352850.0\nIn iteratie 77 is de benadering: 1125899906842625.0\n\
-        In iteratie 78 is de benadering: 1787254696532880.8\nIn iteratie 79 is de\
-        \ benadering: 2837089985411400.0\nIn iteratie 80 is de benadering: 4503599627370501.0\n\
-        In iteratie 81 is de benadering: 7149018786131524.0\nIn iteratie 82 is de\
-        \ benadering: 1.1348359941645602e+16\nIn iteratie 83 is de benadering: 1.8014398509482004e+16\n\
-        In iteratie 84 is de benadering: 2.8596075144526096e+16\nIn iteratie 85 is\
-        \ de benadering: 4.539343976658241e+16\nIn iteratie 86 is de benadering: 7.205759403792802e+16\n\
-        In iteratie 87 is de benadering: 1.1438430057810438e+17\nIn iteratie 88 is\
-        \ de benadering: 1.8157375906632963e+17\nIn iteratie 89 is de benadering:\
-        \ 2.8823037615171206e+17\nIn iteratie 90 is de benadering: 4.575372023124176e+17\n\
-        In iteratie 91 is de benadering: 7.262950362653185e+17\nIn iteratie 92 is\
-        \ de benadering: 1.1529215046068483e+18\nIn iteratie 93 is de benadering:\
-        \ 1.8301488092496704e+18\nIn iteratie 94 is de benadering: 2.9051801450612746e+18\n\
-        In iteratie 95 is de benadering: 4.611686018427393e+18\nIn iteratie 96 is\
-        \ de benadering: 7.320595236998682e+18\nIn iteratie 97 is de benadering: 1.1620720580245098e+19\n\
-        In iteratie 98 is de benadering: 1.8446744073709576e+19\nIn iteratie 99 is\
-        \ de benadering: 2.9282380947994726e+19\nIn iteratie 100 is de benadering:\
-        \ 4.648288232098039e+19\n"
+      return: Niet afleidbaar in dit punt
+      stdout: "In iteratie 1 is de benadering: 1.0\nIn iteratie 2 is de benadering:\
+        \ 1.5874010519682\nIn iteratie 3 is de benadering: 2.519842099789746\nIn iteratie\
+        \ 4 is de benadering: 4.0\nIn iteratie 5 is de benadering: 6.349604207872798\n\
+        In iteratie 6 is de benadering: 10.079368399158986\nIn iteratie 7 is de benadering:\
+        \ 16.0\nIn iteratie 8 is de benadering: 25.398416831491193\nIn iteratie 9\
+        \ is de benadering: 40.31747359663594\nIn iteratie 10 is de benadering: 64.00000000000001\n\
+        In iteratie 11 is de benadering: 101.59366732596477\nIn iteratie 12 is de\
+        \ benadering: 161.2698943865438\nIn iteratie 13 is de benadering: 256.00000000000006\n\
+        In iteratie 14 is de benadering: 406.37466930385915\nIn iteratie 15 is de\
+        \ benadering: 645.0795775461752\nIn iteratie 16 is de benadering: 1024.0000000000002\n\
+        In iteratie 17 is de benadering: 1625.4986772154366\nIn iteratie 18 is de\
+        \ benadering: 2580.3183101847007\nIn iteratie 19 is de benadering: 4096.000000000001\n\
+        In iteratie 20 is de benadering: 6501.994708861746\nIn iteratie 21 is de benadering:\
+        \ 10321.273240738803\nIn iteratie 22 is de benadering: 16384.000000000004\n\
+        In iteratie 23 is de benadering: 26007.97883544699\nIn iteratie 24 is de benadering:\
+        \ 41285.09296295522\nIn iteratie 25 is de benadering: 65536.00000000001\n\
+        In iteratie 26 is de benadering: 104031.91534178796\nIn iteratie 27 is de\
+        \ benadering: 165140.37185182088\nIn iteratie 28 is de benadering: 262144.0000000001\n\
+        In iteratie 29 is de benadering: 416127.6613671518\nIn iteratie 30 is de benadering:\
+        \ 660561.4874072835\nIn iteratie 31 is de benadering: 1048576.0000000005\n\
+        In iteratie 32 is de benadering: 1664510.6454686073\nIn iteratie 33 is de\
+        \ benadering: 2642245.949629134\nIn iteratie 34 is de benadering: 4194304.000000002\n\
+        In iteratie 35 is de benadering: 6658042.58187443\nIn iteratie 36 is de benadering:\
+        \ 10568983.798516536\nIn iteratie 37 is de benadering: 16777216.000000007\n\
+        In iteratie 38 is de benadering: 26632170.32749772\nIn iteratie 39 is de benadering:\
+        \ 42275935.19406615\nIn iteratie 40 is de benadering: 67108864.00000003\n\
+        In iteratie 41 is de benadering: 106528681.30999088\nIn iteratie 42 is de\
+        \ benadering: 169103740.7762646\nIn iteratie 43 is de benadering: 268435456.0000001\n\
+        In iteratie 44 is de benadering: 426114725.23996353\nIn iteratie 45 is de\
+        \ benadering: 676414963.1050584\nIn iteratie 46 is de benadering: 1073741824.0000007\n\
+        In iteratie 47 is de benadering: 1704458900.9598544\nIn iteratie 48 is de\
+        \ benadering: 2705659852.4202337\nIn iteratie 49 is de benadering: 4294967296.000003\n\
+        In iteratie 50 is de benadering: 6817835603.839417\n"
   - testcases:
     - statement:
-        python: 'def f( x ) : return 5 * (x - 2) * (x - 3) * x - 4)'
+        python: 'def f( x ) : return x**3 - 2'
+    - expression: afgeleide( 1, f, 0.0001 )
+      return: 3.0000915536656976
+      stdout: "In iteratie 1 is de benadering: 7.0\nIn iteratie 2 is de benadering:\
+        \ 4.75\nIn iteratie 3 is de benadering: 3.8125\nIn iteratie 4 is de benadering:\
+        \ 3.390625\nIn iteratie 5 is de benadering: 3.19140625\nIn iteratie 6 is de\
+        \ benadering: 3.0947265625\nIn iteratie 7 is de benadering: 3.047119140625\n\
+        In iteratie 8 is de benadering: 3.02349853515625\nIn iteratie 9 is de benadering:\
+        \ 3.011734008789062\nIn iteratie 10 is de benadering: 3.005863189697266\n\
+        In iteratie 11 is de benadering: 3.002930641174316\nIn iteratie 12 is de benadering:\
+        \ 3.001465082168579\nIn iteratie 13 is de benadering: 3.000732481479645\n\
+        In iteratie 14 is de benadering: 3.000366225838661\nIn iteratie 15 is de benadering:\
+        \ 3.00018310919404\nIn iteratie 16 is de benadering: 3.000091553665698\n"
+  - testcases:
+    - statement:
+        python: 'def f( x ) : return x/abs(x)*abs(x)**(1/3)'
+    - expression: afgeleide( -10, f, 0.0001 )
+      return: 0.07188942657184327
+      stdout: "In iteratie 1 is de benadering: 0.07435086697998\nIn iteratie 2 is\
+        \ de benadering: 0.073045795808874\nIn iteratie 3 is de benadering: 0.072421396731702\n\
+        In iteratie 4 is de benadering: 0.072115812150244\nIn iteratie 5 is de benadering:\
+        \ 0.071964624853777\nIn iteratie 6 is de benadering: 0.071889426571843\n"
+  - testcases:
+    - statement:
+        python: 'def f( x ) : return 5 * (x - 2) * (x - 3) * (x - 4)'
+    - expression: afgeleide( 0, f, 0.0001 )
+      return: 129.99991416931152
+      stdout: "In iteratie 1 is de benadering: 90.0\nIn iteratie 2 is de benadering:\
+        \ 108.75\nIn iteratie 3 is de benadering: 119.0625\nIn iteratie 4 is de benadering:\
+        \ 124.453125\nIn iteratie 5 is de benadering: 127.20703125\nIn iteratie 6\
+        \ is de benadering: 128.5986328125\nIn iteratie 7 is de benadering: 129.298095703125\n\
+        In iteratie 8 is de benadering: 129.64874267578125\nIn iteratie 9 is de benadering:\
+        \ 129.8242950439453\nIn iteratie 10 is de benadering: 129.91212844848633\n\
+        In iteratie 11 is de benadering: 129.95605945587158\nIn iteratie 12 is de\
+        \ benadering: 129.9780285358429\nIn iteratie 13 is de benadering: 129.98901396989822\n\
+        In iteratie 14 is de benadering: 129.9945069104433\nIn iteratie 15 is de benadering:\
+        \ 129.9972534365952\nIn iteratie 16 is de benadering: 129.998626713641\nIn\
+        \ iteratie 17 is de benadering: 129.9993133554235\nIn iteratie 18 is de benadering:\
+        \ 129.9996566772461\nIn iteratie 19 is de benadering: 129.99982833862305\n\
+        In iteratie 20 is de benadering: 129.99991416931152\n"
   - testcases:
     - statement:
         python: 'def f( x ) : return -5 / (x**2 + 1) + 2'
     - expression: afgeleide( 0, f, 0.0001 )
       return: 7.62939453125e-05
-      stdout: "In iteratie 1 is de benadering: 2.0\nIn iteratie 2 is de benadering:\
-        \ 2.5\nIn iteratie 3 is de benadering: 2.0\nIn iteratie 4 is de benadering:\
-        \ 1.176470588235293\nIn iteratie 5 is de benadering: 0.615384615384613\nIn\
-        \ iteratie 6 is de benadering: 0.311284046692606\nIn iteratie 7 is de benadering:\
-        \ 0.15609756097561\nIn iteratie 8 is de benadering: 0.078105931169148\nIn\
-        \ iteratie 9 is de benadering: 0.039060115959728\nIn iteratie 10 is de benadering:\
-        \ 0.019530951981324\nIn iteratie 11 is de benadering: 0.009765587747097\n\
-        In iteratie 12 is de benadering: 0.004882807843387\nIn iteratie 13 is de benadering:\
-        \ 0.002441405667923\nIn iteratie 14 is de benadering: 0.00122070305224\nIn\
-        \ iteratie 15 is de benadering: 0.000610351555224\nIn iteratie 16 is de benadering:\
-        \ 0.00030517578125\nIn iteratie 17 is de benadering: 0.000152587890625\nIn\
-        \ iteratie 18 is de benadering: 7.6293945312e-05\n"
+      stdout: "In iteratie 1 is de benadering: 2.5\nIn iteratie 2 is de benadering:\
+        \ 2.0\nIn iteratie 3 is de benadering: 1.176470588235293\nIn iteratie 4 is\
+        \ de benadering: 0.615384615384613\nIn iteratie 5 is de benadering: 0.311284046692606\n\
+        In iteratie 6 is de benadering: 0.15609756097561\nIn iteratie 7 is de benadering:\
+        \ 0.078105931169148\nIn iteratie 8 is de benadering: 0.039060115959728\nIn\
+        \ iteratie 9 is de benadering: 0.019530951981324\nIn iteratie 10 is de benadering:\
+        \ 0.009765587747097\nIn iteratie 11 is de benadering: 0.004882807843387\n\
+        In iteratie 12 is de benadering: 0.002441405667923\nIn iteratie 13 is de benadering:\
+        \ 0.00122070305224\nIn iteratie 14 is de benadering: 0.000610351555224\nIn\
+        \ iteratie 15 is de benadering: 0.00030517578125\nIn iteratie 16 is de benadering:\
+        \ 0.000152587890625\nIn iteratie 17 is de benadering: 7.6293945312e-05\n"
   - testcases:
     - statement:
         python: 'def f( x ) : return -5 / (x**2 + 1) + 2'
     - expression: afgeleide( 0, f, 0.0001 )
       return: 7.62939453125e-05
-      stdout: "In iteratie 1 is de benadering: 2.0\nIn iteratie 2 is de benadering:\
-        \ 2.5\nIn iteratie 3 is de benadering: 2.0\nIn iteratie 4 is de benadering:\
-        \ 1.176470588235293\nIn iteratie 5 is de benadering: 0.615384615384613\nIn\
-        \ iteratie 6 is de benadering: 0.311284046692606\nIn iteratie 7 is de benadering:\
-        \ 0.15609756097561\nIn iteratie 8 is de benadering: 0.078105931169148\nIn\
-        \ iteratie 9 is de benadering: 0.039060115959728\nIn iteratie 10 is de benadering:\
-        \ 0.019530951981324\nIn iteratie 11 is de benadering: 0.009765587747097\n\
-        In iteratie 12 is de benadering: 0.004882807843387\nIn iteratie 13 is de benadering:\
-        \ 0.002441405667923\nIn iteratie 14 is de benadering: 0.00122070305224\nIn\
-        \ iteratie 15 is de benadering: 0.000610351555224\nIn iteratie 16 is de benadering:\
-        \ 0.00030517578125\nIn iteratie 17 is de benadering: 0.000152587890625\nIn\
-        \ iteratie 18 is de benadering: 7.6293945312e-05\n"
+      stdout: "In iteratie 1 is de benadering: 2.5\nIn iteratie 2 is de benadering:\
+        \ 2.0\nIn iteratie 3 is de benadering: 1.176470588235293\nIn iteratie 4 is\
+        \ de benadering: 0.615384615384613\nIn iteratie 5 is de benadering: 0.311284046692606\n\
+        In iteratie 6 is de benadering: 0.15609756097561\nIn iteratie 7 is de benadering:\
+        \ 0.078105931169148\nIn iteratie 8 is de benadering: 0.039060115959728\nIn\
+        \ iteratie 9 is de benadering: 0.019530951981324\nIn iteratie 10 is de benadering:\
+        \ 0.009765587747097\nIn iteratie 11 is de benadering: 0.004882807843387\n\
+        In iteratie 12 is de benadering: 0.002441405667923\nIn iteratie 13 is de benadering:\
+        \ 0.00122070305224\nIn iteratie 14 is de benadering: 0.000610351555224\nIn\
+        \ iteratie 15 is de benadering: 0.00030517578125\nIn iteratie 16 is de benadering:\
+        \ 0.000152587890625\nIn iteratie 17 is de benadering: 7.6293945312e-05\n"
   - testcases:
     - statement:
         python: 'def f( x ) : return -5 / (x**2 + 1) + 2'
     - expression: afgeleide( 0, f, 0.0001 )
       return: 7.62939453125e-05
-      stdout: "In iteratie 1 is de benadering: 2.0\nIn iteratie 2 is de benadering:\
-        \ 2.5\nIn iteratie 3 is de benadering: 2.0\nIn iteratie 4 is de benadering:\
-        \ 1.176470588235293\nIn iteratie 5 is de benadering: 0.615384615384613\nIn\
-        \ iteratie 6 is de benadering: 0.311284046692606\nIn iteratie 7 is de benadering:\
-        \ 0.15609756097561\nIn iteratie 8 is de benadering: 0.078105931169148\nIn\
-        \ iteratie 9 is de benadering: 0.039060115959728\nIn iteratie 10 is de benadering:\
-        \ 0.019530951981324\nIn iteratie 11 is de benadering: 0.009765587747097\n\
-        In iteratie 12 is de benadering: 0.004882807843387\nIn iteratie 13 is de benadering:\
-        \ 0.002441405667923\nIn iteratie 14 is de benadering: 0.00122070305224\nIn\
-        \ iteratie 15 is de benadering: 0.000610351555224\nIn iteratie 16 is de benadering:\
-        \ 0.00030517578125\nIn iteratie 17 is de benadering: 0.000152587890625\nIn\
-        \ iteratie 18 is de benadering: 7.6293945312e-05\n"
+      stdout: "In iteratie 1 is de benadering: 2.5\nIn iteratie 2 is de benadering:\
+        \ 2.0\nIn iteratie 3 is de benadering: 1.176470588235293\nIn iteratie 4 is\
+        \ de benadering: 0.615384615384613\nIn iteratie 5 is de benadering: 0.311284046692606\n\
+        In iteratie 6 is de benadering: 0.15609756097561\nIn iteratie 7 is de benadering:\
+        \ 0.078105931169148\nIn iteratie 8 is de benadering: 0.039060115959728\nIn\
+        \ iteratie 9 is de benadering: 0.019530951981324\nIn iteratie 10 is de benadering:\
+        \ 0.009765587747097\nIn iteratie 11 is de benadering: 0.004882807843387\n\
+        In iteratie 12 is de benadering: 0.002441405667923\nIn iteratie 13 is de benadering:\
+        \ 0.00122070305224\nIn iteratie 14 is de benadering: 0.000610351555224\nIn\
+        \ iteratie 15 is de benadering: 0.00030517578125\nIn iteratie 16 is de benadering:\
+        \ 0.000152587890625\nIn iteratie 17 is de benadering: 7.6293945312e-05\n"
+  - testcases:
+    - statement:
+        python: 'def f( x ) : return -1*x**(1/3)'
+    - expression: afgeleide( 0, f, 0.0001 )
+      return: Niet afleidbaar in dit punt
+      stdout: "In iteratie 1 is de benadering: -1.0\nIn iteratie 2 is de benadering:\
+        \ -1.5874010519682\nIn iteratie 3 is de benadering: -2.519842099789746\nIn\
+        \ iteratie 4 is de benadering: -4.0\nIn iteratie 5 is de benadering: -6.349604207872798\n\
+        In iteratie 6 is de benadering: -10.079368399158986\nIn iteratie 7 is de benadering:\
+        \ -16.0\nIn iteratie 8 is de benadering: -25.398416831491193\nIn iteratie\
+        \ 9 is de benadering: -40.31747359663594\nIn iteratie 10 is de benadering:\
+        \ -64.00000000000001\nIn iteratie 11 is de benadering: -101.59366732596477\n\
+        In iteratie 12 is de benadering: -161.2698943865438\nIn iteratie 13 is de\
+        \ benadering: -256.00000000000006\nIn iteratie 14 is de benadering: -406.37466930385915\n\
+        In iteratie 15 is de benadering: -645.0795775461752\nIn iteratie 16 is de\
+        \ benadering: -1024.0000000000002\nIn iteratie 17 is de benadering: -1625.4986772154366\n\
+        In iteratie 18 is de benadering: -2580.3183101847007\nIn iteratie 19 is de\
+        \ benadering: -4096.000000000001\nIn iteratie 20 is de benadering: -6501.994708861746\n\
+        In iteratie 21 is de benadering: -10321.273240738803\nIn iteratie 22 is de\
+        \ benadering: -16384.000000000004\nIn iteratie 23 is de benadering: -26007.97883544699\n\
+        In iteratie 24 is de benadering: -41285.09296295522\nIn iteratie 25 is de\
+        \ benadering: -65536.00000000001\nIn iteratie 26 is de benadering: -104031.91534178796\n\
+        In iteratie 27 is de benadering: -165140.37185182088\nIn iteratie 28 is de\
+        \ benadering: -262144.0000000001\nIn iteratie 29 is de benadering: -416127.6613671518\n\
+        In iteratie 30 is de benadering: -660561.4874072835\nIn iteratie 31 is de\
+        \ benadering: -1048576.0000000005\nIn iteratie 32 is de benadering: -1664510.6454686073\n\
+        In iteratie 33 is de benadering: -2642245.949629134\nIn iteratie 34 is de\
+        \ benadering: -4194304.000000002\nIn iteratie 35 is de benadering: -6658042.58187443\n\
+        In iteratie 36 is de benadering: -10568983.798516536\nIn iteratie 37 is de\
+        \ benadering: -16777216.000000007\nIn iteratie 38 is de benadering: -26632170.32749772\n\
+        In iteratie 39 is de benadering: -42275935.19406615\nIn iteratie 40 is de\
+        \ benadering: -67108864.00000003\nIn iteratie 41 is de benadering: -106528681.30999088\n\
+        In iteratie 42 is de benadering: -169103740.7762646\nIn iteratie 43 is de\
+        \ benadering: -268435456.0000001\nIn iteratie 44 is de benadering: -426114725.23996353\n\
+        In iteratie 45 is de benadering: -676414963.1050584\nIn iteratie 46 is de\
+        \ benadering: -1073741824.0000007\nIn iteratie 47 is de benadering: -1704458900.9598544\n\
+        In iteratie 48 is de benadering: -2705659852.4202337\nIn iteratie 49 is de\
+        \ benadering: -4294967296.000003\nIn iteratie 50 is de benadering: -6817835603.839417\n"
+  - testcases:
+    - statement:
+        python: 'def f( x ) : return (x+3)**(1/2)'
+    - expression: afgeleide( -3, f, 0.0001 )
+      return: Niet afleidbaar in dit punt
+      stdout: "In iteratie 1 is de benadering: 1.0\nIn iteratie 2 is de benadering:\
+        \ 1.414213562373095\nIn iteratie 3 is de benadering: 2.0\nIn iteratie 4 is\
+        \ de benadering: 2.82842712474619\nIn iteratie 5 is de benadering: 4.0\nIn\
+        \ iteratie 6 is de benadering: 5.656854249492381\nIn iteratie 7 is de benadering:\
+        \ 8.0\nIn iteratie 8 is de benadering: 11.313708498984761\nIn iteratie 9 is\
+        \ de benadering: 16.0\nIn iteratie 10 is de benadering: 22.627416997969522\n\
+        In iteratie 11 is de benadering: 32.0\nIn iteratie 12 is de benadering: 45.254833995939045\n\
+        In iteratie 13 is de benadering: 64.0\nIn iteratie 14 is de benadering: 90.50966799187809\n\
+        In iteratie 15 is de benadering: 128.0\nIn iteratie 16 is de benadering: 181.01933598375618\n\
+        In iteratie 17 is de benadering: 256.0\nIn iteratie 18 is de benadering: 362.03867196751236\n\
+        In iteratie 19 is de benadering: 512.0\nIn iteratie 20 is de benadering: 724.0773439350247\n\
+        In iteratie 21 is de benadering: 1024.0\nIn iteratie 22 is de benadering:\
+        \ 1448.1546878700494\nIn iteratie 23 is de benadering: 2048.0\nIn iteratie\
+        \ 24 is de benadering: 2896.309375740099\nIn iteratie 25 is de benadering:\
+        \ 4096.0\nIn iteratie 26 is de benadering: 5792.618751480198\nIn iteratie\
+        \ 27 is de benadering: 8192.0\nIn iteratie 28 is de benadering: 11585.237502960395\n\
+        In iteratie 29 is de benadering: 16384.0\nIn iteratie 30 is de benadering:\
+        \ 23170.47500592079\nIn iteratie 31 is de benadering: 32768.0\nIn iteratie\
+        \ 32 is de benadering: 46340.95001184158\nIn iteratie 33 is de benadering:\
+        \ 65536.0\nIn iteratie 34 is de benadering: 92681.90002368316\nIn iteratie\
+        \ 35 is de benadering: 131072.0\nIn iteratie 36 is de benadering: 185363.80004736633\n\
+        In iteratie 37 is de benadering: 262144.0\nIn iteratie 38 is de benadering:\
+        \ 370727.60009473265\nIn iteratie 39 is de benadering: 524288.0\nIn iteratie\
+        \ 40 is de benadering: 741455.2001894653\nIn iteratie 41 is de benadering:\
+        \ 1048576.0\nIn iteratie 42 is de benadering: 1482910.4003789306\nIn iteratie\
+        \ 43 is de benadering: 2097152.0\nIn iteratie 44 is de benadering: 2965820.800757861\n\
+        In iteratie 45 is de benadering: 4194304.0\nIn iteratie 46 is de benadering:\
+        \ 5931641.601515722\nIn iteratie 47 is de benadering: 8388608.0\nIn iteratie\
+        \ 48 is de benadering: 11863283.203031445\nIn iteratie 49 is de benadering:\
+        \ 16777216.0\nIn iteratie 50 is de benadering: 23726566.40606289\n"
+  - testcases:
+    - statement:
+        python: 'def f( x ) : return ((x-1)**2)**(1/5)'
+    - expression: afgeleide( 0, f, 0.0001 )
+      return: -0.40005860901374035
+      stdout: "In iteratie 1 is de benadering: -1.0\nIn iteratie 2 is de benadering:\
+        \ -0.484283433489602\nIn iteratie 3 is de benadering: -0.434795084067993\n\
+        In iteratie 4 is de benadering: -0.416089341441073\nIn iteratie 5 is de benadering:\
+        \ -0.407760636335244\nIn iteratie 6 is de benadering: -0.403813798797621\n\
+        In iteratie 7 is de benadering: -0.401890785498338\nIn iteratie 8 is de benadering:\
+        \ -0.400941426198685\nIn iteratie 9 is de benadering: -0.400469729049036\n\
+        In iteratie 10 is de benadering: -0.400234619450998\nIn iteratie 11 is de\
+        \ benadering: -0.400117248573906\nIn iteratie 12 is de benadering: -0.40005860901374\n"
+  - testcases:
+    - statement:
+        python: 'def f( x ) : return ((x-1)**2)**(1/5)'
+    - expression: afgeleide( 1, f, 0.0001 )
+      return: Niet afleidbaar in dit punt
+      stdout: "In iteratie 1 is de benadering: 1.0\nIn iteratie 2 is de benadering:\
+        \ 1.515716566510398\nIn iteratie 3 is de benadering: 2.29739670999407\nIn\
+        \ iteratie 4 is de benadering: 3.482202253184496\nIn iteratie 5 is de benadering:\
+        \ 5.278031643091577\nIn iteratie 6 is de benadering: 7.999999999999999\nIn\
+        \ iteratie 7 is de benadering: 12.125732532083184\nIn iteratie 8 is de benadering:\
+        \ 18.379173679952558\nIn iteratie 9 is de benadering: 27.85761802547597\n\
+        In iteratie 10 is de benadering: 42.22425314473261\nIn iteratie 11 is de benadering:\
+        \ 63.99999999999999\nIn iteratie 12 is de benadering: 97.00586025666546\n\
+        In iteratie 13 is de benadering: 147.03338943962046\nIn iteratie 14 is de\
+        \ benadering: 222.86094420380775\nIn iteratie 15 is de benadering: 337.79402515786086\n\
+        In iteratie 16 is de benadering: 511.9999999999999\nIn iteratie 17 is de benadering:\
+        \ 776.0468820533237\nIn iteratie 18 is de benadering: 1176.2671155169635\n\
+        In iteratie 19 is de benadering: 1782.8875536304618\nIn iteratie 20 is de\
+        \ benadering: 2702.352201262887\nIn iteratie 21 is de benadering: 4095.9999999999986\n\
+        In iteratie 22 is de benadering: 6208.375056426588\nIn iteratie 23 is de benadering:\
+        \ 9410.136924135708\nIn iteratie 24 is de benadering: 14263.100429043692\n\
+        In iteratie 25 is de benadering: 21618.81761010309\nIn iteratie 26 is de benadering:\
+        \ 32767.99999999999\nIn iteratie 27 is de benadering: 49667.00045141271\n\
+        In iteratie 28 is de benadering: 75281.09539308565\nIn iteratie 29 is de benadering:\
+        \ 114104.80343234954\nIn iteratie 30 is de benadering: 172950.54088082473\n\
+        In iteratie 31 is de benadering: 262143.99999999988\nIn iteratie 32 is de\
+        \ benadering: 397336.0036113016\nIn iteratie 33 is de benadering: 602248.7631446852\n\
+        In iteratie 34 is de benadering: 912838.4274587962\nIn iteratie 35 is de benadering:\
+        \ 1383604.3270465976\nIn iteratie 36 is de benadering: 2097151.9999999988\n\
+        In iteratie 37 is de benadering: 3178688.0288904128\nIn iteratie 38 is de\
+        \ benadering: 4817990.1051574815\nIn iteratie 39 is de benadering: 7302707.4196703695\n\
+        In iteratie 40 is de benadering: 11068834.61637278\nIn iteratie 41 is de benadering:\
+        \ 16777215.999999989\nIn iteratie 42 is de benadering: 25429504.2311233\n\
+        In iteratie 43 is de benadering: 38543920.841259845\nIn iteratie 44 is de\
+        \ benadering: 58421659.35736295\nIn iteratie 45 is de benadering: 88550676.93098223\n\
+        In iteratie 46 is de benadering: 134217727.99999991\nIn iteratie 47 is de\
+        \ benadering: 203436033.8489864\nIn iteratie 48 is de benadering: 308351366.73007876\n\
+        In iteratie 49 is de benadering: 467373274.8589035\nIn iteratie 50 is de benadering:\
+        \ 708405415.4478579\n"
