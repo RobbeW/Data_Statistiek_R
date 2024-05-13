@@ -1,5 +1,3 @@
-import math
-
 def afgeleide( a, f ):
     h = 2
     for i in range(20):
