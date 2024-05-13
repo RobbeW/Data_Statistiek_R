@@ -44,27 +44,22 @@ spec.loader.exec_module(module)
 
 # generate test data
 cases = []
-cases.append( ['def f( x ) : return x**3 - 2', 1] )
-cases.append( ['def f( x ) : return math.sin(x)', round(math.pi, 9), 'import math'])
-cases.append( ['def f( x ) : return (1+x**2+(1-x**2)*math.log10(x))/((1+x**2)**2)', round(1/3, 9), 'import math'])
-cases.append( ['def f( x ) : return math.sin(x)', 0, 'import math'])
-cases.append( ['def f( x ) : return math.sin(x)', round(math.pi/2, 9), 'import math'])
-cases.append( ['def f( x ) : return x - 2', 5])
-cases.append( ['def f( x ) : return x - 2', -5])
-cases.append( ['def f( x ) : return x**3 - 2', 0] )
-cases.append( ['def f( x ) : return x**3 - 2', 2] )
-cases.append( ['def f( x ) : return x**(1/3)', 1] )
-cases.append( ['def f( x ) : return x/abs(x)*abs(x)**(1/3)', -10] )
-cases.append( ['def f( x ) : return x**(1/3)', 0] )
-cases.append( ['def f( x ) : return 5 * (x - 2) * (x - 3) * (x - 4)', 0] )
-cases.append( ['def f( x ) : return -5 / (x**2 + 1) + 2', 0] )
-cases.append( ['def f( x ) : return -5 / (x**2 + 1) + 2', 0] )
-cases.append( ['def f( x ) : return -5 / (x**2 + 1) + 2', 0] )
-cases.append( ['def f( x ) : return -1*x**(1/3)', 0] )
-cases.append( ['def f( x ) : return (x+3)**(1/2)', -3] )
-cases.append( ['def f( x ) : return ((x-1)**2)**(1/5)', 0] )
-cases.append( ['def f( x ) : return ((x-1)**2)**(1/5)', 1] )
-
+cases.append( ['def f( x ) : return x**3 - 2', 1, 0.0001])
+cases.append( ['def f( x ) : return math.sin(x)', round(math.pi, 9), 0.0001])
+cases.append( ['def f( x ) : return (1+x**2+(1-x**2)*math.log10(x))/((1+x**2)**2)', round(1/3, 9), 0.0001])
+cases.append( ['def f( x ) : return math.sin(x)', 0, 0.0001])
+cases.append( ['def f( x ) : return math.sin(x)', round(math.pi/2, 9), 0.0001])
+cases.append( ['def f( x ) : return x - 2', 5, 0.0001])
+cases.append( ['def f( x ) : return x - 2', -5, 0.0001])
+cases.append( ['def f( x ) : return x**3 - 2', 0, 0.0001])
+cases.append( ['def f( x ) : return x**3 - 2', 2, 0.0001])
+cases.append( ['def f( x ) : return (x)**(1/3)', 1, 0.0001])
+#cases.append( ['def f( x ) : return (x)**(1/3)', -1, 0.0001])
+cases.append( ['def f( x ) : return (x)**(1/3)', 0, 0.0001])
+cases.append( ['def f( x ) : return 5 * (x - 2) * (x - 3) * x - 4)', 0, 0.0001])
+cases.append( ['def f( x ) : return -5 / (x**2 + 1) + 2', 0, 0.0001])
+cases.append( ['def f( x ) : return -5 / (x**2 + 1) + 2', 0, 0.0001])
+cases.append( ['def f( x ) : return -5 / (x**2 + 1) + 2', 0, 0.0001])
     
 # generate unit tests for functions
 yamldata = []
@@ -76,23 +71,19 @@ for i in range(len(cases)):
     test = cases[i]
     yamldata[0]['contexts'].append( {'testcases' : []})
     
-    if len(test) == 3: # laatste import toevoegen
-        stmt = {"statement": {"python": test[2]}}
-        yamldata[0]['contexts'][i]["testcases"].append( stmt )
-    
     # functie definitie toevoegne als python statement
     stmt = {"statement": {"python": test[0]}}
     yamldata[0]['contexts'][i]["testcases"].append( stmt )
     
     # generate test expression
-    expression_name = 'afgeleide( {}, f )'.format( test[1] )
+    expression_name = 'afgeleide( {}, f, {} )'.format( test[1],  test[2] )
     
     try:
         f = makeF()
         
         outputF = io.StringIO()
         with contextlib.redirect_stdout(outputF):
-            result = module.afgeleide( test[1],f )
+            result = module.afgeleide( test[1],f, test[2] )
         output = outputF.getvalue()
 
         print(output)

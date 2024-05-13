@@ -190,6 +190,25 @@
         \ 0.333333121379837\n"
   - testcases:
     - statement:
+        python: 'def f( x ) : return x/abs(x)*abs(x)**(1/3)'
+    - expression: afgeleide( -10, f )
+      return: 0.07181449444033206
+      stdout: "In iteratie 1 is de benadering: 0.07435086697998\nIn iteratie 2 is\
+        \ de benadering: 0.073045795808874\nIn iteratie 3 is de benadering: 0.072421396731702\n\
+        In iteratie 4 is de benadering: 0.072115812150244\nIn iteratie 5 is de benadering:\
+        \ 0.071964624853777\nIn iteratie 6 is de benadering: 0.071889426571843\nIn\
+        \ iteratie 7 is de benadering: 0.071851925549851\nIn iteratie 8 is de benadering:\
+        \ 0.071833199479045\nIn iteratie 9 is de benadering: 0.071823842542585\nIn\
+        \ iteratie 10 is de benadering: 0.071819165597617\nIn iteratie 11 is de benadering:\
+        \ 0.071816827506154\nIn iteratie 12 is de benadering: 0.071815658555352\n\
+        In iteratie 13 is de benadering: 0.071815074104961\nIn iteratie 14 is de benadering:\
+        \ 0.071814781884314\nIn iteratie 15 is de benadering: 0.071814635775809\n\
+        In iteratie 16 is de benadering: 0.07181456273247\nIn iteratie 17 is de benadering:\
+        \ 0.071814526192611\nIn iteratie 18 is de benadering: 0.071814507944509\n\
+        In iteratie 19 is de benadering: 0.071814498864114\nIn iteratie 20 is de benadering:\
+        \ 0.071814494440332\n"
+  - testcases:
+    - statement:
         python: 'def f( x ) : return x**(1/3)'
     - expression: afgeleide( 0, f )
       return: Niet afleidbaar in dit punt
@@ -314,10 +333,26 @@
         In iteratie 19 is de benadering: 512.0\nIn iteratie 20 is de benadering: 724.0773439350247\n"
   - testcases:
     - statement:
-        python: 'def f( x ) : return (x-1)**(2/5)'
+        python: 'def f( x ) : return ((x-1)**2)**(1/5)'
+    - expression: afgeleide( 0, f )
+      return: -0.4000002288958058
+      stdout: "In iteratie 1 is de benadering: -1.0\nIn iteratie 2 is de benadering:\
+        \ -0.484283433489602\nIn iteratie 3 is de benadering: -0.434795084067993\n\
+        In iteratie 4 is de benadering: -0.416089341441073\nIn iteratie 5 is de benadering:\
+        \ -0.407760636335244\nIn iteratie 6 is de benadering: -0.403813798797621\n\
+        In iteratie 7 is de benadering: -0.401890785498338\nIn iteratie 8 is de benadering:\
+        \ -0.400941426198685\nIn iteratie 9 is de benadering: -0.400469729049036\n\
+        In iteratie 10 is de benadering: -0.400234619450998\nIn iteratie 11 is de\
+        \ benadering: -0.400117248573906\nIn iteratie 12 is de benadering: -0.40005860901374\n\
+        In iteratie 13 is de benadering: -0.400029300690221\nIn iteratie 14 is de\
+        \ benadering: -0.400014649390869\nIn iteratie 15 is de benadering: -0.400007324456965\n\
+        In iteratie 16 is de benadering: -0.400003662169183\nIn iteratie 17 is de\
+        \ benadering: -0.400001831068948\nIn iteratie 18 is de benadering: -0.400000915527926\n\
+        In iteratie 19 is de benadering: -0.400000457768328\nIn iteratie 20 is de\
+        \ benadering: -0.400000228895806\n"
   - testcases:
     - statement:
-        python: 'def f( x ) : return (x-1)**(2/5)'
+        python: 'def f( x ) : return ((x-1)**2)**(1/5)'
     - expression: afgeleide( 1, f )
       return: Niet afleidbaar in dit punt
       stdout: "In iteratie 1 is de benadering: 1.0\nIn iteratie 2 is de benadering:\
