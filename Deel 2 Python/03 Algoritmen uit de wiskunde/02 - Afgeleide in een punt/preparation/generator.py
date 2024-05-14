@@ -60,10 +60,12 @@ cases.append( ['def f( x ) : return 5 * (x - 2) * (x - 3) * (x - 4)', 0] )
 cases.append( ['def f( x ) : return -5 / (x**2 + 1) + 2', 0] )
 cases.append( ['def f( x ) : return -5 / (x**2 + 1) + 2', 0] )
 cases.append( ['def f( x ) : return -5 / (x**2 + 1) + 2', 0] )
-cases.append( ['def f( x ) : return -1*x**(1/3)', 0] )
-cases.append( ['def f( x ) : return (x+3)**(1/2)', -3] )
 cases.append( ['def f( x ) : return ((x-1)**2)**(1/5)', 0] )
-cases.append( ['def f( x ) : return ((x-1)**2)**(1/5)', 1] )
+cases.append( ['def f( x ) : return -1*x**(1/3)', 0] )
+cases.append( ['def f( x ) : return (x-1)**(2/5)', 1] )
+cases.append( ['def f( x ) : return (x+3)**(1/2)', -3] )
+
+
 
     
 # generate unit tests for functions
