@@ -2,7 +2,7 @@ De <a href="https://nl.wikipedia.org/wiki/Indicator_(getaltheorie)" target="_bla
 
 {: .callout.callout-danger}
 > #### Euler totiëntfunctie
-> De totiënt $$\mathsf{\varphi(n)}$$ van een strikt positief natuurlijk getal $$\mathsf{n}$$ is het **aantal** positieve natuurlijke getallen kleiner dan $$\mathsf{n}$$ die onderling ondeelbaar zijn met $$\mathsf{n}$$.
+> Het totiënt $$\mathsf{\varphi(n)}$$ van een strikt positief natuurlijk getal $$\mathsf{n}$$ is het **aantal** positieve natuurlijke getallen kleiner dan $$\mathsf{n}$$ die onderling ondeelbaar zijn met $$\mathsf{n}$$.
 
 ## Opgave
 
