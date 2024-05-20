@@ -23,6 +23,12 @@ def f(x):
     return x**3 - 2
 ```
 
+Hieronder vind je de grafische uitvoering van het algoritme:
+
+![De afgeleide in een punt iteratief benaderen.](media/image.png "De afgeleide in een punt iteratief benaderen."){:data-caption="De afgeleide in een punt iteratief benaderen." .light-only width="40%"}
+
+![De afgeleide in een punt iteratief benaderen.](media/image_dark.png "De afgeleide in een punt iteratief benaderen."){:data-caption="De afgeleide in een punt iteratief benaderen." .dark-only width="40%"}
+
 Het uitvoeren van `afgeleide( 1, f )` leidt tot:
 ```
 In iteratie 1 is de benadering: 7.0
