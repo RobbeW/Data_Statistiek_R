@@ -25,9 +25,9 @@ def f(x):
 
 Hieronder vind je de grafische uitvoering van het algoritme:
 
-![De afgeleide in een punt iteratief benaderen.](media/image.png "De afgeleide in een punt iteratief benaderen."){:data-caption="De afgeleide in een punt iteratief benaderen." .light-only width="60%"}
+![De afgeleide in een punt iteratief benaderen.](media/image.png "De afgeleide in een punt iteratief benaderen."){:data-caption="De afgeleide in een punt iteratief benaderen." .light-only width="50%"}
 
-![De afgeleide in een punt iteratief benaderen.](media/image_dark.png "De afgeleide in een punt iteratief benaderen."){:data-caption="De afgeleide in een punt iteratief benaderen." .dark-only width="60%"}
+![De afgeleide in een punt iteratief benaderen.](media/image_dark.png "De afgeleide in een punt iteratief benaderen."){:data-caption="De afgeleide in een punt iteratief benaderen." .dark-only width="50%"}
 
 Het uitvoeren van `afgeleide( 1, f )` leidt tot:
 ```
