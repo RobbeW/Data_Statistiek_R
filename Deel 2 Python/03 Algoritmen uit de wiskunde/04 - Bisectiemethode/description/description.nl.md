@@ -3,10 +3,10 @@ De bisectiemethode is een iteratieve methode voor het bepalen van nulpunten van 
 Om bijvoorbeeld een nulpunten van de functie $$\mathsf{f(x)}$$ te bepalen op het interval $$\mathsf{[a,b]}$$ gaat men als volgt te werk. In dit voorbeeld geldt $$\mathsf{f(a) > 0}$$ en $$\mathsf{f(b) <0}$$.
 
 - Men bepaalt het midden $$\mathsf{c = \dfrac{a+b}{2}}$$ van dit interval en berekent er de functiewaarde. 
-- Is deze positief dan ligt een nulpunten tussen $$\mathsf{[c,b]}$$, is deze echter negatief dan ligt een nulpunten in het interval $$\mathsf{[a,c]}$$.
+- Is deze positief dan ligt een nulpunt tussen $$\mathsf{[c,b]}$$, is deze echter negatief dan ligt een nulpunt in het interval $$\mathsf{[a,c]}$$.
 - Herhaal deze methode op het interval $$\mathsf{[a,c]}$$ of $$\mathsf{[c,b]}$$ afhankelijk van bovenstaande berekening.
 
-Vaak zal de methode niet exact eindigen, maar is men tevreden indien $$\mathsf{c}$$ dicht genoeg ligt van het echte nulpunt.
+Vaak zal de methode niet exact eindigen, maar is men tevreden indien het algoritme genoeg herhaald werd.
 
 ![Bisectiemethode](media/animation.png "De bisectiemethode."){:data-caption="De bisectiemethode." .light-only width="60%"}
 
