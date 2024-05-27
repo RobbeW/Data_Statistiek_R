@@ -45,15 +45,18 @@ spec.loader.exec_module(module)
 # generate test data
 cases = []
 cases.append( ['def f( x ) : return x**5+3*x**4-11*x**3-27*x**2+10*x+70',1,2])
+cases.append( ['def f( x ) : return 2*x - 3', -1.1, 3.15] )
+cases.append( ['def f( x ) : return 2*x**2 + 9*x - 5', 0, 3])
 cases.append( ['def f( x ) : return x**3 - 2', 0, 3] )
-cases.append( ['def f( x ) : return 2*x-3',0,4])
-cases.append( ['def f( x ) : return 2*x-3',0,3])
-cases.append( ['def f( x ) : return x**3 -3*x+ 2', 0, 3] )
-cases.append( ['def f( x ) : return x**3 -3*x+ 2', -4, 3] )
-cases.append( ['def f( x ) : return 2*x**2+9*x-5',0,4])
-cases.append( ['def f( x ) : return 2*x**2+9*x-5',-6,4])
-cases.append( ['def f( x ) : return 2*x**2+9*x-5',-5,4])
-cases.append( ['def f( x ) : return x**2',-2,2])
+cases.append( ['def f( x ) : return x**3 - 3*x + 2', -4, 3] )
+cases.append( ['def f( x ) : return 2*x**2 + 9*x - 5', -6, 4])
+cases.append( ['def f( x ) : return 2*x**2 + 9*x - 5', -5, 4])
+cases.append( ['def f( x ) : return 2*x - 3',0,4]) #nulpunt onderweg
+cases.append( ['def f( x ) : return 2*x - 3',0,3]) #nulpunt onderweg
+cases.append( ['def f( x ) : return 2*x**2 + 9*x - 5', 0, 4]) #nulpunt onderweg
+cases.append( ['def f( x ) : return x**3 - 3*x + 2', 0, 3] ) # multi
+cases.append( ['def f( x ) : return x**2',-2,2]) #multi
+cases.append( ['def f( x ) : return (x-1)**2',-2,2]) #multi
 
     
 # generate unit tests for functions
