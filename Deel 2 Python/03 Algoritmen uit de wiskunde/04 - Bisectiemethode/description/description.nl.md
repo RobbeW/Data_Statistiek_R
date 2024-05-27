@@ -24,7 +24,7 @@ Stel bijvoorbeeld dat `f(x)` de volgende functie is:
 
 ```python
 def f( x ):
-    return x**5 + 3*x**4 - 11*x**3 - 27*x**2 + 10*x + 70
+    return 1/20(x**5 + 3*x**4 - 11*x**3 - 27*x**2 + 10*x + 70)
 ```
 
 Het uitvoeren van `bisectiemethode( 1, 2, f )` leidt tot:

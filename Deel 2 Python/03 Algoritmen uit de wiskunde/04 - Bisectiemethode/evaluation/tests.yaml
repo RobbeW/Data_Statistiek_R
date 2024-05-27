@@ -2,7 +2,7 @@
   contexts:
   - testcases:
     - statement:
-        python: 'def f( x ) : return x**5+3*x**4-11*x**3-27*x**2+10*x+70'
+        python: 'def f( x ) : return 1/20*(x**5+3*x**4-11*x**3-27*x**2+10*x+70)'
     - expression: bisectiemethode( 1, 2, f )
       return: 1.6250205953742807
       stdout: "In iteratie 1 is de benadering: 1.5\nIn iteratie 2 is de benadering:\
@@ -31,6 +31,68 @@
         \ 1.625020595376554\nIn iteratie 38 is de benadering: 1.625020595372916\n\
         In iteratie 39 is de benadering: 1.625020595374735\nIn iteratie 40 is de benadering:\
         \ 1.625020595373826\n"
+  - testcases:
+    - statement:
+        python: 'def f( x ) : return 1/20*(x**5+3*x**4-11*x**3-27*x**2+10*x+70)'
+    - expression: bisectiemethode( 2, 3, f )
+      return: 2.792016696751034
+      stdout: "In iteratie 1 is de benadering: 2.5\nIn iteratie 2 is de benadering:\
+        \ 2.75\nIn iteratie 3 is de benadering: 2.875\nIn iteratie 4 is de benadering:\
+        \ 2.8125\nIn iteratie 5 is de benadering: 2.78125\nIn iteratie 6 is de benadering:\
+        \ 2.796875\nIn iteratie 7 is de benadering: 2.7890625\nIn iteratie 8 is de\
+        \ benadering: 2.79296875\nIn iteratie 9 is de benadering: 2.791015625\nIn\
+        \ iteratie 10 is de benadering: 2.7919921875\nIn iteratie 11 is de benadering:\
+        \ 2.79248046875\nIn iteratie 12 is de benadering: 2.792236328125\nIn iteratie\
+        \ 13 is de benadering: 2.7921142578125\nIn iteratie 14 is de benadering: 2.79205322265625\n\
+        In iteratie 15 is de benadering: 2.792022705078125\nIn iteratie 16 is de benadering:\
+        \ 2.792007446289062\nIn iteratie 17 is de benadering: 2.792015075683594\n\
+        In iteratie 18 is de benadering: 2.792018890380859\nIn iteratie 19 is de benadering:\
+        \ 2.792016983032227\nIn iteratie 20 is de benadering: 2.79201602935791\nIn\
+        \ iteratie 21 is de benadering: 2.792016506195068\nIn iteratie 22 is de benadering:\
+        \ 2.792016744613647\nIn iteratie 23 is de benadering: 2.792016625404358\n\
+        In iteratie 24 is de benadering: 2.792016685009003\nIn iteratie 25 is de benadering:\
+        \ 2.792016714811325\nIn iteratie 26 is de benadering: 2.792016699910164\n\
+        In iteratie 27 is de benadering: 2.792016692459583\nIn iteratie 28 is de benadering:\
+        \ 2.792016696184874\nIn iteratie 29 is de benadering: 2.792016698047519\n\
+        In iteratie 30 is de benadering: 2.792016697116196\nIn iteratie 31 is de benadering:\
+        \ 2.792016696650535\nIn iteratie 32 is de benadering: 2.792016696883366\n\
+        In iteratie 33 is de benadering: 2.79201669676695\nIn iteratie 34 is de benadering:\
+        \ 2.792016696708743\nIn iteratie 35 is de benadering: 2.792016696737846\n\
+        In iteratie 36 is de benadering: 2.792016696752398\nIn iteratie 37 is de benadering:\
+        \ 2.792016696745122\nIn iteratie 38 is de benadering: 2.79201669674876\nIn\
+        \ iteratie 39 is de benadering: 2.792016696750579\nIn iteratie 40 is de benadering:\
+        \ 2.792016696751489\n"
+  - testcases:
+    - statement:
+        python: 'def f( x ) : return 1/20*(x**5+3*x**4-11*x**3-27*x**2+10*x+70)'
+    - expression: bisectiemethode( -5, -2, f )
+      return: -4.178672429058224
+      stdout: "In iteratie 1 is de benadering: -3.5\nIn iteratie 2 is de benadering:\
+        \ -4.25\nIn iteratie 3 is de benadering: -3.875\nIn iteratie 4 is de benadering:\
+        \ -4.0625\nIn iteratie 5 is de benadering: -4.15625\nIn iteratie 6 is de benadering:\
+        \ -4.203125\nIn iteratie 7 is de benadering: -4.1796875\nIn iteratie 8 is\
+        \ de benadering: -4.16796875\nIn iteratie 9 is de benadering: -4.173828125\n\
+        In iteratie 10 is de benadering: -4.1767578125\nIn iteratie 11 is de benadering:\
+        \ -4.17822265625\nIn iteratie 12 is de benadering: -4.178955078125\nIn iteratie\
+        \ 13 is de benadering: -4.1785888671875\nIn iteratie 14 is de benadering:\
+        \ -4.17877197265625\nIn iteratie 15 is de benadering: -4.178680419921875\n\
+        In iteratie 16 is de benadering: -4.178634643554688\nIn iteratie 17 is de\
+        \ benadering: -4.178657531738281\nIn iteratie 18 is de benadering: -4.178668975830078\n\
+        In iteratie 19 is de benadering: -4.178674697875977\nIn iteratie 20 is de\
+        \ benadering: -4.178671836853027\nIn iteratie 21 is de benadering: -4.178673267364502\n\
+        In iteratie 22 is de benadering: -4.178672552108765\nIn iteratie 23 is de\
+        \ benadering: -4.178672194480896\nIn iteratie 24 is de benadering: -4.17867237329483\n\
+        In iteratie 25 is de benadering: -4.178672462701797\nIn iteratie 26 is de\
+        \ benadering: -4.178672417998314\nIn iteratie 27 is de benadering: -4.178672440350056\n\
+        In iteratie 28 is de benadering: -4.178672429174185\nIn iteratie 29 is de\
+        \ benadering: -4.178672423586249\nIn iteratie 30 is de benadering: -4.178672426380217\n\
+        In iteratie 31 is de benadering: -4.178672427777201\nIn iteratie 32 is de\
+        \ benadering: -4.178672428475693\nIn iteratie 33 is de benadering: -4.178672428824939\n\
+        In iteratie 34 is de benadering: -4.178672428999562\nIn iteratie 35 is de\
+        \ benadering: -4.178672429086873\nIn iteratie 36 is de benadering: -4.178672429043218\n\
+        In iteratie 37 is de benadering: -4.178672429065045\nIn iteratie 38 is de\
+        \ benadering: -4.178672429054131\nIn iteratie 39 is de benadering: -4.178672429059588\n\
+        In iteratie 40 is de benadering: -4.17867242905686\n"
   - testcases:
     - statement:
         python: 'def f( x ) : return 2*x - 3'
