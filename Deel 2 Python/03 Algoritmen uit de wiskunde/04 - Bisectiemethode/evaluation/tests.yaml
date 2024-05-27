@@ -94,6 +94,99 @@
         \ 1.999999999992724\nIn iteratie 40 is de benadering: 1.999999999996362\n"
   - testcases:
     - statement:
+        python: 'def f( x ) : return 2*x-3'
+    - expression: bisectiemethode( 0, 3, f )
+      return: 2.9999999999986358
+      stdout: "In iteratie 1 is de benadering: 1.5\nIn iteratie 2 is de benadering:\
+        \ 2.25\nIn iteratie 3 is de benadering: 2.625\nIn iteratie 4 is de benadering:\
+        \ 2.8125\nIn iteratie 5 is de benadering: 2.90625\nIn iteratie 6 is de benadering:\
+        \ 2.953125\nIn iteratie 7 is de benadering: 2.9765625\nIn iteratie 8 is de\
+        \ benadering: 2.98828125\nIn iteratie 9 is de benadering: 2.994140625\nIn\
+        \ iteratie 10 is de benadering: 2.9970703125\nIn iteratie 11 is de benadering:\
+        \ 2.99853515625\nIn iteratie 12 is de benadering: 2.999267578125\nIn iteratie\
+        \ 13 is de benadering: 2.9996337890625\nIn iteratie 14 is de benadering: 2.99981689453125\n\
+        In iteratie 15 is de benadering: 2.999908447265625\nIn iteratie 16 is de benadering:\
+        \ 2.999954223632812\nIn iteratie 17 is de benadering: 2.999977111816406\n\
+        In iteratie 18 is de benadering: 2.999988555908203\nIn iteratie 19 is de benadering:\
+        \ 2.999994277954102\nIn iteratie 20 is de benadering: 2.999997138977051\n\
+        In iteratie 21 is de benadering: 2.999998569488525\nIn iteratie 22 is de benadering:\
+        \ 2.999999284744263\nIn iteratie 23 is de benadering: 2.999999642372131\n\
+        In iteratie 24 is de benadering: 2.999999821186066\nIn iteratie 25 is de benadering:\
+        \ 2.999999910593033\nIn iteratie 26 is de benadering: 2.999999955296516\n\
+        In iteratie 27 is de benadering: 2.999999977648258\nIn iteratie 28 is de benadering:\
+        \ 2.999999988824129\nIn iteratie 29 is de benadering: 2.999999994412065\n\
+        In iteratie 30 is de benadering: 2.999999997206032\nIn iteratie 31 is de benadering:\
+        \ 2.999999998603016\nIn iteratie 32 is de benadering: 2.999999999301508\n\
+        In iteratie 33 is de benadering: 2.999999999650754\nIn iteratie 34 is de benadering:\
+        \ 2.999999999825377\nIn iteratie 35 is de benadering: 2.999999999912689\n\
+        In iteratie 36 is de benadering: 2.999999999956344\nIn iteratie 37 is de benadering:\
+        \ 2.999999999978172\nIn iteratie 38 is de benadering: 2.999999999989086\n\
+        In iteratie 39 is de benadering: 2.999999999994543\nIn iteratie 40 is de benadering:\
+        \ 2.999999999997272\n"
+  - testcases:
+    - statement:
+        python: 'def f( x ) : return x**3 -3*x+ 2'
+    - expression: bisectiemethode( 0, 3, f )
+      return: 2.9999999999986358
+      stdout: "In iteratie 1 is de benadering: 1.5\nIn iteratie 2 is de benadering:\
+        \ 2.25\nIn iteratie 3 is de benadering: 2.625\nIn iteratie 4 is de benadering:\
+        \ 2.8125\nIn iteratie 5 is de benadering: 2.90625\nIn iteratie 6 is de benadering:\
+        \ 2.953125\nIn iteratie 7 is de benadering: 2.9765625\nIn iteratie 8 is de\
+        \ benadering: 2.98828125\nIn iteratie 9 is de benadering: 2.994140625\nIn\
+        \ iteratie 10 is de benadering: 2.9970703125\nIn iteratie 11 is de benadering:\
+        \ 2.99853515625\nIn iteratie 12 is de benadering: 2.999267578125\nIn iteratie\
+        \ 13 is de benadering: 2.9996337890625\nIn iteratie 14 is de benadering: 2.99981689453125\n\
+        In iteratie 15 is de benadering: 2.999908447265625\nIn iteratie 16 is de benadering:\
+        \ 2.999954223632812\nIn iteratie 17 is de benadering: 2.999977111816406\n\
+        In iteratie 18 is de benadering: 2.999988555908203\nIn iteratie 19 is de benadering:\
+        \ 2.999994277954102\nIn iteratie 20 is de benadering: 2.999997138977051\n\
+        In iteratie 21 is de benadering: 2.999998569488525\nIn iteratie 22 is de benadering:\
+        \ 2.999999284744263\nIn iteratie 23 is de benadering: 2.999999642372131\n\
+        In iteratie 24 is de benadering: 2.999999821186066\nIn iteratie 25 is de benadering:\
+        \ 2.999999910593033\nIn iteratie 26 is de benadering: 2.999999955296516\n\
+        In iteratie 27 is de benadering: 2.999999977648258\nIn iteratie 28 is de benadering:\
+        \ 2.999999988824129\nIn iteratie 29 is de benadering: 2.999999994412065\n\
+        In iteratie 30 is de benadering: 2.999999997206032\nIn iteratie 31 is de benadering:\
+        \ 2.999999998603016\nIn iteratie 32 is de benadering: 2.999999999301508\n\
+        In iteratie 33 is de benadering: 2.999999999650754\nIn iteratie 34 is de benadering:\
+        \ 2.999999999825377\nIn iteratie 35 is de benadering: 2.999999999912689\n\
+        In iteratie 36 is de benadering: 2.999999999956344\nIn iteratie 37 is de benadering:\
+        \ 2.999999999978172\nIn iteratie 38 is de benadering: 2.999999999989086\n\
+        In iteratie 39 is de benadering: 2.999999999994543\nIn iteratie 40 is de benadering:\
+        \ 2.999999999997272\n"
+  - testcases:
+    - statement:
+        python: 'def f( x ) : return x**3 -3*x+ 2'
+    - expression: bisectiemethode( -4, 3, f )
+      return: -2.0000000000004547
+      stdout: "In iteratie 1 is de benadering: -0.5\nIn iteratie 2 is de benadering:\
+        \ -2.25\nIn iteratie 3 is de benadering: -1.375\nIn iteratie 4 is de benadering:\
+        \ -1.8125\nIn iteratie 5 is de benadering: -2.03125\nIn iteratie 6 is de benadering:\
+        \ -1.921875\nIn iteratie 7 is de benadering: -1.9765625\nIn iteratie 8 is\
+        \ de benadering: -2.00390625\nIn iteratie 9 is de benadering: -1.990234375\n\
+        In iteratie 10 is de benadering: -1.9970703125\nIn iteratie 11 is de benadering:\
+        \ -2.00048828125\nIn iteratie 12 is de benadering: -1.998779296875\nIn iteratie\
+        \ 13 is de benadering: -1.9996337890625\nIn iteratie 14 is de benadering:\
+        \ -2.00006103515625\nIn iteratie 15 is de benadering: -1.999847412109375\n\
+        In iteratie 16 is de benadering: -1.999954223632812\nIn iteratie 17 is de\
+        \ benadering: -2.000007629394531\nIn iteratie 18 is de benadering: -1.999980926513672\n\
+        In iteratie 19 is de benadering: -1.999994277954102\nIn iteratie 20 is de\
+        \ benadering: -2.000000953674316\nIn iteratie 21 is de benadering: -1.999997615814209\n\
+        In iteratie 22 is de benadering: -1.999999284744263\nIn iteratie 23 is de\
+        \ benadering: -2.00000011920929\nIn iteratie 24 is de benadering: -1.999999701976776\n\
+        In iteratie 25 is de benadering: -1.999999910593033\nIn iteratie 26 is de\
+        \ benadering: -2.000000014901161\nIn iteratie 27 is de benadering: -1.999999962747097\n\
+        In iteratie 28 is de benadering: -1.999999988824129\nIn iteratie 29 is de\
+        \ benadering: -2.000000001862645\nIn iteratie 30 is de benadering: -1.999999995343387\n\
+        In iteratie 31 is de benadering: -1.999999998603016\nIn iteratie 32 is de\
+        \ benadering: -2.000000000232831\nIn iteratie 33 is de benadering: -1.999999999417923\n\
+        In iteratie 34 is de benadering: -1.999999999825377\nIn iteratie 35 is de\
+        \ benadering: -2.000000000029104\nIn iteratie 36 is de benadering: -1.99999999992724\n\
+        In iteratie 37 is de benadering: -1.999999999978172\nIn iteratie 38 is de\
+        \ benadering: -2.000000000003638\nIn iteratie 39 is de benadering: -1.999999999990905\n\
+        In iteratie 40 is de benadering: -1.999999999997272\n"
+  - testcases:
+    - statement:
         python: 'def f( x ) : return 2*x**2+9*x-5'
     - expression: bisectiemethode( 0, 4, f )
       return: 0.999999999998181
@@ -122,3 +215,95 @@
         \ 0.999999999941792\nIn iteratie 37 is de benadering: 0.999999999970896\n\
         In iteratie 38 is de benadering: 0.999999999985448\nIn iteratie 39 is de benadering:\
         \ 0.999999999992724\nIn iteratie 40 is de benadering: 0.999999999996362\n"
+  - testcases:
+    - statement:
+        python: 'def f( x ) : return 2*x**2+9*x-5'
+    - expression: bisectiemethode( -6, 4, f )
+      return: -5.0000000000009095
+      stdout: "In iteratie 1 is de benadering: -1.0\nIn iteratie 2 is de benadering:\
+        \ -3.5\nIn iteratie 3 is de benadering: -4.75\nIn iteratie 4 is de benadering:\
+        \ -5.375\nIn iteratie 5 is de benadering: -5.0625\nIn iteratie 6 is de benadering:\
+        \ -4.90625\nIn iteratie 7 is de benadering: -4.984375\nIn iteratie 8 is de\
+        \ benadering: -5.0234375\nIn iteratie 9 is de benadering: -5.00390625\nIn\
+        \ iteratie 10 is de benadering: -4.994140625\nIn iteratie 11 is de benadering:\
+        \ -4.9990234375\nIn iteratie 12 is de benadering: -5.00146484375\nIn iteratie\
+        \ 13 is de benadering: -5.000244140625\nIn iteratie 14 is de benadering: -4.9996337890625\n\
+        In iteratie 15 is de benadering: -4.99993896484375\nIn iteratie 16 is de benadering:\
+        \ -5.000091552734375\nIn iteratie 17 is de benadering: -5.000015258789062\n\
+        In iteratie 18 is de benadering: -4.999977111816406\nIn iteratie 19 is de\
+        \ benadering: -4.999996185302734\nIn iteratie 20 is de benadering: -5.000005722045898\n\
+        In iteratie 21 is de benadering: -5.000000953674316\nIn iteratie 22 is de\
+        \ benadering: -4.999998569488525\nIn iteratie 23 is de benadering: -4.999999761581421\n\
+        In iteratie 24 is de benadering: -5.000000357627869\nIn iteratie 25 is de\
+        \ benadering: -5.000000059604645\nIn iteratie 26 is de benadering: -4.999999910593033\n\
+        In iteratie 27 is de benadering: -4.999999985098839\nIn iteratie 28 is de\
+        \ benadering: -5.000000022351742\nIn iteratie 29 is de benadering: -5.00000000372529\n\
+        In iteratie 30 is de benadering: -4.999999994412065\nIn iteratie 31 is de\
+        \ benadering: -4.999999999068677\nIn iteratie 32 is de benadering: -5.000000001396984\n\
+        In iteratie 33 is de benadering: -5.000000000232831\nIn iteratie 34 is de\
+        \ benadering: -4.999999999650754\nIn iteratie 35 is de benadering: -4.999999999941792\n\
+        In iteratie 36 is de benadering: -5.000000000087311\nIn iteratie 37 is de\
+        \ benadering: -5.000000000014552\nIn iteratie 38 is de benadering: -4.999999999978172\n\
+        In iteratie 39 is de benadering: -4.999999999996362\nIn iteratie 40 is de\
+        \ benadering: -5.000000000005457\n"
+  - testcases:
+    - statement:
+        python: 'def f( x ) : return 2*x**2+9*x-5'
+    - expression: bisectiemethode( -5, 4, f )
+      return: 0.49999999999772626
+      stdout: "In iteratie 1 is de benadering: -0.5\nIn iteratie 2 is de benadering:\
+        \ 1.75\nIn iteratie 3 is de benadering: 0.625\nIn iteratie 4 is de benadering:\
+        \ 0.0625\nIn iteratie 5 is de benadering: 0.34375\nIn iteratie 6 is de benadering:\
+        \ 0.484375\nIn iteratie 7 is de benadering: 0.5546875\nIn iteratie 8 is de\
+        \ benadering: 0.51953125\nIn iteratie 9 is de benadering: 0.501953125\nIn\
+        \ iteratie 10 is de benadering: 0.4931640625\nIn iteratie 11 is de benadering:\
+        \ 0.49755859375\nIn iteratie 12 is de benadering: 0.499755859375\nIn iteratie\
+        \ 13 is de benadering: 0.5008544921875\nIn iteratie 14 is de benadering: 0.50030517578125\n\
+        In iteratie 15 is de benadering: 0.500030517578125\nIn iteratie 16 is de benadering:\
+        \ 0.499893188476562\nIn iteratie 17 is de benadering: 0.499961853027344\n\
+        In iteratie 18 is de benadering: 0.499996185302734\nIn iteratie 19 is de benadering:\
+        \ 0.50001335144043\nIn iteratie 20 is de benadering: 0.500004768371582\nIn\
+        \ iteratie 21 is de benadering: 0.500000476837158\nIn iteratie 22 is de benadering:\
+        \ 0.499998331069946\nIn iteratie 23 is de benadering: 0.499999403953552\n\
+        In iteratie 24 is de benadering: 0.499999940395355\nIn iteratie 25 is de benadering:\
+        \ 0.500000208616257\nIn iteratie 26 is de benadering: 0.500000074505806\n\
+        In iteratie 27 is de benadering: 0.500000007450581\nIn iteratie 28 is de benadering:\
+        \ 0.499999973922968\nIn iteratie 29 is de benadering: 0.499999990686774\n\
+        In iteratie 30 is de benadering: 0.499999999068677\nIn iteratie 31 is de benadering:\
+        \ 0.500000003259629\nIn iteratie 32 is de benadering: 0.500000001164153\n\
+        In iteratie 33 is de benadering: 0.500000000116415\nIn iteratie 34 is de benadering:\
+        \ 0.499999999592546\nIn iteratie 35 is de benadering: 0.499999999854481\n\
+        In iteratie 36 is de benadering: 0.499999999985448\nIn iteratie 37 is de benadering:\
+        \ 0.500000000050932\nIn iteratie 38 is de benadering: 0.50000000001819\nIn\
+        \ iteratie 39 is de benadering: 0.500000000001819\nIn iteratie 40 is de benadering:\
+        \ 0.499999999993634\n"
+  - testcases:
+    - statement:
+        python: 'def f( x ) : return x**2'
+    - expression: bisectiemethode( -2, 2, f )
+      return: 1.999999999998181
+      stdout: "In iteratie 1 is de benadering: 0.0\nIn iteratie 2 is de benadering:\
+        \ 1.0\nIn iteratie 3 is de benadering: 1.5\nIn iteratie 4 is de benadering:\
+        \ 1.75\nIn iteratie 5 is de benadering: 1.875\nIn iteratie 6 is de benadering:\
+        \ 1.9375\nIn iteratie 7 is de benadering: 1.96875\nIn iteratie 8 is de benadering:\
+        \ 1.984375\nIn iteratie 9 is de benadering: 1.9921875\nIn iteratie 10 is de\
+        \ benadering: 1.99609375\nIn iteratie 11 is de benadering: 1.998046875\nIn\
+        \ iteratie 12 is de benadering: 1.9990234375\nIn iteratie 13 is de benadering:\
+        \ 1.99951171875\nIn iteratie 14 is de benadering: 1.999755859375\nIn iteratie\
+        \ 15 is de benadering: 1.9998779296875\nIn iteratie 16 is de benadering: 1.99993896484375\n\
+        In iteratie 17 is de benadering: 1.999969482421875\nIn iteratie 18 is de benadering:\
+        \ 1.999984741210938\nIn iteratie 19 is de benadering: 1.999992370605469\n\
+        In iteratie 20 is de benadering: 1.999996185302734\nIn iteratie 21 is de benadering:\
+        \ 1.999998092651367\nIn iteratie 22 is de benadering: 1.999999046325684\n\
+        In iteratie 23 is de benadering: 1.999999523162842\nIn iteratie 24 is de benadering:\
+        \ 1.999999761581421\nIn iteratie 25 is de benadering: 1.99999988079071\nIn\
+        \ iteratie 26 is de benadering: 1.999999940395355\nIn iteratie 27 is de benadering:\
+        \ 1.999999970197678\nIn iteratie 28 is de benadering: 1.999999985098839\n\
+        In iteratie 29 is de benadering: 1.999999992549419\nIn iteratie 30 is de benadering:\
+        \ 1.99999999627471\nIn iteratie 31 is de benadering: 1.999999998137355\nIn\
+        \ iteratie 32 is de benadering: 1.999999999068677\nIn iteratie 33 is de benadering:\
+        \ 1.999999999534339\nIn iteratie 34 is de benadering: 1.999999999767169\n\
+        In iteratie 35 is de benadering: 1.999999999883585\nIn iteratie 36 is de benadering:\
+        \ 1.999999999941792\nIn iteratie 37 is de benadering: 1.999999999970896\n\
+        In iteratie 38 is de benadering: 1.999999999985448\nIn iteratie 39 is de benadering:\
+        \ 1.999999999992724\nIn iteratie 40 is de benadering: 1.999999999996362\n"
