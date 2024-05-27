@@ -56,9 +56,9 @@ cases.append( ['def f( x ) : return 2*x**2 + 9*x - 5', -5, 4])
 cases.append( ['def f( x ) : return 2*x - 3',0,4]) #nulpunt onderweg
 cases.append( ['def f( x ) : return 2*x - 3',0,3]) #nulpunt onderweg
 cases.append( ['def f( x ) : return 2*x**2 + 9*x - 5', 0, 4]) #nulpunt onderweg
-cases.append( ['def f( x ) : return x**3 - 3*x + 2', 0, 3] ) # multi
 cases.append( ['def f( x ) : return x**2',-2,2]) #multi
 cases.append( ['def f( x ) : return (x-1)**2',-2,2]) #multi
+cases.append( ['def f( x ) : return x**3 - 3*x + 2', 0, 3] ) # multi
 
     
 # generate unit tests for functions
