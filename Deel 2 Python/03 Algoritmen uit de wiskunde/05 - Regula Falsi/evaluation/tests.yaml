@@ -1,0 +1,151 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - statement:
+        python: 2
+    - statement:
+        python: 'def f( x ) : return 1/20*(x**5+3*x**4-11*x**3-27*x**2+10*x+70)'
+    - expression: regula_falsi( 1, 2, f, 0.0001 )
+      return: 1.625022198877722
+      stdout: "In iteratie 1 is de benadering: 1.638888888888889\nIn iteratie 2 is\
+        \ de benadering: 1.624138274356702\nIn iteratie 3 is de benadering: 1.625022198877722\n"
+  - testcases:
+    - statement:
+        python: 3
+    - statement:
+        python: 'def f( x ) : return 1/20*(x**5+3*x**4-11*x**3-27*x**2+10*x+70)'
+    - expression: regula_falsi( 2, 3, f, 0.0001 )
+      return: 2.792007009244776
+      stdout: "In iteratie 1 is de benadering: 2.361111111111111\nIn iteratie 2 is\
+        \ de benadering: 2.6375473747873\nIn iteratie 3 is de benadering: 2.749123889822257\n\
+        In iteratie 4 is de benadering: 2.781149990984976\nIn iteratie 5 is de benadering:\
+        \ 2.789332416099386\nIn iteratie 6 is de benadering: 2.791357853323149\nIn\
+        \ iteratie 7 is de benadering: 2.791855241819213\nIn iteratie 8 is de benadering:\
+        \ 2.791977146225294\nIn iteratie 9 is de benadering: 2.792007009244776\n"
+  - testcases:
+    - statement:
+        python: -2
+    - statement:
+        python: 'def f( x ) : return 1/20*(x**5+3*x**4-11*x**3-27*x**2+10*x+70)'
+    - expression: regula_falsi( -5, -2, f, 0.0001 )
+      return: -4.178668910931781
+      stdout: "In iteratie 1 is de benadering: -2.239583333333333\nIn iteratie 2 is\
+        \ de benadering: -2.498572165786253\nIn iteratie 3 is de benadering: -2.781457194794778\n\
+        In iteratie 4 is de benadering: -3.082118339901406\nIn iteratie 5 is de benadering:\
+        \ -3.379718455525249\nIn iteratie 6 is de benadering: -3.643163145995911\n\
+        In iteratie 7 is de benadering: -3.847196135627985\nIn iteratie 8 is de benadering:\
+        \ -3.986205981042622\nIn iteratie 9 is de benadering: -4.071761561263902\n\
+        In iteratie 10 is de benadering: -4.120892575263756\nIn iteratie 11 is de\
+        \ benadering: -4.147934469719835\nIn iteratie 12 is de benadering: -4.162461906628237\n\
+        In iteratie 13 is de benadering: -4.17016321410318\nIn iteratie 14 is de benadering:\
+        \ -4.174216831459551\nIn iteratie 15 is de benadering: -4.17634242847727\n\
+        In iteratie 16 is de benadering: -4.177454816589484\nIn iteratie 17 is de\
+        \ benadering: -4.178036356429539\nIn iteratie 18 is de benadering: -4.178340211128463\n\
+        In iteratie 19 is de benadering: -4.178498930061286\nIn iteratie 20 is de\
+        \ benadering: -4.178581824783217\nIn iteratie 21 is de benadering: -4.178625115149723\n\
+        In iteratie 22 is de benadering: -4.178647721893609\nIn iteratie 23 is de\
+        \ benadering: -4.178659527153641\nIn iteratie 24 is de benadering: -4.178665691801771\n\
+        In iteratie 25 is de benadering: -4.178668910931781\n"
+  - testcases:
+    - statement:
+        python: 3.15
+    - statement:
+        python: 'def f( x ) : return 2*x - 3'
+    - expression: regula_falsi( -1.1, 3.15, f, 0.01 )
+      return: 1.5
+      stdout: "In iteratie 1 is de benadering: 1.5\n"
+  - testcases:
+    - statement:
+        python: 3
+    - statement:
+        python: 'def f( x ) : return 2*x**2 + 9*x - 5'
+    - expression: regula_falsi( 0, 3, f, 0.01 )
+      return: 0.499487820284415
+      stdout: "In iteratie 1 is de benadering: 0.333333333333333\nIn iteratie 2 is\
+        \ de benadering: 0.446808510638298\nIn iteratie 3 is de benadering: 0.483266398929049\n\
+        In iteratie 4 is de benadering: 0.494759788714681\nIn iteratie 5 is de benadering:\
+        \ 0.498361360621267\nIn iteratie 6 is de benadering: 0.499487820284415\n"
+  - testcases:
+    - statement:
+        python: 3
+    - statement:
+        python: 'def f( x ) : return x**3 - 2'
+    - expression: regula_falsi( 0, 3, f, 0.01 )
+      return: 1.258288403927128
+      stdout: "In iteratie 1 is de benadering: 0.222222222222222\nIn iteratie 2 is\
+        \ de benadering: 0.426937738246506\nIn iteratie 3 is de benadering: 0.610648261950867\n\
+        In iteratie 4 is de benadering: 0.768820551336852\nIn iteratie 5 is de benadering:\
+        \ 0.89872646499016\nIn iteratie 6 is de benadering: 1.000621991118418\nIn\
+        \ iteratie 7 is de benadering: 1.077383076696966\nIn iteratie 8 is de benadering:\
+        \ 1.133339797817689\nIn iteratie 9 is de benadering: 1.173112697216687\nIn\
+        \ iteratie 10 is de benadering: 1.20086046983124\nIn iteratie 11 is de benadering:\
+        \ 1.219962416567332\nIn iteratie 12 is de benadering: 1.232990213062968\n\
+        In iteratie 13 is de benadering: 1.241818275550741\nIn iteratie 14 is de benadering:\
+        \ 1.247774185974901\nIn iteratie 15 is de benadering: 1.251780401520119\n\
+        In iteratie 16 is de benadering: 1.254469738274661\nIn iteratie 17 is de benadering:\
+        \ 1.256272619370361\nIn iteratie 18 is de benadering: 1.257480137076487\n\
+        In iteratie 19 is de benadering: 1.258288403927128\n"
+  - testcases:
+    - statement:
+        python: 3
+    - statement:
+        python: 'def f( x ) : return x**3 - 3*x + 2'
+    - expression: regula_falsi( -4, 3, f, 0.01 )
+      return: 1.0
+      stdout: "In iteratie 1 is de benadering: 1.0\n"
+  - testcases:
+    - statement:
+        python: 4
+    - statement:
+        python: 'def f( x ) : return 2*x**2 + 9*x - 5'
+  - testcases:
+    - statement:
+        python: 4
+    - statement:
+        python: 'def f( x ) : return 2*x**2 + 9*x - 5'
+    - expression: regula_falsi( -5, 4, f, 0.01 )
+      return: -5.0
+      stdout: "In iteratie 1 is de benadering: -5.0\n"
+  - testcases:
+    - statement:
+        python: 4
+    - statement:
+        python: 'def f( x ) : return 2*x - 3'
+    - expression: regula_falsi( 0, 4, f, 0.01 )
+      return: 1.5
+      stdout: "In iteratie 1 is de benadering: 1.5\n"
+  - testcases:
+    - statement:
+        python: 3
+    - statement:
+        python: 'def f( x ) : return 2*x - 3'
+    - expression: regula_falsi( 0, 3, f, 0.01 )
+      return: 1.5
+      stdout: "In iteratie 1 is de benadering: 1.5\n"
+  - testcases:
+    - statement:
+        python: 4
+    - statement:
+        python: 'def f( x ) : return 2*x**2 + 9*x - 5'
+    - expression: regula_falsi( 0, 4, f, 0.01 )
+      return: 0.499260253332121
+      stdout: "In iteratie 1 is de benadering: 0.294117647058824\nIn iteratie 2 is\
+        \ de benadering: 0.418060200668896\nIn iteratie 3 is de benadering: 0.467841740108757\n\
+        In iteratie 4 is de benadering: 0.487449164148833\nIn iteratie 5 is de benadering:\
+        \ 0.495112303315793\nIn iteratie 6 is de benadering: 0.498098196240594\nIn\
+        \ iteratie 7 is de benadering: 0.499260253332121\n"
+  - testcases:
+    - statement:
+        python: 2
+    - statement:
+        python: 'def f( x ) : return x**2'
+  - testcases:
+    - statement:
+        python: 2
+    - statement:
+        python: 'def f( x ) : return (x-1)**2'
+  - testcases:
+    - statement:
+        python: 3
+    - statement:
+        python: 'def f( x ) : return x**3 - 3*x + 2'
