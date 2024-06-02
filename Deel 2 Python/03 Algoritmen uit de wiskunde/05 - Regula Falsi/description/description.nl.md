@@ -22,7 +22,7 @@ De functie retourneert de nulwaarde tot op 15 cijfers na de komma nauwkeurig.
 
 ```python
 def f( x ):
-    return 1/20(x**5 + 3*x**4 - 11*x**3 - 27*x**2 + 10*x + 70)
+    return 1/20 * (x**5 + 3*x**4 - 11*x**3 - 27*x**2 + 10*x + 70)
 ```
 
 Het uitvoeren van `regula_falsi( 1, 2, f, 0.0001 )` leidt tot:

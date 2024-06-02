@@ -10,7 +10,7 @@ def regula_falsi( a: float , b: float, f: float, toleratie: float) -> float:
         else: # f( c ) == 0
             a = c
             b = c
-        flag = abs( f( c ) ) > toleratie
+        flag = abs( f( c ) ) > toleratie or i == 50
         i += 1
         print(f"In iteratie {i} is de benadering: {round(c, 15)}")
     return round( c, 15 )

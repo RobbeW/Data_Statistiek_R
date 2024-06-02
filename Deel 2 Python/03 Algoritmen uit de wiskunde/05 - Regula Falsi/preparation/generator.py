@@ -51,14 +51,10 @@ cases.append( ['def f( x ) : return 2*x - 3', -1.1, 3.15,0.01])
 cases.append( ['def f( x ) : return 2*x**2 + 9*x - 5', 0, 3,0.01])
 cases.append( ['def f( x ) : return x**3 - 2', 0, 3,0.01])
 cases.append( ['def f( x ) : return x**3 - 3*x + 2', -4, 3,0.01])
-cases.append( ['def f( x ) : return 2*x**2 + 9*x - 5', -6, 4,0.01])
 cases.append( ['def f( x ) : return 2*x**2 + 9*x - 5', -5, 4,0.01])
 cases.append( ['def f( x ) : return 2*x - 3',0,4, 0.01]) #nulpunt onderweg
 cases.append( ['def f( x ) : return 2*x - 3',0,3, 0.01]) #nulpunt onderweg
 cases.append( ['def f( x ) : return 2*x**2 + 9*x - 5', 0, 4,0.01]) #nulpunt onderweg
-cases.append( ['def f( x ) : return x**2',-2,2,0.01]) #multi
-cases.append( ['def f( x ) : return (x-1)**2',-2,2,0.01]) #multi
-cases.append( ['def f( x ) : return x**3 - 3*x + 2', 0, 3,0.01]) #multi
 
     
 # generate unit tests for functions

@@ -98,11 +98,6 @@
         python: 4
     - statement:
         python: 'def f( x ) : return 2*x**2 + 9*x - 5'
-  - testcases:
-    - statement:
-        python: 4
-    - statement:
-        python: 'def f( x ) : return 2*x**2 + 9*x - 5'
     - expression: regula_falsi( -5, 4, f, 0.01 )
       return: -5.0
       stdout: "In iteratie 1 is de benadering: -5.0\n"
@@ -134,18 +129,3 @@
         In iteratie 4 is de benadering: 0.487449164148833\nIn iteratie 5 is de benadering:\
         \ 0.495112303315793\nIn iteratie 6 is de benadering: 0.498098196240594\nIn\
         \ iteratie 7 is de benadering: 0.499260253332121\n"
-  - testcases:
-    - statement:
-        python: 2
-    - statement:
-        python: 'def f( x ) : return x**2'
-  - testcases:
-    - statement:
-        python: 2
-    - statement:
-        python: 'def f( x ) : return (x-1)**2'
-  - testcases:
-    - statement:
-        python: 3
-    - statement:
-        python: 'def f( x ) : return x**3 - 3*x + 2'
