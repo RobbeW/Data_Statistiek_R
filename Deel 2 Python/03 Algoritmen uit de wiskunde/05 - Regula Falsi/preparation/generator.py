@@ -67,7 +67,7 @@ for i in range(len(cases)):
     test = cases[i]
     yamldata[0]['contexts'].append( {'testcases' : []})
     
-    if len(test) == 4: # laatste import toevoegen
+    if len(test) == 5: # laatste import toevoegen
         stmt = {"statement": {"python": test[2]}}
         yamldata[0]['contexts'][i]["testcases"].append( stmt )
     
