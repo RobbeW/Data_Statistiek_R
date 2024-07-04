@@ -35,7 +35,7 @@ De huidoppervlakte van een volwassen mens is ongeveer 1,5 m², de huidtemperatuu
 
 - Maak de **vector** `emissie` (met de emissiecoëfficienten) aan. (respecteer de volgorde uit de tabel)
 
-- Vorm de temperatuur om naar de Kelvinschaal in de variabele `temperatuur_kelvin`. (Ter herinnering: 0°C = 273K)
+- Vorm de temperatuur om naar de kelvinschaal in de variabele `temperatuur_kelvin`. (Ter herinnering: 0°C = 273K)
 
 - Bereken de hoeveelheid warmtestraling (uitgedrukt in watt) die het lichaam **verlaat** in een vector genaamd `warmtestraling_uit`. **Rond af** op 2 cijfers.
 
