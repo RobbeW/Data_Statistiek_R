@@ -15,8 +15,8 @@ context({
       env$HR_max
     }, 183)
   })
-  testcase("Variabele werd correct berekend:", {
-    testEqual("HR_rust", function(env) {
+  testcase("Resultaat werd correct berekend:", {
+    testEqual("HR in rust", function(env) {
       env$evaluationResult
     }, 52.49)
     testFunctionUsed("round")
