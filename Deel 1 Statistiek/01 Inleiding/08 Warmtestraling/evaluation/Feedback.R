@@ -42,6 +42,7 @@ context({
     testEqual("temperatuur_kelvin", function(env) {
       env$temperatuur_kelvin
     }, 306)
+  })
 })
 context({
   testcase("Variabele werd correct berekend:", {
