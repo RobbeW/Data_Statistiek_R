@@ -16,16 +16,16 @@ In onderstaande voorbeeld vind je van de laatste jaren de maximale waterstand in
 
 ## Gegeven
 
-Gebruik onderstaande gegevens (en de bijbehorende vectoren) om de volgende vragen te beantwoorden.
+Je krijgt reeds twee vectoren `jaren` en `max` met de jaartallen en corresponderende maximale waterstanden. Gebruik deze vectoren om de volgende vragen te beantwoorden.
 
 ## Gevraagd
 
 - Maak een variabele `aantal_waterstanden` aan en bewaar hierin het aantal waterstanden. (Zie onderstaande tip)
 
-- Maax een vector `max_in_cm` aan waarbij je de waterstanden omrekent naar cm.
+- Maax een nieuwe vector `max_in_cm` aan waarbij je de waterstanden omrekent naar cm.
 
 - Af en toe doet zich een <a href="https://en.wikipedia.org/wiki/Acqua_alta" target="_blank">Acqua Alta</a>, een overstroming, voor.
-Men gebruikt onderstaande tabel om te bepalen hoeveel procent van Venetië *bij benadering* onder water komt te staan.
+Men gebruikt **onderstaande tabel** om te bepalen hoeveel procent van Venetië *bij benadering* onder water komt te staan.
 
   Maak hiermee de **booleaanse** variabele `lichte_overstroming` aan met de jaren waar er **minstens 5% en hoogstens 30%** van Venetië onder water stond. Gebruik daarna deze variabele om de **jaren** van lichte overstroming te **selecteren** in de variabele `jaren_lichte_overstroming`.
 
