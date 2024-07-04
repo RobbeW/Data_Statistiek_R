@@ -17,6 +17,6 @@ $$
 ## Gevraagd
 - Maak de variabelen `aantal_doden` en `aantal_miljoen_gereden_km` aan als **vectoren** met de cijfers van 2015 **en** 2022.
 
-- Bereken nadien het **risico** door bovenstaande formule toe te passen. Let op voor de correcte eenheid in de noemer.
+- Bereken nadien het **risico** door bovenstaande formule toe te passen, en geef dit risico weer. Let op voor de correcte eenheid in de noemer.
 
   Je bekomt een **vector** zijn die bestaat uit **twee numerieke waarden**. De eerste waarde is het risico voor 2015, de tweede waarde voor 2022.
