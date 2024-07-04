@@ -5,7 +5,7 @@ Deze waarde bepalen is echter niet zo eenvoudig. Voor een nauwkeurige meting moe
 In 2004 werd een onderzoek <a href="https://pubmed.ncbi.nlm.nih.gov/14624296/" target="_blank">gepubliceerd</a> waar men onderstaande formule heeft gevonden die gebruikt kan worden om de VO<sub>2</sub>max te schatten.
 
 $$
-    \text{VO}_2\text{max} = 15 \cdot \dfrac{\text{HR}_\text{max}}{\text{HR}_\text{rust}}
+    \mathsf{\text{VO}_2\text{max} = 15 \cdot \dfrac{\text{HR}_\text{max}}{\text{HR}_\text{rust}}}
 $$
 
 Hierbij stelt HR<sub>max</sub> en HR<sub>rust</sub> de maximale hartslag (Heart Rate) en de hartslag in rust voor. Omdat deze methode snel werkt wordt die in veel sporthorloges toegepast.
