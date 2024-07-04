@@ -24,5 +24,4 @@ spannende_marge_seconden <- marge_minuten[marge_minuten < 1] * 60
 speciale_winnaars <- data$winner[data$stage_wins > data$stages_led]
 
 # Amerikaanse winnaars
-jaren_amerika <- data$year[data$winner == "Greg LeMond" |
-                             data$winner == "Lance Armstrong"]
+data$year[data$winner == "Greg LeMond" | data$winner == "Lance Armstrong"]
