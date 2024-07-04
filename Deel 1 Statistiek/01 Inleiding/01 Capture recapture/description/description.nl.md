@@ -30,5 +30,5 @@ t <- 32
 
 ## Gevraagd
 
-Bepaal nu met bovenstaande formule (vorm deze eerst correct om) een **schatting** voor $$N$$. Het volstaat om je berekening te noteren, of je kan - net zoals in Python - `print()` gebruiken.
+Bepaal nu met bovenstaande formule (vorm deze eerst correct om) een **schatting** voor N. Het volstaat om je berekening te noteren, of je kan - net zoals in Python - `print()` gebruiken.
 
