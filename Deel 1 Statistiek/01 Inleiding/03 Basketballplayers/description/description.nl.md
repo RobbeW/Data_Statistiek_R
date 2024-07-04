@@ -44,4 +44,4 @@ De lengtes van de Belgische basketballspelers uit de <a href="https://www.basket
 
 - **Combineer** deze variabelen in één enkele variabele `lengtes`. (Zie bovenstaande tip)
 
-- Gebruik **indexering** om de lengte van de vierde speler op te slaan in een variabele `lengte_speler4`.
+- Gebruik **indexering** om de lengte van de vijfde speler uit deze vector weer te geven.
