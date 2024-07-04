@@ -18,8 +18,8 @@ context({
       env$s
     }, 10)
   })
-  testcase("Populatie werd correct geschat:", {
-    testEqual("Resultaat", function(env) {
+  testcase("Resultaat werd correct berekend:", {
+    testEqual("De populatie is bij benadering", function(env) {
       env$evaluationResult
     }, 240)
   })
