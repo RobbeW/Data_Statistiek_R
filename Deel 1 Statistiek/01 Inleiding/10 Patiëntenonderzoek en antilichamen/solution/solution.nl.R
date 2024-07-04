@@ -9,4 +9,4 @@ coviddata <- data.frame("namen" = namen,
                         "booster" = antistoffen_booster)
 
 # Bereken de toename
-toenames <- coviddata$booster - coviddata$basis
+coviddata$booster - coviddata$basis
