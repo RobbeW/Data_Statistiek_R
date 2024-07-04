@@ -11,17 +11,12 @@ De overheid beweert dat in 2015 het **aantal gereden kilometers** 84,2 miljard w
 Verkeersrapporten gebruiken de grootheid **overlijdensrisico** om beter te kunnen **vergelijken**.
 
 $$
- \text{overlijdensrisico} = \dfrac{\text{aantal doden}}{\text{aantal miljoen gereden kilometers}}
+ \mathsf{\text{overlijdensrisico} = \dfrac{\text{aantal doden}}{\text{aantal miljoen gereden kilometers}}}
 $$
 
 ## Gevraagd
-Maak de variabelen `aantal_doden` en `aantal_miljoen_gereden_km` aan als vectoren met de cijfers van 2015 en 2022.
+- Maak de variabelen `aantal_doden` en `aantal_miljoen_gereden_km` aan als **vectoren** met de cijfers van 2015 **en** 2022.
 
-Bereken nadien de vector `risico` door bovenstaande formule toe te passen. Let op voor de correcte eenheid in de noemer.
+- Bereken nadien het **risico** door bovenstaande formule toe te passen. Let op voor de correcte eenheid in de noemer.
 
-De variabele `risico` moet dus een vector zijn die bestaat uit twee numerieke waarden. De eerste waarde is het risico voor 2015, de tweede waarde voor 2022.
-
-Bijvoorbeeld:
-```R
-0.2364 0.2187
-```
+  Je bekomt een **vector** zijn die bestaat uit **twee numerieke waarden**. De eerste waarde is het risico voor 2015, de tweede waarde voor 2022.

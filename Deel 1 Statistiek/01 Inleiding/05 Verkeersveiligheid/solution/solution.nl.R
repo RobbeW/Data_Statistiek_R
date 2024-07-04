@@ -8,4 +8,4 @@ risico <- aantal_doden / aantal_miljoen_gereden_km
 # Print het berekende risico via de variabele.
 # De uitkomst lees je als:
 # Resultaat van 2015, dan dat van 2022.
-print(risico)
+risico
