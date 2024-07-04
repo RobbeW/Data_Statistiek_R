@@ -5,9 +5,6 @@ context({
   testcaseAssert("De variabele s bestaat.", function(env) {
     isTRUE(exists("s", env))
   })
-  testcaseAssert("De variabele schatting bestaat.", function(env) {
-    isTRUE(exists("schatting", env))
-  })
 })
 context({
   testcase("Variabelen werden correct gedeclareerd:", {
@@ -20,7 +17,7 @@ context({
   })
   testcase("Populatie werd correct geschat:", {
     testEqual("schatting", function(env) {
-      env$schatting
+      env$evaluationResult
     }, 240)
   })
 })
