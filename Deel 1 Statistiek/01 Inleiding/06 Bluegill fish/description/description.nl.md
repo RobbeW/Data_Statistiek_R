@@ -15,7 +15,7 @@ Cook en Weisberg merkten een verband op tussen deze variabelen. Een grafiek met 
 Via een *regressiemodel* (zie later) kan men volgens de onderzoekers de lengte van een blauwkeel zonnebaars **schatten** (de oranje kromme) via de volgende formule:
 
 $$
-13,6 + 54,05 \cdot \text{leeftijd} - 4,179\cdot \text{leeftijd}^2
+\mathsf{13,6 + 54,05 \cdot \text{leeftijd} - 4,179\cdot \text{leeftijd}^2}
 $$
 
 In hun artikel geven ze zelf aan dat deze zonnebaars tot wel 10 jaar oud kan worden. Gebruik dit model om de lengtes van vissen met leeftijden 2, 4, 6, 8 en 10 jaar te **schatten**.
@@ -24,7 +24,7 @@ In hun artikel geven ze zelf aan dat deze zonnebaars tot wel 10 jaar oud kan wor
 
 - Maak een variabele `leeftijden` aan met de gevraagde leeftijden.
 
-- Maak een variabele `schatting_lengtes` aan, waarbij je de bovenstaande formule gebruikt om de lengtes te *voorspellen*. 
+- Bepaal vervolgens een **schatting** van de lengtes, met behulp van bovenstaande formule. Geef deze schatting weer.
 
 {: .callout.callout-info}
 >#### Tip
