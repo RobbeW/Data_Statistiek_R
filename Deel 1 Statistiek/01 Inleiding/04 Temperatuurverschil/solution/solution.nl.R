@@ -15,4 +15,5 @@ koude_maanden <- maanden[graad_kouder_dan_normaal]
 # Maand(en) die een nieuw record vastleggen
 extreem <- (gemiddelde_temperatuur > maximale_temperatuur) |
   (gemiddelde_temperatuur < minimale_temperatuur)
-extreme_maanden <- maanden[extreem]
+# Maanden weergeven
+maanden[extreem]

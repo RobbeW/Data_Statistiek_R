@@ -52,10 +52,11 @@ Gebruik bovenstaande tabel (en de onderstaande vectoren) om de volgende vragen t
 
 - Maak een variabele `extreem_verschil` aan die voor elke maand het temperatuursverschil tussen de heetste en koudste waarde berekent.
 
-- Welke maanden zijn minstens 1 graad Celsius kouder dan 'normaal'? 
+- Welke maanden zijn minstens 1°C kouder dan 'normaal'? 
 Bepaal eerst een variabele `graad_kouder_dan_normaal` en gebruik deze dan om de correcte maand(en) te selecteren. Sla deze maand(en) op in de variabele `koude_maanden`.
 
-- Zijn er maanden die nieuwe records hebben gevestigd? Met andere woorden, maanden die gemiddeld gesproken heter of koeler waren dan het huidge record (sinds 1991). Maak een vector `extreem` aan met booleaanse waarden die deze vraag beantwoordt. **Selecteer** nadien de relevante maand(en) en sla deze op in de variabele `extreme_maanden`.
+- Zijn er maanden die nieuwe records hebben gevestigd? Met andere woorden, maanden die gemiddeld gesproken heter of koeler waren dan het huidge record (sinds 1991). 
+  Maak een vector `extreem` aan met booleaanse waarden die deze vraag beantwoordt. **Selecteer** nadien de relevante maand(en) en **geef deze weer**.
 
 {: .callout.callout-info}
 >#### Tips

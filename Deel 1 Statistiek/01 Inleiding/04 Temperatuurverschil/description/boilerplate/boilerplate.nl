@@ -1,4 +1,4 @@
-# Meetgegevens
+# De meetgegevens uit de tabel vind je in de volgende vectoren
 maanden <- c("Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli")
 gemiddelde_temperatuur <- c(5.2, 5.9, 7.5, 9, 14, 20.3, 18.4)
 normale_temperatuur <- c(3.7, 4.2, 7.1, 10.4, 13.9, 16.7, 18.7)
