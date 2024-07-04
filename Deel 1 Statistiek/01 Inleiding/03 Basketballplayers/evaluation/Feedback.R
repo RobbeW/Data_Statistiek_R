@@ -33,6 +33,6 @@ context({
   testcase("De waarde werd correct uit de vector gehaald", {
     testEqual("Lengte van de 5de speler", function(env) {
       env$evaluationResult
-    }, 202)
+    }, 185)
   })
 })
