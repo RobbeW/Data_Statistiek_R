@@ -5,9 +5,6 @@ context({
   testcaseAssert("De variabele HR_max bestaat.", function(env) {
     isTRUE(exists("HR_max", env))
   })
-  testcaseAssert("De variabele HR_rust bestaat.", function(env) {
-    isTRUE(exists("HR_rust", env))
-  })
 })
 context({
   testcase("Variabelen werden correct gedeclareerd:", {
@@ -20,8 +17,8 @@ context({
   })
   testcase("Variabele werd correct berekend:", {
     testEqual("HR_rust", function(env) {
-      env$HR_rust
+      env$evaluationResult
     }, 52.49)
-    testFunctionUsedInVar("round", "HR_rust")
+    testFunctionUsed("round")
   })
 })

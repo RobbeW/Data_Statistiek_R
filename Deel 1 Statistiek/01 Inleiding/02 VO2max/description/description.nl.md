@@ -18,6 +18,6 @@ Een amateuratlete heeft een VO<sub>2</sub>max van 52,3 ml/(kg·min). Haar maxima
 
 ## Gevraagd
 
-Gebruik R om een schatting te bepalen van haar hartslag in rust. Sla dit op in de variabele `HR_rust`. Vul hiervoor de variabelen `VO2max` en `HR_max` in onderstaand programma aan. 
+Gebruik R om een schatting te bepalen van haar hartslag in rust. Vul hiervoor de variabelen `VO2max` en `HR_max` in onderstaand programma aan. 
 
 Gebruik `round()` om net zoals in Python het resultaat **af te ronden op 2 cijfers**. Zo geldt er bijvoorbeeld dat `round(49.7842, 2)` gelijk is aan`49.78`.
