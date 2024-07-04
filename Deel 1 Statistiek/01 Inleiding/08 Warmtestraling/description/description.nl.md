@@ -4,19 +4,19 @@ Alle objecten absorberen en geven straling af. De hoeveelheid warmte die wordt o
 
 ![De stralingswarmte van het hete metaal is zichtbaar voor het menselijke oog.](media/Hot_metalwork.jpg "Foto door Fir0002/Flagstaffotos op Wikimedia Commons."){:data-caption="De stralingswarmte van het hete metaal is zichtbaar voor het menselijke oog." width="45%"}
 
-De hoeveelheid warmtestraling $$H$$ die overgedragen wordt per tijdseenheid  (uitgedrukt in watt) wordt bepaald door de *Stefan-Boltzmann stralingswet*:
+De hoeveelheid warmtestraling $$\mathsf{H}$$ die overgedragen wordt per tijdseenheid  (uitgedrukt in watt) wordt bepaald door de *Stefan-Boltzmann stralingswet*:
 
 $$
-    H = \sigma \cdot \epsilon \cdot A \cdot T^4
+    \mathsf{H = \sigma \cdot \epsilon \cdot A \cdot T^4}
 $$
 
-waarbij $$\sigma$$ (*sigma*) de *Stefan-Boltzmann constante* is, namelijk 5,67 · 10<sup>-8</sup> W / (m² · K⁴). Het getal $$\epsilon$$ de emissiecoëfficiënt, een getal tussen 0 en 1 dat aangeeft hoe goed een voorwerp warmte uitstraalt/absorbeert. Bij een perfect zwart object is dit 1 en bij een object dat alles reflecteert is dit 0. Tot slot stelt $$A$$ de oppervlakte van het object voor en $$T$$ de temperatuur van het object (in **kelvin**).
+waarbij $$\mathsf{\sigma}$$ (*sigma*) de *Stefan-Boltzmann constante* is, namelijk 5,67 · 10<sup>-8</sup> W / (m² · K⁴). Het getal $$\mathsf{\epsilon}$$ de emissiecoëfficiënt, een getal tussen 0 en 1 dat aangeeft hoe goed een voorwerp warmte uitstraalt/absorbeert. Bij een perfect zwart object is dit 1 en bij een object dat alles reflecteert is dit 0. Tot slot stelt $$\mathsf{A}$$ de oppervlakte van het object voor en $$\mathsf{T}$$ de temperatuur van het object (in **kelvin**).
 
 ## Gegeven
 
 De huidoppervlakte van een volwassen mens is ongeveer 1,5 m², de huidtemperatuur bedraagt normaal ongeveer 33°C. Verschillende stoffen dragen kan de energie die je uitstraalt verminderen. In onderstaande tabel vind je de emissiecoëfficiënt $$\epsilon$$ van verschillende stoffen. Hoe hoger de waarde, hoe gemakkelijk je warmte uit**straalt**. 
 
-| Stof                    | Emissiecoëfficiënt $$\epsilon$$ | 
+| Stof                    | Emissiecoëfficiënt $$\mathsf{\epsilon}$$ | 
 |:-----------------------:|:----------:|
 | Katoen                  | 0,68       |
 | Wol                     | 0,73       |
@@ -33,9 +33,9 @@ De huidoppervlakte van een volwassen mens is ongeveer 1,5 m², de huidtemperatuu
 
 - Vul de gegevens `sigma`, `oppervlakte` en `temperatuur_celcius` aan. (Tip: machten geef je in via `^`)
 
-- Bereken de absolute temperatuur in de variabele `temperatuur_kelvin`. (Ter herinnering: 0°C = 273K)
-
 - Maak de **vector** `emissie` (met de emissiecoëfficienten) aan. (respecteer de volgorde uit de tabel)
+
+- Vorm de temperatuur om naar de Kelvinschaal in de variabele `temperatuur_kelvin`. (Ter herinnering: 0°C = 273K)
 
 - Bereken de hoeveelheid warmtestraling (uitgedrukt in watt) die het lichaam **verlaat** in een vector genaamd `warmtestraling_uit`. **Rond af** op 2 cijfers.
 
