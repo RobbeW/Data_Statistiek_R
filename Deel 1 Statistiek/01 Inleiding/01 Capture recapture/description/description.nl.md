@@ -1,9 +1,9 @@
-Stel dat men de hoeveelheid berggeiten wil *schatten* in een natuurgebied. Een methode die daarvoor gebruikt wordt heet **capture recapture**. Eerst worden $$t$$ dieren gevangen en gemarkeerd. Deze dieren worden nadien vrijgelaten en een eind later trekt men opnieuw op pad en vangt men $$n$$ dieren. Er zullen waarschijnlijk een aantal gemarkeerde dieren tussenzitten, men noemt dit aantal $$s$$. 
+Stel dat men de hoeveelheid berggeiten wil *schatten* in een natuurgebied. Een methode die daarvoor gebruikt wordt heet **capture recapture**. Eerst worden t dieren gevangen en gemarkeerd. Deze dieren worden nadien vrijgelaten en een eind later trekt men opnieuw op pad en vangt men n dieren. Er zullen waarschijnlijk een aantal gemarkeerde dieren tussenzitten, men noemt dit aantal s. 
 
-Je kan nu het aantal dieren $$N$$ in het natuurgebied gaan schatten met behulp van onderstaande formule. Men gaat er immers vanuit dat de verhouding ongeveer bewaard blijft.
+Je kan nu het aantal dieren N in het natuurgebied gaan schatten met behulp van onderstaande formule. Men gaat er immers vanuit dat de verhouding ongeveer bewaard blijft.
 
 $$
-    \dfrac{N}{t} = \dfrac{n}{s}
+    \mathsf{\dfrac{N}{t} = \dfrac{n}{s}}
 $$
 
 ![Enkele berggeiten](media/medena-rosa.jpg "Foto door Medena Rosa op Unsplash"){:data-caption="Enkele berggeiten" width="45%"}
