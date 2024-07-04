@@ -35,15 +35,15 @@ Zoals je merkt bestaat de dataset uit heel wat vectoren, **tien om exact** te zi
 
 ## Gevraagd
 
-- Bereken de gemiddelde snelheid van elke winnaar, sla dit resultaat op in de vector `avg_speed` en **rond af op 2 cijfers**.
+- Bereken de gemiddelde snelheid van elke winnaar, sla dit resultaat op in een vector `avg_speed` en **rond af op 2 cijfers**.
 
 - De vector `data$time_margin` stelt het tijdsverschil (in uren) voor die de gele trui behaalde op de tweede plaats. Reken dit om naar minuten en bewaar dit in de vector `marge_minuten`. Rond opnieuw af **op 2 cijfers**.
 
-- In welke jaren was het echt spannend en was het tijdverschil tussen de winnaar en de zilveren medaille **minder dan** één minuut. Sla dit op in de vector `spannende_jaren`. Sla de bijbehorende tijdsmarge op in de vector `spannende_marge_seconden`, waarbij je deze tijdsmarge omrekent naar seconden.
+- In welke jaren was het echt spannend en was het tijdverschil tussen de winnaar en de zilveren medaille **minder dan** één minuut? Sla dit op in de vector `spannende_jaren`. Sla de bijbehorende tijdsmarge op in de vector `spannende_marge_seconden`, waarbij je deze tijdsmarge omrekent naar seconden.
 
 - Zijn er renners die meer ritten gewonnen hebben (`data$stage_wins`) dan dat ze in het geel (`data$stages_led`) reden? Sla dit op in de vector `speciale_winnaars`.
 
-- Amerika wordt in de dataset verschillende keer vertegenwoordigd. **Selecteer** de jaren waarop er een Amerikaan won in de vector `jaren_amerika`. De Amerikaanse winnaars waren <a href="https://nl.wikipedia.org/wiki/Greg_LeMond" target="_blank">Greg LeMond</a> en <a href="https://nl.wikipedia.org/wiki/Lance_Armstrong" target="_blank">Lance Armstrong</a>. 
+- Amerika wordt in de dataset verschillende keer vertegenwoordigd. **Selecteer** en **geef** de jaren **weer** waarop er een Amerikaan won. De Amerikaanse winnaars waren <a href="https://nl.wikipedia.org/wiki/Greg_LeMond" target="_blank">Greg LeMond</a> en <a href="https://nl.wikipedia.org/wiki/Lance_Armstrong" target="_blank">Lance Armstrong</a>. 
 
 {: .callout.callout-info}
 >#### Tip
