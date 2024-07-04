@@ -39,10 +39,11 @@ Je merkt dat een data frame *ruw gesproken* een combinatie is van verschillende 
 
 ```R
 data$capaciteit
-# Dit resulteert in een vector met enkel de verschillende capaciteiten
+# Dit resulteert in een vector met enkel de verschillende capaciteiten, in het voorbeeld zou dit gelijk zijn aan
+# 505  102  181  188  299  259
 ```
 
-De dataset bestaat hier dus uit vier vectoren, `data$naam`, `data$laatste_update`, `data$capaciteit` en `data$percentage_bezet`. Met elk van deze vectoren kan je verder werken.
+De dataset bestaat hier dus uit **vier vectoren**, `data$naam`, `data$laatste_update`, `data$capaciteit` en `data$percentage_bezet`. Met elk van deze vectoren kan je verder werken.
 
 ## Gegeven
 
@@ -54,4 +55,4 @@ Gebruik deze dataset (met de bijbehorende vectoren) om de volgende vragen te bea
 
 - Maak een variabele `veel_plaats` die bestaat uit een vector met **booleaanse waarden** van de parkings waar nog minstens 75% van de plaatsen vrij zijn.
 
-- **Selecteer** nu de parkings waar veel plaats is en sla dit op in de variabele `parking_met_veel_plaats`.
+- **Selecteer** nu de parkings waar veel plaats is en **geef deze weer**.
