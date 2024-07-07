@@ -1,9 +1,9 @@
 # needed library
-library(dplyr)
+library(readr)
 
 # downloading 100 000 digits of pi
 url <- "https://www.angio.net/pi/digits/100000.txt"
-getalpi.raw<-readr::read_file(url)
+getalpi.raw <- readr::read_file(url)
 
 # splitting string into single characters
 getalpi <- data.frame(strsplit(getalpi.raw, "")[1])

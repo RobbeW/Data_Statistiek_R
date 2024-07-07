@@ -8,11 +8,11 @@ Dit kunnen we *empirisch* onderzoeken in R. We laden hiervoor de eerste 100 000 
 
 ```R
 # needed library
-library(dplyr)
+library(readr)
 
 # downloading 100 000 digits of pi
 url <- "https://www.angio.net/pi/digits/100000.txt"
-getalpi.raw<-readr::read_file(url)
+getalpi.raw <- readr::read_file(url)
 
 # splitting string into single characters
 getalpi <- data.frame(strsplit(getalpi.raw, "")[1])
@@ -40,7 +40,7 @@ In de dataframe `data` vind je nu de frequentie van de getallen na de komma. Via
 
 - Maak nu een nieuwe vector `relatieve_frequentie` waar je de relatieve frequenties in opslaat. Denk hierbij aan hoeveel procent van de cijfers een `0`, `1`, `2`, ... is. Rond af op 2 cijfers na de komma.
 
-- Maak vervolgens onderstaande grafiek.
+- Maak vervolgens onderstaande staafdiagram.
 
 ![Verdeling van de eerste 100 000 cijfers van π.](media/plot.png "Verdeling van de eerste 100 000 cijfers van π."){:data-caption="Verdeling van de eerste 100 000 cijfers van π." .light-only width="480px"}
 
