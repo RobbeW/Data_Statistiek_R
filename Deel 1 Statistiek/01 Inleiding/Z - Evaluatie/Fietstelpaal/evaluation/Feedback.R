@@ -38,7 +38,7 @@ context({
 
 context({
   testcase("Resultaat werd correct bepaald:", {
-    testEqual("De dagen waarop vooral richting binnenstad gefietst werd:", function(env) {
+    testEqual("De dag(en) waarop vooral richting binnenstad gefietst werd:", function(env) {
       env$evaluationResult
     }, richting_binnenstad)
   })
