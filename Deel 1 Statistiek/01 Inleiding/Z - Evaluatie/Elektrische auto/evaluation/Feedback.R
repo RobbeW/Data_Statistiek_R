@@ -1,21 +1,8 @@
+
 context({
   testcaseAssert("De variabele topmodellen bestaat.", function(env) {
     isTRUE(exists("topmodellen", env))
   })
-  testcaseAssert("De variabele topprijzen bestaat.", function(env) {
-    isTRUE(exists("topprijzen", env))
-  })
-  testcaseAssert("De variabele range_winter bestaat.", function(env) {
-    isTRUE(exists("range_winter", env))
-  })
-  testcaseAssert("De variabele wagens_winter bestaat.", function(env) {
-    isTRUE(exists("wagens_winter", env))
-  })
-  testcaseAssert("De variabele laadtijden bestaat.", function(env) {
-    isTRUE(exists("laadtijden", env))
-  })
-})
-context({
   testcase("Variabele werd correct bepaald:", {
     testEqual("topmodellen", function(env) {
       env$topmodellen
@@ -23,6 +10,9 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele topprijzen bestaat.", function(env) {
+    isTRUE(exists("topprijzen", env))
+  })
   testcase("Variabele werd correct bepaald:", {
     testEqual("topprijzen", function(env) {
       env$topprijzen
@@ -30,6 +20,9 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele range_winter bestaat.", function(env) {
+    isTRUE(exists("range_winter", env))
+  })
   testcase("Variabele werd correct bepaald:", {
     testEqual("range_winter", function(env) {
       env$range_winter
@@ -47,6 +40,9 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele wagens_winter bestaat.", function(env) {
+    isTRUE(exists("wagens_winter", env))
+  })
   testcase("Variabele werd correct bepaald:", {
     testEqual("wagens_winter", function(env) {
       env$wagens_winter
@@ -81,26 +77,27 @@ context({
 })
 context({
   laadtijd_round <- c(29, 65, 39, 39, 54, 59, 52, 39, 29, 44, 50, 57, 63, 42, 71, 
-45, 29, 69, 51, 43, 39, 27, 76, 30, 29, 45, 43, 48, 52, 39, 37, 
-63, 82, 63, 45, 50, 85, 45, 81, 48, 55, 73, 37, 69, 69, 64, 96, 
-30, 64, 57, 37, 63, 39, 45, 55, 54, 39, 39, 55, 67, 27, 51, 64, 
-63, 29, 60, 39, 63, 53, 44, 30, 51, 50, 61, 45, 57, 29, 43, 55, 
-57, 68, 45, 32, 38, 44, 44, 38, 68, 50, 45, 43, 63, 46, 45, 37, 
-44, 50, 50)
-laadtijd_ceil <- c(29, 65, 39, 39, 54, 60, 52, 40, 29, 45, 51, 58, 64, 42, 72, 
-45, 29, 69, 51, 43, 40, 28, 76, 30, 29, 45, 43, 48, 53, 40, 38, 
-64, 83, 64, 45, 50, 86, 45, 81, 48, 56, 73, 38, 69, 69, 65, 96, 
-30, 64, 58, 38, 64, 40, 45, 56, 54, 40, 40, 56, 67, 28, 51, 65, 
-63, 29, 60, 39, 63, 54, 45, 30, 51, 50, 62, 45, 57, 29, 44, 55, 
-57, 69, 46, 32, 38, 45, 44, 38, 69, 51, 46, 44, 63, 47, 45, 38, 
-45, 50, 50)
+  45, 29, 69, 51, 43, 39, 27, 76, 30, 29, 45, 43, 48, 52, 39, 37, 
+  63, 82, 63, 45, 50, 85, 45, 81, 48, 55, 73, 37, 69, 69, 64, 96, 
+  30, 64, 57, 37, 63, 39, 45, 55, 54, 39, 39, 55, 67, 27, 51, 64, 
+  63, 29, 60, 39, 63, 53, 44, 30, 51, 50, 61, 45, 57, 29, 43, 55, 
+  57, 68, 45, 32, 38, 44, 44, 38, 68, 50, 45, 43, 63, 46, 45, 37, 
+  44, 50, 50)
+  laadtijd_ceil <- c(29, 65, 39, 39, 54, 60, 52, 40, 29, 45, 51, 58, 64, 42, 72, 
+  45, 29, 69, 51, 43, 40, 28, 76, 30, 29, 45, 43, 48, 53, 40, 38, 
+  64, 83, 64, 45, 50, 86, 45, 81, 48, 56, 73, 38, 69, 69, 65, 96, 
+  30, 64, 58, 38, 64, 40, 45, 56, 54, 40, 40, 56, 67, 28, 51, 65, 
+  63, 29, 60, 39, 63, 54, 45, 30, 51, 50, 62, 45, 57, 29, 44, 55, 
+  57, 69, 46, 32, 38, 45, 44, 38, 69, 51, 46, 44, 63, 47, 45, 38, 
+  45, 50, 50)
 
-  testcase("Variabele werd correct bepaald:", {
+  testcaseAssert("De variabele laadtijden bestaat.", function(env) {
+    isTRUE(exists("laadtijden", env))
+  })
+  testcase("Variabele werd correct berekend:", {
     testEqual("laadtijden", function(env) {
       env$laadtijden
-    }, paste(toString(laadtijd_ceil), "of afgerond", toString(laadtijd_round)),
-    function(gen, exp) {
-      isTRUE(all.equal(gen, laadtijd_ceil)) | isTRUE(all.equal(gen, laadtijd_round))
-    })
+    }, laadtijd_ceil )
+    testFunctionUsedInVar("ceiling", "laadtijd_ceil")
   })
 })
