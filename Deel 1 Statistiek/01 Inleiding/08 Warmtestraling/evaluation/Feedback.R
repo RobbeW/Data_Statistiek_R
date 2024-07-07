@@ -2,26 +2,6 @@ context({
   testcaseAssert("De variabele emissie bestaat.", function(env) {
     isTRUE(exists("emissie", env))
   })
-  testcaseAssert("De variabele temperatuur_kelvin bestaat.", function(env) {
-    isTRUE(exists("temperatuur_kelvin", env))
-  })
-  testcaseAssert("De variabele verlies bestaat.", function(env) {
-    isTRUE(exists("verlies", env))
-  })
-  testcaseAssert("De variabele warmtestraling_uit bestaat.", function(env) {
-    isTRUE(exists("warmtestraling_uit", env))
-  })
-  testcaseAssert("De variabele warmtestraling_in bestaat.", function(env) {
-    isTRUE(exists("warmtestraling_in", env))
-  })
-  testcaseAssert("De variabele zuinig bestaat.", function(env) {
-    isTRUE(exists("zuinig", env))
-  })
-  testcaseAssert("De variabele zuinige_stoffen bestaat.", function(env) {
-    isTRUE(exists("zuinige_stoffen", env))
-  })
-})
-context({
   testcase("Variabelen werden correct gedeclareerd:", {
     testEqual("sigma", function(env) {
       env$sigma
@@ -38,6 +18,9 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele temperatuur_kelvin bestaat.", function(env) {
+    isTRUE(exists("temperatuur_kelvin", env))
+  })
   testcase("Variabele werd correct omgevormd:", {
     testEqual("temperatuur_kelvin", function(env) {
       env$temperatuur_kelvin
@@ -45,6 +28,9 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele warmtestraling_uit bestaat.", function(env) {
+    isTRUE(exists("warmtestraling_uit", env))
+  })
   testcase("Variabele werd correct berekend:", {
     testEqual("warmtestraling_uit", function(env) {
       env$warmtestraling_uit
@@ -54,6 +40,9 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele warmtestraling_in bestaat.", function(env) {
+    isTRUE(exists("warmtestraling_in", env))
+  })
   testcase("Variabele werd correct berekend:", {
     testEqual("warmtestraling_in", function(env) {
       env$warmtestraling_in
@@ -63,6 +52,9 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele verlies bestaat.", function(env) {
+    isTRUE(exists("verlies", env))
+  })
   testcase("Variabele werd correct berekend:", {
     testEqual("verlies", function(env) {
       env$verlies
@@ -70,6 +62,12 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele zuinig bestaat.", function(env) {
+    isTRUE(exists("zuinig", env))
+  })
+  testcaseAssert("De variabele zuinige_stoffen bestaat.", function(env) {
+    isTRUE(exists("zuinige_stoffen", env))
+  })
   testcase("Variabelen werden correct berekend:", {
     testEqual("zuinig", function(env) {
       env$zuinig

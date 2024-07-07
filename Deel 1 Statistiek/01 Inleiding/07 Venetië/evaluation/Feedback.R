@@ -2,22 +2,6 @@ context({
   testcaseAssert("De variabele aantal_waterstanden bestaat.", function(env) {
     isTRUE(exists("aantal_waterstanden", env))
   })
-  testcaseAssert("De variabele max_in_cm bestaat.", function(env) {
-    isTRUE(exists("max_in_cm", env))
-  })
-  testcaseAssert("De variabele lichte_overstroming bestaat.", function(env) {
-    isTRUE(exists("lichte_overstroming", env))
-  })
-  testcaseAssert("De variabele jaren_lichte_overstroming bestaat.",
-    function(env) {
-      isTRUE(exists("jaren_lichte_overstroming", env))
-    })
-  testcaseAssert("De variabele jaren_hoge_overstroming bestaat.",
-    function(env) {
-      isTRUE(exists("jaren_hoge_overstroming", env))
-    })
-})
-context({
   testcase("Variabele werd correct berekend:", {
     testEqual("aantal_waterstanden", function(env) {
       env$aantal_waterstanden
@@ -26,6 +10,9 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele max_in_cm bestaat.", function(env) {
+    isTRUE(exists("max_in_cm", env))
+  })
   testcase("Variabele werd correct omgevormd:", {
     testEqual("max_in_cm", function(env) {
       env$max_in_cm
@@ -42,6 +29,13 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele lichte_overstroming bestaat.", function(env) {
+    isTRUE(exists("lichte_overstroming", env))
+  })
+  testcaseAssert("De variabele jaren_lichte_overstroming bestaat.",
+    function(env) {
+      isTRUE(exists("jaren_lichte_overstroming", env))
+    })
   testcase("Variabelen werden correct berekend:", {
     testEqual("lichte_overstroming", function(env){
       env$lichte_overstroming
@@ -69,6 +63,10 @@ FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE))
   })
 })
 context({
+  testcaseAssert("De variabele jaren_hoge_overstroming bestaat.",
+    function(env) {
+      isTRUE(exists("jaren_hoge_overstroming", env))
+    })
   testcase("Variabele werd correct berekend:", {
     testEqual("jaren_hoge_overstroming", function(env) {
       env$jaren_hoge_overstroming

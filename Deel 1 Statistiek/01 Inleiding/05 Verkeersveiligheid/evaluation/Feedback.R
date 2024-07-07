@@ -6,8 +6,6 @@ context({
                  function(env) {
                    isTRUE(exists("aantal_miljoen_gereden_km", env))
                  })
-})
-context({
   testcase("Variabelen werden correct aangemaakt:", {
     testEqual("aantal_doden", function(env) {
       env$aantal_doden

@@ -5,11 +5,6 @@ context({
   testcaseAssert("De variabele lengtes_vrouwen bestaat.", function(env) {
     isTRUE(exists("lengtes_vrouwen", env))
   })
-  testcaseAssert("De variabele lengtes bestaat.", function(env) {
-    isTRUE(exists("lengtes", env))
-  })
-})
-context({
   testcase("De variabelen zijn correct aangemaakt:", {
     testEqual("lengtes_mannen", function(env) {
       env$lengtes_mannen
@@ -21,6 +16,9 @@ context({
 })
 
 context({
+  testcaseAssert("De variabele lengtes bestaat.", function(env) {
+    isTRUE(exists("lengtes", env))
+  })
   testcase("De vector werd correct samengesteld:", {
     testEqual("lengtes", function(env) {
       env$lengtes
