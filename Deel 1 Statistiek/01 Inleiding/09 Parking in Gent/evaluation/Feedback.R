@@ -1,12 +1,3 @@
-context({
-  testcaseAssert("De variabele vrije_plaatsen bestaat.", function(env) {
-    isTRUE(exists("vrije_plaatsen", env))
-  })
-  testcaseAssert("De variabele veel_plaats bestaat.", function(env) {
-    isTRUE(exists("veel_plaats", env))
-  })
-})
-
 # Parkeerdata van Stad Gent
  data <- read.csv2(paste0("https://data.stad.gent/api/explore/v2.1/catalog/d",
                           "atasets/bezetting-parkeergarages-real-time/export",
@@ -23,6 +14,9 @@ veel_plaats <- data$percentage_bezet < 0.25
 parking_met_veel_plaats <- data$naam[veel_plaats]
 
 context({
+  testcaseAssert("De variabele vrije_plaatsen bestaat.", function(env) {
+    isTRUE(exists("vrije_plaatsen", env))
+  })
   testcase("Variabele werd correct berekend:", {
     testEqual("vrije_plaatsen", function(env) {
       env$vrije_plaatsen
@@ -31,6 +25,9 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele veel_plaats bestaat.", function(env) {
+    isTRUE(exists("veel_plaats", env))
+  })
   testcase("Variabele werd correct berekend:", {
     testEqual("veel_plaats", function(env) {
       env$veel_plaats
