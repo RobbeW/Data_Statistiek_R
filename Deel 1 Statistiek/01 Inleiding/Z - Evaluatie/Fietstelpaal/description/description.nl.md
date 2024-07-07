@@ -41,7 +41,9 @@ Er zijn evemenenten in de Gentse binnenstad waar veel bezoekers met de fiets naa
 
 - Zoek de dagen waarop er meer dan 8500 fieters de telpaal passeerden. Bepaal dus eerst een booleaanse vector en gebruik die om nadien uit `data$datum` te **selecteren**. Sla het resultaat op als `drukke_dagen`. 
 
-- De kolom **hoofdrichting** telde het aantal fietsers richting de Gentse binnenstad, **tegenrichting** is met andere woorden richting het Keizerspark. Zijn er dagen waarop het verschil tussen hoofdrichting en tegenrichting minimaal 1000 bedroeg? Bepaal eerst een variabele `verschil` waar je dit verschil uitrekent en **selecteer** vervolgens uit `data$datum` de dagen waarop vooral richting binnenstad gefietst werd. Sla deze selectie op in de variabele `richting_binnenstad`.
+- De kolom **hoofdrichting** telde het aantal fietsers richting de Gentse binnenstad, **tegenrichting** is met andere woorden richting het Keizerspark. Zijn er dagen waarop het verschil tussen hoofdrichting en tegenrichting minimaal 1000 bedroeg?
+
+  Bepaal eerst een variabele `verschil` waar je dit verschil uitrekent en **selecteer** vervolgens uit `data$datum` de dagen waarop vooral richting binnenstad gefietst werd. Geef deze dag(en) weer.
 
 {: .callout.callout-warning}
 >#### Opgelet!
