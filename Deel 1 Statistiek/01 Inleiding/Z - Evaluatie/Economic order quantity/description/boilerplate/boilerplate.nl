@@ -3,7 +3,7 @@ h <-
 D <-
 K <- 
 
-goederen <- c("Ontstekings auto (bougie)", "Bepaald type smartphone",
+goederen <- c("Ontsteking auto (bougie)", "Bepaald type smartphone",
               "Bepaald geneesmiddel", "McDonalds burgers",
               "Bestverkopende boeken")
 

@@ -39,4 +39,4 @@ Je mag in het vervolg van deze oefening ervan uitgaan dat de kost voor opslag st
 
 - Bereken hoeveel items in elk **aparte** bestelling moeten zitten en bewaar dit in de variabele `aantal_te_bestellen`. Rond dit af naar boven met behulp van het commando `ceiling()` (Tip: lees het voorbeeld opnieuw indien je niet weet hoe je dit moet berekenen.)
 
-- Je krijgt in onderstaande code reeds een vector `goederen`. **Selecteer** hieruit die goederen waarvan er telkens **minstens 15** items besteld moeten worden. Sla dit op in `grote_bestelling`.
+- Je krijgt in onderstaande code reeds een vector `goederen`. **Selecteer** hieruit die goederen waarvan er telkens **minstens 15** items besteld moeten worden en toon deze.

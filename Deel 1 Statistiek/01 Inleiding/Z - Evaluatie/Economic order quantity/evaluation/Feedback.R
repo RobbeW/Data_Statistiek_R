@@ -28,13 +28,21 @@ context({
       env$eoq
     }, c(918, 592, 2052, 1675, 749))
     testFunctionUsedInVar("round", "eoq")
+  })
+})
+context({
+  testcase("Variabele werd correct berekend:", {
     testEqual("aantal_te_bestellen", function(env) {
       env$aantal_te_bestellen
     }, c(22, 9, 15, 60, 14))
     testFunctionUsedInVar("ceiling", "aantal_te_bestellen")
-    testEqual("grote_bestelling", function(env) {
-      env$grote_bestelling
-    }, c("Ontstekings auto (bougie)", "Bepaald geneesmiddel",
+  })
+})
+context({
+  testcase("Resultaat werd correct berekend:", {
+    testEqual("Goederen waarvan er meer dan 15 besteld moeten worden", function(env) {
+      env$evaluationResult
+    }, c("Ontsteking auto (bougie)", "Bepaald geneesmiddel",
          "McDonalds burgers"))
   })
 })

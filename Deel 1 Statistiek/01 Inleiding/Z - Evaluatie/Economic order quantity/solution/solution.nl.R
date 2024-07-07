@@ -12,4 +12,4 @@ eoq <- round(sqrt(2 * D * K / h))
 
 aantal_te_bestellen <- ceiling(D / eoq)
 
-grote_bestelling <- goederen[aantal_te_bestellen >= 15]
+goederen[aantal_te_bestellen >= 15]
