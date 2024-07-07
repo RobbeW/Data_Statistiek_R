@@ -1,82 +1,69 @@
-context({
-  testcaseAssert("De variabele single_lap_no_shortcut bestaat.", function(env) {
-    isTRUE(exists("single_lap_no_shortcut", env))
-  })
-  testcaseAssert("De variabele three_lap_no_shortcut bestaat.", function(env) {
-    isTRUE(exists("three_lap_no_shortcut", env))
-  })
-  testcaseAssert("De variabele tracks bestaat.", function(env) {
-    isTRUE(exists("tracks", env))
-  })
-  testcaseAssert("De variabele record_single_lap_no_shortcut bestaat.",
-                 function(env) {
-                   isTRUE(exists("record_single_lap_no_shortcut", env))
-                 })
-  testcaseAssert("De variabele record_three_lap_no_shortcut bestaat.",
-                 function(env) {
-                   isTRUE(exists("record_three_lap_no_shortcut", env))
-                 })
-  testcaseAssert("De variabele verschil bestaat.", function(env) {
-    isTRUE(exists("verschil", env))
-  })
-  testcaseAssert("De variabele trage_tracks bestaat.", function(env) {
-    isTRUE(exists("trage_tracks", env))
-  })
-})
-
 # Gegevens ophalen
-data <- read.csv(paste0("https://raw.githubusercontent.com/rfordatascience/",
-                        "tidytuesday/master/data/2021/2021-05-25/records.csv"),
+data <- read.csv(paste0("https://raw.githubusercontent.com/rfordatascience/ti",
+                        "dytuesday/master/data/2021/2021-05-25/records.csv"),
                  header = TRUE)
 # Aanpassen naar de recordtijden en wijzing kolomnamen
 data <- aggregate(data$time, by = list(track = data$track, type = data$type,
                                        shortcut = data$shortcut), FUN = min)
-colnames(data) <- c("track", "type", "shortcut", "record_time")
-data <- data[order(data$track, data$type, data$shortcut), ]
-rownames(data) <- seq_len(nrow(data))
+data <- data[data$shortcut == "No", ]
+data$shortcut <- NULL
+colnames(data) <- c("track", "type", "record_time")
+
+data <- data[order(data$track, data$type), ]
+rownames(data) <- NULL
 
 # Filter en selectie uitvoeren
-single_lap_no_shortcut <- data$type == "Single Lap" & data$shortcut == "No"
-three_lap_no_shortcut <- data$type == "Three Lap" & data$shortcut == "No"
+single_lap <- data$type == "Single Lap"
+three_lap <- data$type == "Three Lap"
 
-tracks <- data$track[single_lap_no_shortcut]
+record_single_lap <- data$record_time[single_lap]
+record_three_lap <- data$record_time[three_lap]
 
-record_single_lap_no_shortcut <- data$record_time[single_lap_no_shortcut]
-record_three_lap_no_shortcut <- data$record_time[three_lap_no_shortcut]
+verschil <- round(record_three_lap
+                  - 3 * record_single_lap, 2)
 
-verschil <- round(record_three_lap_no_shortcut
-                  - 3 * record_single_lap_no_shortcut, 2)
-
-trage_tracks <- tracks[verschil >= 5]
+tracks <- data$track[single_lap]
 
 context({
+  testcaseAssert("De variabele single_lap bestaat.", function(env) {
+    isTRUE(exists("single_lap", env))
+  })
+  testcaseAssert("De variabele three_lap bestaat.", function(env) {
+    isTRUE(exists("three_lap", env))
+  })
   testcase("De variabelen werden correct bepaald:", {
-    testEqual("single_lap_no_shortcut", function(env) {
-      env$single_lap_no_shortcut
-    }, single_lap_no_shortcut)
-    testEqual("three_lap_no_shortcut", function(env) {
-      env$three_lap_no_shortcut
-    }, three_lap_no_shortcut)
+    testEqual("single_lap", function(env) {
+      env$single_lap
+    }, single_lap)
+    testEqual("three_lap", function(env) {
+      env$three_lap
+    }, three_lap)
   })
 })
+
 context({
+  testcaseAssert("De variabele record_single_lap bestaat.",
+                 function(env) {
+                   isTRUE(exists("record_single_lap", env))
+                 })
+  testcaseAssert("De variabele record_three_lap bestaat.",
+                 function(env) {
+                   isTRUE(exists("record_three_lap", env))
+                 })
   testcase("De variabelen werden correct bepaald:", {
-    testEqual("tracks", function(env) {
-      env$tracks
-    }, tracks)
+    testEqual("record_single_lap", function(env) {
+      env$record_single_lap
+    }, record_single_lap)
+    testEqual("record_three_lap", function(env) {
+      env$record_three_lap
+    }, record_three_lap)
   })
 })
+
 context({
-  testcase("De variabelen werden correct bepaald:", {
-    testEqual("record_single_lap_no_shortcut", function(env) {
-      env$record_single_lap_no_shortcut
-    }, record_single_lap_no_shortcut)
-    testEqual("record_three_lap_no_shortcut", function(env) {
-      env$record_three_lap_no_shortcut
-    }, record_three_lap_no_shortcut)
+  testcaseAssert("De variabele verschil bestaat.", function(env) {
+    isTRUE(exists("verschil", env))
   })
-})
-context({
   testcase("De variabelen werden correct bepaald:", {
     testEqual("verschil", function(env) {
       env$verschil
@@ -84,10 +71,21 @@ context({
     testFunctionUsedInVar("round", "verschil")
   })
 })
+
 context({
+  testcaseAssert("De variabele tracks bestaat.", function(env) {
+    isTRUE(exists("tracks", env))
+  })
   testcase("De variabelen werden correct bepaald:", {
-    testEqual("trage_tracks", function(env) {
-      env$trage_tracks
-    }, trage_tracks)
+    testEqual("tracks", function(env) {
+      env$tracks
+    }, tracks)
+  })
+})
+context({
+  testcase("Resultaat werd correct bepaald:", {
+    testEqual("De tracks waarop het verschil van drie rondjes met 3 keer één rondje groot is:", function(env) {
+      env$evaluationResult
+    }, tracks[verschil >= 5])
   })
 })

@@ -5,20 +5,23 @@ data <- read.csv(paste0("https://raw.githubusercontent.com/rfordatascience/ti",
 # Aanpassen naar de recordtijden en wijzing kolomnamen
 data <- aggregate(data$time, by = list(track = data$track, type = data$type,
                                        shortcut = data$shortcut), FUN = min)
-colnames(data) <- c("track", "type", "shortcut", "record_time")
-data <- data[order(data$track, data$type, data$shortcut), ]
-rownames(data) <- seq_len(nrow(data))
+data <- data[data$shortcut == "No", ]
+data$shortcut <- NULL
+colnames(data) <- c("track", "type", "record_time")
+
+data <- data[order(data$track, data$type), ]
+rownames(data) <- NULL
 
 # Filter en selectie uitvoeren
-single_lap_no_shortcut <- data$type == "Single Lap" & data$shortcut == "No"
-three_lap_no_shortcut <- data$type == "Three Lap" & data$shortcut == "No"
+single_lap <- data$type == "Single Lap"
+three_lap <- data$type == "Three Lap"
 
-tracks <- data$track[single_lap_no_shortcut]
+record_single_lap <- data$record_time[single_lap]
+record_three_lap <- data$record_time[three_lap]
 
-record_single_lap_no_shortcut <- data$record_time[single_lap_no_shortcut]
-record_three_lap_no_shortcut <- data$record_time[three_lap_no_shortcut]
+verschil <- round(record_three_lap
+                  - 3 * record_single_lap, 2)
 
-verschil <- round(record_three_lap_no_shortcut
-                  - 3 * record_single_lap_no_shortcut, 2)
+tracks <- data$track[single_lap]
 
-trage_tracks <- tracks[verschil >= 5]
+tracks[verschil >= 5]
