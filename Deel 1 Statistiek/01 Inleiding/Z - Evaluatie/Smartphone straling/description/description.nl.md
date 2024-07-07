@@ -1,6 +1,3 @@
-<div class="text-end">
-<a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
-</div>
 
 Op 13 september 2023 lazen we op VRT.NWS <a href="https://www.vrt.be/vrtnws/nl/2023/09/13/iphone-12-frankrijk-belgie-stralingen" target="_blank">dit artikel</a> getiteld "Frankrijk verbiedt iPhone 12 door "te hoge straling".
 
@@ -30,7 +27,7 @@ ANFR testte nog verschillende andere toestellen, met onder andere de volgende <a
 
 - De maximale SAR waarden vastgelegd door Europa zijn: 2 W/kg voor een smartphone in een jaszak en 4 W/kg in een broekzak. Bepaal een booleaanse vector `niet_conform` waarbij je nagaat welke toestellen **niet voldoen** aan minstens één van deze voorwaarden.
 
-- Gebruik **die booleaanse vector** om een vector aan te maken met de toestellen die **wel** binnen de Europese grenzen liggen. Sla deze op in de variabele `modellen_conform`. Plak hierbij de merknaam en de modelnaam aan elkaar met behulp van `paste()`. 
+- Gebruik **die booleaanse vector** om de toestellen weer te tonen die **wel** binnen de Europese grenzen liggen. Geef deze toestellen weer onder de vorm `merk model`. Gebruik hiervoor `paste()` om deze aan elkaar te plakken. 
 
 {: .callout.callout-info}
 >#### Tip
