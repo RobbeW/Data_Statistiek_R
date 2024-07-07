@@ -1,0 +1,22 @@
+# Benodigde bibliotheken
+library('jsonlite')
+library('httr')
+
+# Data ophalen van Elia
+kleuren <- c("Biofuels" = "#3366BB", 
+             "Other Fossil Fuels" = "#AA3366",
+             "Other Fuel" = "#BB4466",
+             "Natural Gas" = "#EEDD00", 
+             "Nuclear" = "#0099CC", 
+             "Solar" = "#EEDD00", 
+             "Water" = "#22CCBB", 
+             "Wind Offshore" = "#55BB55", 
+             "Other" = "#cccccc", 
+             "Wind Onshore" = "#99DD55")
+res <- GET("https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods177/records?select=sum(generatedpower)%20as%20power&where=datetime%20%3E%20now(days%3D-7%2C%20hour%3D0%2C%20minute%3D0)%20and%20datetime%20%3C%20now(days%3D-1%2Chour%3D23%2Cminute%3D59)%20and%20generatedpower%20%3E0&group_by=date_format(datetime%2C%20%27YYYY%2FMM%2Fdd%27)%20as%20date%2C%20fueltypepublication%20as%20fuel&order_by=date%20DESC")
+data <- fromJSON(rawToChar(res$content))$results
+data <- data[order(data$power, decreasing = TRUE), ]
+row.names(data) <- NULL
+data$color <- kleuren[data$fuel]
+
+# Beantwoord hieronder de vragen
