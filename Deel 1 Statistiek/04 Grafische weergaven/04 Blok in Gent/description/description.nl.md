@@ -33,7 +33,7 @@ Hierbij werden enkel de informatie van de bloklocaties waar je dient te reserver
 Maak onderstaand staafdiagram met de reserveringsgraad na, gebruik hiervoor de volgende richtlijnen.
 
 - Maak een vector `reserveringsgraad` aan, waar je het percentage gereserveerde plaatsen berekent. Rond hier af op **1 cijfer na de komma**.
-- Maak het staafdiagram, kies zelf een kleur uit dit <a href="http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf" target="_blank">document</a>. Gebruik enkele extra argumenten om het staafdiagram horizontaal te plaatsen, namelijk `horiz = TRUE` en `las = 1`. Om de linkermarge te vergroten geef je het commando `par(mar = c(4,20,4,4))` in **voordat** je `barplot()` oproept.
+- Maak het staafdiagram, kies zelf een kleur van deze <a href="https://r-charts.com/colors/" target="_blank">website</a>. Gebruik enkele extra argumenten om het staafdiagram **horizontaal** te plaatsen, namelijk `horiz = TRUE` en `las = 1`. Om de linkermarge te vergroten geef je het commando `par(mar = c(4,20,4,4))` in **voordat** je `barplot()` oproept.
 
 ![Reserveringsgraad blok@Gent](media/plot.png "Reserveringsgraad blok@Gent."){:data-caption="Reserveringsgraad blok@Gent" .light-only width="480px"}
 
