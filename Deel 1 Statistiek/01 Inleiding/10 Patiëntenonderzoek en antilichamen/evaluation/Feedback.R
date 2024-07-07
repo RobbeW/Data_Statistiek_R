@@ -1,3 +1,10 @@
+namen <- c("Alice", "Bob", "Karen", "David", "Eva")
+antistoffen_basis <- c(3705, 3601, 4100, 2574, 3910)
+antistoffen_booster <- c(22293, 14571, 25415, 18971, 38600)
+coviddata <- data.frame("namen" = namen,
+                        "basis" = antistoffen_basis,
+                        "booster" = antistoffen_booster)
+
 context({
   testcaseAssert("De variabele namen bestaat.", function(env) {
     isTRUE(exists("namen", env))
@@ -8,16 +15,6 @@ context({
   testcaseAssert("De variabele antistoffen_booster bestaat.", function(env) {
     isTRUE(exists("antistoffen_booster", env))
   })
-})
-
-namen <- c("Alice", "Bob", "Karen", "David", "Eva")
-antistoffen_basis <- c(3705, 3601, 4100, 2574, 3910)
-antistoffen_booster <- c(22293, 14571, 25415, 18971, 38600)
-coviddata <- data.frame("namen" = namen,
-                        "basis" = antistoffen_basis,
-                        "booster" = antistoffen_booster)
-
-context({
   testcase("Variabelen werden correct aangemaakt:", {
     testEqual("namen", function(env) {
       env$namen
