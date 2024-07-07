@@ -3,7 +3,7 @@ Via het Steam platform kan je samen met vrienden games spelen. Er wordt dan ook 
 
 ```R
 # Steam data inlezen
-data <- read.csv2("dataset.csv",
+data <- read.csv2("https://tinyurl.com/4cv3hk2w",
                   sep=",",dec=".",
                   colClasses = c("NULL", rep("character", 2), rep("numeric", 5), rep("NULL",2)))
 data <- na.omit(data)
