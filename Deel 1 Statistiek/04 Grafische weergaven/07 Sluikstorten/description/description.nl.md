@@ -32,14 +32,13 @@ In de uiteindelijke dataframe vind je een overzicht met het aantal meldingen per
 
 ## Gevraagd
 
-- Bepaal het totale aantal meldingen in de variabele `totaal`.
+- Hoeveel sluikstortmeldingen waren er in 2023? Bepaal het totale aantal meldingen in de variabele `totaal`.
 - Sla in een vector `percentages` op hoeveel procent van de meldingen kwamen op maandag, dinsdag, enz... Rond af op **één cijfer na de komma**.
 - Maak onderstaande grafiek na.
 
 {: .callout.callout-info}
 >#### Tip
-> Kies zelf een kleur en vergeet de titel en labels op de x- en y-as niet.
-> Het verwerken van de dataset kan een tijdje in beslag nemen want ze bevat bijna 60 000 meldingen.
+> Kies zelf <a href="https://r-charts.com/colors/" target="_blank">een kleur</a> en vergeet de titel en labels op de x- en y-as niet.
 
 ![Percentage meldingen sluikstorten 2023.](media/plot.png "Percentage meldingen sluikstorten 2023."){:data-caption="Percentage meldingen sluikstorten 2023." .light-only width="480px"}
 
