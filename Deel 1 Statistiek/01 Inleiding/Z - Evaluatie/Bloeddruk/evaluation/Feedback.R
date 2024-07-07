@@ -2,8 +2,8 @@ context({
   testcaseAssert("De variabele dia_druk bestaat.", function(env) {
     isTRUE(exists("dia_druk", env))
   })
-  testcaseAssert("De variabele sys_druk bestaat.", function(env) {
-    isTRUE(exists("sys_druk", env))
+  testcaseAssert("De variabele gem_druk bestaat.", function(env) {
+    isTRUE(exists("gem_druk", env))
   })
   testcase("Variabelen werden correct gedeclareerd:", {
     testEqual("dia_druk", function(env) {
