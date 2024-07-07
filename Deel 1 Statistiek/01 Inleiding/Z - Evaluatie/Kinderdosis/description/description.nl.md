@@ -1,13 +1,9 @@
-<div class="text-end">
-<a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
-</div>
-
 De meeste geneesmiddelen bevatten in de bijsluiter informatie over de juiste kinderdosis. Indien dit ontbreekt kan de regel van Young gebruikt worden, deze werd bedacht door de geneesheer en wetenschapper <a href="https://en.wikipedia.org/wiki/Thomas_Young_(scientist)" target="_blank">Thomas Young</a>.
 
 De regel werkt als volgt:
 
 $$
-    \dfrac{\text{volwassen dosis}}{\text{kinderdosis}} = \dfrac{\text{leeftijd kind} + 12}{\text{leeftijd kind}}
+    \mathsf{\dfrac{\text{volwassen dosis}}{\text{kinderdosis}} = \dfrac{\text{leeftijd kind} + 12}{\text{leeftijd kind}}}
 $$
 
 ![Medicatie.](media/melany-tuinfosalud-com.jpg "Foto door Go to Melany @ tuinfosalud.com op Unsplash."){:data-caption="Medicatie." width="45%"}
@@ -18,6 +14,6 @@ Een arts schreef, ter bestrijding van een luchtweginfectie, een kind van 8,5 jaa
 
 ## Gevraagd
 
-Bereken met behulp van deze informatie de gebruikelijke volwassen dosis in de variabele `volwassen_dosis`.  Gebruik hierbij de **variabelen** `kind_dosis` en `leeftijd`.
+Bereken met behulp van deze informatie de gebruikelijke volwassen dosis en geef deze weer. Gebruik hierbij de **variabelen** `kind_dosis` en `leeftijd`.
 
 Gebruik `round()` om net zoals in Python het resultaat **af te ronden op 2 cijfers**. 
