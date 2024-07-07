@@ -1,23 +1,3 @@
-context({
-  testcaseAssert("De variabele avg_speed bestaat.", function(env) {
-    isTRUE(exists("avg_speed", env))
-  })
-  testcaseAssert("De variabele marge_minuten bestaat.", function(env) {
-    isTRUE(exists("marge_minuten", env))
-  })
-  testcaseAssert("De variabele spannende_jaren bestaat.", function(env) {
-    isTRUE(exists("spannende_jaren", env))
-  })
-  testcaseAssert("De variabele spannende_marge_seconden bestaat.",
-    function(env) {
-      isTRUE(exists("spannende_marge_seconden", env))
-    }
-  )
-  testcaseAssert("De variabele speciale_winnaars bestaat.", function(env) {
-    isTRUE(exists("speciale_winnaars", env))
-  })
-})
-
 # Gegevens ophalen en enkele manipulaties
 data <- read.csv(paste0("https://raw.githubusercontent.com/rfordatascience/",
                         "tidytuesday/master/data/2020/2020-04-07/tdf_winner",
@@ -44,6 +24,9 @@ jaren_amerika <- data$year[data$winner == "Greg LeMond"
                            | data$winner == "Lance Armstrong"]
 
 context({
+  testcaseAssert("De variabele avg_speed bestaat.", function(env) {
+    isTRUE(exists("avg_speed", env))
+  })
   testcase("Variabele werd correct berekend:", {
     testEqual("avg_speed", function(env) {
       env$avg_speed
@@ -52,6 +35,9 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele marge_minuten bestaat.", function(env) {
+    isTRUE(exists("marge_minuten", env))
+  })
   testcase("Variabele werd correct berekend:", {
     testEqual("marge_minuten", function(env) {
       env$marge_minuten
@@ -60,6 +46,14 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele spannende_jaren bestaat.", function(env) {
+    isTRUE(exists("spannende_jaren", env))
+  })
+  testcaseAssert("De variabele spannende_marge_seconden bestaat.",
+    function(env) {
+      isTRUE(exists("spannende_marge_seconden", env))
+    }
+  )
   testcase("Variabelen werden correct berekend:", {
     testEqual("spannende_jaren", function(env) {
       env$spannende_jaren
@@ -73,12 +67,16 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele speciale_winnaars bestaat.", function(env) {
+    isTRUE(exists("speciale_winnaars", env))
+  })
   testcase("Variabele werd correct berekend:", {
     testEqual("speciale_winnaars", function(env) {
       env$speciale_winnaars
     }, speciale_winnaars)
   })
 })
+
 context({
   testcase("Resultaat werd correct geselecteerd:", {
     testEqual("Jaren waarbij er een Amerikaanse winnaar was", function(env) {
