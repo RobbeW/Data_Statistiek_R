@@ -5,4 +5,4 @@ k <- length(serienummers)
 m <- max(serienummers)
 
 # Berekening van de schatting
-schatting <- round(m + m / k - 1)
+round(m + m / k - 1)
