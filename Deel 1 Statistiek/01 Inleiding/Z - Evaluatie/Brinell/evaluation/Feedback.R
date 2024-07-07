@@ -1,12 +1,10 @@
 context({
-  testcaseAssert("De variabele brinell bestaat.", function(env) {
-    isTRUE(exists("brinell", env))
+  testcaseAssert("De variabele diameter_D bestaat.", function(env) {
+    isTRUE(exists("diameter_D", env))
   })
-  testcaseAssert("De variabele harde_materialen bestaat.", function(env) {
-    isTRUE(exists("harde_materialen", env))
+  testcaseAssert("De variabele kracht_F bestaat.", function(env) {
+    isTRUE(exists("kracht_F", env))
   })
-})
-context({
   testcase("Variabelen werden correct aangemaakt:", {
     testEqual("diameter_D", function(env) {
       env$diameter_D
@@ -18,6 +16,9 @@ context({
 })
 
 context({
+    testcaseAssert("De variabele diameter_d bestaat.", function(env) {
+    isTRUE(exists("diameter_d", env))
+  })
   testcase("Variabele werden correct aangemaakt:", {
     testEqual("diameter_d", function(env) {
       env$diameter_d
@@ -26,6 +27,9 @@ context({
 })
 
 context({
+  testcaseAssert("De variabele brinell bestaat.", function(env) {
+    isTRUE(exists("brinell", env))
+  })
   testcase("Variabelen werden correct berekend:", {
     testEqual("brinell", function(env) {
       env$brinell
@@ -35,9 +39,9 @@ context({
 })
 
 context({
-  testcase("Variabelen werden correct berekend:", {
-    testEqual("harde_materialen", function(env) {
-      env$harde_materialen
+  testcase("Resultaat werd correct bepaald:", {
+    testEqual("De materialen met een Brinellhardheid van 200 N/mm² of meer:", function(env) {
+      env$evaluationResult
     }, c("Gehardend staal", "Gietijzer", "Glas"))
   })
 })

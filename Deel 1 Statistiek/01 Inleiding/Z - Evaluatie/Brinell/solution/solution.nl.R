@@ -11,4 +11,4 @@ brinell <- 0.102 * 2 * kracht_F /
 brinell <- round(brinell, 4)
 
 # Harde materialen
-harde_materialen <- materialen[brinell >= 200]
+materialen[brinell >= 200]
