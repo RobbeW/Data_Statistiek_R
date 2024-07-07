@@ -11,7 +11,7 @@ context({
   })
 })
 context({
-  testcase("Resultaat werden correct berekend:", {
+  testcase("Resultaat werd correct berekend:", {
     testEqual("Schattingen van de lengtes bij 2, 4, 6, 8 en 10 jaar", function(env) {
       env$evaluationResult
     }, c(104.984, 162.936, 187.456, 178.544, 136.2))
