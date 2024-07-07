@@ -16,17 +16,22 @@ context({
   testcaseAssert("De variabele gemiddeld_MRI bestaat.", function(env) {
     isTRUE(exists("gemiddeld_MRI", env))
   })
-  testcaseAssert("De variabele bovengemiddeld_MRI bestaat.", function(env) {
-    isTRUE(exists("bovengemiddeld_MRI", env))
-  })
-  testcase("De variabelen werd correct berekend:", {
+  testcase("De variabele werd correct berekend:", {
     testEqual("gemiddeld_MRI", function(env) {
       env$gemiddeld_MRI
     }, gemiddeld_MRI)
+    testFunctionUsedInVar("mean", "gemiddeld_MRI")
+  })
+})
+
+context({
+  testcaseAssert("De variabele bovengemiddeld_MRI bestaat.", function(env) {
+    isTRUE(exists("bovengemiddeld_MRI", env))
+  })
+  testcase("De variabele werd correct bepaald:", {
     testEqual("bovengemiddeld_MRI", function(env) {
       env$bovengemiddeld_MRI
     }, bovengemiddeld_MRI)
-    testFunctionUsedInVar("mean", "gemiddeld_MRI")
   })
 })
 
