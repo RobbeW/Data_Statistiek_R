@@ -5,11 +5,6 @@ context({
   testcaseAssert("De variabele sys_druk bestaat.", function(env) {
     isTRUE(exists("sys_druk", env))
   })
-  testcaseAssert("De variabele gem_druk bestaat.", function(env) {
-    isTRUE(exists("gem_druk", env))
-  })
-})
-context({
   testcase("Variabelen werden correct gedeclareerd:", {
     testEqual("dia_druk", function(env) {
       env$dia_druk
@@ -20,10 +15,10 @@ context({
   })
 })
 context({
-  testcase("Variabele werd correct berekend:", {
-    testEqual("sys_druk", function(env) {
-      env$sys_druk
+  testcase("Resultaat werd correct berekend:", {
+    testEqual("De systolische bloeddruk is bij benadering:", function(env) {
+      env$evaluationResult
     }, 165.34)
-    testFunctionUsedInVar("round", "sys_druk")
+    testFunctionUsed("round")
   })
 })
