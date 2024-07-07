@@ -98,6 +98,6 @@ context({
     testEqual("laadtijden", function(env) {
       env$laadtijden
     }, laadtijd_ceil )
-    testFunctionUsedInVar("ceiling", "laadtijd_ceil")
+    testFunctionUsedInVar("ceiling", "laadtijden")
   })
 })
