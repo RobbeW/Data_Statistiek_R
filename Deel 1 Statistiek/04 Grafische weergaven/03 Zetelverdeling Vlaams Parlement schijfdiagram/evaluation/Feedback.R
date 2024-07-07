@@ -11,17 +11,6 @@ context({
 })
 
 context({
-  testcaseAssert("De variabele kleuren bestaat.", function(env) {
-    isTRUE(exists("kleuren", env))
-  })
-  testcase("De variabele werd correct bepaald:", {
-    testEqual("kleuren", function(env) {
-          env$kleuren
-        }, c("gold", "yellow", "orange", "blue", "green", "red", "firebrick"))
-  })
-})
-
-context({
   testcaseAssert("De variabele zetels bestaat.", function(env) {
     isTRUE(exists("zetels", env))
   })
@@ -29,6 +18,17 @@ context({
     testEqual("zetels", function(env) {
           env$zetels
         }, c(35, 23, 19, 16, 14, 13, 4))
+  })
+})
+
+context({
+  testcaseAssert("De variabele kleuren bestaat.", function(env) {
+    isTRUE(exists("kleuren", env))
+  })
+  testcase("De variabele werd correct bepaald:", {
+    testEqual("kleuren", function(env) {
+          env$kleuren
+        }, c("gold", "yellow", "orange", "blue", "green", "red", "firebrick"))
   })
 })
 
