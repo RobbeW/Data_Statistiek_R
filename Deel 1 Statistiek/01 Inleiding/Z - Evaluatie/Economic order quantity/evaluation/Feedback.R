@@ -1,12 +1,13 @@
 context({
-  testcaseAssert("De variabele eoq bestaat.", function(env) {
-    isTRUE(exists("eoq", env))
+  testcaseAssert("De variabele h bestaat.", function(env) {
+    isTRUE(exists("h", env))
   })
-  testcaseAssert("De variabele aantal_te_bestellen bestaat.", function(env) {
-    isTRUE(exists("aantal_te_bestellen", env))
+  testcaseAssert("De variabele D bestaat.", function(env) {
+    isTRUE(exists("D", env))
   })
-})
-context({
+  testcaseAssert("De variabele K bestaat.", function(env) {
+    isTRUE(exists("K", env))
+  })
   testcase("Variabelen werden correct gedeclareerd:", {
     testEqual("h", function(env) {
       env$h
@@ -20,6 +21,9 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele eoq bestaat.", function(env) {
+    isTRUE(exists("eoq", env))
+  })
   testcase("Variabele werd correct berekend:", {
     testEqual("eoq", function(env) {
       env$eoq
@@ -28,6 +32,9 @@ context({
   })
 })
 context({
+  testcaseAssert("De variabele aantal_te_bestellen bestaat.", function(env) {
+    isTRUE(exists("aantal_te_bestellen", env))
+  })
   testcase("Variabele werd correct berekend:", {
     testEqual("aantal_te_bestellen", function(env) {
       env$aantal_te_bestellen
