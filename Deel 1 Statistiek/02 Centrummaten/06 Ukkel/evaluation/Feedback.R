@@ -16,7 +16,10 @@ res2b <- (dataset$neerslag < res2a)
 res2c <- dataset$datum[res2b]
 
 context({
-  testcase("Aantal minuten zonneschijn:", {
+  testcaseAssert("De variabele gemiddelde_zonneschijn bestaat.", function(env) {
+    isTRUE(exists("gemiddelde_zonneschijn", env))
+  })
+  testcase("Variabele werd correct berekend:", {
     testEqual("gemiddelde_zonneschijn", function(env) {
       env$gemiddelde_zonneschijn
     }, res1a)
@@ -26,7 +29,10 @@ context({
 })
 
 context({
-  testcase("Aantal minuten zonneschijn:", {
+  testcaseAssert("De variabele veel_zon bestaat.", function(env) {
+    isTRUE(exists("veel_zon", env))
+  })
+  testcase("Variabele werd correct bepaald:", {
     testEqual("veel_zon", function(env) {
       env$veel_zon
     }, res1b)
@@ -34,7 +40,10 @@ context({
 })
 
 context({
-  testcase("Aantal minuten zonneschijn:", {
+  testcaseAssert("De variabele zonnige_dagen bestaat.", function(env) {
+    isTRUE(exists("zonnige_dagen", env))
+  })
+  testcase("Variabele werd correct bepaald:", {
     testEqual("zonnige_dagen", function(env) {
       env$zonnige_dagen
     }, res1c)
@@ -42,7 +51,16 @@ context({
 })
 
 context({
-  testcase("Aantal mm neerslag:", {
+  testcaseAssert("De variabele gemiddelde_neerslag bestaat.", function(env) {
+    isTRUE(exists("gemiddelde_neerslag", env))
+  })
+  testcaseAssert("De variabele weinig_neerslag bestaat.", function(env) {
+    isTRUE(exists("weinig_neerslag", env))
+  })
+  testcaseAssert("De variabele droge_dagen bestaat.", function(env) {
+    isTRUE(exists("droge_dagen", env))
+  })
+  testcase("Variabelen werden correct bepaald.", {
     testEqual("gemiddelde_neerslag", function(env) {
       env$gemiddelde_neerslag
     }, res2a)
