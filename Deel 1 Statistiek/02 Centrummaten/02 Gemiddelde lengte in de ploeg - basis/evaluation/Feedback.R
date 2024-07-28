@@ -21,3 +21,10 @@ context({
     testFunctionUsed("length")
   })
 })
+
+context({
+  testcase("Je maakte geen gebruik van 'verboden' functies:", {
+    !testFunctionUsed("sum")
+    !testFunctionUsed("mean")
+  })
+})
