@@ -9,3 +9,4 @@ if (n %% 2 != 0) { # oneven aantal waarnemingen
   middelste_waarden <- c(data$remweg[n / 2], data$remweg[n / 2 + 1])
   mediaan_remweg <- mean(middelste_waarden)
 }
+mediaan_remweg
