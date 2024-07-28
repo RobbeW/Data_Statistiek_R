@@ -14,7 +14,7 @@ gemiddelde_lengte <- mean(lengtes)
 ```
 
 ## Gegeven
-Herneem je oplossing van de vorige oefening.
+Kopieer je oplossing van de vorige oefening.
 
 ## Gevraagd:
 Vereenvoudig deze met behulp van de `mean()` functie. Sla de resultaten opnieuw in `gemiddelde_mannen` en `gemiddelde_vrouwen`.
