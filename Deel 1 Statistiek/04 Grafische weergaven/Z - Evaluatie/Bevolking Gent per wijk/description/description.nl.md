@@ -1,7 +1,3 @@
-<div class="text-end">
-    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
-</div>
-
 ## Gegeven
 Gent bestaat uit 25 wijken, je kan opvragen in welke wijk je woont via <a href="https://stad.gent/nl/stadsplan" target="_blank">het stadsplan</a>.
 
