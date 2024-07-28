@@ -42,6 +42,8 @@ In de dataframe `data` vind je nu de frequentie van de getallen na de komma. Via
 
 - Maak vervolgens onderstaande staafdiagram.
 
+
+{: .callout.callout-info}
 >#### Tip
 > Je zal binnen posit Cloud eerst de bibliotheek `readr` eenmalig moeten installeren. Dit kan door het volgende commando uit te voeren:
 > 

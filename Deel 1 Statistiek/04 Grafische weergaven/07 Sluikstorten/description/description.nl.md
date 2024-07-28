@@ -37,7 +37,7 @@ In de uiteindelijke dataframe vind je een overzicht met het aantal meldingen per
 - Maak onderstaande grafiek na.
 
 {: .callout.callout-info}
->#### Tip
+>#### Tips
 > - Kies zelf <a href="https://r-charts.com/colors/" target="_blank">een kleur</a> en vergeet de titel en labels op de x- en y-as niet.
 >
 > - Je zal binnen posit Cloud eerst de twee bibliotheken `jsonlite` en `httr` eenmalig moeten installeren. Dit kan door het volgende commando uit te voeren:
