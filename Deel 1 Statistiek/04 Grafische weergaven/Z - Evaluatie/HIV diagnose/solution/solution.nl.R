@@ -1,6 +1,6 @@
-# Importeert de data van Stad Gent
-data <- read.csv2("Deel\ 1\ Statistiek/04\ Grafische\ weergaven/Z\ -\ Evaluatie/HIV\ diagnose/workdir/hiv.csv")
-#read.csv2("hiv.csv") # if run a solution
+# Importeert HIV data
+data <- read.csv2("https://tinyurl.com/376hakzy")
+
 colnames(data) <- c("jaar", "new_AIDS", "new_HIV")
 
 # Plot

@@ -1,6 +1,3 @@
-<div class="text-end">
-    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
-</div>
 
 ## Gegeven
 HIV blijft ook in België slachtoffers maken. HIV of **humaan immunodeficiëntievirus** is een snel muterend virus dat verantwoordelijk is voor **aids**, een ziekte die het immuunsysteem zodanig verzwakt dat zich levensbedreigende infecties en bepaalde vormen van kanker kunnen ontwikkelen. Zonder behandeling wordt de gemiddelde overlevingstijd na infectie met HIV geschat op 9 tot 11 jaar.
@@ -10,7 +7,7 @@ HIV blijft ook in België slachtoffers maken. HIV of **humaan immunodeficiëntie
 Sciensano volgt de gegevens op en publiceert jaarlijks het aantal nieuwe infecties op <a href="https://www.healthybelgium.be/en/health-status/communicable-diseases/hiv-and-other-sexually-transmitted-infections" target="_blank">deze site</a>. Via onderstaande kan je de laatste gegevens ophalen.
 
 ```R
-read.csv2("hiv.csv")
+read.csv2("https://tinyurl.com/376hakzy")
 ```
 
 Het resultaat is een dataframe. Via `head(data)` kan je dit inkijken.
