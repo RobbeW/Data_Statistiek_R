@@ -3,7 +3,7 @@ Het was de Gentenaar <a hreft="https://nl.wikipedia.org/wiki/Adolphe_Quetelet" t
 ![De KMI campus te Ukkel.](media/ukkel.jpg "De KMI campus te Ukkel."){:data-caption="De KMI campus te Ukkel." width="45%"}
 
 ## Data frame ophalen
-Het weerstation staat ten dienst van de bevolking en via <a href="https://www.meteo.be/resources/climatology/uccle_month/Ukkel_waarnemingen.txt" target="_blank">deze link</a> kan je heel wat gegevens van de laatste 60 dagen raadplegen.
+Het weerstation staat ten dienste van de bevolking en via <a href="https://www.meteo.be/resources/climatology/uccle_month/Ukkel_waarnemingen.txt" target="_blank">deze link</a> kan je heel wat gegevens van de laatste 60 dagen raadplegen.
 
 Het is mogelijk om dit automatisch te importeren naar R, via de volgende code:
 
