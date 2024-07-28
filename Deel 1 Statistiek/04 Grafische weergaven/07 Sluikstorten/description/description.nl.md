@@ -38,8 +38,16 @@ In de uiteindelijke dataframe vind je een overzicht met het aantal meldingen per
 
 {: .callout.callout-info}
 >#### Tip
-> Kies zelf <a href="https://r-charts.com/colors/" target="_blank">een kleur</a> en vergeet de titel en labels op de x- en y-as niet.
+> - Kies zelf <a href="https://r-charts.com/colors/" target="_blank">een kleur</a> en vergeet de titel en labels op de x- en y-as niet.
+>
+> - Je zal binnen posit Cloud eerst de twee bibliotheken `jsonlite` en `httr` eenmalig moeten installeren. Dit kan door het volgende commando uit te voeren:
+> 
+>      ```R
+install.packages(c("httr", "jsonlite"))
+```
+
 
 ![Percentage meldingen sluikstorten 2023.](media/plot.png "Percentage meldingen sluikstorten 2023."){:data-caption="Percentage meldingen sluikstorten 2023." .light-only width="480px"}
 
 ![Percentage meldingen sluikstorten 2023.](media/plot_dark.png "Percentage meldingen sluikstorten 2023."){:data-caption="Percentage meldingen sluikstorten 2023." .dark-only width="480px"}
+

@@ -49,6 +49,16 @@ Beantwoord nu onderstaande vragen om uiteindelijk onderstaande grafiek te maken 
 
 - Maak nu onderstaand schijfdiagram en gebruik de **booleaanse variabele**  bij *sommige* parameters om enkel de gegevens van gisteren te selecteren.
 
+{: .callout.callout-info}
+>#### Tip
+> Je zal binnen posit Cloud eerst de twee bibliotheken `jsonlite` en `httr` eenmalig moeten installeren. Dit kan door het volgende commando uit te voeren:
+> 
+>  ```R
+install.packages(c("httr", "jsonlite"))
+```
+
+
+
 ![Energiemix in België op 6 juli 2024.](media/plot.png "Energiemix in België op 6 juli 2024"){:data-caption="Energiemix in België op 6 juli 2024." .light-only width="480px"}
 
 ![Energiemix in België op 6 juli 2024.](media/plot_dark.png "Energiemix in België op 6 juli 2024."){:data-caption="Energiemix in België op 6 juli 2024." .dark-only width="480px"}

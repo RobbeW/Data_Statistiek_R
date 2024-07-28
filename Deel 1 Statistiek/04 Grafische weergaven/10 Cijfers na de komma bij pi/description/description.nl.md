@@ -42,6 +42,14 @@ In de dataframe `data` vind je nu de frequentie van de getallen na de komma. Via
 
 - Maak vervolgens onderstaande staafdiagram.
 
+>#### Tip
+> Je zal binnen posit Cloud eerst de bibliotheek `readr` eenmalig moeten installeren. Dit kan door het volgende commando uit te voeren:
+> 
+>  ```R
+install.packages("readr")
+```
+
+
 ![Verdeling van de eerste 100 000 cijfers van π.](media/plot.png "Verdeling van de eerste 100 000 cijfers van π."){:data-caption="Verdeling van de eerste 100 000 cijfers van π." .light-only width="480px"}
 
 ![Verdeling van de eerste 100 000 cijfers van π.](media/plot_dark.png "Verdeling van de eerste 100 000 cijfers van π."){:data-caption="Verdeling van de eerste 100 000 cijfers van π." .dark-only width="480px"}
