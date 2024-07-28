@@ -1,5 +1,5 @@
 # Gegevens inladen
-data <- read.table("https://tinyurl.com/9a6n5bep", header = TRUE)
+data <- read.table("https://tinyurl.com/yf2jjmc8", header = TRUE)
 
 # De mediaan berekenen
 n <- length(data$remweg)
