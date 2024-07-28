@@ -18,7 +18,7 @@ gemiddelde_lengte <- sum(lengtes) / length(lengtes)
 ```
 
 ## Gegeven
-Herneem je oplossing van de vorige oefening.
+Kopieer je oplossing van de vorige oefening.
 
 ## Gevraagd:
 Vereenvoudig deze met behulp van de `sum()` functie. Je hebt **geen** aparte variabele `som` meer nodig! 
