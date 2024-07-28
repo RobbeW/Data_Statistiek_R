@@ -26,4 +26,4 @@ Herneem je oplossing van de vorige oefening.
 
 ## Gevraagd
 
-Vereenvoudig deze met behulp van de `median()` functie. Sla het resultaat op in de variabele `mediaan_remweg`.
+Geef het gemiddelde opnieuw weer, maar deze keer met behulp van de `median()` functie.
