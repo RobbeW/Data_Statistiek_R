@@ -26,7 +26,7 @@ Het resultaat is een dataframe. Via `head(data)` kan je dit inkijken.
 
 Maak onderstaand staafdiagram met het gemiddeld aantal besmettingen per dag gedurende de laatste 10 jaar na, gebruik hiervoor de volgende richtlijnen.
 
-- De kolom `new_HIV` bevat het aantal nieuwe HIV infecties per jaar. Reken dit om naar het aantal besmettingen per dag in een variabele `dagelijks`. Gebruik voor 1 jaar 365.25 dagen (om te compenseren voor eventuele schrikkeljaren) en **rond af** op 1 cijfer na de komma.
+- De kolom `new_HIV` bevat het aantal nieuwe HIV infecties per jaar. Reken dit om naar het aantal besmettingen per dag in een variabele `dagelijks`. Gebruik voor één jaar 365,25 dagen (om te compenseren voor eventuele schrikkeljaren) en **rond af** op 1 cijfer na de komma.
 - Maak een **booleaanse** vector `laatste_10` aan, waarin je opslaat wat de laatste 10 jaren zijn.
 - Maak nu onderstaand staafdiagram, kies zelf een kleur uit deze <a href="https://r-charts.com/colors/" target="_blank">website</a>.
 
