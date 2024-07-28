@@ -12,4 +12,4 @@ Bereken volgende zaken:
 
 * Bereken de **totale** maandelijkse uitbetaling door het bedrijf voor deze 15 werknemers en sla dit op in de variabele `totaal_loon`;
 * Bepaal het gemiddelde maandloon onder de 15 werknemers en sla dit op in variabele `gemiddeld_loon`;
-* Zoek het mediaan loon van de werknemers. Dit zal je helpen het centrale loonniveau in het bedrijf te begrijpen en inzicht geven in de loonverdeling; Sla dit op in variabele `mediaan_loon`;
+* Zoek het mediaan loon van de werknemers. Dit zal je helpen het centrale loonniveau in het bedrijf te begrijpen en inzicht geven in de loonverdeling. Sla dit op in variabele `mediaan_loon`.
