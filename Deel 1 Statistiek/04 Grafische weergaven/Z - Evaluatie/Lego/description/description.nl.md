@@ -1,7 +1,3 @@
-<div class="text-end">
-    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
-</div>
-
 ## Gegeven
 
 Via <a href="https://rebrickable.com/" target="_blank">Rebrickable</a> kan je de waarde van je oude Lego blokken inschatten. Achter de website zit een databank met alle sets die LEGO ooit heeft in de markt gezet.
