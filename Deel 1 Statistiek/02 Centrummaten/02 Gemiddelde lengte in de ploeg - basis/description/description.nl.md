@@ -1,4 +1,4 @@
-De lengtes van de spelers uit de <a href="https://www.basketballbelgium.be/nl/teams/3x3/" target="_blank">Belgische 3x3 basketbalploeg</a> werden gegeven in onderstaande tabel.
+De lengtes van de spelers uit de <a href="https://www.basketballbelgium.be/nl/teams/3x3/" target="_blank">Belgische 3x3 basketbalploeg</a> in 2023 werden gegeven in onderstaande tabel.
 
 | Naam speler | Geslacht | Lengte (in cm) |
 |:---------------------:|:--:|:---:|
