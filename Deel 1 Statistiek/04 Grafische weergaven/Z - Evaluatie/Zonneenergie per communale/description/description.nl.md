@@ -1,7 +1,3 @@
-<div class="text-end">
-    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
-</div>
-
 ## Gegeven
 Fluvius houdt het vermogen en het aantal lokale productie-installaties bij per gemeente en publiceert deze data op <a href="https://opendata.fluvius.be/explore/dataset/1_33-lp-open-data-fluvius/information/" target="_blank">het open data portaal</a>. 
 
@@ -20,7 +16,7 @@ data$vermogen <- as.numeric(data$vermogen)
 rownames(data) <- seq_len(nrow(data))
 ```
 
-Het resultaat is onderstaande dataframe. Hier merken we bijvoorbeeld dat er in Antwerpen 20061 installaties van zonnepanelen zijn, met een totaal **vermogen** van 141367.1 kVA (kilo voltampère). Deze getallen door elkaar delen betekent dat een lokale productie in Antwerpen een gemiddeld vermogen van 7,05 kVA heeft.
+Het resultaat is onderstaande dataframe. Hier merken we bijvoorbeeld dat er in Antwerpen 20 061 installaties van zonnepanelen zijn, met een totaal **vermogen** van 141367.1 kVA (kilo voltampère). Door deze getallen te delen delen kan je besluiten dat elke lokale productie in Antwerpen een vermogen van ongeveer 7,05 kVA heeft.
 
 ```
        netbeheerder   gemeente         technologie aantal vermogen
