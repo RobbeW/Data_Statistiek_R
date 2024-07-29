@@ -28,7 +28,7 @@ printVecAsis <- function(x) {
 }
 
 nsim <- 20
-cases <- list(c(98, 97, 98, 99, 100, 98), c(14, 25, 14, 18, 16, 16, 20), c(21))
+cases <- list(c(98, 97, 98, 99, 100, 98), c(14, 25, 14, 18, 16, 16, 20), c(21, 21))
 
 while (length(cases) < nsim) {
   len <- length(cases)
