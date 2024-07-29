@@ -27,19 +27,19 @@ Er zijn heel wat manieren om het 'centrum' van een rij gegevens te bepalen. Het 
 
 #### Voorbeelden
 
-```
-mean_geom( c(98, 97, 98, 99, 100, 98) )
-98.33
-```
-
-```
-mean_harm( c(98, 97, 98, 99, 100, 98) )
-98.32
+```r
+> mean_geom( c(98, 97, 98, 99, 100, 98) )
+[1] 98.33
 ```
 
+```r
+> mean_harm( c(98, 97, 98, 99, 100, 98) )
+[1] 98.32
 ```
-mean_kwadr( c(98, 97, 98, 99, 100, 98) )
-98.34
+
+```r
+> mean_kwadr( c(98, 97, 98, 99, 100, 98) )
+[1] 98.34
 ```
 
 {: .callout.callout-info}
