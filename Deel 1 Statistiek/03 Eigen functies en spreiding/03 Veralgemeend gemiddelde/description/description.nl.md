@@ -24,10 +24,18 @@ Dit gemiddelde heeft bepaalde eigenschappen waardoor het bijvoorbeeld goed werkt
 Programmeer de functie `mean_generalized()` die gegeven een vector `data` **en** een parameter `p` het veralgemeend gemiddelde berekent.
 Rond telkens af op 2 cijfers.
 
+
+#### Voorbeeld
+
+```r
+> mean_generalized( c(98, 97, 98, 99, 100, 98), )
+[1] 98.34
+```
+
 {: .callout.callout-info}
 >#### Tip
 >
-> Functies binnen R hebben onderstaande syntax. Tussen de haakjes kunnen **meerdere** parameters staan:
+> Functies hebben onderstaande syntax binnen R. Tussen de haakjes kunnen **meerdere** parameters staan:
 > ```R
 functienaam <- function(parameters) {
     # Allerhande berekeningen

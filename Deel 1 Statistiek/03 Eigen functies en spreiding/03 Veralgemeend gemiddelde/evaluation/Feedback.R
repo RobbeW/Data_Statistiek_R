@@ -3,7 +3,7 @@ set.seed(1234)
 # Het veralgemeend gemiddelde
 mean_generalized <- function(data, p) {
   n <- length(data)
-  x_h <- (1 / n * sum(data^p))**(1/p)
+  x_h <- (1 / n * sum(data^p))**(1 / p)
   return(round(x_h, 2))
 }
 
@@ -23,17 +23,17 @@ while( length(cases) < nsim){
   min <- sample(5:20, 1)
   max <- sample(min:200, 1)
   vec <- sample(min:max, n, replace = TRUE)
-  cases[[len+1]] <- list(vec, p)
+  cases[[len + 1]] <- list(vec, p)
 }
 
-for(case in cases){
+for (case in cases) {
   vec <- case[[1]]
   p <- case[[2]]
   context({
-     testcase(paste("De functie werkt met als vector", printVecAsis(vec), "en p =", p), {
-       testEqual("mean_generalized()" , function(env) {
-         env$mean_generalized(vec, p)
-       }, mean_generalized(vec, p))
-     })
+    testcase("De functie mean_generalized() werkt met de parameters", {
+      testEqual(paste(printVecAsis(vec), "en p =", p), function(env) {
+        env$mean_generalized(vec, p)
+      }, mean_generalized(vec, p))
+    })
   })
 }
