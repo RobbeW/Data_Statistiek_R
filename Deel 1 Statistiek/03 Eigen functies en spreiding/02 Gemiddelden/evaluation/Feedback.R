@@ -28,7 +28,7 @@ printVecAsis <- function(x) {
 }
 
 nsim <- 20
-cases <- list(c(98, 97, 98, 99, 100, 98), c(14, 25, 14, 18, 16, 16, 20))
+cases <- list(c(98, 97, 98, 99, 100, 98), c(14, 25, 14, 18, 16, 16, 20), c(21))
 
 while (length(cases) < nsim) {
   len <- length(cases)
@@ -40,7 +40,7 @@ while (length(cases) < nsim) {
 }
 
 context({
-  testcase("De functies mean_geom() werkt met parameter", {
+  testcase("De functie mean_geom() werkt met de volgende parameters:", {
     for (case in cases) {
       testEqual(printVecAsis(case), function(env) {
         env$mean_geom(case)
@@ -50,7 +50,7 @@ context({
 })
 
 context({
-  testcase("De functies mean_harm() werkt met parameter", {
+  testcase("De functie mean_harm() werkt met de volgende parameters:", {
     for (case in cases) {
       testEqual(printVecAsis(case), function(env) {
         env$mean_harm(case)
@@ -60,7 +60,7 @@ context({
 })
 
 context({
-  testcase("De functies mean_kwadr() werkt met parameter", {
+  testcase("De functie mean_kwadr() werkt met de volgende parameters:", {
     for (case in cases) {
       testEqual(printVecAsis(case), function(env) {
         env$mean_kwadr(case)
