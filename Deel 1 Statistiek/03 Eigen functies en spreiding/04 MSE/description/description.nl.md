@@ -57,4 +57,4 @@ Geldt er nu dat `echte_gegevens <- c(1000.02, 1000.96, 1001.82, 1002.75)` en `vo
 > mse(echte_gegevens, voorspelde_gegevens)
 [1] 936.119
 ```
-De waarde `936.199` is veel groter, dit betekent dat de voorspelling veel slechter is.
+De waarde `936.199` is *veel groter*, dit betekent dat de voorspelling veel slechter is.
