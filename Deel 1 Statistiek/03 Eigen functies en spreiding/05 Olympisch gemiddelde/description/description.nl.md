@@ -10,9 +10,21 @@ In deze oefening programmeer je een eigen **functie** `olympic_mean()` die gegev
 
 ## Gevraagd
 
-Programmeer nu een functie `olympic_mean()`, de basisstructuur staat al klaar, in onderstaande stappen word je door de aanpak geleid.
+Programmeer nu een functie `olympic_mean()`. Er zijn verschillende mogelijke manieren om dit aan te pakken, *een mogelijke aanpak* vind je hieronder.
 
 - Sorteer eerst de data met behulp van `sort()`.
 - Je kan het minimum en maximum nu *verwijderen* door een goede selectie te maken. Indien de data bijvoorbeeld 6 lang is, gebruik dan `data[2:5]`, indien data 10 lang is, dan moet het gemiddelde berekend worden van `data[2:9]`, enz...
 - **Opgelet** met de volgorde van de bewerkingen bij de selectie. `data[2:10-1]` is niet hetzelfde als `data[2:(10-1)]`.
 - Bereken dat gemiddelde, sla dat op in een variabele en plaats die variabele binnen de `return()` expressie.
+
+#### Voorbeelden
+
+```r 
+> olympic_mean( c(98, 97, 98, 99, 100, 98) )
+[1] 98.25
+```
+
+```r
+> olympic_mean( c(14, 25, 14, 18, 16, 16, 20) )
+[1] 16.8
+```
