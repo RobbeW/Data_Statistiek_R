@@ -22,17 +22,18 @@ while( length(cases) < nsim){
   echt <- round(1:n * alpha + beta + rnorm(n), 1)
   pred <- round(1:n * (alpha*runif(1,0.9,1.1)) + beta*runif(1,0.9,1.1) + rnorm(n)*2,1)
 
-  cases[[len+1]] <- list(echt, pred)
+  cases[[len + 1]] <- list(echt, pred)
 }
 
-for(case in cases){
+for (case in cases) {
   echt <- case[[1]]
   pred <- case[[2]]
   context({
-     testcase(paste("De functie mse werkt met eerste parameter:", printVecAsis(echt), "en tweede parameter:", printVecAsis(pred)), {
-       testEqual("mse()" , function(env) {
-         env$mse(echt, pred)
-       }, mse(echt, pred))
-     })
+    testcase("De functie mse() werkt met de parameters:", {
+      testEqual(paste(printVecAsis(echt), "en ", printVecAsis(pred)),
+                function(env) {
+                  env$mse(echt, pred)
+                }, mse(echt, pred))
+    })
   })
 }

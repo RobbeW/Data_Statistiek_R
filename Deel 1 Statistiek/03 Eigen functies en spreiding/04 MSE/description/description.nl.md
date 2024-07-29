@@ -40,3 +40,21 @@ Het gemiddelde kwadratische verschil tussen $$\hat y_i$$ en $$y_i$$ noemt men de
 
 Programmeer de functie `mse()` die gegeven **twee** vectoren `echte_gegeves` en `voorspelde_gegegevens` als parameters de mean squared error berekent.
 **Rond** deze **af** op 3 cijfers na de komma.
+
+#### Voorbeelden
+
+Stel dat `echte_gegevens <- c(1000.02, 1000.96, 1001.82, 1002.75)` en `voorspelde_gegevens <- c(999.96, 1001.00, 1002.04, 1002.56)`, dan verschijnt er:
+```r
+> mse(echte_gegevens, voorspelde_gegevens) 
+[1] 0.022
+```
+
+Een waarde van `0.022` is *klein*, dat betekent dat er een goede voorspelling werd gemaakt.
+
+
+Geldt er nu dat `echte_gegevens <- c(1000.02, 1000.96, 1001.82, 1002.75)` en `voorspelde_gegevens <- c(950.34, 987.15, 1011.71, 1034.18)`, dan verschijnt er:
+```r
+> mse(echte_gegevens, voorspelde_gegevens)
+[1] 936.119
+```
+De waarde `936.199` is veel groter, dit betekent dat de voorspelling veel slechter is.
