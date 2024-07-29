@@ -24,6 +24,24 @@ Er zijn heel wat manieren om het 'centrum' van een rij gegevens te bepalen. Het 
 
 - Bepaal binnen de functies telkens eerst de variabele `n` waar je de lengte van de vector `data` in opslaat.
 
+
+#### Voorbeelden
+
+```
+mean_geom( c(98, 97, 98, 99, 100, 98) )
+98.33
+```
+
+```
+mean_harm( c(98, 97, 98, 99, 100, 98) )
+98.32
+```
+
+```
+mean_kwadr( c(98, 97, 98, 99, 100, 98) )
+98.34
+```
+
 {: .callout.callout-info}
 >#### Tips
 >
