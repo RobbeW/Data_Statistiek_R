@@ -5,19 +5,19 @@ verschil <- function(n) {
 }
 
 nsim <- 20
-cases <- list(10, 20)
+cases <- c(10, 20)
 
 while (length(cases) < nsim) {
   len <- length(cases)
   n <- sample(5:40, 1) * 5
-  cases[[len + 1]] <- n
+  cases <- c(cases, n)
 }
 
-cases <- sort(cases)
+cases_sorted <- sort(cases)
 
 context({
   testcase("De functie verschil() werkt met de volgende parameters:", {
-    for (case in cases) {
+    for (case in cases_sorted) {
       testEqual(case, function(env) {
         env$verschil(case)
       }, verschil(case))

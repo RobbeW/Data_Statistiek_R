@@ -20,6 +20,6 @@ Voor de eerste `10` natuurlijke getallen verschijnt er:
 Voor de eerste `20` natuurlijke getallen verschijnt er:
 
 ```R
-> verschil(10)
+> verschil(20)
 [1] 41230
 ```
