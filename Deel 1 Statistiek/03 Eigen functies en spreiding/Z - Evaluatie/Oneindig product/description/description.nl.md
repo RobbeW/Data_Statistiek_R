@@ -1,11 +1,3 @@
-<div class="text-end">
-    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
-</div>
-
-<div class="text-end" style="margin-top:15px">
-    <a class="btn btn-filled with-icon" href="https://webr.r-wasm.org/latest/" target="_blank"><i class="mdi mdi-cloud-tags mdi-24" title="link"></i>Link naar WebR</a>
-</div>
-
 Beschouw onderstaande oneindige uitdrukking waarvan wiskundig bewezen werd dat deze gelijk is aan $$\mathsf{\dfrac{2}{3}}$$.
 
 $$
@@ -30,16 +22,16 @@ De eerste `3` factoren van het product berekenen resulteert in:
 
 ```R
 > product_breuk(3)
-0.7
+[1] 0.7
 ```
 
 De eerste `10` factoren van het product berekenen resulteert in:
 
 ```R
 > product_breuk(10)
-0.671717
+[1] 0.671717
 ```
 
 {: .callout.callout-warning}
 >#### Opgelet!
-> De parameter `aantal` stelt het **aantal factoren** voor. Indien `aantal` gelijk is aan 3 dan betekent dat dat er **drie factoren** zijn met `n=2`, `n=3` en `n=4`.
+> De parameter `aantal` stelt het **aantal factoren** voor. Indien `aantal` gelijk is aan 3 dan betekent dat dat er **drie factoren** zijn.
