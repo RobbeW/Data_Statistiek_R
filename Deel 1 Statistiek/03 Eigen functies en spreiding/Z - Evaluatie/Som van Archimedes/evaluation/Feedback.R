@@ -13,8 +13,8 @@ context({
   testcase("De functie archimedes(aantal) werkt met de volgende parameters:", {
     for (case in rijtje) {
       testEqual(paste("aantal =", case), function(env) {
-        format(env$sylvester(case), scientific = FALSE)
-      }, format(sylvester(case), scientific = FALSE))
+        format(env$archimedes(case), scientific = FALSE)
+      }, format(archimedes(case), scientific = FALSE))
     }
   })
 })
