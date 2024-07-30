@@ -12,6 +12,23 @@ De rij begint dus als volgt: 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
 
 Maak een functie `fibonacci(n)` waarbij `n` het rangnummer voorstelt. Zo geldt er dat `fibonacci(4)` overeenkomt met het getal 3.
  
+#### Voorbeelden
+
+```R
+> fibonacci(3)
+[1] 2
+```
+
+```R
+> fibonacci(4)
+[1] 3
+```
+
+```R
+> fibonacci(5)
+[1] 5
+```
+
 {: .callout.callout-info}
 >#### Tips
 >
