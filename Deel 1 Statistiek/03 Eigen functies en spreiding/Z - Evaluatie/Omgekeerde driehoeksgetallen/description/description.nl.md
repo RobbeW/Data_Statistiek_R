@@ -13,7 +13,7 @@ Hierbij zijn 1, 3, 6, 10, ... driehoeksgetallen omdat je ze kan vormen door het 
 Bovenstaande som kan herschreven worden in de volgende vorm:
 
 $$
-\mathsf{ \sum_{n=1}^\infty \dfrac{2}{n\cdot (n+1)}}
+\mathsf{  \dfrac{1}{1}+\dfrac{1}{3}+\dfrac{1}{6}+\dfrac{1}{10}+\dfrac{1}{15}+\ldots  = \sum_{n=1}^\infty \dfrac{2}{n\cdot (n+1)}}
 $$
 
 ## Gevraagd
@@ -32,12 +32,12 @@ De eerste `3` termen van de som berekenen resulteert in:
 
 ```R
 > som_driehoek(3)
-1.5
+[1] 1.5
 ```
 
 De eerste `10` termen van de som berekenen resulteert in:
 
 ```R
 > som_driehoek(10)
-1.818182
+[1] 1.818182
 ```
