@@ -1,4 +1,4 @@
-De **rij van Recamán** is genoemd naar de uitvinder Bernardo Recamán Santos. De rij start met het getal 0 en nadien de volgende formule:
+De **rij van Recamán** is genoemd naar de bedenker Bernardo Recamán Santos. De rij start met het getal 0 en nadien de volgende formule:
 
 $$
   \mathsf{r_i =} \begin{cases}
@@ -12,7 +12,29 @@ De rij begint dus als volgt: 0, 1, 3, 6, 2, 7, 13, 20, 12, 21, 11, 22, 10, 23, 9
 ## Gevraagd
 
 Maak een functie `recaman(n)` waarbij `n` het rangnummer voorstelt. Zo geldt er dat `recaman(4)` overeenkomt met het getal 6.
- 
+
+#### Voorbeelden
+
+```R
+> recaman(2)
+[1] 1
+```
+
+```R
+> recaman(3)
+[1] 3
+```
+
+```R
+> recaman(5)
+[1] 2
+```
+
+```R
+> recaman(6)
+[1] 7
+```
+
 {: .callout.callout-info}
 >#### Tips
 >
