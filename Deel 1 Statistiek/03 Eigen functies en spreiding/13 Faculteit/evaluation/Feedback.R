@@ -1,8 +1,8 @@
 faculteit <- function(getal) {
-  if( getal == 0){
-    resultaat = 1
+  if (getal == 0) {
+    resultaat <- 1
   } else{
-    resultaat = prod(1:getal)
+    resultaat <- prod(1:getal)
   }
 
   return(resultaat)
@@ -11,13 +11,12 @@ faculteit <- function(getal) {
 nsim <- 20
 cases <- 0:10
 
-for(case in cases){
-  context({
-     testcase("De functie werkt:", {
-       testEqual(paste("met parameter", case), function(env) {
-         format(env$faculteit(case), scientific = FALSE)
-    }, format(faculteit(case), scientific = FALSE))
-     })
+context({
+  testcase("De functie faculteit() werkt met de volgende parameters:", {
+    for (case in cases) {
+      testEqual(case, function(env) {
+        format(env$faculteit(case), scientific = FALSE)
+      }, format(faculteit(case), scientific = FALSE))
+    }
   })
-}
-
+})

@@ -17,14 +17,14 @@ Het speciale geval `0` heeft als uitvoer:
 
  ```R
  > faculteit(0)
-1
+[1] 1
  ```
 
 Het product van de eerste `5` factoren:
 
  ```R
  > faculteit(5)
-120
+[1] 120
  ```
 
 {: .callout.callout-info}
