@@ -1,11 +1,3 @@
-<div class="text-end">
-    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
-</div>
-
-<div class="text-end" style="margin-top:15px">
-    <a class="btn btn-filled with-icon" href="https://webr.r-wasm.org/latest/" target="_blank"><i class="mdi mdi-cloud-tags mdi-24" title="link"></i>Link naar WebR</a>
-</div>
-
 Wiskundige <a href="https://en.wikipedia.org/wiki/John_Wallis" target="_blank">John Wallis</a> vond een iteratieve methode om $$\pi$$ te berekenen, het zogenaamde Wallis-product:
 
 $$
@@ -25,3 +17,20 @@ $$
 - Laat R het resultaat van het product afronden op **6 cijfers na de komma**.
 
 - Je kan **controleren** of het resultaat inderdaad $$\dfrac{\pi}{2}$$ benadert. Probeer bijvoorbeeld `wallis(10000)` uit te rekenen en controleer of dit ongeveer gelijk is aan `pi / 2`.
+
+#### Voorbeelden
+
+```R
+> wallis(2)
+[1] 1.422222
+```
+
+```R
+> wallis(10)
+[1] 1.533852
+```
+
+```R
+> wallis(100)
+[1] 1.566894
+```
