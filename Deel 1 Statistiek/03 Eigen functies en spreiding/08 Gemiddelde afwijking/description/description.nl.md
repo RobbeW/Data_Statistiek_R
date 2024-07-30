@@ -26,12 +26,12 @@ Indien `data` gelijk is aan de vector `c(98, 97, 98, 99, 100, 98)`, dan geldt:
 
 ```R
 > var_steekproef(data)
-1.0667
+[1] 1.0667
 ```
 
 en 
 
 ```R
 > sd_steekproef(data)
-1.0328
+[1] 1.0328
 ```

@@ -2,7 +2,7 @@
 var_steekproef <- function(data) {
   overline_x <- mean(data)
   n <- length(data)
-  res <- 1/(n-1) * sum( (data-overline_x)^2 )
+  res <- 1 / (n - 1) * sum((data - overline_x)^2)
   return(round(res, 4))
 }
 
