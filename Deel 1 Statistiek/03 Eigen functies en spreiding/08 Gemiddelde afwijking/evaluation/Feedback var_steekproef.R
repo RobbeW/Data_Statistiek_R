@@ -29,8 +29,8 @@ while (length(cases) < nsim) {
 for (case in cases) {
   vec <- case[[1]]
   context({
-    testcase("De functie var_steekproef() werkt met de volgende parameter:", {
-      testEqual(printVecAsis(vec), function(env) {
+    testcase("De functie var_steekproef(data) werkt met de volgende parameter:", {
+      testEqual(paste("data =",printVecAsis(vec)), function(env) {
         env$var_steekproef(vec)
       }, var_steekproef(vec))
     })

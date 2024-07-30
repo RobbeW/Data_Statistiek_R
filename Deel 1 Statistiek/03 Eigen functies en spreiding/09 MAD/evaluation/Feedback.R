@@ -28,8 +28,8 @@ while (length(cases) < nsim) {
 for (case in cases) {
   vec <- case[[1]]
   context({
-    testcase("De functie mad() werkt met de volgende parameter:", {
-      testEqual(printVecAsis(vec), function(env) {
+    testcase("De functie mad(data) werkt met de volgende parameter:", {
+      testEqual(paste("data =",printVecAsis(vec)), function(env) {
         env$mad(vec)
       }, mad(vec))
     })

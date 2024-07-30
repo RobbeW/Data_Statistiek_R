@@ -18,9 +18,9 @@ while (length(cases) < nsim) {
 cases_sorted <- sort(cases)
 
 context({
-  testcase("De functie verschil() werkt met de volgende parameters:", {
+  testcase("De functie verschil(n) werkt met de volgende parameters:", {
     for (case in cases_sorted) {
-      testEqual(case, function(env) {
+      testEqual(paste("n =", case), function(env) {
         env$verschil(case)
       }, verschil(case))
     }

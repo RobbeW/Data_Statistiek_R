@@ -36,8 +36,8 @@ while (length(cases) < nsim) {
 for (case in cases) {
   vec <- case[[1]]
   context({
-    testcase("De functie sd_steekproef() werkt met de volgende parameter:", {
-      testEqual(printVecAsis(vec), function(env) {
+    testcase("De functie sd_steekproef(data) werkt met de volgende parameter:", {
+      testEqual(paste("data =",printVecAsis(vec)), function(env) {
         env$sd_steekproef(vec)
       }, sd_steekproef(vec))
     })
