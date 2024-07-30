@@ -11,7 +11,7 @@ rijtje <- c(rijtje, 10^(1:3))
 
 context({
   testcase("De functie archimedes(aantal) werkt met de volgende parameters:", {
-    for (case in cases) {
+    for (case in rijtje) {
       testEqual(paste("aantal =", case), function(env) {
         format(env$sylvester(case), scientific = FALSE)
       }, format(sylvester(case), scientific = FALSE))
