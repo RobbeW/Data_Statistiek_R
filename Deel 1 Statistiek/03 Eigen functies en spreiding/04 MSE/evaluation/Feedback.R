@@ -29,7 +29,7 @@ for (case in cases) {
   echt <- case[[1]]
   pred <- case[[2]]
   context({
-    testcase("De functie mse(echt,voorspelling) werkt met de parameters:", {
+    testcase("De functie mse(echt, voorspelling) werkt met de parameters:", {
       testEqual(paste("echt =",printVecAsis(echt), "en voorspelling =", printVecAsis(pred)),
                 function(env) {
                   env$mse(echt, pred)
