@@ -17,22 +17,23 @@ cases <- list(list(c(1, 2, 3), c(3, -1, 2)),
               list(c(-1, 3), c(3, 1)),
               list(c(-0.5), c(2.111)))
 
-while( length(cases) < nsim){
+while (length(cases) < nsim) {
   len <- length(cases)
   n <- sample(2:20, 1)
   vec1 <- sample(-50:50, n, replace = TRUE)
   vec2 <- sample(-50:50, n, replace = TRUE)
-  cases[[len+1]] <- list(vec1, vec2)
+  cases[[len + 1]] <- list(vec1, vec2)
 }
 
 for(case in cases){
   vec1 <- case[[1]]
   vec2 <- case[[2]]
   context({
-     testcase(paste("De functie werkt met als parameters", printVecAsis(vec1), "en", printVecAsis(vec2)), {
-       testEqual("inproduct()" , function(env) {
-         env$inproduct(vec1, vec2)
-       }, inproduct(vec1, vec2))
-     })
+    testcase("De functie inproduct(vector1, vector2) werkt met de parameters:", {
+      testEqual(paste("vector1 =",printVecAsis(vec1), "en vector2 =", printVecAsis(vec2)),
+                function(env) {
+                  env$inproduct(vec1, vec2)
+                }, inproduct(vec1, vec2))
+    })
   })
 }
