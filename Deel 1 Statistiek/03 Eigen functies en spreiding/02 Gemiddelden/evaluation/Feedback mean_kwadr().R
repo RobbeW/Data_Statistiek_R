@@ -1,10 +1,10 @@
 set.seed(1234)
 
-# Het meetkundig gemiddelde
-mean_geom <- function(data) {
+# Het kwadratisch gemiddelde
+mean_kwadr <- function(data) {
   n <- length(data)
-  x_g <- prod(data)^(1 / n)
-  return(round(x_g, 2))
+  x_q <- sqrt(1 / n * sum(data^2))
+  return(round(x_q, 2))
 }
 
 printVecAsis <- function(x) {
@@ -27,10 +27,10 @@ while (length(cases) < nsim) {
 
 for (case in cases) {
   context({
-    testcase("De functie mean_geom() werkt met de volgende parameter:", {
-      testEqual(printVecAsis(case), function(env) {
-        env$mean_geom(case)
-      }, mean_geom(case))
+    testcase("De functie mean_kwadr(data) werkt met de volgende parameter:", {
+      testEqual(paste("data =", printVecAsis(case)), function(env) {
+        env$mean_kwadr(case)
+      }, mean_kwadr(case))
     })
   })
 }

@@ -1,10 +1,10 @@
 set.seed(1234)
 
-# Het kwadratisch gemiddelde
-mean_kwadr <- function(data) {
+# Het harmonisch gemiddelde
+mean_harm <- function(data) {
   n <- length(data)
-  x_q <- sqrt(1 / n * sum(data^2))
-  return(round(x_q, 2))
+  x_h <- n / sum(1 / data)
+  return(round(x_h, 2))
 }
 
 printVecAsis <- function(x) {
@@ -27,10 +27,10 @@ while (length(cases) < nsim) {
 
 for (case in cases) {
   context({
-    testcase("De functie mean_kwadr() werkt met de volgende parameter:", {
-      testEqual(printVecAsis(case), function(env) {
-        env$mean_kwadr(case)
-      }, mean_kwadr(case))
+    testcase("De functie mean_harm(data) werkt met de volgende parameter:", {
+      testEqual(paste("data =", printVecAsis(case)), function(env) {
+        env$mean_harm(case)
+      }, mean_harm(case))
     })
   })
 }

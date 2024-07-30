@@ -1,10 +1,10 @@
 set.seed(1234)
 
-# Het harmonisch gemiddelde
-mean_harm <- function(data) {
+# Het meetkundig gemiddelde
+mean_geom <- function(data) {
   n <- length(data)
-  x_h <- n / sum(1 / data)
-  return(round(x_h, 2))
+  x_g <- prod(data)^(1 / n)
+  return(round(x_g, 2))
 }
 
 printVecAsis <- function(x) {
@@ -27,10 +27,10 @@ while (length(cases) < nsim) {
 
 for (case in cases) {
   context({
-    testcase("De functie mean_harm() werkt met de volgende parameter:", {
-      testEqual(printVecAsis(case), function(env) {
-        env$mean_harm(case)
-      }, mean_harm(case))
+    testcase("De functie mean_geom(data) werkt met de volgende parameter:", {
+      testEqual(paste("data =", printVecAsis(case)), function(env) {
+        env$mean_geom(case)
+      }, mean_geom(case))
     })
   })
 }

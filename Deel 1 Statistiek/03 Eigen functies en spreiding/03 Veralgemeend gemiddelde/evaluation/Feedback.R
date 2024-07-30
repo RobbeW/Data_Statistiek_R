@@ -16,7 +16,7 @@ nsim <- 20
 cases <- list(list(c(98, 97, 98, 99, 100, 98), 3),
               list(c(14, 25, 14, 18, 16, 16, 20), 2))
 
-while( length(cases) < nsim){
+while (length(cases) < nsim) {
   len <- length(cases)
   p <- sample(1:5, 1)
   n <- sample(5:20, 1)
@@ -30,8 +30,8 @@ for (case in cases) {
   vec <- case[[1]]
   p <- case[[2]]
   context({
-    testcase("De functie mean_generalized() werkt met de parameters", {
-      testEqual(paste(printVecAsis(vec), "en p =", p), function(env) {
+    testcase("De functie mean_generalized(data, p) werkt met de parameters", {
+      testEqual(paste("data =", printVecAsis(vec), "en p =", p), function(env) {
         env$mean_generalized(vec, p)
       }, mean_generalized(vec, p))
     })
