@@ -24,12 +24,12 @@ Indien `data` gelijk is aan de vector `c(3,4)`, dan geldt:
 
 ```R
 > eenheidslengte(data)
-c(0.6,0.8)
+[1] 0.6 0.8
 ```
 
 Indien `data` gelijk is aan de vector `c(12,16,15)`, dan geldt:
 
 ```R
 > eenheidslengte(data)
-c(0.48, 0.64, 0.60)
+[1] 0.48 0.64 0.60
 ```
