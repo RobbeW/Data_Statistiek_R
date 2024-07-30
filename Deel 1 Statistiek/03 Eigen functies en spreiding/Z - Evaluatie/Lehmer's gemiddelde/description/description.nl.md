@@ -28,5 +28,5 @@ Indien de vector $$\mathsf{\boldsymbol{x}}$$ gelijk is aan `c(1, 2, 5)` en $$\ma
 
 ```R
 > lehmer( c(1, 2, 5), 2)
-3.75
+[1] 3.75
 ```
