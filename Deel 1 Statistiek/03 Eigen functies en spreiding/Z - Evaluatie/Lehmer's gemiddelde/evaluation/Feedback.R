@@ -28,7 +28,7 @@ for (case in cases) {
   vec <- case[[1]]
   p <- case[[2]]
   context({
-    testcase("De functie lehmer(vector, p) werkt met de parameters", {
+    testcase("De functie lehmer(vector, p) werkt met de parameters:", {
       testEqual(paste("vector =", printVecAsis(vec), "en p =", p), function(env) {
          env$lehmer(vec, p)
        }, lehmer(vec, p))
