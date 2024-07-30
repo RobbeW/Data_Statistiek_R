@@ -20,14 +20,14 @@ Programmeer de functie `eenheidslengte()` die gegeven een vector `data` deze her
 
 #### Voorbeelden
 
-Indien `data` gelijk is aan de vector `c(3,4)`, dan geldt:
+Indien `data` gelijk is aan de vector `c(3, 4)`, dan geldt:
 
 ```R
 > eenheidslengte(data)
 [1] 0.6 0.8
 ```
 
-Indien `data` gelijk is aan de vector `c(12,16,15)`, dan geldt:
+Indien `data` gelijk is aan de vector `c(12, 16, 15)`, dan geldt:
 
 ```R
 > eenheidslengte(data)
