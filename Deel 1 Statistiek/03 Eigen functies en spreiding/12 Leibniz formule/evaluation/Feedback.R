@@ -7,10 +7,10 @@ context({
     return(round(sum(1 / res), 6))
   }
 
-  testcase("De functie leibniz() werkt met de volgende parameters:", {
+  testcase("De functie leibniz(aantal) werkt met de volgende parameters:", {
     rijtje <- 1:6
     for (aantal in rijtje) {
-      testEqual(format(10^aantal, scientific = FALSE),
+      testEqual(paste("aantal =", format(10^aantal, scientific = FALSE)),
                 function(env) {
                   env$leibniz(10^aantal)
                 }, leibniz(10^aantal))
