@@ -24,14 +24,14 @@ De eerste `10` termen van de som optellen resulteert in:
 
  ```R
  > bazel(10)
-1.549768
+[1] 1.549768
  ```
 
  De eerste `100` termen van de som optellen resulteert in:
 
  ```R
  > bazel(100)
-1.634984
+[1] 1.634984
  ```
  
 {: .callout.callout-info}
