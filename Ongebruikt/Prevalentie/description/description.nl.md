@@ -1,11 +1,3 @@
-<div class="text-end">
-    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
-</div>
-
-<div class="text-end" style="margin-top:15px">
-    <a class="btn btn-filled with-icon" href="https://webr.r-wasm.org/latest/" target="_blank"><i class="mdi mdi-cloud-tags mdi-24" title="link"></i>Link naar WebR</a>
-</div>
-
 **Prevalentie** $$p$$ is een zeer belangrijk begrip in de studie van ziektes. Het is de kans op het voorkomen van een ziekteverschijnsel of aandoening in een bepaalde populatie. Bijvoorbeeld: de prevalentie van obesitas in de Verenigde Staten werd in 2001 geschat op ongeveer 21%. Met andere woorden, de kans dat een willekeurig gekozen Amerikaan obees is, is ongeveer 21%.
 
 De centrale vraag is natuurlijk, **hoe schat je de prevalentie?** De meest voor de hand liggende methode is om het aantal gevallen te delen door de populatiegrootte. Zijn er 21 obese personen op 100 mensen, dan is het logisch om de prevalentie (kans op) obesitas te schatten op 21%.
