@@ -28,6 +28,13 @@ Programmeer de functie `mean_geom()` die gegeven een vector `data` het meetkundi
 
 Maak vervolgens een functie `agm()` die gegeven een vector `data` eerst `a_0` (via `mean()`) en `g_0` (via `mean_geom()`) berekent en vervolgens het bovenstaande proces 10 keer uitvoert. Uiteindelijk `return` je de berekende waarde van `a_10`.
 
+#### Voorbeeld
+
+```r
+> agm( c(1.5, 1.5, 96) )
+[1] 16.674979426402
+```
+
 {: .callout.callout-info}
 >#### Tips
 >
