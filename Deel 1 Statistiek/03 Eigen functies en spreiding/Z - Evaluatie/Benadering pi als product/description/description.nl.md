@@ -19,12 +19,12 @@ De eerste `3` factoren van het product berekenen resulteert in:
 
 ```R
 > product_pi(3)
-0.835918
+[1] 0.835918
 ```
 
 De eerste `10` factoren van het product berekenen resulteert in:
 
 ```R
 > product_pi(10)
-0.803446
+[1] 0.803446
 ```
