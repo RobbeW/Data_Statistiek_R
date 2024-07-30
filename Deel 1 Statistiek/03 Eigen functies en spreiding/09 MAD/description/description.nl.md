@@ -16,7 +16,7 @@ Indien `data` gelijk is aan de vector `c(98, 97, 98, 99, 100, 98)`, dan geldt:
 
 ```R
 > mad(data)
-0.7778
+[1] 0.7778
 ```
 
 {: .callout.callout-info}
