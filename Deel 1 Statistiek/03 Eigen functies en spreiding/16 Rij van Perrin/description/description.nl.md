@@ -11,7 +11,29 @@ De rij begint dus als volgt: 3, 0, 2, 3, 2, 5, 5, 7, 10, 12, 17, ...
 ## Gevraagd
 
 Maak een functie `perrin(n)` waarbij `n` het rangnummer voorstelt. Zo geldt er dat `perrin(4)` overeenkomt met het getal 3.
- 
+
+#### Voorbeelden
+
+```R
+> perrin(3)
+[1] 2
+```
+
+```R
+> perrin(4)
+[1] 3
+```
+
+```R
+> perrin(5)
+[1] 2
+```
+
+```R
+> perrin(6)
+[1] 5
+```
+
 {: .callout.callout-info}
 >#### Tips
 >
