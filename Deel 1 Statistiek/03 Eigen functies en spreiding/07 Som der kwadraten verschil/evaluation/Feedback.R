@@ -13,12 +13,14 @@ while (length(cases) < nsim) {
   cases[[len + 1]] <- n
 }
 
-for (case in cases) {
-  context({
-    testcase("De functie verschil() werkt met de volgende parameter:", {
+cases <- sort(cases)
+
+context({
+  testcase("De functie verschil() werkt met de volgende parameters:", {
+    for (case in cases) {
       testEqual(case, function(env) {
         env$verschil(case)
       }, verschil(case))
-    })
+    }
   })
-}
+})
