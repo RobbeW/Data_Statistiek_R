@@ -10,7 +10,9 @@ cases <- c(10, 20)
 while (length(cases) < nsim) {
   len <- length(cases)
   n <- sample(5:40, 1) * 5
-  cases <- c(cases, n)
+  if (!(n %in% cases)){
+    cases <- c(cases, n)
+  }
 }
 
 cases_sorted <- sort(cases)
