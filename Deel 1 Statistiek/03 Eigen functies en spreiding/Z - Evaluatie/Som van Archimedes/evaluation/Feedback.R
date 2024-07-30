@@ -1,20 +1,20 @@
-options(digits=20)
+options(digits = 20)
 # Een functie die de Archimedes som simuleert
 archimedes <- function(n) {
   rij <- 1:n
-  resultaat <- sum( 1/4^rij )
-  return( round(resultaat, 9) )
+  resultaat <- sum((1 / 4)^rij)
+  return(round(resultaat, 9))
 }
 
-rijtje <- c(2,3,4,5)
+rijtje <- c(2, 3, 4, 5)
 rijtje <- c(rijtje, 10^(1:3))
-for (aantal in rijtje) {
-  context({
-    testcase("De functie archimedes() werkt:", {
-      testEqual(paste0("met parameter ", 
-                        format(aantal, scientific = FALSE)), function(env) {
-                env$archimedes(aantal)
-                }, archimedes(aantal))
-    })
+
+context({
+  testcase("De functie archimedes(aantal) werkt met de volgende parameters:", {
+    for (case in cases) {
+      testEqual(paste("aantal =", case), function(env) {
+        format(env$sylvester(case), scientific = FALSE)
+      }, format(sylvester(case), scientific = FALSE))
+    }
   })
-}
+})
