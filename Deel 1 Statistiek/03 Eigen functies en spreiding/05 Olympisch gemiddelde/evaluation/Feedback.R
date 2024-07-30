@@ -24,10 +24,10 @@ while (length(cases) < nsim) {
   cases[[len + 1]] <- vec
 }
 
-for(case in cases){
+for (case in cases){
   context({
     testcase("De functie olympic_mean(data) werkt met de volgende parameter:", {
-      testEqual(print("data =", printVecAsis(case)), function(env) {
+      testEqual(paste("data =", printVecAsis(case)), function(env) {
         env$olympic_mean(case)
       }, olympic_mean(case))
     })

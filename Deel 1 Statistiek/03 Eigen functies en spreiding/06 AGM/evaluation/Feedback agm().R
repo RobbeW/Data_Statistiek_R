@@ -42,7 +42,7 @@ printVecAsis <- function(x) {
 for (case in cases) {
   context({
     testcase("De functie agm(data) werkt met de volgende parameter:", {
-      testEqual(print("data =",printVecAsis(case)), function(env) {
+      testEqual(paste("data =",printVecAsis(case)), function(env) {
         env$agm(case)
       }, agm(case))
     })

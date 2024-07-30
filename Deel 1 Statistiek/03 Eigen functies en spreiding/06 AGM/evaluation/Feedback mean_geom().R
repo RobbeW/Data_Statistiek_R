@@ -26,7 +26,7 @@ printVecAsis <- function(x) {
 for (case in cases) {
   context({
     testcase("De functie mean_geom(data) werkt met de volgende parameter:", {
-      testEqual(print("data =",printVecAsis(case)), function(env) {
+      testEqual(paste("data =",printVecAsis(case)), function(env) {
         env$mean_geom(case)
       }, mean_geom(case))
     })
