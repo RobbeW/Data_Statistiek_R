@@ -19,12 +19,14 @@ Programmeer nu een functie `olympic_mean()`. Er zijn verschillende mogelijke man
 
 #### Voorbeelden
 
-```r 
-> olympic_mean( c(98, 97, 98, 99, 100, 98) )
+Indien `data` gelijk is aan `c(98, 97, 98, 99, 100, 98)`, dan verschijnt er:
+```R 
+> olympic_mean(data)
 [1] 98.25
 ```
 
-```r
-> olympic_mean( c(14, 25, 14, 18, 16, 16, 20) )
+Indien `data` gelijk is aan `c(14, 25, 14, 18, 16, 16, 20)`, dan verschijnt er:
+```R
+> olympic_mean(data)
 [1] 16.8
 ```

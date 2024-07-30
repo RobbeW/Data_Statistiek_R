@@ -26,8 +26,8 @@ while (length(cases) < nsim) {
 
 for(case in cases){
   context({
-    testcase("De functie olympic_mean() werkt met de volgende parameter:", {
-      testEqual(printVecAsis(case), function(env) {
+    testcase("De functie olympic_mean(data) werkt met de volgende parameter:", {
+      testEqual(print("data =",printVecAsis(case)), function(env) {
         env$olympic_mean(case)
       }, olympic_mean(case))
     })
