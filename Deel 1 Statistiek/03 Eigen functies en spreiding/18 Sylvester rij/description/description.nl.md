@@ -11,7 +11,24 @@ De rij begint met de getallen 2, 3, 7, 43, 1 807, 3 263 443, ...
 ## Gevraagd
 
 Maak een functie `sylvester(n)` waarbij `n` het rangnummer voorstelt. Zo geldt er dat `sylvester(3)` overeenkomt met het getal 7.
- 
+
+#### Voorbeelden
+
+```R
+> sylvester(2)
+[1] 3
+```
+
+```R
+> sylvester(3)
+[1] 7
+```
+
+```R
+> sylvester(4)
+[1] 43
+```
+
 {: .callout.callout-info}
 >#### Tips
 >
