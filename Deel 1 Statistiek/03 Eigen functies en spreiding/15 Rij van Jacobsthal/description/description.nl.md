@@ -10,6 +10,28 @@ De rij begint dus als volgt: 0, 1, 1, 3, 5, 11, 21, 43, 85, ...
 
 Maak een functie `jacobsthal(n)` waarbij `n` het rangnummer voorstelt. Zo geldt er dat `jacobsthal(4)` overeenkomt met het getal 3.
  
+#### Voorbeelden
+
+```R
+> jacobsthal(3)
+[1] 1
+```
+
+```R
+> jacobsthal(4)
+[1] 3
+```
+
+```R
+> jacobsthal(5)
+[1] 5
+```
+
+```R
+> jacobsthal(6)
+[1] 11
+```
+
 {: .callout.callout-info}
 >#### Tips
 >
