@@ -34,12 +34,12 @@ De eerste `3` factoren van het product berekenen resulteert in:
 
 ```R
 > sin_benadering(3)
-0.893813
+[1] 0.893813
 ```
 
 De eerste `10` factoren van het product berekenen resulteert in:
 
 ```R
 > sin_benadering(10)
-0.875233
+[1] 0.875233
 ```
