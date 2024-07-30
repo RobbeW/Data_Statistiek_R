@@ -14,12 +14,12 @@ Voor de eerste `10` natuurlijke getallen verschijnt er:
 
 ```R
 > verschil(10)
-2640
+[1] 2640
 ```
 
 Voor de eerste `20` natuurlijke getallen verschijnt er:
 
 ```R
 > verschil(10)
-41230
+[1] 41230
 ```

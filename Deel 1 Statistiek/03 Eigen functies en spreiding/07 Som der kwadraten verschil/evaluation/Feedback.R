@@ -7,18 +7,18 @@ verschil <- function(n) {
 nsim <- 20
 cases <- list(10, 20)
 
-while( length(cases) < nsim){
+while (length(cases) < nsim) {
   len <- length(cases)
-  n <- sample(5:40, 1)*5
-  cases[[len+1]] <- n
+  n <- sample(5:40, 1) * 5
+  cases[[len + 1]] <- n
 }
 
-for(case in cases){
+for (case in cases) {
   context({
-     testcase("De functie werkt:", {
-       testEqual(paste("met parameter", case), function(env) {
-         env$verschil(case)
-    }, verschil(case))
-     })
+    testcase("De functie verschil() werkt met de volgende parameter:", {
+      testEqual(case, function(env) {
+        env$verschil(case)
+      }, verschil(case))
+    })
   })
 }
