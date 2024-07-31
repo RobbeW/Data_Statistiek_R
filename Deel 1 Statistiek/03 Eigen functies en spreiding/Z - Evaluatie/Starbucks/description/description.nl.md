@@ -1,11 +1,3 @@
-<div class="text-end">
-    <a class="btn btn-filled with-icon" href="https://dodona.be/nl/courses/2690" target="_blank"><i class="mdi mdi-backburger mdi-24" title="link"></i>Link naar de vorige oefeningen</a>
-</div>
-
-<div class="text-end" style="margin-top:15px">
-    <a class="btn btn-filled with-icon" href="https://webr.r-wasm.org/latest/" target="_blank"><i class="mdi mdi-cloud-tags mdi-24" title="link"></i>Link naar WebR</a>
-</div>
-
 De internationale keten van koffiehuizen <a href="https://nl.wikipedia.org/wiki/Starbucks" target="_blank">Starbucks</a> is aanwezig in minsten 76 landen. Men verkoopt er een grote waaier aan koffiemixen en dranken op koffiebasis. Bij elk drankje kan je voor een bepaalde grootte, een hoeveelheid room, siroop, enz... kiezen. Starbucks beweert dat er <a href="file:///home/dieter/Downloads/Starbucks_Infographic-1.pdf" target="_blank">meer dan 170 000 verschillende keuzes</a> mogelijk zijn.
 
 ![De Starbucks keten](media/june-andrei-george.jpg "Foto door June Andrei George op Unsplash."){:data-caption="De Starbucks keten." width="45%"}
@@ -36,13 +28,13 @@ Gebruik `head(data)` om een **voorsmaakje** van de gegevens te verkrijgen.
 6 brewed coffee - decaf pike place roast           354        4         0.1             0       0       0          20
 ```
 
-De kolommen spreken eigenlijk voor zich. `product_name` bevat de naam van de verschillende dranken, `serv_size_m_l` de bekermaat (in ml), `calories`, `total_fat_g`, `total_carbs_g`, `fiber_g`, `sugar_g` en `caffeine_mg` respectievelijk het aantal calorieën en daarna de hoeveelheden vet, koolhydraten, vezels, suiker en caffëine.
+De kolommen spreken eigenlijk voor zich. `product_name` bevat de naam van de verschillende dranken, `serv_size_m_l` de bekermaat (in ml), `calories`, `total_fat_g`, `total_carbs_g`, `fiber_g`, `sugar_g` en `caffeine_mg` respectievelijk het aantal calorieën en daarna de hoeveelheden vet, koolhydraten, vezels, suiker en cafëine.
 
 ## Gevraagd
 
 - Je merkt dat de dataset gegevens van hetzelfde product, maar in verschillende maten bevat. We zullen ons enkel focussen op een bekermaat van 473 ml, genaamd "*Tall*". Maar hiervoor een **booleaanse** variabele aan `grote_beker`. (In de volgende opgaves werk je telkens met deze bekermaat.)
 
-- Volgens verschillende artsen mag een zwangere vrouw niet meer dan 200 mg cafeïne per dag consumeren. **Hoeveel** (grote) drankjes zijn er die hier **niet** aan voldoen? Sla dit op in de variabele `aantal_teveel_cafeine`.
+- Volgens verschillende artsen mag een zwangere vrouw niet meer dan 200 mg cafeïne per dag consumeren. **Hoeveel** (grote) drankjes zijn er die hier **niet** aan voldoen? Sla dit op in de variabele `aantal_teveel_cafeine`. (cafeïne bevat één f in het Nederlands)
 
 - Onderzoek welke drankjes (`product_name`) **meer** dan een gemiddeld aantal g suiker en aantal mg cafeïne bevatten. Sla deze drankjes op in de variabele `ongezonde_drank`. **Hoeveel procent** van het aanbod is dit? Sla dit op in de variabele `ongezond_percentage` en rond af op 2 cijfers na de komma.
 
