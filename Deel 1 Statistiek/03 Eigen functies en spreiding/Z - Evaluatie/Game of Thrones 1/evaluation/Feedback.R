@@ -45,9 +45,9 @@ context({
     testEqual("gem_seizoen1", function(env) {
       env$gem_seizoen1
     }, gem_seizoen1)
-    testEqual("gem_seizoen1", function(env) {
-      env$gem_seizoen1
-    }, gem_seizoen1)
+    testEqual("gem_seizoen8", function(env) {
+      env$gem_seizoen8
+    }, gem_seizoen8)
     testFunctionUsedInVar("mean", "gem_seizoen1")
     testFunctionUsedInVar("mean", "gem_seizoen8")
   })
