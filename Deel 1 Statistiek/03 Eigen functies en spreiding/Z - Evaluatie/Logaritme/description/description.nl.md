@@ -1,7 +1,7 @@
 
 Jullie hebben reeds geleerd over de inverse functie van de exponentiële functie, namelijk de **logaritmische** functie. Zo geldt er dat de logaritme met grondtal 10 van 1000 gelijk is aan 3, immers 10³ = 1000.
 
-De natuurlijke logaritme, namelijk de logaritme met het getal van Euler (e) als grondtal wordt echter het meest gebruikt. Het rekentoestel kan bijvoorbeeld $$\operatorname{\mathsf{\log_e(2)}}$$ ook wel genoteerd als $$\mathsf{\ln(2)}$$ prima uitrekenen, namelijk 0,69314718.
+De natuurlijke logaritme, namelijk de logaritme met het getal van Euler (e) als grondtal wordt echter het meest gebruikt. Het rekentoestel kan bijvoorbeeld $$\mathsf{\log_e(2)}$$ ook wel genoteerd als $$\mathsf{\ln(2)}$$ prima uitrekenen, namelijk 0,69314718.
 
 Dit gebeurt door middel van een oneindige som, er zijn verschillende opties. Beschouw bijvoorbeeld onderstaande som:
 
