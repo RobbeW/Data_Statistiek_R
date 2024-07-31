@@ -31,13 +31,13 @@ context({
 })
 
 context({
-  testcaseAssert("De variabele aantal_teveel_cafeine bestaat.", function(env) {
-    isTRUE(exists("aantal_teveel_cafeine", env))
+  testcaseAssert("De variabele aantal_teveel_caf bestaat.", function(env) {
+    isTRUE(exists("aantal_teveel_caf", env))
   })
   testcase("De variabele werden correct berekend:", {
-    testEqual("aantal_teveel_cafeine", function(env) {
-      env$aantal_teveel_cafeine
-    }, aantal_teveel_cafeine)
+    testEqual("aantal_teveel_caf", function(env) {
+      env$aantal_teveel_caf
+    }, aantal_teveel_caf)
   })
 })
 

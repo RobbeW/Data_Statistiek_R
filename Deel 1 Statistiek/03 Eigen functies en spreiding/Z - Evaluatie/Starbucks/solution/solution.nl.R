@@ -8,7 +8,7 @@ data <- read.csv(paste0("https://raw.githubusercontent.com/rfordatascience/ti",
 grote_beker <- data$serv_size_m_l == 473
 
 # Hoeveel bevatten teveel caffeïne?
-aantal_teveel_cafeine <- sum(data$caffeine_mg[grote_beker] > 200)
+aantal_teveel_caf <- sum(data$caffeine_mg[grote_beker] > 200)
 
 # Bepalen van de 'ongezonde' drankjes.
 gem_sugar <- mean(data$sugar_g[grote_beker])
