@@ -38,7 +38,7 @@ ntests = 20
 cases = [ ]
 
 while len(cases) < ntests:
-    r, k =  [random.randint(1,5) for _ in range(2)]
+    r, k =  [random.randint(1,10) for _ in range(2)]
     matrix = []
     for _ in range(r):
         row =  [random.randint(0,9) for _ in range(k)]
