@@ -22,7 +22,7 @@ $$
 $$
 
 ## Gevraagd
-Schrijf een funcite `print_matrix(matrix)` die gegeven een tweedimensionale lijst met enkel cijfers van 0 tot en met 9 een betere weergave afdrukt. Je functie zal dus niets te `return`'en.
+Schrijf een functie `print_matrix(matrix)` die gegeven een tweedimensionale lijst met enkel cijfers van 0 tot en met 9 een betere weergave afdrukt. Je functie zal dus niets te `return`'en.
 
 #### Voorbeeld
 
