@@ -1,0 +1,19 @@
+{
+  "description": {
+    "names": {
+      "nl": "Weergave 2D lijst"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "2D lijsten"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "fQn9hWMYhuQcnpvfPqacRc2vsaMCFSEtFJaHfA7TBgjwBTdeWrE-9rT-kU2r3TZf",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
