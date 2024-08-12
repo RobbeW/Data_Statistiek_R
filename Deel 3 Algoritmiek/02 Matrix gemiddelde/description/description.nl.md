@@ -4,6 +4,7 @@ Schrijf een funcite `gemiddelde_matrix(matrix)` die het gemiddelde van alle matr
 #### Voorbeeld
 
 ```
->>> gemiddelde_matrix([[1, 2], [8, 9]])
+>>> gemiddelde_matrix([[1, 2], 
+                       [8, 9]])
 5.0
 ```

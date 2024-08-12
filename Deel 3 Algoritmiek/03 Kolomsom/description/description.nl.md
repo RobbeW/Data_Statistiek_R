@@ -1,9 +1,10 @@
 ## Gevraagd
-Schrijf een funcite `gemiddelde_matrix(matrix)` die het gemiddelde van alle matrixwaarden returnt. Dit gemiddelde wordt afgerond op twee decimalen.
+Schrijf een functie `kolomsom(matrix)` die per kolom uit de matrix het totaal bepaalt.
 
 #### Voorbeeld
 
 ```
->>> gemiddelde_matrix([[1, 2], [8, 9]])
-5.0
+>>> kolomsom([[1, 2],
+              [8, 9]])
+[9, 11]
 ```
