@@ -1,6 +1,5 @@
 import os
-import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
 import subprocess
@@ -39,7 +38,10 @@ cases = [ (365,), (123456, )]
 while len( cases ) < ntests:
     e = random.randint(1,30)
     a = random.randint(10**(e-1),10**e)
-    cases.append( (a, ) )
+    if (a,) not in cases:
+        cases.append( (a, ) )
+
+cases.sort()
     
 # generate unit tests for functions
 yamldata = []
@@ -82,8 +84,8 @@ for i in range(len(cases)):
     
     # generate test expression
     #
-    expression_name = 'getalsom( {} )'.format( test[0] )
-    result = module.getalsom( test[0] )
+    expression_name = f"getalsom({test[0]})"
+    result = module.getalsom(test[0])
 
     print(result)
     # setup for return expressions

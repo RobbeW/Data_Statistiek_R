@@ -15,12 +15,23 @@ Voor de invoer `365` verschijnt er:
 ```
 De getalsom is 14.
 ```
+want
+```python
+>>> getalsom(365)
+14
+```
 
 Voor de invoer `123456` verschijnt er:
 
 ```
 De getalsom is 21.
 ```
+want
+```python
+>>> getalsom(123456)
+21
+```
+
 
 {: .callout.callout-info}
 >#### Tip

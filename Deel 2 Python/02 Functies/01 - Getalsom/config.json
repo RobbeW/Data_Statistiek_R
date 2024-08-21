@@ -9,7 +9,10 @@
     "test_suite": "tests.yaml"
   },
   "labels": [
-    "python"
+    "functies",
+    "voorwaardelijke herhaling",
+    "while-lus",
+    "modulo"
   ],
   "access": "public",
   "internals": {
