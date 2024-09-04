@@ -26,7 +26,7 @@ Schrijf een functie `print_matrix(matrix)` die gegeven een tweedimensionale lijs
 
 #### Voorbeeld
 
-```
+```python
 >>> print_matrix([[6, 2, 0], [2, 3, 3], [8, 6, 7], [2, 8, 9], [7, 0, 5]])
 6 2 0
 2 3 3 

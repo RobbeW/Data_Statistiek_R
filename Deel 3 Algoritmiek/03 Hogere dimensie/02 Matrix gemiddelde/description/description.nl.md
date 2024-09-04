@@ -3,7 +3,7 @@ Schrijf een funcite `gemiddelde_matrix(matrix)` die het gemiddelde van alle matr
 
 #### Voorbeeld
 
-```
+```python
 >>> gemiddelde_matrix([[1, 2], 
                        [8, 9]])
 5.0

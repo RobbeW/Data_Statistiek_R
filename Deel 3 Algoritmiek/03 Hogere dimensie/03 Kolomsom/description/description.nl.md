@@ -3,7 +3,7 @@ Schrijf een functie `kolomsom(matrix)` die per kolom uit de matrix het totaal be
 
 #### Voorbeeld
 
-```
+```python
 >>> kolomsom([[1, 2],
               [8, 9]])
 [9, 11]

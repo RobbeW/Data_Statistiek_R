@@ -11,7 +11,7 @@ In deze oefening wordt de afbeelding voorgesteld met behulp van een vierkante ma
 
 Schrijf een functie `detecteer(matrix)` die gegeven een matrix de plaats van de foutieve bit bepaalt. De coördinaat van de foutieve bit wordt vervolgens geretourneerd.
 
-#### Voorbeeld
+#### Voorbeelden
 
 ```python
 >>> detecteer([[1, 0, 0, 1 ,0],

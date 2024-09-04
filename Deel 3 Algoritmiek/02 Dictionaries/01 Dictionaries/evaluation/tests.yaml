@@ -1,0 +1,276 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: "temperatuur({'Lissabon': 19.4, 'Gent': 5.8, 'Parijs': 13.2, 'Bern':
+        8.7, 'Utrecht': 15.0, 'Bratislava': 13.2})"
+      stdout: "De temperatuur in Lissabon is 19.4 graden.\nDe temperatuur in Gent
+        is 5.8 graden.\nDe temperatuur in Parijs is 13.2 graden.\nDe temperatuur in
+        Bern is 8.7 graden.\nDe temperatuur in Utrecht is 15.0 graden.\nDe temperatuur
+        in Bratislava is 13.2 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Madrid': 12.9, 'Antwerpen': 7.5, 'Gent': 14.1, 'Genève':
+        5.5, 'Zürich': 13.9, 'Sofia': 10.3, 'Utrecht': 13.1})"
+      stdout: "De temperatuur in Madrid is 12.9 graden.\nDe temperatuur in Antwerpen
+        is 7.5 graden.\nDe temperatuur in Gent is 14.1 graden.\nDe temperatuur in
+        Genève is 5.5 graden.\nDe temperatuur in Zürich is 13.9 graden.\nDe temperatuur
+        in Sofia is 10.3 graden.\nDe temperatuur in Utrecht is 13.1 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Genève': 5.4, 'Rome': 18.9, 'Napels': 14.9, 'Utrecht':
+        9.9, 'Praag': 9.2, 'Leeuwarden': 10.7, 'Den Haag': 14.1})"
+      stdout: "De temperatuur in Genève is 5.4 graden.\nDe temperatuur in Rome is
+        18.9 graden.\nDe temperatuur in Napels is 14.9 graden.\nDe temperatuur in
+        Utrecht is 9.9 graden.\nDe temperatuur in Praag is 9.2 graden.\nDe temperatuur
+        in Leeuwarden is 10.7 graden.\nDe temperatuur in Den Haag is 14.1 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Madrid': 14.3, 'Porto': 18.7, 'Helsinki': 5.2, 'Kopenhagen':
+        9.9, 'Barcelona': 12.4, 'Edinburgh': 10.5, 'Hamburg': 6.9, 'Lissabon': 14.0,
+        'Eindhoven': 11.1})"
+      stdout: "De temperatuur in Madrid is 14.3 graden.\nDe temperatuur in Porto is
+        18.7 graden.\nDe temperatuur in Helsinki is 5.2 graden.\nDe temperatuur in
+        Kopenhagen is 9.9 graden.\nDe temperatuur in Barcelona is 12.4 graden.\nDe
+        temperatuur in Edinburgh is 10.5 graden.\nDe temperatuur in Hamburg is 6.9
+        graden.\nDe temperatuur in Lissabon is 14.0 graden.\nDe temperatuur in Eindhoven
+        is 11.1 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Brugge': 5.7, 'Arnhem': 9.7, 'Nice': 10.8, 'Helsinki':
+        1.3, 'Valencia': 15.8, 'Eindhoven': 12.6, 'Milaan': 9.7, 'Genève': 7.2, 'Boedapest':
+        8.8})"
+      stdout: "De temperatuur in Brugge is 5.7 graden.\nDe temperatuur in Arnhem is
+        9.7 graden.\nDe temperatuur in Nice is 10.8 graden.\nDe temperatuur in Helsinki
+        is 1.3 graden.\nDe temperatuur in Valencia is 15.8 graden.\nDe temperatuur
+        in Eindhoven is 12.6 graden.\nDe temperatuur in Milaan is 9.7 graden.\nDe
+        temperatuur in Genève is 7.2 graden.\nDe temperatuur in Boedapest is 8.8 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Den Haag': 6.1, 'Oslo': 7.2, 'Utrecht': 9.0, 'Stockholm':
+        2.8, 'Londen': 10.6, 'Groningen': 9.8, 'Krakau': 7.0, 'Hamburg': 5.5, 'Rome':
+        12.3, 'Barcelona': 17.9})"
+      stdout: "De temperatuur in Den Haag is 6.1 graden.\nDe temperatuur in Oslo is
+        7.2 graden.\nDe temperatuur in Utrecht is 9.0 graden.\nDe temperatuur in Stockholm
+        is 2.8 graden.\nDe temperatuur in Londen is 10.6 graden.\nDe temperatuur in
+        Groningen is 9.8 graden.\nDe temperatuur in Krakau is 7.0 graden.\nDe temperatuur
+        in Hamburg is 5.5 graden.\nDe temperatuur in Rome is 12.3 graden.\nDe temperatuur
+        in Barcelona is 17.9 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Maastricht': 9.9, 'Londen': 15.7, 'Porto': 17.8,
+        'Zürich': 8.6, 'Amsterdam': 12.6, 'Rome': 16.9, 'Krakau': 4.7, 'Stockholm':
+        9.8, 'Helsinki': 9.2, 'Milaan': 14.3})"
+      stdout: "De temperatuur in Maastricht is 9.9 graden.\nDe temperatuur in Londen
+        is 15.7 graden.\nDe temperatuur in Porto is 17.8 graden.\nDe temperatuur in
+        Zürich is 8.6 graden.\nDe temperatuur in Amsterdam is 12.6 graden.\nDe temperatuur
+        in Rome is 16.9 graden.\nDe temperatuur in Krakau is 4.7 graden.\nDe temperatuur
+        in Stockholm is 9.8 graden.\nDe temperatuur in Helsinki is 9.2 graden.\nDe
+        temperatuur in Milaan is 14.3 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Dublin': 8.4, 'Sofia': 5.5, 'Rome': 12.5, 'Bratislava':
+        14.4, 'Maastricht': 6.7, 'Boedapest': 7.7, 'Bern': 10.4, 'Arnhem': 13.4, 'Eindhoven':
+        7.2, 'Berlijn': 7.7, 'Lissabon': 18.7})"
+      stdout: "De temperatuur in Dublin is 8.4 graden.\nDe temperatuur in Sofia is
+        5.5 graden.\nDe temperatuur in Rome is 12.5 graden.\nDe temperatuur in Bratislava
+        is 14.4 graden.\nDe temperatuur in Maastricht is 6.7 graden.\nDe temperatuur
+        in Boedapest is 7.7 graden.\nDe temperatuur in Bern is 10.4 graden.\nDe temperatuur
+        in Arnhem is 13.4 graden.\nDe temperatuur in Eindhoven is 7.2 graden.\nDe
+        temperatuur in Berlijn is 7.7 graden.\nDe temperatuur in Lissabon is 18.7
+        graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Marseille': 12.9, 'München': 11.5, 'Lyon': 7.2, 'Krakau':
+        3.8, 'Zürich': 5.9, 'Boedapest': 10.7, 'Arnhem': 6.3, 'Wenen': 8.6, 'Manchester':
+        11.1, 'Edinburgh': 4.7, 'Rotterdam': 8.0, 'Helsinki': 3.8, 'Parijs': 8.2})"
+      stdout: "De temperatuur in Marseille is 12.9 graden.\nDe temperatuur in München
+        is 11.5 graden.\nDe temperatuur in Lyon is 7.2 graden.\nDe temperatuur in
+        Krakau is 3.8 graden.\nDe temperatuur in Zürich is 5.9 graden.\nDe temperatuur
+        in Boedapest is 10.7 graden.\nDe temperatuur in Arnhem is 6.3 graden.\nDe
+        temperatuur in Wenen is 8.6 graden.\nDe temperatuur in Manchester is 11.1
+        graden.\nDe temperatuur in Edinburgh is 4.7 graden.\nDe temperatuur in Rotterdam
+        is 8.0 graden.\nDe temperatuur in Helsinki is 3.8 graden.\nDe temperatuur
+        in Parijs is 8.2 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Antwerpen': 12.6, 'Barcelona': 20.9, 'Hamburg': 10.3,
+        'Den Haag': 9.5, 'Helsinki': 10.9, 'Amsterdam': 9.4, 'Sofia': 8.1, 'Gent':
+        6.5, 'Bratislava': 14.8, 'Rome': 19.5, 'München': 4.6, 'Stockholm': 8.7, 'Frankfurt':
+        14.2, 'Nice': 11.2})"
+      stdout: "De temperatuur in Antwerpen is 12.6 graden.\nDe temperatuur in Barcelona
+        is 20.9 graden.\nDe temperatuur in Hamburg is 10.3 graden.\nDe temperatuur
+        in Den Haag is 9.5 graden.\nDe temperatuur in Helsinki is 10.9 graden.\nDe
+        temperatuur in Amsterdam is 9.4 graden.\nDe temperatuur in Sofia is 8.1 graden.\n
+        De temperatuur in Gent is 6.5 graden.\nDe temperatuur in Bratislava is 14.8
+        graden.\nDe temperatuur in Rome is 19.5 graden.\nDe temperatuur in München
+        is 4.6 graden.\nDe temperatuur in Stockholm is 8.7 graden.\nDe temperatuur
+        in Frankfurt is 14.2 graden.\nDe temperatuur in Nice is 11.2 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Sevilla': 18.6, 'Berlijn': 14.6, 'Manchester': 8.1,
+        'Keulen': 5.6, 'Kopenhagen': 13.9, 'Praag': 10.4, 'Nice': 11.4, 'Groningen':
+        6.7, 'Arnhem': 13.6, 'Utrecht': 8.2, 'Birmingham': 14.5, 'Genève': 6.3, 'Wenen':
+        9.2, 'Eindhoven': 11.6, 'Napels': 13.0})"
+      stdout: "De temperatuur in Sevilla is 18.6 graden.\nDe temperatuur in Berlijn
+        is 14.6 graden.\nDe temperatuur in Manchester is 8.1 graden.\nDe temperatuur
+        in Keulen is 5.6 graden.\nDe temperatuur in Kopenhagen is 13.9 graden.\nDe
+        temperatuur in Praag is 10.4 graden.\nDe temperatuur in Nice is 11.4 graden.\n
+        De temperatuur in Groningen is 6.7 graden.\nDe temperatuur in Arnhem is 13.6
+        graden.\nDe temperatuur in Utrecht is 8.2 graden.\nDe temperatuur in Birmingham
+        is 14.5 graden.\nDe temperatuur in Genève is 6.3 graden.\nDe temperatuur in
+        Wenen is 9.2 graden.\nDe temperatuur in Eindhoven is 11.6 graden.\nDe temperatuur
+        in Napels is 13.0 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Arnhem': 12.0, 'Maastricht': 12.0, 'Antwerpen': 14.6,
+        'Brussel': 6.2, 'Leeuwarden': 13.4, 'Sofia': 9.9, 'Helsinki': 2.9, 'Bratislava':
+        8.7, 'Parijs': 15.5, 'Gent': 15.2, 'Praag': 11.6, 'Berlijn': 6.3, 'Hamburg':
+        4.9, 'Edinburgh': 12.2, 'Dublin': 13.5, 'Birmingham': 12.3, 'Rome': 17.0})"
+      stdout: "De temperatuur in Arnhem is 12.0 graden.\nDe temperatuur in Maastricht
+        is 12.0 graden.\nDe temperatuur in Antwerpen is 14.6 graden.\nDe temperatuur
+        in Brussel is 6.2 graden.\nDe temperatuur in Leeuwarden is 13.4 graden.\n
+        De temperatuur in Sofia is 9.9 graden.\nDe temperatuur in Helsinki is 2.9
+        graden.\nDe temperatuur in Bratislava is 8.7 graden.\nDe temperatuur in Parijs
+        is 15.5 graden.\nDe temperatuur in Gent is 15.2 graden.\nDe temperatuur in
+        Praag is 11.6 graden.\nDe temperatuur in Berlijn is 6.3 graden.\nDe temperatuur
+        in Hamburg is 4.9 graden.\nDe temperatuur in Edinburgh is 12.2 graden.\nDe
+        temperatuur in Dublin is 13.5 graden.\nDe temperatuur in Birmingham is 12.3
+        graden.\nDe temperatuur in Rome is 17.0 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Lissabon': 16.1, 'Antwerpen': 7.0, 'Frankfurt': 8.1,
+        'Berlijn': 7.7, 'Brugge': 9.1, 'Londen': 9.3, 'Edinburgh': 8.1, 'Parijs':
+        13.9, 'Krakau': 10.0, 'Helsinki': 7.3, 'Birmingham': 9.1, 'Groningen': 11.7,
+        'Hamburg': 14.0, 'Boedapest': 7.8, 'Zürich': 8.6, 'Rome': 16.9, 'Maastricht':
+        7.8, 'Leeuwarden': 11.1})"
+      stdout: "De temperatuur in Lissabon is 16.1 graden.\nDe temperatuur in Antwerpen
+        is 7.0 graden.\nDe temperatuur in Frankfurt is 8.1 graden.\nDe temperatuur
+        in Berlijn is 7.7 graden.\nDe temperatuur in Brugge is 9.1 graden.\nDe temperatuur
+        in Londen is 9.3 graden.\nDe temperatuur in Edinburgh is 8.1 graden.\nDe temperatuur
+        in Parijs is 13.9 graden.\nDe temperatuur in Krakau is 10.0 graden.\nDe temperatuur
+        in Helsinki is 7.3 graden.\nDe temperatuur in Birmingham is 9.1 graden.\n
+        De temperatuur in Groningen is 11.7 graden.\nDe temperatuur in Hamburg is
+        14.0 graden.\nDe temperatuur in Boedapest is 7.8 graden.\nDe temperatuur in
+        Zürich is 8.6 graden.\nDe temperatuur in Rome is 16.9 graden.\nDe temperatuur
+        in Maastricht is 7.8 graden.\nDe temperatuur in Leeuwarden is 11.1 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Valencia': 19.5, 'Wenen': 10.2, 'Warschau': 3.4,
+        'Bern': 9.1, 'Parijs': 11.7, 'Edinburgh': 6.1, 'Leeuwarden': 12.1, 'Helsinki':
+        7.0, 'Rome': 18.2, 'Praag': 9.6, 'Genève': 13.1, 'Barcelona': 17.7, 'Oslo':
+        6.8, 'Lyon': 10.5, 'Milaan': 10.4, 'München': 13.3, 'Stockholm': 8.5, 'Krakau':
+        9.6, 'Gent': 11.4, 'Berlijn': 6.2})"
+      stdout: "De temperatuur in Valencia is 19.5 graden.\nDe temperatuur in Wenen
+        is 10.2 graden.\nDe temperatuur in Warschau is 3.4 graden.\nDe temperatuur
+        in Bern is 9.1 graden.\nDe temperatuur in Parijs is 11.7 graden.\nDe temperatuur
+        in Edinburgh is 6.1 graden.\nDe temperatuur in Leeuwarden is 12.1 graden.\n
+        De temperatuur in Helsinki is 7.0 graden.\nDe temperatuur in Rome is 18.2
+        graden.\nDe temperatuur in Praag is 9.6 graden.\nDe temperatuur in Genève
+        is 13.1 graden.\nDe temperatuur in Barcelona is 17.7 graden.\nDe temperatuur
+        in Oslo is 6.8 graden.\nDe temperatuur in Lyon is 10.5 graden.\nDe temperatuur
+        in Milaan is 10.4 graden.\nDe temperatuur in München is 13.3 graden.\nDe temperatuur
+        in Stockholm is 8.5 graden.\nDe temperatuur in Krakau is 9.6 graden.\nDe temperatuur
+        in Gent is 11.4 graden.\nDe temperatuur in Berlijn is 6.2 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Zürich': 4.6, 'Napels': 15.7, 'Leeuwarden': 12.1,
+        'Helsinki': 9.8, 'Dublin': 9.6, 'Sofia': 11.3, 'Bern': 6.4, 'Rome': 16.2,
+        'Brussel': 6.3, 'Lyon': 15.7, 'Groningen': 12.3, 'Berlijn': 10.6, 'Bratislava':
+        10.1, 'Barcelona': 20.4, 'Madrid': 10.5, 'Hamburg': 11.4, 'Wenen': 14.3, 'Valencia':
+        22.4, 'Genève': 12.9, 'Eindhoven': 6.4, 'Oslo': 8.5})"
+      stdout: "De temperatuur in Zürich is 4.6 graden.\nDe temperatuur in Napels is
+        15.7 graden.\nDe temperatuur in Leeuwarden is 12.1 graden.\nDe temperatuur
+        in Helsinki is 9.8 graden.\nDe temperatuur in Dublin is 9.6 graden.\nDe temperatuur
+        in Sofia is 11.3 graden.\nDe temperatuur in Bern is 6.4 graden.\nDe temperatuur
+        in Rome is 16.2 graden.\nDe temperatuur in Brussel is 6.3 graden.\nDe temperatuur
+        in Lyon is 15.7 graden.\nDe temperatuur in Groningen is 12.3 graden.\nDe temperatuur
+        in Berlijn is 10.6 graden.\nDe temperatuur in Bratislava is 10.1 graden.\n
+        De temperatuur in Barcelona is 20.4 graden.\nDe temperatuur in Madrid is 10.5
+        graden.\nDe temperatuur in Hamburg is 11.4 graden.\nDe temperatuur in Wenen
+        is 14.3 graden.\nDe temperatuur in Valencia is 22.4 graden.\nDe temperatuur
+        in Genève is 12.9 graden.\nDe temperatuur in Eindhoven is 6.4 graden.\nDe
+        temperatuur in Oslo is 8.5 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Barcelona': 17.3, 'Krakau': 7.3, 'Antwerpen': 10.0,
+        'Helsinki': 10.2, 'Genève': 13.5, 'Napels': 18.1, 'Rotterdam': 11.7, 'Rome':
+        13.7, 'Boedapest': 7.4, 'Sofia': 12.9, 'München': 11.0, 'Keulen': 12.0, 'Gent':
+        12.1, 'Amsterdam': 13.4, 'Sevilla': 21.9, 'Dublin': 9.9, 'Lyon': 11.9, 'Edinburgh':
+        12.2, 'Oslo': 4.7, 'Frankfurt': 10.8, 'Nice': 13.8})"
+      stdout: "De temperatuur in Barcelona is 17.3 graden.\nDe temperatuur in Krakau
+        is 7.3 graden.\nDe temperatuur in Antwerpen is 10.0 graden.\nDe temperatuur
+        in Helsinki is 10.2 graden.\nDe temperatuur in Genève is 13.5 graden.\nDe
+        temperatuur in Napels is 18.1 graden.\nDe temperatuur in Rotterdam is 11.7
+        graden.\nDe temperatuur in Rome is 13.7 graden.\nDe temperatuur in Boedapest
+        is 7.4 graden.\nDe temperatuur in Sofia is 12.9 graden.\nDe temperatuur in
+        München is 11.0 graden.\nDe temperatuur in Keulen is 12.0 graden.\nDe temperatuur
+        in Gent is 12.1 graden.\nDe temperatuur in Amsterdam is 13.4 graden.\nDe temperatuur
+        in Sevilla is 21.9 graden.\nDe temperatuur in Dublin is 9.9 graden.\nDe temperatuur
+        in Lyon is 11.9 graden.\nDe temperatuur in Edinburgh is 12.2 graden.\nDe temperatuur
+        in Oslo is 4.7 graden.\nDe temperatuur in Frankfurt is 10.8 graden.\nDe temperatuur
+        in Nice is 13.8 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Utrecht': 9.2, 'Antwerpen': 6.7, 'Warschau': 12.4,
+        'Birmingham': 13.2, 'Edinburgh': 9.6, 'Boedapest': 10.7, 'Maastricht': 9.8,
+        'Den Haag': 14.1, 'Genève': 7.2, 'Porto': 13.6, 'Valencia': 18.5, 'Oslo':
+        2.3, 'Wenen': 9.7, 'Dublin': 14.6, 'Nice': 19.3, 'Hamburg': 4.5, 'Helsinki':
+        8.0, 'Barcelona': 18.7, 'Zürich': 11.9, 'Bratislava': 14.6, 'Leeuwarden':
+        6.2})"
+      stdout: "De temperatuur in Utrecht is 9.2 graden.\nDe temperatuur in Antwerpen
+        is 6.7 graden.\nDe temperatuur in Warschau is 12.4 graden.\nDe temperatuur
+        in Birmingham is 13.2 graden.\nDe temperatuur in Edinburgh is 9.6 graden.\n
+        De temperatuur in Boedapest is 10.7 graden.\nDe temperatuur in Maastricht
+        is 9.8 graden.\nDe temperatuur in Den Haag is 14.1 graden.\nDe temperatuur
+        in Genève is 7.2 graden.\nDe temperatuur in Porto is 13.6 graden.\nDe temperatuur
+        in Valencia is 18.5 graden.\nDe temperatuur in Oslo is 2.3 graden.\nDe temperatuur
+        in Wenen is 9.7 graden.\nDe temperatuur in Dublin is 14.6 graden.\nDe temperatuur
+        in Nice is 19.3 graden.\nDe temperatuur in Hamburg is 4.5 graden.\nDe temperatuur
+        in Helsinki is 8.0 graden.\nDe temperatuur in Barcelona is 18.7 graden.\n
+        De temperatuur in Zürich is 11.9 graden.\nDe temperatuur in Bratislava is
+        14.6 graden.\nDe temperatuur in Leeuwarden is 6.2 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Maastricht': 12.8, 'Lyon': 10.0, 'Berlijn': 6.9,
+        'Zürich': 12.9, 'Helsinki': 2.4, 'Groningen': 9.5, 'Milaan': 16.4, 'Sofia':
+        10.9, 'Leeuwarden': 10.6, 'Manchester': 11.3, 'Krakau': 4.4, 'Rome': 20.2,
+        'Dublin': 11.8, 'Boedapest': 15.3, 'Sevilla': 23.9, 'Antwerpen': 9.5, 'Gent':
+        6.4, 'Nice': 12.9, 'Eindhoven': 6.6, 'Marseille': 12.4, 'Edinburgh': 9.0,
+        'Keulen': 5.4})"
+      stdout: "De temperatuur in Maastricht is 12.8 graden.\nDe temperatuur in Lyon
+        is 10.0 graden.\nDe temperatuur in Berlijn is 6.9 graden.\nDe temperatuur
+        in Zürich is 12.9 graden.\nDe temperatuur in Helsinki is 2.4 graden.\nDe temperatuur
+        in Groningen is 9.5 graden.\nDe temperatuur in Milaan is 16.4 graden.\nDe
+        temperatuur in Sofia is 10.9 graden.\nDe temperatuur in Leeuwarden is 10.6
+        graden.\nDe temperatuur in Manchester is 11.3 graden.\nDe temperatuur in Krakau
+        is 4.4 graden.\nDe temperatuur in Rome is 20.2 graden.\nDe temperatuur in
+        Dublin is 11.8 graden.\nDe temperatuur in Boedapest is 15.3 graden.\nDe temperatuur
+        in Sevilla is 23.9 graden.\nDe temperatuur in Antwerpen is 9.5 graden.\nDe
+        temperatuur in Gent is 6.4 graden.\nDe temperatuur in Nice is 12.9 graden.\n
+        De temperatuur in Eindhoven is 6.6 graden.\nDe temperatuur in Marseille is
+        12.4 graden.\nDe temperatuur in Edinburgh is 9.0 graden.\nDe temperatuur in
+        Keulen is 5.4 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Gent': 14.8, 'Rotterdam': 7.9, 'Edinburgh': 4.8,
+        'Nijmegen': 8.6, 'Sevilla': 14.4, 'Lissabon': 14.5, 'Nice': 12.3, 'Frankfurt':
+        11.3, 'Hamburg': 5.8, 'Parijs': 12.5, 'Praag': 4.4, 'Antwerpen': 13.8, 'Genève':
+        6.1, 'Boedapest': 14.1, 'Krakau': 3.7, 'Warschau': 4.4, 'Valencia': 19.9,
+        'Porto': 17.2, 'Brussel': 14.5, 'Arnhem': 9.4, 'Keulen': 8.1, 'Berlijn': 14.5,
+        'Londen': 11.7})"
+      stdout: "De temperatuur in Gent is 14.8 graden.\nDe temperatuur in Rotterdam
+        is 7.9 graden.\nDe temperatuur in Edinburgh is 4.8 graden.\nDe temperatuur
+        in Nijmegen is 8.6 graden.\nDe temperatuur in Sevilla is 14.4 graden.\nDe
+        temperatuur in Lissabon is 14.5 graden.\nDe temperatuur in Nice is 12.3 graden.\n
+        De temperatuur in Frankfurt is 11.3 graden.\nDe temperatuur in Hamburg is
+        5.8 graden.\nDe temperatuur in Parijs is 12.5 graden.\nDe temperatuur in Praag
+        is 4.4 graden.\nDe temperatuur in Antwerpen is 13.8 graden.\nDe temperatuur
+        in Genève is 6.1 graden.\nDe temperatuur in Boedapest is 14.1 graden.\nDe
+        temperatuur in Krakau is 3.7 graden.\nDe temperatuur in Warschau is 4.4 graden.\n
+        De temperatuur in Valencia is 19.9 graden.\nDe temperatuur in Porto is 17.2
+        graden.\nDe temperatuur in Brussel is 14.5 graden.\nDe temperatuur in Arnhem
+        is 9.4 graden.\nDe temperatuur in Keulen is 8.1 graden.\nDe temperatuur in
+        Berlijn is 14.5 graden.\nDe temperatuur in Londen is 11.7 graden.\n"
+  - testcases:
+    - expression: "temperatuur({'Arnhem': 13.8, 'Birmingham': 7.0, 'Hamburg': 9.1,
+        'Helsinki': 3.4, 'Brussel': 9.1, 'Dublin': 6.9, 'Parijs': 11.7, 'Berlijn':
+        7.7, 'Londen': 9.7, 'Praag': 4.2, 'Milaan': 10.1, 'Lissabon': 22.3, 'Nijmegen':
+        13.9, 'Boedapest': 7.8, 'Leeuwarden': 12.2, 'Bratislava': 6.0, 'Manchester':
+        12.0, 'Edinburgh': 4.4, 'Genève': 12.3, 'Kopenhagen': 13.3, 'Madrid': 12.2,
+        'Krakau': 4.0, 'Wenen': 12.1, 'Den Haag': 7.9})"
+      stdout: "De temperatuur in Arnhem is 13.8 graden.\nDe temperatuur in Birmingham
+        is 7.0 graden.\nDe temperatuur in Hamburg is 9.1 graden.\nDe temperatuur in
+        Helsinki is 3.4 graden.\nDe temperatuur in Brussel is 9.1 graden.\nDe temperatuur
+        in Dublin is 6.9 graden.\nDe temperatuur in Parijs is 11.7 graden.\nDe temperatuur
+        in Berlijn is 7.7 graden.\nDe temperatuur in Londen is 9.7 graden.\nDe temperatuur
+        in Praag is 4.2 graden.\nDe temperatuur in Milaan is 10.1 graden.\nDe temperatuur
+        in Lissabon is 22.3 graden.\nDe temperatuur in Nijmegen is 13.9 graden.\n
+        De temperatuur in Boedapest is 7.8 graden.\nDe temperatuur in Leeuwarden is
+        12.2 graden.\nDe temperatuur in Bratislava is 6.0 graden.\nDe temperatuur
+        in Manchester is 12.0 graden.\nDe temperatuur in Edinburgh is 4.4 graden.\n
+        De temperatuur in Genève is 12.3 graden.\nDe temperatuur in Kopenhagen is
+        13.3 graden.\nDe temperatuur in Madrid is 12.2 graden.\nDe temperatuur in
+        Krakau is 4.0 graden.\nDe temperatuur in Wenen is 12.1 graden.\nDe temperatuur
+        in Den Haag is 7.9 graden.\n"
