@@ -70,6 +70,8 @@ while len(cases) < ntests:
     m[r][c] = (m[r][c] + 1) % 2
     cases.append(m )
 
+cases = sorted(cases, key = lambda x: len(x))
+
 
 # generate unit tests for functions
 yamldata = []
