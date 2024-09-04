@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Som van complexe getallen"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "tuples",
+    "functies"
+  ],
+  "access": "public"
+}

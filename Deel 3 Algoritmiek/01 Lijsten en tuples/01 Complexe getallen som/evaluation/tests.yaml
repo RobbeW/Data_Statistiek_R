@@ -1,0 +1,102 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: som_complex((3, -2), (5, 3))
+      return: !tuple
+      - 8
+      - 1
+  - testcases:
+    - expression: som_complex((16, -24), (10, 7))
+      return: !tuple
+      - 26
+      - -17
+  - testcases:
+    - expression: som_complex((-16, 18), (-14, 19))
+      return: !tuple
+      - -30
+      - 37
+  - testcases:
+    - expression: som_complex((8, 2), (7, 16))
+      return: !tuple
+      - 15
+      - 18
+  - testcases:
+    - expression: som_complex((28, 2), (-26, 18))
+      return: !tuple
+      - 2
+      - 20
+  - testcases:
+    - expression: som_complex((-9, -23), (-21, 30))
+      return: !tuple
+      - -30
+      - 7
+  - testcases:
+    - expression: som_complex((23, -8), (-29, 26))
+      return: !tuple
+      - -6
+      - 18
+  - testcases:
+    - expression: som_complex((1, -28), (19, 23))
+      return: !tuple
+      - 20
+      - -5
+  - testcases:
+    - expression: som_complex((-7, 16), (25, -16))
+      return: !tuple
+      - 18
+      - 0
+  - testcases:
+    - expression: som_complex((0, 4), (-28, -1))
+      return: !tuple
+      - -28
+      - 3
+  - testcases:
+    - expression: som_complex((-16, 5), (-22, -14))
+      return: !tuple
+      - -38
+      - -9
+  - testcases:
+    - expression: som_complex((-26, -7), (-28, -3))
+      return: !tuple
+      - -54
+      - -10
+  - testcases:
+    - expression: som_complex((25, -13), (5, 23))
+      return: !tuple
+      - 30
+      - 10
+  - testcases:
+    - expression: som_complex((10, -11), (-6, -19))
+      return: !tuple
+      - 4
+      - -30
+  - testcases:
+    - expression: som_complex((15, -27), (-22, -15))
+      return: !tuple
+      - -7
+      - -42
+  - testcases:
+    - expression: som_complex((-17, 21), (4, -5))
+      return: !tuple
+      - -13
+      - 16
+  - testcases:
+    - expression: som_complex((1, -19), (26, 3))
+      return: !tuple
+      - 27
+      - -16
+  - testcases:
+    - expression: som_complex((7, -1), (17, -27))
+      return: !tuple
+      - 24
+      - -28
+  - testcases:
+    - expression: som_complex((-7, 8), (-16, -21))
+      return: !tuple
+      - -23
+      - -13
+  - testcases:
+    - expression: som_complex((-24, -2), (-21, 23))
+      return: !tuple
+      - -45
+      - 21
