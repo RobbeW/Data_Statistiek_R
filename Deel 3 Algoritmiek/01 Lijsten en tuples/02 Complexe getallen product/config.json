@@ -12,5 +12,9 @@
     "tuples",
     "functies"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "wS5kF9ZxG6nBj9uCUIb6etFjw_VBdvfBY9fVa3sveX7jrjB-74ZMhJ2cavT6JXAY",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
