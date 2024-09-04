@@ -14,7 +14,7 @@ Je programma retourneert het product als een tupel. Bestudeer grondig onderstaan
 #### Voorbeeld
 
 ```python
->>> som_complex((3, -2), (5, 3))
+>>> product_complex((3, -2), (5, 3))
 (21, -1)
 ```
 
