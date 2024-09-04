@@ -1,0 +1,528 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: programmeertalen(['Scratch', 'JavaScript'])
+      return:
+        Scratch: 1
+        JavaScript: 1
+  - testcases:
+    - expression: programmeertalen(['Ada', 'Java'])
+      return:
+        Ada: 1
+        Java: 1
+  - testcases:
+    - expression: programmeertalen(['Fortran', 'SQL'])
+      return:
+        Fortran: 1
+        SQL: 1
+  - testcases:
+    - expression: programmeertalen(['R', 'Assembly', '.NET'])
+      return:
+        R: 1
+        Assembly: 1
+        .NET: 1
+  - testcases:
+    - expression: programmeertalen(['C++', 'C++', 'Shell'])
+      return:
+        C++: 2
+        Shell: 1
+  - testcases:
+    - expression: programmeertalen(['Ruby', 'Prolog', 'Shell'])
+      return:
+        Ruby: 1
+        Prolog: 1
+        Shell: 1
+  - testcases:
+    - expression: programmeertalen(['.NET', 'Prolog', 'PHP', 'Ada'])
+      return:
+        .NET: 1
+        Prolog: 1
+        PHP: 1
+        Ada: 1
+  - testcases:
+    - expression: programmeertalen(['Shell', 'Java', 'Perl', 'CSS', 'Kotlin', 'Python'])
+      return:
+        Shell: 1
+        Java: 1
+        Perl: 1
+        CSS: 1
+        Kotlin: 1
+        Python: 1
+  - testcases:
+    - expression: programmeertalen(['Julia', 'COBOL', 'Go', 'Shell', 'JavaScript',
+        'Java'])
+      return:
+        Julia: 1
+        COBOL: 1
+        Go: 1
+        Shell: 1
+        JavaScript: 1
+        Java: 1
+  - testcases:
+    - expression: programmeertalen(['Kotlin', 'C++', 'TypeScript', 'Scratch', 'Rust',
+        'Julia'])
+      return:
+        Kotlin: 1
+        C++: 1
+        TypeScript: 1
+        Scratch: 1
+        Rust: 1
+        Julia: 1
+  - testcases:
+    - expression: programmeertalen(['Julia', 'Perl', 'Assembly', 'Rust', 'Ruby', 'TypeScript',
+        'Ruby'])
+      return:
+        Julia: 1
+        Perl: 1
+        Assembly: 1
+        Rust: 1
+        Ruby: 2
+        TypeScript: 1
+  - testcases:
+    - expression: programmeertalen(['Julia', '.NET', 'Java', 'TypeScript', 'Assembly',
+        'Assembly', 'Ruby', 'Rust', 'Perl'])
+      return:
+        Julia: 1
+        .NET: 1
+        Java: 1
+        TypeScript: 1
+        Assembly: 2
+        Ruby: 1
+        Rust: 1
+        Perl: 1
+  - testcases:
+    - expression: programmeertalen(['PHP', 'Shell', 'C', 'Swift', 'PHP', 'C', 'Kotlin',
+        'TypeScript', 'Fortran', 'Assembly'])
+      return:
+        PHP: 2
+        Shell: 1
+        C: 2
+        Swift: 1
+        Kotlin: 1
+        TypeScript: 1
+        Fortran: 1
+        Assembly: 1
+  - testcases:
+    - expression: programmeertalen(['CSS', 'Lua', 'Julia', 'Haskell', 'Kotlin', 'R',
+        'Prolog', 'SQL', 'COBOL', 'CSS', '.NET', 'Fortran', 'Prolog', 'Scratch', 'Rust',
+        'PHP', 'Swift', 'Python', 'R', 'HTML', '.NET', 'Ruby', 'Fortran', 'HTML',
+        'Assembly', 'Prolog', 'SQL', 'HTML', 'C++', 'Shell', 'Rust', 'Julia', 'Prolog',
+        'JavaScript', 'Ruby', '.NET', 'Scratch', 'Ada', 'TypeScript', 'Kotlin', 'SQL',
+        'C++', 'Prolog', 'Prolog', 'Prolog', 'Python', 'HTML', 'Perl', 'Scratch',
+        'PHP', 'JavaScript', 'C++', 'PHP', 'HTML'])
+      return:
+        CSS: 2
+        Lua: 1
+        Julia: 2
+        Haskell: 1
+        Kotlin: 2
+        R: 2
+        Prolog: 7
+        SQL: 3
+        COBOL: 1
+        .NET: 3
+        Fortran: 2
+        Scratch: 3
+        Rust: 2
+        PHP: 3
+        Swift: 1
+        Python: 2
+        HTML: 5
+        Ruby: 2
+        Assembly: 1
+        C++: 3
+        Shell: 1
+        JavaScript: 2
+        Ada: 1
+        TypeScript: 1
+        Perl: 1
+  - testcases:
+    - expression: programmeertalen(['Scratch', 'Java', 'Go', 'Lua', 'Java', 'SQL',
+        'Swift', 'Haskell', 'Perl', 'Haskell', 'Prolog', 'SQL', 'C', 'R', 'COBOL',
+        'Perl', 'Haskell', 'Prolog', 'Scratch', 'Prolog', 'COBOL', 'Shell', 'Fortran',
+        'Go', 'Fortran', 'Kotlin', 'Ruby', 'Lua', 'SAS', 'Go', 'Python', 'Haskell',
+        'Julia', 'C', 'Julia', 'Ada', 'Julia', 'Assembly', '.NET', 'Perl', 'C++',
+        'R', 'Kotlin', 'SQL', '.NET', 'Julia', 'Haskell', 'Fortran', 'Java', 'Ada',
+        'COBOL', 'Fortran', 'Ada', 'Shell', 'PHP', 'SQL', 'Python', 'Ruby', 'Fortran',
+        'Ada'])
+      return:
+        Scratch: 2
+        Java: 3
+        Go: 3
+        Lua: 2
+        SQL: 4
+        Swift: 1
+        Haskell: 5
+        Perl: 3
+        Prolog: 3
+        C: 2
+        R: 2
+        COBOL: 3
+        Shell: 2
+        Fortran: 5
+        Kotlin: 2
+        Ruby: 2
+        SAS: 1
+        Python: 2
+        Julia: 4
+        Ada: 4
+        Assembly: 1
+        .NET: 2
+        C++: 1
+        PHP: 1
+  - testcases:
+    - expression: programmeertalen(['Ada', 'COBOL', 'Fortran', 'Python', 'JavaScript',
+        'C', 'TypeScript', 'Scratch', 'Scratch', 'R', 'PHP', 'Rust', 'Perl', 'CSS',
+        'SAS', 'PHP', 'JavaScript', 'PHP', 'JavaScript', '.NET', 'Assembly', 'Python',
+        'SAS', 'Lua', 'Lua', 'Fortran', 'Swift', 'TypeScript', 'C++', 'Fortran', 'Prolog',
+        'Haskell', 'Rust', 'Julia', 'Assembly', 'Prolog', 'Scratch', 'Java', 'Swift',
+        'Fortran', 'Julia', 'Shell', 'JavaScript', 'TypeScript', 'Haskell', 'SAS',
+        'Swift', 'JavaScript', '.NET', 'Julia', 'SQL', 'Java', 'Perl', 'COBOL', 'Shell',
+        'SAS', 'Scratch', 'Scratch', 'TypeScript', 'SAS', '.NET', 'Go', 'Fortran',
+        'Ada', 'Scratch', 'Java', 'Rust', 'HTML', 'R', '.NET', 'Ruby', 'Shell', 'Python',
+        'Fortran', 'SQL', 'Python', 'Fortran', 'Fortran', 'R', 'JavaScript'])
+      return:
+        Ada: 2
+        COBOL: 2
+        Fortran: 8
+        Python: 4
+        JavaScript: 6
+        C: 1
+        TypeScript: 4
+        Scratch: 6
+        R: 3
+        PHP: 3
+        Rust: 3
+        Perl: 2
+        CSS: 1
+        SAS: 5
+        .NET: 4
+        Assembly: 2
+        Lua: 2
+        Swift: 3
+        C++: 1
+        Prolog: 2
+        Haskell: 2
+        Julia: 3
+        Java: 3
+        Shell: 3
+        SQL: 2
+        Go: 1
+        HTML: 1
+        Ruby: 1
+  - testcases:
+    - expression: programmeertalen(['Java', 'Shell', 'C++', 'Java', 'Ada', 'CSS',
+        'Perl', 'Shell', '.NET', 'SAS', 'Kotlin', 'Ruby', 'C', 'Java', 'Haskell',
+        'Perl', 'Swift', 'JavaScript', 'Swift', 'Kotlin', 'Haskell', 'Scratch', 'Python',
+        'Ruby', 'Kotlin', 'Lua', 'COBOL', 'CSS', 'TypeScript', 'Shell', '.NET', 'PHP',
+        'Go', 'C++', 'C', 'C++', 'COBOL', 'Kotlin', 'Haskell', 'Shell', 'Prolog',
+        'SAS', 'Go', 'Scratch', 'C', 'Ada', 'Fortran', 'Scratch', 'C', 'COBOL', 'Rust',
+        'Kotlin', 'Java', 'R', 'Ada', 'Perl', 'Assembly', 'Fortran', 'Prolog', 'Scratch',
+        'Rust', 'Ada', 'Fortran', 'C', 'Python', 'Ada', 'Go', 'TypeScript', 'Lua',
+        'PHP', 'COBOL', 'Lua', 'Julia', 'Ada', 'C++', 'Julia', 'Rust', 'R', 'JavaScript',
+        'SAS', 'PHP', 'Go', 'Ada', 'JavaScript', 'Python', 'Prolog', 'C++', 'Lua'])
+      return:
+        Java: 4
+        Shell: 4
+        C++: 5
+        Ada: 7
+        CSS: 2
+        Perl: 3
+        .NET: 2
+        SAS: 3
+        Kotlin: 5
+        Ruby: 2
+        C: 5
+        Haskell: 3
+        Swift: 2
+        JavaScript: 3
+        Scratch: 4
+        Python: 3
+        Lua: 4
+        COBOL: 4
+        TypeScript: 2
+        PHP: 3
+        Go: 4
+        Prolog: 3
+        Fortran: 3
+        Rust: 3
+        R: 2
+        Assembly: 1
+        Julia: 2
+  - testcases:
+    - expression: programmeertalen(['SQL', 'Swift', 'Go', 'Shell', 'Shell', 'Assembly',
+        'Java', 'TypeScript', 'C++', 'Fortran', 'Python', 'Scratch', 'Lua', 'Prolog',
+        'Fortran', 'CSS', 'Swift', 'Haskell', 'Perl', 'Haskell', 'Go', 'Kotlin', 'R',
+        'Go', 'Fortran', 'SAS', 'Rust', 'CSS', 'C', 'Swift', 'Haskell', 'Lua', 'Ada',
+        'Julia', '.NET', 'Kotlin', 'Swift', 'C', 'C++', 'Rust', 'COBOL', 'Swift',
+        'PHP', 'Swift', 'Rust', 'Ada', 'Perl', 'HTML', 'SQL', 'SQL', 'Rust', 'Kotlin',
+        'CSS', 'CSS', 'PHP', 'SAS', 'Ruby', 'R', 'Haskell', 'TypeScript', 'Java',
+        'Ruby', 'SQL', 'Prolog', 'COBOL', 'Ada', 'C', 'Kotlin', 'COBOL', 'Lua', 'Rust',
+        'Ruby', 'PHP', 'Swift', 'HTML', 'CSS', 'CSS', 'Scratch', 'TypeScript', 'Ada',
+        'Rust', 'C++', 'Java', 'Swift', 'Ruby', 'C++', 'Assembly', 'SAS', 'C++', 'Ada',
+        'PHP', 'C++', 'Go', 'Fortran', 'Perl', 'Swift', 'Perl', 'R', 'Perl', 'PHP',
+        'Swift', 'Rust', '.NET', 'Shell', 'Shell', 'R', 'Python', 'Shell', 'Perl',
+        'Ruby', 'Ada', 'TypeScript', 'CSS', 'HTML', 'SQL', 'Prolog', 'C++', 'Scratch',
+        'JavaScript', 'Ada', 'Ada', 'Fortran', 'Fortran', '.NET', 'Haskell', 'Kotlin',
+        'CSS', 'Ada', 'Python', 'C', 'Fortran', 'Python', 'Haskell', '.NET', '.NET',
+        '.NET', '.NET', 'CSS', 'TypeScript', 'R', 'Swift', 'Perl', 'Ada', 'Ada', 'Ruby',
+        'TypeScript', 'C++', 'PHP', 'Julia', 'Ruby', 'C', 'Python', 'C', 'Swift',
+        'Kotlin', 'Java', 'Scratch', 'PHP', 'Julia', 'Julia', 'TypeScript', 'Prolog',
+        '.NET', 'SQL', 'JavaScript', 'Julia', '.NET', 'TypeScript', '.NET', 'Perl',
+        'R', 'Fortran', 'SAS', 'Swift', 'SQL', 'Lua', 'JavaScript', 'SAS', 'Python',
+        'Assembly', 'Go', 'Ada', 'Prolog', 'SQL', 'Lua', 'Scratch', 'Haskell', 'Kotlin',
+        'HTML', 'JavaScript', 'Shell', 'Rust', 'SAS', 'Rust', 'Go', 'Java', 'Assembly',
+        'COBOL', 'Scratch', 'Java', 'SQL', 'Assembly'])
+      return:
+        SQL: 9
+        Swift: 13
+        Go: 6
+        Shell: 6
+        Assembly: 5
+        Java: 6
+        TypeScript: 8
+        C++: 8
+        Fortran: 8
+        Python: 6
+        Scratch: 6
+        Lua: 5
+        Prolog: 5
+        CSS: 9
+        Haskell: 7
+        Perl: 8
+        Kotlin: 7
+        R: 6
+        SAS: 6
+        Rust: 9
+        C: 6
+        Ada: 12
+        Julia: 5
+        .NET: 10
+        COBOL: 4
+        PHP: 7
+        HTML: 4
+        Ruby: 7
+        JavaScript: 4
+  - testcases:
+    - expression: programmeertalen(['Ada', 'Julia', 'JavaScript', 'C++', 'Go', 'Lua',
+        'Go', 'TypeScript', 'COBOL', 'Prolog', 'Perl', 'PHP', 'Rust', 'Java', 'Swift',
+        'Ruby', 'Ada', 'Python', 'Ruby', 'SAS', 'Ada', 'Kotlin', 'COBOL', 'JavaScript',
+        'CSS', 'Ruby', 'Java', 'CSS', 'Prolog', 'Assembly', 'PHP', 'Go', 'JavaScript',
+        'SAS', 'Ruby', 'HTML', 'Swift', 'Haskell', 'C++', 'Ada', 'Fortran', 'JavaScript',
+        'TypeScript', 'JavaScript', 'Fortran', 'SQL', 'TypeScript', 'Ruby', 'COBOL',
+        'Swift', 'Ada', 'Java', 'HTML', 'Fortran', 'SAS', 'Ruby', 'C', 'Perl', 'SAS',
+        'Julia', 'Go', 'SQL', 'Fortran', 'Go', 'CSS', 'Julia', 'R', 'TypeScript',
+        'Ada', 'Kotlin', '.NET', 'COBOL', 'Assembly', 'Scratch', 'PHP', 'JavaScript',
+        'Fortran', 'Kotlin', 'Julia', 'JavaScript', 'Scratch', 'Swift', 'SQL', 'Julia',
+        'Scratch', 'Julia', 'Prolog', 'Scratch', 'Python', 'Rust', 'Prolog', 'Ruby',
+        'CSS', 'HTML', 'Go', 'HTML', 'Ada', 'Perl', 'SQL', 'C++', 'JavaScript', 'HTML',
+        'CSS', 'Julia', 'C', 'Fortran', 'C', 'Go', 'Ada', 'Rust', 'SAS', '.NET', 'SQL',
+        'C', 'R', 'Python', 'Haskell', 'SAS', 'Kotlin', 'JavaScript', 'TypeScript',
+        'Java', 'Ruby', 'Swift', 'Python', 'R', 'Ruby', 'HTML', 'CSS', 'TypeScript',
+        'Haskell', 'Lua', 'R', 'JavaScript', 'CSS', 'PHP', 'R', 'Fortran', 'R', 'Swift',
+        'CSS', 'Shell', 'Ada', 'Fortran', 'COBOL', 'Go', 'TypeScript', 'HTML', '.NET',
+        'Swift', 'Shell', 'Python', 'CSS', 'C++', 'Lua', 'C++', 'PHP', 'Haskell',
+        'Perl', 'Shell', 'Kotlin', 'COBOL', 'Assembly', 'Ada', 'SAS', 'TypeScript',
+        'Swift', 'C', 'Swift', 'Shell', 'Python', 'Prolog', 'SQL', 'Python', 'PHP',
+        'Ada', 'JavaScript', 'C', 'Prolog', 'Scratch', 'Assembly', 'Fortran', 'Python',
+        'Go', 'Perl', 'Ruby', 'CSS', 'CSS', 'Fortran', 'HTML', 'Swift', 'Swift', 'Ruby',
+        'C++', 'R', 'Haskell', 'PHP', 'Scratch', 'Java', 'Julia', 'C', 'Prolog', 'JavaScript',
+        'Swift', 'COBOL', 'Rust', 'R', 'Ada', 'JavaScript', 'C', 'Swift', 'JavaScript',
+        'Shell', '.NET', 'HTML', 'C', 'Scratch', 'Julia', 'R', 'TypeScript', 'Perl',
+        'SAS', 'SQL', 'Ada', 'Julia', 'Ada', 'Scratch', 'Shell', 'C++', 'Julia', 'PHP',
+        'Assembly', 'COBOL', 'Shell', 'C++', 'Rust', 'Lua', 'JavaScript', 'Fortran',
+        'Haskell', 'TypeScript', 'Julia', 'Rust', 'C', 'R', 'SAS', 'Ada', 'Python',
+        'CSS', 'CSS', 'Lua', '.NET', 'Assembly', 'C', 'Ruby', 'C++', 'Perl', 'Fortran',
+        'Rust', 'Ruby', 'Lua', 'Go', 'Java', 'Rust', 'Assembly', 'Shell', 'R', 'SAS',
+        'Java', 'COBOL', 'JavaScript', 'Assembly', 'Scratch', 'JavaScript', 'Haskell',
+        'TypeScript', 'Go', 'Lua', '.NET', 'Fortran', 'TypeScript', 'Python', 'Perl',
+        'CSS', 'PHP', 'PHP', 'R', 'Haskell', 'Assembly', 'JavaScript', 'Rust', 'Julia',
+        'Java', 'JavaScript', 'Kotlin', 'SQL', 'PHP', 'Fortran', 'Prolog', 'Perl',
+        'Assembly', 'Haskell', 'Java', 'C++', 'Perl', 'Perl', 'Haskell', 'SAS', 'Assembly',
+        'JavaScript', 'Ada', 'Fortran', 'Haskell', 'C', 'Perl', 'Prolog', 'JavaScript',
+        'Lua', 'Fortran', 'SQL', '.NET', 'SAS', '.NET', 'Assembly', 'HTML', 'R', 'Perl',
+        'CSS', 'Java', 'Perl', 'CSS', 'R', 'Fortran', 'Shell', 'Java', 'CSS', 'Go',
+        'C++', 'Lua', 'Prolog', 'Go', 'Perl', 'Prolog', 'Java', 'COBOL', 'Swift',
+        'Prolog', 'CSS', 'Ruby', 'Scratch', 'Go', 'Perl', 'C++', 'Python', 'Python',
+        'Ruby', 'Lua', 'Ruby', 'Swift', '.NET', 'SQL', 'SAS', 'Assembly', 'Python',
+        'Swift', 'Julia', 'CSS', 'Go', 'COBOL', 'Kotlin', 'HTML', 'Java', 'JavaScript',
+        'Julia', 'CSS', 'JavaScript', 'Scratch', 'Java', 'SAS', 'Kotlin', 'C', 'Fortran',
+        'Perl', 'Prolog', 'Fortran', 'HTML', 'JavaScript', 'Shell', 'Kotlin', 'JavaScript',
+        'Perl', 'Lua', 'Perl', 'C', 'Java', 'Kotlin', 'SQL', 'Perl', 'R', 'R', 'Perl',
+        'PHP', 'Shell', 'Python', 'Ada', 'Kotlin', 'Julia', 'Haskell', 'PHP', 'C++',
+        'Haskell', 'C++', 'Prolog', 'CSS', 'Prolog', 'Ruby', 'Go', 'Python', 'Lua',
+        'Python', 'PHP', 'Python', 'Python', 'Assembly', 'Lua', '.NET', 'CSS', 'Scratch',
+        'TypeScript', 'Perl', 'Python', 'CSS', 'Scratch'])
+      return:
+        Ada: 17
+        Julia: 16
+        JavaScript: 25
+        C++: 14
+        Go: 16
+        Lua: 13
+        TypeScript: 13
+        COBOL: 11
+        Prolog: 15
+        Perl: 22
+        PHP: 14
+        Rust: 9
+        Java: 15
+        Swift: 16
+        Ruby: 17
+        Python: 19
+        SAS: 14
+        Kotlin: 11
+        CSS: 23
+        Assembly: 14
+        HTML: 12
+        Haskell: 13
+        Fortran: 19
+        SQL: 11
+        C: 14
+        R: 16
+        .NET: 10
+        Scratch: 13
+        Shell: 11
+  - testcases:
+    - expression: programmeertalen(['Rust', 'Assembly', 'Julia', 'SAS', 'Fortran',
+        'Lua', 'COBOL', 'Ruby', 'Ruby', 'JavaScript', 'Lua', 'Julia', 'HTML', 'C',
+        'SAS', 'C', 'Ruby', 'SQL', 'Prolog', 'HTML', 'Lua', 'Lua', 'COBOL', 'Java',
+        'Swift', 'Haskell', 'Lua', 'Python', 'CSS', 'PHP', 'Java', 'Rust', 'Swift',
+        'TypeScript', 'Haskell', 'SAS', 'Scratch', 'Swift', 'Haskell', 'Haskell',
+        'Perl', 'TypeScript', 'Ada', 'Prolog', 'CSS', 'Lua', 'Lua', 'Python', 'Haskell',
+        'Ruby', 'Python', 'C++', 'SQL', 'COBOL', 'Rust', 'C', 'Haskell', 'Scratch',
+        'Assembly', 'Lua', 'JavaScript', 'Assembly', 'Lua', 'C++', 'Lua', 'SAS', 'Shell',
+        'PHP', 'Java', 'TypeScript', 'JavaScript', 'Java', 'Prolog', 'COBOL', 'Rust',
+        'Ada', 'Java', 'HTML', 'C++', 'Fortran', 'Scratch', 'Ada', 'Python', 'Ruby',
+        'Perl', 'R', 'Scratch', 'Perl', 'Julia', 'Python', 'Rust', 'COBOL', 'Ruby',
+        'PHP', 'C++', 'Python', '.NET', 'PHP', 'Rust', 'Perl', 'C', 'Swift', 'C++',
+        'C', 'C', 'Java', 'Python', 'TypeScript', 'Ruby', 'Ruby', 'Swift', 'Assembly',
+        'SQL', 'Fortran', 'Rust', 'SAS', 'Java', 'Java', 'Java', 'Ruby', 'Rust', 'SQL',
+        'Java', 'Haskell', 'Rust', 'JavaScript', 'TypeScript', 'C++', '.NET', 'C',
+        'Ada', 'Java', 'Ada', 'Lua', 'Ruby', 'Kotlin', 'HTML', 'JavaScript', 'Go',
+        'Shell', '.NET', '.NET', 'TypeScript', 'Fortran', 'R', 'C', 'COBOL', 'Perl',
+        'Shell', 'Shell', 'Perl', 'Prolog', 'Scratch', 'Swift', 'SAS', 'TypeScript',
+        'PHP', 'TypeScript', 'SQL', 'Perl', 'Ruby', 'Rust', 'Ada', 'Haskell', 'TypeScript',
+        'Shell', 'R', 'TypeScript', 'Perl', 'Rust', 'Perl', 'Lua', 'SAS', 'C', 'Prolog',
+        'Java', 'Go', 'Perl', 'SQL', 'CSS', 'TypeScript', 'Assembly', 'Rust', 'Prolog',
+        'CSS', 'Fortran', 'Python', 'PHP', 'Python', 'Julia', 'Scratch', '.NET', 'Kotlin',
+        'Haskell', 'Ruby', 'Shell', 'SQL', 'C++', 'HTML', 'Prolog', 'Java', 'Haskell',
+        'Shell', 'Lua', 'Haskell', 'JavaScript', 'SQL', 'JavaScript', 'Perl', 'SAS',
+        'Shell', 'Shell', 'COBOL', 'Shell', 'SQL', 'Ruby', 'Shell', 'HTML', 'HTML',
+        'Scratch', 'C++', 'C++', 'HTML', 'COBOL', 'Ruby', 'Scratch', 'Haskell', 'Java',
+        'Rust', 'SQL', 'PHP', 'Python', 'SAS', 'Prolog', 'Prolog', 'CSS', 'Ada', 'Julia',
+        'C', 'Lua', 'Haskell', 'PHP', 'JavaScript', 'Java', 'Java', 'Swift', 'Ruby',
+        '.NET', 'Java', 'Python', 'COBOL', 'JavaScript', 'Rust', 'Prolog', 'Java',
+        'C', 'Julia', 'Ada', 'C++', 'Ruby', '.NET', 'Perl', 'SQL', 'Julia', 'Shell',
+        'PHP', 'Assembly', 'Assembly', 'C', 'Scratch', 'Scratch', 'SQL', 'Assembly',
+        'JavaScript', 'Perl', 'CSS', 'Scratch', 'Java', 'C++', 'HTML', 'Java', 'TypeScript',
+        'Rust', 'HTML', 'C', 'Kotlin', 'Swift', 'CSS', 'CSS', 'C', 'Java', 'COBOL',
+        'Java', 'Lua', 'SQL', 'Go', 'Perl', 'Ada', 'HTML', 'Python', 'PHP', 'Lua',
+        'Python', '.NET', 'Swift', 'Java', 'Java', 'Python', 'PHP', 'Kotlin', 'PHP',
+        'Java', 'Haskell', 'SAS', 'PHP', 'C', 'Julia', 'Swift', 'Kotlin', 'SQL', 'Java',
+        'Go', 'CSS', 'HTML', 'Fortran', 'C++', 'JavaScript', 'Ada', 'PHP', 'Java',
+        'Kotlin', 'Python', 'R', 'Perl', 'Prolog', 'SAS', 'Rust', 'JavaScript', 'Fortran',
+        'Ada', 'Perl', 'SAS', 'Swift', 'SQL', 'CSS', 'Java', 'COBOL', 'SQL', 'Scratch',
+        'COBOL', '.NET', 'TypeScript', 'Swift', 'Scratch', 'Java', 'Ruby', '.NET',
+        'Ruby', 'Kotlin', 'Prolog', 'Julia', 'COBOL', 'TypeScript', 'SAS', 'Prolog',
+        'Fortran', 'Shell', 'Swift', 'Rust', 'Ada', 'Rust', 'SQL', 'Assembly', 'HTML',
+        'Swift', 'HTML', 'Ada', 'PHP', 'Kotlin', 'Shell', 'PHP', 'Java', 'Kotlin',
+        'Lua', 'Fortran', 'TypeScript', 'Fortran', 'HTML', 'SAS', 'Rust', 'COBOL',
+        'Perl', 'SAS', 'COBOL', 'Python', 'Go', 'C', 'HTML', 'Scratch', 'Shell', 'R',
+        'CSS', 'Haskell', 'Perl', 'CSS', 'Go', 'Ruby', 'COBOL', 'Assembly', 'Haskell',
+        'Haskell', 'C', 'Haskell', 'Haskell', 'Rust', 'Lua', 'Kotlin', 'Scratch',
+        'Shell', 'Ada', 'COBOL', 'Perl', 'JavaScript', 'CSS', 'CSS', 'TypeScript',
+        'Java', 'R', '.NET', 'Ruby', 'Swift', 'C++', 'Assembly', 'Perl', 'Prolog',
+        'Kotlin', 'PHP', 'R', 'SAS', 'SAS', 'Ada', 'Java', 'C', 'TypeScript', 'CSS',
+        'HTML', 'Kotlin', 'Assembly', 'Python', 'Fortran', 'Prolog', 'SAS', 'Python',
+        'R', 'Julia', 'Java', 'Shell', 'Shell', 'Shell', 'Rust', 'COBOL', 'C', '.NET',
+        'R', 'Python', 'Assembly', 'SQL', 'R', 'Julia', '.NET', 'Ada', 'R', 'Fortran',
+        'JavaScript', 'Haskell', 'Prolog', 'Prolog', 'C++', 'Python', 'Shell', 'Lua',
+        'Swift', 'Kotlin', 'CSS', 'SAS', 'Scratch', 'Prolog', 'C++', 'Haskell', 'Java',
+        'HTML', 'COBOL', 'Kotlin', 'C++', 'TypeScript', 'Swift', 'Java', 'Swift',
+        'Ada', 'Shell', '.NET', 'Shell', 'PHP', 'SAS', 'SQL', 'Ada', 'SQL', 'HTML',
+        '.NET', 'Lua', 'Kotlin', '.NET', 'HTML', 'PHP', 'HTML', 'R', 'Go', 'JavaScript',
+        'Swift', 'Ruby', 'Python', 'Prolog', 'Rust', 'Python', 'Ada', 'JavaScript',
+        'Go', 'Fortran', 'Prolog', 'Perl', 'Lua', 'Swift', 'TypeScript', 'CSS', 'Assembly',
+        'C++', 'C', 'R', 'Python', 'Prolog', 'Java', 'JavaScript', 'C', 'Python',
+        'SQL', 'HTML', 'Prolog', 'Java', 'Fortran', 'Rust', 'Julia', 'JavaScript',
+        'C++', 'Swift', 'PHP', 'C++', 'Julia', 'COBOL', 'Scratch', 'Fortran', 'Kotlin',
+        'Prolog', 'Haskell', 'Assembly', 'Python', 'Prolog', 'Ada', 'Julia', 'Ruby',
+        'COBOL', 'TypeScript', '.NET', 'COBOL', 'R', 'C++', 'SAS', 'Shell', 'SAS',
+        'Go', 'Prolog', 'Kotlin', 'Rust', 'Swift', 'Prolog', 'CSS', 'CSS', 'SAS',
+        'Kotlin', 'Shell', 'SQL', '.NET', 'SAS', 'HTML', 'JavaScript', 'Fortran',
+        'SAS', 'JavaScript', 'Haskell', 'C', 'TypeScript', 'CSS', 'Swift', 'Fortran',
+        'PHP', 'Haskell', 'Shell', 'Prolog', 'Rust', 'HTML', 'COBOL', 'Haskell', 'R',
+        'C++', 'Scratch', 'Python', 'CSS', 'R', 'Assembly', '.NET', 'R', 'JavaScript',
+        'SQL', 'Java', 'Prolog', 'Swift', 'Python', 'Lua', 'Prolog', 'C', 'SQL', 'C++',
+        'Rust', 'Perl', 'SAS', 'C', 'Assembly', 'Fortran', 'Julia', 'CSS', 'C++',
+        'Go', 'Ruby', 'Julia', 'Julia', 'COBOL', 'Rust', 'Ada', 'Python', 'Fortran',
+        'PHP', 'Kotlin', 'Assembly', 'Ruby', 'JavaScript', 'C++', 'SAS', 'C', 'PHP',
+        'Go', 'Perl', 'Java', 'Haskell', 'Ruby', 'Scratch', 'JavaScript', 'Haskell',
+        'CSS', 'Shell', 'Ada', 'JavaScript', 'JavaScript', 'Ruby', 'Perl', 'Go', 'Ruby',
+        'TypeScript', 'R', 'Kotlin', 'SAS', 'Assembly', 'Perl', 'JavaScript', 'Shell',
+        '.NET', 'Perl', 'Perl', 'Assembly', 'Shell', 'Java', 'Julia', 'Ada', 'Lua',
+        'PHP', 'Julia', 'Julia', 'Perl', 'Go', 'Fortran', 'Scratch', 'Scratch', 'Scratch',
+        'C', 'CSS', 'Go', 'SQL', 'Prolog', 'Ada', 'R', '.NET', 'Java', 'Haskell',
+        '.NET', 'JavaScript', 'Scratch', 'Lua', 'R', 'Ada', 'Prolog', 'Kotlin', '.NET',
+        'Python', 'Ruby', 'HTML', 'Fortran', 'Shell', 'C', 'Python', 'C++', 'TypeScript',
+        'C++', 'R', 'Swift', 'Ada', 'Fortran', 'PHP', 'JavaScript', 'Python', 'Assembly',
+        'Shell', 'Scratch', 'Swift', 'Go', 'TypeScript', 'Perl', 'TypeScript', 'Go',
+        'COBOL', 'Fortran', 'Python', 'SQL', 'PHP', 'Prolog', 'Java', 'PHP', 'HTML',
+        'Kotlin', 'Perl', 'Rust', 'C++', 'Shell', 'Prolog', 'PHP', 'Fortran', 'Rust',
+        'CSS', 'Go', 'Java', 'Scratch', 'HTML', 'CSS', '.NET', 'Perl', 'PHP', 'Perl',
+        '.NET', 'R', 'Swift', 'Rust', 'SQL', 'Julia', 'Go', 'C++', 'C++', 'Haskell',
+        'Kotlin', 'C++', 'R', 'C++', 'TypeScript', 'Ruby', '.NET', 'PHP', 'COBOL',
+        'CSS', 'PHP', 'Julia', 'HTML', 'Ada', 'Perl', 'Prolog', 'Kotlin', 'Go', 'C++',
+        'Lua', 'Rust', 'Prolog', 'Java', 'Haskell', 'Julia', 'Assembly', 'JavaScript',
+        'Haskell', 'Julia', 'Lua', 'JavaScript', 'Ruby', 'CSS', 'Go', '.NET', 'Haskell',
+        'JavaScript', 'Ada', 'COBOL', 'Java', 'Go', 'Julia', 'COBOL', 'TypeScript',
+        'Ruby', 'Prolog', 'Assembly', 'Go', 'R', 'Scratch', 'Python', 'Haskell', 'R',
+        'Scratch', 'R', 'Java', 'Prolog', 'SAS', 'Scratch', 'Java', 'Haskell', 'Prolog',
+        'Kotlin', 'Kotlin', 'Lua', 'Kotlin', 'Ada', 'Lua', 'Python', 'C', 'Julia',
+        'SQL', 'PHP', 'Lua', 'Assembly', 'Prolog', 'C', 'Fortran', 'Prolog', 'PHP',
+        'Haskell', 'Shell', 'Perl', 'Fortran', 'Lua', '.NET', 'JavaScript', 'Fortran',
+        'Swift', 'CSS', 'TypeScript', 'C++', '.NET', 'SQL', 'PHP', 'Shell', 'Rust',
+        'Swift', 'Haskell', '.NET', 'Shell', '.NET', 'Fortran', 'TypeScript', 'Scratch',
+        'PHP', 'HTML', 'Python', 'PHP', 'Shell', 'HTML', 'Prolog', 'R', 'R', 'COBOL',
+        'Swift', 'COBOL', 'Java', 'JavaScript', 'Ada', 'R', 'C++', 'Prolog', 'Java',
+        'C', 'R', 'Ruby', 'Shell', 'Python', 'Perl', 'Perl', 'C', 'CSS', 'Rust', 'Ruby',
+        'C', 'Ruby', 'TypeScript', 'COBOL', 'R', 'Kotlin', 'HTML', 'Assembly', 'Haskell',
+        'Java', 'SQL', 'Prolog', 'Shell', 'Prolog', 'CSS', 'Haskell', 'Prolog', 'Kotlin',
+        'Kotlin', 'Prolog', 'Java', 'R', 'Shell', 'Julia', 'Java', 'CSS', 'C', 'Haskell',
+        'Ada', 'C++', 'Haskell', 'TypeScript', 'Assembly', 'Swift', 'R', '.NET', 'Ada',
+        'Prolog', 'JavaScript', 'Scratch', 'PHP', 'CSS', 'C++', 'C++', 'Prolog', 'SQL',
+        'COBOL', 'PHP', 'Ruby', 'Go', 'Fortran', 'C++', '.NET', 'Perl', 'Kotlin',
+        'Assembly', 'Haskell', 'HTML', 'PHP', 'PHP', 'Kotlin', 'Shell', 'HTML', 'Assembly',
+        'R', 'JavaScript', 'Rust', 'SQL', 'R', 'COBOL', 'Shell', 'CSS', 'Ada', 'JavaScript',
+        'Ruby', 'Perl', 'Haskell', 'Prolog', 'Julia'])
+      return:
+        Rust: 34
+        Assembly: 28
+        Julia: 28
+        SAS: 29
+        Fortran: 29
+        Lua: 30
+        COBOL: 33
+        Ruby: 36
+        JavaScript: 36
+        HTML: 33
+        C: 33
+        SQL: 32
+        Prolog: 49
+        Java: 52
+        Swift: 31
+        Haskell: 42
+        Python: 36
+        CSS: 34
+        PHP: 40
+        TypeScript: 31
+        Scratch: 30
+        Perl: 38
+        Ada: 33
+        C++: 38
+        Shell: 40
+        R: 35
+        .NET: 33
+        Kotlin: 32
+        Go: 23
