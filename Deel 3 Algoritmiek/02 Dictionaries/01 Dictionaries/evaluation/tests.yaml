@@ -91,7 +91,7 @@
       stdout: "De temperatuur in Antwerpen is 12.6 graden.\nDe temperatuur in Barcelona
         is 20.9 graden.\nDe temperatuur in Hamburg is 10.3 graden.\nDe temperatuur
         in Den Haag is 9.5 graden.\nDe temperatuur in Helsinki is 10.9 graden.\nDe
-        temperatuur in Amsterdam is 9.4 graden.\nDe temperatuur in Sofia is 8.1 graden.\n
+        temperatuur in Amsterdam is 9.4 graden.\nDe temperatuur in Sofia is 8.1 graden.\n\
         De temperatuur in Gent is 6.5 graden.\nDe temperatuur in Bratislava is 14.8
         graden.\nDe temperatuur in Rome is 19.5 graden.\nDe temperatuur in München
         is 4.6 graden.\nDe temperatuur in Stockholm is 8.7 graden.\nDe temperatuur
@@ -104,7 +104,7 @@
       stdout: "De temperatuur in Sevilla is 18.6 graden.\nDe temperatuur in Berlijn
         is 14.6 graden.\nDe temperatuur in Manchester is 8.1 graden.\nDe temperatuur
         in Keulen is 5.6 graden.\nDe temperatuur in Kopenhagen is 13.9 graden.\nDe
-        temperatuur in Praag is 10.4 graden.\nDe temperatuur in Nice is 11.4 graden.\n
+        temperatuur in Praag is 10.4 graden.\nDe temperatuur in Nice is 11.4 graden.\n\
         De temperatuur in Groningen is 6.7 graden.\nDe temperatuur in Arnhem is 13.6
         graden.\nDe temperatuur in Utrecht is 8.2 graden.\nDe temperatuur in Birmingham
         is 14.5 graden.\nDe temperatuur in Genève is 6.3 graden.\nDe temperatuur in
@@ -117,7 +117,7 @@
         4.9, 'Edinburgh': 12.2, 'Dublin': 13.5, 'Birmingham': 12.3, 'Rome': 17.0})"
       stdout: "De temperatuur in Arnhem is 12.0 graden.\nDe temperatuur in Maastricht
         is 12.0 graden.\nDe temperatuur in Antwerpen is 14.6 graden.\nDe temperatuur
-        in Brussel is 6.2 graden.\nDe temperatuur in Leeuwarden is 13.4 graden.\n
+        in Brussel is 6.2 graden.\nDe temperatuur in Leeuwarden is 13.4 graden.\n\
         De temperatuur in Sofia is 9.9 graden.\nDe temperatuur in Helsinki is 2.9
         graden.\nDe temperatuur in Bratislava is 8.7 graden.\nDe temperatuur in Parijs
         is 15.5 graden.\nDe temperatuur in Gent is 15.2 graden.\nDe temperatuur in
@@ -136,7 +136,7 @@
         in Berlijn is 7.7 graden.\nDe temperatuur in Brugge is 9.1 graden.\nDe temperatuur
         in Londen is 9.3 graden.\nDe temperatuur in Edinburgh is 8.1 graden.\nDe temperatuur
         in Parijs is 13.9 graden.\nDe temperatuur in Krakau is 10.0 graden.\nDe temperatuur
-        in Helsinki is 7.3 graden.\nDe temperatuur in Birmingham is 9.1 graden.\n
+        in Helsinki is 7.3 graden.\nDe temperatuur in Birmingham is 9.1 graden.\n\
         De temperatuur in Groningen is 11.7 graden.\nDe temperatuur in Hamburg is
         14.0 graden.\nDe temperatuur in Boedapest is 7.8 graden.\nDe temperatuur in
         Zürich is 8.6 graden.\nDe temperatuur in Rome is 16.9 graden.\nDe temperatuur
@@ -150,7 +150,7 @@
       stdout: "De temperatuur in Valencia is 19.5 graden.\nDe temperatuur in Wenen
         is 10.2 graden.\nDe temperatuur in Warschau is 3.4 graden.\nDe temperatuur
         in Bern is 9.1 graden.\nDe temperatuur in Parijs is 11.7 graden.\nDe temperatuur
-        in Edinburgh is 6.1 graden.\nDe temperatuur in Leeuwarden is 12.1 graden.\n
+        in Edinburgh is 6.1 graden.\nDe temperatuur in Leeuwarden is 12.1 graden.\n\
         De temperatuur in Helsinki is 7.0 graden.\nDe temperatuur in Rome is 18.2
         graden.\nDe temperatuur in Praag is 9.6 graden.\nDe temperatuur in Genève
         is 13.1 graden.\nDe temperatuur in Barcelona is 17.7 graden.\nDe temperatuur
@@ -170,7 +170,7 @@
         in Sofia is 11.3 graden.\nDe temperatuur in Bern is 6.4 graden.\nDe temperatuur
         in Rome is 16.2 graden.\nDe temperatuur in Brussel is 6.3 graden.\nDe temperatuur
         in Lyon is 15.7 graden.\nDe temperatuur in Groningen is 12.3 graden.\nDe temperatuur
-        in Berlijn is 10.6 graden.\nDe temperatuur in Bratislava is 10.1 graden.\n
+        in Berlijn is 10.6 graden.\nDe temperatuur in Bratislava is 10.1 graden.\n\
         De temperatuur in Barcelona is 20.4 graden.\nDe temperatuur in Madrid is 10.5
         graden.\nDe temperatuur in Hamburg is 11.4 graden.\nDe temperatuur in Wenen
         is 14.3 graden.\nDe temperatuur in Valencia is 22.4 graden.\nDe temperatuur
@@ -203,14 +203,14 @@
         6.2})"
       stdout: "De temperatuur in Utrecht is 9.2 graden.\nDe temperatuur in Antwerpen
         is 6.7 graden.\nDe temperatuur in Warschau is 12.4 graden.\nDe temperatuur
-        in Birmingham is 13.2 graden.\nDe temperatuur in Edinburgh is 9.6 graden.\n
+        in Birmingham is 13.2 graden.\nDe temperatuur in Edinburgh is 9.6 graden.\n\
         De temperatuur in Boedapest is 10.7 graden.\nDe temperatuur in Maastricht
         is 9.8 graden.\nDe temperatuur in Den Haag is 14.1 graden.\nDe temperatuur
         in Genève is 7.2 graden.\nDe temperatuur in Porto is 13.6 graden.\nDe temperatuur
         in Valencia is 18.5 graden.\nDe temperatuur in Oslo is 2.3 graden.\nDe temperatuur
         in Wenen is 9.7 graden.\nDe temperatuur in Dublin is 14.6 graden.\nDe temperatuur
         in Nice is 19.3 graden.\nDe temperatuur in Hamburg is 4.5 graden.\nDe temperatuur
-        in Helsinki is 8.0 graden.\nDe temperatuur in Barcelona is 18.7 graden.\n
+        in Helsinki is 8.0 graden.\nDe temperatuur in Barcelona is 18.7 graden.\n\
         De temperatuur in Zürich is 11.9 graden.\nDe temperatuur in Bratislava is
         14.6 graden.\nDe temperatuur in Leeuwarden is 6.2 graden.\n"
   - testcases:
@@ -229,7 +229,7 @@
         is 4.4 graden.\nDe temperatuur in Rome is 20.2 graden.\nDe temperatuur in
         Dublin is 11.8 graden.\nDe temperatuur in Boedapest is 15.3 graden.\nDe temperatuur
         in Sevilla is 23.9 graden.\nDe temperatuur in Antwerpen is 9.5 graden.\nDe
-        temperatuur in Gent is 6.4 graden.\nDe temperatuur in Nice is 12.9 graden.\n
+        temperatuur in Gent is 6.4 graden.\nDe temperatuur in Nice is 12.9 graden.\n\
         De temperatuur in Eindhoven is 6.6 graden.\nDe temperatuur in Marseille is
         12.4 graden.\nDe temperatuur in Edinburgh is 9.0 graden.\nDe temperatuur in
         Keulen is 5.4 graden.\n"
@@ -243,12 +243,12 @@
       stdout: "De temperatuur in Gent is 14.8 graden.\nDe temperatuur in Rotterdam
         is 7.9 graden.\nDe temperatuur in Edinburgh is 4.8 graden.\nDe temperatuur
         in Nijmegen is 8.6 graden.\nDe temperatuur in Sevilla is 14.4 graden.\nDe
-        temperatuur in Lissabon is 14.5 graden.\nDe temperatuur in Nice is 12.3 graden.\n
+        temperatuur in Lissabon is 14.5 graden.\nDe temperatuur in Nice is 12.3 graden.\n\
         De temperatuur in Frankfurt is 11.3 graden.\nDe temperatuur in Hamburg is
         5.8 graden.\nDe temperatuur in Parijs is 12.5 graden.\nDe temperatuur in Praag
         is 4.4 graden.\nDe temperatuur in Antwerpen is 13.8 graden.\nDe temperatuur
         in Genève is 6.1 graden.\nDe temperatuur in Boedapest is 14.1 graden.\nDe
-        temperatuur in Krakau is 3.7 graden.\nDe temperatuur in Warschau is 4.4 graden.\n
+        temperatuur in Krakau is 3.7 graden.\nDe temperatuur in Warschau is 4.4 graden.\n\
         De temperatuur in Valencia is 19.9 graden.\nDe temperatuur in Porto is 17.2
         graden.\nDe temperatuur in Brussel is 14.5 graden.\nDe temperatuur in Arnhem
         is 9.4 graden.\nDe temperatuur in Keulen is 8.1 graden.\nDe temperatuur in
@@ -266,10 +266,10 @@
         in Dublin is 6.9 graden.\nDe temperatuur in Parijs is 11.7 graden.\nDe temperatuur
         in Berlijn is 7.7 graden.\nDe temperatuur in Londen is 9.7 graden.\nDe temperatuur
         in Praag is 4.2 graden.\nDe temperatuur in Milaan is 10.1 graden.\nDe temperatuur
-        in Lissabon is 22.3 graden.\nDe temperatuur in Nijmegen is 13.9 graden.\n
+        in Lissabon is 22.3 graden.\nDe temperatuur in Nijmegen is 13.9 graden.\n\
         De temperatuur in Boedapest is 7.8 graden.\nDe temperatuur in Leeuwarden is
         12.2 graden.\nDe temperatuur in Bratislava is 6.0 graden.\nDe temperatuur
-        in Manchester is 12.0 graden.\nDe temperatuur in Edinburgh is 4.4 graden.\n
+        in Manchester is 12.0 graden.\nDe temperatuur in Edinburgh is 4.4 graden.\n\
         De temperatuur in Genève is 12.3 graden.\nDe temperatuur in Kopenhagen is
         13.3 graden.\nDe temperatuur in Madrid is 12.2 graden.\nDe temperatuur in
         Krakau is 4.0 graden.\nDe temperatuur in Wenen is 12.1 graden.\nDe temperatuur
