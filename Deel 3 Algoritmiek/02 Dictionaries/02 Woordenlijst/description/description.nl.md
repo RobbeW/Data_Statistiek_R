@@ -5,7 +5,7 @@ woordenboek = {}
 woordenboek["python"] = 1
 woordenboek["python"] = woordenboek["python"] + 1
 
-print(woordenboek[appel])    # Dit zou de waarde 2 afdrukken
+print(woordenboek["python"])    # Dit zou de waarde 2 afdrukken
 ```
 
 Indien je een sleutel gebruikt die niet bestaat, dan verschijnt een foutmelding. Bijvoorbeeld:
