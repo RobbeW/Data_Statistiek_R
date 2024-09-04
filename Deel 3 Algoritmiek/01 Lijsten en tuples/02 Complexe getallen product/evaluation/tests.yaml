@@ -1,0 +1,102 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: product_complex((3, -2), (5, 3))
+      return: !tuple
+      - 21
+      - -1
+  - testcases:
+    - expression: product_complex((16, -24), (10, 7))
+      return: !tuple
+      - 328
+      - -128
+  - testcases:
+    - expression: product_complex((-16, 18), (-14, 19))
+      return: !tuple
+      - -118
+      - -556
+  - testcases:
+    - expression: product_complex((8, 2), (7, 16))
+      return: !tuple
+      - 24
+      - 142
+  - testcases:
+    - expression: product_complex((28, 2), (-26, 18))
+      return: !tuple
+      - -764
+      - 452
+  - testcases:
+    - expression: product_complex((-9, -23), (-21, 30))
+      return: !tuple
+      - 879
+      - 213
+  - testcases:
+    - expression: product_complex((23, -8), (-29, 26))
+      return: !tuple
+      - -459
+      - 830
+  - testcases:
+    - expression: product_complex((1, -28), (19, 23))
+      return: !tuple
+      - 663
+      - -509
+  - testcases:
+    - expression: product_complex((-7, 16), (25, -16))
+      return: !tuple
+      - 81
+      - 512
+  - testcases:
+    - expression: product_complex((0, 4), (-28, -1))
+      return: !tuple
+      - 4
+      - -112
+  - testcases:
+    - expression: product_complex((-16, 5), (-22, -14))
+      return: !tuple
+      - 422
+      - 114
+  - testcases:
+    - expression: product_complex((-26, -7), (-28, -3))
+      return: !tuple
+      - 707
+      - 274
+  - testcases:
+    - expression: product_complex((25, -13), (5, 23))
+      return: !tuple
+      - 424
+      - 510
+  - testcases:
+    - expression: product_complex((10, -11), (-6, -19))
+      return: !tuple
+      - -269
+      - -124
+  - testcases:
+    - expression: product_complex((15, -27), (-22, -15))
+      return: !tuple
+      - -735
+      - 369
+  - testcases:
+    - expression: product_complex((-17, 21), (4, -5))
+      return: !tuple
+      - 37
+      - 169
+  - testcases:
+    - expression: product_complex((1, -19), (26, 3))
+      return: !tuple
+      - 83
+      - -491
+  - testcases:
+    - expression: product_complex((7, -1), (17, -27))
+      return: !tuple
+      - 92
+      - -206
+  - testcases:
+    - expression: product_complex((-7, 8), (-16, -21))
+      return: !tuple
+      - 280
+      - 19
+  - testcases:
+    - expression: product_complex((-24, -2), (-21, 23))
+      return: !tuple
+      - 550
+      - -510
