@@ -33,3 +33,4 @@ Op de **tweede rij** en de **vierde kolom** (wat neer komt op rij 1 en kolom 3) 
                [1, 1, 1, 1, 1, 1, 0]])
 (5,3)
 ```
+Op de zesde rij en vierde kolom vind je immers steeds een oneven aantal `1` waarden.
