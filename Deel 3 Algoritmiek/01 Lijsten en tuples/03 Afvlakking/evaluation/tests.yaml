@@ -1,0 +1,16 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: aantal_vakjes([1, 4, 3, 2, 5, 3, 6, 5])
+      return: 6
+  - testcases:
+    - expression: aantal_vakjes([1, 2])
+      return: 0
+  - testcases:
+    - expression: aantal_vakjes([5, 4, 3, 2, 1])
+      return: 10
+  - testcases:
+    - expression: aantal_vakjes([575, 2593, 99957, 12523, 37399, 48782, 45822, 28875,
+        10977, 56452, 15179, 92866, 55502, 4687, 97241, 26901, 9005, 66166, 4759,
+        34684])
+      return: 1051449
