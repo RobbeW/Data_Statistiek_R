@@ -15,5 +15,9 @@
     "lijsten",
     "Begrensde herhaling"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "cnTyDNYXP2dHjx5s77ECbhgzcF8vRRqpukxQWt6saBbyXTvyhJwejp4PMCIQB2BZ",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
