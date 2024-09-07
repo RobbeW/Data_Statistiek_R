@@ -1,0 +1,11 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: rafeligheid(7, ['Dit', 'is', 'een', 'makkie'])
+      return: 18
+  - testcases:
+    - expression: rafeligheid(7, ['Perfect'])
+      return: 0
+  - testcases:
+    - expression: rafeligheid(10, ['Deze', 'editie', 'is', 'de', 'beste', 'ooit'])
+      return: 77
