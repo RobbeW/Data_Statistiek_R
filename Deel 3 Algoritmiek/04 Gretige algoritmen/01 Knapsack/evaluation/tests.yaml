@@ -2,10 +2,4 @@
   contexts:
   - testcases:
     - expression: knapsack(15, [(12, 4), (1, 2), (1, 1), (2, 2), (4, 10)])
-      return:
-        ? - 4
-          - 10
-        : 3
-        ? - 1
-          - 2
-        : 3
+      return: !expression "{(4, 10): 3, (1, 2): 3}"
