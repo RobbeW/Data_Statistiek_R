@@ -1,0 +1,1123 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Spaans', 'Grieks'], 'Student 2':
+        ['Spaans', 'Kunstgeschiedenis']})"
+      return:
+        Spaans: 2
+        Grieks: 1
+        Kunstgeschiedenis: 1
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Systeemdenken en Complexiteit',
+        'Inleiding tot Psychologie', 'Film en Mediacritiek'], 'Student 2': ['Visuele
+        Ontwerpprincipes', 'Data-analyse en Statistiek', 'Internationale Bedrijfskunde',
+        'Moderne Geschiedenis', 'Systeemdenken en Complexiteit']})"
+      return:
+        Systeemdenken en Complexiteit: 2
+        Inleiding tot Psychologie: 1
+        Film en Mediacritiek: 1
+        Visuele Ontwerpprincipes: 1
+        Data-analyse en Statistiek: 1
+        Internationale Bedrijfskunde: 1
+        Moderne Geschiedenis: 1
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Kritisch Denken en Logica', 'Film
+        en Mediacritiek'], 'Student 2': ['Internationaal Recht'], 'Student 3': ['Kritisch
+        Denken en Logica', 'Filosofie en Ethiek', 'Gendervraagstukken en Feminisme',
+        'Moleculaire Biologie', 'Genetica en Evolutie']})"
+      return:
+        Kritisch Denken en Logica: 2
+        Film en Mediacritiek: 1
+        Internationaal Recht: 1
+        Filosofie en Ethiek: 1
+        Gendervraagstukken en Feminisme: 1
+        Moleculaire Biologie: 1
+        Genetica en Evolutie: 1
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Recht en Politiek in de EU', 'Recht
+        en Politiek in de EU'], 'Student 2': ['Persoonlijke Financiën en Investeren',
+        'Programmeren in Python', 'HR Management', 'Data-analyse en Statistiek'],
+        'Student 3': ['Globalisering en Internationale Relaties', 'Internationale
+        Bedrijfskunde']})"
+      return:
+        Recht en Politiek in de EU: 2
+        Persoonlijke Financiën en Investeren: 1
+        Programmeren in Python: 1
+        HR Management: 1
+        Data-analyse en Statistiek: 1
+        Globalisering en Internationale Relaties: 1
+        Internationale Bedrijfskunde: 1
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Kunstgeschiedenis', 'Film en Mediacritiek',
+        'Muziek en Cultuur', 'Digitale Transformatie'], 'Student 2': ['Kunstgeschiedenis',
+        'Kritisch Denken en Logica', 'Filosofie en Ethiek', 'Project Management',
+        'Artificial Intelligence'], 'Student 3': ['Creatief Schrijven'], 'Student
+        4': ['Web Development', 'Digitale Transformatie'], 'Student 5': ['Kritisch
+        Denken en Logica', 'Bouwkunde en Architectuur']})"
+      return:
+        Kunstgeschiedenis: 2
+        Film en Mediacritiek: 1
+        Muziek en Cultuur: 1
+        Digitale Transformatie: 2
+        Kritisch Denken en Logica: 2
+        Filosofie en Ethiek: 1
+        Project Management: 1
+        Artificial Intelligence: 1
+        Creatief Schrijven: 1
+        Web Development: 1
+        Bouwkunde en Architectuur: 1
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Artificial Intelligence', 'Globalisering
+        en Internationale Relaties', 'Lichamelijke Opvoeding en Sport', 'Inleiding
+        tot Chemie', 'HR Management'], 'Student 2': ['Zorgmanagement'], 'Student 3':
+        ['Ondernemerschap'], 'Student 4': ['Inleiding tot Psychologie', 'Milieuwetenschappen',
+        'Moderne Politieke Filosofie'], 'Student 5': ['Recht en Politiek in de EU',
+        'Artificial Intelligence', 'Toegepaste Wiskunde'], 'Student 6': ['Digitale
+        Marketing', 'Sociologie', 'Data-analyse en Statistiek', 'Inleiding tot Psychologie'],
+        'Student 7': ['Genetica en Evolutie', 'Maatschappelijke en Culturele Studies',
+        'Moleculaire Biologie']})"
+      return:
+        Artificial Intelligence: 2
+        Globalisering en Internationale Relaties: 1
+        Lichamelijke Opvoeding en Sport: 1
+        Inleiding tot Chemie: 1
+        HR Management: 1
+        Zorgmanagement: 1
+        Ondernemerschap: 1
+        Inleiding tot Psychologie: 2
+        Milieuwetenschappen: 1
+        Moderne Politieke Filosofie: 1
+        Recht en Politiek in de EU: 1
+        Toegepaste Wiskunde: 1
+        Digitale Marketing: 1
+        Sociologie: 1
+        Data-analyse en Statistiek: 1
+        Genetica en Evolutie: 1
+        Maatschappelijke en Culturele Studies: 1
+        Moleculaire Biologie: 1
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Web Development', 'Data-analyse
+        en Statistiek', 'HR Management', 'Taal en Communicatie', 'Beeldende Kunst'],
+        'Student 2': ['Milieu en Duurzaamheid', 'Web Development', 'Fotografie en
+        Visuele Communicatie', 'Maatschappelijke en Culturele Studies'], 'Student
+        3': ['Geschiedenis van de Wetenschap'], 'Student 4': ['Milieuwetenschappen',
+        'Sport en Gezondheid', 'Artificial Intelligence', 'Moderne Politieke Filosofie'],
+        'Student 5': ['Sociologie', 'Cybersecurity', 'Filosofie en Ethiek', 'Cybersecurity',
+        'Moderne Politieke Filosofie'], 'Student 6': ['Filosofie en Ethiek', 'Geschiedenis
+        van de Wetenschap'], 'Student 7': ['Fotografie en Visuele Communicatie'],
+        'Student 8': ['Klinische Psychologie', 'Creatief Schrijven', 'Recht en Politiek
+        in de EU', 'Neuropsychologie', 'Maatschappelijke en Culturele Studies'], 'Student
+        9': ['Milieu en Duurzaamheid', 'Muziektheorie', 'Moderne Politieke Filosofie',
+        'Lichamelijke Opvoeding en Sport'], 'Student 10': [\"Ethische Dilemma's in
+        Technologie\", 'Muziek en Cultuur', 'Filosofie en Ethiek', 'Kritisch Denken
+        en Logica', 'Systeemdenken en Complexiteit'], 'Student 11': ['Gendervraagstukken
+        en Feminisme', 'Onderwijskunde', 'Digitale Marketing']})"
+      return:
+        Web Development: 2
+        Data-analyse en Statistiek: 1
+        HR Management: 1
+        Taal en Communicatie: 1
+        Beeldende Kunst: 1
+        Milieu en Duurzaamheid: 2
+        Fotografie en Visuele Communicatie: 2
+        Maatschappelijke en Culturele Studies: 2
+        Geschiedenis van de Wetenschap: 2
+        Milieuwetenschappen: 1
+        Sport en Gezondheid: 1
+        Artificial Intelligence: 1
+        Moderne Politieke Filosofie: 3
+        Sociologie: 1
+        Cybersecurity: 2
+        Filosofie en Ethiek: 3
+        Klinische Psychologie: 1
+        Creatief Schrijven: 1
+        Recht en Politiek in de EU: 1
+        Neuropsychologie: 1
+        Muziektheorie: 1
+        Lichamelijke Opvoeding en Sport: 1
+        Ethische Dilemma's in Technologie: 1
+        Muziek en Cultuur: 1
+        Kritisch Denken en Logica: 1
+        Systeemdenken en Complexiteit: 1
+        Gendervraagstukken en Feminisme: 1
+        Onderwijskunde: 1
+        Digitale Marketing: 1
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Sociologie'], 'Student 2': ['Muziektheorie',
+        'Economische Theorie'], 'Student 3': ['Cybersecurity', 'Inleiding tot Chemie'],
+        'Student 4': ['Fotografie en Visuele Communicatie'], 'Student 5': ['Ondernemerschap',
+        'Klinische Psychologie'], 'Student 6': ['Artificial Intelligence', 'Recht
+        en Politiek in de EU', 'Neuropsychologie', 'Taal en Communicatie'], 'Student
+        7': ['Economische Theorie'], 'Student 8': ['Internationaal Recht', 'Digitale
+        Transformatie', 'Taal en Communicatie', 'Maatschappelijke en Culturele Studies',
+        'Programmeren in Python'], 'Student 9': ['Marketingstrategie', 'Muziek en
+        Cultuur', 'Systeemdenken en Complexiteit'], 'Student 10': ['Moleculaire Biologie',
+        'Milieu en Duurzaamheid'], 'Student 11': ['Milieuwetenschappen', 'Taal en
+        Communicatie', 'Persoonlijke Financiën en Investeren'], 'Student 12': ['Onderwijskunde',
+        'Muziektheorie', 'Cybersecurity', 'Milieu en Duurzaamheid']})"
+      return:
+        Sociologie: 1
+        Muziektheorie: 2
+        Economische Theorie: 2
+        Cybersecurity: 2
+        Inleiding tot Chemie: 1
+        Fotografie en Visuele Communicatie: 1
+        Ondernemerschap: 1
+        Klinische Psychologie: 1
+        Artificial Intelligence: 1
+        Recht en Politiek in de EU: 1
+        Neuropsychologie: 1
+        Taal en Communicatie: 3
+        Internationaal Recht: 1
+        Digitale Transformatie: 1
+        Maatschappelijke en Culturele Studies: 1
+        Programmeren in Python: 1
+        Marketingstrategie: 1
+        Muziek en Cultuur: 1
+        Systeemdenken en Complexiteit: 1
+        Moleculaire Biologie: 1
+        Milieu en Duurzaamheid: 2
+        Milieuwetenschappen: 1
+        Persoonlijke Financiën en Investeren: 1
+        Onderwijskunde: 1
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Sociologie', 'Beeldende Kunst',
+        'Systeemdenken en Complexiteit', 'Inleiding tot Chemie', 'Globalisering en
+        Internationale Relaties'], 'Student 2': ['Persoonlijke Financiën en Investeren',
+        'Muziek en Cultuur', 'Recht en Politiek in de EU', 'Inleiding tot Chemie'],
+        'Student 3': ['Milieuwetenschappen', 'Bouwkunde en Architectuur', \"Ethische
+        Dilemma's in Technologie\", 'Kritisch Denken en Logica'], 'Student 4': ['Muziektheorie',
+        'HR Management'], 'Student 5': ['Moleculaire Biologie', 'Kunstgeschiedenis',
+        'Persoonlijke Financiën en Investeren'], 'Student 6': ['Artificial Intelligence',
+        'Beeldende Kunst', 'Maatschappelijke en Culturele Studies'], 'Student 7':
+        ['Taal en Communicatie', 'Digitale Marketing'], 'Student 8': ['Genetica en
+        Evolutie', 'Zorgmanagement'], 'Student 9': ['Duurzame Energiebronnen'], 'Student
+        10': ['Programmeren in Python', 'Inleiding tot Chemie'], 'Student 11': ['Systeemdenken
+        en Complexiteit', 'Neuropsychologie', 'Zorgmanagement'], 'Student 12': ['Taal
+        en Communicatie', 'Ondernemerschap', 'Kunstgeschiedenis', 'Internationale
+        Bedrijfskunde', 'Digitale Transformatie'], 'Student 13': ['Geschiedenis van
+        de Wetenschap', 'Economische Theorie', 'HR Management', 'Lichamelijke Opvoeding
+        en Sport', 'Film en Mediacritiek'], 'Student 14': ['Filosofie en Ethiek',
+        'Persoonlijke Financiën en Investeren', 'Ondernemerschap', 'Kunstgeschiedenis']})"
+      return:
+        Sociologie: 1
+        Beeldende Kunst: 2
+        Systeemdenken en Complexiteit: 2
+        Inleiding tot Chemie: 3
+        Globalisering en Internationale Relaties: 1
+        Persoonlijke Financiën en Investeren: 3
+        Muziek en Cultuur: 1
+        Recht en Politiek in de EU: 1
+        Milieuwetenschappen: 1
+        Bouwkunde en Architectuur: 1
+        Ethische Dilemma's in Technologie: 1
+        Kritisch Denken en Logica: 1
+        Muziektheorie: 1
+        HR Management: 2
+        Moleculaire Biologie: 1
+        Kunstgeschiedenis: 3
+        Artificial Intelligence: 1
+        Maatschappelijke en Culturele Studies: 1
+        Taal en Communicatie: 2
+        Digitale Marketing: 1
+        Genetica en Evolutie: 1
+        Zorgmanagement: 2
+        Duurzame Energiebronnen: 1
+        Programmeren in Python: 1
+        Neuropsychologie: 1
+        Ondernemerschap: 2
+        Internationale Bedrijfskunde: 1
+        Digitale Transformatie: 1
+        Geschiedenis van de Wetenschap: 1
+        Economische Theorie: 1
+        Lichamelijke Opvoeding en Sport: 1
+        Film en Mediacritiek: 1
+        Filosofie en Ethiek: 1
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Bouwkunde en Architectuur', 'Culturele
+        Antropologie', 'Klinische Psychologie', 'Geschiedenis van de Wetenschap'],
+        'Student 2': ['Taal en Communicatie', 'Toegepaste Wiskunde', 'Moleculaire
+        Biologie'], 'Student 3': ['Project Management', 'Digitale Transformatie',
+        'HR Management', 'Internationaal Recht'], 'Student 4': ['Genetica en Evolutie'],
+        'Student 5': ['Ondernemerschap'], 'Student 6': ['Beeldende Kunst', 'Maatschappelijke
+        en Culturele Studies', 'Recht en Politiek in de EU', 'Geschiedenis van de
+        Wetenschap', 'HR Management'], 'Student 7': ['Bouwkunde en Architectuur',
+        'Toegepaste Wiskunde', 'Visuele Ontwerpprincipes', 'Duurzame Energiebronnen'],
+        'Student 8': ['Vreemde Talen: Spaans', 'Kunstgeschiedenis', 'Genetica en Evolutie',
+        'Gendervraagstukken en Feminisme', 'Film en Mediacritiek'], 'Student 9': ['Creatief
+        Schrijven', 'Duurzame Energiebronnen', 'Gendervraagstukken en Feminisme'],
+        'Student 10': ['Maatschappelijke en Culturele Studies', 'Ondernemerschap',
+        'Taal en Communicatie'], 'Student 11': ['Milieu en Duurzaamheid'], 'Student
+        12': ['Maatschappelijke en Culturele Studies', 'Digitale Marketing', 'Artificial
+        Intelligence', 'Data-analyse en Statistiek', 'Internationale Bedrijfskunde'],
+        'Student 13': ['Kunstgeschiedenis', 'Beeldende Kunst'], 'Student 14': ['Toegepaste
+        Wiskunde', 'Artificial Intelligence', 'Filosofie en Ethiek', 'Onderwijskunde',
+        'Vreemde Talen: Spaans']})"
+      return:
+        Bouwkunde en Architectuur: 2
+        Culturele Antropologie: 1
+        Klinische Psychologie: 1
+        Geschiedenis van de Wetenschap: 2
+        Taal en Communicatie: 2
+        Toegepaste Wiskunde: 3
+        Moleculaire Biologie: 1
+        Project Management: 1
+        Digitale Transformatie: 1
+        HR Management: 2
+        Internationaal Recht: 1
+        Genetica en Evolutie: 2
+        Ondernemerschap: 2
+        Beeldende Kunst: 2
+        Maatschappelijke en Culturele Studies: 3
+        Recht en Politiek in de EU: 1
+        Visuele Ontwerpprincipes: 1
+        Duurzame Energiebronnen: 2
+        'Vreemde Talen: Spaans': 2
+        Kunstgeschiedenis: 2
+        Gendervraagstukken en Feminisme: 2
+        Film en Mediacritiek: 1
+        Creatief Schrijven: 1
+        Milieu en Duurzaamheid: 1
+        Digitale Marketing: 1
+        Artificial Intelligence: 2
+        Data-analyse en Statistiek: 1
+        Internationale Bedrijfskunde: 1
+        Filosofie en Ethiek: 1
+        Onderwijskunde: 1
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': [\"Ethische Dilemma's in Technologie\"\
+        , 'Neuropsychologie'], 'Student 2': ['Data-analyse en Statistiek', 'Cybersecurity',
+        'Cybersecurity', 'Digitale Transformatie'], 'Student 3': ['Recht en Politiek
+        in de EU'], 'Student 4': ['Milieuwetenschappen', 'Kritisch Denken en Logica',
+        'Cybersecurity', 'Economische Theorie'], 'Student 5': ['Moderne Politieke
+        Filosofie', 'Internationaal Recht'], 'Student 6': ['Web Development', 'Ondernemerschap'],
+        'Student 7': ['Systeemdenken en Complexiteit', 'Ondernemerschap'], 'Student
+        8': ['Taal en Communicatie', 'Taal en Communicatie', 'Project Management'],
+        'Student 9': ['Beeldende Kunst', 'Artificial Intelligence', 'Internationaal
+        Recht', 'Programmeren in Python'], 'Student 10': ['Maatschappelijke en Culturele
+        Studies', 'Taal en Communicatie', 'Inleiding tot Chemie', 'Web Development'],
+        'Student 11': ['Lichamelijke Opvoeding en Sport', 'Marketingstrategie'], 'Student
+        12': ['Moderne Geschiedenis', 'Cybersecurity', 'Vreemde Talen: Spaans', 'Moleculaire
+        Biologie'], 'Student 13': ['Cybersecurity', 'Geschiedenis van de Wetenschap'],
+        'Student 14': ['Digitale Transformatie', 'Maatschappelijke en Culturele Studies',
+        'Zorgmanagement'], 'Student 15': ['Taal en Communicatie', 'Fotografie en Visuele
+        Communicatie'], 'Student 16': ['Moderne Geschiedenis', 'Cybersecurity'], 'Student
+        17': ['Duurzame Energiebronnen', 'Toegepaste Wiskunde'], 'Student 18': ['Genetica
+        en Evolutie', 'Muziektheorie', 'Creatief Schrijven'], 'Student 19': ['Klinische
+        Psychologie', 'HR Management'], 'Student 20': ['Bouwkunde en Architectuur',
+        'Duurzame Energiebronnen', 'Duurzame Energiebronnen', 'Film en Mediacritiek',
+        'Duurzame Energiebronnen'], 'Student 21': ['Digitale Marketing', 'Taal en
+        Communicatie', 'Maatschappelijke en Culturele Studies'], 'Student 22': ['Visuele
+        Ontwerpprincipes', 'Cybersecurity', 'Digitale Marketing', 'Kritisch Denken
+        en Logica'], 'Student 23': ['Milieuwetenschappen', 'Visuele Ontwerpprincipes']})"
+      return:
+        Ethische Dilemma's in Technologie: 1
+        Neuropsychologie: 1
+        Data-analyse en Statistiek: 1
+        Cybersecurity: 7
+        Digitale Transformatie: 2
+        Recht en Politiek in de EU: 1
+        Milieuwetenschappen: 2
+        Kritisch Denken en Logica: 2
+        Economische Theorie: 1
+        Moderne Politieke Filosofie: 1
+        Internationaal Recht: 2
+        Web Development: 2
+        Ondernemerschap: 2
+        Systeemdenken en Complexiteit: 1
+        Taal en Communicatie: 5
+        Project Management: 1
+        Beeldende Kunst: 1
+        Artificial Intelligence: 1
+        Programmeren in Python: 1
+        Maatschappelijke en Culturele Studies: 3
+        Inleiding tot Chemie: 1
+        Lichamelijke Opvoeding en Sport: 1
+        Marketingstrategie: 1
+        Moderne Geschiedenis: 2
+        'Vreemde Talen: Spaans': 1
+        Moleculaire Biologie: 1
+        Geschiedenis van de Wetenschap: 1
+        Zorgmanagement: 1
+        Fotografie en Visuele Communicatie: 1
+        Duurzame Energiebronnen: 4
+        Toegepaste Wiskunde: 1
+        Genetica en Evolutie: 1
+        Muziektheorie: 1
+        Creatief Schrijven: 1
+        Klinische Psychologie: 1
+        HR Management: 1
+        Bouwkunde en Architectuur: 1
+        Film en Mediacritiek: 1
+        Digitale Marketing: 2
+        Visuele Ontwerpprincipes: 2
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Artificial Intelligence'], 'Student
+        2': ['Recht en Politiek in de EU', 'Digitale Transformatie', 'Culturele Antropologie',
+        'Kritisch Denken en Logica', 'Inleiding tot Chemie'], 'Student 3': ['Systeemdenken
+        en Complexiteit', 'Taal en Communicatie', 'Data-analyse en Statistiek'], 'Student
+        4': ['Systeemdenken en Complexiteit'], 'Student 5': ['Gendervraagstukken en
+        Feminisme'], 'Student 6': ['Creatief Schrijven', 'Geschiedenis van de Wetenschap',
+        'Recht en Politiek in de EU', 'Artificial Intelligence'], 'Student 7': ['Beeldende
+        Kunst', 'Data-analyse en Statistiek', 'Marketingstrategie'], 'Student 8':
+        ['Fotografie en Visuele Communicatie'], 'Student 9': ['Toegepaste Wiskunde',
+        'Klinische Psychologie'], 'Student 10': ['Globalisering en Internationale
+        Relaties', 'Bouwkunde en Architectuur'], 'Student 11': ['Recht en Politiek
+        in de EU'], 'Student 12': ['Visuele Ontwerpprincipes', 'Internationale Bedrijfskunde',
+        'Digitale Transformatie', 'Filosofie en Ethiek'], 'Student 13': ['Filosofie
+        en Ethiek', 'Onderwijskunde', 'Digitale Marketing', 'Kunstgeschiedenis'],
+        'Student 14': ['Persoonlijke Financiën en Investeren', 'Moderne Geschiedenis',
+        'HR Management', 'Taal en Communicatie', 'Recht en Politiek in de EU'], 'Student
+        15': ['Moleculaire Biologie', 'Lichamelijke Opvoeding en Sport', 'Kritisch
+        Denken en Logica', 'Kunstgeschiedenis'], 'Student 16': ['Milieu en Duurzaamheid',
+        'Vreemde Talen: Spaans', 'Data-analyse en Statistiek', 'Ondernemerschap',
+        'Visuele Ontwerpprincipes'], 'Student 17': ['Genetica en Evolutie'], 'Student
+        18': ['Programmeren in Python', 'Cybersecurity', 'Kunstgeschiedenis'], 'Student
+        19': ['Digitale Marketing', 'Beeldende Kunst', 'Toegepaste Wiskunde'], 'Student
+        20': ['Data-analyse en Statistiek', 'Ondernemerschap', 'Systeemdenken en Complexiteit',
+        'Milieu en Duurzaamheid'], 'Student 21': ['Maatschappelijke en Culturele Studies',
+        'Visuele Ontwerpprincipes', 'Film en Mediacritiek'], 'Student 22': ['Toegepaste
+        Wiskunde', 'Project Management', 'Gendervraagstukken en Feminisme', 'Inleiding
+        tot Psychologie', 'Toegepaste Wiskunde'], 'Student 23': ['Moderne Politieke
+        Filosofie', 'Ondernemerschap', 'Project Management', 'Kritisch Denken en Logica',
+        'Zorgmanagement'], 'Student 24': ['Globalisering en Internationale Relaties',
+        'Digitale Transformatie', 'Programmeren in Python'], 'Student 25': ['Fotografie
+        en Visuele Communicatie', 'Systeemdenken en Complexiteit', 'Visuele Ontwerpprincipes',
+        'Beeldende Kunst', 'Inleiding tot Psychologie'], 'Student 26': ['Moderne Geschiedenis',
+        'HR Management', 'Muziektheorie', 'Vreemde Talen: Spaans', 'Taal en Communicatie']})"
+      return:
+        Artificial Intelligence: 2
+        Recht en Politiek in de EU: 4
+        Digitale Transformatie: 3
+        Culturele Antropologie: 1
+        Kritisch Denken en Logica: 3
+        Inleiding tot Chemie: 1
+        Systeemdenken en Complexiteit: 4
+        Taal en Communicatie: 3
+        Data-analyse en Statistiek: 4
+        Gendervraagstukken en Feminisme: 2
+        Creatief Schrijven: 1
+        Geschiedenis van de Wetenschap: 1
+        Beeldende Kunst: 3
+        Marketingstrategie: 1
+        Fotografie en Visuele Communicatie: 2
+        Toegepaste Wiskunde: 4
+        Klinische Psychologie: 1
+        Globalisering en Internationale Relaties: 2
+        Bouwkunde en Architectuur: 1
+        Visuele Ontwerpprincipes: 4
+        Internationale Bedrijfskunde: 1
+        Filosofie en Ethiek: 2
+        Onderwijskunde: 1
+        Digitale Marketing: 2
+        Kunstgeschiedenis: 3
+        Persoonlijke Financiën en Investeren: 1
+        Moderne Geschiedenis: 2
+        HR Management: 2
+        Moleculaire Biologie: 1
+        Lichamelijke Opvoeding en Sport: 1
+        Milieu en Duurzaamheid: 2
+        'Vreemde Talen: Spaans': 2
+        Ondernemerschap: 3
+        Genetica en Evolutie: 1
+        Programmeren in Python: 2
+        Cybersecurity: 1
+        Maatschappelijke en Culturele Studies: 1
+        Film en Mediacritiek: 1
+        Project Management: 2
+        Inleiding tot Psychologie: 2
+        Moderne Politieke Filosofie: 1
+        Zorgmanagement: 1
+        Muziektheorie: 1
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Genetica en Evolutie', 'Globalisering
+        en Internationale Relaties', 'Marketingstrategie', 'Persoonlijke Financiën
+        en Investeren', 'Cybersecurity'], 'Student 2': ['Muziektheorie', 'Digitale
+        Marketing', 'Gendervraagstukken en Feminisme', 'Bouwkunde en Architectuur',
+        'Filosofie en Ethiek'], 'Student 3': ['Digitale Marketing', 'Artificial Intelligence',
+        'Visuele Ontwerpprincipes', 'Internationaal Recht'], 'Student 4': ['Onderwijskunde',
+        'Recht en Politiek in de EU', 'Cybersecurity', 'Toegepaste Wiskunde'], 'Student
+        5': ['Milieuwetenschappen'], 'Student 6': ['Toegepaste Wiskunde', 'Moleculaire
+        Biologie', 'Data-analyse en Statistiek', 'Data-analyse en Statistiek'], 'Student
+        7': ['Milieu en Duurzaamheid'], 'Student 8': ['Project Management', 'Film
+        en Mediacritiek', 'Filosofie en Ethiek'], 'Student 9': ['Filosofie en Ethiek'],
+        'Student 10': ['Inleiding tot Psychologie'], 'Student 11': ['Inleiding tot
+        Chemie', 'Taal en Communicatie', 'Filosofie en Ethiek', 'Moderne Geschiedenis'],
+        'Student 12': ['Moderne Geschiedenis', 'Ondernemerschap', 'Web Development',
+        'Film en Mediacritiek'], 'Student 13': ['Muziektheorie', 'HR Management',
+        'Milieu en Duurzaamheid', 'Onderwijskunde'], 'Student 14': ['HR Management',
+        'HR Management', 'Sociologie'], 'Student 15': ['Gendervraagstukken en Feminisme',
+        'Maatschappelijke en Culturele Studies', 'Visuele Ontwerpprincipes'], 'Student
+        16': ['Kritisch Denken en Logica'], 'Student 17': ['Digitale Transformatie',
+        'Milieuwetenschappen'], 'Student 18': ['Taal en Communicatie'], 'Student 19':
+        ['Digitale Transformatie', 'Filosofie en Ethiek', 'Kritisch Denken en Logica',
+        'Economische Theorie'], 'Student 20': ['Sociologie', 'Sport en Gezondheid',
+        'Digitale Marketing', 'Recht en Politiek in de EU'], 'Student 21': ['Milieu
+        en Duurzaamheid', 'Milieu en Duurzaamheid', 'Muziektheorie'], 'Student 22':
+        ['Artificial Intelligence'], 'Student 23': ['Muziek en Cultuur', 'Internationaal
+        Recht', 'Cybersecurity', 'Digitale Transformatie', 'Kunstgeschiedenis'], 'Student
+        24': ['Internationale Bedrijfskunde', 'Internationale Bedrijfskunde', 'Kunstgeschiedenis'],
+        'Student 25': ['Digitale Marketing', 'Filosofie en Ethiek', 'Filosofie en
+        Ethiek', 'Kunstgeschiedenis', 'Moleculaire Biologie'], 'Student 26': ['Kritisch
+        Denken en Logica', 'Sociologie', 'Web Development'], 'Student 27': ['Moleculaire
+        Biologie', 'Sociologie', 'Inleiding tot Chemie', 'Digitale Marketing'], 'Student
+        28': ['Internationale Bedrijfskunde', 'Visuele Ontwerpprincipes', 'Internationaal
+        Recht']})"
+      return:
+        Genetica en Evolutie: 1
+        Globalisering en Internationale Relaties: 1
+        Marketingstrategie: 1
+        Persoonlijke Financiën en Investeren: 1
+        Cybersecurity: 3
+        Muziektheorie: 3
+        Digitale Marketing: 5
+        Gendervraagstukken en Feminisme: 2
+        Bouwkunde en Architectuur: 1
+        Filosofie en Ethiek: 7
+        Artificial Intelligence: 2
+        Visuele Ontwerpprincipes: 3
+        Internationaal Recht: 3
+        Onderwijskunde: 2
+        Recht en Politiek in de EU: 2
+        Toegepaste Wiskunde: 2
+        Milieuwetenschappen: 2
+        Moleculaire Biologie: 3
+        Data-analyse en Statistiek: 2
+        Milieu en Duurzaamheid: 4
+        Project Management: 1
+        Film en Mediacritiek: 2
+        Inleiding tot Psychologie: 1
+        Inleiding tot Chemie: 2
+        Taal en Communicatie: 2
+        Moderne Geschiedenis: 2
+        Ondernemerschap: 1
+        Web Development: 2
+        HR Management: 3
+        Sociologie: 4
+        Maatschappelijke en Culturele Studies: 1
+        Kritisch Denken en Logica: 3
+        Digitale Transformatie: 3
+        Economische Theorie: 1
+        Sport en Gezondheid: 1
+        Muziek en Cultuur: 1
+        Kunstgeschiedenis: 3
+        Internationale Bedrijfskunde: 3
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Klinische Psychologie', 'Internationaal
+        Recht', 'Moleculaire Biologie'], 'Student 2': ['Sociologie', 'Onderwijskunde',
+        'Visuele Ontwerpprincipes', 'Creatief Schrijven', 'Economische Theorie'],
+        'Student 3': ['Film en Mediacritiek', 'Klinische Psychologie', 'Cybersecurity'],
+        'Student 4': ['Zorgmanagement', 'Digitale Transformatie', 'Onderwijskunde',
+        'Web Development'], 'Student 5': ['Moderne Geschiedenis', 'Artificial Intelligence',
+        'HR Management'], 'Student 6': ['Vreemde Talen: Spaans', 'Inleiding tot Psychologie'],
+        'Student 7': ['Geschiedenis van de Wetenschap'], 'Student 8': ['Moderne Politieke
+        Filosofie', 'Film en Mediacritiek', 'Recht en Politiek in de EU'], 'Student
+        9': ['Gendervraagstukken en Feminisme', \"Ethische Dilemma's in Technologie\"\
+        , 'Moderne Geschiedenis'], 'Student 10': ['Milieuwetenschappen', 'Geschiedenis
+        van de Wetenschap'], 'Student 11': ['Filosofie en Ethiek', 'Lichamelijke Opvoeding
+        en Sport', 'Ondernemerschap', 'Milieu en Duurzaamheid', 'Cybersecurity'],
+        'Student 12': ['Kunstgeschiedenis', 'Web Development', 'Marketingstrategie',
+        'Fotografie en Visuele Communicatie'], 'Student 13': ['Web Development', 'Sociologie',
+        'Data-analyse en Statistiek', 'Toegepaste Wiskunde'], 'Student 14': ['Cybersecurity',
+        'Creatief Schrijven', 'Zorgmanagement', 'Internationaal Recht'], 'Student
+        15': ['Genetica en Evolutie', 'Cybersecurity', 'Bouwkunde en Architectuur',
+        'Milieu en Duurzaamheid', 'Fotografie en Visuele Communicatie'], 'Student
+        16': ['Digitale Transformatie', 'Kritisch Denken en Logica', 'Lichamelijke
+        Opvoeding en Sport', 'Duurzame Energiebronnen', 'Vreemde Talen: Spaans'],
+        'Student 17': ['Systeemdenken en Complexiteit', 'Zorgmanagement', 'Systeemdenken
+        en Complexiteit'], 'Student 18': [\"Ethische Dilemma's in Technologie\", 'Sport
+        en Gezondheid', 'Bouwkunde en Architectuur', 'Lichamelijke Opvoeding en Sport'],
+        'Student 19': ['Culturele Antropologie', 'Globalisering en Internationale
+        Relaties', 'Gendervraagstukken en Feminisme', 'Creatief Schrijven', 'Visuele
+        Ontwerpprincipes'], 'Student 20': ['Muziek en Cultuur', 'Ondernemerschap'],
+        'Student 21': ['Sport en Gezondheid', 'Filosofie en Ethiek', 'Klinische Psychologie'],
+        'Student 22': ['Lichamelijke Opvoeding en Sport', 'Cybersecurity', 'Kunstgeschiedenis',
+        'Beeldende Kunst'], 'Student 23': ['Programmeren in Python'], 'Student 24':
+        ['Persoonlijke Financiën en Investeren', 'Sociologie', 'Kunstgeschiedenis'],
+        'Student 25': ['Muziek en Cultuur', 'Geschiedenis van de Wetenschap', 'Neuropsychologie'],
+        'Student 26': ['Internationaal Recht', 'Gendervraagstukken en Feminisme',
+        'Kunstgeschiedenis'], 'Student 27': ['Onderwijskunde', 'Data-analyse en Statistiek'],
+        'Student 28': ['Digitale Transformatie', 'Ondernemerschap', 'HR Management',
+        'Persoonlijke Financiën en Investeren'], 'Student 29': ['Cybersecurity', 'Data-analyse
+        en Statistiek', 'Inleiding tot Psychologie', 'Onderwijskunde', 'Ondernemerschap']})"
+      return:
+        Klinische Psychologie: 3
+        Internationaal Recht: 3
+        Moleculaire Biologie: 1
+        Sociologie: 3
+        Onderwijskunde: 4
+        Visuele Ontwerpprincipes: 2
+        Creatief Schrijven: 3
+        Economische Theorie: 1
+        Film en Mediacritiek: 2
+        Cybersecurity: 6
+        Zorgmanagement: 3
+        Digitale Transformatie: 3
+        Web Development: 3
+        Moderne Geschiedenis: 2
+        Artificial Intelligence: 1
+        HR Management: 2
+        'Vreemde Talen: Spaans': 2
+        Inleiding tot Psychologie: 2
+        Geschiedenis van de Wetenschap: 3
+        Moderne Politieke Filosofie: 1
+        Recht en Politiek in de EU: 1
+        Gendervraagstukken en Feminisme: 3
+        Ethische Dilemma's in Technologie: 2
+        Milieuwetenschappen: 1
+        Filosofie en Ethiek: 2
+        Lichamelijke Opvoeding en Sport: 4
+        Ondernemerschap: 4
+        Milieu en Duurzaamheid: 2
+        Kunstgeschiedenis: 4
+        Marketingstrategie: 1
+        Fotografie en Visuele Communicatie: 2
+        Data-analyse en Statistiek: 3
+        Toegepaste Wiskunde: 1
+        Genetica en Evolutie: 1
+        Bouwkunde en Architectuur: 2
+        Kritisch Denken en Logica: 1
+        Duurzame Energiebronnen: 1
+        Systeemdenken en Complexiteit: 2
+        Sport en Gezondheid: 2
+        Culturele Antropologie: 1
+        Globalisering en Internationale Relaties: 1
+        Muziek en Cultuur: 2
+        Beeldende Kunst: 1
+        Programmeren in Python: 1
+        Persoonlijke Financiën en Investeren: 2
+        Neuropsychologie: 1
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Moderne Geschiedenis', 'Creatief
+        Schrijven', 'Kunstgeschiedenis', 'Visuele Ontwerpprincipes'], 'Student 2':
+        ['Maatschappelijke en Culturele Studies', 'Genetica en Evolutie', 'Moderne
+        Geschiedenis'], 'Student 3': ['Duurzame Energiebronnen', 'Visuele Ontwerpprincipes',
+        'Onderwijskunde', 'Film en Mediacritiek'], 'Student 4': ['Film en Mediacritiek'],
+        'Student 5': ['Cybersecurity', 'Beeldende Kunst', 'Culturele Antropologie'],
+        'Student 6': ['Globalisering en Internationale Relaties', 'Geschiedenis van
+        de Wetenschap'], 'Student 7': ['Milieu en Duurzaamheid', 'Onderwijskunde',
+        'Maatschappelijke en Culturele Studies', 'Milieuwetenschappen', \"Ethische
+        Dilemma's in Technologie\"], 'Student 8': ['Sport en Gezondheid', 'Klinische
+        Psychologie', 'Toegepaste Wiskunde'], 'Student 9': ['Web Development', 'Filosofie
+        en Ethiek'], 'Student 10': ['Kritisch Denken en Logica', 'Onderwijskunde',
+        'Genetica en Evolutie'], 'Student 11': ['Geschiedenis van de Wetenschap',
+        'Systeemdenken en Complexiteit'], 'Student 12': ['Muziektheorie', 'Systeemdenken
+        en Complexiteit', 'Kunstgeschiedenis', 'Sociologie', 'Filosofie en Ethiek'],
+        'Student 13': ['HR Management', 'Digitale Transformatie', 'Artificial Intelligence',
+        'Taal en Communicatie'], 'Student 14': ['Moleculaire Biologie', 'Sport en
+        Gezondheid', 'Lichamelijke Opvoeding en Sport', 'Moleculaire Biologie', 'Filosofie
+        en Ethiek'], 'Student 15': ['Toegepaste Wiskunde', 'Systeemdenken en Complexiteit',
+        'Kunstgeschiedenis'], 'Student 16': ['Moderne Geschiedenis', 'Internationale
+        Bedrijfskunde', 'Systeemdenken en Complexiteit', 'Economische Theorie', \"\
+        Ethische Dilemma's in Technologie\"], 'Student 17': ['Moleculaire Biologie',
+        'Culturele Antropologie', 'Genetica en Evolutie', 'Gendervraagstukken en Feminisme'],
+        'Student 18': ['Globalisering en Internationale Relaties'], 'Student 19':
+        ['Marketingstrategie'], 'Student 20': ['Digitale Transformatie', 'Inleiding
+        tot Chemie', 'Vreemde Talen: Spaans', 'Marketingstrategie'], 'Student 21':
+        ['Globalisering en Internationale Relaties', 'Web Development'], 'Student
+        22': ['Bouwkunde en Architectuur', 'Bouwkunde en Architectuur', 'Sociologie',
+        'Bouwkunde en Architectuur', 'Toegepaste Wiskunde'], 'Student 23': ['Maatschappelijke
+        en Culturele Studies', 'Duurzame Energiebronnen', 'Moderne Politieke Filosofie',
+        'Lichamelijke Opvoeding en Sport'], 'Student 24': ['Cybersecurity', 'Muziektheorie',
+        'Internationaal Recht', 'Kunstgeschiedenis', 'Digitale Transformatie'], 'Student
+        25': ['Kunstgeschiedenis', 'HR Management', 'Artificial Intelligence'], 'Student
+        26': ['Project Management', 'Digitale Marketing', 'Ondernemerschap', 'Visuele
+        Ontwerpprincipes'], 'Student 27': ['Onderwijskunde', 'Sociologie', 'Geschiedenis
+        van de Wetenschap', 'Globalisering en Internationale Relaties'], 'Student
+        28': ['Systeemdenken en Complexiteit', 'Systeemdenken en Complexiteit', 'Cybersecurity',
+        'Data-analyse en Statistiek', 'Sociologie'], 'Student 29': ['Artificial Intelligence',
+        'Filosofie en Ethiek', 'Web Development']})"
+      return:
+        Moderne Geschiedenis: 3
+        Creatief Schrijven: 1
+        Kunstgeschiedenis: 5
+        Visuele Ontwerpprincipes: 3
+        Maatschappelijke en Culturele Studies: 3
+        Genetica en Evolutie: 3
+        Duurzame Energiebronnen: 2
+        Onderwijskunde: 4
+        Film en Mediacritiek: 2
+        Cybersecurity: 3
+        Beeldende Kunst: 1
+        Culturele Antropologie: 2
+        Globalisering en Internationale Relaties: 4
+        Geschiedenis van de Wetenschap: 3
+        Milieu en Duurzaamheid: 1
+        Milieuwetenschappen: 1
+        Ethische Dilemma's in Technologie: 2
+        Sport en Gezondheid: 2
+        Klinische Psychologie: 1
+        Toegepaste Wiskunde: 3
+        Web Development: 3
+        Filosofie en Ethiek: 4
+        Kritisch Denken en Logica: 1
+        Systeemdenken en Complexiteit: 6
+        Muziektheorie: 2
+        Sociologie: 4
+        HR Management: 2
+        Digitale Transformatie: 3
+        Artificial Intelligence: 3
+        Taal en Communicatie: 1
+        Moleculaire Biologie: 3
+        Lichamelijke Opvoeding en Sport: 2
+        Internationale Bedrijfskunde: 1
+        Economische Theorie: 1
+        Gendervraagstukken en Feminisme: 1
+        Marketingstrategie: 2
+        Inleiding tot Chemie: 1
+        'Vreemde Talen: Spaans': 1
+        Bouwkunde en Architectuur: 3
+        Moderne Politieke Filosofie: 1
+        Internationaal Recht: 1
+        Project Management: 1
+        Digitale Marketing: 1
+        Ondernemerschap: 1
+        Data-analyse en Statistiek: 1
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Onderwijskunde', 'Moleculaire
+        Biologie', 'Cybersecurity', 'Persoonlijke Financiën en Investeren'], 'Student
+        2': ['Moderne Geschiedenis', 'Programmeren in Python', 'Artificial Intelligence',
+        'Recht en Politiek in de EU'], 'Student 3': ['Fotografie en Visuele Communicatie',
+        'Globalisering en Internationale Relaties', 'HR Management', 'Bouwkunde en
+        Architectuur', 'Gendervraagstukken en Feminisme'], 'Student 4': ['Digitale
+        Marketing', 'Lichamelijke Opvoeding en Sport', 'Inleiding tot Psychologie'],
+        'Student 5': ['Project Management', 'Moderne Politieke Filosofie'], 'Student
+        6': ['Creatief Schrijven', 'Onderwijskunde'], 'Student 7': ['Beeldende Kunst',
+        'Lichamelijke Opvoeding en Sport', 'Sport en Gezondheid', 'Muziektheorie'],
+        'Student 8': ['Cybersecurity', 'Culturele Antropologie', 'Kritisch Denken
+        en Logica', 'Artificial Intelligence'], 'Student 9': ['Persoonlijke Financiën
+        en Investeren'], 'Student 10': ['Marketingstrategie', 'Inleiding tot Psychologie'],
+        'Student 11': ['Inleiding tot Psychologie', 'Moleculaire Biologie'], 'Student
+        12': ['Klinische Psychologie'], 'Student 13': ['Zorgmanagement', 'Gendervraagstukken
+        en Feminisme'], 'Student 14': [\"Ethische Dilemma's in Technologie\"], 'Student
+        15': ['Lichamelijke Opvoeding en Sport'], 'Student 16': ['Milieu en Duurzaamheid',
+        'Moleculaire Biologie', 'Digitale Transformatie', 'Persoonlijke Financiën
+        en Investeren'], 'Student 17': ['Taal en Communicatie', 'Digitale Marketing'],
+        'Student 18': ['HR Management', 'Filosofie en Ethiek'], 'Student 19': ['Programmeren
+        in Python', 'Sport en Gezondheid', 'Taal en Communicatie', 'Marketingstrategie'],
+        'Student 20': ['Genetica en Evolutie', 'Sociologie'], 'Student 21': ['Data-analyse
+        en Statistiek', 'Artificial Intelligence', \"Ethische Dilemma's in Technologie\"\
+        , 'Economische Theorie'], 'Student 22': ['Muziektheorie', 'Beeldende Kunst',
+        'Beeldende Kunst', 'Taal en Communicatie'], 'Student 23': ['Bouwkunde en Architectuur'],
+        'Student 24': ['Internationale Bedrijfskunde', 'Milieu en Duurzaamheid', 'Gendervraagstukken
+        en Feminisme', 'Genetica en Evolutie'], 'Student 25': ['Visuele Ontwerpprincipes',
+        'Beeldende Kunst', 'Globalisering en Internationale Relaties', 'Economische
+        Theorie'], 'Student 26': ['Inleiding tot Chemie', 'Visuele Ontwerpprincipes'],
+        'Student 27': ['Lichamelijke Opvoeding en Sport', 'Creatief Schrijven'], 'Student
+        28': ['Milieu en Duurzaamheid', 'Cybersecurity', 'Genetica en Evolutie', 'Creatief
+        Schrijven', 'Toegepaste Wiskunde'], 'Student 29': ['Fotografie en Visuele
+        Communicatie'], 'Student 30': ['Milieu en Duurzaamheid', 'Milieuwetenschappen',
+        'Toegepaste Wiskunde', 'Artificial Intelligence', 'Recht en Politiek in de
+        EU'], 'Student 31': ['Genetica en Evolutie', 'Cybersecurity', 'Milieuwetenschappen',
+        'Moleculaire Biologie']})"
+      return:
+        Onderwijskunde: 2
+        Moleculaire Biologie: 4
+        Cybersecurity: 4
+        Persoonlijke Financiën en Investeren: 3
+        Moderne Geschiedenis: 1
+        Programmeren in Python: 2
+        Artificial Intelligence: 4
+        Recht en Politiek in de EU: 2
+        Fotografie en Visuele Communicatie: 2
+        Globalisering en Internationale Relaties: 2
+        HR Management: 2
+        Bouwkunde en Architectuur: 2
+        Gendervraagstukken en Feminisme: 3
+        Digitale Marketing: 2
+        Lichamelijke Opvoeding en Sport: 4
+        Inleiding tot Psychologie: 3
+        Project Management: 1
+        Moderne Politieke Filosofie: 1
+        Creatief Schrijven: 3
+        Beeldende Kunst: 4
+        Sport en Gezondheid: 2
+        Muziektheorie: 2
+        Culturele Antropologie: 1
+        Kritisch Denken en Logica: 1
+        Marketingstrategie: 2
+        Klinische Psychologie: 1
+        Zorgmanagement: 1
+        Ethische Dilemma's in Technologie: 2
+        Milieu en Duurzaamheid: 4
+        Digitale Transformatie: 1
+        Taal en Communicatie: 3
+        Filosofie en Ethiek: 1
+        Genetica en Evolutie: 4
+        Sociologie: 1
+        Data-analyse en Statistiek: 1
+        Economische Theorie: 2
+        Internationale Bedrijfskunde: 1
+        Visuele Ontwerpprincipes: 2
+        Inleiding tot Chemie: 1
+        Toegepaste Wiskunde: 2
+        Milieuwetenschappen: 2
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Sociologie', 'Moleculaire Biologie'],
+        'Student 2': ['Taal en Communicatie', 'Kunstgeschiedenis', 'Kritisch Denken
+        en Logica', 'Bouwkunde en Architectuur', 'Programmeren in Python'], 'Student
+        3': ['Marketingstrategie', 'Vreemde Talen: Spaans', 'Film en Mediacritiek'],
+        'Student 4': ['Film en Mediacritiek', 'Film en Mediacritiek', 'Ondernemerschap',
+        'Milieuwetenschappen'], 'Student 5': ['Kritisch Denken en Logica', 'Lichamelijke
+        Opvoeding en Sport', 'Recht en Politiek in de EU', 'Moleculaire Biologie',
+        'Geschiedenis van de Wetenschap'], 'Student 6': ['Muziek en Cultuur', 'Geschiedenis
+        van de Wetenschap', 'Film en Mediacritiek', 'Persoonlijke Financiën en Investeren',
+        'Kunstgeschiedenis'], 'Student 7': ['Marketingstrategie', 'Onderwijskunde'],
+        'Student 8': ['Neuropsychologie', 'Moderne Politieke Filosofie', 'Muziektheorie',
+        'Filosofie en Ethiek'], 'Student 9': ['Neuropsychologie', 'Bouwkunde en Architectuur'],
+        'Student 10': ['Visuele Ontwerpprincipes'], 'Student 11': ['Vreemde Talen:
+        Spaans', 'Filosofie en Ethiek', 'Economische Theorie'], 'Student 12': ['Neuropsychologie',
+        'Vreemde Talen: Spaans'], 'Student 13': ['Culturele Antropologie', 'Gendervraagstukken
+        en Feminisme', 'Digitale Marketing', 'Bouwkunde en Architectuur', 'Bouwkunde
+        en Architectuur'], 'Student 14': ['Systeemdenken en Complexiteit', 'Maatschappelijke
+        en Culturele Studies', 'Klinische Psychologie', 'Persoonlijke Financiën en
+        Investeren'], 'Student 15': ['Moderne Politieke Filosofie', 'Moderne Politieke
+        Filosofie', 'Inleiding tot Psychologie'], 'Student 16': ['Digitale Marketing',
+        'Duurzame Energiebronnen', 'Visuele Ontwerpprincipes', 'Vreemde Talen: Spaans',
+        'Data-analyse en Statistiek'], 'Student 17': ['HR Management', 'Klinische
+        Psychologie', 'Artificial Intelligence', 'Gendervraagstukken en Feminisme'],
+        'Student 18': ['Moderne Politieke Filosofie', 'Data-analyse en Statistiek',
+        'HR Management', 'Neuropsychologie', 'Ondernemerschap'], 'Student 19': ['Toegepaste
+        Wiskunde', 'Genetica en Evolutie', 'Maatschappelijke en Culturele Studies',
+        'Marketingstrategie'], 'Student 20': ['Geschiedenis van de Wetenschap', 'Data-analyse
+        en Statistiek'], 'Student 21': ['Sport en Gezondheid'], 'Student 22': ['Muziektheorie',
+        'Fotografie en Visuele Communicatie', 'Moderne Geschiedenis', 'Data-analyse
+        en Statistiek'], 'Student 23': ['Project Management', \"Ethische Dilemma's
+        in Technologie\", 'Gendervraagstukken en Feminisme', 'Cybersecurity', 'Inleiding
+        tot Psychologie'], 'Student 24': ['Kritisch Denken en Logica', 'Visuele Ontwerpprincipes'],
+        'Student 25': ['Milieuwetenschappen', 'Beeldende Kunst', 'Genetica en Evolutie'],
+        'Student 26': ['Geschiedenis van de Wetenschap'], 'Student 27': ['Muziektheorie',
+        'Project Management', 'Muziek en Cultuur', 'Ondernemerschap'], 'Student 28':
+        ['Muziektheorie'], 'Student 29': ['Web Development', 'Visuele Ontwerpprincipes',
+        'Inleiding tot Chemie'], 'Student 30': ['Taal en Communicatie', 'Duurzame
+        Energiebronnen'], 'Student 31': ['Sociologie', 'Filosofie en Ethiek', 'Kunstgeschiedenis',
+        'Geschiedenis van de Wetenschap'], 'Student 32': ['Recht en Politiek in de
+        EU', 'Project Management']})"
+      return:
+        Sociologie: 2
+        Moleculaire Biologie: 2
+        Taal en Communicatie: 2
+        Kunstgeschiedenis: 3
+        Kritisch Denken en Logica: 3
+        Bouwkunde en Architectuur: 4
+        Programmeren in Python: 1
+        Marketingstrategie: 3
+        'Vreemde Talen: Spaans': 4
+        Film en Mediacritiek: 4
+        Ondernemerschap: 3
+        Milieuwetenschappen: 2
+        Lichamelijke Opvoeding en Sport: 1
+        Recht en Politiek in de EU: 2
+        Geschiedenis van de Wetenschap: 5
+        Muziek en Cultuur: 2
+        Persoonlijke Financiën en Investeren: 2
+        Onderwijskunde: 1
+        Neuropsychologie: 4
+        Moderne Politieke Filosofie: 4
+        Muziektheorie: 4
+        Filosofie en Ethiek: 3
+        Visuele Ontwerpprincipes: 4
+        Economische Theorie: 1
+        Culturele Antropologie: 1
+        Gendervraagstukken en Feminisme: 3
+        Digitale Marketing: 2
+        Systeemdenken en Complexiteit: 1
+        Maatschappelijke en Culturele Studies: 2
+        Klinische Psychologie: 2
+        Inleiding tot Psychologie: 2
+        Duurzame Energiebronnen: 2
+        Data-analyse en Statistiek: 4
+        HR Management: 2
+        Artificial Intelligence: 1
+        Toegepaste Wiskunde: 1
+        Genetica en Evolutie: 2
+        Sport en Gezondheid: 1
+        Fotografie en Visuele Communicatie: 1
+        Moderne Geschiedenis: 1
+        Project Management: 3
+        Ethische Dilemma's in Technologie: 1
+        Cybersecurity: 1
+        Beeldende Kunst: 1
+        Web Development: 1
+        Inleiding tot Chemie: 1
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Gendervraagstukken en Feminisme'],
+        'Student 2': ['Kunstgeschiedenis', 'Klinische Psychologie', 'Genetica en Evolutie'],
+        'Student 3': ['Programmeren in Python'], 'Student 4': ['Marketingstrategie',
+        'Lichamelijke Opvoeding en Sport', 'Economische Theorie', 'Muziektheorie',
+        'Sociologie'], 'Student 5': ['Cybersecurity', 'Gendervraagstukken en Feminisme',
+        'Web Development', 'Cybersecurity'], 'Student 6': ['Film en Mediacritiek',
+        'Economische Theorie', 'Moderne Geschiedenis', 'Vreemde Talen: Spaans', 'Sociologie'],
+        'Student 7': ['Milieuwetenschappen', 'Web Development', 'Moleculaire Biologie',
+        'Kunstgeschiedenis', 'Milieuwetenschappen'], 'Student 8': ['Neuropsychologie',
+        'Artificial Intelligence', 'Sport en Gezondheid', 'Recht en Politiek in de
+        EU', 'Culturele Antropologie'], 'Student 9': ['Creatief Schrijven', 'Bouwkunde
+        en Architectuur', 'Filosofie en Ethiek'], 'Student 10': [\"Ethische Dilemma's
+        in Technologie\"], 'Student 11': ['Filosofie en Ethiek', 'Data-analyse en
+        Statistiek', 'Visuele Ontwerpprincipes'], 'Student 12': ['Filosofie en Ethiek',
+        'Digitale Marketing', 'Moderne Geschiedenis', 'Lichamelijke Opvoeding en Sport',
+        'Film en Mediacritiek'], 'Student 13': ['Klinische Psychologie', 'Moleculaire
+        Biologie', 'Globalisering en Internationale Relaties', 'Film en Mediacritiek',
+        'Toegepaste Wiskunde'], 'Student 14': ['Internationale Bedrijfskunde', 'Film
+        en Mediacritiek', 'Neuropsychologie', 'Kritisch Denken en Logica', 'Film en
+        Mediacritiek'], 'Student 15': ['Vreemde Talen: Spaans', 'Taal en Communicatie'],
+        'Student 16': ['Economische Theorie', 'Milieuwetenschappen', 'Toegepaste Wiskunde',
+        'Digitale Transformatie'], 'Student 17': ['Inleiding tot Psychologie', 'Zorgmanagement',
+        'Fotografie en Visuele Communicatie', 'Kunstgeschiedenis', 'Moderne Geschiedenis'],
+        'Student 18': ['Kritisch Denken en Logica'], 'Student 19': ['Onderwijskunde',
+        'Internationaal Recht', 'Neuropsychologie'], 'Student 20': [\"Ethische Dilemma's
+        in Technologie\", 'Milieu en Duurzaamheid'], 'Student 21': ['HR Management',
+        'Project Management', 'Sociologie'], 'Student 22': ['Ondernemerschap', 'Cybersecurity',
+        'Film en Mediacritiek', 'Geschiedenis van de Wetenschap'], 'Student 23': ['Sociologie',
+        'Kunstgeschiedenis', 'Taal en Communicatie', 'Taal en Communicatie', 'Onderwijskunde'],
+        'Student 24': ['Fotografie en Visuele Communicatie'], 'Student 25': ['Programmeren
+        in Python', 'Genetica en Evolutie', 'Data-analyse en Statistiek', 'Ondernemerschap',
+        'Artificial Intelligence'], 'Student 26': ['Kunstgeschiedenis', 'Lichamelijke
+        Opvoeding en Sport', 'Ondernemerschap'], 'Student 27': ['Milieuwetenschappen',
+        'Persoonlijke Financiën en Investeren'], 'Student 28': ['Moleculaire Biologie',
+        'Milieu en Duurzaamheid', 'Persoonlijke Financiën en Investeren'], 'Student
+        29': ['Inleiding tot Psychologie', 'Zorgmanagement'], 'Student 30': ['Genetica
+        en Evolutie', 'Project Management'], 'Student 31': ['Maatschappelijke en Culturele
+        Studies', 'Muziektheorie', 'Moderne Politieke Filosofie'], 'Student 32': ['Ondernemerschap',
+        'Culturele Antropologie', 'Inleiding tot Chemie', 'Culturele Antropologie',
+        'Globalisering en Internationale Relaties'], 'Student 33': ['Sport en Gezondheid']})"
+      return:
+        Gendervraagstukken en Feminisme: 2
+        Kunstgeschiedenis: 5
+        Klinische Psychologie: 2
+        Genetica en Evolutie: 3
+        Programmeren in Python: 2
+        Marketingstrategie: 1
+        Lichamelijke Opvoeding en Sport: 3
+        Economische Theorie: 3
+        Muziektheorie: 2
+        Sociologie: 4
+        Cybersecurity: 3
+        Web Development: 2
+        Film en Mediacritiek: 6
+        Moderne Geschiedenis: 3
+        'Vreemde Talen: Spaans': 2
+        Milieuwetenschappen: 4
+        Moleculaire Biologie: 3
+        Neuropsychologie: 3
+        Artificial Intelligence: 2
+        Sport en Gezondheid: 2
+        Recht en Politiek in de EU: 1
+        Culturele Antropologie: 3
+        Creatief Schrijven: 1
+        Bouwkunde en Architectuur: 1
+        Filosofie en Ethiek: 3
+        Ethische Dilemma's in Technologie: 2
+        Data-analyse en Statistiek: 2
+        Visuele Ontwerpprincipes: 1
+        Digitale Marketing: 1
+        Globalisering en Internationale Relaties: 2
+        Toegepaste Wiskunde: 2
+        Internationale Bedrijfskunde: 1
+        Kritisch Denken en Logica: 2
+        Taal en Communicatie: 3
+        Digitale Transformatie: 1
+        Inleiding tot Psychologie: 2
+        Zorgmanagement: 2
+        Fotografie en Visuele Communicatie: 2
+        Onderwijskunde: 2
+        Internationaal Recht: 1
+        Milieu en Duurzaamheid: 2
+        HR Management: 1
+        Project Management: 2
+        Ondernemerschap: 4
+        Geschiedenis van de Wetenschap: 1
+        Persoonlijke Financiën en Investeren: 2
+        Maatschappelijke en Culturele Studies: 1
+        Moderne Politieke Filosofie: 1
+        Inleiding tot Chemie: 1
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': ['Kritisch Denken en Logica', 'Onderwijskunde',
+        'Film en Mediacritiek', 'Maatschappelijke en Culturele Studies', 'Kunstgeschiedenis'],
+        'Student 2': ['Cybersecurity', 'Milieuwetenschappen', 'Zorgmanagement', 'Kunstgeschiedenis',
+        'Duurzame Energiebronnen'], 'Student 3': ['Persoonlijke Financiën en Investeren',
+        'Culturele Antropologie', 'Artificial Intelligence', 'Taal en Communicatie'],
+        'Student 4': ['Bouwkunde en Architectuur', 'Ondernemerschap', 'Fotografie
+        en Visuele Communicatie', 'Milieuwetenschappen'], 'Student 5': ['Visuele Ontwerpprincipes',
+        'Film en Mediacritiek'], 'Student 6': ['Moderne Politieke Filosofie'], 'Student
+        7': ['Inleiding tot Chemie', 'Genetica en Evolutie', 'Kunstgeschiedenis',
+        'Bouwkunde en Architectuur', 'Duurzame Energiebronnen'], 'Student 8': ['Systeemdenken
+        en Complexiteit', 'Economische Theorie', 'Muziek en Cultuur', 'Filosofie en
+        Ethiek', 'Gendervraagstukken en Feminisme'], 'Student 9': ['Gendervraagstukken
+        en Feminisme'], 'Student 10': ['Gendervraagstukken en Feminisme'], 'Student
+        11': ['Visuele Ontwerpprincipes', 'Data-analyse en Statistiek', 'Taal en Communicatie',
+        'Marketingstrategie'], 'Student 12': ['Artificial Intelligence', 'HR Management',
+        'Ondernemerschap', 'Ondernemerschap'], 'Student 13': ['Marketingstrategie'],
+        'Student 14': ['Geschiedenis van de Wetenschap', 'Persoonlijke Financiën en
+        Investeren'], 'Student 15': ['Internationaal Recht', 'Recht en Politiek in
+        de EU', 'Sport en Gezondheid', 'Kunstgeschiedenis'], 'Student 16': ['Milieu
+        en Duurzaamheid'], 'Student 17': ['Data-analyse en Statistiek'], 'Student
+        18': ['Inleiding tot Chemie', 'Duurzame Energiebronnen', 'Milieu en Duurzaamheid',
+        'Geschiedenis van de Wetenschap', 'Visuele Ontwerpprincipes'], 'Student 19':
+        ['Project Management', 'Economische Theorie', 'Internationaal Recht', 'Systeemdenken
+        en Complexiteit', 'Digitale Marketing'], 'Student 20': ['Onderwijskunde',
+        'Vreemde Talen: Spaans', 'Visuele Ontwerpprincipes', 'Globalisering en Internationale
+        Relaties'], 'Student 21': ['Persoonlijke Financiën en Investeren', 'Onderwijskunde',
+        'Recht en Politiek in de EU', 'Web Development', 'Moderne Geschiedenis'],
+        'Student 22': ['Project Management', 'Film en Mediacritiek', 'Ondernemerschap',
+        'Ondernemerschap'], 'Student 23': ['Cybersecurity', 'Economische Theorie',
+        'Fotografie en Visuele Communicatie', 'Klinische Psychologie', 'Lichamelijke
+        Opvoeding en Sport'], 'Student 24': ['Project Management', 'Geschiedenis van
+        de Wetenschap'], 'Student 25': ['Maatschappelijke en Culturele Studies', 'Persoonlijke
+        Financiën en Investeren'], 'Student 26': ['Cybersecurity', 'Toegepaste Wiskunde',
+        'Kunstgeschiedenis'], 'Student 27': ['Film en Mediacritiek', 'Moderne Politieke
+        Filosofie'], 'Student 28': ['Globalisering en Internationale Relaties', 'Geschiedenis
+        van de Wetenschap', 'Muziektheorie', 'Zorgmanagement'], 'Student 29': ['Bouwkunde
+        en Architectuur', 'Taal en Communicatie', 'Programmeren in Python', 'Kunstgeschiedenis'],
+        'Student 30': ['Project Management', 'Cybersecurity', 'Inleiding tot Psychologie',
+        'Digitale Marketing'], 'Student 31': ['Moderne Geschiedenis', 'Sport en Gezondheid'],
+        'Student 32': ['Kunstgeschiedenis', 'Digitale Transformatie', 'Web Development',
+        'Filosofie en Ethiek', 'Digitale Transformatie'], 'Student 33': ['Gendervraagstukken
+        en Feminisme', 'Muziek en Cultuur', 'Muziek en Cultuur'], 'Student 34': ['Genetica
+        en Evolutie'], 'Student 35': ['Sport en Gezondheid', 'Cybersecurity'], 'Student
+        36': ['Bouwkunde en Architectuur', 'Ondernemerschap', 'Cybersecurity', 'Persoonlijke
+        Financiën en Investeren', 'Data-analyse en Statistiek'], 'Student 37': ['Taal
+        en Communicatie', 'Onderwijskunde', 'Taal en Communicatie']})"
+      return:
+        Kritisch Denken en Logica: 1
+        Onderwijskunde: 4
+        Film en Mediacritiek: 4
+        Maatschappelijke en Culturele Studies: 2
+        Kunstgeschiedenis: 7
+        Cybersecurity: 6
+        Milieuwetenschappen: 2
+        Zorgmanagement: 2
+        Duurzame Energiebronnen: 3
+        Persoonlijke Financiën en Investeren: 5
+        Culturele Antropologie: 1
+        Artificial Intelligence: 2
+        Taal en Communicatie: 5
+        Bouwkunde en Architectuur: 4
+        Ondernemerschap: 6
+        Fotografie en Visuele Communicatie: 2
+        Visuele Ontwerpprincipes: 4
+        Moderne Politieke Filosofie: 2
+        Inleiding tot Chemie: 2
+        Genetica en Evolutie: 2
+        Systeemdenken en Complexiteit: 2
+        Economische Theorie: 3
+        Muziek en Cultuur: 3
+        Filosofie en Ethiek: 2
+        Gendervraagstukken en Feminisme: 4
+        Data-analyse en Statistiek: 3
+        Marketingstrategie: 2
+        HR Management: 1
+        Geschiedenis van de Wetenschap: 4
+        Internationaal Recht: 2
+        Recht en Politiek in de EU: 2
+        Sport en Gezondheid: 3
+        Milieu en Duurzaamheid: 2
+        Project Management: 4
+        Digitale Marketing: 2
+        'Vreemde Talen: Spaans': 1
+        Globalisering en Internationale Relaties: 2
+        Web Development: 2
+        Moderne Geschiedenis: 2
+        Klinische Psychologie: 1
+        Lichamelijke Opvoeding en Sport: 1
+        Toegepaste Wiskunde: 1
+        Muziektheorie: 1
+        Programmeren in Python: 1
+        Inleiding tot Psychologie: 1
+        Digitale Transformatie: 2
+  - testcases:
+    - expression: "aantal_studenten({'Student 1': [\"Ethische Dilemma's in Technologie\"\
+        , 'Marketingstrategie', 'Vreemde Talen: Spaans', 'Programmeren in Python'],
+        'Student 2': ['Economische Theorie', 'Gendervraagstukken en Feminisme'], 'Student
+        3': ['Systeemdenken en Complexiteit', 'Film en Mediacritiek', 'Persoonlijke
+        Financiën en Investeren', 'Digitale Transformatie', 'Inleiding tot Chemie'],
+        'Student 4': ['Kunstgeschiedenis', 'Bouwkunde en Architectuur'], 'Student
+        5': ['Systeemdenken en Complexiteit', 'Moleculaire Biologie', 'Zorgmanagement'],
+        'Student 6': ['Persoonlijke Financiën en Investeren', 'Geschiedenis van de
+        Wetenschap', 'Inleiding tot Psychologie', 'Internationaal Recht', 'Recht en
+        Politiek in de EU'], 'Student 7': ['Globalisering en Internationale Relaties',
+        'Beeldende Kunst', 'Gendervraagstukken en Feminisme'], 'Student 8': ['Visuele
+        Ontwerpprincipes', 'Kunstgeschiedenis', 'Economische Theorie', 'Toegepaste
+        Wiskunde', 'Milieu en Duurzaamheid'], 'Student 9': ['Film en Mediacritiek'],
+        'Student 10': ['Marketingstrategie'], 'Student 11': ['Filosofie en Ethiek',
+        'Internationale Bedrijfskunde', 'Genetica en Evolutie'], 'Student 12': ['Bouwkunde
+        en Architectuur', 'Milieu en Duurzaamheid', 'Creatief Schrijven'], 'Student
+        13': ['Taal en Communicatie', 'Maatschappelijke en Culturele Studies', 'Marketingstrategie',
+        'Economische Theorie'], 'Student 14': ['Inleiding tot Psychologie', 'Cybersecurity',
+        'Moderne Geschiedenis'], 'Student 15': ['Onderwijskunde', 'Lichamelijke Opvoeding
+        en Sport', 'Internationaal Recht', 'Genetica en Evolutie', 'Creatief Schrijven'],
+        'Student 16': ['Persoonlijke Financiën en Investeren', 'Marketingstrategie',
+        'Duurzame Energiebronnen', 'Systeemdenken en Complexiteit', 'Duurzame Energiebronnen'],
+        'Student 17': ['Taal en Communicatie', 'Programmeren in Python', 'Internationaal
+        Recht'], 'Student 18': ['Milieu en Duurzaamheid'], 'Student 19': ['Recht en
+        Politiek in de EU', 'Klinische Psychologie', 'Moderne Geschiedenis', 'Inleiding
+        tot Chemie'], 'Student 20': ['Inleiding tot Psychologie'], 'Student 21': ['Muziek
+        en Cultuur', 'Ondernemerschap'], 'Student 22': ['Artificial Intelligence',
+        'Cybersecurity', 'Digitale Transformatie', 'Beeldende Kunst', 'Economische
+        Theorie'], 'Student 23': ['Muziektheorie', 'Digitale Marketing', 'Onderwijskunde',
+        'Digitale Transformatie', 'Web Development'], 'Student 24': ['Muziek en Cultuur',
+        'Internationaal Recht'], 'Student 25': ['Inleiding tot Chemie', 'Digitale
+        Transformatie'], 'Student 26': ['Project Management', 'Moderne Politieke Filosofie',
+        'Web Development', 'Artificial Intelligence', 'Film en Mediacritiek'], 'Student
+        27': ['Systeemdenken en Complexiteit'], 'Student 28': ['Filosofie en Ethiek'],
+        'Student 29': ['Genetica en Evolutie', 'Recht en Politiek in de EU'], 'Student
+        30': ['Muziek en Cultuur', 'Milieuwetenschappen', 'Milieu en Duurzaamheid'],
+        'Student 31': ['Milieu en Duurzaamheid', 'Data-analyse en Statistiek', 'Genetica
+        en Evolutie', 'Digitale Transformatie'], 'Student 32': ['Moderne Geschiedenis'],
+        'Student 33': ['Filosofie en Ethiek', 'Culturele Antropologie', 'Sport en
+        Gezondheid', 'Creatief Schrijven', \"Ethische Dilemma's in Technologie\"],
+        'Student 34': ['Klinische Psychologie', 'Globalisering en Internationale Relaties',
+        'Moderne Politieke Filosofie', 'Inleiding tot Psychologie'], 'Student 35':
+        ['Recht en Politiek in de EU', \"Ethische Dilemma's in Technologie\", 'Kunstgeschiedenis',
+        'Kunstgeschiedenis', 'Systeemdenken en Complexiteit'], 'Student 36': ['Artificial
+        Intelligence', 'Internationale Bedrijfskunde'], 'Student 37': ['Maatschappelijke
+        en Culturele Studies', 'Internationaal Recht']})"
+      return:
+        Ethische Dilemma's in Technologie: 3
+        Marketingstrategie: 4
+        'Vreemde Talen: Spaans': 1
+        Programmeren in Python: 2
+        Economische Theorie: 4
+        Gendervraagstukken en Feminisme: 2
+        Systeemdenken en Complexiteit: 5
+        Film en Mediacritiek: 3
+        Persoonlijke Financiën en Investeren: 3
+        Digitale Transformatie: 5
+        Inleiding tot Chemie: 3
+        Kunstgeschiedenis: 4
+        Bouwkunde en Architectuur: 2
+        Moleculaire Biologie: 1
+        Zorgmanagement: 1
+        Geschiedenis van de Wetenschap: 1
+        Inleiding tot Psychologie: 4
+        Internationaal Recht: 5
+        Recht en Politiek in de EU: 4
+        Globalisering en Internationale Relaties: 2
+        Beeldende Kunst: 2
+        Visuele Ontwerpprincipes: 1
+        Toegepaste Wiskunde: 1
+        Milieu en Duurzaamheid: 5
+        Filosofie en Ethiek: 3
+        Internationale Bedrijfskunde: 2
+        Genetica en Evolutie: 4
+        Creatief Schrijven: 3
+        Taal en Communicatie: 2
+        Maatschappelijke en Culturele Studies: 2
+        Cybersecurity: 2
+        Moderne Geschiedenis: 3
+        Onderwijskunde: 2
+        Lichamelijke Opvoeding en Sport: 1
+        Duurzame Energiebronnen: 2
+        Klinische Psychologie: 2
+        Muziek en Cultuur: 3
+        Ondernemerschap: 1
+        Artificial Intelligence: 3
+        Muziektheorie: 1
+        Digitale Marketing: 1
+        Web Development: 2
+        Project Management: 1
+        Moderne Politieke Filosofie: 2
+        Milieuwetenschappen: 1
+        Data-analyse en Statistiek: 1
+        Culturele Antropologie: 1
+        Sport en Gezondheid: 1
