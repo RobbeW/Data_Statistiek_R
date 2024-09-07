@@ -9,3 +9,64 @@
   - testcases:
     - expression: rafeligheid(10, ['Deze', 'editie', 'is', 'de', 'beste', 'ooit'])
       return: 77
+  - testcases:
+    - expression: rafeligheid(20, ['Programmeren', 'is', 'het', 'schrijven', 'van',
+        'een', 'computerprogramma'])
+      return: 19
+  - testcases:
+    - expression: rafeligheid(11, ['een', 'concrete', 'reeks', 'instructies', 'die',
+        'een', 'computer', 'uitvoert'])
+      return: 143
+  - testcases:
+    - expression: rafeligheid(40, ['Dit', 'is', 'de', 'taak', 'van', 'een', 'softwareontwikkelaar',
+        'of', 'programmeur', 'Programmeren', 'wordt', 'in', 'het', 'algemeen', 'niet',
+        'direct'])
+      return: 1506
+  - testcases:
+    - expression: rafeligheid(80, ['in', 'machinetaal', 'gedaan', 'maar', 'in', 'een',
+        'programmeertaal', 'De', 'programmacode', 'die', 'wordt', 'geschreven', 'heet',
+        'broncode', 'en', 'wordt', 'door', 'een', 'assembler', 'compiler', 'of', 'interpreter',
+        'omgezet', 'in', 'machinecode'])
+      return: 3396
+  - testcases:
+    - expression: rafeligheid(80, ['Met', 'compilers', 'die', 'dezelfde', 'programmeertaal',
+        'naar', 'verschillende', 'machinetalen', 'omzetten', 'wordt', 'het', 'mogelijk',
+        'om', 'programmatuur', 'te', 'schrijven', 'die', 'niet', 'gebonden', 'is',
+        'aan', 'een', 'specifieke', 'processor', 'Bovendien', 'ondersteunt', 'een',
+        'programmeertaal', 'een', 'hoger', 'niveau', 'van', 'abstractie', 'dan', 'machinetaal',
+        'waardoor', 'programmas', 'gemakkelijker', 'te', 'begrijpen', 'en', 'te',
+        'wijzigen', 'zijn'])
+      return: 2677
+  - testcases:
+    - expression: rafeligheid(20, ['De', 'omvang', 'van', 'programmeerwerk', 'verschilt',
+        'sterk', 'Veel', 'programmas', 'bestaan', 'uit', 'enkele', 'regels', 'broncode',
+        'die', 'na', 'eenmalig', 'gebruik', 'worden', 'afgedankt;', 'maar', 'ook',
+        'programmas', 'met', 'miljoenen', 'regels', 'broncode', 'die', 'gedurende',
+        'tientallen', 'jaren', 'worden', 'gebruikt', 'en', 'aangepast', 'door', 'duizenden',
+        'programmeurs', 'zijn', 'niet', 'zeldzaam.'])
+      return: 549
+  - testcases:
+    - expression: rafeligheid(7, ['Perfect', 'Perfect'])
+      return: 0
+  - testcases:
+    - expression: rafeligheid(9, ['Hij', 'gaat', 'naar', 'school', 'met', 'de', 'fiets'])
+      return: 60
+  - testcases:
+    - expression: rafeligheid(7, ['Het', 'boek', 'ligt', 'op', 'de', 'bank', 'naast',
+        'de', 'plant'])
+      return: 58
+  - testcases:
+    - expression: rafeligheid(9, ['De', 'hond', 'rent', 'sneller', 'dan', 'de', 'kat'])
+      return: 78
+  - testcases:
+    - expression: rafeligheid(9, ['Kinderen', 'spelen', 'graag', 'buiten', 'met',
+        'vrienden'])
+      return: 72
+  - testcases:
+    - expression: rafeligheid(73, ['De', 'lange', 'zomerdag', 'begon', 'vroeg', 'en',
+        'eindigde', 'met', 'een', 'prachtige', 'zonsondergang', 'die', 'de', 'lucht',
+        'veranderde', 'in', 'kleuren', 'zoals', 'roze', 'oranje', 'en', 'paars', 'Terwijl',
+        'de', 'vogels', 'zongen', 'in', 'de', 'bomen', 'liepen', 'mensen', 'langs',
+        'het', 'strand', 'en', 'genoten', 'van', 'de', 'warme', 'zomerse', 'avond',
+        'met', 'vrienden', 'en', 'familie', 'dichtbij'])
+      return: 329

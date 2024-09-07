@@ -35,7 +35,20 @@ spec.loader.exec_module(module)
 ntests = 20
 cases = [(7, ["Dit", "is", "een", "makkie"]),
          (7, ["Perfect"]),
-         (10, ["Deze", "editie", "is", "de", "beste", "ooit"])]
+         (10, ["Deze", "editie", "is", "de", "beste", "ooit"]),
+         (20, ["Programmeren","is","het","schrijven", "van", "een", "computerprogramma"]),
+         (11, ["een", "concrete", "reeks", "instructies", "die", "een", "computer", "uitvoert"]),
+         (40, ["Dit", "is", "de", "taak", "van", "een", "softwareontwikkelaar", "of", "programmeur", "Programmeren", "wordt", "in", "het", "algemeen", "niet", "direct"]),
+         (80, ["in", "machinetaal", "gedaan", "maar", "in", "een", "programmeertaal", "De", "programmacode", "die", "wordt", "geschreven", "heet", "broncode", "en", "wordt", "door", "een", "assembler", "compiler", "of", "interpreter", "omgezet", "in", "machinecode"]),
+         (80, ["Met", "compilers", "die", "dezelfde", "programmeertaal", "naar", "verschillende", "machinetalen", "omzetten", "wordt", "het", "mogelijk", "om", "programmatuur", "te", "schrijven", "die", "niet", "gebonden", "is", "aan", "een", "specifieke", "processor", "Bovendien", "ondersteunt", "een", "programmeertaal", "een", "hoger", "niveau", "van", "abstractie", "dan", "machinetaal", "waardoor", "programmas", "gemakkelijker", "te", "begrijpen", "en", "te", "wijzigen", "zijn"]),
+         (20, ["De", "omvang", "van", "programmeerwerk", "verschilt", "sterk", "Veel", "programmas", "bestaan", "uit", "enkele", "regels", "broncode", "die", "na", "eenmalig", "gebruik", "worden", "afgedankt;", "maar", "ook", "programmas", "met", "miljoenen", "regels", "broncode", "die", "gedurende", "tientallen", "jaren", "worden", "gebruikt", "en", "aangepast", "door", "duizenden", "programmeurs", "zijn", "niet", "zeldzaam."]),
+         (7, ["Perfect","Perfect"]),
+         (9, ['Hij', 'gaat', 'naar', 'school', 'met', 'de', 'fiets']),
+         (7, ['Het', 'boek', 'ligt', 'op', 'de', 'bank', 'naast', 'de', 'plant']),
+         (9, ['De', 'hond', 'rent', 'sneller', 'dan', 'de', 'kat']),
+         (9, ['Kinderen', 'spelen', 'graag', 'buiten', 'met', 'vrienden']),
+         (73, ['De', 'lange', 'zomerdag', 'begon', 'vroeg', 'en', 'eindigde', 'met', 'een', 'prachtige', 'zonsondergang', 'die', 'de', 'lucht', 'veranderde', 'in', 'kleuren', 'zoals', 'roze', 'oranje', 'en', 'paars', 'Terwijl', 'de', 'vogels', 'zongen', 'in', 'de', 'bomen', 'liepen', 'mensen', 'langs', 'het', 'strand', 'en', 'genoten', 'van', 'de', 'warme', 'zomerse', 'avond', 'met', 'vrienden', 'en', 'familie', 'dichtbij'])
+]
 
 
 # generate unit tests for functions
