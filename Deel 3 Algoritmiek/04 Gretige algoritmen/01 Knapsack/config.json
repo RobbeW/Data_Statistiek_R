@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Knapsack"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "Greedy"
+  ],
+  "access": "public"
+}
