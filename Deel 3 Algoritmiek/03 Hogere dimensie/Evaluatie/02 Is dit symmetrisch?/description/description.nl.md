@@ -1,7 +1,7 @@
 Een vierkante matrix is **symmetrisch** indien je deze kan spiegelen ten opzichte van de hoofdiagonaal. Onderstaande matrix is een voorbeeld van een symmetrische matrix.
 
 $$
-    \mathsf{\begin{pmatrix}3 & 0 & 1 \\ 0 & 4 & 5 \\1 & 5 & 2\end{pmatrix}}
+    \mathsf{\begin{pmatrix}\sf 3 & \sf 0 & \sf 1 \\ \sf 0 & \sf 4 & \sf 5 \\\sf 1 & \sf 5 & \sf 2\end{pmatrix}}
 $$
 
 ## Gevraagd

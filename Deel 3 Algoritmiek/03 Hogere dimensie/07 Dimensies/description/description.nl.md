@@ -3,7 +3,7 @@ Bij het rekenen met matrices spreekt men vaak over een n x m matrix. Deze heeft 
 Hieronder zie je een voorbeeld van een 2 × 3 matrix:
 
 $$
-\mathsf{\begin{pmatrix}1 & 2 & 4\\ 8 & 9 & 6\end{pmatrix}}
+\mathsf{\begin{pmatrix}\sf 1 & \sf 2 & \sf 4\\ \sf 8 & \sf 9 & \sf 6\end{pmatrix}}
 $$
 
 

@@ -13,12 +13,10 @@ matrix = [[1, 2],
 In deze weergave zie je meteen dat dit deze matrix is:
 
 $$
-\mathsf{
     \begin{pmatrix}
-    1 & 2\\
-    3 & 4
+    \sf 1 & \sf 2\\
+    \sf 3 & \sf 4
     \end{pmatrix}
-}
 $$
 
 ## Gevraagd
