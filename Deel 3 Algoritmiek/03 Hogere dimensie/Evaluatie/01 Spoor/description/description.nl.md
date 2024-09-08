@@ -3,7 +3,7 @@ Het **spoor** van een matrix (ook wel *trace* genoemd) is de som van de elemente
 Voor onderstaande matrix geldt bijvoorbeeld dat het spoor gelijk is aan 7.
 
 $$
-    \begin{pmatrix}\mathsf{3} & 0 & 1 \\ 0 & 4 & 4 \\0 & 1 & 0\end{pmatrix}
+    {\sf \begin{pmatrix}3 & 0 & 1 \\ 0 & 4 & 4 \\0 & 1 & 0\end{pmatrix} }
 $$
 
 ## Gevraagd
