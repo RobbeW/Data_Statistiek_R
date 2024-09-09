@@ -2,9 +2,9 @@ Rol drie dobbelstenen en bouw een balk met die afmetingen. Sommige combinaties z
 
 Zo geldt er bijvoorbeeld dat de worp 1, 1 en 5 een balk vormt met eenzelfde oppervlakte als een 1, 2 en 3 worp. De oppervlakte van beide balken is telkens 22.
 
-![De afgeleide in een punt iteratief benaderen.](media/image.png "Toren dobbelstenen met gelijke oppervlatke."){:data-caption="Toren dobbelstenen met gelijke oppervlatke." .light-only width="20%"}
+![Toren dobbelstenen met gelijke oppervlakte.](media/image.png "Toren dobbelstenen met gelijke oppervlakte."){:data-caption="Toren dobbelstenen met gelijke oppervlakte." .light-only width="20%"}
 
-![De afgeleide in een punt iteratief benaderen.](media/image_dark.png "Toren dobbelstenen met gelijke oppervlatke."){:data-caption="Toren dobbelstenen met gelijke oppervlatke." .dark-only width="20%"}
+![Toren dobbelstenen met gelijke oppervlakte.](media/image_dark.png "Toren dobbelstenen met gelijke oppervlakte."){:data-caption="Toren dobbelstenen met gelijke oppervlakte." .dark-only width="20%"}
 
 Is dat enkel het geval voor de combinaties `(1, 1, 5)` en `(1, 2, 3)`? Of bestaan er nog worpen die in eenzelfde oppervlakte resulteren?
 
