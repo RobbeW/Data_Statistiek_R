@@ -1,0 +1,206 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: mastermind(['J'], ['J'])
+      return: !tuple
+      - 1
+      - 0
+  - testcases:
+    - expression: mastermind(['J'], ['B'])
+      return: !tuple
+      - 0
+      - 0
+  - testcases:
+    - expression: mastermind(['G', 'H'], ['G', 'H'])
+      return: !tuple
+      - 2
+      - 0
+  - testcases:
+    - expression: mastermind(['G', 'H'], ['H', 'G'])
+      return: !tuple
+      - 0
+      - 2
+  - testcases:
+    - expression: mastermind(['G', 'G'], ['H', 'H'])
+      return: !tuple
+      - 0
+      - 0
+  - testcases:
+    - expression: mastermind(['G', 'G'], ['G', 'G'])
+      return: !tuple
+      - 2
+      - 0
+  - testcases:
+    - expression: mastermind(['G', 'H'], ['G', 'F'])
+      return: !tuple
+      - 1
+      - 0
+  - testcases:
+    - expression: mastermind(['G', 'H'], ['F', 'G'])
+      return: !tuple
+      - 0
+      - 1
+  - testcases:
+    - expression: mastermind(['J', 'C', 'M'], ['S', 'M', 'Q'])
+      return: !tuple
+      - 0
+      - 1
+  - testcases:
+    - expression: mastermind(['P', 'R', 'G', 'W'], ['P', 'B', 'W', 'G'])
+      return: !tuple
+      - 1
+      - 2
+  - testcases:
+    - expression: mastermind(['B', 'W', 'G', 'G'], ['G', 'W', 'B', 'B'])
+      return: !tuple
+      - 1
+      - 2
+  - testcases:
+    - expression: mastermind(['Y', 'Y', 'Y', 'Y', 'Y', 'Z'], ['Y', 'Z', 'Z', 'Z',
+        'Z', 'Z'])
+      return: !tuple
+      - 2
+      - 0
+  - testcases:
+    - expression: mastermind(['Y', 'Y', 'Y', 'Y', 'Y', 'Z'], ['Z', 'Y', 'Y', 'Y',
+        'Y', 'Y'])
+      return: !tuple
+      - 4
+      - 2
+  - testcases:
+    - expression: mastermind(['A', 'O', 'X', 'E', 'M', 'E', 'G', 'D'], ['A', 'R',
+        'D', 'L', 'Y', 'C', 'A', 'K'])
+      return: !tuple
+      - 1
+      - 1
+  - testcases:
+    - expression: mastermind(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'], ['A',
+        'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'])
+      return: !tuple
+      - 10
+      - 0
+  - testcases:
+    - expression: mastermind(['A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A'], ['A',
+        'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A'])
+      return: !tuple
+      - 10
+      - 0
+  - testcases:
+    - expression: mastermind(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'], ['J',
+        'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'])
+      return: !tuple
+      - 0
+      - 10
+  - testcases:
+    - expression: mastermind(['A', 'J', 'C', 'H', 'E', 'B', 'G', 'F', 'I', 'D'], ['A',
+        'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'])
+      return: !tuple
+      - 5
+      - 5
+  - testcases:
+    - expression: mastermind(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
+        'L', 'M'], ['N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+      return: !tuple
+      - 0
+      - 0
+  - testcases:
+    - expression: mastermind(['D', 'K', 'J', 'D', 'O', 'G', 'A', 'M', 'O', 'K', 'A',
+        'J', 'A'], ['F', 'J', 'I', 'F', 'O', 'B', 'K', 'I', 'C', 'N', 'B', 'E', 'J'])
+      return: !tuple
+      - 1
+      - 3
+  - testcases:
+    - expression: mastermind(['M', 'T', 'K', 'H', 'M', 'P', 'H', 'S', 'G', 'S', 'F',
+        'U', 'F', 'U', 'Y', 'M'], ['F', 'Q', 'U', 'D', 'W', 'T', 'X', 'X', 'I', 'J',
+        'Y', 'E', 'D', 'G', 'M', 'N'])
+      return: !tuple
+      - 0
+      - 6
+  - testcases:
+    - expression: mastermind(['K', 'A', 'K', 'K', 'C', 'L', 'L', 'B', 'C', 'L', 'G',
+        'D', 'G', 'A', 'F', 'E', 'D'], ['B', 'L', 'B', 'G', 'L', 'I', 'K', 'I', 'L',
+        'F', 'C', 'M', 'B', 'G', 'C', 'J', 'K'])
+      return: !tuple
+      - 0
+      - 11
+  - testcases:
+    - expression: mastermind(['E', 'A', 'K', 'B', 'G', 'E', 'H', 'M', 'K', 'C', 'H',
+        'G', 'L', 'E', 'G', 'K', 'B', 'H', 'A', 'A', 'D', 'L', 'D', 'M'], ['G', 'G',
+        'G', 'G', 'H', 'J', 'K', 'L', 'K', 'H', 'M', 'B', 'K', 'G', 'L', 'D', 'J',
+        'D', 'J', 'B', 'I', 'H', 'G', 'A'])
+      return: !tuple
+      - 1
+      - 16
+  - testcases:
+    - expression: mastermind(['F', 'G', 'F', 'C', 'G', 'A', 'B', 'E', 'C', 'F', 'B',
+        'D', 'D', 'C', 'A', 'B', 'A', 'F', 'B', 'C', 'E', 'F', 'C', 'G', 'E', 'D',
+        'A', 'G', 'C', 'F', 'C', 'A', 'C', 'F'], ['C', 'A', 'A', 'E', 'F', 'C', 'E',
+        'C', 'E', 'B', 'A', 'C', 'E', 'D', 'D', 'G', 'D', 'F', 'A', 'F', 'F', 'G',
+        'D', 'B', 'G', 'C', 'C', 'B', 'A', 'C', 'E', 'B', 'A', 'C'])
+      return: !tuple
+      - 1
+      - 29
+  - testcases:
+    - expression: mastermind(['Q', 'P', 'T', 'P', 'C', 'S', 'N', 'E', 'Q', 'R', 'P',
+        'G', 'P', 'D', 'A', 'G', 'N', 'G', 'S', 'D', 'H', 'A', 'O', 'L', 'J', 'M',
+        'L', 'G', 'K', 'T', 'I', 'S', 'H', 'I', 'O', 'J', 'S', 'T', 'G', 'O', 'Q',
+        'B'], ['C', 'J', 'J', 'L', 'P', 'G', 'Q', 'Q', 'A', 'Q', 'E', 'S', 'H', 'R',
+        'H', 'H', 'S', 'R', 'C', 'S', 'M', 'S', 'S', 'S', 'I', 'C', 'L', 'S', 'G',
+        'M', 'K', 'A', 'B', 'T', 'M', 'R', 'R', 'A', 'F', 'S', 'I', 'C'])
+      return: !tuple
+      - 1
+      - 26
+  - testcases:
+    - expression: mastermind(['C', 'S', 'K', 'G', 'P', 'R', 'I', 'D', 'N', 'U', 'B',
+        'Q', 'C', 'G', 'G', 'L', 'T', 'R', 'U', 'A', 'S', 'A', 'A', 'J', 'H', 'C',
+        'G', 'G', 'D', 'N', 'N', 'D', 'I', 'A', 'J', 'C', 'R', 'P', 'D', 'H', 'O',
+        'F'], ['K', 'M', 'U', 'Q', 'G', 'B', 'D', 'P', 'U', 'N', 'K', 'D', 'K', 'B',
+        'E', 'U', 'J', 'C', 'J', 'T', 'O', 'A', 'D', 'D', 'F', 'K', 'J', 'N', 'N',
+        'L', 'D', 'A', 'B', 'C', 'O', 'H', 'C', 'R', 'U', 'B', 'H', 'J'])
+      return: !tuple
+      - 1
+      - 27
+  - testcases:
+    - expression: mastermind(['E', 'D', 'L', 'F', 'L', 'H', 'I', 'S', 'R', 'F', 'M',
+        'G', 'E', 'A', 'X', 'A', 'V', 'X', 'I', 'D', 'Q', 'K', 'C', 'I', 'E', 'D',
+        'I', 'C', 'T', 'F', 'Q', 'P', 'I', 'D', 'U', 'L', 'K', 'V', 'G', 'T', 'S',
+        'K', 'R', 'X'], ['E', 'R', 'J', 'R', 'Q', 'P', 'R', 'L', 'X', 'L', 'G', 'M',
+        'P', 'V', 'H', 'V', 'I', 'H', 'U', 'D', 'H', 'K', 'F', 'B', 'V', 'H', 'M',
+        'R', 'U', 'F', 'I', 'Q', 'O', 'R', 'B', 'W', 'A', 'S', 'J', 'A', 'G', 'P',
+        'E', 'V'])
+      return: !tuple
+      - 4
+      - 22
+  - testcases:
+    - expression: mastermind(['F', 'H', 'E', 'B', 'G', 'I', 'L', 'C', 'K', 'E', 'A',
+        'M', 'K', 'A', 'G', 'A', 'J', 'H', 'G', 'A', 'B', 'C', 'A', 'B', 'B', 'C',
+        'E', 'B', 'I', 'L', 'D', 'C', 'H', 'I', 'E', 'A', 'F', 'E', 'F', 'D', 'L',
+        'F', 'E', 'I', 'F', 'K', 'K', 'D'], ['C', 'I', 'I', 'H', 'D', 'H', 'E', 'A',
+        'G', 'D', 'C', 'F', 'E', 'A', 'M', 'D', 'M', 'C', 'A', 'C', 'H', 'K', 'E',
+        'K', 'J', 'A', 'E', 'I', 'A', 'D', 'A', 'E', 'B', 'I', 'B', 'G', 'E', 'F',
+        'H', 'K', 'K', 'L', 'C', 'D', 'L', 'D', 'H', 'A'])
+      return: !tuple
+      - 3
+      - 37
+  - testcases:
+    - expression: mastermind(['T', 'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T',
+        'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T',
+        'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T',
+        'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A'], ['T', 'E', 'S', 'S', 'A', 'T',
+        'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T',
+        'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T',
+        'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A'])
+      return: !tuple
+      - 50
+      - 0
+  - testcases:
+    - expression: mastermind(['T', 'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T',
+        'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T',
+        'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T',
+        'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A'], ['T', 'E', 'S', 'S', 'A', 'T',
+        'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T',
+        'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T',
+        'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'A', 'T', 'E', 'S', 'S', 'B'])
+      return: !tuple
+      - 49
+      - 0

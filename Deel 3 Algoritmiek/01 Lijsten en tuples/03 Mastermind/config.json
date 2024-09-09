@@ -1,0 +1,17 @@
+{
+  "description": {
+    "names": {
+      "nl": "Mastermind"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "lijsten",
+    "tupels",
+    "functies"
+  ],
+  "access": "public"
+}
