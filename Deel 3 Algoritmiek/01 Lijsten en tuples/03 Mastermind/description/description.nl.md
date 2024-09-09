@@ -29,3 +29,9 @@ Want `"W"` staat op de juiste plaats en `"G"` en `"B"` uit de gok komen ook voor
                ["N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"])
 (0, 0)
 ```
+
+{: .callout.callout-secondary}
+>#### Bron
+> Gebaseerd op
+> ICPC East-Central North-America practice session 2015
+
