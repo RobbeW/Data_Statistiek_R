@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Verplaats de 0'en"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "lijsten",
+    "functies"
+  ],
+  "access": "public"
+}
