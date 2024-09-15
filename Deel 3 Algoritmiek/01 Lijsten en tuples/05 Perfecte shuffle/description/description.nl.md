@@ -9,7 +9,7 @@ Hierbij worden twee pakken kaarten telkens om de kaart gemixed. De eerste kaart 
 ## Gevraagd
 Schrijf een functie `faro_shuffle(lijst1, lijst2)` dat gegeven twee lijsten met **evenveel** kaarten de *Faro shuffle* toepast. Het resultaat is één nieuwe lijst.
 
-#### Voorbeelden
+#### Voorbeeld
 
 ```python
 >>> faro_shuffle(["♠️1", "♥️7", "♣️2"], ["♥️10", "♦️1", "♥️D"])
