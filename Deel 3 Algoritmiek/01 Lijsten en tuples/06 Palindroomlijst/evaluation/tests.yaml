@@ -1,0 +1,136 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: is_palindroom([])
+      return: true
+  - testcases:
+    - expression: is_palindroom(['T'])
+      return: true
+  - testcases:
+    - expression: is_palindroom([34])
+      return: true
+  - testcases:
+    - expression: is_palindroom([True, False, True])
+      return: true
+  - testcases:
+    - expression: is_palindroom([False, False, False])
+      return: true
+  - testcases:
+    - expression: is_palindroom([43, 36, 25])
+      return: false
+  - testcases:
+    - expression: is_palindroom(['M', 'W', 'P', 'T'])
+      return: false
+  - testcases:
+    - expression: is_palindroom([True, True, True, True])
+      return: true
+  - testcases:
+    - expression: is_palindroom(['M', 'T', 'X', 'C'])
+      return: false
+  - testcases:
+    - expression: is_palindroom(['A', 'B', 'C', 'B', 'A'])
+      return: true
+  - testcases:
+    - expression: is_palindroom([10, 20, 20, 10, 20])
+      return: false
+  - testcases:
+    - expression: is_palindroom(['M', 'B', 'F', 'F', 'B', 'M'])
+      return: true
+  - testcases:
+    - expression: is_palindroom([False, False, False, True, True, True])
+      return: false
+  - testcases:
+    - expression: is_palindroom([True, True, True, False, False, True, False, True])
+      return: false
+  - testcases:
+    - expression: is_palindroom(['L', 'R', 'G', 'H', 'C', 'N', 'E', 'K'])
+      return: false
+  - testcases:
+    - expression: is_palindroom([33, 7, 15, 29, 29, 15, 7, 33])
+      return: true
+  - testcases:
+    - expression: is_palindroom([False, False, False, False, False, True, False, True,
+        False, False])
+      return: false
+  - testcases:
+    - expression: is_palindroom(['V', 'F', 'Z', 'P', 'R', 'R', 'P', 'Z', 'F', 'V'])
+      return: true
+  - testcases:
+    - expression: is_palindroom(['I', 'N', 'M', 'K', 'A', 'N', 'A', 'K', 'M', 'N',
+        'I'])
+      return: true
+  - testcases:
+    - expression: is_palindroom(['V', 'T', 'M', 'K', 'V', 'O', 'X', 'U', 'N', 'Q',
+        'K', 'K', 'Q', 'N', 'U', 'X', 'O', 'V', 'K', 'M', 'T', 'V'])
+      return: true
+  - testcases:
+    - expression: is_palindroom(['S', 'I', 'L', 'F', 'M', 'X', 'X', 'F', 'I', 'D',
+        'H', 'O', 'F', 'C', 'A', 'D', 'F', 'J', 'C', 'Y', 'H', 'O', 'O', 'I', 'U'])
+      return: false
+  - testcases:
+    - expression: is_palindroom([True, False, False, True, False, True, False, True,
+        True, False, False, False, True, True, True, False, False, True, True, True,
+        False, False, False, True, True, False, True, False, True, False, False, True])
+      return: true
+  - testcases:
+    - expression: is_palindroom([False, True, True, True, False, True, False, False,
+        False, True, True, True, False, True, False, False, False, True, True, False,
+        False, True, True, True, False, False, True, True, False, False, False, True,
+        False, True, True, True, False, False, False, True, False, True, True, True,
+        False])
+      return: true
+  - testcases:
+    - expression: is_palindroom([41, 45, 37, 38, 23, 15, 33, 17, 21, 43, 47, 17, 13,
+        38, 1, 19, 45, 9, 10, 31, 10, 8, 18, 50, 33, 26, 29, 0, 38, 49, 23, 45, 23,
+        49, 38, 0, 29, 26, 33, 50, 18, 8, 10, 31, 10, 9, 45, 19, 1, 38, 13, 17, 47,
+        43, 21, 17, 33, 15, 23, 38, 37, 45, 41])
+      return: true
+  - testcases:
+    - expression: is_palindroom([13, 48, 28, 50, 18, 18, 17, 29, 15, 23, 35, 50, 49,
+        16, 45, 39, 11, 3, 4, 27, 11, 47, 10, 10, 22, 10, 9, 39, 6, 26, 35, 24, 30,
+        27, 38, 26, 9, 11, 20, 11, 20, 11, 9, 26, 38, 27, 30, 24, 35, 26, 6, 39, 9,
+        10, 22, 10, 10, 47, 11, 27, 4, 3, 11, 39, 45, 16, 49, 50, 35, 23, 15, 29,
+        17, 18, 18, 50, 28, 48, 13])
+      return: true
+  - testcases:
+    - expression: is_palindroom(['B', 'P', 'K', 'Z', 'K', 'H', 'C', 'Y', 'U', 'Y',
+        'C', 'Q', 'X', 'B', 'R', 'Q', 'L', 'X', 'T', 'X', 'C', 'W', 'Q', 'E', 'P',
+        'C', 'M', 'S', 'J', 'A', 'C', 'X', 'C', 'E', 'N', 'V', 'R', 'D', 'H', 'Q',
+        'Q', 'H', 'D', 'R', 'V', 'N', 'E', 'C', 'X', 'C', 'A', 'J', 'S', 'M', 'C',
+        'P', 'E', 'Q', 'W', 'C', 'X', 'T', 'X', 'L', 'Q', 'R', 'B', 'X', 'Q', 'C',
+        'Y', 'U', 'Y', 'C', 'H', 'K', 'Z', 'K', 'P', 'B'])
+      return: true
+  - testcases:
+    - expression: is_palindroom([True, True, True, False, True, True, True, True,
+        False, True, False, False, False, True, True, False, False, True, False, True,
+        True, False, True, True, True, False, False, False, False, True, True, False,
+        False, True, True, True, True, False, False, False, False, True, False, False,
+        False, True, False, False, False, False, True, True, True, True, False, False,
+        True, True, False, False, False, False, True, True, True, False, True, True,
+        False, True, False, False, True, True, False, False, False, True, False, True,
+        True, True, True, False, True, True, True])
+      return: true
+  - testcases:
+    - expression: is_palindroom([36, 24, 12, 47, 15, 38, 17, 39, 33, 28, 2, 38, 18,
+        28, 19, 13, 8, 20, 45, 16, 43, 42, 40, 48, 14, 9, 42, 24, 4, 13, 25, 12, 12,
+        46, 35, 15, 22, 36, 45, 9, 1, 8, 27, 2, 38, 38, 2, 27, 8, 1, 9, 45, 36, 22,
+        15, 35, 46, 12, 12, 25, 13, 4, 24, 42, 9, 14, 48, 40, 42, 43, 16, 45, 20,
+        8, 13, 19, 28, 18, 38, 2, 28, 33, 39, 17, 38, 15, 47, 12, 24, 36])
+      return: true
+  - testcases:
+    - expression: is_palindroom(['E', 'G', 'U', 'K', 'W', 'J', 'Y', 'M', 'V', 'L',
+        'L', 'Q', 'Z', 'N', 'U', 'K', 'B', 'C', 'A', 'L', 'X', 'L', 'G', 'K', 'Y',
+        'F', 'Q', 'J', 'E', 'I', 'D', 'C', 'X', 'O', 'D', 'O', 'C', 'T', 'C', 'Y',
+        'O', 'F', 'S', 'Z', 'O', 'W', 'Y', 'X', 'Y', 'W', 'O', 'Z', 'S', 'F', 'O',
+        'Y', 'C', 'T', 'C', 'O', 'D', 'O', 'X', 'C', 'D', 'I', 'E', 'J', 'Q', 'F',
+        'Y', 'K', 'G', 'L', 'X', 'L', 'A', 'C', 'B', 'K', 'U', 'N', 'Z', 'Q', 'L',
+        'L', 'V', 'M', 'Y', 'J', 'W', 'K', 'U', 'G', 'E'])
+      return: true
+  - testcases:
+    - expression: is_palindroom([45, 27, 37, 27, 21, 34, 22, 21, 46, 13, 11, 21, 19,
+        11, 2, 4, 34, 23, 15, 35, 28, 2, 40, 14, 42, 40, 14, 36, 10, 35, 48, 49, 37,
+        1, 47, 24, 42, 50, 41, 12, 26, 45, 37, 43, 50, 17, 43, 32, 49, 29, 34, 41,
+        10, 37, 2, 21, 42, 36, 44, 24, 36, 20, 8, 25, 7, 38, 16, 47, 50, 24, 4, 47,
+        9, 40, 2, 7, 4, 28, 0, 0, 47, 34, 16, 44, 22, 33, 2, 39, 21, 5, 29, 11, 38,
+        15, 1, 8, 27, 12, 12])
+      return: false
