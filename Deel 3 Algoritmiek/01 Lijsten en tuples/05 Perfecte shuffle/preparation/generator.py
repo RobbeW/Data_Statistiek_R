@@ -33,14 +33,14 @@ spec.loader.exec_module(module)
 
 # generate test data
 ntests = 20
-suits = ["♠️", "♥", "♣", "♦"]
+suits = ["♠️", "♥️", "♣️", "♦️"]
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "B", "D", "K"]
 total = []
 for suit in suits:
     for num in nums:
         total.append( suit+str(num) )
 
-cases = [(["♠1", "♥7", "♣2"], ["♥10", "♦1", "♥D"])]
+cases = [(["♠️1", "♥️7", "♣️2"], ["♥️10", "♦️1", "♥️D"])]
 
 while len(cases) < ntests:
     k = random.randint(1, 2 * 13)
