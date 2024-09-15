@@ -1,6 +1,6 @@
 Misschien speelde je ooit het gezelschapsspel 'Mastermind'. In dit spel is het de bedoeling dat je een geheime kleurcode raadt. Elke beurt krijg je twee getallen die je op weg helpen, r: het aantal kleuren dat je reeds goed hebt en s: het aantal kleuren dat voorkomen maar op een foute positie staan.
 
-![Het gezelschapspel Mastermind.](media/mastermind.png "Het gezelschapspel Mastermind."){:data-caption="Het gezelschapspel Mastermind.." width="40%"}
+![Het gezelschapspel Mastermind.](media/mastermind.png "Het gezelschapspel Mastermind."){:data-caption="Het gezelschapspel Mastermind." width="40%"}
 
 Stel bijvoorbeeld dat de juiste code in volgorde **paars**, **rood**, **geel** en **wit** is. Indien de tegenspeler in volgorde **paars**, **blauw**, **wit** en **geel** gokt dan is r = 1 en s = 2. Paars staat immers op de juiste plaats en geel en wit komen voor, maar staan op de foute plaats.
 
