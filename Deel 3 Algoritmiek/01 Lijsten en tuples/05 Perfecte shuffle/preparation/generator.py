@@ -33,7 +33,7 @@ spec.loader.exec_module(module)
 
 # generate test data
 ntests = 20
-suits = ["♠", "♥", "♣", "♦"]
+suits = ["♠️", "♥", "♣", "♦"]
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "B", "D", "K"]
 total = []
 for suit in suits:
