@@ -12,6 +12,6 @@ Schrijf een functie `faro_shuffle(lijst1, lijst2)` dat gegeven twee lijsten met 
 #### Voorbeelden
 
 ```python
->>> faro_shuffle(["♠1", "♥️7", "♣2"], ["♥️10", "♦1", "♥D"])
-["♠1", "♥️10", "♥️7", "♦1", "♣2", "♥D"]
+>>> faro_shuffle(["♠️1", "♥️7", "♣️2"], ["♥️10", "♦️1", "♥️D"])
+["♠️1", "♥️10", "♥️7", "♦️1", "♣️2", "♥️D"]
 ```
