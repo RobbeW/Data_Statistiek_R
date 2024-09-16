@@ -14,9 +14,9 @@ Je retourneert een tweedimensionale lijst, waar alle correcte getalwaarden staan
 
 ```
 >>> mijnenveger([[ 0  , 0, '💣'],
-                 ['💣', 0,  0 ],
-                 [ 0  , 0,  0 ]])
+                 ['💣', 0,  0  ],
+                 [ 0  , 0,  0  ]])
 [[ 1  , 2, '💣'],
- ['💣', 2,  1 ],
- [ 1  , 1,  0 ]]
+ ['💣', 2,  1  ],
+ [ 1  , 1,  0  ]]
 ```
