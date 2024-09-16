@@ -12,7 +12,7 @@ Je retourneert een tweedimensionale lijst, waar alle correcte getalwaarden staan
 
 #### Voorbeeld
 
-```
+```python
 >>> mijnenveger([[ 0  , 0, '💣'],
                  ['💣', 0,  0  ],
                  [ 0  , 0,  0  ]])
