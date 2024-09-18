@@ -35,7 +35,7 @@ spec.loader.exec_module(module)
 # generate test data
 ntests = 20
 cases = [
-    [40, 0, -41, 1, 41, 42],
+    [15, 0, -41, -15, 30, 42],
     [300, 450, 449, 450],
     [1, -3],
     [422, 115, -306, 76],

@@ -13,7 +13,7 @@
     - expression: aantal([422, 115, -306, 76])
       return: 2
   - testcases:
-    - expression: aantal([40, 0, -41, 1, 41, 42])
+    - expression: aantal([15, 0, -41, -15, 30, 42])
       return: 2
   - testcases:
     - expression: aantal([-390, 263, -470, 408, -373, -9])

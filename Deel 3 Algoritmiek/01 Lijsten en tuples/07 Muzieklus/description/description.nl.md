@@ -15,10 +15,15 @@ Muzieklussen worden gedigitaliseerd met de PCM (Pulse Code Modulatie) techniek. 
 Stel dat een geluidsgolf omgezet wordt in de volgende signalen:
 
 ```python
-[40, 0, -41, 1, 41, 42]
+[15, 0, -41, -15, 30, 42]
 ```
+De laatste waarde wordt nadien opnieuw gevolgd door de eerste waarde, namelijk `15`.
 
-In dit geval is er één dal `-41`, want deze waarde ligt lager dan de **directe naastliggende** waarden (`0` en `1`). Er is ook één piek `42` want de naastliggende waarden zijn `41` **en** `40`. De muziek wordt immers continu afgespeeld.
+![Digitale geluidsgolf.](media/image.png "Digitale geluidsgolf."){:data-caption="Digitale geluidsgolf." .light-only width="40%"}
+
+![Digitale geluidsgolf.](media/image_dark.png "Digitale geluidsgolf."){:data-caption="Digitale geluidsgolf." .dark-only width="40%"}
+
+In dit geval is er één dal `-41`, want deze waarde ligt lager dan de **directe naastliggende** waarden (`0` en `-15`). Er is ook één piek `42` want de naastliggende waarden zijn `30` **en** `15`. De muziek wordt immers continu afgespeeld.
 
 ## Gevraagd
 
@@ -29,7 +34,7 @@ Bestudeer nauwkeurig onderstaande voorbeelden.
 #### Voorbeelden
 
 ```python
->>> aantal([40, 0, -41, 1, 41, 42])
+>>> aantal([15, 0, -41, -15, 30, 42])
 2
 ```
 

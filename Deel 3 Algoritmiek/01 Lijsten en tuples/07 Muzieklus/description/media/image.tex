@@ -10,18 +10,9 @@
 \tikzset{main/.style={draw=black, circle, color=black}}
 
 \begin{document}
-	\begin{tikzpicture}[scale=0.75, main, line join=bevel]
+	\begin{tikzpicture}[yscale=0.02, main, line join=bevel]
 		
-		\foreach [count=\x] in {0,...,30} {
-			\pgfmathparse{rand}
-			\edef\y{\pgfmathresult}
-			\coordinate (p\x) at (\x/4, \y);
-		}
-			
-		\foreach \x [remember=\x as \lastx (initially 1)] in {1,...,31}{
-			\draw (\p\lastx) -- (\p\x);
-		}
-
-		\draw (32/4, p1|-0 ) -- (p31);
+		\draw[main] (0,15) -- (1,0) -- (2,-41) -- (3,-15) -- (4,30) -- (5,42);
+		\draw[main, semitransparent, densely dashed] (5,42)-- (6,15);
 	\end{tikzpicture}
 \end{document}
