@@ -6,9 +6,7 @@ Een voorbeeld is de klassieke Tetris gamemuziek. Op het einde van het nummer kan
 
 <div class="hidden-print">
     <div class="dodona-centered-group">
-      <audio>
-        <source src="media/Tetris.ogg" type="audio/ogg">
-      </audio>
+    <audio controls src="media/Tetris.ogg"></audio>
   </div>
 </div>
 
