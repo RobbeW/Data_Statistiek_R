@@ -1,0 +1,27 @@
+\documentclass[dvipsnames, tikz]{standalone}
+\usepackage{amsmath}
+\usepackage{arevmath}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
+
+
+\tikzset{main/.style={draw=black, circle, color=black}}
+
+\begin{document}
+	\begin{tikzpicture}[scale=0.75, main, line join=bevel]
+		
+		\foreach [count=\x] in {0,...,30} {
+			\pgfmathparse{rand}
+			\edef\y{\pgfmathresult}
+			\coordinate (p\x) at (\x/4, \y);
+		}
+			
+		\foreach \x [remember=\x as \lastx (initially 1)] in {1,...,31}{
+			\draw (\p\lastx) -- (\p\x);
+		}
+
+		\draw (32/4, p1|-0 ) -- (p31);
+	\end{tikzpicture}
+\end{document}
