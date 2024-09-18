@@ -4,9 +4,13 @@ Muzieklussen worden zeer vaak gebruikt in populaire muziek, maar ook vaak in com
 
 Een voorbeeld is de klassieke Tetris gamemuziek. Op het einde van het nummer kan de muziek meteen terug vanaf het begin afgespeeld worden, zonder enige onderbreking.
 
-<audio>
-  <source src="media/Tetris.ogg" type="audio/ogg">
-</audio>   
+<div class="hidden-print">
+    <div class="dodona-centered-group">
+      <audio>
+        <source src="media/Tetris.ogg" type="audio/ogg">
+      </audio>
+  </div>
+</div>
 
 Muzieklussen worden gedigitaliseerd met de PCM (Pulse Code Modulatie) techniek. Dit is een techniek die de geluidsgolf digitaliseert. Door deze techniek onstaan er pieken en dalen in de geluidsgolf.
 
