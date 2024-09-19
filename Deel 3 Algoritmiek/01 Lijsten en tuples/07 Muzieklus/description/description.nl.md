@@ -10,9 +10,9 @@ Een voorbeeld is de klassieke Tetris gamemuziek. Op het einde van het nummer kan
   </div>
 </div>
 
-Muzieklussen worden gedigitaliseerd met de PCM (Pulse Code Modulatie) techniek. Dit is een techniek die de geluidsgolf digitaliseert. Door deze techniek onstaan er pieken en dalen in de geluidsgolf.
+Muzieklussen worden gedigitaliseerd met de PCM (Pulse Code Modulatie) techniek. Dit is een techniek die de geluidsgolf omzet in getallen. Door deze techniek onstaan er pieken en dalen in de geluidsgolf.
 
-Stel dat een geluidsgolf omgezet wordt in de volgende signalen:
+Stel dat een geluidsgolf omgezet wordt in de volgende getallen:
 
 ```python
 [15, 0, -41, -15, 30, 42]
