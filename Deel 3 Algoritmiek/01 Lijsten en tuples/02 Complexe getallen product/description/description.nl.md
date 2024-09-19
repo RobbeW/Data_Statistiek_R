@@ -18,4 +18,4 @@ Je programma retourneert het product als een tupel. Bestudeer grondig onderstaan
 (21, -1)
 ```
 
-Bereken immers eens het product $$(3 - 2i) \cdot (5 + 3i)$$ op papier.
+Bereken immers eens het product $$\mathsf{(3 - 2i) \cdot (5 + 3i)}$$ op papier.
