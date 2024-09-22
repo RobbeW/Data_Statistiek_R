@@ -6,7 +6,7 @@ Je wordt uitgedaagd door een lokale inwoner voor een wedstrijd mango eten. Je we
 
 
 ## Gevraagd
-Schrijf een functie `mango(maximum, maximum_soort, aantal_soort)` dat gegeven drie parameters bepaalt of je de uitdaging aankan. De parameter `maximum` stelt het maximum aantal mango's voor dat je in een dag kan opeten. `maximum_soort` is een **lijst** met het maximum aantal mango's dat je van elke soort kan verorberen en `aantal_soort` stelt een lijst voor met het aantal mango's van elke soort die je zal krijgen.
+Schrijf een functie `mango(maximum, maximum_soort, aantal_soort)` dat gegeven drie parameters bepaalt of je de uitdaging aankan. De parameter `maximum` stelt het maximum aantal mango's voor dat je in een dag kan opeten. `maximum_soort` is een **lijst** met het maximum aantal mango's dat je van elke soort kan verorberen en `aantal_soort` stelt een lijst voor met het aantal mango's van **elke soort** die je zal krijgen.
 
 Bestudeer grondig onderstaande voorbeelden.
 
@@ -30,7 +30,7 @@ Dit lukt niet, want je kan slechts 2 mango's van de tweede soort eten, terwijl j
 >>> mango(6, [3, 3, 3], [2, 2, 2])
 "lukt"
 ```
-Je krijgt immers 2 mango's voorgeschoteld. En het aantal van elke soort is steeds minder dan het maximale aantal per soort.
+Je krijgt immers 6 mango's voorgeschoteld. En het aantal van elke soort is steeds minder dan het maximale aantal per soort.
 
 
 {: .callout.callout-secondary}
