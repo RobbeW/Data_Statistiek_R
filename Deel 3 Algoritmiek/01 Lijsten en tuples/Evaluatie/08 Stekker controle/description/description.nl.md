@@ -1,6 +1,6 @@
 Electronische connectoren zijn vaak verkochte computer onderdelen. 
 
-![Foto door Nathan Cima op Unsplash.](media/nathan-cima.jpg "Foto door Nathan Cima op Unsplash."){:data-caption="Foto door Nathan Cima op Unsplash." .light-only width="40%"}
+![Foto door Nathan Cima op Unsplash.](media/nathan-cima.jpg "Foto door Nathan Cima op Unsplash."){:data-caption="Foto door Nathan Cima op Unsplash." width="40%"}
 
 Ze worden meestal in paren verkocht. Elke connector bevat een aantal connectiepunten, telkens een plug of een aansluiting. Men noemt twee connectoren **compatibel** indien op elk connectiepunt de ene connector een plug en de andere een aansluiting heeft. Hieronder zie je een schematische voorstelling van twee paar connectoren met telkens vijf connectiepunten. Een ingekleurde cirkel stelt een *plug* voor, een niet ingekleurde cirkel een *aansluiting*.
 
