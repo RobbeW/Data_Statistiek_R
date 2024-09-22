@@ -39,7 +39,7 @@ cases = [
 ]
 
 while len(cases) < ntests:
-    e = random.randint(0, 3)
+    e = random.randint(0, 2)
     n = random.randint(10**e, 10**(e+1))
     
     connector1 = [random.randint(0,1) for _ in range(n)]
