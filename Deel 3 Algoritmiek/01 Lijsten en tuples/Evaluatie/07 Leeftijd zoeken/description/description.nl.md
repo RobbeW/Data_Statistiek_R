@@ -10,7 +10,7 @@ Schrijf een functie `leider(leeftijden)` die gegeven een lijst met een oneven aa
 
 Bestudeer grondig onderstaande voorbeelden.
 
-#### Voorbeeld
+#### Voorbeelden
 
 ```python
 >>> leider([19, 17, 16, 14, 12])
