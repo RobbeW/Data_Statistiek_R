@@ -6,7 +6,8 @@
   },
   "evaluation": {
     "handler": "tested",
-    "test_suite": "tests.yaml"
+    "test_suite": "tests.yaml",
+    "memory_limit": 500000000
   },
   "labels": [
     "lijsten",
