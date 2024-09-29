@@ -1,4 +1,4 @@
-De Eulerkarakteristiek $$\mathsf{\chi}$$ (*chi*), oorspronkelijk gedefinieerd voor veelvlakken door het wiskundig genie Leonard Euler, is een getal dat bepaalt in welke mate een veelvlak gaten, of dergelijke bevat.
+De **Eulerkarakteristiek** $$\mathsf{\chi}$$ (*chi*), oorspronkelijk gedefinieerd voor veelvlakken door het wiskundig genie Leonard Euler, is een getal dat bepaalt in welke mate een veelvlak gaten, of dergelijke bevat.
 
 Voor een niet-zelfdoorsnijdend (en niet-samengesteld) veelvlak is de Eulerkarateristiek steeds gelijk aan 2:
 
@@ -6,7 +6,7 @@ $$
 \mathsf{\chi  = H - R + V = 2}
 $$
 
-Hierbij staat H voor het aantal hoekpunten, R voor het aantal ribben en V voor het aantal vlakken.
+Hierbij staat H voor het aantal hoekpunten (*vertices*), R voor het aantal ribben (*edges*) en V voor het aantal vlakken (*faces*).
 
 <div class="hidden-print">
     <div class="dodona-centered-group">
