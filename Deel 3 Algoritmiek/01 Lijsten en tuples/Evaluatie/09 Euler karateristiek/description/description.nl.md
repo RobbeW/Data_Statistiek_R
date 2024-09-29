@@ -14,8 +14,7 @@ Hierbij staat H voor het aantal hoekpunten, R voor het aantal ribben en V voor h
         src="https://youtube.com/embed/1b76mpVyTBM?si=Wl9ktoWQxJhnHxpg"
         title="YouTube video player"
         frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen></iframe>
+        allow="accelerometer; autoplay; encrypted-media;picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
 
