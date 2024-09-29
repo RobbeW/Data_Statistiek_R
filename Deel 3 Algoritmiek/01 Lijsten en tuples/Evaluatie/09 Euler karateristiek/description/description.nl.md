@@ -10,7 +10,12 @@ Hierbij staat H voor het aantal hoekpunten, R voor het aantal ribben en V voor h
 
 <div class="hidden-print">
     <div class="dodona-centered-group">
-        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@reason4math/video/7349075481620253995" data-video-id="7349075481620253995" > <section> <a target="_blank" title="@reason4math" href="https://www.tiktok.com/@reason4math?refer=embed">@reason4math</a> Visualization of Euler&#39;s polyhedron formula: V - E + F = 2 .</section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+        <iframe width="315" height="560"
+        src="https://youtube.com/embed/1b76mpVyTBM?si=Wl9ktoWQxJhnHxpg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
     </div>
 </div>
 
