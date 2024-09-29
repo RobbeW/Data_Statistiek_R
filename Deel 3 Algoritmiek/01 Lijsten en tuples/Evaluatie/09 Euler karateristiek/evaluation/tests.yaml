@@ -1,0 +1,29 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: chi((8, 12, 6))
+      return: 2
+  - testcases:
+    - expression: chi((12, 30, 20))
+      return: 2
+  - testcases:
+    - expression: chi((6, 12, 7))
+      return: 1
+  - testcases:
+    - expression: chi((12, 24, 10))
+      return: -2
+  - testcases:
+    - expression: chi((12, 30, 12))
+      return: -6
+  - testcases:
+    - expression: chi((20, 30, 12))
+      return: 2
+  - testcases:
+    - expression: chi((12, 24, 12))
+      return: 0
+  - testcases:
+    - expression: chi((92, 270, 180))
+      return: 2
+  - testcases:
+    - expression: chi((1298, 2601, 1305))
+      return: 2
