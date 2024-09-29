@@ -22,7 +22,7 @@ Hierbij staat H voor het aantal hoekpunten (*vertices*), R voor het aantal ribbe
 
 Schrijf een functie `chi(kenmerken)` die gegeven een tupel van de vorm `(H, R, V)` de Eulerkarakteristiek bepaalt.
 
-#### Voorbeeld
+#### Voorbeelden
 
 Bij een kubus bekomt men:
 ```python
@@ -30,8 +30,8 @@ Bij een kubus bekomt men:
 2
 ```
 
-Bij een icosaëder (of twintigvlak) bekomt men:
+Bij een dodecaëder (of twaalfvlak) bekomt men:
 ```python
->>> chi((12, 30, 20))
+>>> chi((20, 30, 12))
 2
 ```
