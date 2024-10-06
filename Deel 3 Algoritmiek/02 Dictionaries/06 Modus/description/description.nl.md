@@ -16,5 +16,6 @@ Schrijf eerst een functie `modus(lijst)` dat gegeven een lijst met getallen het 
 ```
 
 {: .callout.callout-info}
+> #### Tip
 > Tel hoevaak elke waarde voorkomt in een dictionary en bepaal nadien de sleutel met de grootste gekoppelde waarde.
 
