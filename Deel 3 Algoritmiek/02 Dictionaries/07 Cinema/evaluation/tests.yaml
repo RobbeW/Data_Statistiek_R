@@ -3,7 +3,7 @@
   - testcases:
     - expression: "cinema({'Inside Out 2': [9, 10, 9.5, 8.5, 3, 7.5, 8], 'Bad Boys:
         Ride or Die': [7, 6, 5]})"
-      return: !dict
+      return:
         Inside Out 2: 7.9
         'Bad Boys: Ride or Die': 6.0
   - testcases:
@@ -11,7 +11,7 @@
         5.5, 2.0, 3.0, 7.5, 6.0, 6.5, 3.0, 8.5, 5.5, 5.5, 6.5, 9.0, 8.0, 7.5, 3.5,
         8.0, 5.5, 6.0, 9.0, 3.5, 3.0, 5.0, 8.0], 'Bullet Train': [3.5, 5.5, 2.5, 6.0,
         7.0, 2.5, 3.5, 3.5, 7.0, 7.0, 8.5, 6.0, 1.5, 3.0, 6.5, 2.5]})"
-      return: !dict
+      return:
         No Time to Die: 6.0
         Bullet Train: 4.8
   - testcases:
@@ -19,7 +19,7 @@
         Wakanda Forever': [9.0, 8.5, 5.0, 1.5, 8.0, 2.5, 7.0, 8.0, 1.5, 7.0, 3.0,
         9.0, 4.5, 8.0, 9.5, 5.0, 4.5, 6.5, 8.5, 6.5, 5.5, 6.5, 4.0, 8.5, 1.5, 3.5,
         5.0, 9.5, 1.5, 9.0, 9.5, 8.5, 4.5, 2.0, 5.0]})"
-      return: !dict
+      return:
         The Batman: 5.9
         'Black Panther: Wakanda Forever': 5.9
   - testcases:
@@ -32,7 +32,7 @@
         2.5, 6.0, 5.5, 5.5, 3.0, 3.0, 3.5, 8.0, 3.5, 5.0, 7.5, 1.0, 7.5, 2.0, 7.5,
         9.0, 2.5, 9.5, 9.5, 2.0, 8.0, 3.0, 4.0, 2.0, 2.0, 3.0, 2.5, 9.5, 2.5, 1.0,
         7.0]})"
-      return: !dict
+      return:
         Asteroid City: 5.5
         Oppenheimer: 5.9
         The Batman: 5.2
@@ -44,7 +44,7 @@
         1.5, 7.0, 7.5, 3.5, 3.5, 7.0, 4.5, 6.5, 2.0, 4.5, 5.0, 2.0, 1.5, 2.5], 'Scream
         VI': [7.0, 3.0, 2.5, 1.5, 5.0, 1.0, 2.0, 5.5, 2.5, 1.0, 1.0, 6.0, 1.0, 3.0,
         1.0, 2.0, 7.0, 3.5, 1.0, 4.0, 7.0, 4.5, 6.5, 9.0]})"
-      return: !dict
+      return:
         The Suicide Squad: 5.5
         Oppenheimer: 4.8
         Scream VI: 3.6
@@ -61,7 +61,7 @@
         3.0, 4.0, 3.5, 7.0, 3.5, 4.0, 3.5, 4.5, 5.5, 1.0, 4.5, 4.0, 4.0, 6.0, 1.5,
         4.0, 4.0, 1.5, 4.0, 4.5, 1.5, 8.5, 5.5, 7.5, 9.5, 6.0, 3.5, 5.0, 1.0, 9.5,
         4.5, 1.0]})"
-      return: !dict
+      return:
         Don't Look Up: 5.0
         'Black Panther: Wakanda Forever': 5.6
         Guardians of the Galaxy Deel 3: 4.6
@@ -81,7 +81,7 @@
         [5.5, 1.5, 6.5, 3.0, 5.5, 3.5, 2.0, 2.0, 8.0, 9.0, 2.0, 1.5, 7.0, 2.5, 3.5,
         5.0, 3.0, 4.5, 2.5, 7.0, 4.5, 1.5, 8.0, 9.0, 8.5, 9.5, 1.0, 2.0, 4.5, 3.0,
         1.0, 3.0, 2.0, 1.5, 2.0, 2.5, 3.0, 4.5]})"
-      return: !dict
+      return:
         A Quiet Place Deel II: 5.3
         Everything Everywhere All at Once: 6.1
         Nope: 5.3
@@ -105,7 +105,7 @@
         Don't Look Up\": [1.0, 5.5, 5.5, 8.0, 8.0, 7.0, 7.5, 8.5, 1.5, 6.5, 3.0, 5.0,
         2.5, 8.0, 9.5, 8.0, 6.5, 1.5, 1.5, 1.0, 3.5, 4.0, 1.0, 9.5, 1.0, 1.5, 8.5,
         7.5, 9.0, 7.0, 4.0, 1.0, 3.0, 6.5, 4.0, 8.5, 6.5, 8.5]})"
-      return: !dict
+      return:
         Shang-Chi and the Legend of the Ten Rings: 5.3
         The Fabelmans: 5.1
         'Glass Onion: A Knives Out Mystery': 6.2
@@ -124,7 +124,7 @@
         3.5, 2.5, 6.5, 4.0, 8.0, 4.0, 2.5, 2.0, 3.0], 'The Flash': [6.0, 2.0, 4.0,
         3.5, 7.5, 9.5, 2.0, 9.0, 3.0], 'Top Gun: Maverick': [4.0, 4.0, 6.5, 9.0, 2.0,
         7.0, 5.0, 8.5, 4.0, 2.0, 6.5, 4.5]})"
-      return: !dict
+      return:
         A Quiet Place Deel II: 5.0
         'Spider-Man: No Way Home': 5.9
         The Marvels: 4.8
@@ -143,7 +143,7 @@
         2.0, 1.5, 6.0, 2.0, 7.5, 6.5, 3.0, 9.0, 4.0, 3.0, 3.0, 2.5, 2.5, 8.0], 'Asteroid
         City': [6.0, 7.0, 1.0, 5.0, 6.5, 4.0, 7.0, 1.5, 6.5, 4.5, 5.0, 3.5, 1.5, 1.5,
         5.0, 5.5, 9.0, 3.5, 1.0, 5.0, 2.5, 4.0, 7.0, 7.5, 6.5, 1.5, 9.5]})"
-      return: !dict
+      return:
         Lightyear: 5.0
         Everything Everywhere All at Once: 5.7
         Guardians of the Galaxy Deel 3: 5.2
@@ -162,7 +162,7 @@
         6.0, 7.5], 'Dune': [3.5, 1.5, 7.0, 1.0, 9.0, 2.5, 4.5, 4.5, 1.0, 2.0, 4.5,
         5.5, 2.5, 2.5], 'A Quiet Place Deel II': [2.0, 1.0, 2.5, 6.0, 3.5], 'No Time
         to Die': [1.0, 2.5, 1.0, 7.5, 7.0, 2.0, 3.5, 4.0, 1.0, 8.5, 9.0, 9.0]})"
-      return: !dict
+      return:
         Elvis: 4.8
         Scream VI: 5.0
         Bullet Train: 4.9
@@ -186,7 +186,7 @@
         'Shang-Chi and the Legend of the Ten Rings': [8.5, 8.0, 2.0, 4.0, 6.0, 4.5,
         2.0, 3.0, 9.0, 9.5, 7.5, 1.5, 5.0, 7.5, 4.0, 8.5, 1.5, 7.0, 3.0, 3.0, 1.0,
         5.0, 3.5, 6.0, 8.0, 7.5, 9.5, 4.5]})"
-      return: !dict
+      return:
         Scream VI: 5.1
         Oppenheimer: 5.5
         Guardians of the Galaxy Deel 3: 5.8
@@ -211,7 +211,7 @@
         4.0, 8.5, 2.0, 2.5, 7.5, 7.5, 9.0, 4.5], 'Elvis': [4.5, 1.5, 3.0, 1.0, 1.0,
         4.0, 4.0, 5.0, 6.5, 8.0, 3.5, 8.5], \"Don't Look Up\": [5.0, 7.5, 9.5, 2.0,
         6.0, 6.0, 8.5, 8.0, 5.0, 9.5, 1.0, 8.0, 7.0, 6.0, 8.5, 9.0, 4.5]})"
-      return: !dict
+      return:
         'Black Panther: Wakanda Forever': 5.2
         'Spider-Man: No Way Home': 5.0
         The Flash: 5.2
@@ -240,7 +240,7 @@
         'Doctor Strange in het Multiversum van Waanzin': [4.0, 4.5, 1.0, 6.0, 4.0,
         4.0, 4.5, 6.0, 7.0, 5.5, 3.0, 6.0, 5.0, 9.5, 3.0, 7.5, 3.0, 8.5, 5.0, 9.0,
         4.5, 7.0]})"
-      return: !dict
+      return:
         No Time to Die: 5.0
         Lightyear: 6.7
         The Flash: 5.7
@@ -274,7 +274,7 @@
         3.0, 7.5, 9.0, 5.0, 7.5, 5.5, 2.5, 7.5, 7.0, 4.0, 6.0, 5.0, 2.5, 3.0, 1.0,
         8.0, 6.5, 1.5, 8.5], 'Guardians of the Galaxy Deel 3': [2.0, 2.0, 9.0, 9.5,
         2.5, 9.0, 8.5, 3.0, 7.5, 3.5, 3.0, 1.0, 1.5, 2.0]})"
-      return: !dict
+      return:
         Doctor Strange in het Multiversum van Waanzin: 5.6
         Dune: 5.9
         The Menu: 5.5
@@ -311,7 +311,7 @@
         5.5, 4.5, 7.0, 6.5, 6.0, 4.5, 2.5, 2.0], 'The Flash': [8.5, 6.0, 4.0, 7.0,
         4.5, 8.0, 8.5, 2.0, 9.0, 4.5, 3.0, 8.5, 3.0, 3.5, 4.5, 5.0, 9.0, 5.0, 6.5,
         3.5, 8.0, 2.0, 7.5, 4.5, 4.5, 5.0]})"
-      return: !dict
+      return:
         Barbie: 4.6
         A Quiet Place Deel II: 5.1
         Asteroid City: 5.1
@@ -349,7 +349,7 @@
         9.5, 4.0, 6.5, 3.5, 3.5, 5.0, 6.5, 2.0, 9.0, 4.5, 1.5, 1.0, 1.0, 2.5, 8.0,
         8.5, 5.5, 6.5, 5.5, 1.5, 2.5, 8.5, 7.0, 4.5, 1.0, 1.5, 2.5, 8.0, 2.0, 2.5,
         1.5, 5.5, 5.5, 7.0]})"
-      return: !dict
+      return:
         'John Wick: Chapter 4': 4.8
         The Fabelmans: 5.9
         'Top Gun: Maverick': 5.2
@@ -392,7 +392,7 @@
         8.0, 7.5], 'Doctor Strange in het Multiversum van Waanzin': [1.0, 2.0, 6.5,
         6.5, 4.0, 5.0, 6.5, 8.0, 5.5, 1.0, 1.0, 6.0, 3.0, 6.0, 2.0, 1.5, 1.5, 3.5,
         2.5, 6.5, 2.5, 9.0, 5.5, 3.5, 8.5, 8.5, 8.5, 4.5, 6.5, 7.5, 2.5, 3.0, 5.0]})"
-      return: !dict
+      return:
         Everything Everywhere All at Once: 4.2
         'Avatar: De Weg van Water': 5.3
         Scream VI: 4.8
@@ -438,7 +438,7 @@
         'The Menu': [2.0, 5.0, 9.5, 1.5, 3.0, 1.5, 7.5, 7.5, 9.5, 8.5, 6.5, 2.0, 8.5,
         4.0, 5.0, 8.0, 7.5, 8.0, 8.5, 6.5, 8.0, 5.0, 9.0, 3.5, 5.0, 7.0, 2.0, 6.5,
         3.0, 9.5, 3.5, 2.5, 8.0, 1.5]})"
-      return: !dict
+      return:
         The Suicide Squad: 5.5
         Nope: 5.8
         The Whale: 4.6
@@ -482,7 +482,7 @@
         2.5, 1.0, 5.5, 5.5, 3.5, 9.0, 7.5, 7.5, 3.0, 8.5, 4.5, 5.5, 3.5, 4.5, 7.0,
         8.0, 5.5, 8.0, 1.0, 2.5, 8.5, 3.0, 4.0, 8.0], 'Spider-Man: No Way Home': [2.0,
         1.0, 3.0, 4.0, 1.0]})"
-      return: !dict
+      return:
         Shang-Chi and the Legend of the Ten Rings: 5.1
         The Batman: 6.0
         'Top Gun: Maverick': 5.1
