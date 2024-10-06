@@ -1,5 +1,5 @@
 
-![Foto door Krists Luhaers op Unsplash.](media/krists-luhaers.jpg "Foto door Krists Luhaers op Unsplash."){:data-caption="Foto door Krists Luhaers op Unsplash." width="40%"}
+![Foto door Krists Luhaers op Unsplash.](media/krists-luhaers.jpg "Foto door Krists Luhaers op Unsplash."){:data-caption="Foto door Krists Luhaers op Unsplash." width="50%"}
 
 Op het einde van een cinemabezoek wordt aan de bezoekers gevraagd welke beoordeling ze de film gaven. De antwoorden worden bewaard in een dictionary van de volgende vorm:
 
