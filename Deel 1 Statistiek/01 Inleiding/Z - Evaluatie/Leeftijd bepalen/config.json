@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "Patiëntenonderzoek en antilichamen",
+      "en": "Patient research and antibodies"
+    }
+  },
+  "labels": [
+    "R",
+    "sint-lievenscollege",
+    "statistiek"
+  ],
+  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "internals": {
+    "token": "YSIdHKKcW_mDa9zxeEtUVbMUBEP5ybHJYis9F7kq_B9zVVnTXpKYtqubAdJVZymx",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
