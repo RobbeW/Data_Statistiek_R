@@ -1,0 +1,22 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Eulerkarakteristiek"
+    }
+  },
+  "evaluation": {
+    "handler": "TESTed",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "tuples",
+    "functies",
+    "evaluatie"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "FIdQYKQJmhKmX3Jzg6Sym83F2bkvW43HGPGTWmi4QbmDdVEC6Pwv9M6CdrQuPemU",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

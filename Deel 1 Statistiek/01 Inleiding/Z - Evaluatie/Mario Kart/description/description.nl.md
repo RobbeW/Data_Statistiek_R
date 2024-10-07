@@ -35,7 +35,7 @@ Via `head(data)` een **voorsmaakje** opvragen resulteert in:
 6    Choco Mountain  Three Lap      115.93
 ```
 
-Er zijn met dus **drie vectoren** terug te vinden in de data frame `data`.
+Er zijn dus **drie vectoren** terug te vinden in de data frame `data`.
 
 ## Gevraagd
 
