@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Coole woorden"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "dict"
+  ],
+  "access": "public"
+}

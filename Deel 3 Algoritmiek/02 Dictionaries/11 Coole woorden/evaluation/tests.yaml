@@ -1,0 +1,59 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: cool(ada)
+      return: true
+  - testcases:
+    - expression: cool(mamma)
+      return: true
+  - testcases:
+    - expression: cool(pappa)
+      return: true
+  - testcases:
+    - expression: cool(leraar)
+      return: false
+  - testcases:
+    - expression: cool(banaan)
+      return: true
+  - testcases:
+    - expression: cool(ananas)
+      return: true
+  - testcases:
+    - expression: cool(eerredder)
+      return: true
+  - testcases:
+    - expression: cool(eettenten)
+      return: true
+  - testcases:
+    - expression: cool(aarddraad)
+      return: true
+  - testcases:
+    - expression: cool(zelfbewustzijn)
+      return: false
+  - testcases:
+    - expression: cool(handelsverkeer)
+      return: false
+  - testcases:
+    - expression: cool(werkgelegenheid)
+      return: false
+  - testcases:
+    - expression: cool(kennisoverdracht)
+      return: false
+  - testcases:
+    - expression: cool(uitzonderlijkheid)
+      return: false
+  - testcases:
+    - expression: cool(aanmoedigingsbeleid)
+      return: false
+  - testcases:
+    - expression: cool(ontwikkelingsproces)
+      return: false
+  - testcases:
+    - expression: cool(belangrijkheidsbesef)
+      return: false
+  - testcases:
+    - expression: cool(productiviteitswinst)
+      return: false
+  - testcases:
+    - expression: cool(communicatievaardigheden)
+      return: false
