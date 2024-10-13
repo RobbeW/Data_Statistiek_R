@@ -1,9 +1,187 @@
 - tab: Feedback
   contexts:
   - testcases:
+    - expression: gemeenschappelijk([1, 16, 11, 14, 2], [5, 12, 10, 6, 10, 11, 2,
+        15, 15, 5, 17, 4, 11])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 2
+        - 11
+        file: "test.py"
+        name: "check_function"
+  - testcases:
     - expression: gemeenschappelijk([1, 2, 3, 4, 4, 5], [8, 3, 4, 7, 6, 4])
       return: !oracle
         oracle: "custom_check"
-        value: !list [3, 4, 4]
+        value: 
+        - 3
+        - 4
+        - 4
+        file: "test.py"
+        name: "check_function"
+  - testcases:
+    - expression: gemeenschappelijk([12, 4, 5, 12, 11, 18], [15, 2, 18, 7, 19])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 18
+        file: "test.py"
+        name: "check_function"
+  - testcases:
+    - expression: gemeenschappelijk([14, 14, 6, 8, 4, 9], [17, 4, 6, 3, 6, 11, 4,
+        2, 0, 2, 4, 6, 1, 18, 6, 11, 11, 6, 15, 14])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 4
+        - 6
+        - 14
+        file: "test.py"
+        name: "check_function"
+  - testcases:
+    - expression: gemeenschappelijk([1, 11, 14, 6, 14, 9], [9, 13, 4, 6, 2, 10, 3,
+        7, 19, 16, 18, 15, 14, 0, 6, 17])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 6
+        - 9
+        - 14
+        file: "test.py"
+        name: "check_function"
+  - testcases:
+    - expression: gemeenschappelijk([13, 3, 8, 8, 9, 9, 5, 12], [11, 3, 4, 5, 10,
+        17, 17, 5, 6, 2])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 3
+        - 5
+        file: "test.py"
+        name: "check_function"
+  - testcases:
+    - expression: gemeenschappelijk([18, 2, 17, 12, 3, 12, 1, 9], [7, 0, 2, 17])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 2
+        - 17
+        file: "test.py"
+        name: "check_function"
+  - testcases:
+    - expression: gemeenschappelijk([11, 15, 18, 0, 7, 15, 3, 14], [19, 10, 15, 10,
+        17, 11, 6, 11, 7, 6, 7])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 7
+        - 11
+        - 15
+        file: "test.py"
+        name: "check_function"
+  - testcases:
+    - expression: gemeenschappelijk([14, 0, 12, 9, 19, 14, 15, 6, 9, 9], [3, 3, 18,
+        19, 3, 17, 5])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 19
+        file: "test.py"
+        name: "check_function"
+  - testcases:
+    - expression: gemeenschappelijk([14, 3, 17, 8, 17, 3, 7, 2, 17, 8, 7], [18, 8,
+        3, 6, 3, 17, 18, 6, 2, 13, 16, 14, 9, 8, 16, 10])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 2
+        - 3
+        - 3
+        - 8
+        - 8
+        - 14
+        - 17
+        file: "test.py"
+        name: "check_function"
+  - testcases:
+    - expression: gemeenschappelijk([6, 8, 16, 18, 10, 16, 6, 4, 3, 16, 6], [0, 16,
+        7, 11, 0, 19, 4, 12])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 4
+        - 16
+        file: "test.py"
+        name: "check_function"
+  - testcases:
+    - expression: gemeenschappelijk([17, 5, 13, 17, 4, 13, 7, 4, 7, 3, 17, 4, 16],
+        [7, 14, 17, 0, 2, 17, 0, 10, 14, 14])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 7
+        - 17
+        - 17
+        file: "test.py"
+        name: "check_function"
+  - testcases:
+    - expression: gemeenschappelijk([11, 0, 10, 14, 11, 10, 1, 1, 4, 17, 0, 5, 18,
+        7], [18, 18, 3, 4, 18])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 4
+        - 18
+        file: "test.py"
+        name: "check_function"
+  - testcases:
+    - expression: gemeenschappelijk([10, 12, 16, 9, 12, 18, 2, 4, 1, 11, 4, 8, 17,
+        18], [6, 17, 16, 7])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 16
+        - 17
+        file: "test.py"
+        name: "check_function"
+  - testcases:
+    - expression: gemeenschappelijk([18, 0, 6, 8, 5, 12, 5, 19, 14, 14, 6, 2, 18,
+        18, 13, 16, 9], [14, 4, 5, 12, 1, 17])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 5
+        - 12
+        - 14
+        file: "test.py"
+        name: "check_function"
+  - testcases:
+    - expression: gemeenschappelijk([10, 12, 8, 0, 8, 19, 17, 4, 19, 2, 11, 8, 11,
+        3, 8, 12, 2], [18, 5, 5, 1, 19, 3, 13, 4, 10, 3, 17])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 3
+        - 4
+        - 10
+        - 17
+        - 19
+        file: "test.py"
+        name: "check_function"
+  - testcases:
+    - expression: gemeenschappelijk([0, 19, 7, 17, 9, 0, 4, 2, 1, 0, 17, 11, 12, 6,
+        3, 1, 4, 16], [9, 17, 11, 14, 7, 4, 2, 2, 8, 15, 4, 5, 4, 7, 17])
+      return: !oracle
+        oracle: "custom_check"
+        value: 
+        - 2
+        - 4
+        - 4
+        - 7
+        - 9
+        - 11
+        - 17
+        - 17
         file: "test.py"
         name: "check_function"

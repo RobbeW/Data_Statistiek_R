@@ -20,4 +20,4 @@ def gemeenschappelijk(lijst1, lijst2):
             for _ in range(n):
                 gemeen.append(key)
         
-    return gemeen
+    return sorted(gemeen)

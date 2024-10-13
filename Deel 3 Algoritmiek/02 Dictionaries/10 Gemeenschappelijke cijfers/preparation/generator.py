@@ -35,6 +35,13 @@ spec.loader.exec_module(module)
 ntests = 20
 
 cases = [([1, 2, 3, 4, 4, 5], [8, 3, 4, 7, 6, 4])]
+while len(cases) < ntests:
+    lijst1 = random.choices(range(20), k = random.randint(3,20))
+    lijst2 = random.choices(range(20), k = random.randint(3,20))
+    
+    case = (lijst1, lijst2)
+    if case not in cases:
+        cases.append(case)
 
 cases = sorted(cases, key = lambda x: len(x[0]))
 
