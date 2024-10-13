@@ -7,4 +7,3 @@
         value: !list [3, 4, 4]
         file: "test.py"
         name: "check_function"
-        arguments: [[1, 2, 3, 4, 4, 5], [8, 3, 4, 7, 6, 4]]
