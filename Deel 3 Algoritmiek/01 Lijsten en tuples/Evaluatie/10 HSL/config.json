@@ -14,5 +14,9 @@
     "functies",
     "evaluatie"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "iJXJfA-832fcNxxV9B__AcmndmbxiraYRimt7t5Ezypx2SQZFdBYdD6jqbFN8Mii",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
