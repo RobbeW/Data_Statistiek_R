@@ -1,4 +1,4 @@
-HSL van het Engelstalige **Hue**, **Saturation**, **Lightness**, is een manier om kleuren te bepalen. Hue staat voor tint - uitgedrukt in graden, Saturation voor verzadiging en Lightness voor **helderheid**.
+HSL van het Engelstalige **Hue**, **Saturation**, **Lightness** (of brightness), is een manier om kleuren te bepalen. Hue staat voor tint - uitgedrukt in graden, Saturation voor verzadiging en Lightness voor **helderheid**.
 
 ![Afbeelding door Artistic Hive.](media/HSL_adobe.png "Afbeelding door Artistic Hive."){:data-caption="Afbeelding door Artistic Hive." width="60%"}
 
