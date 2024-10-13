@@ -1,6 +1,6 @@
 HSL van het Engelstalige **Hue**, **Saturation**, **Lightness**, is een manier om kleuren te bepalen. Hue staat voor tint - uitgedrukt in graden, Saturation voor verzadiging en Lightness voor **helderheid**.
 
-![Afbeelding door Artistic Hive.](media/HSL_adobe.jpg "Afbeelding door Artistic Hive."){:data-caption="Afbeelding door Artistic Hive." width="40%"}
+![Afbeelding door Artistic Hive.](media/HSL_adobe.png "Afbeelding door Artistic Hive."){:data-caption="Afbeelding door Artistic Hive." width="60%"}
 
 Er geldt bijvoorbeeld dat de **RGB** code `(127, 255, 127)` gelijk is aan de **HSL** code `(120°, 0.5, 0.749)`. 
 
