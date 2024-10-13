@@ -1,0 +1,8 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: gemeenschappelijk([1, 2, 3, 4, 4, 5], [8, 3, 4, 7, 6, 4])
+      return:
+      - 3
+      - 4
+      - 4
