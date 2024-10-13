@@ -1,0 +1,18 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "HSL"
+    }
+  },
+  "evaluation": {
+    "handler": "TESTed",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "tuples",
+    "functies",
+    "evaluatie"
+  ],
+  "access": "public"
+}

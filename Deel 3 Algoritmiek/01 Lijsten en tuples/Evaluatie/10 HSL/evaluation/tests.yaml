@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: helderheid((127, 255, 127))
+      return: 0.749
+  - testcases:
+    - expression: helderheid((0, 0, 127))
+      return: 0.249
+  - testcases:
+    - expression: helderheid((51, 117, 129))
+      return: 0.353
+  - testcases:
+    - expression: helderheid((39, 171, 62))
+      return: 0.412
+  - testcases:
+    - expression: helderheid((76, 179, 12))
+      return: 0.375
+  - testcases:
+    - expression: helderheid((253, 20, 188))
+      return: 0.535
+  - testcases:
+    - expression: helderheid((115, 247, 22))
+      return: 0.527
+  - testcases:
+    - expression: helderheid((234, 113, 65))
+      return: 0.586
+  - testcases:
+    - expression: helderheid((130, 35, 190))
+      return: 0.441
+  - testcases:
+    - expression: helderheid((18, 219, 140))
+      return: 0.465
+  - testcases:
+    - expression: helderheid((157, 195, 94))
+      return: 0.567
+  - testcases:
+    - expression: helderheid((28, 64, 124))
+      return: 0.298
+  - testcases:
+    - expression: helderheid((111, 206, 250))
+      return: 0.708
+  - testcases:
+    - expression: helderheid((89, 233, 30))
+      return: 0.516
+  - testcases:
+    - expression: helderheid((190, 113, 75))
+      return: 0.52
+  - testcases:
+    - expression: helderheid((53, 225, 73))
+      return: 0.545
+  - testcases:
+    - expression: helderheid((206, 121, 106))
+      return: 0.612
+  - testcases:
+    - expression: helderheid((143, 110, 33))
+      return: 0.345
+  - testcases:
+    - expression: helderheid((202, 117, 237))
+      return: 0.694
+  - testcases:
+    - expression: helderheid((20, 160, 206))
+      return: 0.443
