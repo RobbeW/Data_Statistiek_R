@@ -1,0 +1,41 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: molecuulmassa(['O', 3])
+      return: 47.997
+  - testcases:
+    - expression: molecuulmassa(['Na', 1, 'Cl', 1])
+      return: 58.44
+  - testcases:
+    - expression: molecuulmassa(['H', 2, 'O', 1])
+      return: 18.015
+  - testcases:
+    - expression: molecuulmassa(['C', 1, 'H', 4])
+      return: 16.042
+  - testcases:
+    - expression: molecuulmassa(['K', 1, 'Cl', 1])
+      return: 74.548
+  - testcases:
+    - expression: molecuulmassa(['H', 2, 'O', 1])
+      return: 18.015
+  - testcases:
+    - expression: molecuulmassa(['Si', 1, 'O', 2])
+      return: 60.083
+  - testcases:
+    - expression: molecuulmassa(['C', 12, 'H', 22, 'O', 11])
+      return: 342.285
+  - testcases:
+    - expression: molecuulmassa(['C', 1, 'H', 1, 'Cl', 3])
+      return: 119.368
+  - testcases:
+    - expression: molecuulmassa(['C', 2, 'H', 4, 'O', 2])
+      return: 60.05
+  - testcases:
+    - expression: molecuulmassa(['Ba', 1, 'Ti', 1, 'O', 3])
+      return: 233.194
+  - testcases:
+    - expression: molecuulmassa(['Zn', 2, 'P', 2, 'O', 7])
+      return: 304.701
+  - testcases:
+    - expression: molecuulmassa(['C', 2, 'H', 5, 'O', 1, 'H', 1])
+      return: 46.067
