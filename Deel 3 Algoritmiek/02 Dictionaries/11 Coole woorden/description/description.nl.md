@@ -1,6 +1,6 @@
 Men noemt een woord *cool* indien het woord minstens twee letters heeft en elke letter en verschillend aantal keer voorkomt.
 
-Er geldt bijvoorbeeld dat het woord `"ada"` *cool* is, want `"a"` komt twee keer voor en `"d"` komt slechts één keer voor. Het woord `"leraar"` is niet cool want zowel `"r"` als `"a"` komen evenveel keer voor.
+Er geldt bijvoorbeeld dat het woord `"ada"` *cool* is, want `"a"` komt twee keer voor en `"d"` komt slechts één keer voor. Het woord `"leraar"` is *niet cool* want zowel `"r"` als `"a"` komen evenveel keer voor.
 
 Om te itereren over een alle letters van een woord kan je een `for` lus gebruiken, net zoals bij een lijst:
 
