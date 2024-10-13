@@ -53,7 +53,7 @@ for i in range(len(cases)):
     yamldata[0]['contexts'].append( {'testcases' : []})
        
     # generate test expression
-    expression_name = f"cool({test})"
+    expression_name = f"cool(\"{test}\")"
 
     try:
         outputF = io.StringIO()

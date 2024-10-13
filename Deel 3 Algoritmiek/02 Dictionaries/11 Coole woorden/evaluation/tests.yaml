@@ -1,59 +1,59 @@
 - tab: Feedback
   contexts:
   - testcases:
-    - expression: cool(ada)
+    - expression: cool("ada")
       return: true
   - testcases:
-    - expression: cool(mamma)
+    - expression: cool("mamma")
       return: true
   - testcases:
-    - expression: cool(pappa)
+    - expression: cool("pappa")
       return: true
   - testcases:
-    - expression: cool(leraar)
+    - expression: cool("leraar")
       return: false
   - testcases:
-    - expression: cool(banaan)
+    - expression: cool("banaan")
       return: true
   - testcases:
-    - expression: cool(ananas)
+    - expression: cool("ananas")
       return: true
   - testcases:
-    - expression: cool(eerredder)
+    - expression: cool("eerredder")
       return: true
   - testcases:
-    - expression: cool(eettenten)
+    - expression: cool("eettenten")
       return: true
   - testcases:
-    - expression: cool(aarddraad)
+    - expression: cool("aarddraad")
       return: true
   - testcases:
-    - expression: cool(zelfbewustzijn)
+    - expression: cool("zelfbewustzijn")
       return: false
   - testcases:
-    - expression: cool(handelsverkeer)
+    - expression: cool("handelsverkeer")
       return: false
   - testcases:
-    - expression: cool(werkgelegenheid)
+    - expression: cool("werkgelegenheid")
       return: false
   - testcases:
-    - expression: cool(kennisoverdracht)
+    - expression: cool("kennisoverdracht")
       return: false
   - testcases:
-    - expression: cool(uitzonderlijkheid)
+    - expression: cool("uitzonderlijkheid")
       return: false
   - testcases:
-    - expression: cool(aanmoedigingsbeleid)
+    - expression: cool("aanmoedigingsbeleid")
       return: false
   - testcases:
-    - expression: cool(ontwikkelingsproces)
+    - expression: cool("ontwikkelingsproces")
       return: false
   - testcases:
-    - expression: cool(belangrijkheidsbesef)
+    - expression: cool("belangrijkheidsbesef")
       return: false
   - testcases:
-    - expression: cool(productiviteitswinst)
+    - expression: cool("productiviteitswinst")
       return: false
   - testcases:
-    - expression: cool(communicatievaardigheden)
+    - expression: cool("communicatievaardigheden")
       return: false
