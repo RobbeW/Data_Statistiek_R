@@ -1,0 +1,104 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: romeins_naar_arabisch("V")
+      return: 5
+  - testcases:
+    - expression: romeins_naar_arabisch("IX")
+      return: 9
+  - testcases:
+    - expression: romeins_naar_arabisch("XIII")
+      return: 13
+  - testcases:
+    - expression: romeins_naar_arabisch("XXX")
+      return: 30
+  - testcases:
+    - expression: romeins_naar_arabisch("LXXI")
+      return: 71
+  - testcases:
+    - expression: romeins_naar_arabisch("XCIV")
+      return: 94
+  - testcases:
+    - expression: romeins_naar_arabisch("CXXIV")
+      return: 124
+  - testcases:
+    - expression: romeins_naar_arabisch("CCVIII")
+      return: 208
+  - testcases:
+    - expression: romeins_naar_arabisch("CCCLIII")
+      return: 353
+  - testcases:
+    - expression: romeins_naar_arabisch("CDXXXIV")
+      return: 434
+  - testcases:
+    - expression: romeins_naar_arabisch("DCXLV")
+      return: 645
+  - testcases:
+    - expression: romeins_naar_arabisch("DCLXII")
+      return: 662
+  - testcases:
+    - expression: romeins_naar_arabisch("DCCLXXVIII")
+      return: 778
+  - testcases:
+    - expression: romeins_naar_arabisch("CMXXX")
+      return: 930
+  - testcases:
+    - expression: romeins_naar_arabisch("CMXLI")
+      return: 941
+  - testcases:
+    - expression: romeins_naar_arabisch("MI")
+      return: 1001
+  - testcases:
+    - expression: romeins_naar_arabisch("MLXXXVII")
+      return: 1087
+  - testcases:
+    - expression: romeins_naar_arabisch("MCDXX")
+      return: 1420
+  - testcases:
+    - expression: romeins_naar_arabisch("MCDXXIV")
+      return: 1424
+  - testcases:
+    - expression: romeins_naar_arabisch("MDCCXXXIV")
+      return: 1734
+  - testcases:
+    - expression: romeins_naar_arabisch("MDCCCXXIV")
+      return: 1824
+  - testcases:
+    - expression: romeins_naar_arabisch("MMCCCXLVII")
+      return: 2347
+  - testcases:
+    - expression: romeins_naar_arabisch("MMDCCXIII")
+      return: 2713
+  - testcases:
+    - expression: romeins_naar_arabisch("MMDCCXC")
+      return: 2790
+  - testcases:
+    - expression: romeins_naar_arabisch("MMCMXL")
+      return: 2940
+  - testcases:
+    - expression: romeins_naar_arabisch("MMCMXCIV")
+      return: 2994
+  - testcases:
+    - expression: romeins_naar_arabisch("MMMLVI")
+      return: 3056
+  - testcases:
+    - expression: romeins_naar_arabisch("MMMCCLIX")
+      return: 3259
+  - testcases:
+    - expression: romeins_naar_arabisch("MMMCCCVI")
+      return: 3306
+  - testcases:
+    - expression: romeins_naar_arabisch("MMMDLXXXIII")
+      return: 3583
+  - testcases:
+    - expression: romeins_naar_arabisch("MMMDCLXIX")
+      return: 3669
+  - testcases:
+    - expression: romeins_naar_arabisch("MMMDCCCXXVII")
+      return: 3827
+  - testcases:
+    - expression: romeins_naar_arabisch("MMMDCCCXLVIII")
+      return: 3848
+  - testcases:
+    - expression: romeins_naar_arabisch("MMMCMLII")
+      return: 3952
