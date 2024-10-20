@@ -1,0 +1,213 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: kledijruil(['shirt', 'vest', 'jurk', 'sjaal'], ['blouse', 'hemd',
+        'sjaal', 'jurk'])
+      return: 2
+  - testcases:
+    - expression: kledijruil(['t-shirt', 'blouse', 'jurk', 'hemd', 'jas', 'sjaal'],
+        ['trui', 'pyjama', 'rok', 'jurk', 'hemd', 'shirt'])
+      return: 2
+  - testcases:
+    - expression: kledijruil(['blouse', 't-shirt', 'trui', 'hemd', 'blouse', 'sjaal',
+        'jas'], ['rok', 'sjaal', 'jas', 'rok', 'short', 'shirt', 'sjaal'])
+      return: 2
+  - testcases:
+    - expression: kledijruil(['short', 'pyjama', 'pyjama', 'vest', 'jas', 'pyjama',
+        'vest'], ['short', 'short', 'short', 'sjaal', 'short', 'rok', 'trui'])
+      return: 1
+  - testcases:
+    - expression: kledijruil(['shirt', 'vest', 'sjaal', 'shirt', 'blouse', 'broek',
+        'broek'], ['vest', 'broek', 'shirt', 'sjaal', 'hemd', 'rok', 'trui'])
+      return: 4
+  - testcases:
+    - expression: kledijruil(['pyjama', 'jurk', 'hemd', 'blouse', 'trui', 'jas', 'hemd',
+        'broek'], ['jurk', 'jurk', 'vest', 'pyjama', 'jas', 'blouse', 'pyjama', 'blouse'])
+      return: 4
+  - testcases:
+    - expression: kledijruil(['shirt', 'short', 't-shirt', 'broek', 'shirt', 'blouse',
+        'broek', 'shirt', 't-shirt'], ['jas', 'rok', 't-shirt', 'vest', 'vest', 'rok',
+        'jas', 't-shirt', 'broek'])
+      return: 3
+  - testcases:
+    - expression: kledijruil(['rok', 'broek', 'short', 'short', 'hemd', 'trui', 'shirt',
+        'trui', 'blouse', 'jas'], ['jas', 'pyjama', 'shirt', 'hemd', 'vest', 'jas',
+        'rok', 'trui', 'jas', 'jas'])
+      return: 5
+  - testcases:
+    - expression: kledijruil(['trui', 'shirt', 'jurk', 'broek', 'broek', 't-shirt',
+        'short', 'sjaal', 't-shirt', 'rok'], ['jas', 'vest', 'rok', 'jas', 'shirt',
+        'jurk', 'pyjama', 'short', 't-shirt', 'short'])
+      return: 5
+  - testcases:
+    - expression: kledijruil(['hemd', 'broek', 'blouse', 'rok', 'broek', 'vest', 'broek',
+        'short', 't-shirt', 'blouse', 'jurk', 'sjaal', 'jurk'], ['sjaal', 'jurk',
+        'blouse', 'broek', 'short', 'vest', 'hemd', 'rok', 't-shirt', 'hemd', 'broek',
+        'jas', 'hemd'])
+      return: 10
+  - testcases:
+    - expression: kledijruil(['rok', 'blouse', 'trui', 'pyjama', 't-shirt', 'hemd',
+        'sjaal', 'short', 'sjaal', 'pyjama', 'trui', 'sjaal', 'pyjama', 'pyjama',
+        'broek', 'blouse', 'vest', 'pyjama', 'vest', 'short', 'blouse'], ['broek',
+        'broek', 'jurk', 'vest', 'hemd', 'jas', 'jurk', 'short', 'trui', 'jas', 'shirt',
+        'sjaal', 'broek', 'blouse', 'blouse', 'jurk', 'hemd', 'vest', 'trui', 'trui',
+        'jurk'])
+      return: 10
+  - testcases:
+    - expression: kledijruil(['short', 'vest', 'jurk', 'broek', 'hemd', 'jurk', 'jas',
+        'short', 'jas', 'jurk', 't-shirt', 'broek', 'jas', 'trui', 'broek', 'vest',
+        'jas', 't-shirt', 'hemd', 'sjaal', 't-shirt', 'trui', 'pyjama', 'jurk', 'vest',
+        'pyjama', 'jas'], ['vest', 'blouse', 'trui', 'sjaal', 'rok', 'jurk', 'vest',
+        'pyjama', 'trui', 'hemd', 'blouse', 'short', 't-shirt', 'trui', 'broek', 'rok',
+        'short', 'short', 'blouse', 'jurk', 'hemd', 'jas', 'blouse', 'broek', 'shirt',
+        'pyjama', 'rok'])
+      return: 17
+  - testcases:
+    - expression: kledijruil(['jas', 't-shirt', 'trui', 'jas', 'trui', 'jas', 'sjaal',
+        'sjaal', 'blouse', 'jas', 'blouse', 'jurk', 'short', 'jas', 'rok', 'rok',
+        'broek', 'rok', 'short', 'blouse', 'pyjama', 'blouse', 'shirt', 't-shirt',
+        'vest', 'pyjama', 'jas', 'blouse', 'hemd'], ['t-shirt', 'short', 'pyjama',
+        'sjaal', 'blouse', 'vest', 'vest', 'short', 't-shirt', 'rok', 't-shirt', 'jas',
+        'trui', 'rok', 'jas', 'short', 'short', 'broek', 'shirt', 'rok', 'pyjama',
+        'sjaal', 'blouse', 'broek', 'blouse', 'jurk', 't-shirt', 'trui', 'hemd'])
+      return: 23
+  - testcases:
+    - expression: kledijruil(['pyjama', 'jurk', 'short', 'jas', 'jurk', 'blouse',
+        'rok', 'broek', 'rok', 'jas', 't-shirt', 'broek', 'jurk', 'jurk', 'trui',
+        'rok', 'trui', 'trui', 'trui', 'trui', 'jas', 'shirt', 'rok', 'rok', 'rok',
+        'pyjama', 'sjaal', 'blouse', 'shirt', 'pyjama', 'jas', 'trui', 'trui', 'rok',
+        'jurk', 'sjaal', 'trui', 'vest', 'jurk', 'jas', 'shirt', 'trui', 't-shirt',
+        'trui', 'hemd', 'jas', 'hemd', 'vest', 'rok', 'shirt', 'sjaal', 'jas'], ['blouse',
+        'jurk', 'trui', 't-shirt', 'vest', 'sjaal', 'jurk', 'sjaal', 'vest', 'blouse',
+        'jurk', 'blouse', 'broek', 'trui', 'shirt', 'pyjama', 'pyjama', 'pyjama',
+        'blouse', 'rok', 'rok', 'vest', 'pyjama', 'jurk', 'shirt', 'pyjama', 'sjaal',
+        'short', 'shirt', 'sjaal', 'rok', 't-shirt', 'pyjama', 'vest', 'hemd', 'short',
+        'sjaal', 'trui', 'vest', 'blouse', 'shirt', 'short', 'shirt', 'hemd', 'vest',
+        'short', 'hemd', 't-shirt', 'short', 'broek', 'broek', 'pyjama'])
+      return: 31
+  - testcases:
+    - expression: kledijruil(['trui', 't-shirt', 'pyjama', 'broek', 'broek', 'broek',
+        'trui', 'trui', 'pyjama', 'sjaal', 'rok', 'broek', 'jas', 'sjaal', 'rok',
+        'hemd', 'jurk', 'sjaal', 'short', 'rok', 'trui', 'blouse', 'broek', 'jurk',
+        'short', 'broek', 'sjaal', 'blouse', 'hemd', 'sjaal', 'short', 'broek', 'short',
+        'short', 'jurk', 'vest', 'rok', 'rok', 'hemd', 'vest', 'hemd', 'jurk', 'sjaal',
+        'trui', 'pyjama', 't-shirt', 'pyjama', 'vest', 't-shirt', 'sjaal', 'sjaal',
+        'pyjama', 'trui', 'shirt'], ['t-shirt', 'trui', 'jas', 'blouse', 'jas', 'jurk',
+        't-shirt', 'trui', 'trui', 'short', 'hemd', 'rok', 'rok', 't-shirt', 'vest',
+        'sjaal', 'short', 'short', 'broek', 'hemd', 'hemd', 'trui', 'pyjama', 'pyjama',
+        'sjaal', 'hemd', 'jas', 'vest', 'sjaal', 'pyjama', 'jas', 'trui', 'sjaal',
+        'trui', 'shirt', 'jurk', 'sjaal', 'trui', 'shirt', 'rok', 't-shirt', 't-shirt',
+        'trui', 'trui', 'blouse', 'trui', 'vest', 'sjaal', 'broek', 'vest', 'hemd',
+        'sjaal', 'jas', 'broek'])
+      return: 41
+  - testcases:
+    - expression: kledijruil(['blouse', 'pyjama', 'shirt', 't-shirt', 'trui', 'rok',
+        'short', 'vest', 'hemd', 'short', 't-shirt', 'shirt', 'rok', 'trui', 'trui',
+        'jurk', 'blouse', 'rok', 'broek', 'rok', 'jurk', 'hemd', 'vest', 'sjaal',
+        'sjaal', 'sjaal', 'jurk', 'shirt', 't-shirt', 't-shirt', 'broek', 'pyjama',
+        'rok', 'jurk', 'short', 'shirt', 'trui', 'rok', 'sjaal', 'blouse', 'blouse',
+        'hemd', 'trui', 'shirt', 'blouse', 'vest', 'jurk', 'rok', 'broek', 'rok',
+        'sjaal', 't-shirt', 't-shirt', 'pyjama', 'shirt', 'hemd', 'jurk', 'rok', 'trui',
+        'broek', 'rok', 'rok', 'hemd', 'pyjama', 'trui', 'hemd', 'broek', 'rok', 'broek',
+        'blouse', 'jurk', 'broek', 'vest', 'jurk', 'jurk', 'broek', 'rok', 'jurk',
+        't-shirt', 'short', 'short'], ['hemd', 'hemd', 'broek', 'shirt', 'trui', 'blouse',
+        'hemd', 'broek', 'sjaal', 'hemd', 'rok', 'sjaal', 'jurk', 'rok', 'jurk', 'rok',
+        'hemd', 'rok', 'blouse', 'broek', 'short', 'blouse', 'trui', 'pyjama', 'jurk',
+        'hemd', 'short', 't-shirt', 'rok', 'broek', 'trui', 'vest', 'hemd', 'rok',
+        'sjaal', 'sjaal', 'vest', 'short', 'sjaal', 'short', 'trui', 'pyjama', 'hemd',
+        'jas', 'shirt', 't-shirt', 'hemd', 'vest', 'short', 'broek', 'vest', 't-shirt',
+        'hemd', 't-shirt', 'short', 'sjaal', 'jas', 'hemd', 'trui', 't-shirt', 'hemd',
+        'pyjama', 't-shirt', 'jas', 't-shirt', 'jurk', 'sjaal', 'broek', 'broek',
+        'trui', 'vest', 'rok', 'jurk', 'pyjama', 'blouse', 'hemd', 't-shirt', 't-shirt',
+        'jas', 'broek', 'hemd'])
+      return: 63
+  - testcases:
+    - expression: kledijruil(['sjaal', 'jas', 'short', 'jurk', 'pyjama', 'jurk', 'broek',
+        'trui', 'pyjama', 'blouse', 'pyjama', 'trui', 'sjaal', 'hemd', 'jas', 'sjaal',
+        'sjaal', 'jurk', 'hemd', 't-shirt', 'hemd', 'trui', 'hemd', 'sjaal', 'rok',
+        'short', 'trui', 'vest', 't-shirt', 'shirt', 'jas', 'trui', 'hemd', 'trui',
+        'rok', 'vest', 'blouse', 'sjaal', 'trui', 'broek', 'sjaal', 'vest', 'shirt',
+        'vest', 'short', 'trui', 't-shirt', 'blouse', 'broek', 'hemd', 'broek', 'short',
+        'blouse', 'broek', 'short', 'jas', 'jas', 'rok', 't-shirt', 'rok', 'rok',
+        'sjaal', 'trui', 'short', 'vest', 'hemd', 'jurk', 'rok', 'shirt', 'rok', 'hemd',
+        'hemd', 'shirt', 'trui', 'sjaal', 'blouse', 't-shirt', 'vest', 'jurk', 'blouse',
+        'short'], ['vest', 'sjaal', 'jurk', 'jas', 'jurk', 'pyjama', 'hemd', 'rok',
+        'pyjama', 'trui', 'short', 'jurk', 'short', 'trui', 'jurk', 'sjaal', 'trui',
+        'short', 'broek', 'broek', 'broek', 'jas', 'short', 'hemd', 'shirt', 'hemd',
+        'short', 'sjaal', 'blouse', 'rok', 'pyjama', 'short', 'sjaal', 'blouse', 'sjaal',
+        'jas', 'pyjama', 'jas', 't-shirt', 'short', 'hemd', 'hemd', 'jas', 'vest',
+        'vest', 'vest', 'broek', 'sjaal', 'sjaal', 'jas', 't-shirt', 'jurk', 't-shirt',
+        'shirt', 'jurk', 'blouse', 'pyjama', 'vest', 'blouse', 'shirt', 'rok', 'rok',
+        'blouse', 'shirt', 'rok', 'jas', 'vest', 'broek', 'jurk', 'sjaal', 'pyjama',
+        'sjaal', 'rok', 'blouse', 'rok', 't-shirt', 'short', 'blouse', 't-shirt',
+        'sjaal', 'sjaal'])
+      return: 70
+  - testcases:
+    - expression: kledijruil(['sjaal', 'broek', 'sjaal', 'hemd', 'jurk', 'sjaal',
+        'rok', 'jas', 'sjaal', 't-shirt', 'short', 'trui', 'blouse', 'trui', 'broek',
+        'hemd', 'jurk', 'pyjama', 't-shirt', 'sjaal', 'trui', 'jurk', 'jas', 'vest',
+        'pyjama', 'shirt', 'jas', 'shirt', 'trui', 'rok', 'broek', 'jas', 'jurk',
+        'rok', 'sjaal', 't-shirt', 'shirt', 'vest', 'vest', 'jurk', 'jas', 't-shirt',
+        'broek', 'jurk', 'hemd', 'jurk', 'rok', 't-shirt', 'short', 'hemd', 'blouse',
+        'blouse', 'broek', 'shirt', 'sjaal', 't-shirt', 'rok', 'short', 'jas', 't-shirt',
+        'rok', 'vest', 'rok', 'broek', 'vest', 'vest', 'short', 'shirt', 'blouse',
+        'hemd', 'hemd', 'pyjama', 'shirt', 'broek', 'trui', 'rok', 'sjaal', 'jas',
+        'blouse', 'sjaal', 'jas', 'shirt', 'hemd', 'jas'], ['rok', 'jas', 'short',
+        'jas', 'hemd', 'short', 't-shirt', 'trui', 'shirt', 't-shirt', 'blouse', 'rok',
+        'vest', 'hemd', 'hemd', 'trui', 'hemd', 'jurk', 'shirt', 'sjaal', 'sjaal',
+        'rok', 'broek', 'blouse', 'jurk', 'hemd', 'shirt', 'pyjama', 'vest', 'blouse',
+        'jurk', 'jurk', 'sjaal', 'pyjama', 'vest', 'blouse', 'jurk', 'jas', 'trui',
+        'jas', 'jurk', 'hemd', 'jurk', 'broek', 'jurk', 'pyjama', 'rok', 'sjaal',
+        'shirt', 'rok', 'shirt', 'trui', 'trui', 'hemd', 'short', 'trui', 'short',
+        'trui', 't-shirt', 'trui', 'pyjama', 'short', 'rok', 't-shirt', 'pyjama',
+        'short', 'hemd', 'pyjama', 'broek', 't-shirt', 'rok', 'pyjama', 'broek', 'blouse',
+        'jurk', 'pyjama', 'jas', 'blouse', 'broek', 'sjaal', 'short', 'blouse', 'sjaal',
+        'broek'])
+      return: 68
+  - testcases:
+    - expression: kledijruil(['short', 'pyjama', 'hemd', 'jas', 'hemd', 'hemd', 'vest',
+        'trui', 'vest', 'blouse', 'jas', 'vest', 'blouse', 'sjaal', 't-shirt', 'pyjama',
+        't-shirt', 'pyjama', 'sjaal', 'jurk', 'vest', 't-shirt', 'trui', 'vest', 't-shirt',
+        'jurk', 'hemd', 'short', 'trui', 't-shirt', 'broek', 'rok', 'vest', 't-shirt',
+        'broek', 'vest', 'blouse', 'trui', 'blouse', 'rok', 'blouse', 't-shirt', 'rok',
+        'pyjama', 'broek', 'vest', 'rok', 'jas', 'jas', 'rok', 'vest', 'rok', 'broek',
+        't-shirt', 'sjaal', 'pyjama', 'hemd', 'jas', 'rok', 'short', 't-shirt', 'broek',
+        'blouse', 'shirt', 'sjaal', 'trui', 'jas', 'short', 't-shirt', 'jas', 'pyjama',
+        'trui', 'pyjama', 'shirt', 'trui', 'blouse', 'vest', 't-shirt', 'blouse',
+        'sjaal', 'jas', 'short', 'shirt', 'jas', 'jurk', 'vest', 'vest', 'trui', 'trui',
+        'shirt', 'sjaal', 'vest'], ['broek', 'vest', 'short', 'pyjama', 'trui', 'blouse',
+        'hemd', 'trui', 'jurk', 'blouse', 't-shirt', 'jurk', 'hemd', 'jurk', 'hemd',
+        't-shirt', 'rok', 'vest', 'hemd', 'broek', 'hemd', 'trui', 'shirt', 'trui',
+        'shirt', 'broek', 'jurk', 'hemd', 'vest', 'sjaal', 'pyjama', 'blouse', 'hemd',
+        'rok', 'shirt', 'hemd', 'jas', 'short', 'rok', 'trui', 'hemd', 't-shirt',
+        'vest', 'short', 't-shirt', 'pyjama', 'shirt', 'rok', 'trui', 'jas', 'short',
+        'vest', 'broek', 'jas', 'rok', 'shirt', 'short', 'pyjama', 'jas', 'rok', 'shirt',
+        'vest', 'blouse', 't-shirt', 'shirt', 'short', 't-shirt', 'broek', 'broek',
+        'trui', 'trui', 'rok', 'blouse', 'shirt', 'vest', 'short', 't-shirt', 'pyjama',
+        'broek', 'pyjama', 'trui', 'hemd', 'blouse', 'pyjama', 'trui', 'blouse', 'jurk',
+        'shirt', 'trui', 'jurk', 'hemd', 'jurk'])
+      return: 71
+  - testcases:
+    - expression: kledijruil(['jas', 't-shirt', 'rok', 'trui', 'jas', 'jas', 'broek',
+        'shirt', 'broek', 'trui', 'short', 'pyjama', 'broek', 'trui', 'short', 'rok',
+        'shirt', 'sjaal', 'trui', 'broek', 't-shirt', 'sjaal', 'hemd', 'trui', 'jas',
+        'hemd', 'broek', 'trui', 'shirt', 'jas', 'jurk', 'jurk', 'blouse', 'pyjama',
+        'jurk', 'jas', 'blouse', 'hemd', 'vest', 'pyjama', 'rok', 'sjaal', 't-shirt',
+        'trui', 'blouse', 'sjaal', 'pyjama', 'blouse', 't-shirt', 'shirt', 'rok',
+        'pyjama', 'trui', 'rok', 't-shirt', 'rok', 'shirt', 'blouse', 'short', 'blouse',
+        'shirt', 'pyjama', 't-shirt', 'blouse', 'short', 'rok', 'jurk', 'hemd', 'jurk',
+        'sjaal', 'hemd', 'sjaal', 'broek', 'sjaal', 'hemd', 'broek', 'shirt', 'short',
+        'broek', 'trui', 'shirt', 'vest', 'hemd', 'shirt', 'hemd', 'sjaal', 'pyjama',
+        'jurk', 'blouse', 'jurk', 'pyjama', 'blouse', 'jas', 'broek', 'trui', 'sjaal',
+        'pyjama'], ['shirt', 't-shirt', 'short', 'broek', 'sjaal', 'trui', 'jurk',
+        'vest', 't-shirt', 'short', 'hemd', 'sjaal', 'short', 'jurk', 'jas', 'sjaal',
+        't-shirt', 'vest', 'short', 'sjaal', 'shirt', 'jas', 'hemd', 'sjaal', 'trui',
+        't-shirt', 'jas', 'hemd', 'broek', 'jurk', 'jas', 'shirt', 'short', 'vest',
+        'blouse', 'trui', 'shirt', 'broek', 'short', 'rok', 'rok', 'hemd', 'short',
+        'sjaal', 'rok', 'trui', 'rok', 'vest', 'pyjama', 'pyjama', 'pyjama', 'pyjama',
+        'broek', 'trui', 'vest', 'rok', 'jurk', 'short', 'jurk', 't-shirt', 'vest',
+        'pyjama', 'jurk', 'sjaal', 'hemd', 'pyjama', 'rok', 'hemd', 't-shirt', 't-shirt',
+        'jurk', 'hemd', 'broek', 'trui', 't-shirt', 'pyjama', 'rok', 'broek', 'jas',
+        'pyjama', 'short', 'blouse', 'shirt', 'short', 'vest', 'sjaal', 't-shirt',
+        'shirt', 'broek', 'rok', 'pyjama', 'jas', 'jas', 'trui', 'jas', 'hemd', 'short'])
+      return: 81
