@@ -1,0 +1,297 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: "gewichtheffen({'Karlos Nasar': [173, 177, 180, 213, 224, '-'],
+        'Yeison Lopez': [175, 180, '-', 205, 210, '-'], 'Antonino Pizzolato': [172,
+        '-', '-', 212, '-', '-'], 'Marin Robu': [170, 175, '-', 200, 208, '-']})"
+      return: Karlos Nasar
+  - testcases:
+    - expression: "gewichtheffen({'Aliaksandr Makaranka': [150, '-', '-', 184, 185,
+        202], 'Mart Seim': [148, 156, '-', 207, 195, 211], 'Lu Xiaojun': [142, 177,
+        163, 183, 180, '-'], 'Simon Martirosyan': [170, 148, 154, 185, 223, '-'],
+        'Lasha Talakhadze': [180, '-', '-', 208, '-', '-'], 'Fernando Reis': [176,
+        159, 178, 187, 181, '-'], 'Arturs Plesnieks': [165, 174, 159, 189, '-', '-'],
+        'Kianoush Rostami': [154, '-', '-', 196, 181, 195]})"
+      return: Simon Martirosyan
+  - testcases:
+    - expression: "gewichtheffen({'Ruslan Nurudinov': [173, '-', '-', 181, '-', '-'],
+        'Simon Martirosyan': [179, 144, 167, 218, 211, 190], 'Lasha Talakhadze': [147,
+        '-', '-', 219, '-', '-'], 'Lu Xiaojun': [164, 152, '-', 220, 184, '-'], 'Pyrros
+        Dimas': [170, '-', '-', 183, 194, '-'], 'Yang Zhe': [175, '-', '-', 191, '-',
+        '-'], 'Behdad Salimi': [176, '-', '-', 219, 181, 198], 'Artem Okulov': [146,
+        150, '-', 202, 214, 207], 'David Katoatau': [174, 156, '-', 188, 180, 222]})"
+      return: Simon Martirosyan
+  - testcases:
+    - expression: "gewichtheffen({'David Katoatau': [145, '-', '-', 207, 191, 180],
+        'Lasha Talakhadze': [165, 174, 155, 224, 218, 211], 'Saeid Alihosseini': [151,
+        '-', '-', 192, '-', '-'], 'Ilya Ilyin': [152, 161, '-', 207, '-', '-'], 'Anton
+        Pliesnoi': [168, '-', '-', 221, '-', '-'], 'Lu Xiaojun': [178, 166, '-', 225,
+        '-', '-'], 'Behdad Salimi': [157, '-', '-', 216, 209, '-'], 'Zhe Yang': [176,
+        '-', '-', 219, '-', '-'], 'Ruslan Nurudinov': [166, 154, 157, 185, 213, 225],
+        'Artem Okulov': [156, 171, 170, 206, '-', '-']})"
+      return: Lu Xiaojun
+  - testcases:
+    - expression: "gewichtheffen({'Eko Yuli Irawan': [173, 165, '-', 200, '-', '-'],
+        'Ruslan Nurudinov': [171, 175, 171, 211, 181, 215], 'Valentin Hristov': [141,
+        149, 158, 220, '-', '-'], 'Denis Ulanov': [175, 154, 177, 211, 212, '-'],
+        'Yang Zhe': [161, 150, '-', 211, 215, '-'], 'Behdad Salimi': [159, 179, 146,
+        190, 200, '-'], 'Andrei Aramnau': [145, 163, '-', 219, 204, '-'], 'Fernando
+        Reis': [173, 150, 145, 194, '-', '-'], 'Oscar Figueroa': [169, 167, '-', 205,
+        209, 204], 'Mart Seim': [141, '-', '-', 211, '-', '-'], 'Rejepbaý Rejepow':
+        [149, 140, '-', 192, 206, 209]})"
+      return: Ruslan Nurudinov
+  - testcases:
+    - expression: "gewichtheffen({'Aliaksandr Makaranka': [160, 172, 152, 225, 192,
+        '-'], 'Ilya Ilyin': [150, 179, 151, 184, '-', '-'], 'Vadzim Straltsou': [145,
+        167, 146, 199, 192, '-'], 'Lu Xiaojun': [153, '-', '-', 213, '-', '-'], 'Eko
+        Yuli Irawan': [154, 149, 171, 217, 187, 223], 'Rejepbaý Rejepow': [173, '-',
+        '-', 224, '-', '-'], 'Simon Martirosyan': [142, 164, '-', 218, 207, '-'],
+        'Kianoush Rostami': [161, 173, '-', 206, 208, '-'], 'Fernando Reis': [170,
+        178, 164, 218, '-', '-'], 'Pyrros Dimas': [153, 160, 158, 201, '-', '-'],
+        'Yang Zhe': [174, '-', '-', 208, 200, '-']})"
+      return: Aliaksandr Makaranka
+  - testcases:
+    - expression: "gewichtheffen({'Rejepbaý Rejepow': [142, 166, 142, 199, 222, 187],
+        'Mohamed Ehab': [152, 159, '-', 193, '-', '-'], 'Eko Yuli Irawan': [159, 169,
+        '-', 182, 216, 190], 'Simon Martirosyan': [165, 166, '-', 189, 198, 197],
+        'Igor Son': [144, '-', '-', 222, 189, 181], 'Kianoush Rostami': [147, 178,
+        159, 201, 218, 222], 'Aliaksandr Makaranka': [154, '-', '-', 214, 187, '-'],
+        'David Katoatau': [161, 179, 158, 220, 205, '-'], 'Arturs Plesnieks': [172,
+        '-', '-', 192, 225, 192], 'Mart Seim': [161, 172, 175, 197, 223, 200], 'Ali
+        Hashemi': [143, 153, '-', 219, '-', '-'], 'Lasha Talakhadze': [172, '-', '-',
+        183, 224, 185], 'Saeid Alihosseini': [172, '-', '-', 210, 181, 196]})"
+      return: Kianoush Rostami
+  - testcases:
+    - expression: "gewichtheffen({'Saeid Alihosseini': [156, 177, 173, 201, 220, '-'],
+        'Artem Okulov': [143, 179, '-', 209, 209, 211], 'Pyrros Dimas': [140, 175,
+        '-', 191, 190, '-'], 'Kianoush Rostami': [167, '-', '-', 215, '-', '-'], 'Rejepbaý
+        Rejepow': [176, 173, 151, 223, 192, '-'], 'Aliaksandr Makaranka': [163, 149,
+        163, 223, 185, 195], 'Arturs Plesnieks': [147, 178, 154, 221, 216, '-'], 'Igor
+        Son': [177, 154, '-', 215, 224, 223], 'Ruslan Nurudinov': [144, 155, '-',
+        193, 193, 181], 'Simon Martirosyan': [154, 177, '-', 198, 185, 182], 'Fernando
+        Reis': [144, 170, '-', 182, '-', '-'], 'Oscar Figueroa': [162, 160, '-', 180,
+        223, '-'], 'Lasha Talakhadze': [150, 163, 144, 196, 199, '-'], 'Zhe Yang':
+        [173, '-', '-', 193, 222, 195], 'Mohamed Ehab': [173, 168, '-', 198, 215,
+        194], 'Ilya Ilyin': [143, 163, 142, 189, 182, '-']})"
+      return: Igor Son
+  - testcases:
+    - expression: "gewichtheffen({'Rejepbaý Rejepow': [173, '-', '-', 199, 211, '-'],
+        'Oscar Figueroa': [141, 178, 170, 225, '-', '-'], 'Ali Hashemi': [168, 167,
+        173, 218, '-', '-'], 'Artem Okulov': [174, '-', '-', 186, 196, 182], 'Behdad
+        Salimi': [180, '-', '-', 184, '-', '-'], 'Valentin Hristov': [173, 179, '-',
+        206, '-', '-'], 'David Katoatau': [174, 179, '-', 197, 182, '-'], 'Kianoush
+        Rostami': [147, 179, 170, 210, 216, '-'], 'Ilya Ilyin': [175, '-', '-', 209,
+        '-', '-'], 'Eko Yuli Irawan': [154, 170, '-', 186, 210, 204], 'Aliaksandr
+        Makaranka': [167, 140, 179, 217, 186, '-'], 'Vadzim Straltsou': [148, '-',
+        '-', 221, 212, '-'], 'Reza Beiralvand': [170, '-', '-', 186, 213, '-'], 'Lasha
+        Talakhadze': [148, '-', '-', 196, 183, 210], 'Anton Pliesnoi': [177, '-',
+        '-', 215, 191, 185], 'Pyrros Dimas': [166, 154, 159, 221, 182, 225], 'Yang
+        Zhe': [153, '-', '-', 220, '-', '-']})"
+      return: Oscar Figueroa
+  - testcases:
+    - expression: "gewichtheffen({'Vadzim Straltsou': [153, 158, '-', 182, 221, '-'],
+        'Reza Beiralvand': [144, '-', '-', 197, '-', '-'], 'Pyrros Dimas': [166, '-',
+        '-', 195, 221, '-'], 'Behdad Salimi': [158, 153, '-', 186, '-', '-'], 'Oscar
+        Figueroa': [170, '-', '-', 204, 190, '-'], 'Zhe Yang': [164, '-', '-', 217,
+        184, '-'], 'Aliaksandr Makaranka': [168, 172, 169, 209, '-', '-'], 'Simon
+        Martirosyan': [167, 171, '-', 222, 206, 221], 'Yang Zhe': [156, 158, '-',
+        200, '-', '-'], 'Ali Hashemi': [149, 167, 168, 190, 200, 201], 'Ilya Ilyin':
+        [169, '-', '-', 196, 225, 209], 'Anton Pliesnoi': [175, '-', '-', 210, '-',
+        '-'], 'Fernando Reis': [156, 175, 150, 189, 211, '-'], 'Saeid Alihosseini':
+        [175, 154, 144, 214, 216, '-'], 'David Katoatau': [150, '-', '-', 190, '-',
+        '-'], 'Mohamed Ehab': [148, 173, '-', 182, 213, 186], 'Valentin Hristov':
+        [143, 176, 160, 191, '-', '-'], 'Kianoush Rostami': [168, '-', '-', 214, 207,
+        192], 'Artem Okulov': [146, 153, '-', 185, '-', '-']})"
+      return: Ilya Ilyin
+  - testcases:
+    - expression: "gewichtheffen({'Ruslan Nurudinov': [165, 174, '-', 207, '-', '-'],
+        'Reza Beiralvand': [166, 165, '-', 211, 194, '-'], 'Simon Martirosyan': [178,
+        163, '-', 213, 197, '-'], 'Denis Ulanov': [157, 153, 178, 181, 199, 225],
+        'Lasha Talakhadze': [171, '-', '-', 198, 213, 206], 'Ali Hashemi': [178, '-',
+        '-', 210, '-', '-'], 'Yang Zhe': [155, 173, 147, 193, 193, 219], 'Kianoush
+        Rostami': [155, 180, '-', 181, 216, 199], 'Mart Seim': [167, 148, 154, 183,
+        217, '-'], 'Mohamed Ehab': [156, 169, '-', 191, 199, '-'], 'Arturs Plesnieks':
+        [152, 171, 153, 193, '-', '-'], 'Valentin Hristov': [167, 175, 163, 198, 222,
+        220], 'Pyrros Dimas': [175, '-', '-', 206, '-', '-'], 'Ilya Ilyin': [171,
+        167, '-', 183, 209, 187], 'David Katoatau': [142, 173, 177, 206, 223, 183],
+        'Lu Xiaojun': [141, '-', '-', 208, 201, 209], 'Aliaksandr Makaranka': [165,
+        152, '-', 220, '-', '-'], 'Zhe Yang': [149, 148, 177, 187, 199, '-'], 'Anton
+        Pliesnoi': [175, 149, 145, 204, 212, '-'], 'Behdad Salimi': [173, 154, '-',
+        225, 216, 204], 'Artem Okulov': [166, '-', '-', 192, '-', '-'], 'Saeid Alihosseini':
+        [146, 143, '-', 190, 196, '-']})"
+      return: Denis Ulanov
+  - testcases:
+    - expression: "gewichtheffen({'Denis Ulanov': [169, '-', '-', 220, 225, '-'],
+        'Yang Zhe': [164, 143, 148, 215, 208, 224], 'Rejepbaý Rejepow': [140, 164,
+        '-', 208, '-', '-'], 'Behdad Salimi': [153, '-', '-', 194, 210, 197], 'Eko
+        Yuli Irawan': [143, 148, 144, 202, '-', '-'], 'David Katoatau': [179, 168,
+        '-', 209, 224, '-'], 'Valentin Hristov': [173, 150, '-', 191, '-', '-'], 'Ali
+        Hashemi': [168, 158, '-', 217, 201, 210], 'Arturs Plesnieks': [151, 156, '-',
+        217, 196, 189], 'Pyrros Dimas': [164, 162, 150, 222, 192, '-'], 'Igor Son':
+        [143, '-', '-', 199, 204, '-'], 'Mohamed Ehab': [143, '-', '-', 215, 198,
+        '-'], 'Lu Xiaojun': [155, 155, '-', 200, 207, 225], 'Reza Beiralvand': [162,
+        '-', '-', 197, 216, '-'], 'Oscar Figueroa': [146, '-', '-', 218, 193, '-'],
+        'Simon Martirosyan': [174, '-', '-', 205, '-', '-'], 'Artem Okulov': [172,
+        162, '-', 194, 198, '-'], 'Ruslan Nurudinov': [170, '-', '-', 183, '-', '-'],
+        'Arsen Kasabiev': [177, 158, 174, 191, 180, '-'], 'Andrei Aramnau': [146,
+        '-', '-', 206, 216, '-'], 'Aliaksandr Makaranka': [147, 169, 153, 213, 215,
+        '-'], 'Fernando Reis': [168, 146, '-', 211, 189, '-']})"
+      return: David Katoatau
+  - testcases:
+    - expression: "gewichtheffen({'Kianoush Rostami': [167, 165, '-', 184, 214, 194],
+        'Oscar Figueroa': [177, '-', '-', 204, 202, '-'], 'Rejepbaý Rejepow': [142,
+        162, 156, 197, 198, '-'], 'Vadzim Straltsou': [180, 155, 160, 186, 224, 201],
+        'Ali Hashemi': [166, 149, '-', 186, 200, 184], 'Ilya Ilyin': [140, 152, '-',
+        202, '-', '-'], 'Anton Pliesnoi': [176, 144, 144, 189, 194, 198], 'Simon Martirosyan':
+        [178, '-', '-', 190, 186, 202], 'Zhe Yang': [173, 149, '-', 196, 185, '-'],
+        'David Katoatau': [151, 175, '-', 220, 210, 206], 'Behdad Salimi': [175, 177,
+        150, 225, '-', '-'], 'Aliaksandr Makaranka': [152, 165, '-', 195, '-', '-'],
+        'Valentin Hristov': [162, '-', '-', 217, 222, '-'], 'Andrei Aramnau': [169,
+        143, 145, 182, 213, '-'], 'Reza Beiralvand': [160, '-', '-', 194, 195, '-'],
+        'Pyrros Dimas': [144, 178, '-', 182, 204, '-'], 'Eko Yuli Irawan': [155, 174,
+        142, 207, 188, '-'], 'Denis Ulanov': [142, 142, 166, 222, 224, 206], 'Yang
+        Zhe': [166, '-', '-', 193, 184, '-'], 'Lu Xiaojun': [148, 150, 165, 209, '-',
+        '-'], 'Arturs Plesnieks': [142, 175, 146, 225, '-', '-'], 'Mart Seim': [150,
+        '-', '-', 184, '-', '-'], 'Mohamed Ehab': [179, '-', '-', 198, 193, '-']})"
+      return: Vadzim Straltsou
+  - testcases:
+    - expression: "gewichtheffen({'Andrei Aramnau': [174, 174, 141, 216, '-', '-'],
+        'David Katoatau': [176, 162, '-', 189, '-', '-'], 'Behdad Salimi': [156, 149,
+        158, 222, 187, '-'], 'Yang Zhe': [180, 178, 153, 211, 194, 213], 'Saeid Alihosseini':
+        [180, 153, '-', 209, 205, '-'], 'Artem Okulov': [178, 154, 144, 219, '-',
+        '-'], 'Mohamed Ehab': [179, 176, 156, 222, 219, '-'], 'Arsen Kasabiev': [176,
+        '-', '-', 216, 218, 213], 'Arturs Plesnieks': [171, 165, 153, 220, '-', '-'],
+        'Aliaksandr Makaranka': [169, 148, '-', 187, 211, '-'], 'Zhe Yang': [159,
+        179, 143, 222, 184, 185], 'Lu Xiaojun': [162, 151, 141, 182, 185, 189], 'Igor
+        Son': [142, 142, 165, 216, 222, 186], 'Kianoush Rostami': [175, '-', '-',
+        181, '-', '-'], 'Ilya Ilyin': [179, '-', '-', 217, 198, 197], 'Ali Hashemi':
+        [156, '-', '-', 220, '-', '-'], 'Ruslan Nurudinov': [148, 163, '-', 222, '-',
+        '-'], 'Valentin Hristov': [145, 161, '-', 188, '-', '-'], 'Rejepbaý Rejepow':
+        [147, '-', '-', 194, 196, '-'], 'Vadzim Straltsou': [160, 146, 158, 185, 222,
+        209], 'Anton Pliesnoi': [171, 177, '-', 209, 217, 202], 'Simon Martirosyan':
+        [176, 158, '-', 223, 180, '-'], 'Reza Beiralvand': [154, 145, '-', 184, '-',
+        '-'], 'Fernando Reis': [165, 163, 162, 197, 187, '-']})"
+      return: Mohamed Ehab
+  - testcases:
+    - expression: "gewichtheffen({'Valentin Hristov': [144, 162, 141, 225, 219, 194],
+        'Ali Hashemi': [166, '-', '-', 220, 181, '-'], 'David Katoatau': [151, '-',
+        '-', 209, '-', '-'], 'Eko Yuli Irawan': [170, 162, 174, 222, 208, 203], 'Denis
+        Ulanov': [141, 149, '-', 189, 203, '-'], 'Lasha Talakhadze': [172, '-', '-',
+        205, 223, '-'], 'Aliaksandr Makaranka': [153, '-', '-', 194, 222, 190], 'Reza
+        Beiralvand': [173, 151, '-', 185, '-', '-'], 'Vadzim Straltsou': [159, 166,
+        163, 217, 211, 204], 'Igor Son': [157, 178, 146, 203, 196, '-'], 'Anton Pliesnoi':
+        [142, 148, '-', 201, '-', '-'], 'Yang Zhe': [153, 174, 155, 183, 207, 180],
+        'Simon Martirosyan': [146, 180, 163, 204, 215, '-'], 'Behdad Salimi': [171,
+        '-', '-', 225, 186, '-'], 'Arturs Plesnieks': [151, 152, '-', 215, '-', '-'],
+        'Oscar Figueroa': [175, 162, 177, 190, 224, '-'], 'Saeid Alihosseini': [168,
+        167, 164, 220, 207, '-'], 'Kianoush Rostami': [170, 171, 149, 205, 225, 220],
+        'Lu Xiaojun': [155, 149, '-', 205, 222, 188], 'Rejepbaý Rejepow': [159, '-',
+        '-', 219, 206, 209], 'Ruslan Nurudinov': [149, '-', '-', 188, 215, '-'], 'Pyrros
+        Dimas': [152, 147, 150, 189, 193, 183], 'Ilya Ilyin': [149, 161, 142, 220,
+        192, 219], 'Mart Seim': [153, 175, 151, 195, '-', '-']})"
+      return: Oscar Figueroa
+  - testcases:
+    - expression: "gewichtheffen({'David Katoatau': [141, 167, '-', 204, '-', '-'],
+        'Behdad Salimi': [160, 162, '-', 195, 219, '-'], 'Arturs Plesnieks': [146,
+        '-', '-', 220, 180, 200], 'Lu Xiaojun': [168, 175, 145, 192, '-', '-'], 'Fernando
+        Reis': [162, 174, '-', 210, 194, '-'], 'Valentin Hristov': [178, 153, 165,
+        182, 187, '-'], 'Aliaksandr Makaranka': [168, 155, '-', 194, '-', '-'], 'Simon
+        Martirosyan': [154, 163, 173, 218, '-', '-'], 'Vadzim Straltsou': [163, 175,
+        172, 182, 201, '-'], 'Saeid Alihosseini': [180, 145, '-', 201, 209, 199],
+        'Kianoush Rostami': [156, '-', '-', 223, '-', '-'], 'Artem Okulov': [177,
+        174, 157, 209, 219, 225], 'Anton Pliesnoi': [167, 152, '-', 218, 213, 213],
+        'Mart Seim': [178, 173, '-', 214, '-', '-'], 'Zhe Yang': [163, 171, 178, 218,
+        '-', '-'], 'Igor Son': [142, 148, 160, 182, '-', '-'], 'Ruslan Nurudinov':
+        [151, '-', '-', 204, '-', '-'], 'Ali Hashemi': [147, 163, '-', 197, 196, 207],
+        'Arsen Kasabiev': [151, 144, 176, 187, 222, '-'], 'Pyrros Dimas': [145, 152,
+        163, 212, 181, 197], 'Denis Ulanov': [167, 170, '-', 193, 185, '-'], 'Ilya
+        Ilyin': [179, '-', '-', 205, 214, '-'], 'Reza Beiralvand': [168, '-', '-',
+        221, '-', '-'], 'Mohamed Ehab': [158, '-', '-', 224, 214, 192], 'Yang Zhe':
+        [140, '-', '-', 215, '-', '-'], 'Andrei Aramnau': [176, 170, 162, 189, 198,
+        214], 'Rejepbaý Rejepow': [144, '-', '-', 185, 190, 183]})"
+      return: Artem Okulov
+  - testcases:
+    - expression: "gewichtheffen({'Lu Xiaojun': [144, 163, '-', 207, '-', '-'], 'Saeid
+        Alihosseini': [164, 151, '-', 188, '-', '-'], 'Fernando Reis': [171, '-',
+        '-', 217, 209, '-'], 'Valentin Hristov': [154, 149, 146, 208, 189, '-'], 'Arturs
+        Plesnieks': [153, '-', '-', 222, 193, 184], 'Ruslan Nurudinov': [179, '-',
+        '-', 221, '-', '-'], 'Ali Hashemi': [156, '-', '-', 224, 196, '-'], 'Denis
+        Ulanov': [152, 160, 167, 187, 214, '-'], 'Anton Pliesnoi': [152, '-', '-',
+        225, 202, '-'], 'Reza Beiralvand': [179, 165, '-', 192, 197, '-'], 'Kianoush
+        Rostami': [140, 179, 171, 201, '-', '-'], 'Yang Zhe': [146, 169, 155, 189,
+        192, 189], 'Igor Son': [149, 168, 158, 221, 190, 222], 'Ilya Ilyin': [165,
+        '-', '-', 195, '-', '-'], 'Simon Martirosyan': [158, 168, '-', 198, '-', '-'],
+        'Pyrros Dimas': [152, '-', '-', 197, 219, 213], 'Rejepbaý Rejepow': [178,
+        '-', '-', 199, 193, '-'], 'Mart Seim': [156, 180, 154, 189, 222, 204], 'Mohamed
+        Ehab': [165, 152, '-', 215, 195, '-'], 'Andrei Aramnau': [149, 141, '-', 207,
+        182, '-'], 'David Katoatau': [152, '-', '-', 209, 202, '-'], 'Zhe Yang': [154,
+        180, 170, 211, 215, '-'], 'Eko Yuli Irawan': [161, 145, 149, 199, '-', '-'],
+        'Aliaksandr Makaranka': [146, '-', '-', 210, '-', '-'], 'Lasha Talakhadze':
+        [145, '-', '-', 216, 216, '-'], 'Arsen Kasabiev': [142, 180, '-', 183, 215,
+        200], 'Artem Okulov': [169, '-', '-', 223, 194, '-'], 'Oscar Figueroa': [146,
+        171, 173, 182, 190, 204]})"
+      return: Mart Seim
+  - testcases:
+    - expression: "gewichtheffen({'Arturs Plesnieks': [150, '-', '-', 183, 219, '-'],
+        'Vadzim Straltsou': [146, '-', '-', 212, 225, '-'], 'Saeid Alihosseini': [140,
+        143, 146, 186, 184, '-'], 'Pyrros Dimas': [177, 146, '-', 200, 198, 220],
+        'Artem Okulov': [159, 165, 174, 210, '-', '-'], 'Behdad Salimi': [158, 158,
+        '-', 209, '-', '-'], 'Andrei Aramnau': [179, 151, '-', 184, 207, 191], 'Fernando
+        Reis': [150, '-', '-', 189, 219, '-'], 'Simon Martirosyan': [164, 170, 167,
+        218, '-', '-'], 'Arsen Kasabiev': [169, 151, '-', 225, 200, '-'], 'Rejepbaý
+        Rejepow': [143, 149, 157, 211, '-', '-'], 'Lasha Talakhadze': [174, '-', '-',
+        199, 221, 204], 'Denis Ulanov': [140, 155, 167, 191, 181, 193], 'Eko Yuli
+        Irawan': [176, 163, '-', 215, '-', '-'], 'Anton Pliesnoi': [152, 145, 149,
+        224, '-', '-'], 'Reza Beiralvand': [159, '-', '-', 183, 216, '-'], 'Ilya Ilyin':
+        [154, 179, 173, 221, 189, '-'], 'Mart Seim': [161, 142, 180, 181, 200, '-'],
+        'Zhe Yang': [154, '-', '-', 223, 181, 212], 'Lu Xiaojun': [173, 147, '-',
+        209, 222, 221], 'Ali Hashemi': [156, 168, '-', 199, '-', '-'], 'David Katoatau':
+        [161, '-', '-', 201, '-', '-'], 'Aliaksandr Makaranka': [151, 142, '-', 214,
+        '-', '-'], 'Mohamed Ehab': [142, 180, '-', 222, 220, 194], 'Yang Zhe': [175,
+        177, 141, 204, '-', '-'], 'Igor Son': [177, 157, 172, 209, 214, '-'], 'Valentin
+        Hristov': [142, '-', '-', 224, 204, 216], 'Oscar Figueroa': [165, 147, '-',
+        196, 204, 184], 'Ruslan Nurudinov': [180, 142, 147, 184, 208, '-']})"
+      return: Mohamed Ehab
+  - testcases:
+    - expression: "gewichtheffen({'Simon Martirosyan': [172, 144, '-', 194, '-', '-'],
+        'Ilya Ilyin': [165, '-', '-', 199, 221, 206], 'Denis Ulanov': [177, 166, '-',
+        202, '-', '-'], 'Saeid Alihosseini': [148, 177, 141, 187, '-', '-'], 'Eko
+        Yuli Irawan': [154, 141, '-', 189, '-', '-'], 'Rejepbaý Rejepow': [166, 167,
+        176, 193, '-', '-'], 'Aliaksandr Makaranka': [143, 168, 173, 189, '-', '-'],
+        'Artem Okulov': [160, '-', '-', 181, 205, 209], 'Pyrros Dimas': [150, 164,
+        172, 193, 207, 188], 'Vadzim Straltsou': [154, '-', '-', 203, '-', '-'], 'Reza
+        Beiralvand': [177, 174, '-', 220, '-', '-'], 'Lu Xiaojun': [164, '-', '-',
+        203, 203, 203], 'Mart Seim': [178, 167, '-', 218, 216, 215], 'Behdad Salimi':
+        [145, 146, 150, 214, 202, '-'], 'Ali Hashemi': [174, '-', '-', 182, 194, '-'],
+        'Andrei Aramnau': [148, '-', '-', 184, 186, 224], 'Arsen Kasabiev': [150,
+        149, 180, 194, '-', '-'], 'Zhe Yang': [150, 177, '-', 210, 204, '-'], 'Arturs
+        Plesnieks': [166, '-', '-', 220, 199, '-'], 'Kianoush Rostami': [168, '-',
+        '-', 187, '-', '-'], 'Oscar Figueroa': [180, 170, '-', 220, 217, 205], 'Lasha
+        Talakhadze': [173, 151, '-', 208, 206, '-'], 'David Katoatau': [175, 150,
+        161, 203, '-', '-'], 'Ruslan Nurudinov': [159, 165, '-', 197, 200, 202], 'Valentin
+        Hristov': [171, 176, 174, 194, 203, '-'], 'Mohamed Ehab': [160, '-', '-',
+        220, 207, '-'], 'Anton Pliesnoi': [158, '-', '-', 180, 180, '-'], 'Fernando
+        Reis': [151, 145, '-', 223, 198, '-'], 'Igor Son': [142, 148, '-', 223, 205,
+        '-']})"
+      return: Oscar Figueroa
+  - testcases:
+    - expression: "gewichtheffen({'Arsen Kasabiev': [149, '-', '-', 216, 218, '-'],
+        'Lasha Talakhadze': [146, 166, 156, 219, 211, '-'], 'Eko Yuli Irawan': [166,
+        153, 179, 214, 208, '-'], 'Oscar Figueroa': [166, '-', '-', 190, 207, '-'],
+        'Andrei Aramnau': [173, 145, '-', 209, '-', '-'], 'Vadzim Straltsou': [151,
+        '-', '-', 191, 212, '-'], 'Simon Martirosyan': [140, '-', '-', 217, 186, '-'],
+        'Fernando Reis': [145, '-', '-', 204, 225, 195], 'Arturs Plesnieks': [149,
+        167, 164, 203, 206, '-'], 'Yang Zhe': [175, '-', '-', 192, 203, 185], 'Mart
+        Seim': [158, 143, '-', 206, 198, 220], 'Aliaksandr Makaranka': [156, 152,
+        '-', 216, 206, '-'], 'Kianoush Rostami': [140, '-', '-', 187, 201, 208], 'Ilya
+        Ilyin': [166, 158, 166, 210, 225, '-'], 'Rejepbaý Rejepow': [159, 144, '-',
+        198, 184, 204], 'Anton Pliesnoi': [140, '-', '-', 212, 210, 212], 'David Katoatau':
+        [141, 161, 162, 189, 213, '-'], 'Ali Hashemi': [165, 156, 175, 187, 202, '-'],
+        'Pyrros Dimas': [153, '-', '-', 216, 193, 217], 'Reza Beiralvand': [176, 159,
+        140, 214, 194, 180], 'Denis Ulanov': [179, 175, '-', 221, '-', '-'], 'Valentin
+        Hristov': [159, '-', '-', 198, '-', '-'], 'Mohamed Ehab': [140, '-', '-',
+        205, '-', '-'], 'Zhe Yang': [149, 152, '-', 196, 180, 223], 'Saeid Alihosseini':
+        [141, 165, 146, 206, 210, 184], 'Artem Okulov': [145, '-', '-', 180, 198,
+        '-'], 'Igor Son': [176, 157, 176, 205, '-', '-'], 'Lu Xiaojun': [152, 167,
+        '-', 209, 221, 186], 'Ruslan Nurudinov': [179, '-', '-', 194, 225, 212]})"
+      return: Ruslan Nurudinov
