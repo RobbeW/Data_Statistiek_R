@@ -7,7 +7,7 @@ Het illustere vermoeden van <a href="https://nl.wikipedia.org/wiki/Christian_Gol
 Hoewel deze hypothese enorm eenvoudig klinkt is ze toch nog niet bewezen. Mogelijks is dit dus niet waar!
 
 ## Gevraagd
-Schrijf een functie `goldbach()` (zonder argumenten) die voor alle even getallen kleiner dan 1 000 de verschillende priemgetallen bepaalt die samen het even getal opleveren. Zo geldt voor het getal 24 dat de koppels in deze lijst `[(5, 19), (7,17), (11,13)]` telkens het getal opleveren.
+Schrijf een functie `goldbach()` (zonder argumenten) die voor alle even getallen kleiner dan 1 000 de verschillende priemgetallen bepaalt die samen het even getal opleveren. Zo geldt voor het getal 24 dat de koppels in deze lijst `[(5, 19), (7, 17), (11, 13)]` telkens het getal opleveren.
 
 Gebruik in je programma de functie `is_priem()` die reeds werd geprogrammeerd.
 
