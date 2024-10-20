@@ -17,14 +17,16 @@ Een mogelijke dictionary kan er dus als volgt uitzien:
 
 ```python
 resultaten = {
-    "Karlos Nasar": [173, 177, 180, 213, 224, "-"],
-    "Yeison Lopez": [175, 180, "-", 205, 210, "-"],
+    "Karlos Nasar":       [173, 177, 180, 213, 224, "-"],
+    "Yeison Lopez":       [175, 180, "-", 205, 210, "-"],
     "Antonino Pizzolato": [172, "-", "-", 212, "-", "-"],
-    "Marin Robu": [170, 175, "-", 200, 208, "-"]
+    "Marin Robu":         [170, 175, "-", 200, 208, "-"]
 }
 ```
 
-De functie moet de naam van de winnaar retourneren.
+Hierbij heeft `"Karlos Nasar` het beste resultaat. Hij kon 180 kg heffen in het onderdeel "snatch" en 224 kg bij het onderdeel "clean & jerk", samen goed voor 404 kg een wereldrecord (in zijn gewichtsklasse).
+
+De functie `gewichtheffen(resultaten)` moet de naam van de winnaar retourneren. Bestudeer onderstaand voorbeeld.
 
 #### Voorbeeld
 
