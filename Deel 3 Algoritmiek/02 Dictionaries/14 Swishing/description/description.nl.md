@@ -1,4 +1,4 @@
-Als alternatief voor fast fashing verschijnt het fenoneem *swishing* of *swappen*. Dit is een andere naam voor het *ruilen van kledij*. Handig voor wie uitgekeken is op de eigen garderobe of geen weg weet met miskopen en misfits.
+Als alternatief voor <a href="https://nl.wikipedia.org/wiki/Fast_fashion" target="_blank">fast fashion</a> verschijnt het fenoneem *swishing* of *swappen*. Dit is een andere naam voor het *ruilen van kledij*. Handig voor wie uitgekeken is op de eigen garderobe of geen weg weet met miskopen en misfits.
 
 ![Een kledijruil...](media/Kledingruil.jpg "Een kledijruil..."){:data-caption="Een kledijruil..." width="40%"}
 
