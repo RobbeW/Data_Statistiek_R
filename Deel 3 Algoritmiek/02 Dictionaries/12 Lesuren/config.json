@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Lesuren tellen"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "dict"
+  ],
+  "access": "public"
+}

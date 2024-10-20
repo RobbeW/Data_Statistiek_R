@@ -1,0 +1,59 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: "aantal_uur({'6EMT': [('NED', 4), ('FRA', 4), ('NAT', 2), ('ENG',
+        4), ('DUI', 3), ('ECO', 4), ('WIS', 3), ('AAR', 1), ('GES', 2), ('GOD', 2),
+        ('EST', 1), ('LO', 2)], '6EWI6': [('WIS', 6), ('NED', 4), ('ECO', 4), ('ENG',
+        2), ('FYS', 2), ('FRA', 3), ('BIO', 1), ('GOD', 2), ('LO', 2), ('AAR', 1),
+        ('GES', 2), ('EST', 1)], '6EWI8': [('WIS', 8), ('FRA', 3), ('GOD', 2), ('GES',
+        2), ('ECO', 4), ('CHE', 1), ('NED', 4), ('LO', 2), ('ENG', 2), ('GOD', 2),
+        ('BIO', 1), ('FYS', 2)]})"
+      return:
+        NED: 12
+        FRA: 10
+        NAT: 2
+        ENG: 8
+        DUI: 3
+        ECO: 12
+        WIS: 17
+        AAR: 2
+        GES: 6
+        GOD: 8
+        EST: 2
+        LO: 6
+        FYS: 4
+        BIO: 2
+        CHE: 1
+  - testcases:
+    - expression: "aantal_uur({'6EMT': [('NED', 4), ('FRA', 4), ('NAT', 2), ('ENG',
+        4), ('DUI', 3), ('ECO', 4), ('WIS', 3), ('AAR', 1), ('GES', 2), ('GOD', 2),
+        ('EST', 1), ('LO', 2)], '6EWI6': [('WIS', 6), ('NED', 4), ('ECO', 4), ('ENG',
+        2), ('FYS', 2), ('FRA', 3), ('BIO', 1), ('GOD', 2), ('LO', 2), ('AAR', 1),
+        ('GES', 2), ('EST', 1)], '6EWI8': [('WIS', 8), ('FRA', 3), ('GOD', 2), ('GES',
+        2), ('ECO', 4), ('CHE', 1), ('NED', 4), ('LO', 2), ('ENG', 2), ('GOD', 2),
+        ('BIO', 1), ('FYS', 2)], '6GL': [('GRI', 4), ('NED', 4), ('ENG', 2), ('WIS',
+        3), ('NAT', 2), ('FRA', 3), ('LAT', 4), ('GOD', 2), ('LO', 2), ('AAR', 1),
+        ('GES', 2), ('KUN', 2)], '6GWI6': [('NED', 4), ('GRI', 4), ('WIS', 6), ('FYS',
+        2), ('FRA', 3), ('GOD', 2), ('CHE', 2), ('AAR', 1), ('ENG', 2), ('GES', 2),
+        ('BIO', 1), ('LO', 2)], '6GWI8': [('GRI', 4), ('WIS', 8), ('ENG', 2), ('GES',
+        2), ('NED', 4), ('GOD', 2), ('FRA', 3), ('BIO', 1), ('CHE', 1), ('FYS', 2),
+        ('LO', 2), ('AAR', 2)]})"
+      return:
+        NED: 24
+        FRA: 19
+        NAT: 4
+        ENG: 14
+        DUI: 3
+        ECO: 12
+        WIS: 34
+        AAR: 6
+        GES: 12
+        GOD: 14
+        EST: 2
+        LO: 12
+        FYS: 8
+        BIO: 4
+        CHE: 4
+        GRI: 12
+        LAT: 4
+        KUN: 2
