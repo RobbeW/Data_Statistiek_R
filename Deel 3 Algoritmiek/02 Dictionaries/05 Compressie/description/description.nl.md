@@ -18,7 +18,7 @@ In deze tupel zie je eerst de standaardwaarde `0`, en daarna een dictionary met 
 
 
 ## Gevraagd
-Schrijf eerst een functie `standaardwaarde(lijst)` die gegeven een lijst van getallen het getal dat het meest voorkomt retourneert. Je mag er in deze oefening van uitgaan dat er steeds één getal is dat het meeste voorkomt.
+Schrijf eerst een functie `modus(lijst)` die gegeven een lijst van getallen het getal dat het meest voorkomt retourneert. Je mag er in deze oefening van uitgaan dat er steeds één getal is dat het meeste voorkomt.
 
 Schrijf daarna de functie `comprimeer(lijst)` die gegeven een lijst met getallen zo'n gecomprimeerde datastructuur bepaalt. Je retourneert dus een **tupel** met de standaardwaarde en een dictionary.
 

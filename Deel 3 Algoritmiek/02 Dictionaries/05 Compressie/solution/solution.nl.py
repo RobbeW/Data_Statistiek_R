@@ -1,4 +1,4 @@
-def standaardwaarde(lijst):
+def modus(lijst):
     dict = {}
     for key in lijst:
         if key in dict:
