@@ -57,7 +57,7 @@ cases = sorted(cases, key = lambda x: len(x))
 
 # generate unit tests for functions
 yamldata = []
-tabtitle = "Feedback standaardwaarde"
+tabtitle = "Feedback modus"
 
 yamldata.append( {'tab': tabtitle, 'contexts': []})
 
@@ -66,12 +66,12 @@ for i in range(len(cases)):
     yamldata[0]['contexts'].append( {'testcases' : []})
        
     # generate test expression
-    expression_name = f"standaardwaarde({test})"
+    expression_name = f"modus({test})"
 
     try:
         outputF = io.StringIO()
         with contextlib.redirect_stdout(outputF):
-            result = module.standaardwaarde(test)
+            result = module.modus(test)
         stdout = outputF.getvalue() ##printed value
 
         print(stdout)

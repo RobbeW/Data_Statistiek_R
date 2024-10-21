@@ -16,7 +16,7 @@ def modus(lijst):
     return waarde
 
 def comprimeer(lijst):
-    default = standaardwaarde(lijst)
+    default = modus(lijst)
     dict = {}
 
     for i in range(len(lijst)):
