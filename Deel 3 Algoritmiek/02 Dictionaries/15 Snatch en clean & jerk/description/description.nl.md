@@ -24,7 +24,7 @@ resultaten = {
 }
 ```
 
-Hierbij heeft `"Karlos Nasar` het beste resultaat. Hij kon 180 kg heffen in het onderdeel "snatch" en 224 kg bij het onderdeel "clean & jerk", samen goed voor 404 kg een wereldrecord (in zijn gewichtsklasse).
+Hierbij heeft `"Karlos Nasar` het beste resultaat. Hij kon 180 kg heffen in het onderdeel "snatch" en 224 kg bij het onderdeel "clean & jerk", samen goed voor 404 kg, een wereldrecord (in zijn gewichtsklasse).
 
 De functie `gewichtheffen(resultaten)` moet de naam van de winnaar retourneren. Bestudeer onderstaand voorbeeld.
 
