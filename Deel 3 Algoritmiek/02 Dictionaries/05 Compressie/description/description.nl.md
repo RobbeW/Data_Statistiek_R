@@ -31,7 +31,11 @@ Bestudeerd grondig onderstaand voorbeeld:
 (0, {1: 1, 5: 1, 6: 2, 9: 3, 10: 1})
 ```
 
+Immers het getal `0` komt het meeste voor. Daarnaast staat op index 1 het getal `1`, op index 5 staat het getal `1`, op index 6 staat het getal `2`, op index 9 staat het getal `3` en op index 10 staat het getal `1`.
+
 ```python
 >>> comprimeer([1, -1, -1, -1, 2, 0, -1, -1, -1, -1, -1, -1])
 (-1, {0: 1, 4: 2, 5: 0})
 ```
+
+Het getal `-1` komt immers het meeste voor. Op index 0 staat het getal `1`, op index 4 staat het getal `2` en op index 5 staat het getal `0`.
