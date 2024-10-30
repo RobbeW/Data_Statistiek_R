@@ -1,0 +1,1118 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: hertelling(['John McCain', 'Barack Obama', 'Barack Obama'])
+      return: Barack Obama
+  - testcases:
+    - expression: hertelling(['Bernie Sanders', "Martin O'Malley", 'Hillary Clinton'])
+      return: Hertelling!
+  - testcases:
+    - expression: hertelling(['Donald Trump', 'Joe Biden', 'Donald Trump', 'Joe Biden',
+        'Joe Biden'])
+      return: Joe Biden
+  - testcases:
+    - expression: hertelling(['Donald Trump', 'Joe Biden', 'Donald Trump', 'Joe Biden',
+        'Donald Trump', 'Joe Biden'])
+      return: Hertelling!
+  - testcases:
+    - expression: hertelling(['Mike Pence', 'Nikki Haley', 'Chris Christie', 'Mike
+        Pence', 'Nikki Haley', 'Vivek Ramaswamy'])
+      return: Hertelling!
+  - testcases:
+    - expression: hertelling(['John F. Kennedy', 'John F. Kennedy', 'Harry F. Byrd',
+        'Harry F. Byrd', 'Harry F. Byrd', 'Richard Nixon'])
+      return: Harry F. Byrd
+  - testcases:
+    - expression: hertelling(['Harry F. Byrd', 'Richard Nixon', 'John F. Kennedy',
+        'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon'])
+      return: Richard Nixon
+  - testcases:
+    - expression: hertelling(['Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey'])
+      return: Hubert Humphrey
+  - testcases:
+    - expression: hertelling(['Harry F. Byrd', 'John F. Kennedy', 'Richard Nixon',
+        'John F. Kennedy', 'Harry F. Byrd', 'Richard Nixon', 'Richard Nixon', 'Harry
+        F. Byrd', 'Richard Nixon', 'Harry F. Byrd'])
+      return: Hertelling!
+  - testcases:
+    - expression: hertelling(['Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole'])
+      return: Hertelling!
+  - testcases:
+    - expression: hertelling(['Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard
+        Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon',
+        'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard
+        Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard
+        Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon',
+        'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard
+        Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon',
+        'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon'])
+      return: Hubert Humphrey
+  - testcases:
+    - expression: hertelling(['John Anderson', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy
+        Carter', 'John Anderson', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter',
+        'John Anderson', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter', 'Ronald
+        Reagan', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter', 'Ronald Reagan',
+        'John Anderson', 'Ronald Reagan', 'John Anderson', 'John Anderson', 'John
+        Anderson', 'John Anderson', 'John Anderson', 'Jimmy Carter', 'John Anderson',
+        'John Anderson', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'John Anderson',
+        'Ronald Reagan', 'John Anderson', 'Ronald Reagan', 'Jimmy Carter', 'John Anderson',
+        'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy Carter', 'John Anderson',
+        'John Anderson', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter', 'John Anderson',
+        'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'Ronald
+        Reagan', 'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'Ronald Reagan',
+        'Ronald Reagan', 'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter'])
+      return: John Anderson
+  - testcases:
+    - expression: hertelling(['John Anderson', 'John Anderson', 'Jimmy Carter', 'Jimmy
+        Carter', 'John Anderson', 'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan',
+        'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter',
+        'John Anderson', 'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter',
+        'Ronald Reagan', 'John Anderson', 'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter',
+        'John Anderson', 'Ronald Reagan', 'Jimmy Carter', 'Jimmy Carter', 'Ronald
+        Reagan', 'John Anderson', 'John Anderson', 'John Anderson', 'John Anderson',
+        'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'John Anderson',
+        'Ronald Reagan', 'John Anderson', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy
+        Carter', 'Ronald Reagan', 'John Anderson', 'John Anderson', 'John Anderson',
+        'John Anderson', 'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'Ronald
+        Reagan', 'John Anderson', 'Jimmy Carter', 'John Anderson', 'Ronald Reagan',
+        'John Anderson', 'John Anderson', 'John Anderson', 'Jimmy Carter', 'John Anderson',
+        'John Anderson', 'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson',
+        'John Anderson', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter', 'John Anderson',
+        'Ronald Reagan', 'John Anderson'])
+      return: John Anderson
+  - testcases:
+    - expression: hertelling(['Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon',
+        'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard
+        Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon',
+        'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey',
+        'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard
+        Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon',
+        'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard
+        Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon',
+        'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard
+        Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon'])
+      return: Richard Nixon
+  - testcases:
+    - expression: hertelling(['Ron DeSantis', 'Vivek Ramaswamy', 'Mike Pence', 'Mike
+        Pence', 'Mike Pence', 'Mike Pence', 'Nikki Haley', 'Mike Pence', 'Donald Trump',
+        'Chris Christie', 'Mike Pence', 'Nikki Haley', 'Donald Trump', 'Vivek Ramaswamy',
+        'Vivek Ramaswamy', 'Chris Christie', 'Ron DeSantis', 'Vivek Ramaswamy', 'Chris
+        Christie', 'Chris Christie', 'Ron DeSantis', 'Donald Trump', 'Chris Christie',
+        'Mike Pence', 'Donald Trump', 'Ron DeSantis', 'Donald Trump', 'Ron DeSantis',
+        'Ron DeSantis', 'Nikki Haley', 'Donald Trump', 'Mike Pence', 'Nikki Haley',
+        'Mike Pence', 'Donald Trump', 'Vivek Ramaswamy', 'Vivek Ramaswamy', 'Chris
+        Christie', 'Vivek Ramaswamy', 'Ron DeSantis', 'Vivek Ramaswamy', 'Ron DeSantis',
+        'Chris Christie', 'Nikki Haley', 'Ron DeSantis', 'Donald Trump', 'Mike Pence',
+        'Chris Christie', 'Vivek Ramaswamy', 'Nikki Haley', 'Nikki Haley', 'Nikki
+        Haley', 'Donald Trump', 'Chris Christie', 'Donald Trump', 'Nikki Haley', 'Nikki
+        Haley', 'Ron DeSantis', 'Ron DeSantis', 'Chris Christie', 'Ron DeSantis',
+        'Mike Pence', 'Ron DeSantis', 'Mike Pence', 'Mike Pence', 'Nikki Haley', 'Ron
+        DeSantis', 'Mike Pence', 'Chris Christie', 'Mike Pence', 'Ron DeSantis', 'Ron
+        DeSantis', 'Donald Trump', 'Donald Trump', 'Ron DeSantis', 'Nikki Haley',
+        'Vivek Ramaswamy', 'Mike Pence', 'Vivek Ramaswamy', 'Donald Trump', 'Ron DeSantis',
+        'Mike Pence', 'Nikki Haley', 'Ron DeSantis', 'Ron DeSantis', 'Nikki Haley',
+        'Chris Christie', 'Mike Pence', 'Mike Pence', 'Vivek Ramaswamy', 'Ron DeSantis',
+        'Ron DeSantis', 'Vivek Ramaswamy', 'Vivek Ramaswamy', 'Mike Pence', 'Donald
+        Trump'])
+      return: Ron DeSantis
+  - testcases:
+    - expression: hertelling(['Chris Christie', 'Chris Christie', 'Nikki Haley', 'Nikki
+        Haley', 'Mike Pence', 'Vivek Ramaswamy', 'Ron DeSantis', 'Mike Pence', 'Donald
+        Trump', 'Vivek Ramaswamy', 'Nikki Haley', 'Mike Pence', 'Chris Christie',
+        'Donald Trump', 'Ron DeSantis', 'Mike Pence', 'Mike Pence', 'Nikki Haley',
+        'Donald Trump', 'Vivek Ramaswamy', 'Vivek Ramaswamy', 'Ron DeSantis', 'Nikki
+        Haley', 'Ron DeSantis', 'Mike Pence', 'Mike Pence', 'Chris Christie', 'Vivek
+        Ramaswamy', 'Mike Pence', 'Chris Christie', 'Ron DeSantis', 'Mike Pence',
+        'Mike Pence', 'Chris Christie', 'Nikki Haley', 'Vivek Ramaswamy', 'Nikki Haley',
+        'Vivek Ramaswamy', 'Mike Pence', 'Ron DeSantis', 'Donald Trump', 'Nikki Haley',
+        'Nikki Haley', 'Donald Trump', 'Ron DeSantis', 'Vivek Ramaswamy', 'Mike Pence',
+        'Vivek Ramaswamy', 'Ron DeSantis', 'Donald Trump', 'Chris Christie', 'Mike
+        Pence', 'Chris Christie', 'Nikki Haley', 'Vivek Ramaswamy', 'Donald Trump',
+        'Chris Christie', 'Mike Pence', 'Nikki Haley', 'Mike Pence', 'Mike Pence',
+        'Donald Trump', 'Ron DeSantis', 'Donald Trump', 'Mike Pence', 'Mike Pence',
+        'Chris Christie', 'Nikki Haley', 'Chris Christie', 'Chris Christie', 'Donald
+        Trump', 'Ron DeSantis', 'Donald Trump', 'Donald Trump', 'Ron DeSantis', 'Mike
+        Pence', 'Mike Pence', 'Donald Trump', 'Chris Christie', 'Chris Christie',
+        'Ron DeSantis', 'Nikki Haley', 'Chris Christie', 'Nikki Haley', 'Vivek Ramaswamy',
+        'Vivek Ramaswamy', 'Nikki Haley', 'Mike Pence', 'Ron DeSantis', 'Nikki Haley',
+        'Nikki Haley', 'Vivek Ramaswamy', 'Nikki Haley', 'Ron DeSantis', 'Vivek Ramaswamy',
+        'Ron DeSantis'])
+      return: Mike Pence
+  - testcases:
+    - expression: hertelling(['Al Gore', 'Ralph Nader', 'Al Gore', 'Ralph Nader',
+        'Ralph Nader', 'Ralph Nader', 'Ralph Nader', 'Al Gore', 'George W. Bush',
+        'Ralph Nader', 'Al Gore', 'Ralph Nader', 'George W. Bush', 'Al Gore', 'Ralph
+        Nader', 'Al Gore', 'Al Gore', 'Al Gore', 'George W. Bush', 'Al Gore', 'George
+        W. Bush', 'George W. Bush', 'Ralph Nader', 'Al Gore', 'George W. Bush', 'Ralph
+        Nader', 'Al Gore', 'George W. Bush', 'Ralph Nader', 'Al Gore', 'George W.
+        Bush', 'George W. Bush', 'Ralph Nader', 'Ralph Nader', 'Al Gore', 'Al Gore',
+        'Ralph Nader', 'Ralph Nader', 'George W. Bush', 'Ralph Nader', 'Ralph Nader',
+        'Ralph Nader', 'Al Gore', 'Al Gore', 'George W. Bush', 'George W. Bush', 'George
+        W. Bush', 'Al Gore', 'George W. Bush', 'George W. Bush', 'Ralph Nader', 'Al
+        Gore', 'George W. Bush', 'Ralph Nader', 'Al Gore', 'Ralph Nader', 'George
+        W. Bush', 'Al Gore', 'Al Gore', 'Ralph Nader', 'George W. Bush', 'George W.
+        Bush', 'Al Gore', 'Al Gore', 'Ralph Nader', 'Ralph Nader', 'George W. Bush',
+        'Ralph Nader', 'George W. Bush', 'George W. Bush', 'George W. Bush', 'Al Gore',
+        'Al Gore', 'Al Gore', 'George W. Bush', 'Al Gore', 'Al Gore', 'George W. Bush',
+        'Ralph Nader', 'George W. Bush', 'George W. Bush', 'Ralph Nader', 'Ralph Nader',
+        'George W. Bush', 'George W. Bush', 'Al Gore', 'Ralph Nader', 'George W. Bush',
+        'George W. Bush', 'Al Gore', 'George W. Bush', 'George W. Bush', 'George W.
+        Bush', 'George W. Bush', 'Al Gore', 'Ralph Nader', 'George W. Bush', 'Al Gore',
+        'Ralph Nader', 'George W. Bush', 'Ralph Nader', 'Al Gore', 'Ralph Nader',
+        'George W. Bush', 'Al Gore', 'George W. Bush', 'Ralph Nader', 'Ralph Nader',
+        'Ralph Nader', 'George W. Bush', 'Al Gore', 'Ralph Nader', 'Ralph Nader',
+        'George W. Bush', 'Al Gore', 'George W. Bush', 'Al Gore', 'George W. Bush',
+        'Ralph Nader', 'George W. Bush', 'George W. Bush', 'Al Gore', 'George W. Bush',
+        'Al Gore', 'George W. Bush', 'Al Gore', 'Ralph Nader', 'Al Gore', 'Al Gore',
+        'Al Gore', 'George W. Bush', 'Al Gore', 'Al Gore', 'Al Gore', 'Ralph Nader',
+        'George W. Bush', 'Ralph Nader', 'Ralph Nader', 'Al Gore', 'Ralph Nader',
+        'George W. Bush', 'George W. Bush', 'George W. Bush', 'George W. Bush', 'Al
+        Gore', 'Ralph Nader', 'Al Gore', 'Ralph Nader', 'Ralph Nader', 'Ralph Nader',
+        'Ralph Nader', 'George W. Bush', 'Ralph Nader', 'Al Gore', 'Al Gore', 'Ralph
+        Nader', 'Ralph Nader', 'George W. Bush', 'Ralph Nader', 'Ralph Nader', 'Ralph
+        Nader', 'Al Gore', 'Al Gore', 'George W. Bush', 'Al Gore', 'Al Gore', 'Ralph
+        Nader', 'George W. Bush', 'Al Gore', 'Al Gore', 'Ralph Nader'])
+      return: Hertelling!
+  - testcases:
+    - expression: hertelling(["Martin O'Malley", 'Bernie Sanders', 'Hillary Clinton',
+        'Bernie Sanders', 'Hillary Clinton', 'Bernie Sanders', 'Bernie Sanders', 'Bernie
+        Sanders', 'Hillary Clinton', 'Hillary Clinton', 'Hillary Clinton', 'Bernie
+        Sanders', 'Hillary Clinton', 'Bernie Sanders', 'Hillary Clinton', 'Bernie
+        Sanders', 'Bernie Sanders', "Martin O'Malley", 'Bernie Sanders', 'Bernie Sanders',
+        "Martin O'Malley", 'Hillary Clinton', "Martin O'Malley", "Martin O'Malley",
+        'Bernie Sanders', "Martin O'Malley", 'Bernie Sanders', "Martin O'Malley",
+        "Martin O'Malley", 'Bernie Sanders', 'Hillary Clinton', "Martin O'Malley",
+        'Bernie Sanders', 'Bernie Sanders', 'Bernie Sanders', "Martin O'Malley", "Martin
+        O'Malley", 'Hillary Clinton', "Martin O'Malley", 'Hillary Clinton', 'Hillary
+        Clinton', 'Hillary Clinton', 'Hillary Clinton', "Martin O'Malley", "Martin
+        O'Malley", "Martin O'Malley", 'Hillary Clinton', "Martin O'Malley", 'Hillary
+        Clinton', 'Hillary Clinton', "Martin O'Malley", 'Hillary Clinton', 'Hillary
+        Clinton', 'Hillary Clinton', 'Hillary Clinton', "Martin O'Malley", "Martin
+        O'Malley", "Martin O'Malley", 'Bernie Sanders', "Martin O'Malley", 'Bernie
+        Sanders', 'Bernie Sanders', "Martin O'Malley", 'Bernie Sanders', 'Hillary
+        Clinton', "Martin O'Malley", 'Hillary Clinton', "Martin O'Malley", 'Hillary
+        Clinton', 'Bernie Sanders', 'Bernie Sanders', "Martin O'Malley", 'Bernie Sanders',
+        'Hillary Clinton', 'Hillary Clinton', "Martin O'Malley", "Martin O'Malley",
+        "Martin O'Malley", "Martin O'Malley", "Martin O'Malley", 'Hillary Clinton',
+        "Martin O'Malley", 'Hillary Clinton', "Martin O'Malley", 'Bernie Sanders',
+        'Bernie Sanders', 'Hillary Clinton', 'Bernie Sanders', 'Bernie Sanders', 'Bernie
+        Sanders', 'Bernie Sanders', 'Bernie Sanders', 'Hillary Clinton', 'Bernie Sanders',
+        'Bernie Sanders', 'Hillary Clinton', 'Bernie Sanders', 'Bernie Sanders', "Martin
+        O'Malley", 'Bernie Sanders', 'Hillary Clinton', 'Bernie Sanders', 'Bernie
+        Sanders', 'Hillary Clinton', "Martin O'Malley", 'Hillary Clinton', 'Hillary
+        Clinton', 'Hillary Clinton', 'Bernie Sanders', 'Hillary Clinton', 'Bernie
+        Sanders', 'Bernie Sanders', "Martin O'Malley", 'Bernie Sanders', "Martin O'Malley",
+        'Hillary Clinton', "Martin O'Malley", 'Bernie Sanders', "Martin O'Malley",
+        "Martin O'Malley", 'Bernie Sanders', "Martin O'Malley", 'Hillary Clinton',
+        'Bernie Sanders', "Martin O'Malley", 'Hillary Clinton', "Martin O'Malley",
+        'Bernie Sanders', 'Bernie Sanders', "Martin O'Malley", 'Bernie Sanders', 'Bernie
+        Sanders', 'Bernie Sanders', 'Bernie Sanders', 'Hillary Clinton', 'Bernie Sanders',
+        "Martin O'Malley", 'Hillary Clinton', 'Hillary Clinton', 'Hillary Clinton',
+        'Bernie Sanders', 'Hillary Clinton', 'Bernie Sanders', 'Bernie Sanders', 'Bernie
+        Sanders', 'Bernie Sanders', 'Bernie Sanders', 'Hillary Clinton', 'Bernie Sanders',
+        'Hillary Clinton', "Martin O'Malley", 'Bernie Sanders', 'Hillary Clinton',
+        "Martin O'Malley", 'Hillary Clinton', 'Hillary Clinton', 'Hillary Clinton',
+        "Martin O'Malley", "Martin O'Malley", 'Hillary Clinton', 'Hillary Clinton',
+        "Martin O'Malley", 'Hillary Clinton', 'Hillary Clinton', 'Hillary Clinton',
+        'Hillary Clinton', 'Bernie Sanders', "Martin O'Malley", "Martin O'Malley",
+        'Bernie Sanders', 'Bernie Sanders', 'Hillary Clinton', 'Hillary Clinton',
+        'Hillary Clinton', 'Hillary Clinton', "Martin O'Malley", 'Hillary Clinton',
+        "Martin O'Malley", 'Hillary Clinton', "Martin O'Malley", 'Bernie Sanders',
+        'Bernie Sanders', 'Hillary Clinton', "Martin O'Malley", 'Hillary Clinton',
+        'Bernie Sanders', 'Bernie Sanders', 'Hillary Clinton', 'Bernie Sanders', 'Bernie
+        Sanders', "Martin O'Malley", 'Bernie Sanders', 'Hillary Clinton', 'Hillary
+        Clinton', 'Bernie Sanders', 'Hillary Clinton', 'Hillary Clinton', 'Bernie
+        Sanders', "Martin O'Malley", "Martin O'Malley", "Martin O'Malley", 'Bernie
+        Sanders', "Martin O'Malley", 'Bernie Sanders', "Martin O'Malley", 'Hillary
+        Clinton', "Martin O'Malley", "Martin O'Malley", "Martin O'Malley", "Martin
+        O'Malley", "Martin O'Malley", 'Hillary Clinton', 'Bernie Sanders', "Martin
+        O'Malley", "Martin O'Malley", 'Hillary Clinton', "Martin O'Malley", "Martin
+        O'Malley", 'Hillary Clinton', "Martin O'Malley", 'Bernie Sanders', 'Hillary
+        Clinton', "Martin O'Malley", "Martin O'Malley", 'Hillary Clinton', 'Hillary
+        Clinton', 'Hillary Clinton', "Martin O'Malley", 'Bernie Sanders', "Martin
+        O'Malley", 'Bernie Sanders', 'Bernie Sanders', 'Hillary Clinton', "Martin
+        O'Malley", 'Bernie Sanders', "Martin O'Malley", 'Hillary Clinton', "Martin
+        O'Malley", "Martin O'Malley", 'Hillary Clinton', "Martin O'Malley", "Martin
+        O'Malley", 'Bernie Sanders', "Martin O'Malley", 'Bernie Sanders', 'Hillary
+        Clinton', "Martin O'Malley", "Martin O'Malley", "Martin O'Malley", 'Hillary
+        Clinton', 'Hillary Clinton', 'Hillary Clinton', 'Bernie Sanders', 'Bernie
+        Sanders', 'Bernie Sanders', 'Hillary Clinton', "Martin O'Malley", 'Bernie
+        Sanders'])
+      return: Hertelling!
+  - testcases:
+    - expression: hertelling(['John Anderson', 'Ronald Reagan', 'Jimmy Carter', 'John
+        Anderson', 'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson',
+        'John Anderson', 'Ronald Reagan', 'Ronald Reagan', 'Ronald Reagan', 'Ronald
+        Reagan', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter', 'Ronald Reagan',
+        'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'Ronald Reagan', 'Ronald
+        Reagan', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter', 'John Anderson',
+        'Jimmy Carter', 'Ronald Reagan', 'John Anderson', 'John Anderson', 'John Anderson',
+        'Jimmy Carter', 'John Anderson', 'John Anderson', 'Ronald Reagan', 'Ronald
+        Reagan', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'Ronald Reagan',
+        'John Anderson', 'John Anderson', 'John Anderson', 'John Anderson', 'Jimmy
+        Carter', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'John Anderson',
+        'John Anderson', 'Ronald Reagan', 'John Anderson', 'Ronald Reagan', 'Jimmy
+        Carter', 'Jimmy Carter', 'John Anderson', 'John Anderson', 'John Anderson',
+        'Jimmy Carter', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter', 'Ronald
+        Reagan', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson', 'Ronald Reagan',
+        'Ronald Reagan', 'John Anderson', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson',
+        'Jimmy Carter', 'John Anderson', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson',
+        'John Anderson', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy Carter', 'Ronald
+        Reagan', 'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter', 'John
+        Anderson', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'John Anderson',
+        'John Anderson', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy Carter', 'Ronald
+        Reagan', 'Ronald Reagan', 'John Anderson', 'Ronald Reagan', 'Ronald Reagan',
+        'John Anderson', 'John Anderson', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy
+        Carter', 'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'John Anderson',
+        'John Anderson', 'Jimmy Carter', 'John Anderson', 'Ronald Reagan', 'Jimmy
+        Carter', 'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson',
+        'Ronald Reagan', 'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter',
+        'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'Ronald
+        Reagan', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter',
+        'John Anderson', 'Ronald Reagan', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy
+        Carter', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'John Anderson',
+        'John Anderson', 'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'Ronald
+        Reagan', 'Ronald Reagan', 'John Anderson', 'John Anderson', 'John Anderson',
+        'John Anderson', 'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan',
+        'Ronald Reagan', 'Jimmy Carter', 'John Anderson', 'John Anderson', 'Jimmy
+        Carter', 'Ronald Reagan', 'John Anderson', 'Ronald Reagan', 'Jimmy Carter',
+        'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter',
+        'John Anderson', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'Jimmy Carter',
+        'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy Carter', 'Ronald
+        Reagan', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan',
+        'John Anderson', 'John Anderson', 'John Anderson', 'Ronald Reagan', 'John
+        Anderson', 'John Anderson', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter',
+        'Ronald Reagan', 'Ronald Reagan', 'Jimmy Carter', 'John Anderson', 'John Anderson',
+        'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson',
+        'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy Carter', 'John Anderson',
+        'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'John Anderson',
+        'Ronald Reagan', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter', 'Ronald
+        Reagan', 'John Anderson', 'Ronald Reagan', 'Jimmy Carter', 'John Anderson',
+        'John Anderson', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter', 'Ronald
+        Reagan', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'Jimmy Carter',
+        'Ronald Reagan', 'John Anderson', 'Ronald Reagan', 'Jimmy Carter', 'Jimmy
+        Carter', 'John Anderson', 'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan',
+        'John Anderson', 'Ronald Reagan', 'John Anderson', 'John Anderson', 'John
+        Anderson', 'Ronald Reagan', 'John Anderson', 'John Anderson', 'John Anderson',
+        'John Anderson', 'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'Ronald
+        Reagan', 'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy Carter',
+        'Jimmy Carter', 'John Anderson', 'John Anderson'])
+      return: Ronald Reagan
+  - testcases:
+    - expression: hertelling(['Barack Obama', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'John McCain', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'John McCain', 'John
+        McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack
+        Obama', 'John McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'John
+        McCain', 'John McCain', 'Barack Obama', 'John McCain', 'John McCain', 'Barack
+        Obama', 'John McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'John
+        McCain', 'John McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John McCain', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'John McCain', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John McCain', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John McCain', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'John McCain', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'John McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'John McCain'])
+      return: John McCain
+  - testcases:
+    - expression: hertelling(['Hubert Humphrey', 'Richard Nixon', 'Richard Nixon',
+        'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard
+        Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon',
+        'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey',
+        'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard
+        Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard
+        Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon',
+        'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard
+        Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon',
+        'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard
+        Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard
+        Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard
+        Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey',
+        'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard
+        Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon',
+        'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard
+        Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon',
+        'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey',
+        'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard
+        Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard
+        Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey',
+        'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon',
+        'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey',
+        'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard
+        Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard
+        Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon',
+        'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon',
+        'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard
+        Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard
+        Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon',
+        'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard
+        Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon',
+        'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard
+        Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon',
+        'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard
+        Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey',
+        'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard
+        Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey',
+        'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey',
+        'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey',
+        'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey',
+        'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard
+        Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon',
+        'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert
+        Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon',
+        'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard
+        Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon',
+        'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard
+        Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey',
+        'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard
+        Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon',
+        'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard
+        Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard
+        Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon',
+        'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard
+        Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey',
+        'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon',
+        'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey',
+        'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Richard
+        Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey',
+        'Richard Nixon', 'Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard
+        Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon',
+        'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey',
+        'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Richard
+        Nixon', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon',
+        'Hubert Humphrey', 'Richard Nixon', 'Richard Nixon', 'Richard Nixon', 'Hubert
+        Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Hubert Humphrey', 'Richard
+        Nixon', 'Richard Nixon', 'Hubert Humphrey'])
+      return: Richard Nixon
+  - testcases:
+    - expression: hertelling(['Jimmy Carter', 'John Anderson', 'Jimmy Carter', 'John
+        Anderson', 'Ronald Reagan', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter',
+        'Jimmy Carter', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter', 'Jimmy Carter',
+        'John Anderson', 'John Anderson', 'Jimmy Carter', 'Ronald Reagan', 'Ronald
+        Reagan', 'John Anderson', 'Jimmy Carter', 'John Anderson', 'Ronald Reagan',
+        'John Anderson', 'John Anderson', 'Ronald Reagan', 'Ronald Reagan', 'Ronald
+        Reagan', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter',
+        'Ronald Reagan', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'Ronald
+        Reagan', 'John Anderson', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter',
+        'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'Ronald Reagan', 'Jimmy
+        Carter', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'John Anderson',
+        'John Anderson', 'John Anderson', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy
+        Carter', 'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan',
+        'Ronald Reagan', 'John Anderson', 'Jimmy Carter', 'John Anderson', 'Jimmy
+        Carter', 'John Anderson', 'Ronald Reagan', 'John Anderson', 'John Anderson',
+        'John Anderson', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter', 'Jimmy Carter',
+        'John Anderson', 'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan', 'Ronald
+        Reagan', 'Ronald Reagan', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson',
+        'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter',
+        'John Anderson', 'Ronald Reagan', 'Jimmy Carter', 'Jimmy Carter', 'John Anderson',
+        'John Anderson', 'Ronald Reagan', 'John Anderson', 'Ronald Reagan', 'John
+        Anderson', 'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'Ronald Reagan',
+        'John Anderson', 'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter',
+        'John Anderson', 'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter',
+        'Ronald Reagan', 'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'Ronald
+        Reagan', 'Ronald Reagan', 'Ronald Reagan', 'Ronald Reagan', 'Ronald Reagan',
+        'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter',
+        'John Anderson', 'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter',
+        'John Anderson', 'John Anderson', 'Ronald Reagan', 'Jimmy Carter', 'John Anderson',
+        'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter',
+        'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter', 'John Anderson',
+        'John Anderson', 'John Anderson', 'Jimmy Carter', 'John Anderson', 'John Anderson',
+        'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter', 'Jimmy Carter',
+        'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'Jimmy Carter',
+        'John Anderson', 'John Anderson', 'John Anderson', 'John Anderson', 'John
+        Anderson', 'John Anderson', 'John Anderson', 'John Anderson', 'Ronald Reagan',
+        'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan', 'Ronald
+        Reagan', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'John Anderson',
+        'John Anderson', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter', 'Jimmy
+        Carter', 'Jimmy Carter', 'John Anderson', 'Ronald Reagan', 'Ronald Reagan',
+        'Jimmy Carter', 'John Anderson', 'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan',
+        'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'John Anderson', 'John Anderson',
+        'John Anderson', 'Ronald Reagan', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy
+        Carter', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter',
+        'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson',
+        'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'Ronald Reagan', 'Jimmy Carter',
+        'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson', 'Ronald
+        Reagan', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter', 'John Anderson',
+        'John Anderson', 'Ronald Reagan', 'John Anderson', 'Ronald Reagan', 'Ronald
+        Reagan', 'John Anderson', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter',
+        'Ronald Reagan', 'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter',
+        'John Anderson', 'John Anderson', 'Jimmy Carter', 'Jimmy Carter', 'Ronald
+        Reagan', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter', 'Jimmy Carter',
+        'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter',
+        'Ronald Reagan', 'John Anderson', 'Ronald Reagan', 'John Anderson', 'Ronald
+        Reagan', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'Jimmy Carter',
+        'Jimmy Carter', 'John Anderson', 'Ronald Reagan', 'Ronald Reagan', 'Ronald
+        Reagan', 'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson',
+        'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'Ronald
+        Reagan', 'Jimmy Carter', 'John Anderson', 'John Anderson', 'John Anderson',
+        'John Anderson', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy Carter', 'Ronald
+        Reagan', 'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter', 'John Anderson',
+        'Jimmy Carter', 'John Anderson', 'Jimmy Carter', 'John Anderson', 'John Anderson',
+        'John Anderson', 'Ronald Reagan', 'John Anderson', 'John Anderson', 'John
+        Anderson', 'Jimmy Carter', 'John Anderson', 'Ronald Reagan', 'Ronald Reagan',
+        'John Anderson', 'John Anderson', 'Ronald Reagan', 'Ronald Reagan', 'Ronald
+        Reagan', 'John Anderson', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter',
+        'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'John Anderson', 'Jimmy Carter',
+        'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'Ronald Reagan', 'Ronald
+        Reagan', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter',
+        'John Anderson', 'John Anderson', 'John Anderson', 'Ronald Reagan', 'Jimmy
+        Carter', 'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson',
+        'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'Ronald Reagan', 'Jimmy Carter',
+        'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy
+        Carter', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter', 'John Anderson',
+        'Jimmy Carter', 'John Anderson', 'Ronald Reagan', 'Jimmy Carter', 'Jimmy Carter',
+        'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'Ronald Reagan', 'Ronald
+        Reagan', 'Ronald Reagan', 'Jimmy Carter', 'John Anderson', 'Ronald Reagan',
+        'Ronald Reagan', 'John Anderson', 'John Anderson', 'John Anderson', 'Ronald
+        Reagan', 'John Anderson', 'John Anderson', 'Ronald Reagan', 'Jimmy Carter',
+        'John Anderson', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter', 'Jimmy
+        Carter', 'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'Ronald Reagan',
+        'John Anderson', 'John Anderson', 'John Anderson', 'Ronald Reagan', 'Jimmy
+        Carter', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'Ronald Reagan',
+        'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'Ronald Reagan', 'Ronald
+        Reagan', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter',
+        'John Anderson', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter', 'Jimmy Carter',
+        'Jimmy Carter', 'John Anderson', 'Ronald Reagan', 'John Anderson', 'Ronald
+        Reagan', 'Ronald Reagan', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy Carter',
+        'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson',
+        'Jimmy Carter', 'John Anderson', 'Ronald Reagan', 'John Anderson', 'Jimmy
+        Carter', 'John Anderson', 'Ronald Reagan', 'John Anderson', 'John Anderson',
+        'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan',
+        'John Anderson', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'Ronald
+        Reagan', 'Jimmy Carter', 'John Anderson', 'Ronald Reagan', 'Ronald Reagan',
+        'Ronald Reagan', 'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson',
+        'John Anderson', 'John Anderson', 'John Anderson', 'Ronald Reagan', 'John
+        Anderson', 'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'Ronald Reagan',
+        'Ronald Reagan', 'John Anderson', 'John Anderson', 'John Anderson', 'Jimmy
+        Carter', 'John Anderson', 'John Anderson', 'Ronald Reagan', 'Jimmy Carter',
+        'Jimmy Carter', 'Ronald Reagan', 'John Anderson', 'Ronald Reagan', 'Ronald
+        Reagan', 'Ronald Reagan', 'Ronald Reagan', 'John Anderson', 'Ronald Reagan',
+        'John Anderson', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy Carter', 'Ronald
+        Reagan', 'John Anderson', 'Ronald Reagan', 'Jimmy Carter', 'Jimmy Carter',
+        'Jimmy Carter', 'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'John Anderson',
+        'Jimmy Carter', 'John Anderson', 'John Anderson', 'Jimmy Carter', 'Jimmy Carter',
+        'Ronald Reagan', 'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson',
+        'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy Carter', 'John Anderson',
+        'Jimmy Carter', 'Ronald Reagan', 'John Anderson', 'Jimmy Carter', 'Jimmy Carter',
+        'John Anderson', 'Jimmy Carter', 'Ronald Reagan', 'Jimmy Carter', 'Jimmy Carter',
+        'John Anderson', 'John Anderson', 'John Anderson', 'Ronald Reagan', 'Jimmy
+        Carter', 'Jimmy Carter', 'John Anderson', 'Ronald Reagan', 'John Anderson',
+        'Jimmy Carter', 'Ronald Reagan', 'John Anderson', 'John Anderson', 'Jimmy
+        Carter', 'Jimmy Carter', 'John Anderson', 'Jimmy Carter', 'John Anderson',
+        'John Anderson', 'John Anderson', 'John Anderson', 'Jimmy Carter', 'Jimmy
+        Carter', 'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan', 'Ronald Reagan',
+        'John Anderson', 'John Anderson', 'John Anderson', 'Ronald Reagan', 'Ronald
+        Reagan', 'Jimmy Carter', 'Jimmy Carter', 'Ronald Reagan', 'Ronald Reagan',
+        'Jimmy Carter', 'John Anderson', 'Ronald Reagan', 'Ronald Reagan', 'Jimmy
+        Carter', 'Jimmy Carter', 'John Anderson', 'John Anderson', 'Ronald Reagan',
+        'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'John Anderson', 'John Anderson',
+        'John Anderson', 'John Anderson', 'Jimmy Carter', 'Jimmy Carter', 'John Anderson',
+        'John Anderson', 'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson',
+        'Ronald Reagan', 'Jimmy Carter', 'Jimmy Carter', 'John Anderson', 'John Anderson',
+        'Jimmy Carter', 'Ronald Reagan', 'John Anderson', 'Ronald Reagan', 'Ronald
+        Reagan', 'John Anderson', 'Jimmy Carter', 'John Anderson', 'John Anderson',
+        'Ronald Reagan', 'Jimmy Carter', 'John Anderson', 'John Anderson', 'John Anderson',
+        'John Anderson', 'Jimmy Carter', 'Ronald Reagan'])
+      return: Jimmy Carter
+  - testcases:
+    - expression: hertelling(['Barack Obama', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'Barack Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'John McCain', 'John
+        McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'John McCain', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'John McCain', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John McCain', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'John McCain', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'John McCain', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'John McCain', 'John
+        McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'John McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'Barack Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'Barack Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'John McCain', 'John
+        McCain', 'Barack Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John McCain', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John McCain', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'Barack Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'John
+        McCain', 'John McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'Barack Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'Barack Obama', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'John McCain', 'John
+        McCain', 'John McCain', 'John McCain', 'Barack Obama', 'John McCain', 'John
+        McCain', 'Barack Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'John McCain', 'John
+        McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'Barack Obama', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'Barack Obama', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'John McCain', 'John McCain', 'John McCain', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'John McCain', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'John McCain', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'Barack Obama', 'Barack Obama', 'Barack Obama', 'John
+        McCain', 'Barack Obama', 'John McCain', 'John McCain', 'Barack Obama', 'Barack
+        Obama', 'John McCain', 'John McCain', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'John
+        McCain', 'John McCain', 'Barack Obama', 'Barack Obama', 'John McCain', 'Barack
+        Obama', 'John McCain'])
+      return: John McCain
+  - testcases:
+    - expression: hertelling(['Vivek Ramaswamy', 'Vivek Ramaswamy', 'Chris Christie',
+        'Vivek Ramaswamy', 'Chris Christie', 'Vivek Ramaswamy', 'Nikki Haley', 'Mike
+        Pence', 'Ron DeSantis', 'Mike Pence', 'Mike Pence', 'Nikki Haley', 'Mike Pence',
+        'Ron DeSantis', 'Mike Pence', 'Ron DeSantis', 'Nikki Haley', 'Donald Trump',
+        'Nikki Haley', 'Nikki Haley', 'Nikki Haley', 'Mike Pence', 'Chris Christie',
+        'Chris Christie', 'Donald Trump', 'Donald Trump', 'Nikki Haley', 'Donald Trump',
+        'Vivek Ramaswamy', 'Ron DeSantis', 'Donald Trump', 'Chris Christie', 'Ron
+        DeSantis', 'Nikki Haley', 'Chris Christie', 'Nikki Haley', 'Ron DeSantis',
+        'Vivek Ramaswamy', 'Donald Trump', 'Vivek Ramaswamy', 'Chris Christie', 'Chris
+        Christie', 'Nikki Haley', 'Donald Trump', 'Chris Christie', 'Mike Pence',
+        'Nikki Haley', 'Donald Trump', 'Ron DeSantis', 'Donald Trump', 'Chris Christie',
+        'Donald Trump', 'Mike Pence', 'Vivek Ramaswamy', 'Vivek Ramaswamy', 'Donald
+        Trump', 'Nikki Haley', 'Mike Pence', 'Mike Pence', 'Chris Christie', 'Mike
+        Pence', 'Ron DeSantis', 'Mike Pence', 'Vivek Ramaswamy', 'Vivek Ramaswamy',
+        'Vivek Ramaswamy', 'Donald Trump', 'Donald Trump', 'Chris Christie', 'Nikki
+        Haley', 'Mike Pence', 'Mike Pence', 'Vivek Ramaswamy', 'Nikki Haley', 'Chris
+        Christie', 'Ron DeSantis', 'Mike Pence', 'Vivek Ramaswamy', 'Vivek Ramaswamy',
+        'Donald Trump', 'Ron DeSantis', 'Ron DeSantis', 'Nikki Haley', 'Vivek Ramaswamy',
+        'Nikki Haley', 'Nikki Haley', 'Mike Pence', 'Ron DeSantis', 'Vivek Ramaswamy',
+        'Chris Christie', 'Chris Christie', 'Donald Trump', 'Ron DeSantis', 'Ron DeSantis',
+        'Ron DeSantis', 'Ron DeSantis', 'Donald Trump', 'Chris Christie', 'Chris Christie',
+        'Chris Christie', 'Donald Trump', 'Donald Trump', 'Donald Trump', 'Chris Christie',
+        'Mike Pence', 'Mike Pence', 'Donald Trump', 'Donald Trump', 'Nikki Haley',
+        'Mike Pence', 'Mike Pence', 'Donald Trump', 'Chris Christie', 'Mike Pence',
+        'Donald Trump', 'Chris Christie', 'Ron DeSantis', 'Donald Trump', 'Ron DeSantis',
+        'Donald Trump', 'Mike Pence', 'Donald Trump', 'Mike Pence', 'Donald Trump',
+        'Chris Christie', 'Vivek Ramaswamy', 'Nikki Haley', 'Mike Pence', 'Ron DeSantis',
+        'Mike Pence', 'Chris Christie', 'Vivek Ramaswamy', 'Donald Trump', 'Donald
+        Trump', 'Nikki Haley', 'Ron DeSantis', 'Mike Pence', 'Donald Trump', 'Chris
+        Christie', 'Chris Christie', 'Ron DeSantis', 'Chris Christie', 'Vivek Ramaswamy',
+        'Chris Christie', 'Nikki Haley', 'Mike Pence', 'Mike Pence', 'Nikki Haley',
+        'Ron DeSantis', 'Vivek Ramaswamy', 'Mike Pence', 'Ron DeSantis', 'Chris Christie',
+        'Donald Trump', 'Ron DeSantis', 'Vivek Ramaswamy', 'Mike Pence', 'Vivek Ramaswamy',
+        'Chris Christie', 'Vivek Ramaswamy', 'Nikki Haley', 'Mike Pence', 'Nikki Haley',
+        'Vivek Ramaswamy', 'Mike Pence', 'Mike Pence', 'Vivek Ramaswamy', 'Nikki Haley',
+        'Vivek Ramaswamy', 'Ron DeSantis', 'Vivek Ramaswamy', 'Donald Trump', 'Donald
+        Trump', 'Nikki Haley', 'Chris Christie', 'Nikki Haley', 'Ron DeSantis', 'Mike
+        Pence', 'Mike Pence', 'Mike Pence', 'Vivek Ramaswamy', 'Vivek Ramaswamy',
+        'Nikki Haley', 'Donald Trump', 'Mike Pence', 'Chris Christie', 'Chris Christie',
+        'Nikki Haley', 'Chris Christie', 'Vivek Ramaswamy', 'Chris Christie', 'Chris
+        Christie', 'Nikki Haley', 'Nikki Haley', 'Donald Trump', 'Mike Pence', 'Nikki
+        Haley', 'Donald Trump', 'Mike Pence', 'Ron DeSantis', 'Mike Pence', 'Mike
+        Pence', 'Mike Pence', 'Donald Trump', 'Donald Trump', 'Mike Pence', 'Nikki
+        Haley', 'Nikki Haley', 'Mike Pence', 'Nikki Haley', 'Vivek Ramaswamy', 'Donald
+        Trump', 'Mike Pence', 'Ron DeSantis', 'Chris Christie', 'Nikki Haley', 'Vivek
+        Ramaswamy', 'Nikki Haley', 'Nikki Haley', 'Mike Pence', 'Nikki Haley', 'Vivek
+        Ramaswamy', 'Chris Christie', 'Vivek Ramaswamy', 'Nikki Haley', 'Donald Trump',
+        'Mike Pence', 'Mike Pence', 'Donald Trump', 'Ron DeSantis', 'Ron DeSantis',
+        'Mike Pence', 'Donald Trump', 'Ron DeSantis', 'Donald Trump', 'Donald Trump',
+        'Ron DeSantis', 'Ron DeSantis', 'Mike Pence', 'Vivek Ramaswamy', 'Vivek Ramaswamy',
+        'Donald Trump', 'Mike Pence', 'Ron DeSantis', 'Mike Pence', 'Donald Trump',
+        'Ron DeSantis', 'Nikki Haley', 'Mike Pence', 'Ron DeSantis', 'Ron DeSantis',
+        'Ron DeSantis', 'Chris Christie', 'Nikki Haley', 'Mike Pence', 'Ron DeSantis',
+        'Chris Christie', 'Mike Pence', 'Vivek Ramaswamy', 'Mike Pence', 'Chris Christie',
+        'Nikki Haley', 'Nikki Haley', 'Donald Trump', 'Ron DeSantis', 'Donald Trump',
+        'Donald Trump', 'Vivek Ramaswamy', 'Vivek Ramaswamy', 'Ron DeSantis', 'Donald
+        Trump', 'Ron DeSantis', 'Nikki Haley', 'Donald Trump', 'Donald Trump', 'Mike
+        Pence', 'Nikki Haley', 'Donald Trump', 'Mike Pence', 'Mike Pence', 'Ron DeSantis',
+        'Vivek Ramaswamy', 'Nikki Haley', 'Vivek Ramaswamy', 'Donald Trump', 'Nikki
+        Haley', 'Vivek Ramaswamy', 'Vivek Ramaswamy', 'Mike Pence', 'Donald Trump',
+        'Donald Trump', 'Nikki Haley', 'Mike Pence', 'Donald Trump', 'Chris Christie',
+        'Donald Trump', 'Chris Christie', 'Nikki Haley', 'Mike Pence', 'Mike Pence',
+        'Nikki Haley', 'Ron DeSantis', 'Nikki Haley', 'Mike Pence', 'Chris Christie',
+        'Donald Trump', 'Donald Trump', 'Vivek Ramaswamy', 'Donald Trump', 'Mike Pence',
+        'Nikki Haley', 'Vivek Ramaswamy', 'Mike Pence', 'Mike Pence', 'Donald Trump',
+        'Nikki Haley', 'Ron DeSantis', 'Mike Pence', 'Chris Christie', 'Donald Trump',
+        'Chris Christie', 'Mike Pence', 'Donald Trump', 'Vivek Ramaswamy', 'Chris
+        Christie', 'Ron DeSantis', 'Donald Trump', 'Mike Pence', 'Ron DeSantis', 'Vivek
+        Ramaswamy', 'Vivek Ramaswamy', 'Mike Pence', 'Mike Pence', 'Donald Trump',
+        'Nikki Haley', 'Mike Pence', 'Ron DeSantis', 'Chris Christie', 'Nikki Haley',
+        'Mike Pence', 'Donald Trump', 'Chris Christie', 'Chris Christie', 'Mike Pence',
+        'Chris Christie', 'Vivek Ramaswamy', 'Mike Pence', 'Nikki Haley', 'Ron DeSantis',
+        'Vivek Ramaswamy', 'Donald Trump', 'Vivek Ramaswamy', 'Vivek Ramaswamy', 'Donald
+        Trump', 'Vivek Ramaswamy', 'Mike Pence', 'Ron DeSantis', 'Chris Christie',
+        'Nikki Haley', 'Nikki Haley', 'Vivek Ramaswamy', 'Vivek Ramaswamy', 'Chris
+        Christie', 'Nikki Haley', 'Mike Pence', 'Nikki Haley', 'Donald Trump', 'Mike
+        Pence', 'Ron DeSantis', 'Mike Pence', 'Vivek Ramaswamy', 'Chris Christie',
+        'Nikki Haley', 'Ron DeSantis', 'Nikki Haley', 'Chris Christie', 'Mike Pence',
+        'Ron DeSantis', 'Nikki Haley', 'Ron DeSantis', 'Nikki Haley', 'Donald Trump',
+        'Donald Trump', 'Nikki Haley', 'Ron DeSantis', 'Donald Trump', 'Vivek Ramaswamy',
+        'Vivek Ramaswamy', 'Ron DeSantis', 'Chris Christie', 'Ron DeSantis', 'Ron
+        DeSantis', 'Nikki Haley', 'Vivek Ramaswamy', 'Donald Trump', 'Ron DeSantis',
+        'Mike Pence', 'Ron DeSantis', 'Donald Trump', 'Vivek Ramaswamy', 'Chris Christie',
+        'Mike Pence', 'Vivek Ramaswamy', 'Vivek Ramaswamy', 'Donald Trump', 'Ron DeSantis',
+        'Vivek Ramaswamy', 'Vivek Ramaswamy', 'Donald Trump', 'Chris Christie', 'Nikki
+        Haley', 'Vivek Ramaswamy', 'Donald Trump', 'Ron DeSantis', 'Donald Trump',
+        'Donald Trump', 'Chris Christie', 'Ron DeSantis', 'Chris Christie', 'Ron DeSantis',
+        'Vivek Ramaswamy', 'Mike Pence', 'Mike Pence', 'Mike Pence', 'Ron DeSantis',
+        'Donald Trump', 'Nikki Haley', 'Donald Trump', 'Chris Christie', 'Nikki Haley',
+        'Vivek Ramaswamy', 'Chris Christie', 'Nikki Haley', 'Donald Trump', 'Mike
+        Pence', 'Nikki Haley', 'Nikki Haley', 'Vivek Ramaswamy', 'Mike Pence', 'Mike
+        Pence', 'Vivek Ramaswamy', 'Nikki Haley', 'Donald Trump', 'Ron DeSantis',
+        'Donald Trump', 'Vivek Ramaswamy', 'Vivek Ramaswamy', 'Mike Pence', 'Chris
+        Christie', 'Donald Trump', 'Donald Trump', 'Donald Trump', 'Nikki Haley',
+        'Ron DeSantis', 'Chris Christie', 'Donald Trump', 'Mike Pence', 'Nikki Haley',
+        'Chris Christie', 'Nikki Haley', 'Vivek Ramaswamy', 'Nikki Haley', 'Donald
+        Trump', 'Vivek Ramaswamy', 'Ron DeSantis', 'Ron DeSantis', 'Mike Pence', 'Nikki
+        Haley', 'Nikki Haley', 'Donald Trump', 'Nikki Haley', 'Chris Christie', 'Vivek
+        Ramaswamy', 'Vivek Ramaswamy', 'Nikki Haley', 'Mike Pence', 'Chris Christie',
+        'Ron DeSantis', 'Ron DeSantis', 'Ron DeSantis', 'Mike Pence', 'Chris Christie',
+        'Mike Pence', 'Chris Christie', 'Mike Pence', 'Mike Pence', 'Chris Christie',
+        'Nikki Haley', 'Chris Christie', 'Donald Trump', 'Mike Pence', 'Vivek Ramaswamy',
+        'Chris Christie', 'Nikki Haley', 'Ron DeSantis', 'Chris Christie', 'Nikki
+        Haley', 'Mike Pence', 'Chris Christie', 'Ron DeSantis', 'Chris Christie',
+        'Ron DeSantis', 'Nikki Haley', 'Ron DeSantis', 'Mike Pence', 'Mike Pence',
+        'Nikki Haley', 'Vivek Ramaswamy', 'Vivek Ramaswamy', 'Ron DeSantis', 'Vivek
+        Ramaswamy', 'Mike Pence', 'Nikki Haley', 'Donald Trump', 'Nikki Haley', 'Ron
+        DeSantis', 'Mike Pence', 'Ron DeSantis', 'Donald Trump', 'Ron DeSantis', 'Donald
+        Trump', 'Nikki Haley', 'Ron DeSantis', 'Mike Pence', 'Chris Christie', 'Ron
+        DeSantis', 'Mike Pence', 'Nikki Haley', 'Vivek Ramaswamy', 'Nikki Haley',
+        'Mike Pence', 'Mike Pence', 'Nikki Haley', 'Chris Christie', 'Ron DeSantis',
+        'Donald Trump', 'Ron DeSantis', 'Vivek Ramaswamy', 'Mike Pence', 'Donald Trump',
+        'Nikki Haley', 'Ron DeSantis', 'Vivek Ramaswamy', 'Donald Trump', 'Donald
+        Trump', 'Ron DeSantis', 'Chris Christie', 'Mike Pence', 'Nikki Haley', 'Ron
+        DeSantis', 'Chris Christie', 'Nikki Haley', 'Nikki Haley', 'Ron DeSantis',
+        'Chris Christie', 'Donald Trump', 'Vivek Ramaswamy', 'Vivek Ramaswamy', 'Ron
+        DeSantis', 'Mike Pence', 'Chris Christie', 'Nikki Haley', 'Nikki Haley', 'Ron
+        DeSantis', 'Ron DeSantis', 'Chris Christie', 'Mike Pence', 'Mike Pence', 'Nikki
+        Haley', 'Mike Pence', 'Mike Pence', 'Chris Christie', 'Nikki Haley', 'Ron
+        DeSantis', 'Vivek Ramaswamy', 'Nikki Haley', 'Chris Christie', 'Mike Pence',
+        'Chris Christie', 'Vivek Ramaswamy', 'Mike Pence', 'Vivek Ramaswamy', 'Mike
+        Pence', 'Chris Christie', 'Ron DeSantis', 'Ron DeSantis', 'Vivek Ramaswamy',
+        'Nikki Haley', 'Ron DeSantis', 'Vivek Ramaswamy', 'Ron DeSantis', 'Mike Pence',
+        'Chris Christie', 'Nikki Haley', 'Vivek Ramaswamy', 'Donald Trump', 'Nikki
+        Haley', 'Chris Christie', 'Vivek Ramaswamy', 'Donald Trump', 'Ron DeSantis',
+        'Vivek Ramaswamy', 'Nikki Haley', 'Vivek Ramaswamy', 'Donald Trump', 'Vivek
+        Ramaswamy', 'Vivek Ramaswamy', 'Donald Trump', 'Mike Pence', 'Donald Trump',
+        'Ron DeSantis', 'Nikki Haley', 'Nikki Haley', 'Nikki Haley', 'Donald Trump',
+        'Ron DeSantis', 'Donald Trump', 'Donald Trump', 'Vivek Ramaswamy', 'Chris
+        Christie', 'Mike Pence', 'Mike Pence', 'Nikki Haley', 'Donald Trump', 'Chris
+        Christie', 'Vivek Ramaswamy', 'Donald Trump', 'Vivek Ramaswamy', 'Ron DeSantis',
+        'Vivek Ramaswamy', 'Nikki Haley', 'Nikki Haley', 'Chris Christie', 'Vivek
+        Ramaswamy', 'Nikki Haley', 'Mike Pence', 'Nikki Haley', 'Mike Pence', 'Ron
+        DeSantis', 'Nikki Haley', 'Vivek Ramaswamy', 'Ron DeSantis', 'Vivek Ramaswamy',
+        'Vivek Ramaswamy', 'Chris Christie', 'Nikki Haley', 'Chris Christie', 'Ron
+        DeSantis', 'Nikki Haley', 'Ron DeSantis', 'Chris Christie', 'Ron DeSantis',
+        'Nikki Haley', 'Nikki Haley', 'Ron DeSantis', 'Chris Christie', 'Ron DeSantis',
+        'Ron DeSantis', 'Ron DeSantis', 'Ron DeSantis', 'Donald Trump', 'Chris Christie',
+        'Nikki Haley', 'Mike Pence', 'Ron DeSantis', 'Chris Christie', 'Chris Christie',
+        'Donald Trump', 'Nikki Haley', 'Chris Christie', 'Nikki Haley', 'Vivek Ramaswamy',
+        'Vivek Ramaswamy', 'Vivek Ramaswamy', 'Donald Trump', 'Donald Trump', 'Nikki
+        Haley', 'Ron DeSantis', 'Nikki Haley', 'Donald Trump', 'Nikki Haley', 'Nikki
+        Haley', 'Mike Pence', 'Ron DeSantis', 'Vivek Ramaswamy', 'Vivek Ramaswamy',
+        'Mike Pence', 'Donald Trump', 'Ron DeSantis', 'Nikki Haley', 'Vivek Ramaswamy',
+        'Mike Pence', 'Donald Trump', 'Chris Christie', 'Ron DeSantis', 'Ron DeSantis',
+        'Nikki Haley', 'Mike Pence', 'Nikki Haley', 'Vivek Ramaswamy', 'Nikki Haley',
+        'Donald Trump', 'Chris Christie'])
+      return: Nikki Haley
+  - testcases:
+    - expression: hertelling(['Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill
+        Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob
+        Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill
+        Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill
+        Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton',
+        'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill
+        Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill
+        Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob
+        Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill
+        Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole',
+        'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill
+        Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob
+        Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill
+        Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob
+        Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill
+        Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole',
+        'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill
+        Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill
+        Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob
+        Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill
+        Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob
+        Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill
+        Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole',
+        'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill
+        Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill
+        Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill
+        Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob
+        Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton',
+        'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill
+        Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob
+        Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob
+        Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill
+        Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton',
+        'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill
+        Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob
+        Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob
+        Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob
+        Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob
+        Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill
+        Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole',
+        'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill
+        Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob
+        Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton',
+        'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob
+        Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob
+        Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill
+        Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton',
+        'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill
+        Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill
+        Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill
+        Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton',
+        'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob
+        Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill
+        Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton',
+        'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill
+        Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole',
+        'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole',
+        'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill
+        Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton',
+        'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill
+        Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton',
+        'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill
+        Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob
+        Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill
+        Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob
+        Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob
+        Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill
+        Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill
+        Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob
+        Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole',
+        'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill
+        Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill
+        Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob
+        Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill
+        Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton',
+        'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob
+        Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bob Dole',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill
+        Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob
+        Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole',
+        'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill
+        Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole',
+        'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill
+        Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill
+        Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill
+        Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill
+        Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill
+        Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
+        'Bill Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton',
+        'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton',
+        'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bob Dole',
+        'Bob Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill
+        Clinton', 'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bill Clinton', 'Bob
+        Dole', 'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bill Clinton'])
+      return: Bob Dole
