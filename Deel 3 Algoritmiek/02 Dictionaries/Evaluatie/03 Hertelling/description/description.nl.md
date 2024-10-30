@@ -1,4 +1,4 @@
-De Amerikaanse verkiezen van 2020 werden fel bevochten. De strijd tussen Joe Biden en Donald Trump was immmers zeer nipt. Het is de gewoonte om in het geval van nipte verkiezingen een hertelling uit te voeren.
+De Amerikaanse verkiezen van 2020 werden fel bevochten. De strijd tussen Joe Biden en Donald Trump was immers zeer nipt. Het is de gewoonte om in het geval van nipte verkiezingen een hertelling uit te voeren.
 
 ![Sad Trump.](media/trump.jpg "Sad Trump."){:data-caption="Sad Trump." width="40%"}
 
