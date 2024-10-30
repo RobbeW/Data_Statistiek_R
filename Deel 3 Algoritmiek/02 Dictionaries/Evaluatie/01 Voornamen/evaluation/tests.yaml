@@ -1,0 +1,735 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: "omvormen({'Julie': 101, 'Victorine': 101, 'Tybert': 101})"
+      return:
+        101:
+        - Julie
+        - Victorine
+        - Tybert
+  - testcases:
+    - expression: "omvormen({'Olivia': 154, 'Emma': 132, 'Noah': 132, 'Arthur': 130,
+        'Louise': 130, 'Liam': 130})"
+      return:
+        154:
+        - Olivia
+        132:
+        - Emma
+        - Noah
+        130:
+        - Arthur
+        - Louise
+        - Liam
+  - testcases:
+    - expression: "omvormen({'Hugo': 19, 'Oscar': 67, 'Flore': 37, 'Mia': 37, 'Finn':
+        19, 'Céleste': 67, 'Arthur': 67})"
+      return:
+        19:
+        - Hugo
+        - Finn
+        67:
+        - Oscar
+        - Céleste
+        - Arthur
+        37:
+        - Flore
+        - Mia
+  - testcases:
+    - expression: "omvormen({'Mia': 103, 'Jules': 103, 'Aiden': 147, 'Emiel': 9, 'Robin':
+        103, 'Sara': 103, 'Noah': 103})"
+      return:
+        103:
+        - Mia
+        - Jules
+        - Robin
+        - Sara
+        - Noah
+        147:
+        - Aiden
+        9:
+        - Emiel
+  - testcases:
+    - expression: "omvormen({'Mia': 43, 'Emma': 11, 'Jules': 94, 'Leo': 131, 'Simon':
+        43, 'Mona': 131, 'Robin': 94, 'Gust': 94, 'Sofia': 11, 'Lena': 43, 'Anna':
+        11})"
+      return:
+        43:
+        - Mia
+        - Simon
+        - Lena
+        11:
+        - Emma
+        - Sofia
+        - Anna
+        94:
+        - Jules
+        - Robin
+        - Gust
+        131:
+        - Leo
+        - Mona
+  - testcases:
+    - expression: "omvormen({'Elena': 145, 'Renée': 56, 'Leo': 145, 'Ella': 95, 'Aiden':
+        56, 'Mia': 145, 'Jules': 68, 'Juliette': 56, 'Céleste': 95, 'Sofia': 68, 'Louis':
+        145, 'Nora': 95, 'Liam': 145})"
+      return:
+        145:
+        - Elena
+        - Leo
+        - Mia
+        - Louis
+        - Liam
+        56:
+        - Renée
+        - Aiden
+        - Juliette
+        95:
+        - Ella
+        - Céleste
+        - Nora
+        68:
+        - Jules
+        - Sofia
+  - testcases:
+    - expression: "omvormen({'Eva': 120, 'Mila': 113, 'Juliette': 120, 'Ruben': 127,
+        'Renée': 113, 'Victor': 127, 'César': 127, 'Noah': 120, 'Lucas': 113, 'Arthur':
+        128, 'Nora': 120, 'Tuur': 113, 'Camille': 120, 'Ella': 127})"
+      return:
+        120:
+        - Eva
+        - Juliette
+        - Noah
+        - Nora
+        - Camille
+        113:
+        - Mila
+        - Renée
+        - Lucas
+        - Tuur
+        127:
+        - Ruben
+        - Victor
+        - César
+        - Ella
+        128:
+        - Arthur
+  - testcases:
+    - expression: "omvormen({'Lena': 36, 'Marie': 31, 'Eva': 36, 'Inaya': 86, 'Axel':
+        86, 'Mona': 31, 'Lina': 31, 'Amélie': 86, 'Olivia': 36, 'Ella': 36, 'Elisa':
+        36, 'Robin': 86, 'Sofia': 31, 'Emma': 36, 'Arthur': 36})"
+      return:
+        36:
+        - Lena
+        - Eva
+        - Olivia
+        - Ella
+        - Elisa
+        - Emma
+        - Arthur
+        31:
+        - Marie
+        - Mona
+        - Lina
+        - Sofia
+        86:
+        - Inaya
+        - Axel
+        - Amélie
+        - Robin
+  - testcases:
+    - expression: "omvormen({'Aiden': 106, 'Juliette': 101, 'Emma': 106, 'Inaya':
+        92, 'Jules': 106, 'Anna': 101, 'Simon': 101, 'Finn': 92, 'Lena': 109, 'Ella':
+        92, 'Gust': 106, 'Louise': 106, 'Renée': 92, 'Amélie': 92, 'Victor': 101,
+        'Ayla': 101, 'Marie': 109})"
+      return:
+        106:
+        - Aiden
+        - Emma
+        - Jules
+        - Gust
+        - Louise
+        101:
+        - Juliette
+        - Anna
+        - Simon
+        - Victor
+        - Ayla
+        92:
+        - Inaya
+        - Finn
+        - Ella
+        - Renée
+        - Amélie
+        109:
+        - Lena
+        - Marie
+  - testcases:
+    - expression: "omvormen({'Ella': 43, 'Mona': 43, 'Axel': 117, 'Ayla': 33, 'César':
+        33, 'Noah': 117, 'Emma': 43, 'Louise': 117, 'Lena': 33, 'Sara': 43, 'Céleste':
+        21, 'Mia': 15, 'Elena': 117, 'Mila': 15, 'Nora': 43, 'Anna': 15, 'Leo': 21,
+        'Marie': 15, 'Sofia': 15, 'Ada': 43, 'Hugo': 117, 'Billie': 15})"
+      return:
+        43:
+        - Ella
+        - Mona
+        - Emma
+        - Sara
+        - Nora
+        - Ada
+        117:
+        - Axel
+        - Noah
+        - Louise
+        - Elena
+        - Hugo
+        33:
+        - Ayla
+        - César
+        - Lena
+        21:
+        - Céleste
+        - Leo
+        15:
+        - Mia
+        - Mila
+        - Anna
+        - Marie
+        - Sofia
+        - Billie
+  - testcases:
+    - expression: "omvormen({'César': 145, 'Louise': 26, 'Hugo': 98, 'Mila': 113,
+        'Jules': 77, 'Lina': 113, 'Emma': 98, 'Aiden': 77, 'Marie': 77, 'Leo': 77,
+        'Axel': 77, 'Eva': 113, 'Arthur': 77, 'Finn': 113, 'Liam': 145, 'Inaya': 113,
+        'Louis': 26, 'Mona': 26, 'Simon': 77, 'Alice': 113, 'Robin': 113, 'Ada': 113,
+        'Lou': 113})"
+      return:
+        145:
+        - César
+        - Liam
+        26:
+        - Louise
+        - Louis
+        - Mona
+        98:
+        - Hugo
+        - Emma
+        113:
+        - Mila
+        - Lina
+        - Eva
+        - Finn
+        - Inaya
+        - Alice
+        - Robin
+        - Ada
+        - Lou
+        77:
+        - Jules
+        - Aiden
+        - Marie
+        - Leo
+        - Axel
+        - Arthur
+        - Simon
+  - testcases:
+    - expression: "omvormen({'Nora': 39, 'Ayla': 48, 'Ada': 48, 'Hugo': 41, 'Louise':
+        39, 'Finn': 129, 'Victor': 39, 'Camille': 48, 'Emiel': 77, 'Aiden': 77, 'Inaya':
+        129, 'Jules': 129, 'Emma': 47, 'Billie': 39, 'Lucas': 41, 'Lou': 47, 'Oscar':
+        47, 'Lena': 39, 'Robin': 47, 'Eva': 41, 'Mia': 47, 'Gust': 77, 'Tuur': 77,
+        'Olivia': 47, 'Juliette': 41, 'Amélie': 39})"
+      return:
+        39:
+        - Nora
+        - Louise
+        - Victor
+        - Billie
+        - Lena
+        - Amélie
+        48:
+        - Ayla
+        - Ada
+        - Camille
+        41:
+        - Hugo
+        - Lucas
+        - Eva
+        - Juliette
+        129:
+        - Finn
+        - Inaya
+        - Jules
+        77:
+        - Emiel
+        - Aiden
+        - Gust
+        - Tuur
+        47:
+        - Emma
+        - Lou
+        - Oscar
+        - Robin
+        - Mia
+        - Olivia
+  - testcases:
+    - expression: "omvormen({'Elisa': 53, 'Lina': 88, 'Billie': 53, 'Simon': 53, 'Jules':
+        114, 'Juliette': 53, 'Eva': 144, 'Ruben': 33, 'Gust': 144, 'Nora': 31, 'Lucas':
+        31, 'Louis': 88, 'Lou': 114, 'Oscar': 33, 'Tuur': 144, 'Sofia': 33, 'Mia':
+        53, 'Renée': 53, 'Axel': 114, 'Inaya': 53, 'Amélie': 31, 'Emma': 53, 'Elena':
+        88, 'Noah': 144, 'Hugo': 53, 'Liam': 88, 'Flore': 144, 'Mila': 33, 'Arthur':
+        88, 'Finn': 114, 'Ada': 88, 'César': 33, 'Ella': 33, 'Camille': 33})"
+      return:
+        53:
+        - Elisa
+        - Billie
+        - Simon
+        - Juliette
+        - Mia
+        - Renée
+        - Inaya
+        - Emma
+        - Hugo
+        88:
+        - Lina
+        - Louis
+        - Elena
+        - Liam
+        - Arthur
+        - Ada
+        114:
+        - Jules
+        - Lou
+        - Axel
+        - Finn
+        144:
+        - Eva
+        - Gust
+        - Tuur
+        - Noah
+        - Flore
+        33:
+        - Ruben
+        - Oscar
+        - Sofia
+        - Mila
+        - César
+        - Ella
+        - Camille
+        31:
+        - Nora
+        - Lucas
+        - Amélie
+  - testcases:
+    - expression: "omvormen({'Emma': 140, 'Simon': 124, 'Ada': 13, 'Renée': 73, 'Flore':
+        73, 'Victor': 140, 'Lucas': 13, 'Gust': 124, 'Ruben': 142, 'Hugo': 13, 'Lou':
+        13, 'Robin': 140, 'Louise': 142, 'Emiel': 24, 'Nora': 140, 'Ayla': 24, 'Elisa':
+        24, 'Eva': 73, 'Leo': 107, 'Sara': 24, 'Céleste': 73, 'Arthur': 73, 'Olivia':
+        142, 'Elena': 73, 'Lina': 140, 'Juliette': 24, 'Lena': 124, 'Oscar': 124,
+        'Jules': 73, 'Mila': 73, 'Inaya': 24, 'Tuur': 142, 'Louis': 73, 'Sofia': 124,
+        'César': 140, 'Anna': 13})"
+      return:
+        140:
+        - Emma
+        - Victor
+        - Robin
+        - Nora
+        - Lina
+        - César
+        124:
+        - Simon
+        - Gust
+        - Lena
+        - Oscar
+        - Sofia
+        13:
+        - Ada
+        - Lucas
+        - Hugo
+        - Lou
+        - Anna
+        73:
+        - Renée
+        - Flore
+        - Eva
+        - Céleste
+        - Arthur
+        - Elena
+        - Jules
+        - Mila
+        - Louis
+        142:
+        - Ruben
+        - Louise
+        - Olivia
+        - Tuur
+        24:
+        - Emiel
+        - Ayla
+        - Elisa
+        - Sara
+        - Juliette
+        - Inaya
+        107:
+        - Leo
+  - testcases:
+    - expression: "omvormen({'Hugo': 20, 'Ruben': 46, 'Lena': 69, 'Axel': 54, 'Ada':
+        20, 'Lucas': 69, 'Nora': 110, 'César': 54, 'Liam': 20, 'Emma': 31, 'Billie':
+        110, 'Arthur': 20, 'Mia': 130, 'Elena': 110, 'Juliette': 20, 'Mila': 69, 'Anna':
+        110, 'Finn': 54, 'Flore': 20, 'Mona': 46, 'Oscar': 69, 'Sofia': 130, 'Louise':
+        46, 'Aiden': 69, 'Marie': 54, 'Leo': 130, 'Lina': 46, 'Emiel': 110, 'Tuur':
+        130, 'Céleste': 46, 'Lou': 54, 'Noah': 31, 'Camille': 31, 'Ella': 31, 'Louis':
+        20, 'Robin': 69, 'Simon': 46, 'Olivia': 54, 'Sara': 69, 'Jules': 31})"
+      return:
+        20:
+        - Hugo
+        - Ada
+        - Liam
+        - Arthur
+        - Juliette
+        - Flore
+        - Louis
+        46:
+        - Ruben
+        - Mona
+        - Louise
+        - Lina
+        - Céleste
+        - Simon
+        69:
+        - Lena
+        - Lucas
+        - Mila
+        - Oscar
+        - Aiden
+        - Robin
+        - Sara
+        54:
+        - Axel
+        - César
+        - Finn
+        - Marie
+        - Lou
+        - Olivia
+        110:
+        - Nora
+        - Billie
+        - Elena
+        - Anna
+        - Emiel
+        31:
+        - Emma
+        - Noah
+        - Camille
+        - Ella
+        - Jules
+        130:
+        - Mia
+        - Sofia
+        - Leo
+        - Tuur
+  - testcases:
+    - expression: "omvormen({'Flore': 19, 'Olivia': 14, 'Lou': 110, 'Arthur': 25,
+        'Eva': 119, 'Billie': 25, 'Gust': 119, 'Inaya': 19, 'Sara': 19, 'Robin': 119,
+        'Lena': 19, 'Emma': 121, 'Victor': 13, 'Leo': 121, 'Juliette': 19, 'Renée':
+        121, 'Noah': 14, 'Nora': 121, 'Amélie': 25, 'Céleste': 13, 'Oscar': 14, 'Louis':
+        119, 'Finn': 14, 'Lina': 13, 'Ada': 25, 'Axel': 121, 'Aiden': 14, 'Mila':
+        121, 'Camille': 110, 'Sofia': 25, 'Mia': 119, 'Elena': 19, 'Ella': 14, 'Alice':
+        19, 'Liam': 13, 'César': 14, 'Jules': 25, 'Simon': 25, 'Elisa': 110, 'Ayla':
+        25})"
+      return:
+        19:
+        - Flore
+        - Inaya
+        - Sara
+        - Lena
+        - Juliette
+        - Elena
+        - Alice
+        14:
+        - Olivia
+        - Noah
+        - Oscar
+        - Finn
+        - Aiden
+        - Ella
+        - César
+        110:
+        - Lou
+        - Camille
+        - Elisa
+        25:
+        - Arthur
+        - Billie
+        - Amélie
+        - Ada
+        - Sofia
+        - Jules
+        - Simon
+        - Ayla
+        119:
+        - Eva
+        - Gust
+        - Robin
+        - Louis
+        - Mia
+        121:
+        - Emma
+        - Leo
+        - Renée
+        - Nora
+        - Axel
+        - Mila
+        13:
+        - Victor
+        - Céleste
+        - Lina
+        - Liam
+  - testcases:
+    - expression: "omvormen({'Eva': 27, 'Alice': 76, 'Emma': 147, 'Gust': 27, 'Mila':
+        55, 'Oscar': 27, 'Noah': 69, 'César': 69, 'Mona': 27, 'Lucas': 76, 'Leo':
+        60, 'Ada': 27, 'Axel': 95, 'Nora': 69, 'Emiel': 27, 'Lou': 27, 'Louis': 95,
+        'Amélie': 55, 'Renée': 55, 'Flore': 60, 'Hugo': 60, 'Robin': 95, 'Inaya':
+        55, 'Elisa': 147, 'Mia': 147, 'Liam': 95, 'Ruben': 60, 'Victor': 95, 'Olivia':
+        147, 'Lena': 76, 'Tuur': 27, 'Billie': 27, 'Louise': 69, 'Sara': 76, 'Simon':
+        55, 'Marie': 95, 'Lina': 27, 'Céleste': 27, 'Sofia': 147, 'Ella': 27, 'Elena':
+        69, 'Juliette': 147})"
+      return:
+        27:
+        - Eva
+        - Gust
+        - Oscar
+        - Mona
+        - Ada
+        - Emiel
+        - Lou
+        - Tuur
+        - Billie
+        - Lina
+        - Céleste
+        - Ella
+        76:
+        - Alice
+        - Lucas
+        - Lena
+        - Sara
+        147:
+        - Emma
+        - Elisa
+        - Mia
+        - Olivia
+        - Sofia
+        - Juliette
+        55:
+        - Mila
+        - Amélie
+        - Renée
+        - Inaya
+        - Simon
+        69:
+        - Noah
+        - César
+        - Nora
+        - Louise
+        - Elena
+        60:
+        - Leo
+        - Flore
+        - Hugo
+        - Ruben
+        95:
+        - Axel
+        - Louis
+        - Robin
+        - Liam
+        - Victor
+        - Marie
+  - testcases:
+    - expression: "omvormen({'Ada': 68, 'Inaya': 68, 'Flore': 8, 'Aiden': 8, 'Louis':
+        129, 'Simon': 45, 'Lena': 15, 'Alice': 103, 'Juliette': 103, 'Finn': 15, 'Elisa':
+        103, 'Louise': 8, 'Renée': 129, 'Amélie': 129, 'Eva': 103, 'Emma': 103, 'Anna':
+        8, 'Emiel': 45, 'Victor': 103, 'Arthur': 45, 'Mila': 129, 'Gust': 15, 'Lucas':
+        129, 'Billie': 129, 'César': 138, 'Mona': 68, 'Nora': 129, 'Sara': 15, 'Noah':
+        129, 'Ayla': 8, 'Lina': 45, 'Mia': 68, 'Elena': 129, 'Oscar': 8, 'Lou': 8,
+        'Axel': 138, 'Marie': 45, 'Jules': 138, 'Leo': 8, 'Ella': 138, 'Céleste':
+        138, 'Sofia': 129, 'Tuur': 129, 'Olivia': 103})"
+      return:
+        68:
+        - Ada
+        - Inaya
+        - Mona
+        - Mia
+        8:
+        - Flore
+        - Aiden
+        - Louise
+        - Anna
+        - Ayla
+        - Oscar
+        - Lou
+        - Leo
+        129:
+        - Louis
+        - Renée
+        - Amélie
+        - Mila
+        - Lucas
+        - Billie
+        - Nora
+        - Noah
+        - Elena
+        - Sofia
+        - Tuur
+        45:
+        - Simon
+        - Emiel
+        - Arthur
+        - Lina
+        - Marie
+        15:
+        - Lena
+        - Finn
+        - Gust
+        - Sara
+        103:
+        - Alice
+        - Juliette
+        - Elisa
+        - Eva
+        - Emma
+        - Victor
+        - Olivia
+        138:
+        - César
+        - Axel
+        - Jules
+        - Ella
+        - Céleste
+  - testcases:
+    - expression: "omvormen({'Mila': 124, 'Jules': 87, 'Alice': 124, 'Ella': 89, 'Amélie':
+        82, 'Robin': 132, 'César': 132, 'Mia': 124, 'Axel': 138, 'Eva': 87, 'Ruben':
+        110, 'Finn': 138, 'Hugo': 110, 'Tuur': 82, 'Ada': 87, 'Simon': 87, 'Anna':
+        124, 'Emma': 132, 'Renée': 87, 'Sofia': 89, 'Victor': 89, 'Liam': 110, 'Oscar':
+        87, 'Camille': 138, 'Juliette': 82, 'Céleste': 89, 'Flore': 138, 'Gust': 110,
+        'Elisa': 110, 'Marie': 82, 'Lou': 89, 'Aiden': 87, 'Lucas': 89, 'Emiel': 87,
+        'Louis': 82, 'Olivia': 138, 'Lina': 89, 'Sara': 110, 'Inaya': 82, 'Louise':
+        82, 'Billie': 87, 'Elena': 124, 'Noah': 82, 'Lena': 110, 'Arthur': 132})"
+      return:
+        124:
+        - Mila
+        - Alice
+        - Mia
+        - Anna
+        - Elena
+        87:
+        - Jules
+        - Eva
+        - Ada
+        - Simon
+        - Renée
+        - Oscar
+        - Aiden
+        - Emiel
+        - Billie
+        89:
+        - Ella
+        - Sofia
+        - Victor
+        - Céleste
+        - Lou
+        - Lucas
+        - Lina
+        82:
+        - Amélie
+        - Tuur
+        - Juliette
+        - Marie
+        - Louis
+        - Inaya
+        - Louise
+        - Noah
+        132:
+        - Robin
+        - César
+        - Emma
+        - Arthur
+        138:
+        - Axel
+        - Finn
+        - Camille
+        - Flore
+        - Olivia
+        110:
+        - Ruben
+        - Hugo
+        - Liam
+        - Gust
+        - Elisa
+        - Sara
+        - Lena
+  - testcases:
+    - expression: "omvormen({'Marie': 113, 'Arthur': 40, 'Lina': 98, 'Sofia': 148,
+        'Hugo': 113, 'Robin': 148, 'Noah': 148, 'Ella': 148, 'Amélie': 57, 'Aiden':
+        57, 'Juliette': 113, 'Eva': 18, 'Camille': 113, 'Flore': 98, 'Céleste': 113,
+        'Ada': 57, 'Renée': 18, 'Emma': 111, 'Emiel': 57, 'Alice': 18, 'Axel': 113,
+        'Mia': 57, 'Jules': 113, 'Ayla': 40, 'Elena': 57, 'César': 111, 'Ruben': 113,
+        'Elisa': 40, 'Oscar': 113, 'Tuur': 57, 'Mila': 148, 'Lucas': 111, 'Lena':
+        148, 'Louis': 148, 'Sara': 43, 'Leo': 43, 'Mona': 18, 'Victor': 18, 'Anna':
+        18, 'Gust': 113, 'Finn': 98, 'Simon': 18, 'Lou': 148, 'Olivia': 98, 'Liam':
+        57, 'Nora': 40, 'Billie': 18, 'Inaya': 113, 'Louise': 111})"
+      return:
+        113:
+        - Marie
+        - Hugo
+        - Juliette
+        - Camille
+        - Céleste
+        - Axel
+        - Jules
+        - Ruben
+        - Oscar
+        - Gust
+        - Inaya
+        40:
+        - Arthur
+        - Ayla
+        - Elisa
+        - Nora
+        98:
+        - Lina
+        - Flore
+        - Finn
+        - Olivia
+        148:
+        - Sofia
+        - Robin
+        - Noah
+        - Ella
+        - Mila
+        - Lena
+        - Louis
+        - Lou
+        57:
+        - Amélie
+        - Aiden
+        - Ada
+        - Emiel
+        - Mia
+        - Elena
+        - Tuur
+        - Liam
+        18:
+        - Eva
+        - Renée
+        - Alice
+        - Mona
+        - Victor
+        - Anna
+        - Simon
+        - Billie
+        111:
+        - Emma
+        - César
+        - Lucas
+        - Louise
+        43:
+        - Sara
+        - Leo
