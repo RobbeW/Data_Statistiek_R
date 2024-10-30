@@ -17,7 +17,7 @@ def hertelling(stemmen):
             aantal_max += 1
     
     if aantal_max > 1:
-        tekst = "Hertelling!"
+        tekst = "Herstemming!"
     else:
         tekst = leider
     return tekst

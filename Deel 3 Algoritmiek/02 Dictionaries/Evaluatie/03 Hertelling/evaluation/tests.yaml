@@ -5,7 +5,7 @@
       return: Barack Obama
   - testcases:
     - expression: hertelling(['Bernie Sanders', "Martin O'Malley", 'Hillary Clinton'])
-      return: Hertelling!
+      return: Herstemming!
   - testcases:
     - expression: hertelling(['Donald Trump', 'Joe Biden', 'Donald Trump', 'Joe Biden',
         'Joe Biden'])
@@ -13,11 +13,11 @@
   - testcases:
     - expression: hertelling(['Donald Trump', 'Joe Biden', 'Donald Trump', 'Joe Biden',
         'Donald Trump', 'Joe Biden'])
-      return: Hertelling!
+      return: Herstemming!
   - testcases:
     - expression: hertelling(['Mike Pence', 'Nikki Haley', 'Chris Christie', 'Mike
         Pence', 'Nikki Haley', 'Vivek Ramaswamy'])
-      return: Hertelling!
+      return: Herstemming!
   - testcases:
     - expression: hertelling(['John F. Kennedy', 'John F. Kennedy', 'Harry F. Byrd',
         'Harry F. Byrd', 'Harry F. Byrd', 'Richard Nixon'])
@@ -35,12 +35,12 @@
     - expression: hertelling(['Harry F. Byrd', 'John F. Kennedy', 'Richard Nixon',
         'John F. Kennedy', 'Harry F. Byrd', 'Richard Nixon', 'Richard Nixon', 'Harry
         F. Byrd', 'Richard Nixon', 'Harry F. Byrd'])
-      return: Hertelling!
+      return: Herstemming!
   - testcases:
     - expression: hertelling(['Bill Clinton', 'Bill Clinton', 'Bob Dole', 'Bill Clinton',
         'Bob Dole', 'Bob Dole', 'Bill Clinton', 'Bob Dole', 'Bob Dole', 'Bill Clinton',
         'Bob Dole', 'Bill Clinton', 'Bill Clinton', 'Bob Dole'])
-      return: Hertelling!
+      return: Herstemming!
   - testcases:
     - expression: hertelling(['Richard Nixon', 'Hubert Humphrey', 'Hubert Humphrey',
         'Richard Nixon', 'Hubert Humphrey', 'Richard Nixon', 'Hubert Humphrey', 'Hubert
@@ -192,7 +192,7 @@
         Nader', 'Ralph Nader', 'George W. Bush', 'Ralph Nader', 'Ralph Nader', 'Ralph
         Nader', 'Al Gore', 'Al Gore', 'George W. Bush', 'Al Gore', 'Al Gore', 'Ralph
         Nader', 'George W. Bush', 'Al Gore', 'Al Gore', 'Ralph Nader'])
-      return: Hertelling!
+      return: Herstemming!
   - testcases:
     - expression: hertelling(["Martin O'Malley", 'Bernie Sanders', 'Hillary Clinton',
         'Bernie Sanders', 'Hillary Clinton', 'Bernie Sanders', 'Bernie Sanders', 'Bernie
@@ -258,7 +258,7 @@
         Clinton', 'Hillary Clinton', 'Hillary Clinton', 'Bernie Sanders', 'Bernie
         Sanders', 'Bernie Sanders', 'Hillary Clinton', "Martin O'Malley", 'Bernie
         Sanders'])
-      return: Hertelling!
+      return: Herstemming!
   - testcases:
     - expression: hertelling(['John Anderson', 'Ronald Reagan', 'Jimmy Carter', 'John
         Anderson', 'Ronald Reagan', 'Jimmy Carter', 'Ronald Reagan', 'John Anderson',
