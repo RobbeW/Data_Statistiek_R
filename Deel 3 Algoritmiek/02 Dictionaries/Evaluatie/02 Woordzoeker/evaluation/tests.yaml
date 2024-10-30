@@ -1,0 +1,6 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: aantal_woorden(['B', 'B', 'E', 'E', 'U', 'W'], ['EEUW', 'WEB', 'ROOS',
+        'MAAN'])
+      return: 2
