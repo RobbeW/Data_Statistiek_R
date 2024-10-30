@@ -1,6 +1,111 @@
 - tab: Feedback
   contexts:
   - testcases:
+    - expression: aantal_woorden(['B', 'E', 'W', 'G'], ['BEWEEG', 'BOOG', 'HOND',
+        'DAK'])
+      return: 0
+  - testcases:
+    - expression: aantal_woorden(['T', 'O', 'S', 'L'], ['STOEL'])
+      return: 0
+  - testcases:
+    - expression: aantal_woorden(['M', 'E', 'K', 'E'], ['WEKEN', 'BLOEM'])
+      return: 0
+  - testcases:
+    - expression: aantal_woorden(['R', 'S', 'A', 'K'], ['KAARS'])
+      return: 0
+  - testcases:
+    - expression: aantal_woorden(['F', 'O', 'S', 'T', 'I'], ['FIETS', 'SNOEP'])
+      return: 0
+  - testcases:
     - expression: aantal_woorden(['B', 'B', 'E', 'E', 'U', 'W'], ['EEUW', 'WEB', 'ROOS',
         'MAAN'])
       return: 2
+  - testcases:
+    - expression: aantal_woorden(['A', 'A', 'L', 'K', 'R', 'Z'], ['KLEUR', 'KAARS',
+        'GLAZEN'])
+      return: 0
+  - testcases:
+    - expression: aantal_woorden(['G', 'T', 'O', 'K', 'K', 'E', 'N'], ['KLANT', 'GEEL',
+        'KLOK'])
+      return: 0
+  - testcases:
+    - expression: aantal_woorden(['M', 'R', 'L', 'O', 'E', 'A', 'G', 'P', 'Z'], ['GLAZEN',
+        'ZOMER', 'LAMPEN'])
+      return: 1
+  - testcases:
+    - expression: aantal_woorden(['E', 'A', 'A', 'P', 'T', 'W', 'L', 'B', 'O'], ['BLOEM',
+        'WATER', 'LAMPEN', 'MAAN'])
+      return: 0
+  - testcases:
+    - expression: aantal_woorden(['E', 'K', 'I', 'O', 'H', 'C', 'L', 'G', 'N', 'T'],
+        ['LICHT', 'WEKEN', 'ZOMER', 'GEEL'])
+      return: 1
+  - testcases:
+    - expression: aantal_woorden(['L', 'K', 'A', 'T', 'O', 'P', 'U', 'S', 'E', 'I',
+        'H'], ['HOND', 'TUINEN', 'KLEIN', 'HUISJE', 'HAPJE'])
+      return: 0
+  - testcases:
+    - expression: aantal_woorden(['O', 'K', 'G', 'O', 'U', 'B', 'A', 'N', 'S', 'L',
+        'E', 'J'], ['KAMER', 'BOEK', 'GEEL', 'GROOT', 'KLEUR', 'KOEKJE', 'BEKER',
+        'KLOK', 'BOMEN', 'STOEL', 'STEEN', 'PLANT'])
+      return: 1
+  - testcases:
+    - expression: aantal_woorden(['O', 'J', 'L', 'P', 'M', 'S', 'R', 'E', 'G', 'K',
+        'Z', 'N', 'V'], ['BLOES', 'REGEN', 'BOMEN', 'VOGEL', 'GLAZEN', 'KATER', 'KOEKJE',
+        'SPEEL', 'ZOMER', 'PAARS'])
+      return: 2
+  - testcases:
+    - expression: aantal_woorden(['W', 'K', 'O', 'A', 'I', 'C', 'M', 'H', 'S', 'L',
+        'N', 'E', 'D'], ['KATER', 'KLOK', 'BOEK', 'KAMER', 'FIETS', 'HAPJE', 'SCHAAP',
+        'DORP', 'TUINEN', 'GLAZEN', 'WEKEN', 'GROOT'])
+      return: 0
+  - testcases:
+    - expression: aantal_woorden(['B', 'L', 'I', 'M', 'P', 'D', 'T', 'K', 'R', 'E',
+        'E', 'A', 'G'], ['GROOT', 'SNOEP', 'SPEEL', 'WEKEN', 'REGEN', 'DORP', 'FIETS',
+        'GEEL', 'STEEN', 'KATER', 'BOMEN'])
+      return: 2
+  - testcases:
+    - expression: aantal_woorden(['L', 'N', 'K', 'E', 'U', 'R', 'Z', 'O', 'W', 'M',
+        'S', 'N', 'O'], ['DROOM', 'KERST', 'WEKEN', 'ZOMER', 'VLOER', 'GEEL', 'BOMEN',
+        'HOND', 'BEKER', 'TUINEN', 'KLANT', 'MAAN'])
+      return: 1
+  - testcases:
+    - expression: aantal_woorden(['G', 'N', 'T', 'E', 'E', 'I', 'D', 'V', 'R', 'K',
+        'W', 'O', 'O', 'A'], ['VRIEND', 'BOEK', 'KATTEN', 'WEKEN', 'GROOT'])
+      return: 3
+  - testcases:
+    - expression: aantal_woorden(['L', 'S', 'P', 'N', 'K', 'F', 'R', 'K', 'I', 'W',
+        'J', 'E', 'G', 'O', 'T'], ['WATER', 'SPEEL', 'GEEL', 'TUINEN', 'FIETS', 'HUISJE',
+        'KOEKJE', 'GROOT'])
+      return: 1
+  - testcases:
+    - expression: aantal_woorden(['Z', 'I', 'K', 'N', 'E', 'S', 'F', 'M', 'T', 'D',
+        'O', 'A', 'H', 'P', 'B'], ['BLOES', 'KLOK', 'KAMER', 'DORP', 'STRAND', 'KLEIN',
+        'KATTEN', 'SPEEL', 'SNOEP', 'LICHT', 'FIETS', 'ZOMER', 'HOND'])
+      return: 3
+  - testcases:
+    - expression: aantal_woorden(['H', 'M', 'L', 'N', 'V', 'F', 'K', 'G', 'E', 'A',
+        'R', 'Z', 'D', 'S', 'A'], ['LICHT', 'KAMER', 'SPEEL', 'BLOEM', 'STRAND', 'KAARS',
+        'VOGEL', 'ZOMER', 'MAAN', 'KLEUR', 'FIETS', 'KAARS', 'DROOM'])
+      return: 4
+  - testcases:
+    - expression: aantal_woorden(['S', 'L', 'O', 'M', 'V', 'D', 'I', 'E', 'A', 'C',
+        'P', 'B', 'G', 'T', 'H', 'A'], ['BOMEN', 'FIETS', 'REGEN', 'HOND', 'STOEL',
+        'BLOES', 'VLOER', 'KLEIN', 'SCHAAP'])
+      return: 3
+  - testcases:
+    - expression: aantal_woorden(['I', 'O', 'O', 'A', 'K', 'A', 'H', 'V', 'S', 'D',
+        'B', 'E', 'Z', 'N', 'R', 'L'], ['VUUR', 'VLOER', 'KAMER', 'FIETS', 'ZOMER',
+        'MAAN', 'KLEUR', 'KAARS', 'BROOD', 'LICHT', 'BLOES', 'STOEL', 'KATTEN', 'KLEIN'])
+      return: 5
+  - testcases:
+    - expression: aantal_woorden(['I', 'J', 'R', 'D', 'L', 'P', 'T', 'E', 'V', 'N',
+        'N', 'E', 'U', 'S', 'T', 'A', 'B'], ['STRAND', 'BOMEN', 'BOEK', 'PLANT', 'KATTEN',
+        'STOEL', 'KERST', 'HAPJE', 'TUINEN', 'HOND', 'SPEEL', 'KAMER', 'VLOER'])
+      return: 4
+  - testcases:
+    - expression: aantal_woorden(['B', 'D', 'O', 'K', 'E', 'E', 'V', 'W', 'A', 'J',
+        'N', 'S', 'A', 'H', 'G', 'K', 'L', 'R'], ['BOMEN', 'KLOK', 'HOND', 'BLOEM',
+        'KOEKJE', 'BOMEN', 'PAARS', 'REGEN', 'MAAN', 'STOEL', 'WEKEN', 'VOGEL', 'KATTEN',
+        'SPEEL'])
+      return: 6

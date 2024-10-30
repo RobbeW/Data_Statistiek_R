@@ -32,16 +32,57 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
-ntests = 1
+ntests = 25
 cases = []
 
 case= (["B", "B", "E", "E", "U", "W"], ["EEUW", "WEB", "ROOS", "MAAN"])
 
 cases.append(case)
 
+case= (["B", "E", "W", "G"], ["BEWEEG", "BOOG", "HOND", "DAK"])
+
+cases.append(case)
+
+woorden = [
+    "APPEL", "BOMEN", "KATER", "FIETS", "STOEL", "LAMPEN", "KAMER", "PLANT",
+    "VOGEL", "REGEN", "MAAN", "WATER", "ZOMER", "BLOEM", "GROOT", "KLEIN",
+    "KLEUR", "HOND", "KATTEN", "PAARS", "SCHAAP", "STEEN", "STRAND", "HUISJE",
+    "DROOM", "LICHT", "VLOER", "GLAZEN", "VRIEND", "TUINEN", "KAARS", "STOEL",
+    "BEKER", "SPEEL", "KLANT", "HAPJE", "BROOD", "GEEL", "KOEKJE", "SNOEP",
+    "BOEK", "WEKEN", "KERST", "BOMEN", "KAARS", "BLOES", "VARKEN", "KLOK",
+    "VUUR", "DORP"
+]
+
 while len(cases) < ntests:
-    case = ("A", "B")
+    n = random.randint(1,15)
+    gekozen_woorden = random.sample(woorden, k = n)
+    dict = {}
+    for woord in gekozen_woorden:
+        tabel = {}
+        for letter in woord:
+            if letter in tabel:
+                tabel[letter] += 1
+            else:
+                tabel[letter] = 1
+        
+        for letter, aantal in tabel.items():
+            if letter in dict:
+                dict[letter] = max(aantal, dict[letter])
+            else:
+                dict[letter] = aantal
     
+    
+    letterlijst = []
+    for letter, aantal in dict.items():
+        T = random.randint(0,aantal*3)
+        for _ in range(math.ceil(T/3)):
+            letterlijst.append(letter)
+    
+    lijst = random.sample(letterlijst, k = len(letterlijst))
+    
+    case = (lijst, gekozen_woorden)
+    if case not in cases:
+        cases.append(case)
 
 cases = sorted(cases, key = lambda x: len(x[0]))
 
