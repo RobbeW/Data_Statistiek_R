@@ -60,7 +60,7 @@ olympic_weightlifters = [
     "Reza Beiralvand",
     "Vadzim Straltsou",
     "Arturs Plesnieks",
-    "Zhe Yang",
+    "Lasja Talachadze",
     "Rejepbaý Rejepow",
     "Anton Pliesnoi",
     "Arsen Kasabiev",
