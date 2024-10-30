@@ -84,8 +84,29 @@ gent = {'19': ['Arteveldestadion', 'Proeftuinstraat', 'UZ Heymanslaan', 'Heymans
 
 cases.append(gent)
 
+aalst = {'20': ['Erpestraat', 'Sint-Apoloniastraat', 'Kreupelveldstraat', 'Welvaartstraat', 'Sinte Annalaan', 'VTI', 'Verastenstraat', 
+                'Ledebaan', 'Meuleschettekapel', 'Esplanade', 'Esplanade', 'Station'], 
+         '59': ['Station', 'Vredeplein', 'Esplanade', 'Meuleschettekapel', 'Meuleschettekapel', 'Dendermondsesteenweg', 'Kerrebroekstraat'], 
+         '91': ['Station', 'Esplanade', 'Zwartehoekbrug', 'Tramstraat', 'Pier Kornel', "Lion d'Or", 'Popperodedries', 'Bredestraat', 'Hammestraat'], 
+         '40': ['Station', 'Een Meistraat', 'Doolhofstraat', 'Onze-Lieve-Vrouw Ziekenhuis', 'Paardendries', 'Achterweg'], 
+         '2': ['Station', 'Een Meistraat', 'Doolhofstraat', 'Onze-Lieve-Vrouw Ziekenhuis', 'Zwembad', 'Beukendreef', 'Steenland', 'Borreput', 
+               'Zandberg', 'Hof Somergem', 'Sint-Janskerk', 'Schietbaan', 'Crematorium', 'Stedelijk Ziekenhuis'], 
+         '54': ['Station', 'Vredeplein', 'Esplanade', 'Meuleschettekapel', 'Meuleschettekapel', 'Dendermondsesteenweg', 'Kerrebroekstraat'], 
+         '80': ['Station', 'Oude Vismarkt', 'Houtmarkt', 'Colinetstraat', 'Diepestraat', 'Capucienen'], 
+         '87': ['Station', 'Oude Vismarkt', 'Houtmarkt', 'Colinetstraat', 'Diepestraat', 'Capucienen'], 
+         '1': ['Stedelijk Ziekenhuis', 'Van Der Guchtlaan', 'Irisstraat', 'Korte Vooruitzichtstraat', 'Biekorfstraat', 'Boudewijnlaan', 
+               'Technisch Atheneum 1', 'VTI', 'Ledebaan', 'Meuleschettekapel', 'Esplanade', 'Esplanade', 'Station', 'Een Meistraat', 
+               'Dokter De Moorstraat', 'Tulpstraat', 'Stadion', 'Popperodehof', 'Ouden Dendermondse', 'Dompelstraat', 'Binnenstraat', 
+               'Sporthal Ten Rozen', 'Oude Abdijstraat', 'Fonteinstraat', 'Rozendreef', 'Oude Abdijstraat'], 
+         '31': ['Station', 'Oude Vismarkt', 'Houtmarkt', 'Blanckaertdreef', 'De Haring'], 
+         '57': ['Station', 'Vredeplein', 'Esplanade', 'Meuleschettekapel', 'Meuleschettekapel', 'Dendermondsesteenweg', 'Kerrebroekstraat'], 
+         '25': ['Station', 'Esplanade', 'Vredeplein', 'Gentsestraat', 'Sinte Annalaan', 'Welvaartstraat', 'Kreupelveldstraat', 'Sint-Apoloniastraat', 
+                'Erpestraat']}
 
-cases = sorted(cases, key = lambda x: len(x))
+cases.append(aalst)
+
+
+#cases = sorted(cases, key = lambda x: len(x))
 
 # generate unit tests for functions
 yamldata = []
