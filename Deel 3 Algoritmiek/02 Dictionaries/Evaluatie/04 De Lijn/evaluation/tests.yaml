@@ -1,0 +1,220 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: "drukte_haltes({'19': ['Arteveldestadion', 'Proeftuinstraat', 'UZ
+        Heymanslaan', 'Heymanslaan', 'Koekoeklaan', 'Zwijnaardsesteenweg (spoorwegbrug)',
+        'Parkplein', 'Sint-Pietersstation', 'Meersstraat', 'Koning Albertbrug (Sportstraat)',
+        'Koning Albertbrug (Neermeerskaai)', 'Sportstraat', 'Neermeerskaai', 'Europabrug',
+        'Verenigde Natieslaan', 'Europalaan'], '71': ['De Deynestraat', 'De Pintelaan',
+        'Sterre', 'Flamingostraat', 'Tuinwijklaan', 'Sint-Pietersstation', 'Parkplein',
+        'Fortlaan', 'Ledeganckstraat', 'Heuvelpoort', 'Terplatenbrug', 'Leeuwstraat',
+        'Muinklaan', 'Vijfwindgatenstraat', 'Zuid', 'Tweebruggenstraat', 'Eendrachtstraat',
+        'Dampoort', 'La Sapinière', 'Bernadette Kerk', 'Volvo Cars'], '20': ['Sint-Pietersstation',
+        'Parkplein', 'Zwijnaardsesteenweg', 'Zomerstraat'], '33': ['Sint-Lievenspoort',
+        'Vijfwindgatenstraat', 'Zuid', 'Tweebruggenstraat', 'Eendrachtstraat', 'Dampoort',
+        'Nieuwhof'], '60': ['Rabot (Griendeplein)', 'Wittekaproenenplein', 'Nieuwevaartbrug',
+        'Westerbegraafplaats'], '9a': ['Machinistenpark', 'Staakskenstraat', 'Guislainbrug',
+        'Rooigem (R40)', 'Peerstraat', 'Malem (Rooigemlaan)', 'Overzet', 'Beneluxplein',
+        'Einde Were', 'Andrieslaan', 'Beneluxplein', 'Yachtdreef', 'Bernard Spaelaan',
+        'Europabrug', 'Sportstraat', 'Koning Albertbrug (Sportstraat)', 'Koning Albertbrug',
+        'Meersstraat', 'Sint-Pietersstation', 'Parkplein', 'Zwijnaardsesteenweg',
+        'Zomerstraat'], '9b': ['Jutestraat', 'Fluweelstraat', 'Malpertuusplein', 'Rooigem
+        (R40)', 'Peerstraat', 'Malem (Rooigemlaan)', 'Overzet', 'Beneluxplein', 'Einde
+        Were', 'Andrieslaan', 'Beneluxplein', 'Yachtdreef', 'Bernard Spaelaan', 'Europabrug',
+        'Sportstraat', 'Koning Albertbrug (Sportstraat)', 'Koning Albertbrug', 'Meersstraat',
+        'Sint-Pietersstation', 'Parkplein', 'Zwijnaardsesteenweg', 'Zomerstraat'],
+        '48': ['Sint-Pietersstation', 'Tuinwijklaan', 'Flamingostraat', 'Sterre',
+        'De Pintelaan', 'De Deynestraat'], '10': ['Jutestraat', 'Fluweelstraat', 'Malpertuusplein',
+        'Rooigem (R40)', 'Peerstraat', 'Rooigem (Bevrijdingslaan)', 'Malem', 'Malem
+        (Rooigemlaan)', 'Einde Were', 'Notelaarstraat', 'Seghersplein', 'Nieuwewandeling',
+        'Brugsepoort', 'Poel', 'Korenmarkt', 'Sint-Jacobs', 'Sint-Jorisbrug', 'Jan
+        van Gentstraat', 'Dampoort'], '11': ['Europalaan', 'Yachtdreef', 'Andrieslaan',
+        'Beneluxplein', 'Overzet', 'Overzet', 'Einde Were', 'Nieuwewandeling', 'Brugsepoort',
+        'Poel', 'Korenmarkt', 'Sint-Jacobs', 'Sint-Jorisbrug', 'Jan van Gentstraat',
+        'Dampoort', 'Nieuwhof'], '49': ['Sint-Pietersstation', 'Tuinwijklaan', 'Flamingostraat',
+        'Sterre', 'De Pintelaan', 'De Deynestraat'], '50': ['De Deynestraat', 'De
+        Pintelaan', 'Sterre', 'Flamingostraat', 'Tuinwijklaan', 'Sint-Pietersstation'],
+        '76': ['Maaltebruggestraat', 'Sterre', 'Flamingostraat', 'Tuinwijklaan', 'Sint-Pietersstation',
+        'Parkplein', 'Fortlaan', 'Ledeganckstraat', 'Heuvelpoort', 'Terplatenbrug',
+        'Leeuwstraat', 'Muinklaan', 'Vijfwindgatenstraat', 'Zuid', 'Tweebruggenstraat',
+        'Eendrachtstraat', 'Dampoort'], '12a': ['Malem (Drongensesteenweg)', 'Geitstraat',
+        'Seghersplein (Weversstraat)', 'Brugsepoort', 'Poel', 'Korenmarkt', 'Sint-Jacobs',
+        'Sint-Jorisbrug', 'Jan van Gentstraat', 'Dampoort'], '12b': ['Malem (Drongensesteenweg)',
+        'Geitstraat', 'Seghersplein (Weversstraat)', 'Brugsepoort', 'Poel', 'Korenmarkt',
+        'Sint-Jacobs', 'Sint-Jorisbrug', 'Jan van Gentstraat', 'Dampoort'], '77':
+        ['Maaltebruggestraat', 'Sterre', 'Flamingostraat', 'Tuinwijklaan', 'Sint-Pietersstation',
+        'Parkplein', 'Fortlaan', 'Ledeganckstraat', 'Heuvelpoort', 'Terplatenbrug',
+        'Leeuwstraat', 'Muinklaan', 'Vijfwindgatenstraat', 'Zuid', 'Tweebruggenstraat',
+        'Eendrachtstraat', 'Dampoort'], '78': ['Maaltebruggestraat', 'Sterre', 'Flamingostraat',
+        'Tuinwijklaan', 'Sint-Pietersstation', 'Parkplein', 'Fortlaan', 'Ledeganckstraat',
+        'Heuvelpoort', 'Terplatenbrug', 'Leeuwstraat', 'Muinklaan', 'Vijfwindgatenstraat',
+        'Zuid', 'Tweebruggenstraat', 'Eendrachtstraat', 'Dampoort'], '40': ['Zuid',
+        'Vijfwindgatenstraat', 'Sint-Lievenspoort'], '79': ['Spanjeveerbrug', 'Herpelinckstraat',
+        'Kapelledreef', 'Arcelor Mittal'], '41': ['Zuid', 'Vijfwindgatenstraat', 'Sint-Lievenspoort'],
+        '16': ['Zuid', 'Kapucijnenham', 'Reep', 'Van Eyckstraat', 'Puinstraat', 'Lousbergsbrug',
+        'Lousbergskaai', 'Zalmstraat', 'Minneplein'], '42': ['Zuid', 'Vijfwindgatenstraat',
+        'Sint-Lievenspoort'], '55': ['Sint-Pietersstation', 'Parkplein', 'Fortlaan',
+        'Ledeganckstraat', 'Heuvelpoort', 'Terplatenbrug', 'Leeuwstraat', 'Muinklaan',
+        'Vijfwindgatenstraat', 'Zuid', 'Kapucijnenham', 'Reep', 'Sint-Jacobs', 'Ottogracht',
+        'AZ Sint-Lucas', 'Sanderusstraat', 'Tolpoort', 'Tolhuisbrug', 'Pantserschipstraat',
+        'taminco', 'Taminco', 'Passagierstraat', 'Wondelgemkaai', 'Gentweg'], '56':
+        ['Zuid', 'Kapucijnenham', 'Reep', 'Sint-Jacobs', 'Ottogracht', 'AZ Sint-Lucas',
+        'Sanderusstraat', 'Tolpoort', 'Tolhuisbrug', 'Spesbroekstraat'], '5a': ['Salamanderstraat',
+        'Berkhoutsheide', 'Jaspisstraat', 'Haardstedestraat', 'Roelandtplein', 'Van
+        Haelststraat', 'UZ Zwijnaardsesteenweg', 'Opvoedingstraat', 'Zwijnaardsesteenweg
+        (spoorwegbrug)', 'de Heerestraat', 'Ottergemsesteenweg', 'Heuvelpoort', 'Sint-Pietersplein',
+        'Blandijnberg', 'Bagattenstraat', 'Zuid', 'Kapucijnenham', 'Reep', 'Sint-Jacobs',
+        'Ottogracht', 'AZ Sint-Lucas', 'Sanderusstraat', 'Tolpoort', 'Wiedauwkaai',
+        'Vynckier', 'Gaardeniersbrug', 'Wondelgembrug', 'Fuchsiastraat', 'Van Beverenplein',
+        'van Ryhovelaan'], '5b': ['Salamanderstraat', 'Berkhoutsheide', 'Jaspisstraat',
+        'Haardstedestraat', 'Roelandtplein', 'Van Haelststraat', 'UZ Zwijnaardsesteenweg',
+        'Opvoedingstraat', 'Zwijnaardsesteenweg (spoorwegbrug)', 'de Heerestraat',
+        'Ottergemsesteenweg', 'Heuvelpoort', 'Sint-Pietersplein', 'Blandijnberg',
+        'Bagattenstraat', 'Zuid', 'Kapucijnenham', 'Reep', 'Sint-Jacobs', 'Ottogracht',
+        'AZ Sint-Lucas', 'Sanderusstraat', 'Tolpoort', 'Muidebrug', 'Pauwstraat',
+        'New-Yorkstraat', 'Leithstraat', 'Glasgowstraat', 'LDC De Waterspiegel', 'Glasgowstraat',
+        'Meeuwstraat'], '6': ['Zuid', 'Kapucijnenham', 'Reep', 'Sint-Jacobs', 'Sint-Jorisbrug',
+        'Blekerijstraat', 'Stapelplein', 'Dok Noord', 'Heilig-Kerst', 'Neuseplein',
+        'Muidebrug', 'Aziëstraat', 'P+R Lübeck', 'Chinastraat', 'Scandinaviëstraat',
+        'P+R Muide'], '70': ['De Deynestraat', 'De Pintelaan', 'Sterre', 'Flamingostraat',
+        'Tuinwijklaan', 'Sint-Pietersstation', 'Parkplein', 'Fortlaan', 'Ledeganckstraat',
+        'Heuvelpoort', 'Terplatenbrug', 'Leeuwstraat', 'Muinklaan', 'Vijfwindgatenstraat',
+        'Zuid', 'Tweebruggenstraat', 'Gent Eendrachtstraat', 'Eendrachtstraat', 'Dampoort',
+        'La Sapinière', 'Bernadette Kerk', 'Volvo Cars']})"
+      return:
+        Arteveldestadion: 1
+        Proeftuinstraat: 1
+        UZ Heymanslaan: 1
+        Heymanslaan: 1
+        Koekoeklaan: 1
+        Zwijnaardsesteenweg (spoorwegbrug): 3
+        Parkplein: 10
+        Sint-Pietersstation: 13
+        Meersstraat: 3
+        Koning Albertbrug (Sportstraat): 3
+        Koning Albertbrug (Neermeerskaai): 1
+        Sportstraat: 3
+        Neermeerskaai: 1
+        Europabrug: 3
+        Verenigde Natieslaan: 1
+        Europalaan: 2
+        De Deynestraat: 5
+        De Pintelaan: 5
+        Sterre: 8
+        Flamingostraat: 8
+        Tuinwijklaan: 8
+        Fortlaan: 6
+        Ledeganckstraat: 6
+        Heuvelpoort: 8
+        Terplatenbrug: 6
+        Leeuwstraat: 6
+        Muinklaan: 6
+        Vijfwindgatenstraat: 10
+        Zuid: 15
+        Tweebruggenstraat: 6
+        Eendrachtstraat: 6
+        Dampoort: 10
+        La Sapinière: 2
+        Bernadette Kerk: 2
+        Volvo Cars: 2
+        Zwijnaardsesteenweg: 3
+        Zomerstraat: 3
+        Sint-Lievenspoort: 4
+        Nieuwhof: 2
+        Rabot (Griendeplein): 1
+        Wittekaproenenplein: 1
+        Nieuwevaartbrug: 1
+        Westerbegraafplaats: 1
+        Machinistenpark: 1
+        Staakskenstraat: 1
+        Guislainbrug: 1
+        Rooigem (R40): 3
+        Peerstraat: 3
+        Malem (Rooigemlaan): 3
+        Overzet: 4
+        Beneluxplein: 5
+        Einde Were: 4
+        Andrieslaan: 3
+        Yachtdreef: 3
+        Bernard Spaelaan: 2
+        Koning Albertbrug: 2
+        Jutestraat: 2
+        Fluweelstraat: 2
+        Malpertuusplein: 2
+        Rooigem (Bevrijdingslaan): 1
+        Malem: 1
+        Notelaarstraat: 1
+        Seghersplein: 1
+        Nieuwewandeling: 2
+        Brugsepoort: 4
+        Poel: 4
+        Korenmarkt: 4
+        Sint-Jacobs: 9
+        Sint-Jorisbrug: 5
+        Jan van Gentstraat: 4
+        Maaltebruggestraat: 3
+        Malem (Drongensesteenweg): 2
+        Geitstraat: 2
+        Seghersplein (Weversstraat): 2
+        Spanjeveerbrug: 1
+        Herpelinckstraat: 1
+        Kapelledreef: 1
+        Arcelor Mittal: 1
+        Kapucijnenham: 6
+        Reep: 6
+        Van Eyckstraat: 1
+        Puinstraat: 1
+        Lousbergsbrug: 1
+        Lousbergskaai: 1
+        Zalmstraat: 1
+        Minneplein: 1
+        Ottogracht: 4
+        AZ Sint-Lucas: 4
+        Sanderusstraat: 4
+        Tolpoort: 4
+        Tolhuisbrug: 2
+        Pantserschipstraat: 1
+        taminco: 1
+        Taminco: 1
+        Passagierstraat: 1
+        Wondelgemkaai: 1
+        Gentweg: 1
+        Spesbroekstraat: 1
+        Salamanderstraat: 2
+        Berkhoutsheide: 2
+        Jaspisstraat: 2
+        Haardstedestraat: 2
+        Roelandtplein: 2
+        Van Haelststraat: 2
+        UZ Zwijnaardsesteenweg: 2
+        Opvoedingstraat: 2
+        de Heerestraat: 2
+        Ottergemsesteenweg: 2
+        Sint-Pietersplein: 2
+        Blandijnberg: 2
+        Bagattenstraat: 2
+        Wiedauwkaai: 1
+        Vynckier: 1
+        Gaardeniersbrug: 1
+        Wondelgembrug: 1
+        Fuchsiastraat: 1
+        Van Beverenplein: 1
+        van Ryhovelaan: 1
+        Muidebrug: 2
+        Pauwstraat: 1
+        New-Yorkstraat: 1
+        Leithstraat: 1
+        Glasgowstraat: 2
+        LDC De Waterspiegel: 1
+        Meeuwstraat: 1
+        Blekerijstraat: 1
+        Stapelplein: 1
+        Dok Noord: 1
+        Heilig-Kerst: 1
+        Neuseplein: 1
+        Aziëstraat: 1
+        P+R Lübeck: 1
+        Chinastraat: 1
+        Scandinaviëstraat: 1
+        P+R Muide: 1
+        Gent Eendrachtstraat: 1
