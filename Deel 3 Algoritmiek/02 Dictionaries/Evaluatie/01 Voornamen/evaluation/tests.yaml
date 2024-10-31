@@ -2,11 +2,15 @@
   contexts:
   - testcases:
     - expression: "omvormen({'Julie': 101, 'Victorine': 101, 'Tybert': 101})"
-      return:
-        101:
-        - Julie
-        - Victorine
-        - Tybert
+      return: !oracle
+        oracle: "custom_check"
+        value:
+          101:
+          - Julie
+          - Victorine
+          - Tybert
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: "omvormen({'Olivia': 154, 'Emma': 132, 'Noah': 132, 'Arthur': 130,
         'Louise': 130, 'Liam': 130})"
