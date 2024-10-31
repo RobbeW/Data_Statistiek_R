@@ -22,7 +22,7 @@ Op deze manier kan je eenvoudig opvragen welke voornamen een bepaald aantal keer
 ![Foto door Heiner op Pexels.](media/heiner.jpg "Foto door Heiner op Pexels."){:data-caption="Foto door Heiner op Pexels." width="50%"}
 
 ## Gevraagd
-Schrijf een functie `omvormen(voornamen)` dat gegeven een dictionary van de vorm `<voornaam>:<aantal>` deze omdraait naar de vorm `<aantal>:<voornamen>`. De waarde een lijst die de verschillende voornamen bevat. De volgorde van deze voornamen maakt niet uit.
+Schrijf een functie `omvormen(voornamen)` dat gegeven een dictionary van de vorm `<voornaam>:<aantal>` deze omdraait naar de vorm `<aantal>:<voornamen>`. De waarde is een lijst die de verschillende voornamen bevat. De volgorde van deze voornamen maakt niet uit.
 
 #### Voorbeeld
 
