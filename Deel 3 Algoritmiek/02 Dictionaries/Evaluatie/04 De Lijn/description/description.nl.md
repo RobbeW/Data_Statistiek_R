@@ -24,11 +24,11 @@ Bestudeer grondig onderstaand voorbeeld:
 
 ```python
 >>> drukte_haltes({"40": ["Zuid", "Vijfwindgatenstraat", "Sint-Lievenspoort"], 
-           "79": ["Spanjeveerbrug", "Herpelinckstraat", "Kapelledreef", "Arcelor Mittal"], 
-           "41": ["Zuid", "Vijfwindgatenstraat", "Sint-Lievenspoort"], 
-           "16": ["Zuid", "Kapucijnenham", "Reep", "Van Eyckstraat", "Puinstraat", "Lousbergsbrug", "Lousbergskaai", "Zalmstraat", "Minneplein"], 
-           "42": ["Zuid", "Vijfwindgatenstraat", "Sint-Lievenspoort"], 
-           ...})
+                   "79": ["Spanjeveerbrug", "Herpelinckstraat", "Kapelledreef", "Arcelor Mittal"], 
+                   "41": ["Zuid", "Vijfwindgatenstraat", "Sint-Lievenspoort"], 
+                   "16": ["Zuid", "Kapucijnenham", "Reep", "Van Eyckstraat", "Puinstraat", "Lousbergsbrug", "Lousbergskaai", "Zalmstraat", "Minneplein"], 
+                   "42": ["Zuid", "Vijfwindgatenstraat", "Sint-Lievenspoort"], 
+                   ...})
 {"Zuid": 15,
  "Vijfwindgatenstraat": 10,
  "Sint-Lievenspoort": 4,
