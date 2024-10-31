@@ -1,0 +1,99 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: "voorspelling({'The Left': 101, 'S&D': 126, 'Greens/EFA': 32, 'Renew':
+        51, 'EPP': 19, 'ECR': 79, 'Patriots': 148, 'ESN': 37, 'NI': 109}, ['Greens/EFA',
+        'ESN'])"
+      return: Foutieve voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 102, 'S&D': 144, 'Greens/EFA': 116, 'Renew':
+        98, 'EPP': 15, 'ECR': 12, 'Patriots': 40, 'ESN': 172, 'NI': 4}, ['Renew',
+        'ECR', 'S&D', 'Patriots', 'The Left'])"
+      return: Correcte voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 139, 'S&D': 37, 'Greens/EFA': 137, 'Renew':
+        21, 'EPP': 104, 'ECR': 160, 'Patriots': 80, 'ESN': 2, 'NI': 23}, ['S&D', 'Greens/EFA'])"
+      return: Foutieve voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 139, 'S&D': 128, 'Greens/EFA': 30, 'Renew':
+        145, 'EPP': 21, 'ECR': 83, 'Patriots': 62, 'ESN': 81, 'NI': 22}, ['EPP', 'Greens/EFA',
+        'Patriots'])"
+      return: Foutieve voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 135, 'S&D': 135, 'Greens/EFA': 26, 'Renew':
+        59, 'EPP': 73, 'ECR': 149, 'Patriots': 31, 'ESN': 67, 'NI': 43}, ['The Left',
+        'Patriots', 'ESN'])"
+      return: Foutieve voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 46, 'S&D': 136, 'Greens/EFA': 53, 'Renew':
+        77, 'EPP': 188, 'ECR': 78, 'Patriots': 84, 'ESN': 25, 'NI': 32}, ['EPP', 'S&D',
+        'ECR'])"
+      return: Correcte voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 46, 'S&D': 136, 'Greens/EFA': 53, 'Renew':
+        77, 'EPP': 188, 'ECR': 78, 'Patriots': 84, 'ESN': 25, 'NI': 32}, ['The Left',
+        'S&D'])"
+      return: Foutieve voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 47, 'S&D': 154, 'Greens/EFA': 43, 'Renew':
+        51, 'EPP': 206, 'ECR': 78, 'Patriots': 84, 'ESN': 25, 'NI': 32}, ['EPP', 'S&D'])"
+      return: Foutieve voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 47, 'S&D': 153, 'Greens/EFA': 44, 'Renew':
+        51, 'EPP': 206, 'ECR': 78, 'Patriots': 84, 'ESN': 25, 'NI': 32}, ['EPP', 'S&D'])"
+      return: Foutieve voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 136, 'S&D': 40, 'Greens/EFA': 104, 'Renew':
+        143, 'EPP': 35, 'ECR': 105, 'Patriots': 61, 'ESN': 33, 'NI': 63}, ['Greens/EFA',
+        'The Left', 'S&D', 'Renew'])"
+      return: Correcte voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 105, 'S&D': 25, 'Greens/EFA': 75, 'Renew':
+        143, 'EPP': 40, 'ECR': 122, 'Patriots': 88, 'ESN': 114, 'NI': 11}, ['Patriots',
+        'Greens/EFA', 'ESN', 'EPP', 'ECR'])"
+      return: Correcte voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 89, 'S&D': 47, 'Greens/EFA': 93, 'Renew':
+        83, 'EPP': 89, 'ECR': 57, 'Patriots': 43, 'ESN': 77, 'NI': 147}, ['ESN', 'Greens/EFA',
+        'S&D', 'ECR'])"
+      return: Foutieve voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 88, 'S&D': 131, 'Greens/EFA': 44, 'Renew':
+        58, 'EPP': 20, 'ECR': 99, 'Patriots': 30, 'ESN': 74, 'NI': 183}, ['ECR', 'EPP',
+        'ESN', 'The Left'])"
+      return: Foutieve voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 32, 'S&D': 139, 'Greens/EFA': 32, 'Renew':
+        29, 'EPP': 114, 'ECR': 21, 'Patriots': 105, 'ESN': 88, 'NI': 167}, ['Greens/EFA',
+        'ECR', 'Patriots', 'ESN', 'The Left'])"
+      return: Foutieve voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 54, 'S&D': 30, 'Greens/EFA': 17, 'Renew':
+        10, 'EPP': 210, 'ECR': 135, 'Patriots': 154, 'ESN': 74, 'NI': 45}, ['Greens/EFA',
+        'EPP', 'Patriots', 'Renew', 'The Left'])"
+      return: Correcte voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 7, 'S&D': 57, 'Greens/EFA': 120, 'Renew':
+        143, 'EPP': 77, 'ECR': 96, 'Patriots': 41, 'ESN': 76, 'NI': 118}, ['ESN',
+        'ECR'])"
+      return: Foutieve voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 80, 'S&D': 98, 'Greens/EFA': 87, 'Renew':
+        58, 'EPP': 49, 'ECR': 97, 'Patriots': 66, 'ESN': 107, 'NI': 93}, ['Renew',
+        'ESN'])"
+      return: Foutieve voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 117, 'S&D': 86, 'Greens/EFA': 88, 'Renew':
+        38, 'EPP': 14, 'ECR': 112, 'Patriots': 112, 'ESN': 78, 'NI': 100}, ['The Left',
+        'S&D', 'Greens/EFA', 'Patriots', 'ESN'])"
+      return: Correcte voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 92, 'S&D': 74, 'Greens/EFA': 146, 'Renew':
+        108, 'EPP': 114, 'ECR': 49, 'Patriots': 72, 'ESN': 69, 'NI': 21}, ['EPP',
+        'ECR', 'S&D', 'Patriots', 'ESN'])"
+      return: Correcte voorspelling
+  - testcases:
+    - expression: "voorspelling({'The Left': 17, 'S&D': 90, 'Greens/EFA': 116, 'Renew':
+        118, 'EPP': 78, 'ECR': 113, 'Patriots': 78, 'ESN': 118, 'NI': 18}, ['Renew',
+        'ESN', 'EPP', 'The Left'])"
+      return: Foutieve voorspelling
