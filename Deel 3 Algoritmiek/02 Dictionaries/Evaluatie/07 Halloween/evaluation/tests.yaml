@@ -2,115 +2,175 @@
   contexts:
   - testcases:
     - expression: halloween(['horrorclown', 'zombie'])
-      return:
-      - horrorclown
-      - zombie
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - horrorclown
+        - zombie
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['demon', 'zombie'])
-      return:
-      - demon
-      - zombie
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - demon
+        - zombie
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['demon', 'weerwolf'])
-      return:
-      - demon
-      - weerwolf
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - demon
+        - weerwolf
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['spook', 'zombie', 'spook'])
-      return:
+      return: !list
       - zombie
   - testcases:
     - expression: halloween(['geest', 'demon', 'duivel'])
-      return:
-      - geest
-      - demon
-      - duivel
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - geest
+        - demon
+        - duivel
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['spook', 'spook', 'weerwolf'])
-      return:
+      return: !list
       - weerwolf
   - testcases:
     - expression: halloween(['mummie', 'duivel', 'weerwolf'])
-      return:
-      - mummie
-      - duivel
-      - weerwolf
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - mummie
+        - duivel
+        - weerwolf
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['duivel', 'duivel', 'heks', 'demon'])
-      return:
-      - heks
-      - demon
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - heks
+        - demon
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['weerwolf', 'spook', 'skelet', 'vampier', 'heks', 'zombie'])
-      return:
-      - weerwolf
-      - spook
-      - skelet
-      - vampier
-      - heks
-      - zombie
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - weerwolf
+        - spook
+        - skelet
+        - vampier
+        - heks
+        - zombie
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['weerwolf', 'duivel', 'mummie', 'weerwolf', 'zombie',
         'zombie'])
-      return:
-      - duivel
-      - mummie
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - duivel
+        - mummie
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['geest', 'spook', 'heks', 'horrorclown', 'geest', 'weerwolf'])
-      return:
-      - spook
-      - heks
-      - horrorclown
-      - weerwolf
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - spook
+        - heks
+        - horrorclown
+        - weerwolf
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['weerwolf', 'skelet', 'demon', 'geest', 'spook', 'heks',
         'mummie'])
-      return:
-      - weerwolf
-      - skelet
-      - demon
-      - geest
-      - spook
-      - heks
-      - mummie
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - weerwolf
+        - skelet
+        - demon
+        - geest
+        - spook
+        - heks
+        - mummie
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['spook', 'mummie', 'heks', 'zombie', 'zombie', 'zombie',
         'zombie', 'zombie'])
-      return:
-      - spook
-      - mummie
-      - heks
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - spook
+        - mummie
+        - heks
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['vampier', 'weerwolf', 'weerwolf', 'heks', 'mummie',
         'vampier', 'horrorclown', 'spook'])
-      return:
-      - heks
-      - mummie
-      - horrorclown
-      - spook
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - heks
+        - mummie
+        - horrorclown
+        - spook
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['weerwolf', 'duivel', 'spook', 'heks', 'demon', 'demon',
         'spook', 'geest', 'skelet'])
-      return:
-      - weerwolf
-      - duivel
-      - heks
-      - geest
-      - skelet
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - weerwolf
+        - duivel
+        - heks
+        - geest
+        - skelet
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['heks', 'weerwolf', 'spook', 'mummie', 'heks', 'spook',
         'geest', 'heks', 'demon', 'demon'])
-      return:
-      - weerwolf
-      - mummie
-      - geest
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - weerwolf
+        - mummie
+        - geest
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['demon', 'horrorclown', 'horrorclown', 'vampier', 'duivel',
         'heks', 'weerwolf', 'weerwolf', 'mummie', 'mummie', 'demon'])
-      return:
-      - vampier
-      - duivel
-      - heks
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - vampier
+        - duivel
+        - heks
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['vampier', 'skelet', 'weerwolf', 'weerwolf', 'geest',
         'geest', 'duivel', 'vampier', 'duivel', 'vampier', 'duivel', 'demon', 'duivel',
@@ -120,9 +180,13 @@
         'demon', 'heks', 'heks', 'weerwolf', 'spook', 'duivel', 'duivel', 'duivel',
         'zombie', 'vampier', 'skelet', 'horrorclown', 'heks', 'zombie', 'spook', 'heks',
         'vampier'])
-      return:
-      - skelet
-      - mummie
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - skelet
+        - mummie
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: halloween(['horrorclown', 'spook', 'mummie', 'skelet', 'spook',
         'vampier', 'mummie', 'skelet', 'skelet', 'skelet', 'duivel', 'vampier', 'spook',
@@ -132,7 +196,7 @@
         'horrorclown', 'duivel', 'geest', 'spook', 'geest', 'geest', 'vampier', 'duivel',
         'weerwolf', 'skelet', 'demon', 'spook', 'demon', 'demon', 'demon', 'demon',
         'weerwolf', 'heks', 'weerwolf', 'zombie', 'mummie', 'demon', 'demon'])
-      return:
+      return: !list
       - zombie
   - testcases:
     - expression: halloween(['demon', 'duivel', 'demon', 'zombie', 'zombie', 'spook',
@@ -146,7 +210,7 @@
         'heks', 'horrorclown', 'duivel', 'mummie', 'demon', 'demon', 'horrorclown',
         'spook', 'geest', 'vampier', 'geest', 'duivel', 'mummie', 'weerwolf', 'zombie',
         'demon', 'weerwolf', 'zombie', 'demon', 'demon', 'geest', 'zombie'])
-      return:
+      return: !list
       - vampier
   - testcases:
     - expression: halloween(['zombie', 'weerwolf', 'spook', 'spook', 'demon', 'vampier',
@@ -161,7 +225,7 @@
         'mummie', 'heks', 'skelet', 'heks', 'demon', 'skelet', 'weerwolf', 'demon',
         'spook', 'weerwolf', 'geest', 'geest', 'zombie', 'horrorclown', 'heks', 'heks',
         'demon', 'zombie', 'zombie', 'duivel', 'spook', 'skelet'])
-      return:
+      return: !list
       - vampier
   - testcases:
     - expression: halloween(['weerwolf', 'mummie', 'mummie', 'weerwolf', 'weerwolf',
@@ -191,7 +255,7 @@
         'duivel', 'vampier', 'skelet', 'horrorclown', 'skelet', 'heks', 'vampier',
         'zombie', 'weerwolf', 'geest', 'horrorclown', 'geest', 'heks', 'zombie', 'horrorclown',
         'duivel', 'horrorclown', 'spook', 'vampier', 'demon'])
-      return:
+      return: !list
       - zombie
   - testcases:
     - expression: halloween(['demon', 'demon', 'horrorclown', 'mummie', 'horrorclown',
@@ -251,7 +315,7 @@
         'geest', 'mummie', 'weerwolf', 'zombie', 'vampier', 'heks', 'horrorclown',
         'weerwolf', 'skelet', 'horrorclown', 'horrorclown', 'zombie', 'weerwolf',
         'weerwolf', 'mummie', 'spook', 'skelet', 'duivel'])
-      return:
+      return: !list
       - heks
   - testcases:
     - expression: halloween(['demon', 'weerwolf', 'zombie', 'spook', 'mummie', 'skelet',
@@ -311,7 +375,7 @@
         'vampier', 'duivel', 'mummie', 'mummie', 'zombie', 'skelet', 'zombie', 'heks',
         'zombie', 'zombie', 'horrorclown', 'skelet', 'duivel', 'vampier', 'horrorclown',
         'heks', 'skelet', 'zombie', 'vampier', 'horrorclown'])
-      return:
+      return: !list
       - geest
   - testcases:
     - expression: halloween(['geest', 'demon', 'weerwolf', 'horrorclown', 'demon',
@@ -443,5 +507,5 @@
         'vampier', 'heks', 'heks', 'heks', 'weerwolf', 'vampier', 'demon', 'geest',
         'zombie', 'geest', 'weerwolf', 'geest', 'duivel', 'weerwolf', 'vampier', 'demon',
         'zombie', 'spook', 'geest', 'skelet', 'duivel', 'weerwolf'])
-      return:
+      return: !list
       - mummie
