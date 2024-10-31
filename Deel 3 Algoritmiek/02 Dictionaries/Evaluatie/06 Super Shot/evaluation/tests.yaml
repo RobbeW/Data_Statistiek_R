@@ -1,0 +1,174 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: winnaar([('Elin', 3)])
+      return:
+      - Elin
+  - testcases:
+    - expression: winnaar([('Lucas', 2), ('Amber', 1)])
+      return:
+      - Lucas
+  - testcases:
+    - expression: winnaar([('Tess', 3), ('Tess', 3), ('Lotte', 1), ('Tess', 1)])
+      return:
+      - Tess
+  - testcases:
+    - expression: winnaar([('Noah', 2), ('Amber', 1), ('Sophie', 1), ('Amber', 1)])
+      return:
+      - Noah
+      - Amber
+  - testcases:
+    - expression: winnaar([('Nina', 3), ('Emma', 1), ('Fien', 3), ('Lieke', 1)])
+      return:
+      - Nina
+      - Fien
+  - testcases:
+    - expression: winnaar([('Mila', 1), ('Sophie', 1), ('Noah', 3), ('Sara', 2)])
+      return:
+      - Noah
+  - testcases:
+    - expression: winnaar([('Kelly', 1), ('George', 2), ('Kelly', 1), ('John', 2),
+        ('George', 1)])
+      return:
+      - George
+  - testcases:
+    - expression: winnaar([('Kelly', 1), ('George', 2), ('Kelly', 1), ('John', 2),
+        ('George', 1), ('Kelly', 1), ('John', 1)])
+      return:
+      - Kelly
+      - George
+      - John
+  - testcases:
+    - expression: winnaar([('Julie', 1), ('Emma', 3), ('Emma', 1), ('Mats', 2), ('Emma',
+        1), ('Mats', 3), ('Julie', 3)])
+      return:
+      - Emma
+      - Mats
+  - testcases:
+    - expression: winnaar([('Lotte', 2), ('Lotte', 3), ('Lotte', 2), ('Senne', 3),
+        ('Lotte', 3), ('Lotte', 1), ('Lotte', 3)])
+      return:
+      - Lotte
+  - testcases:
+    - expression: winnaar([('Finn', 1), ('Elise', 2), ('Lieke', 3), ('Sam', 3), ('Maud',
+        2), ('Sam', 1), ('Noah', 2), ('Finn', 1), ('Finn', 2)])
+      return:
+      - Finn
+      - Sam
+  - testcases:
+    - expression: winnaar([('Thomas', 1), ('Elise', 3), ('Thomas', 3), ('Sam', 2),
+        ('Thomas', 1), ('Daan', 2), ('Tijn', 1), ('Elin', 2), ('Elise', 2), ('Liam',
+        1), ('Thomas', 2), ('Elise', 2), ('Elise', 2), ('Thomas', 3), ('Elise', 1),
+        ('Elise', 1), ('Tijn', 2), ('Sam', 2), ('Daan', 3), ('Daan', 2), ('Daan',
+        2), ('Elise', 3), ('Thomas', 1), ('Thomas', 3), ('Elise', 2)])
+      return:
+      - Elise
+  - testcases:
+    - expression: winnaar([('Daan', 3), ('Julie', 1), ('Liam', 3), ('Lieke', 2), ('Olivier',
+        1), ('Liam', 2), ('Mats', 1), ('Liam', 1), ('Lieke', 2), ('Elin', 1), ('Tijn',
+        1), ('Elin', 2), ('Liam', 2), ('Emma', 3), ('Elin', 2), ('Mats', 3), ('Lieke',
+        2), ('Elin', 3), ('Tijn', 2), ('Liam', 1), ('Mats', 1), ('Tijn', 3), ('Liam',
+        1), ('Olivier', 3), ('Daan', 2), ('Daan', 1), ('Tijn', 3), ('Tijn', 1)])
+      return:
+      - Liam
+      - Tijn
+  - testcases:
+    - expression: winnaar([('Senne', 3), ('Lotte', 1), ('Eva', 3), ('Senne', 1), ('Senne',
+        2), ('Mila', 3), ('Lotte', 3), ('Senne', 3), ('Eva', 3), ('Mila', 3), ('Sophie',
+        3), ('Eva', 1), ('Sophie', 3), ('Senne', 3), ('Sophie', 2), ('Lotte', 3),
+        ('Senne', 3), ('Eva', 1), ('Senne', 2), ('Lotte', 1), ('Senne', 2), ('Mila',
+        3), ('Mila', 1), ('Sophie', 1), ('Lotte', 2), ('Eva', 1), ('Sophie', 3), ('Eva',
+        3), ('Lotte', 3), ('Eva', 3), ('Mila', 3), ('Mila', 1), ('Lotte', 3), ('Eva',
+        3), ('Mila', 2)])
+      return:
+      - Senne
+  - testcases:
+    - expression: winnaar([('Thomas', 1), ('Sam', 2), ('Thomas', 2), ('Thomas', 1),
+        ('Nina', 2), ('Vince', 2), ('Vince', 1), ('Vince', 1), ('Lucas', 1), ('Sam',
+        3), ('Tijn', 3), ('Lotte', 1), ('Thomas', 1), ('Sam', 2), ('Vince', 2), ('Vince',
+        2), ('Lucas', 2), ('Lucas', 3), ('Nina', 1), ('Nina', 1), ('Elin', 3), ('Thomas',
+        2), ('Elin', 3), ('Sam', 1), ('Thomas', 2), ('Sam', 1), ('Thomas', 3), ('Sam',
+        1), ('Nina', 3), ('Tijn', 3), ('Thomas', 2), ('Sophie', 3), ('Lotte', 1),
+        ('Sophie', 2), ('Tijn', 1), ('Lotte', 1), ('Elin', 2), ('Vince', 3), ('Tijn',
+        1), ('Vince', 2), ('Lucas', 2), ('Thomas', 1), ('Tijn', 1), ('Tijn', 3), ('Thomas',
+        3), ('Lotte', 3)])
+      return:
+      - Thomas
+  - testcases:
+    - expression: winnaar([('Tess', 3), ('Fien', 3), ('Noah', 3), ('Tess', 3), ('Fien',
+        1), ('Fien', 2), ('Tess', 3), ('Noah', 1), ('Tess', 3), ('Tess', 1), ('Fien',
+        1), ('Fien', 1), ('Noah', 2), ('Noah', 3), ('Tess', 2), ('Noah', 2), ('Senne',
+        3), ('Tess', 3), ('Tess', 3), ('Tess', 2), ('Noah', 1), ('Noah', 3), ('Tess',
+        2), ('Noah', 1), ('Senne', 3), ('Tess', 2), ('Tess', 2), ('Senne', 2), ('Noah',
+        1), ('Tess', 2), ('Senne', 2), ('Noah', 3), ('Noah', 1), ('Noah', 3), ('Senne',
+        2), ('Senne', 3), ('Senne', 2), ('Tess', 2), ('Tess', 1), ('Senne', 2), ('Senne',
+        1), ('Senne', 2), ('Noah', 2), ('Tess', 1), ('Noah', 3), ('Noah', 3), ('Senne',
+        1), ('Tess', 1)])
+      return:
+      - Tess
+  - testcases:
+    - expression: winnaar([('Thomas', 2), ('Arthur', 2), ('Amber', 3), ('Emma', 1),
+        ('Amber', 2), ('Julie', 1), ('Maud', 3), ('Amber', 1), ('Arthur', 2), ('Senne',
+        3), ('Emma', 3), ('Emma', 3), ('Julie', 3), ('Senne', 3), ('Thomas', 3), ('Emma',
+        2), ('Sara', 3), ('Arthur', 2), ('Arthur', 3), ('Julie', 3), ('Senne', 2),
+        ('Thomas', 3), ('Amber', 1), ('Thomas', 1), ('Sara', 3), ('Thomas', 1), ('Julie',
+        3), ('Senne', 1), ('Maud', 2), ('Senne', 1), ('Arthur', 2), ('Amber', 3),
+        ('Senne', 3), ('Amber', 1), ('Lieke', 1), ('Emma', 1), ('Julie', 2), ('Emma',
+        1), ('Maud', 3), ('Emma', 2), ('Thomas', 3), ('Lieke', 2), ('Senne', 2), ('Sara',
+        2), ('Thomas', 2), ('Lieke', 1), ('Amber', 1), ('Arthur', 2), ('Amber', 3),
+        ('Sara', 1), ('Senne', 2), ('Julie', 1), ('Lieke', 1), ('Julie', 2), ('Arthur',
+        2), ('Lieke', 1), ('Amber', 3), ('Lieke', 3), ('Amber', 2), ('Emma', 3), ('Maud',
+        1), ('Emma', 3), ('Emma', 1), ('Emma', 3)])
+      return:
+      - Emma
+  - testcases:
+    - expression: winnaar([('Lieke', 1), ('Maud', 1), ('Finn', 3), ('Lieke', 2), ('Nina',
+        3), ('Mats', 3), ('Lieke', 1), ('Maud', 3), ('Maud', 1), ('Nina', 1), ('Vera',
+        1), ('Lieke', 2), ('Vera', 3), ('Maud', 1), ('Senne', 2), ('Finn', 3), ('Senne',
+        1), ('Vera', 1), ('Senne', 2), ('Vera', 2), ('Liam', 3), ('Lieke', 2), ('Lieke',
+        1), ('Vera', 1), ('Vera', 1), ('Senne', 3), ('Vera', 1), ('Mats', 2), ('Senne',
+        2), ('Maud', 3), ('Liam', 3), ('Senne', 1), ('Liam', 2), ('Nina', 2), ('Liam',
+        1), ('Mats', 3), ('Nina', 3), ('Senne', 1), ('Vera', 2), ('Senne', 3), ('Senne',
+        1), ('Mats', 1), ('Senne', 3), ('Vera', 2), ('Maud', 2), ('Maud', 3), ('Maud',
+        1), ('Senne', 2), ('Liam', 1), ('Mats', 1), ('Lieke', 1), ('Nina', 2), ('Liam',
+        2), ('Finn', 2), ('Liam', 3), ('Nina', 3), ('Maud', 2), ('Vera', 1), ('Finn',
+        2), ('Senne', 1), ('Finn', 1), ('Senne', 3), ('Mats', 2), ('Lieke', 1), ('Maud',
+        1), ('Vera', 1), ('Nina', 1), ('Nina', 2), ('Nina', 1), ('Lieke', 3), ('Finn',
+        2), ('Finn', 3), ('Senne', 1), ('Lieke', 3), ('Mats', 3), ('Lieke', 3)])
+      return:
+      - Senne
+  - testcases:
+    - expression: winnaar([('Noah', 2), ('Finn', 3), ('Finn', 3), ('Finn', 3), ('Finn',
+        3), ('Noah', 3), ('Jasper', 2), ('Jasper', 1), ('Jasper', 1), ('Finn', 1),
+        ('Finn', 3), ('Jasper', 2), ('Jasper', 2), ('Noah', 1), ('Noah', 1), ('Noah',
+        3), ('Jasper', 2), ('Jasper', 2), ('Jasper', 1), ('Finn', 1), ('Jasper', 1),
+        ('Finn', 1), ('Jasper', 3), ('Jasper', 2), ('Noah', 3), ('Finn', 2), ('Noah',
+        1), ('Finn', 2), ('Noah', 3), ('Finn', 2), ('Jasper', 3), ('Jasper', 1), ('Finn',
+        3), ('Jasper', 3), ('Finn', 2), ('Finn', 3), ('Finn', 3), ('Finn', 2), ('Jasper',
+        2), ('Finn', 1), ('Jasper', 1), ('Noah', 3), ('Noah', 1), ('Finn', 3), ('Noah',
+        2), ('Noah', 2), ('Jasper', 1), ('Jasper', 2), ('Jasper', 1), ('Noah', 3),
+        ('Finn', 1), ('Jasper', 2), ('Jasper', 3), ('Jasper', 3), ('Finn', 3), ('Noah',
+        1), ('Finn', 1), ('Noah', 3), ('Noah', 2), ('Finn', 3), ('Finn', 1), ('Jasper',
+        3), ('Jasper', 1), ('Noah', 1), ('Finn', 1), ('Noah', 2), ('Finn', 2), ('Finn',
+        2), ('Finn', 2), ('Jasper', 1), ('Noah', 2), ('Finn', 2), ('Noah', 1), ('Finn',
+        2), ('Noah', 1), ('Jasper', 2), ('Noah', 2), ('Finn', 3)])
+      return:
+      - Finn
+  - testcases:
+    - expression: winnaar([('Finn', 3), ('Finn', 3), ('Maud', 2), ('Maud', 1), ('Julie',
+        1), ('Julie', 1), ('Julie', 3), ('Maud', 2), ('Finn', 1), ('Julie', 1), ('Finn',
+        1), ('Julie', 1), ('Julie', 1), ('Julie', 2), ('Finn', 3), ('Julie', 2), ('Maud',
+        3), ('Maud', 1), ('Maud', 1), ('Finn', 2), ('Julie', 1), ('Finn', 3), ('Julie',
+        3), ('Maud', 2), ('Finn', 1), ('Maud', 1), ('Julie', 1), ('Julie', 1), ('Finn',
+        1), ('Finn', 2), ('Finn', 1), ('Maud', 2), ('Maud', 3), ('Julie', 3), ('Maud',
+        3), ('Julie', 3), ('Julie', 2), ('Julie', 2), ('Finn', 3), ('Julie', 3), ('Julie',
+        3), ('Finn', 1), ('Julie', 2), ('Maud', 3), ('Julie', 1), ('Finn', 1), ('Finn',
+        2), ('Finn', 3), ('Maud', 3), ('Julie', 1), ('Julie', 3), ('Finn', 2), ('Maud',
+        1), ('Julie', 1), ('Finn', 3), ('Maud', 3), ('Finn', 3), ('Julie', 2), ('Finn',
+        2), ('Julie', 1), ('Julie', 1), ('Julie', 1), ('Maud', 1), ('Maud', 1), ('Maud',
+        1), ('Julie', 3), ('Julie', 3), ('Maud', 3), ('Maud', 1), ('Julie', 2), ('Julie',
+        1), ('Julie', 2), ('Julie', 2), ('Julie', 2), ('Finn', 2), ('Finn', 1), ('Finn',
+        2), ('Maud', 3), ('Maud', 3), ('Julie', 3), ('Finn', 2), ('Maud', 3), ('Julie',
+        2), ('Julie', 1), ('Maud', 2), ('Finn', 2), ('Finn', 3)])
+      return:
+      - Julie
