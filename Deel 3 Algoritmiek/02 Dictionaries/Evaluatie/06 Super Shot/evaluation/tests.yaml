@@ -44,7 +44,7 @@
         ('George', 1), ('Kelly', 1), ('John', 1)])
       return: !oracle
         oracle: "custom_check"
-        value: !list
+        value:
         - Kelly
         - George
         - John
