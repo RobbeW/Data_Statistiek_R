@@ -81,143 +81,147 @@
         'Heuvelpoort', 'Terplatenbrug', 'Leeuwstraat', 'Muinklaan', 'Vijfwindgatenstraat',
         'Zuid', 'Tweebruggenstraat', 'Gent Eendrachtstraat', 'Eendrachtstraat', 'Dampoort',
         'La Sapinière', 'Bernadette Kerk', 'Volvo Cars']})"
-      return:
-        Arteveldestadion: 1
-        Proeftuinstraat: 1
-        UZ Heymanslaan: 1
-        Heymanslaan: 1
-        Koekoeklaan: 1
-        Zwijnaardsesteenweg (spoorwegbrug): 3
-        Parkplein: 10
-        Sint-Pietersstation: 13
-        Meersstraat: 3
-        Koning Albertbrug (Sportstraat): 3
-        Koning Albertbrug (Neermeerskaai): 1
-        Sportstraat: 3
-        Neermeerskaai: 1
-        Europabrug: 3
-        Verenigde Natieslaan: 1
-        Europalaan: 2
-        De Deynestraat: 5
-        De Pintelaan: 5
-        Sterre: 8
-        Flamingostraat: 8
-        Tuinwijklaan: 8
-        Fortlaan: 6
-        Ledeganckstraat: 6
-        Heuvelpoort: 8
-        Terplatenbrug: 6
-        Leeuwstraat: 6
-        Muinklaan: 6
-        Vijfwindgatenstraat: 10
-        Zuid: 15
-        Tweebruggenstraat: 6
-        Eendrachtstraat: 6
-        Dampoort: 10
-        La Sapinière: 2
-        Bernadette Kerk: 2
-        Volvo Cars: 2
-        Zwijnaardsesteenweg: 3
-        Zomerstraat: 3
-        Sint-Lievenspoort: 4
-        Nieuwhof: 2
-        Rabot (Griendeplein): 1
-        Wittekaproenenplein: 1
-        Nieuwevaartbrug: 1
-        Westerbegraafplaats: 1
-        Machinistenpark: 1
-        Staakskenstraat: 1
-        Guislainbrug: 1
-        Rooigem (R40): 3
-        Peerstraat: 3
-        Malem (Rooigemlaan): 3
-        Overzet: 4
-        Beneluxplein: 5
-        Einde Were: 4
-        Andrieslaan: 3
-        Yachtdreef: 3
-        Bernard Spaelaan: 2
-        Koning Albertbrug: 2
-        Jutestraat: 2
-        Fluweelstraat: 2
-        Malpertuusplein: 2
-        Rooigem (Bevrijdingslaan): 1
-        Malem: 1
-        Notelaarstraat: 1
-        Seghersplein: 1
-        Nieuwewandeling: 2
-        Brugsepoort: 4
-        Poel: 4
-        Korenmarkt: 4
-        Sint-Jacobs: 9
-        Sint-Jorisbrug: 5
-        Jan van Gentstraat: 4
-        Maaltebruggestraat: 3
-        Malem (Drongensesteenweg): 2
-        Geitstraat: 2
-        Seghersplein (Weversstraat): 2
-        Spanjeveerbrug: 1
-        Herpelinckstraat: 1
-        Kapelledreef: 1
-        Arcelor Mittal: 1
-        Kapucijnenham: 6
-        Reep: 6
-        Van Eyckstraat: 1
-        Puinstraat: 1
-        Lousbergsbrug: 1
-        Lousbergskaai: 1
-        Zalmstraat: 1
-        Minneplein: 1
-        Ottogracht: 4
-        AZ Sint-Lucas: 4
-        Sanderusstraat: 4
-        Tolpoort: 4
-        Tolhuisbrug: 2
-        Pantserschipstraat: 1
-        taminco: 1
-        Taminco: 1
-        Passagierstraat: 1
-        Wondelgemkaai: 1
-        Gentweg: 1
-        Spesbroekstraat: 1
-        Salamanderstraat: 2
-        Berkhoutsheide: 2
-        Jaspisstraat: 2
-        Haardstedestraat: 2
-        Roelandtplein: 2
-        Van Haelststraat: 2
-        UZ Zwijnaardsesteenweg: 2
-        Opvoedingstraat: 2
-        de Heerestraat: 2
-        Ottergemsesteenweg: 2
-        Sint-Pietersplein: 2
-        Blandijnberg: 2
-        Bagattenstraat: 2
-        Wiedauwkaai: 1
-        Vynckier: 1
-        Gaardeniersbrug: 1
-        Wondelgembrug: 1
-        Fuchsiastraat: 1
-        Van Beverenplein: 1
-        van Ryhovelaan: 1
-        Muidebrug: 2
-        Pauwstraat: 1
-        New-Yorkstraat: 1
-        Leithstraat: 1
-        Glasgowstraat: 2
-        LDC De Waterspiegel: 1
-        Meeuwstraat: 1
-        Blekerijstraat: 1
-        Stapelplein: 1
-        Dok Noord: 1
-        Heilig-Kerst: 1
-        Neuseplein: 1
-        Aziëstraat: 1
-        P+R Lübeck: 1
-        Chinastraat: 1
-        Scandinaviëstraat: 1
-        P+R Muide: 1
-        Gent Eendrachtstraat: 1
+      return: !oracle
+        oracle: "custom_check"
+        value:
+          Arteveldestadion: 1
+          Proeftuinstraat: 1
+          UZ Heymanslaan: 1
+          Heymanslaan: 1
+          Koekoeklaan: 1
+          Zwijnaardsesteenweg (spoorwegbrug): 3
+          Parkplein: 10
+          Sint-Pietersstation: 13
+          Meersstraat: 3
+          Koning Albertbrug (Sportstraat): 3
+          Koning Albertbrug (Neermeerskaai): 1
+          Sportstraat: 3
+          Neermeerskaai: 1
+          Europabrug: 3
+          Verenigde Natieslaan: 1
+          Europalaan: 2
+          De Deynestraat: 5
+          De Pintelaan: 5
+          Sterre: 8
+          Flamingostraat: 8
+          Tuinwijklaan: 8
+          Fortlaan: 6
+          Ledeganckstraat: 6
+          Heuvelpoort: 8
+          Terplatenbrug: 6
+          Leeuwstraat: 6
+          Muinklaan: 6
+          Vijfwindgatenstraat: 10
+          Zuid: 15
+          Tweebruggenstraat: 6
+          Eendrachtstraat: 6
+          Dampoort: 10
+          La Sapinière: 2
+          Bernadette Kerk: 2
+          Volvo Cars: 2
+          Zwijnaardsesteenweg: 3
+          Zomerstraat: 3
+          Sint-Lievenspoort: 4
+          Nieuwhof: 2
+          Rabot (Griendeplein): 1
+          Wittekaproenenplein: 1
+          Nieuwevaartbrug: 1
+          Westerbegraafplaats: 1
+          Machinistenpark: 1
+          Staakskenstraat: 1
+          Guislainbrug: 1
+          Rooigem (R40): 3
+          Peerstraat: 3
+          Malem (Rooigemlaan): 3
+          Overzet: 4
+          Beneluxplein: 5
+          Einde Were: 4
+          Andrieslaan: 3
+          Yachtdreef: 3
+          Bernard Spaelaan: 2
+          Koning Albertbrug: 2
+          Jutestraat: 2
+          Fluweelstraat: 2
+          Malpertuusplein: 2
+          Rooigem (Bevrijdingslaan): 1
+          Malem: 1
+          Notelaarstraat: 1
+          Seghersplein: 1
+          Nieuwewandeling: 2
+          Brugsepoort: 4
+          Poel: 4
+          Korenmarkt: 4
+          Sint-Jacobs: 9
+          Sint-Jorisbrug: 5
+          Jan van Gentstraat: 4
+          Maaltebruggestraat: 3
+          Malem (Drongensesteenweg): 2
+          Geitstraat: 2
+          Seghersplein (Weversstraat): 2
+          Spanjeveerbrug: 1
+          Herpelinckstraat: 1
+          Kapelledreef: 1
+          Arcelor Mittal: 1
+          Kapucijnenham: 6
+          Reep: 6
+          Van Eyckstraat: 1
+          Puinstraat: 1
+          Lousbergsbrug: 1
+          Lousbergskaai: 1
+          Zalmstraat: 1
+          Minneplein: 1
+          Ottogracht: 4
+          AZ Sint-Lucas: 4
+          Sanderusstraat: 4
+          Tolpoort: 4
+          Tolhuisbrug: 2
+          Pantserschipstraat: 1
+          taminco: 1
+          Taminco: 1
+          Passagierstraat: 1
+          Wondelgemkaai: 1
+          Gentweg: 1
+          Spesbroekstraat: 1
+          Salamanderstraat: 2
+          Berkhoutsheide: 2
+          Jaspisstraat: 2
+          Haardstedestraat: 2
+          Roelandtplein: 2
+          Van Haelststraat: 2
+          UZ Zwijnaardsesteenweg: 2
+          Opvoedingstraat: 2
+          de Heerestraat: 2
+          Ottergemsesteenweg: 2
+          Sint-Pietersplein: 2
+          Blandijnberg: 2
+          Bagattenstraat: 2
+          Wiedauwkaai: 1
+          Vynckier: 1
+          Gaardeniersbrug: 1
+          Wondelgembrug: 1
+          Fuchsiastraat: 1
+          Van Beverenplein: 1
+          van Ryhovelaan: 1
+          Muidebrug: 2
+          Pauwstraat: 1
+          New-Yorkstraat: 1
+          Leithstraat: 1
+          Glasgowstraat: 2
+          LDC De Waterspiegel: 1
+          Meeuwstraat: 1
+          Blekerijstraat: 1
+          Stapelplein: 1
+          Dok Noord: 1
+          Heilig-Kerst: 1
+          Neuseplein: 1
+          Aziëstraat: 1
+          P+R Lübeck: 1
+          Chinastraat: 1
+          Scandinaviëstraat: 1
+          P+R Muide: 1
+          Gent Eendrachtstraat: 1
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: "drukte_haltes({'20': ['Erpestraat', 'Sint-Apoloniastraat', 'Kreupelveldstraat',
         'Welvaartstraat', 'Sinte Annalaan', 'VTI', 'Verastenstraat', 'Ledebaan', 'Meuleschettekapel',
@@ -244,65 +248,69 @@
         'Kerrebroekstraat'], '25': ['Station', 'Esplanade', 'Vredeplein', 'Gentsestraat',
         'Sinte Annalaan', 'Welvaartstraat', 'Kreupelveldstraat', 'Sint-Apoloniastraat',
         'Erpestraat']})"
-      return:
-        Erpestraat: 2
-        Sint-Apoloniastraat: 2
-        Kreupelveldstraat: 2
-        Welvaartstraat: 2
-        Sinte Annalaan: 2
-        VTI: 2
-        Verastenstraat: 1
-        Ledebaan: 2
-        Meuleschettekapel: 8
-        Esplanade: 9
-        Station: 12
-        Vredeplein: 4
-        Dendermondsesteenweg: 3
-        Kerrebroekstraat: 3
-        Zwartehoekbrug: 1
-        Tramstraat: 1
-        Pier Kornel: 1
-        Lion d'Or: 1
-        Popperodedries: 1
-        Bredestraat: 1
-        Hammestraat: 1
-        Een Meistraat: 3
-        Doolhofstraat: 2
-        Onze-Lieve-Vrouw Ziekenhuis: 2
-        Paardendries: 1
-        Achterweg: 1
-        Zwembad: 1
-        Beukendreef: 1
-        Steenland: 1
-        Borreput: 1
-        Zandberg: 1
-        Hof Somergem: 1
-        Sint-Janskerk: 1
-        Schietbaan: 1
-        Crematorium: 1
-        Stedelijk Ziekenhuis: 2
-        Oude Vismarkt: 3
-        Houtmarkt: 3
-        Colinetstraat: 2
-        Diepestraat: 2
-        Capucienen: 2
-        Van Der Guchtlaan: 1
-        Irisstraat: 1
-        Korte Vooruitzichtstraat: 1
-        Biekorfstraat: 1
-        Boudewijnlaan: 1
-        Technisch Atheneum 1: 1
-        Dokter De Moorstraat: 1
-        Tulpstraat: 1
-        Stadion: 1
-        Popperodehof: 1
-        Ouden Dendermondse: 1
-        Dompelstraat: 1
-        Binnenstraat: 1
-        Sporthal Ten Rozen: 1
-        Oude Abdijstraat: 2
-        Fonteinstraat: 1
-        Rozendreef: 1
-        Blanckaertdreef: 1
-        De Haring: 1
-        Gentsestraat: 1
+      return: !oracle
+        oracle: "custom_check"
+        value:
+          Erpestraat: 2
+          Sint-Apoloniastraat: 2
+          Kreupelveldstraat: 2
+          Welvaartstraat: 2
+          Sinte Annalaan: 2
+          VTI: 2
+          Verastenstraat: 1
+          Ledebaan: 2
+          Meuleschettekapel: 8
+          Esplanade: 9
+          Station: 12
+          Vredeplein: 4
+          Dendermondsesteenweg: 3
+          Kerrebroekstraat: 3
+          Zwartehoekbrug: 1
+          Tramstraat: 1
+          Pier Kornel: 1
+          Lion d'Or: 1
+          Popperodedries: 1
+          Bredestraat: 1
+          Hammestraat: 1
+          Een Meistraat: 3
+          Doolhofstraat: 2
+          Onze-Lieve-Vrouw Ziekenhuis: 2
+          Paardendries: 1
+          Achterweg: 1
+          Zwembad: 1
+          Beukendreef: 1
+          Steenland: 1
+          Borreput: 1
+          Zandberg: 1
+          Hof Somergem: 1
+          Sint-Janskerk: 1
+          Schietbaan: 1
+          Crematorium: 1
+          Stedelijk Ziekenhuis: 2
+          Oude Vismarkt: 3
+          Houtmarkt: 3
+          Colinetstraat: 2
+          Diepestraat: 2
+          Capucienen: 2
+          Van Der Guchtlaan: 1
+          Irisstraat: 1
+          Korte Vooruitzichtstraat: 1
+          Biekorfstraat: 1
+          Boudewijnlaan: 1
+          Technisch Atheneum 1: 1
+          Dokter De Moorstraat: 1
+          Tulpstraat: 1
+          Stadion: 1
+          Popperodehof: 1
+          Ouden Dendermondse: 1
+          Dompelstraat: 1
+          Binnenstraat: 1
+          Sporthal Ten Rozen: 1
+          Oude Abdijstraat: 2
+          Fonteinstraat: 1
+          Rozendreef: 1
+          Blanckaertdreef: 1
+          De Haring: 1
+          Gentsestraat: 1
+        file: "test.py"
+        name: "check_function"
