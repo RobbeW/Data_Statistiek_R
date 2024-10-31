@@ -14,14 +14,22 @@
       - Tess
   - testcases:
     - expression: winnaar([('Noah', 2), ('Amber', 1), ('Sophie', 1), ('Amber', 1)])
-      return:
-      - Noah
-      - Amber
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - Noah
+        - Amber
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: winnaar([('Nina', 3), ('Emma', 1), ('Fien', 3), ('Lieke', 1)])
-      return:
-      - Nina
-      - Fien
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - Nina
+        - Fien
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: winnaar([('Mila', 1), ('Sophie', 1), ('Noah', 3), ('Sara', 2)])
       return:
@@ -34,16 +42,24 @@
   - testcases:
     - expression: winnaar([('Kelly', 1), ('George', 2), ('Kelly', 1), ('John', 2),
         ('George', 1), ('Kelly', 1), ('John', 1)])
-      return:
-      - Kelly
-      - George
-      - John
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - Kelly
+        - George
+        - John
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: winnaar([('Julie', 1), ('Emma', 3), ('Emma', 1), ('Mats', 2), ('Emma',
         1), ('Mats', 3), ('Julie', 3)])
-      return:
-      - Emma
-      - Mats
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - Emma
+        - Mats
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: winnaar([('Lotte', 2), ('Lotte', 3), ('Lotte', 2), ('Senne', 3),
         ('Lotte', 3), ('Lotte', 1), ('Lotte', 3)])
@@ -52,9 +68,13 @@
   - testcases:
     - expression: winnaar([('Finn', 1), ('Elise', 2), ('Lieke', 3), ('Sam', 3), ('Maud',
         2), ('Sam', 1), ('Noah', 2), ('Finn', 1), ('Finn', 2)])
-      return:
-      - Finn
-      - Sam
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - Finn
+        - Sam
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: winnaar([('Thomas', 1), ('Elise', 3), ('Thomas', 3), ('Sam', 2),
         ('Thomas', 1), ('Daan', 2), ('Tijn', 1), ('Elin', 2), ('Elise', 2), ('Liam',
@@ -69,9 +89,13 @@
         1), ('Elin', 2), ('Liam', 2), ('Emma', 3), ('Elin', 2), ('Mats', 3), ('Lieke',
         2), ('Elin', 3), ('Tijn', 2), ('Liam', 1), ('Mats', 1), ('Tijn', 3), ('Liam',
         1), ('Olivier', 3), ('Daan', 2), ('Daan', 1), ('Tijn', 3), ('Tijn', 1)])
-      return:
-      - Liam
-      - Tijn
+      return: !oracle
+        oracle: "custom_check"
+        value:
+        - Liam
+        - Tijn
+        file: "test.py"
+        name: "check_function"
   - testcases:
     - expression: winnaar([('Senne', 3), ('Lotte', 1), ('Eva', 3), ('Senne', 1), ('Senne',
         2), ('Mila', 3), ('Lotte', 3), ('Senne', 3), ('Eva', 3), ('Mila', 3), ('Sophie',
