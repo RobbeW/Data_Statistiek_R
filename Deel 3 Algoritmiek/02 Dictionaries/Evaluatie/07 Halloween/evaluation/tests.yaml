@@ -1,0 +1,447 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: halloween(['horrorclown', 'zombie'])
+      return:
+      - horrorclown
+      - zombie
+  - testcases:
+    - expression: halloween(['demon', 'zombie'])
+      return:
+      - demon
+      - zombie
+  - testcases:
+    - expression: halloween(['demon', 'weerwolf'])
+      return:
+      - demon
+      - weerwolf
+  - testcases:
+    - expression: halloween(['spook', 'zombie', 'spook'])
+      return:
+      - zombie
+  - testcases:
+    - expression: halloween(['geest', 'demon', 'duivel'])
+      return:
+      - geest
+      - demon
+      - duivel
+  - testcases:
+    - expression: halloween(['spook', 'spook', 'weerwolf'])
+      return:
+      - weerwolf
+  - testcases:
+    - expression: halloween(['mummie', 'duivel', 'weerwolf'])
+      return:
+      - mummie
+      - duivel
+      - weerwolf
+  - testcases:
+    - expression: halloween(['duivel', 'duivel', 'heks', 'demon'])
+      return:
+      - heks
+      - demon
+  - testcases:
+    - expression: halloween(['weerwolf', 'spook', 'skelet', 'vampier', 'heks', 'zombie'])
+      return:
+      - weerwolf
+      - spook
+      - skelet
+      - vampier
+      - heks
+      - zombie
+  - testcases:
+    - expression: halloween(['weerwolf', 'duivel', 'mummie', 'weerwolf', 'zombie',
+        'zombie'])
+      return:
+      - duivel
+      - mummie
+  - testcases:
+    - expression: halloween(['geest', 'spook', 'heks', 'horrorclown', 'geest', 'weerwolf'])
+      return:
+      - spook
+      - heks
+      - horrorclown
+      - weerwolf
+  - testcases:
+    - expression: halloween(['weerwolf', 'skelet', 'demon', 'geest', 'spook', 'heks',
+        'mummie'])
+      return:
+      - weerwolf
+      - skelet
+      - demon
+      - geest
+      - spook
+      - heks
+      - mummie
+  - testcases:
+    - expression: halloween(['spook', 'mummie', 'heks', 'zombie', 'zombie', 'zombie',
+        'zombie', 'zombie'])
+      return:
+      - spook
+      - mummie
+      - heks
+  - testcases:
+    - expression: halloween(['vampier', 'weerwolf', 'weerwolf', 'heks', 'mummie',
+        'vampier', 'horrorclown', 'spook'])
+      return:
+      - heks
+      - mummie
+      - horrorclown
+      - spook
+  - testcases:
+    - expression: halloween(['weerwolf', 'duivel', 'spook', 'heks', 'demon', 'demon',
+        'spook', 'geest', 'skelet'])
+      return:
+      - weerwolf
+      - duivel
+      - heks
+      - geest
+      - skelet
+  - testcases:
+    - expression: halloween(['heks', 'weerwolf', 'spook', 'mummie', 'heks', 'spook',
+        'geest', 'heks', 'demon', 'demon'])
+      return:
+      - weerwolf
+      - mummie
+      - geest
+  - testcases:
+    - expression: halloween(['demon', 'horrorclown', 'horrorclown', 'vampier', 'duivel',
+        'heks', 'weerwolf', 'weerwolf', 'mummie', 'mummie', 'demon'])
+      return:
+      - vampier
+      - duivel
+      - heks
+  - testcases:
+    - expression: halloween(['vampier', 'skelet', 'weerwolf', 'weerwolf', 'geest',
+        'geest', 'duivel', 'vampier', 'duivel', 'vampier', 'duivel', 'demon', 'duivel',
+        'horrorclown', 'geest', 'heks', 'mummie', 'zombie', 'geest', 'vampier', 'duivel',
+        'spook', 'demon', 'vampier', 'demon', 'duivel', 'vampier', 'vampier', 'spook',
+        'weerwolf', 'geest', 'weerwolf', 'duivel', 'zombie', 'mummie', 'duivel', 'horrorclown',
+        'demon', 'heks', 'heks', 'weerwolf', 'spook', 'duivel', 'duivel', 'duivel',
+        'zombie', 'vampier', 'skelet', 'horrorclown', 'heks', 'zombie', 'spook', 'heks',
+        'vampier'])
+      return:
+      - skelet
+      - mummie
+  - testcases:
+    - expression: halloween(['horrorclown', 'spook', 'mummie', 'skelet', 'spook',
+        'vampier', 'mummie', 'skelet', 'skelet', 'skelet', 'duivel', 'vampier', 'spook',
+        'geest', 'demon', 'skelet', 'skelet', 'duivel', 'horrorclown', 'duivel', 'duivel',
+        'weerwolf', 'demon', 'mummie', 'demon', 'heks', 'spook', 'skelet', 'horrorclown',
+        'heks', 'zombie', 'skelet', 'weerwolf', 'spook', 'weerwolf', 'demon', 'weerwolf',
+        'horrorclown', 'duivel', 'geest', 'spook', 'geest', 'geest', 'vampier', 'duivel',
+        'weerwolf', 'skelet', 'demon', 'spook', 'demon', 'demon', 'demon', 'demon',
+        'weerwolf', 'heks', 'weerwolf', 'zombie', 'mummie', 'demon', 'demon'])
+      return:
+      - zombie
+  - testcases:
+    - expression: halloween(['demon', 'duivel', 'demon', 'zombie', 'zombie', 'spook',
+        'heks', 'horrorclown', 'horrorclown', 'geest', 'heks', 'geest', 'skelet',
+        'vampier', 'horrorclown', 'heks', 'zombie', 'heks', 'zombie', 'duivel', 'horrorclown',
+        'zombie', 'horrorclown', 'skelet', 'skelet', 'demon', 'mummie', 'heks', 'spook',
+        'demon', 'duivel', 'weerwolf', 'geest', 'weerwolf', 'demon', 'duivel', 'horrorclown',
+        'spook', 'mummie', 'demon', 'weerwolf', 'weerwolf', 'zombie', 'heks', 'skelet',
+        'horrorclown', 'mummie', 'zombie', 'duivel', 'weerwolf', 'vampier', 'spook',
+        'geest', 'duivel', 'weerwolf', 'horrorclown', 'horrorclown', 'horrorclown',
+        'heks', 'horrorclown', 'duivel', 'mummie', 'demon', 'demon', 'horrorclown',
+        'spook', 'geest', 'vampier', 'geest', 'duivel', 'mummie', 'weerwolf', 'zombie',
+        'demon', 'weerwolf', 'zombie', 'demon', 'demon', 'geest', 'zombie'])
+      return:
+      - vampier
+  - testcases:
+    - expression: halloween(['zombie', 'weerwolf', 'spook', 'spook', 'demon', 'vampier',
+        'skelet', 'weerwolf', 'duivel', 'horrorclown', 'heks', 'mummie', 'spook',
+        'zombie', 'weerwolf', 'skelet', 'mummie', 'zombie', 'mummie', 'heks', 'weerwolf',
+        'horrorclown', 'zombie', 'mummie', 'geest', 'skelet', 'duivel', 'vampier',
+        'heks', 'weerwolf', 'duivel', 'heks', 'mummie', 'spook', 'spook', 'spook',
+        'demon', 'heks', 'skelet', 'weerwolf', 'duivel', 'horrorclown', 'mummie',
+        'horrorclown', 'spook', 'demon', 'demon', 'horrorclown', 'spook', 'duivel',
+        'geest', 'heks', 'zombie', 'geest', 'demon', 'geest', 'horrorclown', 'demon',
+        'duivel', 'horrorclown', 'geest', 'demon', 'demon', 'spook', 'zombie', 'demon',
+        'mummie', 'heks', 'skelet', 'heks', 'demon', 'skelet', 'weerwolf', 'demon',
+        'spook', 'weerwolf', 'geest', 'geest', 'zombie', 'horrorclown', 'heks', 'heks',
+        'demon', 'zombie', 'zombie', 'duivel', 'spook', 'skelet'])
+      return:
+      - vampier
+  - testcases:
+    - expression: halloween(['weerwolf', 'mummie', 'mummie', 'weerwolf', 'weerwolf',
+        'horrorclown', 'zombie', 'heks', 'spook', 'demon', 'zombie', 'horrorclown',
+        'skelet', 'duivel', 'demon', 'vampier', 'mummie', 'skelet', 'skelet', 'weerwolf',
+        'mummie', 'geest', 'geest', 'heks', 'demon', 'horrorclown', 'geest', 'vampier',
+        'spook', 'mummie', 'skelet', 'skelet', 'demon', 'weerwolf', 'duivel', 'geest',
+        'mummie', 'spook', 'spook', 'geest', 'duivel', 'mummie', 'heks', 'mummie',
+        'geest', 'demon', 'skelet', 'vampier', 'vampier', 'weerwolf', 'geest', 'geest',
+        'vampier', 'vampier', 'heks', 'horrorclown', 'mummie', 'geest', 'skelet',
+        'heks', 'spook', 'mummie', 'vampier', 'duivel', 'duivel', 'demon', 'spook',
+        'heks', 'demon', 'skelet', 'geest', 'mummie', 'heks', 'mummie', 'vampier',
+        'vampier', 'vampier', 'horrorclown', 'heks', 'demon', 'geest', 'spook', 'spook',
+        'mummie', 'mummie', 'spook', 'horrorclown', 'horrorclown', 'spook', 'demon',
+        'heks', 'spook', 'mummie', 'demon', 'geest', 'mummie', 'skelet', 'geest',
+        'geest', 'heks', 'mummie', 'geest', 'duivel', 'weerwolf', 'weerwolf', 'geest',
+        'zombie', 'weerwolf', 'geest', 'mummie', 'demon', 'heks', 'vampier', 'vampier',
+        'weerwolf', 'duivel', 'spook', 'horrorclown', 'zombie', 'demon', 'demon',
+        'demon', 'demon', 'duivel', 'weerwolf', 'heks', 'vampier', 'demon', 'zombie',
+        'spook', 'demon', 'zombie', 'skelet', 'duivel', 'duivel', 'duivel', 'duivel',
+        'vampier', 'heks', 'geest', 'mummie', 'skelet', 'demon', 'demon', 'mummie',
+        'heks', 'spook', 'heks', 'weerwolf', 'mummie', 'spook', 'zombie', 'spook',
+        'mummie', 'heks', 'zombie', 'horrorclown', 'heks', 'weerwolf', 'weerwolf',
+        'heks', 'duivel', 'duivel', 'vampier', 'zombie', 'weerwolf', 'duivel', 'heks',
+        'duivel', 'skelet', 'geest', 'demon', 'horrorclown', 'mummie', 'vampier',
+        'skelet', 'zombie', 'horrorclown', 'zombie', 'horrorclown', 'mummie', 'demon',
+        'duivel', 'vampier', 'skelet', 'horrorclown', 'skelet', 'heks', 'vampier',
+        'zombie', 'weerwolf', 'geest', 'horrorclown', 'geest', 'heks', 'zombie', 'horrorclown',
+        'duivel', 'horrorclown', 'spook', 'vampier', 'demon'])
+      return:
+      - zombie
+  - testcases:
+    - expression: halloween(['demon', 'demon', 'horrorclown', 'mummie', 'horrorclown',
+        'zombie', 'spook', 'horrorclown', 'demon', 'mummie', 'geest', 'skelet', 'vampier',
+        'geest', 'skelet', 'demon', 'weerwolf', 'mummie', 'skelet', 'geest', 'zombie',
+        'weerwolf', 'vampier', 'duivel', 'spook', 'geest', 'zombie', 'zombie', 'skelet',
+        'mummie', 'weerwolf', 'duivel', 'skelet', 'geest', 'zombie', 'zombie', 'zombie',
+        'heks', 'skelet', 'skelet', 'geest', 'horrorclown', 'duivel', 'duivel', 'horrorclown',
+        'horrorclown', 'vampier', 'weerwolf', 'demon', 'weerwolf', 'spook', 'heks',
+        'weerwolf', 'weerwolf', 'horrorclown', 'skelet', 'heks', 'weerwolf', 'duivel',
+        'skelet', 'spook', 'mummie', 'geest', 'mummie', 'spook', 'spook', 'geest',
+        'spook', 'mummie', 'zombie', 'zombie', 'demon', 'heks', 'horrorclown', 'heks',
+        'skelet', 'mummie', 'weerwolf', 'horrorclown', 'geest', 'mummie', 'mummie',
+        'demon', 'heks', 'vampier', 'mummie', 'heks', 'heks', 'weerwolf', 'heks',
+        'spook', 'heks', 'mummie', 'horrorclown', 'demon', 'skelet', 'duivel', 'mummie',
+        'horrorclown', 'horrorclown', 'geest', 'geest', 'skelet', 'geest', 'heks',
+        'skelet', 'skelet', 'horrorclown', 'mummie', 'zombie', 'demon', 'heks', 'horrorclown',
+        'heks', 'spook', 'zombie', 'duivel', 'skelet', 'geest', 'duivel', 'spook',
+        'weerwolf', 'spook', 'horrorclown', 'mummie', 'skelet', 'geest', 'vampier',
+        'spook', 'skelet', 'spook', 'geest', 'horrorclown', 'weerwolf', 'weerwolf',
+        'geest', 'duivel', 'vampier', 'demon', 'demon', 'vampier', 'mummie', 'geest',
+        'heks', 'weerwolf', 'zombie', 'skelet', 'mummie', 'skelet', 'weerwolf', 'duivel',
+        'zombie', 'vampier', 'vampier', 'mummie', 'duivel', 'geest', 'spook', 'horrorclown',
+        'zombie', 'geest', 'duivel', 'weerwolf', 'duivel', 'skelet', 'demon', 'demon',
+        'skelet', 'vampier', 'vampier', 'geest', 'spook', 'spook', 'zombie', 'vampier',
+        'spook', 'geest', 'demon', 'demon', 'weerwolf', 'zombie', 'geest', 'spook',
+        'horrorclown', 'vampier', 'mummie', 'weerwolf', 'mummie', 'spook', 'mummie',
+        'horrorclown', 'demon', 'zombie', 'mummie', 'heks', 'heks', 'geest', 'skelet',
+        'zombie', 'demon', 'horrorclown', 'spook', 'horrorclown', 'horrorclown', 'mummie',
+        'horrorclown', 'zombie', 'duivel', 'zombie', 'heks', 'heks', 'skelet', 'geest',
+        'skelet', 'zombie', 'zombie', 'duivel', 'vampier', 'spook', 'duivel', 'duivel',
+        'duivel', 'demon', 'spook', 'duivel', 'skelet', 'demon', 'skelet', 'spook',
+        'heks', 'spook', 'spook', 'weerwolf', 'vampier', 'weerwolf', 'heks', 'spook',
+        'horrorclown', 'spook', 'duivel', 'geest', 'horrorclown', 'duivel', 'geest',
+        'zombie', 'skelet', 'spook', 'vampier', 'mummie', 'mummie', 'spook', 'geest',
+        'demon', 'horrorclown', 'weerwolf', 'duivel', 'heks', 'duivel', 'horrorclown',
+        'geest', 'duivel', 'zombie', 'weerwolf', 'geest', 'spook', 'spook', 'skelet',
+        'mummie', 'duivel', 'demon', 'spook', 'zombie', 'zombie', 'spook', 'zombie',
+        'demon', 'duivel', 'weerwolf', 'zombie', 'demon', 'mummie', 'weerwolf', 'mummie',
+        'weerwolf', 'skelet', 'horrorclown', 'skelet', 'zombie', 'vampier', 'weerwolf',
+        'mummie', 'geest', 'weerwolf', 'demon', 'demon', 'vampier', 'spook', 'mummie',
+        'skelet', 'heks', 'vampier', 'zombie', 'zombie', 'horrorclown', 'zombie',
+        'skelet', 'duivel', 'skelet', 'weerwolf', 'spook', 'zombie', 'vampier', 'mummie',
+        'spook', 'vampier', 'geest', 'vampier', 'geest', 'weerwolf', 'geest', 'skelet',
+        'skelet', 'vampier', 'spook', 'weerwolf', 'heks', 'geest', 'zombie', 'demon',
+        'duivel', 'mummie', 'spook', 'weerwolf', 'vampier', 'mummie', 'mummie', 'weerwolf',
+        'demon', 'weerwolf', 'vampier', 'demon', 'vampier', 'zombie', 'spook', 'mummie',
+        'zombie', 'weerwolf', 'vampier', 'mummie', 'weerwolf', 'spook', 'weerwolf',
+        'mummie', 'skelet', 'zombie', 'geest', 'duivel', 'demon', 'heks', 'horrorclown',
+        'zombie', 'horrorclown', 'skelet', 'vampier', 'duivel', 'geest', 'mummie',
+        'geest', 'weerwolf', 'horrorclown', 'skelet', 'skelet', 'vampier', 'horrorclown',
+        'spook', 'duivel', 'horrorclown', 'duivel', 'heks', 'weerwolf', 'vampier',
+        'spook', 'geest', 'vampier', 'spook', 'zombie', 'skelet', 'mummie', 'demon',
+        'spook', 'mummie', 'heks', 'mummie', 'duivel', 'geest', 'demon', 'skelet',
+        'zombie', 'horrorclown', 'zombie', 'horrorclown', 'weerwolf', 'duivel', 'geest',
+        'mummie', 'spook', 'weerwolf', 'duivel', 'weerwolf', 'heks', 'skelet', 'demon',
+        'geest', 'mummie', 'weerwolf', 'zombie', 'vampier', 'heks', 'horrorclown',
+        'weerwolf', 'skelet', 'horrorclown', 'horrorclown', 'zombie', 'weerwolf',
+        'weerwolf', 'mummie', 'spook', 'skelet', 'duivel'])
+      return:
+      - heks
+  - testcases:
+    - expression: halloween(['demon', 'weerwolf', 'zombie', 'spook', 'mummie', 'skelet',
+        'mummie', 'heks', 'duivel', 'duivel', 'skelet', 'heks', 'geest', 'zombie',
+        'mummie', 'spook', 'demon', 'zombie', 'mummie', 'horrorclown', 'demon', 'geest',
+        'duivel', 'zombie', 'vampier', 'mummie', 'zombie', 'vampier', 'duivel', 'horrorclown',
+        'heks', 'mummie', 'zombie', 'horrorclown', 'mummie', 'vampier', 'mummie',
+        'skelet', 'spook', 'demon', 'demon', 'zombie', 'heks', 'zombie', 'demon',
+        'vampier', 'heks', 'mummie', 'demon', 'mummie', 'demon', 'zombie', 'vampier',
+        'demon', 'horrorclown', 'mummie', 'spook', 'skelet', 'horrorclown', 'weerwolf',
+        'mummie', 'vampier', 'demon', 'mummie', 'vampier', 'weerwolf', 'geest', 'heks',
+        'demon', 'heks', 'duivel', 'duivel', 'demon', 'horrorclown', 'heks', 'zombie',
+        'demon', 'geest', 'weerwolf', 'zombie', 'horrorclown', 'mummie', 'vampier',
+        'weerwolf', 'horrorclown', 'weerwolf', 'duivel', 'horrorclown', 'zombie',
+        'geest', 'duivel', 'mummie', 'vampier', 'vampier', 'mummie', 'vampier', 'demon',
+        'skelet', 'vampier', 'spook', 'zombie', 'vampier', 'vampier', 'weerwolf',
+        'spook', 'demon', 'spook', 'mummie', 'demon', 'geest', 'horrorclown', 'duivel',
+        'weerwolf', 'spook', 'geest', 'zombie', 'skelet', 'horrorclown', 'heks', 'zombie',
+        'heks', 'zombie', 'mummie', 'mummie', 'zombie', 'geest', 'mummie', 'vampier',
+        'vampier', 'heks', 'skelet', 'skelet', 'geest', 'zombie', 'vampier', 'heks',
+        'geest', 'demon', 'geest', 'mummie', 'vampier', 'weerwolf', 'demon', 'demon',
+        'duivel', 'heks', 'heks', 'vampier', 'duivel', 'mummie', 'weerwolf', 'zombie',
+        'vampier', 'spook', 'skelet', 'spook', 'heks', 'skelet', 'skelet', 'weerwolf',
+        'geest', 'duivel', 'horrorclown', 'demon', 'horrorclown', 'heks', 'mummie',
+        'spook', 'mummie', 'weerwolf', 'zombie', 'duivel', 'vampier', 'zombie', 'heks',
+        'demon', 'zombie', 'spook', 'duivel', 'horrorclown', 'horrorclown', 'demon',
+        'zombie', 'mummie', 'skelet', 'spook', 'vampier', 'vampier', 'demon', 'vampier',
+        'mummie', 'mummie', 'mummie', 'spook', 'geest', 'weerwolf', 'heks', 'horrorclown',
+        'zombie', 'weerwolf', 'spook', 'duivel', 'zombie', 'mummie', 'duivel', 'geest',
+        'geest', 'demon', 'zombie', 'spook', 'mummie', 'zombie', 'weerwolf', 'duivel',
+        'vampier', 'spook', 'horrorclown', 'weerwolf', 'geest', 'heks', 'skelet',
+        'horrorclown', 'vampier', 'demon', 'weerwolf', 'demon', 'horrorclown', 'weerwolf',
+        'spook', 'weerwolf', 'heks', 'horrorclown', 'demon', 'weerwolf', 'spook',
+        'geest', 'skelet', 'zombie', 'demon', 'skelet', 'heks', 'weerwolf', 'geest',
+        'spook', 'geest', 'horrorclown', 'demon', 'zombie', 'vampier', 'vampier',
+        'skelet', 'duivel', 'horrorclown', 'spook', 'mummie', 'spook', 'skelet', 'demon',
+        'geest', 'mummie', 'skelet', 'mummie', 'zombie', 'geest', 'horrorclown', 'weerwolf',
+        'geest', 'horrorclown', 'zombie', 'duivel', 'zombie', 'horrorclown', 'horrorclown',
+        'zombie', 'skelet', 'heks', 'mummie', 'skelet', 'duivel', 'demon', 'heks',
+        'zombie', 'skelet', 'vampier', 'heks', 'heks', 'geest', 'skelet', 'demon',
+        'zombie', 'geest', 'weerwolf', 'spook', 'zombie', 'heks', 'weerwolf', 'heks',
+        'demon', 'duivel', 'skelet', 'horrorclown', 'skelet', 'spook', 'spook', 'skelet',
+        'skelet', 'skelet', 'horrorclown', 'demon', 'zombie', 'demon', 'demon', 'skelet',
+        'spook', 'skelet', 'duivel', 'zombie', 'skelet', 'demon', 'weerwolf', 'vampier',
+        'horrorclown', 'duivel', 'horrorclown', 'vampier', 'geest', 'skelet', 'vampier',
+        'zombie', 'skelet', 'vampier', 'geest', 'demon', 'weerwolf', 'spook', 'vampier',
+        'mummie', 'spook', 'skelet', 'duivel', 'mummie', 'skelet', 'duivel', 'spook',
+        'duivel', 'mummie', 'duivel', 'vampier', 'mummie', 'horrorclown', 'mummie',
+        'skelet', 'spook', 'zombie', 'zombie', 'spook', 'skelet', 'mummie', 'mummie',
+        'duivel', 'vampier', 'horrorclown', 'demon', 'zombie', 'mummie', 'weerwolf',
+        'vampier', 'mummie', 'demon', 'heks', 'vampier', 'spook', 'zombie', 'weerwolf',
+        'vampier', 'zombie', 'horrorclown', 'zombie', 'horrorclown', 'heks', 'spook',
+        'demon', 'skelet', 'duivel', 'demon', 'vampier', 'zombie', 'weerwolf', 'heks',
+        'zombie', 'geest', 'skelet', 'skelet', 'spook', 'zombie', 'heks', 'vampier',
+        'skelet', 'geest', 'geest', 'skelet', 'heks', 'weerwolf', 'zombie', 'demon',
+        'heks', 'weerwolf', 'skelet', 'heks', 'spook', 'skelet', 'spook', 'duivel',
+        'vampier', 'duivel', 'mummie', 'mummie', 'zombie', 'skelet', 'zombie', 'heks',
+        'zombie', 'zombie', 'horrorclown', 'skelet', 'duivel', 'vampier', 'horrorclown',
+        'heks', 'skelet', 'zombie', 'vampier', 'horrorclown'])
+      return:
+      - geest
+  - testcases:
+    - expression: halloween(['geest', 'demon', 'weerwolf', 'horrorclown', 'demon',
+        'skelet', 'demon', 'mummie', 'mummie', 'zombie', 'skelet', 'weerwolf', 'vampier',
+        'spook', 'horrorclown', 'spook', 'mummie', 'weerwolf', 'duivel', 'vampier',
+        'skelet', 'skelet', 'duivel', 'zombie', 'mummie', 'skelet', 'skelet', 'zombie',
+        'vampier', 'heks', 'zombie', 'geest', 'mummie', 'heks', 'skelet', 'horrorclown',
+        'horrorclown', 'mummie', 'skelet', 'skelet', 'skelet', 'heks', 'demon', 'duivel',
+        'vampier', 'skelet', 'skelet', 'zombie', 'weerwolf', 'mummie', 'zombie', 'spook',
+        'weerwolf', 'duivel', 'geest', 'spook', 'weerwolf', 'horrorclown', 'horrorclown',
+        'skelet', 'zombie', 'horrorclown', 'skelet', 'spook', 'skelet', 'horrorclown',
+        'weerwolf', 'heks', 'spook', 'heks', 'zombie', 'zombie', 'duivel', 'duivel',
+        'geest', 'demon', 'zombie', 'vampier', 'spook', 'demon', 'horrorclown', 'demon',
+        'zombie', 'mummie', 'skelet', 'geest', 'horrorclown', 'geest', 'weerwolf',
+        'zombie', 'geest', 'duivel', 'spook', 'heks', 'spook', 'zombie', 'duivel',
+        'heks', 'geest', 'skelet', 'spook', 'mummie', 'spook', 'spook', 'spook', 'zombie',
+        'zombie', 'heks', 'mummie', 'mummie', 'mummie', 'horrorclown', 'weerwolf',
+        'demon', 'geest', 'horrorclown', 'zombie', 'zombie', 'spook', 'mummie', 'geest',
+        'weerwolf', 'zombie', 'skelet', 'geest', 'zombie', 'heks', 'spook', 'duivel',
+        'spook', 'demon', 'zombie', 'demon', 'skelet', 'mummie', 'geest', 'vampier',
+        'zombie', 'mummie', 'weerwolf', 'duivel', 'duivel', 'heks', 'demon', 'geest',
+        'spook', 'duivel', 'skelet', 'weerwolf', 'weerwolf', 'skelet', 'duivel', 'horrorclown',
+        'mummie', 'horrorclown', 'heks', 'heks', 'heks', 'vampier', 'skelet', 'mummie',
+        'geest', 'demon', 'skelet', 'heks', 'weerwolf', 'geest', 'heks', 'skelet',
+        'geest', 'skelet', 'skelet', 'horrorclown', 'spook', 'duivel', 'zombie', 'mummie',
+        'geest', 'vampier', 'vampier', 'heks', 'horrorclown', 'geest', 'duivel', 'vampier',
+        'demon', 'zombie', 'heks', 'zombie', 'weerwolf', 'horrorclown', 'duivel',
+        'heks', 'skelet', 'spook', 'weerwolf', 'vampier', 'spook', 'vampier', 'duivel',
+        'spook', 'skelet', 'weerwolf', 'skelet', 'skelet', 'zombie', 'weerwolf', 'zombie',
+        'geest', 'horrorclown', 'weerwolf', 'weerwolf', 'duivel', 'weerwolf', 'weerwolf',
+        'spook', 'weerwolf', 'vampier', 'vampier', 'horrorclown', 'spook', 'spook',
+        'vampier', 'duivel', 'mummie', 'horrorclown', 'skelet', 'zombie', 'geest',
+        'weerwolf', 'heks', 'zombie', 'horrorclown', 'duivel', 'duivel', 'vampier',
+        'demon', 'weerwolf', 'spook', 'skelet', 'skelet', 'heks', 'zombie', 'zombie',
+        'zombie', 'mummie', 'spook', 'duivel', 'zombie', 'zombie', 'duivel', 'zombie',
+        'geest', 'duivel', 'spook', 'spook', 'weerwolf', 'demon', 'spook', 'mummie',
+        'duivel', 'skelet', 'weerwolf', 'weerwolf', 'weerwolf', 'heks', 'demon', 'horrorclown',
+        'spook', 'horrorclown', 'horrorclown', 'weerwolf', 'demon', 'zombie', 'skelet',
+        'vampier', 'horrorclown', 'zombie', 'spook', 'vampier', 'zombie', 'heks',
+        'geest', 'vampier', 'spook', 'geest', 'mummie', 'vampier', 'vampier', 'spook',
+        'spook', 'duivel', 'zombie', 'skelet', 'vampier', 'mummie', 'skelet', 'demon',
+        'vampier', 'zombie', 'heks', 'skelet', 'zombie', 'vampier', 'mummie', 'zombie',
+        'zombie', 'zombie', 'heks', 'geest', 'heks', 'zombie', 'skelet', 'horrorclown',
+        'heks', 'spook', 'weerwolf', 'mummie', 'heks', 'vampier', 'zombie', 'mummie',
+        'vampier', 'vampier', 'demon', 'spook', 'zombie', 'demon', 'heks', 'zombie',
+        'geest', 'zombie', 'geest', 'skelet', 'duivel', 'horrorclown', 'geest', 'zombie',
+        'demon', 'demon', 'skelet', 'horrorclown', 'mummie', 'weerwolf', 'vampier',
+        'spook', 'duivel', 'weerwolf', 'horrorclown', 'demon', 'duivel', 'heks', 'mummie',
+        'horrorclown', 'zombie', 'mummie', 'duivel', 'spook', 'heks', 'duivel', 'weerwolf',
+        'demon', 'heks', 'horrorclown', 'duivel', 'demon', 'weerwolf', 'mummie', 'geest',
+        'demon', 'geest', 'vampier', 'horrorclown', 'vampier', 'mummie', 'vampier',
+        'demon', 'heks', 'geest', 'weerwolf', 'heks', 'zombie', 'geest', 'skelet',
+        'demon', 'heks', 'demon', 'vampier', 'horrorclown', 'geest', 'demon', 'skelet',
+        'horrorclown', 'duivel', 'zombie', 'mummie', 'spook', 'vampier', 'horrorclown',
+        'weerwolf', 'geest', 'vampier', 'weerwolf', 'skelet', 'vampier', 'mummie',
+        'mummie', 'demon', 'horrorclown', 'skelet', 'skelet', 'spook', 'skelet', 'skelet',
+        'geest', 'skelet', 'heks', 'horrorclown', 'weerwolf', 'demon', 'duivel', 'skelet',
+        'zombie', 'vampier', 'vampier', 'heks', 'zombie', 'geest', 'duivel', 'spook',
+        'mummie', 'spook', 'demon', 'skelet', 'duivel', 'heks', 'heks', 'geest', 'horrorclown',
+        'horrorclown', 'demon', 'zombie', 'spook', 'heks', 'vampier', 'vampier', 'geest',
+        'horrorclown', 'zombie', 'demon', 'duivel', 'horrorclown', 'zombie', 'geest',
+        'weerwolf', 'spook', 'weerwolf', 'weerwolf', 'weerwolf', 'geest', 'duivel',
+        'spook', 'duivel', 'geest', 'zombie', 'horrorclown', 'vampier', 'geest', 'weerwolf',
+        'duivel', 'demon', 'geest', 'demon', 'zombie', 'skelet', 'duivel', 'duivel',
+        'spook', 'zombie', 'weerwolf', 'skelet', 'mummie', 'heks', 'vampier', 'horrorclown',
+        'horrorclown', 'duivel', 'spook', 'skelet', 'zombie', 'vampier', 'demon',
+        'heks', 'spook', 'heks', 'mummie', 'zombie', 'mummie', 'demon', 'weerwolf',
+        'duivel', 'weerwolf', 'heks', 'horrorclown', 'vampier', 'demon', 'weerwolf',
+        'vampier', 'duivel', 'skelet', 'heks', 'duivel', 'vampier', 'heks', 'vampier',
+        'geest', 'mummie', 'zombie', 'mummie', 'spook', 'zombie', 'duivel', 'geest',
+        'zombie', 'demon', 'zombie', 'mummie', 'demon', 'duivel', 'skelet', 'skelet',
+        'mummie', 'heks', 'vampier', 'horrorclown', 'spook', 'spook', 'geest', 'zombie',
+        'duivel', 'spook', 'zombie', 'spook', 'zombie', 'vampier', 'vampier', 'duivel',
+        'zombie', 'demon', 'geest', 'weerwolf', 'zombie', 'spook', 'mummie', 'heks',
+        'spook', 'weerwolf', 'demon', 'horrorclown', 'demon', 'heks', 'duivel', 'skelet',
+        'horrorclown', 'zombie', 'duivel', 'demon', 'weerwolf', 'spook', 'duivel',
+        'heks', 'duivel', 'demon', 'geest', 'spook', 'horrorclown', 'weerwolf', 'horrorclown',
+        'mummie', 'duivel', 'heks', 'geest', 'mummie', 'duivel', 'vampier', 'vampier',
+        'horrorclown', 'heks', 'weerwolf', 'vampier', 'duivel', 'horrorclown', 'vampier',
+        'zombie', 'demon', 'horrorclown', 'zombie', 'skelet', 'spook', 'heks', 'vampier',
+        'mummie', 'demon', 'heks', 'skelet', 'weerwolf', 'duivel', 'geest', 'vampier',
+        'duivel', 'skelet', 'geest', 'spook', 'horrorclown', 'zombie', 'vampier',
+        'geest', 'demon', 'duivel', 'geest', 'zombie', 'vampier', 'zombie', 'duivel',
+        'mummie', 'zombie', 'skelet', 'duivel', 'spook', 'vampier', 'spook', 'geest',
+        'skelet', 'horrorclown', 'spook', 'horrorclown', 'demon', 'weerwolf', 'vampier',
+        'spook', 'heks', 'mummie', 'weerwolf', 'weerwolf', 'duivel', 'geest', 'demon',
+        'zombie', 'demon', 'heks', 'geest', 'horrorclown', 'mummie', 'zombie', 'spook',
+        'horrorclown', 'spook', 'heks', 'mummie', 'skelet', 'spook', 'skelet', 'spook',
+        'horrorclown', 'zombie', 'skelet', 'vampier', 'weerwolf', 'demon', 'zombie',
+        'zombie', 'mummie', 'skelet', 'mummie', 'mummie', 'heks', 'geest', 'geest',
+        'horrorclown', 'demon', 'geest', 'zombie', 'weerwolf', 'duivel', 'skelet',
+        'geest', 'horrorclown', 'weerwolf', 'spook', 'weerwolf', 'demon', 'skelet',
+        'heks', 'weerwolf', 'weerwolf', 'skelet', 'mummie', 'demon', 'horrorclown',
+        'horrorclown', 'horrorclown', 'spook', 'vampier', 'mummie', 'weerwolf', 'duivel',
+        'demon', 'geest', 'duivel', 'spook', 'skelet', 'duivel', 'zombie', 'horrorclown',
+        'skelet', 'geest', 'demon', 'duivel', 'geest', 'duivel', 'zombie', 'mummie',
+        'vampier', 'demon', 'weerwolf', 'spook', 'zombie', 'spook', 'heks', 'spook',
+        'geest', 'mummie', 'demon', 'demon', 'heks', 'zombie', 'zombie', 'horrorclown',
+        'weerwolf', 'horrorclown', 'mummie', 'mummie', 'heks', 'skelet', 'heks', 'mummie',
+        'duivel', 'demon', 'zombie', 'vampier', 'heks', 'duivel', 'spook', 'heks',
+        'vampier', 'heks', 'skelet', 'geest', 'spook', 'weerwolf', 'duivel', 'heks',
+        'demon', 'geest', 'vampier', 'mummie', 'zombie', 'horrorclown', 'vampier',
+        'vampier', 'duivel', 'skelet', 'heks', 'skelet', 'duivel', 'geest', 'mummie',
+        'geest', 'vampier', 'weerwolf', 'mummie', 'spook', 'spook', 'skelet', 'geest',
+        'spook', 'geest', 'spook', 'heks', 'mummie', 'duivel', 'heks', 'duivel', 'vampier',
+        'heks', 'weerwolf', 'vampier', 'demon', 'skelet', 'duivel', 'geest', 'mummie',
+        'spook', 'skelet', 'geest', 'duivel', 'spook', 'skelet', 'weerwolf', 'horrorclown',
+        'zombie', 'skelet', 'weerwolf', 'skelet', 'zombie', 'mummie', 'vampier', 'mummie',
+        'duivel', 'skelet', 'zombie', 'demon', 'demon', 'spook', 'mummie', 'weerwolf',
+        'duivel', 'heks', 'spook', 'duivel', 'demon', 'mummie', 'geest', 'horrorclown',
+        'zombie', 'skelet', 'geest', 'horrorclown', 'geest', 'spook', 'duivel', 'horrorclown',
+        'horrorclown', 'spook', 'skelet', 'duivel', 'heks', 'geest', 'skelet', 'geest',
+        'demon', 'skelet', 'zombie', 'spook', 'weerwolf', 'vampier', 'heks', 'skelet',
+        'horrorclown', 'duivel', 'spook', 'demon', 'duivel', 'heks', 'skelet', 'weerwolf',
+        'skelet', 'demon', 'skelet', 'duivel', 'zombie', 'demon', 'mummie', 'vampier',
+        'heks', 'spook', 'duivel', 'vampier', 'heks', 'weerwolf', 'geest', 'mummie',
+        'weerwolf', 'vampier', 'weerwolf', 'duivel', 'demon', 'heks', 'horrorclown',
+        'heks', 'vampier', 'zombie', 'heks', 'weerwolf', 'vampier', 'duivel', 'geest',
+        'geest', 'duivel', 'mummie', 'duivel', 'zombie', 'zombie', 'demon', 'geest',
+        'spook', 'duivel', 'spook', 'spook', 'geest', 'mummie', 'weerwolf', 'zombie',
+        'skelet', 'skelet', 'spook', 'vampier', 'geest', 'mummie', 'spook', 'mummie',
+        'heks', 'duivel', 'geest', 'heks', 'vampier', 'horrorclown', 'skelet', 'zombie',
+        'vampier', 'duivel', 'weerwolf', 'duivel', 'vampier', 'skelet', 'duivel',
+        'heks', 'geest', 'duivel', 'zombie', 'geest', 'weerwolf', 'weerwolf', 'spook',
+        'vampier', 'spook', 'skelet', 'demon', 'spook', 'skelet', 'heks', 'horrorclown',
+        'mummie', 'geest', 'duivel', 'demon', 'duivel', 'zombie', 'horrorclown', 'heks',
+        'vampier', 'spook', 'spook', 'duivel', 'vampier', 'duivel', 'heks', 'mummie',
+        'mummie', 'demon', 'spook', 'duivel', 'skelet', 'geest', 'horrorclown', 'skelet',
+        'vampier', 'heks', 'heks', 'heks', 'weerwolf', 'vampier', 'demon', 'geest',
+        'zombie', 'geest', 'weerwolf', 'geest', 'duivel', 'weerwolf', 'vampier', 'demon',
+        'zombie', 'spook', 'geest', 'skelet', 'duivel', 'weerwolf'])
+      return:
+      - mummie
