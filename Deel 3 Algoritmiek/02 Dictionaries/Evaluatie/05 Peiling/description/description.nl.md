@@ -15,13 +15,13 @@ Bestudeer grondig onderstaand voorbeeld:
 #### Voorbeelden
 
 ```python
->>> voorspelling({"The Left": 37, "S&D": 143, "Greens/EFA": 72, "Renew": 101, "EPP": 177, "ECR": 66, "ID": 62, "NI": 47},
+>>> voorspelling({"The Left": 46, "S&D": 136, "Greens/EFA": 53, "Renew": 77, "EPP": 188, "ECR": 78, "Patriots": 84, "ESN": 25, "NI": 32},
                  ["EPP", "S&D", "ECR"])
 "Correcte voorspelling"
 ```
 
 ```python
->>> voorspelling({"The Left": 37, "S&D": 143, "Greens/EFA": 72, "Renew": 101, "EPP": 177, "ECR": 66, "ID": 62, "NI": 47},
+>>> voorspelling({"The Left": 46, "S&D": 136, "Greens/EFA": 53, "Renew": 77, "EPP": 188, "ECR": 78, "Patriots": 84, "ESN": 25, "NI": 32},
                  ["The Left", "S&D"])
 "Foutieve voorspelling"
 ```

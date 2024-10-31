@@ -43,7 +43,9 @@ case = ({"The Left": 46, "S&D": 136, "Greens/EFA": 53, "Renew": 77, "EPP": 188, 
 cases.append(case)
 case = ({"The Left": 47, "S&D": 154, "Greens/EFA": 43, "Renew": 51, "EPP": 206, "ECR": 78, "Patriots": 84, "ESN": 25, "NI": 32}, ["EPP", "S&D"])
 cases.append(case)
-case = ({"The Left": 47, "S&D": 153, "Greens/EFA": 44, "Renew": 51, "EPP": 206, "ECR": 78, "Patriots": 84, "ESN": 25, "NI": 32}, ["EPP", "S&D"])
+case = ({"The Left": 48, "S&D": 153, "Greens/EFA": 44, "Renew": 51, "EPP": 206, "ECR": 78, "Patriots": 84, "ESN": 25, "NI": 32}, ["EPP", "S&D"])
+cases.append(case)
+case = ({"The Left": 46, "S&D": 155, "Greens/EFA": 43, "Renew": 51, "EPP": 206, "ECR": 78, "Patriots": 84, "ESN": 25, "NI": 32}, ["EPP", "S&D"])
 cases.append(case)
 
 while len(cases) < ntests:
