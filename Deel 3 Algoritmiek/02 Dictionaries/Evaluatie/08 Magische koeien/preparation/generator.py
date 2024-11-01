@@ -32,13 +32,22 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
-ntests = 2
+ntests = 30
 
 cases = [(1, [1, 1, 1, 1, 1], 0), (1, [1, 1, 1, 1, 1], 1), (1, [1, 1, 1, 1, 1], 2), (1, [1, 1, 1, 1, 1], 3),
          (2, [1, 2, 1, 2, 1], 0), (2, [1, 2, 1, 2, 1], 1), (2, [1, 2, 1, 2, 1], 2)]
 
 while len(cases) < ntests:
-    case = 'a'
+    C = random.randint(1, 1000)
+    e = random.randint(0, 1)
+    k = random.randint(10**e, 10**(e+1))
+    k = max(k, 3)
+    weilanden = [ random.randint(1,C) for _ in range(random.randint(3,k))]
+    e = random.randint(0,1)
+    dag = random.randint(10**e, 10**(e+1))
+    
+    case = (C, weilanden, dag)
+    
     if case not in cases:
         cases.append(case)
 
