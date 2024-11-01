@@ -1,0 +1,23 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: koeien(1, [1, 1, 1, 1, 1], 0)
+      return: 5
+  - testcases:
+    - expression: koeien(1, [1, 1, 1, 1, 1], 1)
+      return: 10
+  - testcases:
+    - expression: koeien(1, [1, 1, 1, 1, 1], 2)
+      return: 20
+  - testcases:
+    - expression: koeien(1, [1, 1, 1, 1, 1], 3)
+      return: 40
+  - testcases:
+    - expression: koeien(2, [1, 2, 1, 2, 1], 0)
+      return: 5
+  - testcases:
+    - expression: koeien(2, [1, 2, 1, 2, 1], 1)
+      return: 7
+  - testcases:
+    - expression: koeien(2, [1, 2, 1, 2, 1], 2)
+      return: 14

@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Magische koeien"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "dict"
+  ],
+  "access": "public"
+}
