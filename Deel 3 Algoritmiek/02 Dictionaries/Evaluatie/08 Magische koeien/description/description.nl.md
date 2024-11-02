@@ -10,7 +10,7 @@ De *Enlightened Dairy Co.* heeft een onbeperkt aantal weilanden tot zijn beschik
 Op een willekeurige dag kan de overheid langskomen voor een controle. Deze persoon wil op voorhand weten hoeveel weilanden er gecontroleerd moeten worden, dat zal jouw programma berekenen.
 
 ## Gevraagd
-Schrijf een functie `koeien(C, weilanden, dagnummer)` dat gegeven de maximale capaciteit `C`, een **lijst** met weilanden en het aantal koeien op elk weiland en het dagnummer waarom de controleur langskomt.
+Schrijf een functie `koeien(C, weilanden, dagnummer)` dat gegeven de maximale capaciteit `C`, een **lijst** met het aantal koeien op elk weiland `weilanden` en het `dagnummer` waarom de controleur langskomt.
 
 Je functie moet het aantal weilanden dat gebruikt wordt op het einde van het dagnummer retourneren.
 
