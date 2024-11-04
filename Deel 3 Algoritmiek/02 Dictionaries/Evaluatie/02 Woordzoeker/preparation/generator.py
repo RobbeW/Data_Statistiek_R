@@ -49,7 +49,7 @@ woorden = [
     "KLEUR", "HOND", "KATTEN", "PAARS", "SCHAAP", "STEEN", "STRAND", "HUISJE",
     "DROOM", "LICHT", "VLOER", "GLAZEN", "VRIEND", "TUINEN", "KAARS", "STOEL",
     "BEKER", "SPEEL", "KLANT", "HAPJE", "BROOD", "GEEL", "KOEKJE", "SNOEP",
-    "BOEK", "WEKEN", "KERST", "BOMEN", "KAARS", "BLOES", "VARKEN", "KLOK",
+    "BOEK", "WEKEN", "KERST", "BOMEN", "BLOES", "VARKEN", "KLOK",
     "VUUR", "DORP"
 ]
 
