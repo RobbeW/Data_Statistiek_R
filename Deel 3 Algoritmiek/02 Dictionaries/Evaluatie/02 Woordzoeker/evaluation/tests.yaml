@@ -86,8 +86,8 @@
   - testcases:
     - expression: aantal_woorden(['H', 'M', 'L', 'N', 'V', 'F', 'K', 'G', 'E', 'A',
         'R', 'Z', 'D', 'S', 'A'], ['LICHT', 'KAMER', 'SPEEL', 'BLOEM', 'STRAND', 'KAARS',
-        'VOGEL', 'ZOMER', 'MAAN', 'KLEUR', 'FIETS', 'KAARS', 'DROOM'])
-      return: 4
+        'VOGEL', 'ZOMER', 'MAAN', 'KLEUR', 'FIETS', 'DROOM'])
+      return: 3
   - testcases:
     - expression: aantal_woorden(['S', 'L', 'O', 'M', 'V', 'D', 'I', 'E', 'A', 'C',
         'P', 'B', 'G', 'T', 'H', 'A'], ['BOMEN', 'FIETS', 'REGEN', 'HOND', 'STOEL',
