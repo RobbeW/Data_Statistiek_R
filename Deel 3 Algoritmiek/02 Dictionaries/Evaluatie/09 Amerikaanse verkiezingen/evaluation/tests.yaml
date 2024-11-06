@@ -1,0 +1,1441 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: "president({'Alabama': ['Donald Trump', 53.3, 'Kamela Harris', 44.9,
+        'Robert Kennedy', 1.0, 'Chase Oliver', 0.7, 'Jill Stein', 0.1], 'Alaska':
+        ['Kamela Harris', 43.9, 'Donald Trump', 55.3, 'Robert Kennedy', 0.8], 'Arizona':
+        ['Kamela Harris', 44.2, 'Donald Trump', 49.8, 'Chase Oliver', 1.7, 'Robert
+        Kennedy', 4.3], 'Arkansas': ['Donald Trump', 44.4, 'Kamela Harris', 53.2,
+        'Robert Kennedy', 1.1, 'Jill Stein', 1.3], 'California': ['Donald Trump',
+        45.5, 'Kamela Harris', 46.1, 'Robert Kennedy', 4.8, 'Chase Oliver', 3.6],
+        'Colorado': ['Kamela Harris', 47.0, 'Donald Trump', 51.0, 'Chase Oliver',
+        2.0], 'Connecticut': ['Kamela Harris', 48.7, 'Donald Trump', 49.3, 'Robert
+        Kennedy', 2.0], 'Delaware': ['Donald Trump', 48.7, 'Kamela Harris', 49.4,
+        'Jill Stein', 0.7, 'Robert Kennedy', 1.1, 'Chase Oliver', 0.1], 'District
+        of Columbia': ['Kamela Harris', 48.6, 'Donald Trump', 48.5, 'Jill Stein',
+        1.2, 'Chase Oliver', 0.5, 'Robert Kennedy', 1.2], 'Florida': ['Kamela Harris',
+        45.5, 'Donald Trump', 50.5, 'Jill Stein', 0.6, 'Robert Kennedy', 3.4], 'Georgia':
+        ['Kamela Harris', 46.3, 'Donald Trump', 46.9, 'Jill Stein', 3.9, 'Robert Kennedy',
+        2.5, 'Chase Oliver', 0.4], 'Hawaii': ['Donald Trump', 52.6, 'Kamela Harris',
+        45.7, 'Robert Kennedy', 0.5, 'Chase Oliver', 1.2], 'Idaho': ['Kamela Harris',
+        46.3, 'Donald Trump', 45.2, 'Robert Kennedy', 4.8, 'Jill Stein', 3.7], 'Illinois':
+        ['Kamela Harris', 48.0, 'Donald Trump', 49.4, 'Robert Kennedy', 2.6], 'Indiana':
+        ['Donald Trump', 49.4, 'Kamela Harris', 45.3, 'Robert Kennedy', 1.9, 'Chase
+        Oliver', 1.8, 'Jill Stein', 1.7], 'Iowa': ['Kamela Harris', 45.8, 'Donald
+        Trump', 51.9, 'Chase Oliver', 0.5, 'Jill Stein', 1.8], 'Kansas': ['Donald
+        Trump', 54.5, 'Kamela Harris', 44.1, 'Jill Stein', 0.7, 'Chase Oliver', 0.4,
+        'Robert Kennedy', 0.3], 'Kentucky': ['Kamela Harris', 45.2, 'Donald Trump',
+        52.0, 'Jill Stein', 0.7, 'Robert Kennedy', 1.4, 'Chase Oliver', 0.7], 'Louisiana':
+        ['Donald Trump', 50.8, 'Kamela Harris', 47.4, 'Chase Oliver', 0.9, 'Robert
+        Kennedy', 0.2, 'Jill Stein', 0.8], 'Maine': ['Donald Trump', 50.4, 'Kamela
+        Harris', 47.4, 'Chase Oliver', 2.2], 'Maryland': ['Kamela Harris', 49.4, 'Donald
+        Trump', 46.6, 'Robert Kennedy', 1.6, 'Jill Stein', 1.2, 'Chase Oliver', 1.2],
+        'Massachusetts': ['Kamela Harris', 43.6, 'Donald Trump', 55.5, 'Jill Stein',
+        0.1, 'Robert Kennedy', 0.3, 'Chase Oliver', 0.5], 'Michigan': ['Donald Trump',
+        46.6, 'Kamela Harris', 46.9, 'Robert Kennedy', 0.4, 'Chase Oliver', 2.4, 'Jill
+        Stein', 3.7], 'Minnesota': ['Donald Trump', 52.9, 'Kamela Harris', 45.3, 'Chase
+        Oliver', 0.1, 'Jill Stein', 1.0, 'Robert Kennedy', 0.8], 'Mississippi': ['Kamela
+        Harris', 47.8, 'Donald Trump', 49.5, 'Robert Kennedy', 0.8, 'Jill Stein',
+        0.8, 'Chase Oliver', 1.1], 'Missouri': ['Kamela Harris', 47.5, 'Donald Trump',
+        45.9, 'Chase Oliver', 1.6, 'Robert Kennedy', 5.0], 'Montana': ['Donald Trump',
+        50.7, 'Kamela Harris', 44.0, 'Jill Stein', 2.5, 'Chase Oliver', 2.8], 'Nebraska':
+        ['Donald Trump', 47.3, 'Kamela Harris', 44.6, 'Chase Oliver', 0.6, 'Jill Stein',
+        5.6, 'Robert Kennedy', 1.9], 'Nevada': ['Kamela Harris', 43.9, 'Donald Trump',
+        55.4, 'Chase Oliver', 0.7], 'New Hampshire': ['Donald Trump', 55.2, 'Kamela
+        Harris', 44.0, 'Robert Kennedy', 0.8], 'New Jersey': ['Kamela Harris', 44.3,
+        'Donald Trump', 50.2, 'Robert Kennedy', 4.9, 'Jill Stein', 0.1, 'Chase Oliver',
+        0.5], 'New Mexico': ['Kamela Harris', 52.4, 'Donald Trump', 44.8, 'Robert
+        Kennedy', 2.8], 'New York': ['Kamela Harris', 48.8, 'Donald Trump', 47.4,
+        'Jill Stein', 3.8], 'North Carolina': ['Donald Trump', 51.0, 'Kamela Harris',
+        44.5, 'Jill Stein', 2.8, 'Chase Oliver', 1.7], 'North Dakota': ['Kamela Harris',
+        48.5, 'Donald Trump', 46.9, 'Jill Stein', 3.4, 'Chase Oliver', 1.2], 'Ohio':
+        ['Kamela Harris', 49.0, 'Donald Trump', 49.2, 'Robert Kennedy', 1.8], 'Oklahoma':
+        ['Donald Trump', 51.4, 'Kamela Harris', 44.4, 'Robert Kennedy', 2.5, 'Chase
+        Oliver', 1.7], 'Oregon': ['Donald Trump', 45.9, 'Kamela Harris', 52.4, 'Chase
+        Oliver', 1.2, 'Jill Stein', 0.5], 'Pennsylvania': ['Donald Trump', 52.1, 'Kamela
+        Harris', 46.4, 'Chase Oliver', 1.5], 'Rhode Island': ['Donald Trump', 47.0,
+        'Kamela Harris', 46.5, 'Jill Stein', 4.1, 'Chase Oliver', 2.4], 'South Carolina':
+        ['Kamela Harris', 48.7, 'Donald Trump', 44.1, 'Jill Stein', 0.4, 'Chase Oliver',
+        3.4, 'Robert Kennedy', 3.4], 'South Dakota': ['Donald Trump', 45.8, 'Kamela
+        Harris', 47.8, 'Jill Stein', 4.7, 'Chase Oliver', 0.7, 'Robert Kennedy', 1.1],
+        'Tennessee': ['Kamela Harris', 44.3, 'Donald Trump', 47.7, 'Jill Stein', 8.0],
+        'Texas': ['Donald Trump', 51.3, 'Kamela Harris', 46.4, 'Chase Oliver', 1.8,
+        'Robert Kennedy', 0.5], 'Utah': ['Kamela Harris', 44.0, 'Donald Trump', 55.9,
+        'Robert Kennedy', 0.0, 'Chase Oliver', 0.0, 'Jill Stein', 0.0], 'Vermont':
+        ['Kamela Harris', 45.2, 'Donald Trump', 50.2, 'Robert Kennedy', 1.6, 'Jill
+        Stein', 1.6, 'Chase Oliver', 1.4], 'Virginia': ['Donald Trump', 54.0, 'Kamela
+        Harris', 44.3, 'Chase Oliver', 1.1, 'Jill Stein', 0.6], 'Washington': ['Donald
+        Trump', 48.0, 'Kamela Harris', 45.5, 'Chase Oliver', 2.3, 'Jill Stein', 4.2],
+        'West Virginia': ['Donald Trump', 44.8, 'Kamela Harris', 49.4, 'Robert Kennedy',
+        5.8], 'Wisconsin': ['Kamela Harris', 43.9, 'Donald Trump', 55.5, 'Chase Oliver',
+        0.6], 'Wyoming': ['Donald Trump', 52.0, 'Kamela Harris', 45.9, 'Robert Kennedy',
+        0.5, 'Chase Oliver', 0.9, 'Jill Stein', 0.7]})"
+      return:
+        Donald Trump: 370
+        Kamela Harris: 168
+  - testcases:
+    - expression: "president({'Alabama': ['Donald Trump', 51.1, 'Kamela Harris', 45.3,
+        'Chase Oliver', 1.2, 'Jill Stein', 1.5, 'Robert Kennedy', 0.8], 'Alaska':
+        ['Donald Trump', 54.0, 'Kamela Harris', 44.1, 'Jill Stein', 1.9], 'Arizona':
+        ['Donald Trump', 45.8, 'Kamela Harris', 44.4, 'Chase Oliver', 9.8], 'Arkansas':
+        ['Donald Trump', 52.9, 'Kamela Harris', 44.6, 'Robert Kennedy', 2.5], 'California':
+        ['Kamela Harris', 47.3, 'Donald Trump', 49.5, 'Robert Kennedy', 0.2, 'Jill
+        Stein', 0.7, 'Chase Oliver', 2.3], 'Colorado': ['Donald Trump', 52.3, 'Kamela
+        Harris', 45.9, 'Robert Kennedy', 1.8], 'Connecticut': ['Donald Trump', 47.7,
+        'Kamela Harris', 50.5, 'Jill Stein', 0.6, 'Chase Oliver', 0.6, 'Robert Kennedy',
+        0.6], 'Delaware': ['Donald Trump', 52.5, 'Kamela Harris', 45.5, 'Chase Oliver',
+        2.0], 'District of Columbia': ['Kamela Harris', 49.1, 'Donald Trump', 46.6,
+        'Chase Oliver', 0.4, 'Jill Stein', 3.9], 'Florida': ['Donald Trump', 54.1,
+        'Kamela Harris', 44.1, 'Jill Stein', 1.8], 'Georgia': ['Donald Trump', 54.4,
+        'Kamela Harris', 44.3, 'Robert Kennedy', 0.5, 'Jill Stein', 0.8], 'Hawaii':
+        ['Kamela Harris', 44.2, 'Donald Trump', 54.2, 'Robert Kennedy', 1.4, 'Chase
+        Oliver', 0.2], 'Idaho': ['Kamela Harris', 47.7, 'Donald Trump', 50.9, 'Chase
+        Oliver', 0.8, 'Robert Kennedy', 0.1, 'Jill Stein', 0.5], 'Illinois': ['Donald
+        Trump', 55.2, 'Kamela Harris', 43.8, 'Robert Kennedy', 1.0], 'Indiana': ['Donald
+        Trump', 47.7, 'Kamela Harris', 49.1, 'Robert Kennedy', 0.7, 'Chase Oliver',
+        2.5], 'Iowa': ['Donald Trump', 55.0, 'Kamela Harris', 44.0, 'Robert Kennedy',
+        1.0], 'Kansas': ['Kamela Harris', 46.3, 'Donald Trump', 46.0, 'Jill Stein',
+        4.8, 'Chase Oliver', 2.5, 'Robert Kennedy', 0.4], 'Kentucky': ['Kamela Harris',
+        49.2, 'Donald Trump', 49.1, 'Jill Stein', 0.2, 'Chase Oliver', 1.5], 'Louisiana':
+        ['Donald Trump', 52.2, 'Kamela Harris', 44.3, 'Robert Kennedy', 0.1, 'Chase
+        Oliver', 1.9, 'Jill Stein', 1.5], 'Maine': ['Donald Trump', 46.9, 'Kamela
+        Harris', 47.2, 'Jill Stein', 1.5, 'Chase Oliver', 4.4], 'Maryland': ['Donald
+        Trump', 47.8, 'Kamela Harris', 45.0, 'Chase Oliver', 7.2], 'Massachusetts':
+        ['Kamela Harris', 47.3, 'Donald Trump', 48.6, 'Robert Kennedy', 0.2, 'Chase
+        Oliver', 2.0, 'Jill Stein', 1.9], 'Michigan': ['Kamela Harris', 47.6, 'Donald
+        Trump', 50.9, 'Chase Oliver', 0.5, 'Jill Stein', 1.0], 'Minnesota': ['Donald
+        Trump', 55.5, 'Kamela Harris', 43.9, 'Chase Oliver', 0.6], 'Mississippi':
+        ['Donald Trump', 46.3, 'Kamela Harris', 45.4, 'Robert Kennedy', 8.3], 'Missouri':
+        ['Kamela Harris', 45.3, 'Donald Trump', 49.9, 'Chase Oliver', 4.8], 'Montana':
+        ['Kamela Harris', 45.7, 'Donald Trump', 53.0, 'Robert Kennedy', 0.7, 'Jill
+        Stein', 0.6], 'Nebraska': ['Donald Trump', 56.0, 'Kamela Harris', 43.7, 'Robert
+        Kennedy', 0.1, 'Chase Oliver', 0.1, 'Jill Stein', 0.1], 'Nevada': ['Kamela
+        Harris', 47.7, 'Donald Trump', 46.9, 'Robert Kennedy', 1.6, 'Jill Stein',
+        1.9, 'Chase Oliver', 1.9], 'New Hampshire': ['Kamela Harris', 46.2, 'Donald
+        Trump', 50.4, 'Jill Stein', 3.4], 'New Jersey': ['Donald Trump', 47.5, 'Kamela
+        Harris', 50.2, 'Robert Kennedy', 1.3, 'Chase Oliver', 1.0], 'New Mexico':
+        ['Donald Trump', 45.7, 'Kamela Harris', 48.3, 'Chase Oliver', 1.7, 'Robert
+        Kennedy', 2.3, 'Jill Stein', 2.0], 'New York': ['Kamela Harris', 44.3, 'Donald
+        Trump', 54.6, 'Robert Kennedy', 0.4, 'Chase Oliver', 0.7], 'North Carolina':
+        ['Donald Trump', 45.6, 'Kamela Harris', 49.2, 'Jill Stein', 0.5, 'Chase Oliver',
+        2.2, 'Robert Kennedy', 2.5], 'North Dakota': ['Kamela Harris', 46.9, 'Donald
+        Trump', 49.0, 'Chase Oliver', 3.7, 'Jill Stein', 0.4], 'Ohio': ['Kamela Harris',
+        48.9, 'Donald Trump', 49.2, 'Jill Stein', 1.6, 'Robert Kennedy', 0.3], 'Oklahoma':
+        ['Kamela Harris', 52.5, 'Donald Trump', 45.7, 'Chase Oliver', 1.8], 'Oregon':
+        ['Donald Trump', 49.5, 'Kamela Harris', 46.2, 'Chase Oliver', 3.0, 'Jill Stein',
+        1.3], 'Pennsylvania': ['Kamela Harris', 47.8, 'Donald Trump', 47.2, 'Robert
+        Kennedy', 1.0, 'Chase Oliver', 3.8, 'Jill Stein', 0.2], 'Rhode Island': ['Kamela
+        Harris', 44.6, 'Donald Trump', 53.5, 'Robert Kennedy', 0.8, 'Chase Oliver',
+        0.3, 'Jill Stein', 0.7], 'South Carolina': ['Kamela Harris', 49.5, 'Donald
+        Trump', 46.4, 'Robert Kennedy', 1.2, 'Chase Oliver', 1.3, 'Jill Stein', 1.6],
+        'South Dakota': ['Kamela Harris', 49.8, 'Donald Trump', 44.7, 'Jill Stein',
+        4.2, 'Robert Kennedy', 1.0, 'Chase Oliver', 0.3], 'Tennessee': ['Donald Trump',
+        48.2, 'Kamela Harris', 44.9, 'Jill Stein', 6.9], 'Texas': ['Donald Trump',
+        51.9, 'Kamela Harris', 44.1, 'Robert Kennedy', 1.8, 'Jill Stein', 2.2], 'Utah':
+        ['Kamela Harris', 46.8, 'Donald Trump', 49.5, 'Robert Kennedy', 3.7], 'Vermont':
+        ['Donald Trump', 52.2, 'Kamela Harris', 44.6, 'Robert Kennedy', 3.2], 'Virginia':
+        ['Donald Trump', 47.6, 'Kamela Harris', 47.5, 'Jill Stein', 4.9], 'Washington':
+        ['Donald Trump', 45.8, 'Kamela Harris', 47.6, 'Robert Kennedy', 1.7, 'Chase
+        Oliver', 4.1, 'Jill Stein', 0.8], 'West Virginia': ['Kamela Harris', 46.2,
+        'Donald Trump', 46.3, 'Robert Kennedy', 0.3, 'Jill Stein', 2.4, 'Chase Oliver',
+        4.8], 'Wisconsin': ['Donald Trump', 48.2, 'Kamela Harris', 44.6, 'Jill Stein',
+        7.2], 'Wyoming': ['Donald Trump', 55.1, 'Kamela Harris', 43.9, 'Jill Stein',
+        0.8, 'Chase Oliver', 0.2]})"
+      return:
+        Donald Trump: 408
+        Kamela Harris: 130
+  - testcases:
+    - expression: "president({'Alabama': ['Kamela Harris', 46.9, 'Donald Trump', 49.2,
+        'Chase Oliver', 1.6, 'Robert Kennedy', 2.3], 'Alaska': ['Kamela Harris', 46.7,
+        'Donald Trump', 51.4, 'Chase Oliver', 0.6, 'Jill Stein', 0.6, 'Robert Kennedy',
+        0.7], 'Arizona': ['Kamela Harris', 46.1, 'Donald Trump', 50.6, 'Robert Kennedy',
+        1.8, 'Chase Oliver', 1.0, 'Jill Stein', 0.5], 'Arkansas': ['Kamela Harris',
+        44.5, 'Donald Trump', 50.3, 'Jill Stein', 2.2, 'Robert Kennedy', 3.0], 'California':
+        ['Kamela Harris', 44.6, 'Donald Trump', 52.8, 'Chase Oliver', 1.7, 'Robert
+        Kennedy', 0.9], 'Colorado': ['Donald Trump', 53.9, 'Kamela Harris', 44.4,
+        'Jill Stein', 1.7], 'Connecticut': ['Donald Trump', 55.3, 'Kamela Harris',
+        44.0, 'Robert Kennedy', 0.3, 'Jill Stein', 0.3, 'Chase Oliver', 0.1], 'Delaware':
+        ['Donald Trump', 48.2, 'Kamela Harris', 50.8, 'Jill Stein', 1.0], 'District
+        of Columbia': ['Donald Trump', 51.2, 'Kamela Harris', 47.4, 'Jill Stein',
+        1.4], 'Florida': ['Kamela Harris', 47.2, 'Donald Trump', 44.4, 'Jill Stein',
+        8.4], 'Georgia': ['Donald Trump', 46.3, 'Kamela Harris', 46.7, 'Robert Kennedy',
+        7.0], 'Hawaii': ['Kamela Harris', 50.0, 'Donald Trump', 47.7, 'Chase Oliver',
+        2.1, 'Jill Stein', 0.2], 'Idaho': ['Kamela Harris', 44.4, 'Donald Trump',
+        52.3, 'Robert Kennedy', 0.8, 'Jill Stein', 0.8, 'Chase Oliver', 1.7], 'Illinois':
+        ['Kamela Harris', 52.3, 'Donald Trump', 44.4, 'Chase Oliver', 3.3], 'Indiana':
+        ['Kamela Harris', 45.3, 'Donald Trump', 51.3, 'Robert Kennedy', 2.9, 'Chase
+        Oliver', 0.5], 'Iowa': ['Donald Trump', 47.5, 'Kamela Harris', 44.9, 'Jill
+        Stein', 7.6], 'Kansas': ['Kamela Harris', 43.3, 'Donald Trump', 55.8, 'Jill
+        Stein', 0.3, 'Chase Oliver', 0.2, 'Robert Kennedy', 0.4], 'Kentucky': ['Kamela
+        Harris', 49.4, 'Donald Trump', 48.0, 'Robert Kennedy', 0.6, 'Jill Stein',
+        1.4, 'Chase Oliver', 0.7], 'Louisiana': ['Donald Trump', 46.5, 'Kamela Harris',
+        49.3, 'Robert Kennedy', 4.2], 'Maine': ['Donald Trump', 53.7, 'Kamela Harris',
+        44.1, 'Robert Kennedy', 0.4, 'Jill Stein', 0.9, 'Chase Oliver', 0.9], 'Maryland':
+        ['Donald Trump', 47.1, 'Kamela Harris', 50.5, 'Chase Oliver', 2.4], 'Massachusetts':
+        ['Donald Trump', 47.5, 'Kamela Harris', 48.4, 'Robert Kennedy', 3.2, 'Jill
+        Stein', 0.9], 'Michigan': ['Donald Trump', 55.9, 'Kamela Harris', 43.4, 'Chase
+        Oliver', 0.2, 'Jill Stein', 0.3, 'Robert Kennedy', 0.3], 'Minnesota': ['Kamela
+        Harris', 48.7, 'Donald Trump', 49.9, 'Chase Oliver', 0.7, 'Jill Stein', 0.7],
+        'Mississippi': ['Kamela Harris', 46.8, 'Donald Trump', 51.6, 'Jill Stein',
+        1.6], 'Missouri': ['Kamela Harris', 43.7, 'Donald Trump', 55.3, 'Chase Oliver',
+        0.5, 'Robert Kennedy', 0.5], 'Montana': ['Donald Trump', 48.1, 'Kamela Harris',
+        48.0, 'Chase Oliver', 3.9], 'Nebraska': ['Donald Trump', 45.0, 'Kamela Harris',
+        50.6, 'Robert Kennedy', 1.0, 'Chase Oliver', 2.1, 'Jill Stein', 1.3], 'Nevada':
+        ['Donald Trump', 52.2, 'Kamela Harris', 44.5, 'Chase Oliver', 3.3], 'New Hampshire':
+        ['Donald Trump', 48.0, 'Kamela Harris', 50.3, 'Robert Kennedy', 1.7], 'New
+        Jersey': ['Donald Trump', 44.3, 'Kamela Harris', 48.2, 'Jill Stein', 1.8,
+        'Robert Kennedy', 5.8], 'New Mexico': ['Donald Trump', 53.7, 'Kamela Harris',
+        45.3, 'Robert Kennedy', 0.3, 'Chase Oliver', 0.7], 'New York': ['Kamela Harris',
+        44.9, 'Donald Trump', 52.7, 'Robert Kennedy', 0.8, 'Chase Oliver', 0.2, 'Jill
+        Stein', 1.4], 'North Carolina': ['Kamela Harris', 44.5, 'Donald Trump', 52.5,
+        'Jill Stein', 2.4, 'Robert Kennedy', 0.6], 'North Dakota': ['Kamela Harris',
+        43.9, 'Donald Trump', 55.1, 'Jill Stein', 1.0], 'Ohio': ['Kamela Harris',
+        47.3, 'Donald Trump', 46.4, 'Robert Kennedy', 4.7, 'Jill Stein', 1.6], 'Oklahoma':
+        ['Donald Trump', 55.4, 'Kamela Harris', 43.9, 'Chase Oliver', 0.4, 'Jill Stein',
+        0.3], 'Oregon': ['Kamela Harris', 52.8, 'Donald Trump', 44.9, 'Chase Oliver',
+        0.8, 'Robert Kennedy', 1.1, 'Jill Stein', 0.3], 'Pennsylvania': ['Kamela Harris',
+        49.2, 'Donald Trump', 48.5, 'Jill Stein', 0.8, 'Robert Kennedy', 1.5], 'Rhode
+        Island': ['Donald Trump', 49.4, 'Kamela Harris', 47.9, 'Chase Oliver', 0.9,
+        'Jill Stein', 0.8, 'Robert Kennedy', 1.0], 'South Carolina': ['Kamela Harris',
+        43.9, 'Donald Trump', 55.5, 'Jill Stein', 0.2, 'Chase Oliver', 0.2, 'Robert
+        Kennedy', 0.2], 'South Dakota': ['Donald Trump', 55.6, 'Kamela Harris', 43.7,
+        'Robert Kennedy', 0.2, 'Jill Stein', 0.3, 'Chase Oliver', 0.2], 'Tennessee':
+        ['Kamela Harris', 50.2, 'Donald Trump', 46.0, 'Jill Stein', 1.9, 'Chase Oliver',
+        1.9], 'Texas': ['Donald Trump', 47.1, 'Kamela Harris', 47.6, 'Chase Oliver',
+        2.0, 'Robert Kennedy', 1.1, 'Jill Stein', 2.2], 'Utah': ['Donald Trump', 50.8,
+        'Kamela Harris', 45.1, 'Jill Stein', 1.5, 'Robert Kennedy', 2.6], 'Vermont':
+        ['Donald Trump', 50.3, 'Kamela Harris', 44.8, 'Chase Oliver', 2.0, 'Jill Stein',
+        0.8, 'Robert Kennedy', 2.1], 'Virginia': ['Kamela Harris', 46.3, 'Donald Trump',
+        52.0, 'Jill Stein', 1.7], 'Washington': ['Donald Trump', 44.8, 'Kamela Harris',
+        50.4, 'Robert Kennedy', 0.6, 'Chase Oliver', 4.2], 'West Virginia': ['Donald
+        Trump', 51.4, 'Kamela Harris', 46.3, 'Chase Oliver', 0.3, 'Robert Kennedy',
+        0.8, 'Jill Stein', 1.2], 'Wisconsin': ['Donald Trump', 52.3, 'Kamela Harris',
+        45.5, 'Chase Oliver', 0.5, 'Robert Kennedy', 0.5, 'Jill Stein', 1.2], 'Wyoming':
+        ['Kamela Harris', 47.9, 'Donald Trump', 48.8, 'Jill Stein', 3.3]})"
+      return:
+        Donald Trump: 300
+        Kamela Harris: 238
+  - testcases:
+    - expression: "president({'Alabama': ['Donald Trump', 54.6, 'Kamela Harris', 44.2,
+        'Jill Stein', 0.2, 'Robert Kennedy', 1.0], 'Alaska': ['Kamela Harris', 47.0,
+        'Donald Trump', 51.9, 'Chase Oliver', 0.2, 'Jill Stein', 0.4, 'Robert Kennedy',
+        0.6], 'Arizona': ['Kamela Harris', 45.5, 'Donald Trump', 44.5, 'Chase Oliver',
+        10.0], 'Arkansas': ['Kamela Harris', 46.7, 'Donald Trump', 50.9, 'Jill Stein',
+        2.4], 'California': ['Kamela Harris', 50.5, 'Donald Trump', 46.4, 'Jill Stein',
+        0.9, 'Robert Kennedy', 1.2, 'Chase Oliver', 1.0], 'Colorado': ['Kamela Harris',
+        53.1, 'Donald Trump', 45.5, 'Jill Stein', 0.0, 'Chase Oliver', 0.8, 'Robert
+        Kennedy', 0.6], 'Connecticut': ['Kamela Harris', 46.6, 'Donald Trump', 52.3,
+        'Jill Stein', 0.1, 'Robert Kennedy', 1.0], 'Delaware': ['Donald Trump', 45.0,
+        'Kamela Harris', 47.4, 'Chase Oliver', 3.0, 'Jill Stein', 4.6], 'District
+        of Columbia': ['Donald Trump', 45.3, 'Kamela Harris', 46.6, 'Jill Stein',
+        8.1], 'Florida': ['Kamela Harris', 52.0, 'Donald Trump', 45.1, 'Jill Stein',
+        2.9], 'Georgia': ['Kamela Harris', 44.4, 'Donald Trump', 54.3, 'Chase Oliver',
+        0.4, 'Jill Stein', 0.9], 'Hawaii': ['Kamela Harris', 50.4, 'Donald Trump',
+        44.6, 'Jill Stein', 0.6, 'Chase Oliver', 3.9, 'Robert Kennedy', 0.5], 'Idaho':
+        ['Donald Trump', 48.1, 'Kamela Harris', 44.8, 'Jill Stein', 1.0, 'Chase Oliver',
+        2.7, 'Robert Kennedy', 3.4], 'Illinois': ['Kamela Harris', 46.1, 'Donald Trump',
+        51.9, 'Robert Kennedy', 0.3, 'Chase Oliver', 1.7], 'Indiana': ['Donald Trump',
+        54.3, 'Kamela Harris', 44.1, 'Chase Oliver', 0.1, 'Jill Stein', 1.5], 'Iowa':
+        ['Donald Trump', 50.7, 'Kamela Harris', 47.7, 'Chase Oliver', 0.6, 'Robert
+        Kennedy', 1.0], 'Kansas': ['Kamela Harris', 44.2, 'Donald Trump', 54.6, 'Robert
+        Kennedy', 0.7, 'Jill Stein', 0.5], 'Kentucky': ['Donald Trump', 53.6, 'Kamela
+        Harris', 44.9, 'Jill Stein', 0.8, 'Robert Kennedy', 0.0, 'Chase Oliver', 0.7],
+        'Louisiana': ['Kamela Harris', 44.0, 'Donald Trump', 55.3, 'Robert Kennedy',
+        0.4, 'Jill Stein', 0.3], 'Maine': ['Donald Trump', 48.2, 'Kamela Harris',
+        49.4, 'Jill Stein', 2.4], 'Maryland': ['Kamela Harris', 46.5, 'Donald Trump',
+        51.1, 'Jill Stein', 2.4], 'Massachusetts': ['Donald Trump', 48.8, 'Kamela
+        Harris', 48.0, 'Robert Kennedy', 0.8, 'Chase Oliver', 2.4], 'Michigan': ['Donald
+        Trump', 49.8, 'Kamela Harris', 47.0, 'Chase Oliver', 3.2], 'Minnesota': ['Donald
+        Trump', 54.7, 'Kamela Harris', 44.1, 'Chase Oliver', 0.6, 'Jill Stein', 0.5,
+        'Robert Kennedy', 0.0], 'Mississippi': ['Donald Trump', 53.9, 'Kamela Harris',
+        44.4, 'Robert Kennedy', 0.6, 'Chase Oliver', 1.1, 'Jill Stein', 0.0], 'Missouri':
+        ['Donald Trump', 51.4, 'Kamela Harris', 45.5, 'Robert Kennedy', 1.2, 'Jill
+        Stein', 1.0, 'Chase Oliver', 0.9], 'Montana': ['Kamela Harris', 45.5, 'Donald
+        Trump', 46.9, 'Chase Oliver', 4.1, 'Robert Kennedy', 3.5], 'Nebraska': ['Donald
+        Trump', 48.6, 'Kamela Harris', 47.1, 'Chase Oliver', 1.1, 'Jill Stein', 1.4,
+        'Robert Kennedy', 1.8], 'Nevada': ['Donald Trump', 54.7, 'Kamela Harris',
+        44.2, 'Jill Stein', 1.1], 'New Hampshire': ['Kamela Harris', 44.0, 'Donald
+        Trump', 55.0, 'Robert Kennedy', 1.0], 'New Jersey': ['Donald Trump', 48.5,
+        'Kamela Harris', 47.9, 'Robert Kennedy', 3.6], 'New Mexico': ['Kamela Harris',
+        45.8, 'Donald Trump', 47.8, 'Jill Stein', 6.4], 'New York': ['Kamela Harris',
+        46.8, 'Donald Trump', 50.8, 'Robert Kennedy', 2.4], 'North Carolina': ['Donald
+        Trump', 55.2, 'Kamela Harris', 43.8, 'Robert Kennedy', 0.6, 'Jill Stein',
+        0.1, 'Chase Oliver', 0.3], 'North Dakota': ['Donald Trump', 45.1, 'Kamela
+        Harris', 50.0, 'Chase Oliver', 3.0, 'Robert Kennedy', 1.9], 'Ohio': ['Donald
+        Trump', 54.6, 'Kamela Harris', 44.4, 'Robert Kennedy', 0.2, 'Jill Stein',
+        0.5, 'Chase Oliver', 0.3], 'Oklahoma': ['Kamela Harris', 49.7, 'Donald Trump',
+        44.4, 'Jill Stein', 2.4, 'Robert Kennedy', 3.5], 'Oregon': ['Kamela Harris',
+        43.8, 'Donald Trump', 55.4, 'Robert Kennedy', 0.8], 'Pennsylvania': ['Kamela
+        Harris', 43.4, 'Donald Trump', 55.6, 'Jill Stein', 0.7, 'Chase Oliver', 0.3],
+        'Rhode Island': ['Kamela Harris', 50.7, 'Donald Trump', 45.0, 'Chase Oliver',
+        0.6, 'Robert Kennedy', 3.7], 'South Carolina': ['Kamela Harris', 45.6, 'Donald
+        Trump', 47.9, 'Robert Kennedy', 6.5], 'South Dakota': ['Kamela Harris', 45.2,
+        'Donald Trump', 51.2, 'Chase Oliver', 0.5, 'Robert Kennedy', 1.4, 'Jill Stein',
+        1.6], 'Tennessee': ['Donald Trump', 53.0, 'Kamela Harris', 45.3, 'Chase Oliver',
+        0.5, 'Jill Stein', 0.1, 'Robert Kennedy', 1.1], 'Texas': ['Kamela Harris',
+        43.7, 'Donald Trump', 55.5, 'Jill Stein', 0.6, 'Chase Oliver', 0.2], 'Utah':
+        ['Kamela Harris', 47.1, 'Donald Trump', 48.3, 'Jill Stein', 4.6], 'Vermont':
+        ['Kamela Harris', 44.7, 'Donald Trump', 53.5, 'Jill Stein', 0.8, 'Chase Oliver',
+        1.0], 'Virginia': ['Donald Trump', 55.0, 'Kamela Harris', 44.0, 'Robert Kennedy',
+        0.1, 'Jill Stein', 0.9], 'Washington': ['Kamela Harris', 44.4, 'Donald Trump',
+        54.5, 'Robert Kennedy', 1.1], 'West Virginia': ['Donald Trump', 51.8, 'Kamela
+        Harris', 46.1, 'Robert Kennedy', 0.9, 'Chase Oliver', 0.2, 'Jill Stein', 1.0],
+        'Wisconsin': ['Kamela Harris', 44.4, 'Donald Trump', 54.5, 'Chase Oliver',
+        0.6, 'Robert Kennedy', 0.1, 'Jill Stein', 0.3], 'Wyoming': ['Kamela Harris',
+        49.2, 'Donald Trump', 48.2, 'Robert Kennedy', 2.6]})"
+      return:
+        Donald Trump: 403
+        Kamela Harris: 135
+  - testcases:
+    - expression: "president({'Alabama': ['Kamela Harris', 45.5, 'Donald Trump', 53.3,
+        'Jill Stein', 1.2], 'Alaska': ['Donald Trump', 50.4, 'Kamela Harris', 46.6,
+        'Jill Stein', 1.4, 'Chase Oliver', 1.2, 'Robert Kennedy', 0.4], 'Arizona':
+        ['Donald Trump', 48.3, 'Kamela Harris', 46.6, 'Robert Kennedy', 5.1], 'Arkansas':
+        ['Donald Trump', 55.2, 'Kamela Harris', 43.9, 'Jill Stein', 0.4, 'Robert Kennedy',
+        0.4, 'Chase Oliver', 0.1], 'California': ['Donald Trump', 54.3, 'Kamela Harris',
+        44.7, 'Chase Oliver', 1.0], 'Colorado': ['Kamela Harris', 49.2, 'Donald Trump',
+        47.8, 'Chase Oliver', 3.0], 'Connecticut': ['Kamela Harris', 47.0, 'Donald
+        Trump', 51.2, 'Jill Stein', 0.8, 'Robert Kennedy', 1.0], 'Delaware': ['Donald
+        Trump', 45.7, 'Kamela Harris', 52.7, 'Robert Kennedy', 0.1, 'Jill Stein',
+        0.1, 'Chase Oliver', 1.4], 'District of Columbia': ['Kamela Harris', 50.8,
+        'Donald Trump', 44.5, 'Chase Oliver', 0.5, 'Jill Stein', 3.0, 'Robert Kennedy',
+        1.2], 'Florida': ['Kamela Harris', 47.9, 'Donald Trump', 50.0, 'Jill Stein',
+        2.1], 'Georgia': ['Donald Trump', 55.8, 'Kamela Harris', 43.9, 'Jill Stein',
+        0.0, 'Chase Oliver', 0.2, 'Robert Kennedy', 0.0], 'Hawaii': ['Kamela Harris',
+        45.5, 'Donald Trump', 47.3, 'Robert Kennedy', 7.2], 'Idaho': ['Donald Trump',
+        47.8, 'Kamela Harris', 48.4, 'Chase Oliver', 0.8, 'Jill Stein', 1.7, 'Robert
+        Kennedy', 1.3], 'Illinois': ['Donald Trump', 49.1, 'Kamela Harris', 47.7,
+        'Chase Oliver', 2.7, 'Robert Kennedy', 0.5], 'Indiana': ['Donald Trump', 50.9,
+        'Kamela Harris', 45.7, 'Jill Stein', 0.0, 'Chase Oliver', 3.1, 'Robert Kennedy',
+        0.2], 'Iowa': ['Donald Trump', 44.6, 'Kamela Harris', 44.6, 'Robert Kennedy',
+        1.5, 'Jill Stein', 5.8, 'Chase Oliver', 3.5], 'Kansas': ['Donald Trump', 48.9,
+        'Kamela Harris', 47.3, 'Robert Kennedy', 2.4, 'Jill Stein', 1.4], 'Kentucky':
+        ['Donald Trump', 53.7, 'Kamela Harris', 44.4, 'Robert Kennedy', 1.0, 'Jill
+        Stein', 0.9], 'Louisiana': ['Donald Trump', 51.0, 'Kamela Harris', 47.5, 'Chase
+        Oliver', 1.5], 'Maine': ['Donald Trump', 48.6, 'Kamela Harris', 48.2, 'Jill
+        Stein', 2.6, 'Chase Oliver', 0.6], 'Maryland': ['Kamela Harris', 48.4, 'Donald
+        Trump', 49.1, 'Chase Oliver', 0.2, 'Jill Stein', 1.0, 'Robert Kennedy', 1.4],
+        'Massachusetts': ['Kamela Harris', 46.1, 'Donald Trump', 49.9, 'Jill Stein',
+        4.0], 'Michigan': ['Kamela Harris', 45.5, 'Donald Trump', 47.6, 'Jill Stein',
+        3.6, 'Robert Kennedy', 3.3], 'Minnesota': ['Donald Trump', 48.9, 'Kamela Harris',
+        47.0, 'Robert Kennedy', 1.3, 'Chase Oliver', 2.1, 'Jill Stein', 0.6], 'Mississippi':
+        ['Donald Trump', 55.4, 'Kamela Harris', 43.9, 'Robert Kennedy', 0.2, 'Chase
+        Oliver', 0.3, 'Jill Stein', 0.2], 'Missouri': ['Donald Trump', 46.9, 'Kamela
+        Harris', 50.5, 'Jill Stein', 2.5, 'Chase Oliver', 0.1], 'Montana': ['Donald
+        Trump', 53.4, 'Kamela Harris', 44.2, 'Chase Oliver', 0.4, 'Jill Stein', 0.9,
+        'Robert Kennedy', 1.1], 'Nebraska': ['Donald Trump', 48.6, 'Kamela Harris',
+        49.1, 'Robert Kennedy', 1.1, 'Jill Stein', 1.1], 'Nevada': ['Donald Trump',
+        51.1, 'Kamela Harris', 44.1, 'Jill Stein', 1.1, 'Robert Kennedy', 2.2, 'Chase
+        Oliver', 1.5], 'New Hampshire': ['Kamela Harris', 54.0, 'Donald Trump', 44.7,
+        'Chase Oliver', 0.6, 'Jill Stein', 0.7], 'New Jersey': ['Kamela Harris', 46.5,
+        'Donald Trump', 47.4, 'Jill Stein', 0.3, 'Robert Kennedy', 3.4, 'Chase Oliver',
+        2.4], 'New Mexico': ['Donald Trump', 47.8, 'Kamela Harris', 44.4, 'Jill Stein',
+        2.6, 'Chase Oliver', 4.3, 'Robert Kennedy', 0.9], 'New York': ['Donald Trump',
+        47.5, 'Kamela Harris', 48.2, 'Chase Oliver', 2.5, 'Jill Stein', 1.8], 'North
+        Carolina': ['Donald Trump', 47.5, 'Kamela Harris', 48.2, 'Jill Stein', 1.0,
+        'Chase Oliver', 3.3], 'North Dakota': ['Kamela Harris', 46.8, 'Donald Trump',
+        51.9, 'Chase Oliver', 1.3], 'Ohio': ['Donald Trump', 44.6, 'Kamela Harris',
+        46.0, 'Chase Oliver', 4.4, 'Robert Kennedy', 3.2, 'Jill Stein', 1.7], 'Oklahoma':
+        ['Kamela Harris', 43.8, 'Donald Trump', 55.3, 'Robert Kennedy', 0.4, 'Chase
+        Oliver', 0.1, 'Jill Stein', 0.5], 'Oregon': ['Kamela Harris', 46.3, 'Donald
+        Trump', 52.5, 'Chase Oliver', 1.2], 'Pennsylvania': ['Kamela Harris', 44.0,
+        'Donald Trump', 54.9, 'Jill Stein', 1.1], 'Rhode Island': ['Kamela Harris',
+        52.6, 'Donald Trump', 46.3, 'Chase Oliver', 0.7, 'Jill Stein', 0.4], 'South
+        Carolina': ['Donald Trump', 54.0, 'Kamela Harris', 44.4, 'Robert Kennedy',
+        1.6], 'South Dakota': ['Donald Trump', 51.5, 'Kamela Harris', 46.3, 'Robert
+        Kennedy', 0.7, 'Jill Stein', 1.5], 'Tennessee': ['Donald Trump', 50.9, 'Kamela
+        Harris', 45.9, 'Chase Oliver', 3.2], 'Texas': ['Kamela Harris', 44.5, 'Donald
+        Trump', 48.6, 'Robert Kennedy', 4.7, 'Chase Oliver', 2.2], 'Utah': ['Kamela
+        Harris', 43.8, 'Donald Trump', 55.8, 'Chase Oliver', 0.2, 'Robert Kennedy',
+        0.2, 'Jill Stein', 0.0], 'Vermont': ['Donald Trump', 50.3, 'Kamela Harris',
+        45.9, 'Chase Oliver', 3.8], 'Virginia': ['Donald Trump', 51.1, 'Kamela Harris',
+        45.5, 'Jill Stein', 0.6, 'Chase Oliver', 1.5, 'Robert Kennedy', 1.3], 'Washington':
+        ['Kamela Harris', 50.6, 'Donald Trump', 48.0, 'Robert Kennedy', 0.3, 'Chase
+        Oliver', 0.3, 'Jill Stein', 0.8], 'West Virginia': ['Donald Trump', 49.0,
+        'Kamela Harris', 46.6, 'Robert Kennedy', 1.5, 'Jill Stein', 2.9], 'Wisconsin':
+        ['Kamela Harris', 53.1, 'Donald Trump', 44.7, 'Jill Stein', 2.2], 'Wyoming':
+        ['Donald Trump', 47.8, 'Kamela Harris', 50.7, 'Robert Kennedy', 1.0, 'Chase
+        Oliver', 0.0, 'Jill Stein', 0.5]})"
+      return:
+        Donald Trump: 409
+        Kamela Harris: 129
+  - testcases:
+    - expression: "president({'Alabama': ['Kamela Harris', 45.3, 'Donald Trump', 48.6,
+        'Robert Kennedy', 2.8, 'Chase Oliver', 3.3], 'Alaska': ['Donald Trump', 47.7,
+        'Kamela Harris', 46.6, 'Jill Stein', 5.7], 'Arizona': ['Donald Trump', 54.5,
+        'Kamela Harris', 44.2, 'Chase Oliver', 0.6, 'Robert Kennedy', 0.7], 'Arkansas':
+        ['Donald Trump', 53.4, 'Kamela Harris', 44.6, 'Jill Stein', 0.8, 'Robert Kennedy',
+        0.2, 'Chase Oliver', 1.0], 'California': ['Donald Trump', 54.3, 'Kamela Harris',
+        44.1, 'Chase Oliver', 0.4, 'Robert Kennedy', 1.2], 'Colorado': ['Kamela Harris',
+        44.1, 'Donald Trump', 51.4, 'Robert Kennedy', 2.4, 'Jill Stein', 2.1], 'Connecticut':
+        ['Kamela Harris', 50.8, 'Donald Trump', 45.3, 'Robert Kennedy', 0.3, 'Chase
+        Oliver', 3.6], 'Delaware': ['Kamela Harris', 46.7, 'Donald Trump', 51.7, 'Chase
+        Oliver', 1.6], 'District of Columbia': ['Donald Trump', 49.7, 'Kamela Harris',
+        46.0, 'Robert Kennedy', 2.5, 'Chase Oliver', 1.8], 'Florida': ['Donald Trump',
+        53.8, 'Kamela Harris', 44.3, 'Jill Stein', 0.9, 'Chase Oliver', 0.6, 'Robert
+        Kennedy', 0.4], 'Georgia': ['Donald Trump', 52.3, 'Kamela Harris', 45.1, 'Robert
+        Kennedy', 2.6], 'Hawaii': ['Kamela Harris', 46.6, 'Donald Trump', 50.2, 'Chase
+        Oliver', 0.9, 'Jill Stein', 1.1, 'Robert Kennedy', 1.2], 'Idaho': ['Donald
+        Trump', 46.8, 'Kamela Harris', 46.6, 'Jill Stein', 2.7, 'Robert Kennedy',
+        3.9], 'Illinois': ['Donald Trump', 49.9, 'Kamela Harris', 46.9, 'Jill Stein',
+        2.2, 'Robert Kennedy', 1.0], 'Indiana': ['Donald Trump', 53.7, 'Kamela Harris',
+        44.9, 'Jill Stein', 0.6, 'Robert Kennedy', 0.4, 'Chase Oliver', 0.5], 'Iowa':
+        ['Kamela Harris', 44.7, 'Donald Trump', 50.5, 'Jill Stein', 4.8], 'Kansas':
+        ['Kamela Harris', 46.9, 'Donald Trump', 45.0, 'Jill Stein', 2.8, 'Robert Kennedy',
+        5.3], 'Kentucky': ['Kamela Harris', 45.4, 'Donald Trump', 51.4, 'Chase Oliver',
+        3.2], 'Louisiana': ['Donald Trump', 55.5, 'Kamela Harris', 43.6, 'Robert Kennedy',
+        0.4, 'Jill Stein', 0.5], 'Maine': ['Donald Trump', 50.7, 'Kamela Harris',
+        44.9, 'Chase Oliver', 4.1, 'Robert Kennedy', 0.2, 'Jill Stein', 0.1], 'Maryland':
+        ['Kamela Harris', 44.2, 'Donald Trump', 54.2, 'Jill Stein', 0.5, 'Chase Oliver',
+        1.1], 'Massachusetts': ['Donald Trump', 46.5, 'Kamela Harris', 50.5, 'Robert
+        Kennedy', 3.0], 'Michigan': ['Donald Trump', 48.9, 'Kamela Harris', 47.8,
+        'Chase Oliver', 2.8, 'Robert Kennedy', 0.5], 'Minnesota': ['Donald Trump',
+        50.5, 'Kamela Harris', 46.1, 'Chase Oliver', 3.4], 'Mississippi': ['Kamela
+        Harris', 48.8, 'Donald Trump', 49.2, 'Chase Oliver', 0.6, 'Robert Kennedy',
+        0.7, 'Jill Stein', 0.7], 'Missouri': ['Kamela Harris', 44.2, 'Donald Trump',
+        54.3, 'Jill Stein', 0.8, 'Chase Oliver', 0.4, 'Robert Kennedy', 0.4], 'Montana':
+        ['Kamela Harris', 44.4, 'Donald Trump', 54.2, 'Chase Oliver', 0.2, 'Jill Stein',
+        0.3, 'Robert Kennedy', 0.9], 'Nebraska': ['Donald Trump', 49.4, 'Kamela Harris',
+        44.8, 'Chase Oliver', 2.1, 'Jill Stein', 1.9, 'Robert Kennedy', 1.8], 'Nevada':
+        ['Donald Trump', 45.1, 'Kamela Harris', 52.5, 'Robert Kennedy', 0.7, 'Chase
+        Oliver', 0.2, 'Jill Stein', 1.5], 'New Hampshire': ['Kamela Harris', 47.6,
+        'Donald Trump', 47.1, 'Chase Oliver', 3.1, 'Robert Kennedy', 2.2], 'New Jersey':
+        ['Donald Trump', 54.0, 'Kamela Harris', 44.4, 'Robert Kennedy', 0.6, 'Chase
+        Oliver', 0.3, 'Jill Stein', 0.7], 'New Mexico': ['Donald Trump', 55.6, 'Kamela
+        Harris', 43.8, 'Jill Stein', 0.2, 'Robert Kennedy', 0.4], 'New York': ['Donald
+        Trump', 52.9, 'Kamela Harris', 46.0, 'Jill Stein', 1.1], 'North Carolina':
+        ['Kamela Harris', 47.7, 'Donald Trump', 44.3, 'Jill Stein', 2.6, 'Chase Oliver',
+        1.6, 'Robert Kennedy', 3.8], 'North Dakota': ['Kamela Harris', 45.4, 'Donald
+        Trump', 53.5, 'Jill Stein', 0.1, 'Chase Oliver', 0.8, 'Robert Kennedy', 0.2],
+        'Ohio': ['Kamela Harris', 44.0, 'Donald Trump', 50.8, 'Robert Kennedy', 4.2,
+        'Jill Stein', 0.1, 'Chase Oliver', 0.9], 'Oklahoma': ['Donald Trump', 45.1,
+        'Kamela Harris', 48.4, 'Chase Oliver', 3.4, 'Jill Stein', 1.5, 'Robert Kennedy',
+        1.6], 'Oregon': ['Kamela Harris', 44.0, 'Donald Trump', 54.6, 'Jill Stein',
+        0.9, 'Chase Oliver', 0.5], 'Pennsylvania': ['Donald Trump', 49.0, 'Kamela
+        Harris', 48.5, 'Jill Stein', 0.6, 'Chase Oliver', 1.9], 'Rhode Island': ['Kamela
+        Harris', 44.1, 'Donald Trump', 51.6, 'Chase Oliver', 4.3], 'South Carolina':
+        ['Donald Trump', 45.2, 'Kamela Harris', 51.6, 'Jill Stein', 0.4, 'Robert Kennedy',
+        2.8], 'South Dakota': ['Donald Trump', 55.3, 'Kamela Harris', 43.7, 'Jill
+        Stein', 1.0], 'Tennessee': ['Kamela Harris', 46.8, 'Donald Trump', 48.5, 'Jill
+        Stein', 2.4, 'Chase Oliver', 0.6, 'Robert Kennedy', 1.7], 'Texas': ['Donald
+        Trump', 55.4, 'Kamela Harris', 43.7, 'Robert Kennedy', 0.4, 'Chase Oliver',
+        0.4, 'Jill Stein', 0.1], 'Utah': ['Kamela Harris', 51.7, 'Donald Trump', 47.0,
+        'Jill Stein', 0.1, 'Chase Oliver', 1.2], 'Vermont': ['Donald Trump', 54.8,
+        'Kamela Harris', 44.2, 'Robert Kennedy', 0.2, 'Chase Oliver', 0.4, 'Jill Stein',
+        0.3], 'Virginia': ['Donald Trump', 51.6, 'Kamela Harris', 44.8, 'Chase Oliver',
+        3.6], 'Washington': ['Kamela Harris', 46.1, 'Donald Trump', 52.4, 'Robert
+        Kennedy', 0.3, 'Chase Oliver', 0.0, 'Jill Stein', 1.1], 'West Virginia': ['Donald
+        Trump', 46.5, 'Kamela Harris', 48.6, 'Robert Kennedy', 1.6, 'Jill Stein',
+        3.3], 'Wisconsin': ['Kamela Harris', 53.0, 'Donald Trump', 45.5, 'Robert Kennedy',
+        0.3, 'Chase Oliver', 1.2], 'Wyoming': ['Donald Trump', 52.1, 'Kamela Harris',
+        46.8, 'Chase Oliver', 0.7, 'Jill Stein', 0.4]})"
+      return:
+        Donald Trump: 452
+        Kamela Harris: 86
+  - testcases:
+    - expression: "president({'Alabama': ['Donald Trump', 46.2, 'Kamela Harris', 52.5,
+        'Jill Stein', 0.5, 'Robert Kennedy', 0.4, 'Chase Oliver', 0.4], 'Alaska':
+        ['Donald Trump', 52.2, 'Kamela Harris', 44.5, 'Chase Oliver', 1.4, 'Jill Stein',
+        0.7, 'Robert Kennedy', 1.2], 'Arizona': ['Kamela Harris', 47.5, 'Donald Trump',
+        45.9, 'Chase Oliver', 6.6], 'Arkansas': ['Donald Trump', 52.7, 'Kamela Harris',
+        44.3, 'Robert Kennedy', 3.0], 'California': ['Donald Trump', 54.0, 'Kamela
+        Harris', 44.1, 'Robert Kennedy', 0.1, 'Jill Stein', 1.8], 'Colorado': ['Kamela
+        Harris', 48.7, 'Donald Trump', 46.9, 'Jill Stein', 1.7, 'Robert Kennedy',
+        2.7], 'Connecticut': ['Kamela Harris', 48.4, 'Donald Trump', 47.3, 'Jill Stein',
+        1.3, 'Chase Oliver', 3.0], 'Delaware': ['Donald Trump', 48.2, 'Kamela Harris',
+        45.8, 'Jill Stein', 3.2, 'Robert Kennedy', 2.8], 'District of Columbia': ['Donald
+        Trump', 55.8, 'Kamela Harris', 43.2, 'Jill Stein', 1.0], 'Florida': ['Kamela
+        Harris', 48.1, 'Donald Trump', 47.4, 'Jill Stein', 2.4, 'Chase Oliver', 1.2,
+        'Robert Kennedy', 1.0], 'Georgia': ['Kamela Harris', 47.7, 'Donald Trump',
+        48.6, 'Robert Kennedy', 2.8, 'Jill Stein', 0.9], 'Hawaii': ['Kamela Harris',
+        45.2, 'Donald Trump', 52.8, 'Robert Kennedy', 2.0], 'Idaho': ['Donald Trump',
+        52.5, 'Kamela Harris', 45.2, 'Chase Oliver', 1.1, 'Robert Kennedy', 1.2],
+        'Illinois': ['Kamela Harris', 48.9, 'Donald Trump', 49.3, 'Chase Oliver',
+        1.8], 'Indiana': ['Kamela Harris', 45.4, 'Donald Trump', 51.5, 'Chase Oliver',
+        0.2, 'Robert Kennedy', 2.9], 'Iowa': ['Kamela Harris', 44.1, 'Donald Trump',
+        50.6, 'Jill Stein', 4.0, 'Chase Oliver', 1.3], 'Kansas': ['Donald Trump',
+        44.5, 'Kamela Harris', 46.8, 'Chase Oliver', 8.7], 'Kentucky': ['Kamela Harris',
+        44.5, 'Donald Trump', 53.8, 'Robert Kennedy', 0.2, 'Chase Oliver', 0.6, 'Jill
+        Stein', 0.9], 'Louisiana': ['Donald Trump', 50.6, 'Kamela Harris', 47.4, 'Jill
+        Stein', 0.9, 'Robert Kennedy', 1.1], 'Maine': ['Kamela Harris', 46.2, 'Donald
+        Trump', 51.7, 'Jill Stein', 1.2, 'Chase Oliver', 0.9], 'Maryland': ['Kamela
+        Harris', 44.3, 'Donald Trump', 45.9, 'Robert Kennedy', 9.8], 'Massachusetts':
+        ['Kamela Harris', 43.7, 'Donald Trump', 55.4, 'Jill Stein', 0.1, 'Robert Kennedy',
+        0.3, 'Chase Oliver', 0.4], 'Michigan': ['Kamela Harris', 44.8, 'Donald Trump',
+        50.3, 'Robert Kennedy', 3.2, 'Jill Stein', 0.5, 'Chase Oliver', 1.1], 'Minnesota':
+        ['Kamela Harris', 47.2, 'Donald Trump', 48.5, 'Jill Stein', 0.6, 'Chase Oliver',
+        1.7, 'Robert Kennedy', 2.0], 'Mississippi': ['Donald Trump', 55.5, 'Kamela
+        Harris', 44.0, 'Jill Stein', 0.1, 'Chase Oliver', 0.4], 'Missouri': ['Donald
+        Trump', 50.7, 'Kamela Harris', 44.9, 'Jill Stein', 3.5, 'Chase Oliver', 0.9],
+        'Montana': ['Donald Trump', 53.3, 'Kamela Harris', 45.2, 'Robert Kennedy',
+        1.5], 'Nebraska': ['Kamela Harris', 48.3, 'Donald Trump', 46.3, 'Chase Oliver',
+        2.1, 'Robert Kennedy', 3.3], 'Nevada': ['Kamela Harris', 44.8, 'Donald Trump',
+        50.8, 'Jill Stein', 4.4], 'New Hampshire': ['Donald Trump', 52.3, 'Kamela
+        Harris', 44.9, 'Jill Stein', 0.9, 'Chase Oliver', 1.2, 'Robert Kennedy', 0.7],
+        'New Jersey': ['Donald Trump', 51.1, 'Kamela Harris', 46.5, 'Chase Oliver',
+        1.8, 'Jill Stein', 0.6], 'New Mexico': ['Kamela Harris', 45.3, 'Donald Trump',
+        46.8, 'Chase Oliver', 2.6, 'Robert Kennedy', 4.4, 'Jill Stein', 0.9], 'New
+        York': ['Kamela Harris', 43.9, 'Donald Trump', 55.3, 'Chase Oliver', 0.5,
+        'Jill Stein', 0.2, 'Robert Kennedy', 0.1], 'North Carolina': ['Kamela Harris',
+        48.9, 'Donald Trump', 48.4, 'Jill Stein', 2.0, 'Robert Kennedy', 0.3, 'Chase
+        Oliver', 0.4], 'North Dakota': ['Kamela Harris', 44.4, 'Donald Trump', 53.3,
+        'Robert Kennedy', 2.3], 'Ohio': ['Kamela Harris', 46.2, 'Donald Trump', 52.8,
+        'Robert Kennedy', 0.6, 'Chase Oliver', 0.2, 'Jill Stein', 0.2], 'Oklahoma':
+        ['Donald Trump', 44.4, 'Kamela Harris', 44.7, 'Jill Stein', 5.6, 'Chase Oliver',
+        5.3], 'Oregon': ['Donald Trump', 54.6, 'Kamela Harris', 44.3, 'Chase Oliver',
+        0.4, 'Robert Kennedy', 0.7], 'Pennsylvania': ['Donald Trump', 51.6, 'Kamela
+        Harris', 46.5, 'Chase Oliver', 0.8, 'Jill Stein', 0.1, 'Robert Kennedy', 1.0],
+        'Rhode Island': ['Kamela Harris', 45.6, 'Donald Trump', 52.1, 'Jill Stein',
+        1.3, 'Chase Oliver', 0.5, 'Robert Kennedy', 0.5], 'South Carolina': ['Donald
+        Trump', 52.2, 'Kamela Harris', 45.1, 'Chase Oliver', 1.1, 'Jill Stein', 0.7,
+        'Robert Kennedy', 0.9], 'South Dakota': ['Kamela Harris', 44.4, 'Donald Trump',
+        52.2, 'Chase Oliver', 2.1, 'Robert Kennedy', 1.3], 'Tennessee': ['Kamela Harris',
+        44.5, 'Donald Trump', 52.9, 'Chase Oliver', 1.2, 'Robert Kennedy', 1.4], 'Texas':
+        ['Kamela Harris', 44.8, 'Donald Trump', 51.4, 'Robert Kennedy', 1.1, 'Chase
+        Oliver', 1.2, 'Jill Stein', 1.5], 'Utah': ['Kamela Harris', 46.0, 'Donald
+        Trump', 45.3, 'Robert Kennedy', 8.7], 'Vermont': ['Kamela Harris', 53.9, 'Donald
+        Trump', 44.5, 'Robert Kennedy', 0.1, 'Jill Stein', 0.7, 'Chase Oliver', 0.8],
+        'Virginia': ['Donald Trump', 51.6, 'Kamela Harris', 46.7, 'Jill Stein', 1.7],
+        'Washington': ['Kamela Harris', 45.7, 'Donald Trump', 52.2, 'Jill Stein',
+        1.1, 'Robert Kennedy', 1.0], 'West Virginia': ['Kamela Harris', 44.8, 'Donald
+        Trump', 47.6, 'Jill Stein', 2.7, 'Robert Kennedy', 2.2, 'Chase Oliver', 2.7],
+        'Wisconsin': ['Kamela Harris', 46.2, 'Donald Trump', 50.2, 'Robert Kennedy',
+        1.2, 'Jill Stein', 1.7, 'Chase Oliver', 0.6], 'Wyoming': ['Kamela Harris',
+        44.1, 'Donald Trump', 53.8, 'Robert Kennedy', 0.4, 'Chase Oliver', 0.7, 'Jill
+        Stein', 1.1]})"
+      return:
+        Kamela Harris: 107
+        Donald Trump: 431
+  - testcases:
+    - expression: "president({'Alabama': ['Kamela Harris', 44.1, 'Donald Trump', 54.3,
+        'Robert Kennedy', 1.6], 'Alaska': ['Kamela Harris', 47.0, 'Donald Trump',
+        48.4, 'Robert Kennedy', 4.1, 'Jill Stein', 0.5], 'Arizona': ['Kamela Harris',
+        46.8, 'Donald Trump', 50.2, 'Chase Oliver', 3.0], 'Arkansas': ['Donald Trump',
+        47.9, 'Kamela Harris', 50.6, 'Robert Kennedy', 1.5], 'California': ['Donald
+        Trump', 49.2, 'Kamela Harris', 45.5, 'Jill Stein', 4.9, 'Chase Oliver', 0.4],
+        'Colorado': ['Kamela Harris', 43.9, 'Donald Trump', 55.1, 'Robert Kennedy',
+        0.4, 'Jill Stein', 0.1, 'Chase Oliver', 0.5], 'Connecticut': ['Kamela Harris',
+        44.1, 'Donald Trump', 53.6, 'Chase Oliver', 2.3], 'Delaware': ['Donald Trump',
+        48.3, 'Kamela Harris', 49.2, 'Chase Oliver', 2.5], 'District of Columbia':
+        ['Donald Trump', 51.2, 'Kamela Harris', 45.9, 'Chase Oliver', 1.6, 'Jill Stein',
+        1.3], 'Florida': ['Donald Trump', 54.1, 'Kamela Harris', 44.3, 'Chase Oliver',
+        0.4, 'Robert Kennedy', 0.7, 'Jill Stein', 0.5], 'Georgia': ['Kamela Harris',
+        46.7, 'Donald Trump', 51.4, 'Robert Kennedy', 0.5, 'Chase Oliver', 0.7, 'Jill
+        Stein', 0.7], 'Hawaii': ['Kamela Harris', 44.1, 'Donald Trump', 54.7, 'Robert
+        Kennedy', 0.4, 'Jill Stein', 0.8], 'Idaho': ['Kamela Harris', 49.9, 'Donald
+        Trump', 47.7, 'Robert Kennedy', 1.0, 'Chase Oliver', 1.4], 'Illinois': ['Kamela
+        Harris', 50.6, 'Donald Trump', 45.6, 'Jill Stein', 0.4, 'Chase Oliver', 3.3,
+        'Robert Kennedy', 0.1], 'Indiana': ['Donald Trump', 48.7, 'Kamela Harris',
+        44.2, 'Jill Stein', 2.5, 'Chase Oliver', 1.7, 'Robert Kennedy', 2.9], 'Iowa':
+        ['Donald Trump', 45.2, 'Kamela Harris', 50.6, 'Jill Stein', 2.7, 'Chase Oliver',
+        1.5], 'Kansas': ['Kamela Harris', 49.0, 'Donald Trump', 49.0, 'Robert Kennedy',
+        1.1, 'Jill Stein', 0.9], 'Kentucky': ['Donald Trump', 44.4, 'Kamela Harris',
+        46.0, 'Robert Kennedy', 4.0, 'Chase Oliver', 1.2, 'Jill Stein', 4.4], 'Louisiana':
+        ['Kamela Harris', 44.3, 'Donald Trump', 54.7, 'Robert Kennedy', 1.0, 'Chase
+        Oliver', 0.0], 'Maine': ['Kamela Harris', 44.0, 'Donald Trump', 55.1, 'Jill
+        Stein', 0.4, 'Robert Kennedy', 0.1, 'Chase Oliver', 0.4], 'Maryland': ['Kamela
+        Harris', 45.2, 'Donald Trump', 44.4, 'Jill Stein', 0.9, 'Chase Oliver', 3.9,
+        'Robert Kennedy', 5.6], 'Massachusetts': ['Donald Trump', 48.5, 'Kamela Harris',
+        46.4, 'Robert Kennedy', 3.0, 'Jill Stein', 0.3, 'Chase Oliver', 1.8], 'Michigan':
+        ['Donald Trump', 49.0, 'Kamela Harris', 49.3, 'Robert Kennedy', 1.1, 'Jill
+        Stein', 0.6], 'Minnesota': ['Kamela Harris', 44.7, 'Donald Trump', 44.8, 'Chase
+        Oliver', 4.5, 'Jill Stein', 0.8, 'Robert Kennedy', 5.2], 'Mississippi': ['Kamela
+        Harris', 45.1, 'Donald Trump', 44.4, 'Jill Stein', 10.5], 'Missouri': ['Kamela
+        Harris', 44.4, 'Donald Trump', 54.4, 'Jill Stein', 1.2], 'Montana': ['Kamela
+        Harris', 46.9, 'Donald Trump', 51.3, 'Jill Stein', 1.8], 'Nebraska': ['Donald
+        Trump', 45.0, 'Kamela Harris', 48.9, 'Robert Kennedy', 5.4, 'Jill Stein',
+        0.7], 'Nevada': ['Donald Trump', 53.2, 'Kamela Harris', 45.5, 'Jill Stein',
+        0.0, 'Chase Oliver', 1.3], 'New Hampshire': ['Donald Trump', 47.0, 'Kamela
+        Harris', 48.2, 'Chase Oliver', 0.4, 'Jill Stein', 2.4, 'Robert Kennedy', 2.0],
+        'New Jersey': ['Donald Trump', 45.2, 'Kamela Harris', 50.2, 'Robert Kennedy',
+        1.9, 'Jill Stein', 1.2, 'Chase Oliver', 1.4], 'New Mexico': ['Donald Trump',
+        45.1, 'Kamela Harris', 51.9, 'Robert Kennedy', 3.0], 'New York': ['Kamela
+        Harris', 49.9, 'Donald Trump', 45.9, 'Robert Kennedy', 2.1, 'Jill Stein',
+        2.1], 'North Carolina': ['Donald Trump', 52.9, 'Kamela Harris', 45.7, 'Robert
+        Kennedy', 0.3, 'Jill Stein', 0.5, 'Chase Oliver', 0.6], 'North Dakota': ['Donald
+        Trump', 46.1, 'Kamela Harris', 46.0, 'Robert Kennedy', 4.2, 'Chase Oliver',
+        3.7], 'Ohio': ['Kamela Harris', 45.1, 'Donald Trump', 47.2, 'Chase Oliver',
+        7.7], 'Oklahoma': ['Kamela Harris', 44.0, 'Donald Trump', 50.8, 'Jill Stein',
+        5.2], 'Oregon': ['Kamela Harris', 45.0, 'Donald Trump', 53.5, 'Chase Oliver',
+        1.5], 'Pennsylvania': ['Donald Trump', 48.0, 'Kamela Harris', 48.0, 'Chase
+        Oliver', 4.0], 'Rhode Island': ['Donald Trump', 45.9, 'Kamela Harris', 48.5,
+        'Jill Stein', 5.6], 'South Carolina': ['Kamela Harris', 43.8, 'Donald Trump',
+        55.4, 'Jill Stein', 0.8], 'South Dakota': ['Donald Trump', 47.8, 'Kamela Harris',
+        45.3, 'Chase Oliver', 0.8, 'Robert Kennedy', 3.0, 'Jill Stein', 3.1], 'Tennessee':
+        ['Kamela Harris', 48.1, 'Donald Trump', 50.2, 'Jill Stein', 1.7, 'Robert Kennedy',
+        0.0], 'Texas': ['Kamela Harris', 44.5, 'Donald Trump', 53.8, 'Jill Stein',
+        0.2, 'Robert Kennedy', 1.5], 'Utah': ['Kamela Harris', 50.0, 'Donald Trump',
+        45.2, 'Robert Kennedy', 0.9, 'Jill Stein', 1.5, 'Chase Oliver', 2.4], 'Vermont':
+        ['Kamela Harris', 49.0, 'Donald Trump', 44.8, 'Robert Kennedy', 6.2], 'Virginia':
+        ['Kamela Harris', 46.6, 'Donald Trump', 49.2, 'Jill Stein', 4.2], 'Washington':
+        ['Donald Trump', 45.4, 'Kamela Harris', 44.6, 'Robert Kennedy', 10.0], 'West
+        Virginia': ['Kamela Harris', 46.7, 'Donald Trump', 50.5, 'Chase Oliver', 2.8],
+        'Wisconsin': ['Kamela Harris', 51.1, 'Donald Trump', 46.3, 'Jill Stein', 2.6],
+        'Wyoming': ['Kamela Harris', 44.1, 'Donald Trump', 54.8, 'Robert Kennedy',
+        0.1, 'Jill Stein', 0.3, 'Chase Oliver', 0.7]})"
+      return:
+        Donald Trump: 373
+        Kamela Harris: 165
+  - testcases:
+    - expression: "president({'Alabama': ['Kamela Harris', 44.4, 'Donald Trump', 53.6,
+        'Robert Kennedy', 0.9, 'Chase Oliver', 1.1], 'Alaska': ['Kamela Harris', 44.1,
+        'Donald Trump', 54.9, 'Robert Kennedy', 0.4, 'Jill Stein', 0.5, 'Chase Oliver',
+        0.0], 'Arizona': ['Donald Trump', 55.7, 'Kamela Harris', 44.0, 'Chase Oliver',
+        0.2, 'Robert Kennedy', 0.1], 'Arkansas': ['Kamela Harris', 45.6, 'Donald Trump',
+        52.8, 'Robert Kennedy', 0.6, 'Jill Stein', 0.5, 'Chase Oliver', 0.5], 'California':
+        ['Kamela Harris', 44.2, 'Donald Trump', 53.2, 'Chase Oliver', 1.1, 'Robert
+        Kennedy', 1.0, 'Jill Stein', 0.5], 'Colorado': ['Donald Trump', 45.0, 'Kamela
+        Harris', 48.2, 'Chase Oliver', 6.8], 'Connecticut': ['Kamela Harris', 49.2,
+        'Donald Trump', 45.3, 'Jill Stein', 5.5], 'Delaware': ['Donald Trump', 51.5,
+        'Kamela Harris', 45.1, 'Chase Oliver', 3.4], 'District of Columbia': ['Kamela
+        Harris', 47.3, 'Donald Trump', 51.5, 'Chase Oliver', 0.6, 'Robert Kennedy',
+        0.6], 'Florida': ['Donald Trump', 51.0, 'Kamela Harris', 46.1, 'Jill Stein',
+        2.9], 'Georgia': ['Kamela Harris', 52.5, 'Donald Trump', 45.9, 'Jill Stein',
+        0.4, 'Robert Kennedy', 1.2], 'Hawaii': ['Kamela Harris', 45.2, 'Donald Trump',
+        52.9, 'Jill Stein', 0.4, 'Robert Kennedy', 0.5, 'Chase Oliver', 1.0], 'Idaho':
+        ['Donald Trump', 46.6, 'Kamela Harris', 47.1, 'Robert Kennedy', 5.3, 'Jill
+        Stein', 0.2, 'Chase Oliver', 0.8], 'Illinois': ['Kamela Harris', 47.9, 'Donald
+        Trump', 46.8, 'Robert Kennedy', 5.3], 'Indiana': ['Donald Trump', 47.6, 'Kamela
+        Harris', 45.3, 'Jill Stein', 4.5, 'Robert Kennedy', 2.6], 'Iowa': ['Donald
+        Trump', 48.3, 'Kamela Harris', 46.5, 'Robert Kennedy', 5.2], 'Kansas': ['Kamela
+        Harris', 44.0, 'Donald Trump', 44.4, 'Chase Oliver', 5.2, 'Robert Kennedy',
+        6.4], 'Kentucky': ['Donald Trump', 45.2, 'Kamela Harris', 51.8, 'Chase Oliver',
+        3.0], 'Louisiana': ['Donald Trump', 55.4, 'Kamela Harris', 44.0, 'Robert Kennedy',
+        0.1, 'Jill Stein', 0.5, 'Chase Oliver', 0.1], 'Maine': ['Kamela Harris', 53.7,
+        'Donald Trump', 44.4, 'Robert Kennedy', 0.9, 'Chase Oliver', 1.0], 'Maryland':
+        ['Kamela Harris', 47.0, 'Donald Trump', 49.8, 'Chase Oliver', 0.0, 'Robert
+        Kennedy', 1.7, 'Jill Stein', 1.5], 'Massachusetts': ['Kamela Harris', 51.9,
+        'Donald Trump', 45.9, 'Jill Stein', 2.2], 'Michigan': ['Kamela Harris', 44.0,
+        'Donald Trump', 54.9, 'Chase Oliver', 1.1], 'Minnesota': ['Kamela Harris',
+        46.6, 'Donald Trump', 52.0, 'Robert Kennedy', 1.4], 'Mississippi': ['Kamela
+        Harris', 45.0, 'Donald Trump', 50.9, 'Robert Kennedy', 0.4, 'Chase Oliver',
+        1.7, 'Jill Stein', 2.0], 'Missouri': ['Donald Trump', 46.0, 'Kamela Harris',
+        44.7, 'Jill Stein', 2.6, 'Chase Oliver', 2.1, 'Robert Kennedy', 4.6], 'Montana':
+        ['Kamela Harris', 45.2, 'Donald Trump', 49.8, 'Robert Kennedy', 5.0], 'Nebraska':
+        ['Kamela Harris', 48.0, 'Donald Trump', 45.9, 'Jill Stein', 0.7, 'Robert Kennedy',
+        2.9, 'Chase Oliver', 2.5], 'Nevada': ['Kamela Harris', 47.9, 'Donald Trump',
+        46.2, 'Jill Stein', 3.1, 'Robert Kennedy', 2.8], 'New Hampshire': ['Donald
+        Trump', 45.9, 'Kamela Harris', 47.8, 'Jill Stein', 1.8, 'Robert Kennedy',
+        2.1, 'Chase Oliver', 2.4], 'New Jersey': ['Kamela Harris', 44.9, 'Donald Trump',
+        53.2, 'Jill Stein', 1.9], 'New Mexico': ['Donald Trump', 44.6, 'Kamela Harris',
+        47.5, 'Chase Oliver', 7.9], 'New York': ['Kamela Harris', 45.6, 'Donald Trump',
+        48.3, 'Jill Stein', 6.1], 'North Carolina': ['Donald Trump', 44.1, 'Kamela
+        Harris', 54.0, 'Robert Kennedy', 1.0, 'Chase Oliver', 0.9], 'North Dakota':
+        ['Kamela Harris', 44.3, 'Donald Trump', 46.6, 'Robert Kennedy', 5.6, 'Jill
+        Stein', 3.5], 'Ohio': ['Donald Trump', 44.5, 'Kamela Harris', 50.4, 'Robert
+        Kennedy', 5.1], 'Oklahoma': ['Kamela Harris', 44.5, 'Donald Trump', 48.5,
+        'Robert Kennedy', 3.3, 'Chase Oliver', 3.7], 'Oregon': ['Kamela Harris', 44.4,
+        'Donald Trump', 50.7, 'Jill Stein', 4.1, 'Chase Oliver', 0.8], 'Pennsylvania':
+        ['Kamela Harris', 44.7, 'Donald Trump', 51.8, 'Robert Kennedy', 3.5], 'Rhode
+        Island': ['Donald Trump', 47.9, 'Kamela Harris', 50.1, 'Robert Kennedy', 2.0],
+        'South Carolina': ['Donald Trump', 54.5, 'Kamela Harris', 44.3, 'Chase Oliver',
+        0.4, 'Robert Kennedy', 0.6, 'Jill Stein', 0.2], 'South Dakota': ['Kamela Harris',
+        45.1, 'Donald Trump', 46.4, 'Robert Kennedy', 3.8, 'Jill Stein', 4.1, 'Chase
+        Oliver', 0.6], 'Tennessee': ['Kamela Harris', 46.1, 'Donald Trump', 47.3,
+        'Jill Stein', 4.1, 'Robert Kennedy', 2.5], 'Texas': ['Donald Trump', 50.8,
+        'Kamela Harris', 46.4, 'Chase Oliver', 1.3, 'Jill Stein', 0.4, 'Robert Kennedy',
+        1.2], 'Utah': ['Kamela Harris', 44.1, 'Donald Trump', 54.7, 'Robert Kennedy',
+        1.2], 'Vermont': ['Kamela Harris', 47.6, 'Donald Trump', 51.2, 'Robert Kennedy',
+        0.6, 'Chase Oliver', 0.0, 'Jill Stein', 0.6], 'Virginia': ['Kamela Harris',
+        45.2, 'Donald Trump', 50.3, 'Robert Kennedy', 2.6, 'Chase Oliver', 1.3, 'Jill
+        Stein', 0.6], 'Washington': ['Donald Trump', 49.2, 'Kamela Harris', 45.4,
+        'Chase Oliver', 1.4, 'Jill Stein', 4.0], 'West Virginia': ['Kamela Harris',
+        47.3, 'Donald Trump', 51.6, 'Jill Stein', 0.3, 'Robert Kennedy', 0.8], 'Wisconsin':
+        ['Kamela Harris', 44.1, 'Donald Trump', 53.4, 'Robert Kennedy', 1.2, 'Chase
+        Oliver', 0.3, 'Jill Stein', 1.1], 'Wyoming': ['Kamela Harris', 46.0, 'Donald
+        Trump', 50.8, 'Chase Oliver', 0.1, 'Jill Stein', 0.2, 'Robert Kennedy', 2.9]})"
+      return:
+        Donald Trump: 402
+        Kamela Harris: 136
+  - testcases:
+    - expression: "president({'Alabama': ['Kamela Harris', 44.5, 'Donald Trump', 53.6,
+        'Robert Kennedy', 0.7, 'Jill Stein', 0.6, 'Chase Oliver', 0.6], 'Alaska':
+        ['Kamela Harris', 44.2, 'Donald Trump', 49.4, 'Jill Stein', 4.1, 'Robert Kennedy',
+        2.3], 'Arizona': ['Donald Trump', 46.0, 'Kamela Harris', 52.4, 'Robert Kennedy',
+        0.8, 'Jill Stein', 0.8], 'Arkansas': ['Kamela Harris', 50.7, 'Donald Trump',
+        47.0, 'Chase Oliver', 1.3, 'Robert Kennedy', 1.0], 'California': ['Kamela
+        Harris', 46.1, 'Donald Trump', 47.6, 'Chase Oliver', 4.3, 'Robert Kennedy',
+        0.4, 'Jill Stein', 1.5], 'Colorado': ['Donald Trump', 52.8, 'Kamela Harris',
+        45.5, 'Chase Oliver', 1.3, 'Robert Kennedy', 0.4], 'Connecticut': ['Kamela
+        Harris', 46.0, 'Donald Trump', 51.8, 'Chase Oliver', 2.2], 'Delaware': ['Kamela
+        Harris', 44.7, 'Donald Trump', 53.3, 'Robert Kennedy', 0.9, 'Jill Stein',
+        0.3, 'Chase Oliver', 0.8], 'District of Columbia': ['Kamela Harris', 44.8,
+        'Donald Trump', 48.0, 'Jill Stein', 3.3, 'Chase Oliver', 3.9], 'Florida':
+        ['Kamela Harris', 47.3, 'Donald Trump', 51.1, 'Jill Stein', 1.2, 'Robert Kennedy',
+        0.4], 'Georgia': ['Kamela Harris', 44.2, 'Donald Trump', 50.5, 'Robert Kennedy',
+        5.3], 'Hawaii': ['Donald Trump', 53.4, 'Kamela Harris', 44.7, 'Chase Oliver',
+        1.9], 'Idaho': ['Donald Trump', 51.3, 'Kamela Harris', 45.6, 'Chase Oliver',
+        3.1], 'Illinois': ['Kamela Harris', 52.8, 'Donald Trump', 45.6, 'Robert Kennedy',
+        0.0, 'Jill Stein', 0.8, 'Chase Oliver', 0.8], 'Indiana': ['Donald Trump',
+        54.7, 'Kamela Harris', 44.2, 'Robert Kennedy', 1.1], 'Iowa': ['Donald Trump',
+        54.4, 'Kamela Harris', 44.3, 'Robert Kennedy', 1.3], 'Kansas': ['Donald Trump',
+        44.2, 'Kamela Harris', 54.1, 'Chase Oliver', 1.7], 'Kentucky': ['Donald Trump',
+        47.4, 'Kamela Harris', 48.4, 'Jill Stein', 1.0, 'Chase Oliver', 1.7, 'Robert
+        Kennedy', 1.4], 'Louisiana': ['Donald Trump', 53.5, 'Kamela Harris', 44.3,
+        'Chase Oliver', 2.2], 'Maine': ['Donald Trump', 46.3, 'Kamela Harris', 52.6,
+        'Jill Stein', 0.8, 'Robert Kennedy', 0.3], 'Maryland': ['Kamela Harris', 46.2,
+        'Donald Trump', 48.5, 'Robert Kennedy', 1.6, 'Chase Oliver', 1.5, 'Jill Stein',
+        2.2], 'Massachusetts': ['Donald Trump', 52.2, 'Kamela Harris', 44.3, 'Chase
+        Oliver', 3.5], 'Michigan': ['Kamela Harris', 44.6, 'Donald Trump', 53.6, 'Jill
+        Stein', 0.8, 'Robert Kennedy', 1.0], 'Minnesota': ['Kamela Harris', 44.7,
+        'Donald Trump', 49.0, 'Chase Oliver', 3.1, 'Robert Kennedy', 3.1], 'Mississippi':
+        ['Kamela Harris', 44.8, 'Donald Trump', 53.2, 'Jill Stein', 1.3, 'Robert Kennedy',
+        0.5, 'Chase Oliver', 0.3], 'Missouri': ['Kamela Harris', 44.2, 'Donald Trump',
+        52.5, 'Jill Stein', 1.4, 'Chase Oliver', 0.7, 'Robert Kennedy', 1.2], 'Montana':
+        ['Kamela Harris', 44.3, 'Donald Trump', 53.2, 'Robert Kennedy', 1.3, 'Jill
+        Stein', 1.2], 'Nebraska': ['Kamela Harris', 45.2, 'Donald Trump', 52.6, 'Chase
+        Oliver', 0.0, 'Jill Stein', 2.2], 'Nevada': ['Donald Trump', 53.0, 'Kamela
+        Harris', 44.8, 'Robert Kennedy', 0.3, 'Chase Oliver', 0.3, 'Jill Stein', 1.6],
+        'New Hampshire': ['Kamela Harris', 49.3, 'Donald Trump', 48.5, 'Robert Kennedy',
+        0.8, 'Chase Oliver', 0.5, 'Jill Stein', 0.9], 'New Jersey': ['Kamela Harris',
+        52.2, 'Donald Trump', 46.5, 'Jill Stein', 0.4, 'Robert Kennedy', 0.9], 'New
+        Mexico': ['Donald Trump', 45.9, 'Kamela Harris', 46.4, 'Robert Kennedy', 6.0,
+        'Chase Oliver', 1.7], 'New York': ['Kamela Harris', 51.5, 'Donald Trump',
+        44.4, 'Jill Stein', 0.2, 'Chase Oliver', 0.2, 'Robert Kennedy', 3.7], 'North
+        Carolina': ['Donald Trump', 49.3, 'Kamela Harris', 48.3, 'Chase Oliver', 2.4],
+        'North Dakota': ['Kamela Harris', 44.1, 'Donald Trump', 54.4, 'Robert Kennedy',
+        0.3, 'Chase Oliver', 0.3, 'Jill Stein', 0.9], 'Ohio': ['Donald Trump', 46.3,
+        'Kamela Harris', 45.5, 'Chase Oliver', 8.2], 'Oklahoma': ['Donald Trump',
+        53.1, 'Kamela Harris', 44.2, 'Chase Oliver', 2.7], 'Oregon': ['Donald Trump',
+        53.4, 'Kamela Harris', 44.3, 'Chase Oliver', 2.1, 'Robert Kennedy', 0.2],
+        'Pennsylvania': ['Kamela Harris', 43.7, 'Donald Trump', 55.4, 'Jill Stein',
+        0.3, 'Chase Oliver', 0.2, 'Robert Kennedy', 0.4], 'Rhode Island': ['Kamela
+        Harris', 46.6, 'Donald Trump', 49.9, 'Robert Kennedy', 2.2, 'Jill Stein',
+        1.3], 'South Carolina': ['Kamela Harris', 45.6, 'Donald Trump', 51.6, 'Robert
+        Kennedy', 2.8], 'South Dakota': ['Kamela Harris', 50.6, 'Donald Trump', 44.5,
+        'Jill Stein', 1.4, 'Robert Kennedy', 1.6, 'Chase Oliver', 1.9], 'Tennessee':
+        ['Donald Trump', 50.4, 'Kamela Harris', 45.6, 'Jill Stein', 0.2, 'Robert Kennedy',
+        2.1, 'Chase Oliver', 1.7], 'Texas': ['Kamela Harris', 52.1, 'Donald Trump',
+        44.1, 'Jill Stein', 2.0, 'Robert Kennedy', 1.8], 'Utah': ['Donald Trump',
+        48.3, 'Kamela Harris', 45.5, 'Chase Oliver', 3.4, 'Jill Stein', 1.4, 'Robert
+        Kennedy', 1.4], 'Vermont': ['Donald Trump', 55.5, 'Kamela Harris', 43.7, 'Jill
+        Stein', 0.2, 'Chase Oliver', 0.3, 'Robert Kennedy', 0.3], 'Virginia': ['Donald
+        Trump', 46.5, 'Kamela Harris', 49.2, 'Robert Kennedy', 4.3], 'Washington':
+        ['Donald Trump', 44.0, 'Kamela Harris', 54.8, 'Jill Stein', 1.2], 'West Virginia':
+        ['Donald Trump', 47.0, 'Kamela Harris', 50.9, 'Robert Kennedy', 1.1, 'Jill
+        Stein', 0.7, 'Chase Oliver', 0.3], 'Wisconsin': ['Donald Trump', 47.1, 'Kamela
+        Harris', 49.0, 'Chase Oliver', 1.7, 'Robert Kennedy', 1.0, 'Jill Stein', 1.2],
+        'Wyoming': ['Donald Trump', 53.9, 'Kamela Harris', 44.5, 'Jill Stein', 1.6]})"
+      return:
+        Donald Trump: 350
+        Kamela Harris: 188
+  - testcases:
+    - expression: "president({'Alabama': ['Kamela Harris', 45.4, 'Donald Trump', 50.4,
+        'Jill Stein', 0.5, 'Chase Oliver', 1.8, 'Robert Kennedy', 1.9], 'Alaska':
+        ['Donald Trump', 47.7, 'Kamela Harris', 49.1, 'Jill Stein', 0.2, 'Robert Kennedy',
+        1.7, 'Chase Oliver', 1.3], 'Arizona': ['Kamela Harris', 46.2, 'Donald Trump',
+        50.9, 'Chase Oliver', 1.2, 'Robert Kennedy', 0.2, 'Jill Stein', 1.4], 'Arkansas':
+        ['Kamela Harris', 51.8, 'Donald Trump', 45.9, 'Jill Stein', 1.5, 'Robert Kennedy',
+        0.4, 'Chase Oliver', 0.3], 'California': ['Donald Trump', 46.0, 'Kamela Harris',
+        50.9, 'Chase Oliver', 1.2, 'Jill Stein', 0.8, 'Robert Kennedy', 1.1], 'Colorado':
+        ['Kamela Harris', 43.4, 'Donald Trump', 56.0, 'Jill Stein', 0.5, 'Robert Kennedy',
+        0.1], 'Connecticut': ['Kamela Harris', 43.7, 'Donald Trump', 55.3, 'Robert
+        Kennedy', 1.0], 'Delaware': ['Donald Trump', 51.2, 'Kamela Harris', 44.4,
+        'Jill Stein', 2.1, 'Robert Kennedy', 2.3], 'District of Columbia': ['Kamela
+        Harris', 48.9, 'Donald Trump', 46.3, 'Jill Stein', 2.9, 'Robert Kennedy',
+        1.9], 'Florida': ['Kamela Harris', 47.4, 'Donald Trump', 50.9, 'Robert Kennedy',
+        0.6, 'Jill Stein', 1.0, 'Chase Oliver', 0.1], 'Georgia': ['Kamela Harris',
+        46.9, 'Donald Trump', 50.7, 'Chase Oliver', 0.9, 'Robert Kennedy', 1.5], 'Hawaii':
+        ['Kamela Harris', 44.3, 'Donald Trump', 53.9, 'Jill Stein', 1.5, 'Robert Kennedy',
+        0.3], 'Idaho': ['Donald Trump', 48.1, 'Kamela Harris', 45.2, 'Chase Oliver',
+        4.1, 'Jill Stein', 2.6], 'Illinois': ['Donald Trump', 52.2, 'Kamela Harris',
+        46.2, 'Robert Kennedy', 1.6], 'Indiana': ['Donald Trump', 47.9, 'Kamela Harris',
+        46.0, 'Jill Stein', 2.2, 'Chase Oliver', 2.8, 'Robert Kennedy', 1.1], 'Iowa':
+        ['Donald Trump', 46.2, 'Kamela Harris', 46.8, 'Robert Kennedy', 1.3, 'Jill
+        Stein', 4.0, 'Chase Oliver', 1.7], 'Kansas': ['Donald Trump', 54.9, 'Kamela
+        Harris', 44.1, 'Chase Oliver', 0.7, 'Jill Stein', 0.1, 'Robert Kennedy', 0.2],
+        'Kentucky': ['Kamela Harris', 44.2, 'Donald Trump', 47.3, 'Robert Kennedy',
+        8.5], 'Louisiana': ['Donald Trump', 46.2, 'Kamela Harris', 48.0, 'Chase Oliver',
+        5.8], 'Maine': ['Kamela Harris', 44.5, 'Donald Trump', 52.2, 'Jill Stein',
+        3.3], 'Maryland': ['Kamela Harris', 46.6, 'Donald Trump', 46.2, 'Robert Kennedy',
+        1.1, 'Jill Stein', 6.1], 'Massachusetts': ['Kamela Harris', 44.2, 'Donald
+        Trump', 53.1, 'Chase Oliver', 2.0, 'Jill Stein', 0.7], 'Michigan': ['Donald
+        Trump', 49.1, 'Kamela Harris', 46.1, 'Jill Stein', 0.3, 'Robert Kennedy',
+        4.5], 'Minnesota': ['Donald Trump', 47.3, 'Kamela Harris', 49.0, 'Chase Oliver',
+        2.8, 'Jill Stein', 0.9], 'Mississippi': ['Kamela Harris', 47.2, 'Donald Trump',
+        47.0, 'Chase Oliver', 2.4, 'Robert Kennedy', 3.4], 'Missouri': ['Kamela Harris',
+        46.5, 'Donald Trump', 51.9, 'Robert Kennedy', 1.6, 'Jill Stein', 0.0], 'Montana':
+        ['Kamela Harris', 49.5, 'Donald Trump', 48.4, 'Chase Oliver', 0.4, 'Jill Stein',
+        1.7], 'Nebraska': ['Donald Trump', 50.0, 'Kamela Harris', 48.3, 'Robert Kennedy',
+        0.7, 'Jill Stein', 0.6, 'Chase Oliver', 0.4], 'Nevada': ['Donald Trump', 53.2,
+        'Kamela Harris', 45.5, 'Jill Stein', 1.3], 'New Hampshire': ['Kamela Harris',
+        43.8, 'Donald Trump', 55.4, 'Jill Stein', 0.8], 'New Jersey': ['Donald Trump',
+        44.7, 'Kamela Harris', 53.1, 'Robert Kennedy', 1.5, 'Chase Oliver', 0.7],
+        'New Mexico': ['Donald Trump', 56.0, 'Kamela Harris', 43.3, 'Jill Stein',
+        0.4, 'Robert Kennedy', 0.1, 'Chase Oliver', 0.2], 'New York': ['Kamela Harris',
+        44.1, 'Donald Trump', 54.6, 'Chase Oliver', 1.3], 'North Carolina': ['Kamela
+        Harris', 44.4, 'Donald Trump', 47.8, 'Chase Oliver', 2.3, 'Robert Kennedy',
+        2.1, 'Jill Stein', 3.4], 'North Dakota': ['Kamela Harris', 54.1, 'Donald Trump',
+        44.2, 'Chase Oliver', 1.7], 'Ohio': ['Kamela Harris', 48.8, 'Donald Trump',
+        48.7, 'Chase Oliver', 0.8, 'Robert Kennedy', 1.1, 'Jill Stein', 0.6], 'Oklahoma':
+        ['Donald Trump', 51.5, 'Kamela Harris', 46.9, 'Chase Oliver', 0.7, 'Jill Stein',
+        0.9], 'Oregon': ['Kamela Harris', 45.9, 'Donald Trump', 47.6, 'Jill Stein',
+        6.5], 'Pennsylvania': ['Donald Trump', 46.7, 'Kamela Harris', 44.0, 'Chase
+        Oliver', 9.3], 'Rhode Island': ['Donald Trump', 51.1, 'Kamela Harris', 46.8,
+        'Robert Kennedy', 1.0, 'Jill Stein', 1.1], 'South Carolina': ['Donald Trump',
+        49.8, 'Kamela Harris', 48.3, 'Robert Kennedy', 0.6, 'Jill Stein', 1.3], 'South
+        Dakota': ['Donald Trump', 47.6, 'Kamela Harris', 47.1, 'Chase Oliver', 2.4,
+        'Robert Kennedy', 2.9], 'Tennessee': ['Donald Trump', 50.6, 'Kamela Harris',
+        44.2, 'Robert Kennedy', 5.2], 'Texas': ['Donald Trump', 51.5, 'Kamela Harris',
+        47.1, 'Chase Oliver', 0.6, 'Jill Stein', 0.7, 'Robert Kennedy', 0.0], 'Utah':
+        ['Donald Trump', 47.0, 'Kamela Harris', 51.0, 'Robert Kennedy', 0.1, 'Jill
+        Stein', 1.9], 'Vermont': ['Donald Trump', 47.7, 'Kamela Harris', 50.2, 'Chase
+        Oliver', 0.8, 'Robert Kennedy', 0.3, 'Jill Stein', 1.0], 'Virginia': ['Donald
+        Trump', 44.1, 'Kamela Harris', 52.3, 'Robert Kennedy', 2.2, 'Jill Stein',
+        1.4], 'Washington': ['Kamela Harris', 48.2, 'Donald Trump', 45.5, 'Robert
+        Kennedy', 6.3], 'West Virginia': ['Donald Trump', 52.6, 'Kamela Harris', 46.0,
+        'Chase Oliver', 1.1, 'Robert Kennedy', 0.3], 'Wisconsin': ['Donald Trump',
+        45.5, 'Kamela Harris', 46.1, 'Jill Stein', 3.7, 'Chase Oliver', 1.5, 'Robert
+        Kennedy', 3.2], 'Wyoming': ['Donald Trump', 48.8, 'Kamela Harris', 45.8, 'Jill
+        Stein', 1.6, 'Robert Kennedy', 1.9, 'Chase Oliver', 1.8]})"
+      return:
+        Donald Trump: 349
+        Kamela Harris: 189
+  - testcases:
+    - expression: "president({'Alabama': ['Kamela Harris', 43.9, 'Donald Trump', 55.5,
+        'Robert Kennedy', 0.2, 'Jill Stein', 0.1, 'Chase Oliver', 0.3], 'Alaska':
+        ['Kamela Harris', 44.0, 'Donald Trump', 55.2, 'Jill Stein', 0.1, 'Chase Oliver',
+        0.7], 'Arizona': ['Donald Trump', 44.7, 'Kamela Harris', 53.1, 'Robert Kennedy',
+        1.0, 'Jill Stein', 0.6, 'Chase Oliver', 0.6], 'Arkansas': ['Donald Trump',
+        48.5, 'Kamela Harris', 49.2, 'Jill Stein', 2.3], 'California': ['Donald Trump',
+        47.8, 'Kamela Harris', 47.0, 'Jill Stein', 2.2, 'Chase Oliver', 2.1, 'Robert
+        Kennedy', 0.8], 'Colorado': ['Kamela Harris', 44.0, 'Donald Trump', 53.4,
+        'Robert Kennedy', 0.7, 'Chase Oliver', 1.9], 'Connecticut': ['Donald Trump',
+        50.9, 'Kamela Harris', 48.0, 'Jill Stein', 0.4, 'Robert Kennedy', 0.7], 'Delaware':
+        ['Kamela Harris', 44.4, 'Donald Trump', 51.8, 'Jill Stein', 1.2, 'Chase Oliver',
+        1.4, 'Robert Kennedy', 1.2], 'District of Columbia': ['Donald Trump', 48.2,
+        'Kamela Harris', 46.5, 'Chase Oliver', 5.3], 'Florida': ['Donald Trump', 51.1,
+        'Kamela Harris', 46.8, 'Jill Stein', 0.8, 'Chase Oliver', 1.3], 'Georgia':
+        ['Donald Trump', 45.4, 'Kamela Harris', 49.5, 'Chase Oliver', 1.2, 'Robert
+        Kennedy', 3.9], 'Hawaii': ['Donald Trump', 46.0, 'Kamela Harris', 44.3, 'Jill
+        Stein', 2.4, 'Chase Oliver', 3.7, 'Robert Kennedy', 3.6], 'Idaho': ['Kamela
+        Harris', 43.6, 'Donald Trump', 55.9, 'Robert Kennedy', 0.4, 'Chase Oliver',
+        0.1], 'Illinois': ['Donald Trump', 49.6, 'Kamela Harris', 46.2, 'Chase Oliver',
+        4.2], 'Indiana': ['Kamela Harris', 47.9, 'Donald Trump', 45.8, 'Robert Kennedy',
+        6.3], 'Iowa': ['Donald Trump', 51.7, 'Kamela Harris', 44.6, 'Jill Stein',
+        3.7], 'Kansas': ['Kamela Harris', 53.0, 'Donald Trump', 45.7, 'Robert Kennedy',
+        1.3], 'Kentucky': ['Donald Trump', 44.2, 'Kamela Harris', 53.7, 'Chase Oliver',
+        1.9, 'Jill Stein', 0.2], 'Louisiana': ['Donald Trump', 48.7, 'Kamela Harris',
+        49.0, 'Robert Kennedy', 1.1, 'Jill Stein', 1.2], 'Maine': ['Kamela Harris',
+        50.7, 'Donald Trump', 45.2, 'Chase Oliver', 2.1, 'Jill Stein', 0.8, 'Robert
+        Kennedy', 1.3], 'Maryland': ['Donald Trump', 49.3, 'Kamela Harris', 47.7,
+        'Robert Kennedy', 1.9, 'Chase Oliver', 1.1], 'Massachusetts': ['Donald Trump',
+        55.5, 'Kamela Harris', 43.5, 'Robert Kennedy', 0.2, 'Chase Oliver', 0.4, 'Jill
+        Stein', 0.4], 'Michigan': ['Donald Trump', 54.1, 'Kamela Harris', 44.0, 'Jill
+        Stein', 0.6, 'Robert Kennedy', 0.6, 'Chase Oliver', 0.6], 'Minnesota': ['Donald
+        Trump', 44.6, 'Kamela Harris', 51.6, 'Robert Kennedy', 1.8, 'Jill Stein',
+        0.4, 'Chase Oliver', 1.6], 'Mississippi': ['Donald Trump', 52.2, 'Kamela Harris',
+        46.0, 'Robert Kennedy', 0.0, 'Chase Oliver', 1.8], 'Missouri': ['Donald Trump',
+        53.0, 'Kamela Harris', 45.5, 'Robert Kennedy', 0.7, 'Jill Stein', 0.1, 'Chase
+        Oliver', 0.6], 'Montana': ['Donald Trump', 45.1, 'Kamela Harris', 50.2, 'Chase
+        Oliver', 3.1, 'Robert Kennedy', 1.6], 'Nebraska': ['Donald Trump', 50.2, 'Kamela
+        Harris', 46.5, 'Chase Oliver', 2.4, 'Jill Stein', 0.9], 'Nevada': ['Kamela
+        Harris', 44.0, 'Donald Trump', 54.9, 'Jill Stein', 0.5, 'Robert Kennedy',
+        0.4, 'Chase Oliver', 0.2], 'New Hampshire': ['Donald Trump', 55.2, 'Kamela
+        Harris', 43.8, 'Chase Oliver', 0.6, 'Jill Stein', 0.4], 'New Jersey': ['Donald
+        Trump', 55.4, 'Kamela Harris', 44.0, 'Robert Kennedy', 0.6], 'New Mexico':
+        ['Donald Trump', 47.3, 'Kamela Harris', 47.6, 'Jill Stein', 2.2, 'Robert Kennedy',
+        2.9], 'New York': ['Kamela Harris', 49.9, 'Donald Trump', 46.3, 'Robert Kennedy',
+        0.4, 'Chase Oliver', 1.7, 'Jill Stein', 1.8], 'North Carolina': ['Donald Trump',
+        50.5, 'Kamela Harris', 46.0, 'Robert Kennedy', 1.4, 'Jill Stein', 0.7, 'Chase
+        Oliver', 1.3], 'North Dakota': ['Kamela Harris', 52.9, 'Donald Trump', 45.1,
+        'Chase Oliver', 1.3, 'Robert Kennedy', 0.7], 'Ohio': ['Kamela Harris', 46.8,
+        'Donald Trump', 49.2, 'Robert Kennedy', 3.9, 'Chase Oliver', 0.1], 'Oklahoma':
+        ['Donald Trump', 44.9, 'Kamela Harris', 53.0, 'Jill Stein', 2.1], 'Oregon':
+        ['Donald Trump', 49.0, 'Kamela Harris', 48.9, 'Jill Stein', 0.6, 'Robert Kennedy',
+        0.7, 'Chase Oliver', 0.8], 'Pennsylvania': ['Kamela Harris', 49.3, 'Donald
+        Trump', 49.3, 'Jill Stein', 1.4], 'Rhode Island': ['Kamela Harris', 46.8,
+        'Donald Trump', 45.6, 'Robert Kennedy', 3.5, 'Jill Stein', 4.1], 'South Carolina':
+        ['Kamela Harris', 47.2, 'Donald Trump', 45.8, 'Robert Kennedy', 4.1, 'Jill
+        Stein', 2.9], 'South Dakota': ['Donald Trump', 50.5, 'Kamela Harris', 46.1,
+        'Robert Kennedy', 2.9, 'Jill Stein', 0.5], 'Tennessee': ['Kamela Harris',
+        43.8, 'Donald Trump', 55.5, 'Chase Oliver', 0.2, 'Jill Stein', 0.5], 'Texas':
+        ['Donald Trump', 48.2, 'Kamela Harris', 44.5, 'Robert Kennedy', 5.9, 'Chase
+        Oliver', 1.4], 'Utah': ['Donald Trump', 54.9, 'Kamela Harris', 44.0, 'Jill
+        Stein', 0.4, 'Chase Oliver', 0.7], 'Vermont': ['Kamela Harris', 47.0, 'Donald
+        Trump', 51.8, 'Robert Kennedy', 0.5, 'Chase Oliver', 0.7], 'Virginia': ['Donald
+        Trump', 50.1, 'Kamela Harris', 46.5, 'Robert Kennedy', 2.3, 'Jill Stein',
+        1.1], 'Washington': ['Donald Trump', 56.0, 'Kamela Harris', 43.2, 'Jill Stein',
+        0.6, 'Robert Kennedy', 0.2], 'West Virginia': ['Donald Trump', 45.5, 'Kamela
+        Harris', 44.7, 'Chase Oliver', 9.8], 'Wisconsin': ['Donald Trump', 53.2, 'Kamela
+        Harris', 44.8, 'Jill Stein', 1.0, 'Chase Oliver', 0.2, 'Robert Kennedy', 0.7],
+        'Wyoming': ['Kamela Harris', 44.2, 'Donald Trump', 51.6, 'Robert Kennedy',
+        1.7, 'Chase Oliver', 1.5, 'Jill Stein', 1.1]})"
+      return:
+        Donald Trump: 378
+        Kamela Harris: 160
+  - testcases:
+    - expression: "president({'Alabama': ['Donald Trump', 46.7, 'Kamela Harris', 49.0,
+        'Chase Oliver', 2.6, 'Jill Stein', 1.7], 'Alaska': ['Donald Trump', 52.2,
+        'Kamela Harris', 46.0, 'Robert Kennedy', 0.5, 'Jill Stein', 1.3], 'Arizona':
+        ['Kamela Harris', 48.9, 'Donald Trump', 47.7, 'Robert Kennedy', 0.7, 'Chase
+        Oliver', 2.6, 'Jill Stein', 0.2], 'Arkansas': ['Kamela Harris', 45.6, 'Donald
+        Trump', 49.4, 'Robert Kennedy', 1.2, 'Chase Oliver', 3.1, 'Jill Stein', 0.8],
+        'California': ['Kamela Harris', 49.0, 'Donald Trump', 47.7, 'Jill Stein',
+        0.5, 'Robert Kennedy', 2.8], 'Colorado': ['Donald Trump', 54.5, 'Kamela Harris',
+        44.3, 'Robert Kennedy', 0.1, 'Jill Stein', 0.7, 'Chase Oliver', 0.4], 'Connecticut':
+        ['Donald Trump', 47.2, 'Kamela Harris', 51.1, 'Robert Kennedy', 1.7], 'Delaware':
+        ['Donald Trump', 44.3, 'Kamela Harris', 53.4, 'Chase Oliver', 0.6, 'Jill Stein',
+        0.8, 'Robert Kennedy', 0.9], 'District of Columbia': ['Donald Trump', 44.6,
+        'Kamela Harris', 53.8, 'Robert Kennedy', 0.9, 'Jill Stein', 0.1, 'Chase Oliver',
+        0.5], 'Florida': ['Kamela Harris', 46.6, 'Donald Trump', 44.3, 'Robert Kennedy',
+        4.1, 'Jill Stein', 5.0], 'Georgia': ['Donald Trump', 47.6, 'Kamela Harris',
+        49.5, 'Chase Oliver', 0.2, 'Robert Kennedy', 2.7], 'Hawaii': ['Kamela Harris',
+        49.3, 'Donald Trump', 49.1, 'Chase Oliver', 1.3, 'Jill Stein', 0.3], 'Idaho':
+        ['Donald Trump', 52.6, 'Kamela Harris', 46.4, 'Chase Oliver', 1.0], 'Illinois':
+        ['Donald Trump', 53.7, 'Kamela Harris', 44.3, 'Jill Stein', 0.7, 'Robert Kennedy',
+        1.3], 'Indiana': ['Kamela Harris', 44.5, 'Donald Trump', 46.3, 'Robert Kennedy',
+        3.4, 'Jill Stein', 2.4, 'Chase Oliver', 3.4], 'Iowa': ['Kamela Harris', 47.9,
+        'Donald Trump', 44.9, 'Chase Oliver', 2.7, 'Jill Stein', 4.5], 'Kansas': ['Donald
+        Trump', 47.8, 'Kamela Harris', 50.2, 'Jill Stein', 1.0, 'Robert Kennedy',
+        1.0], 'Kentucky': ['Donald Trump', 51.5, 'Kamela Harris', 46.2, 'Chase Oliver',
+        2.3], 'Louisiana': ['Kamela Harris', 48.1, 'Donald Trump', 48.7, 'Jill Stein',
+        0.1, 'Robert Kennedy', 1.1, 'Chase Oliver', 2.0], 'Maine': ['Kamela Harris',
+        52.0, 'Donald Trump', 44.8, 'Robert Kennedy', 0.1, 'Chase Oliver', 3.1], 'Maryland':
+        ['Donald Trump', 44.9, 'Kamela Harris', 51.0, 'Jill Stein', 0.6, 'Robert Kennedy',
+        1.0, 'Chase Oliver', 2.5], 'Massachusetts': ['Kamela Harris', 45.4, 'Donald
+        Trump', 46.7, 'Robert Kennedy', 7.3, 'Chase Oliver', 0.6], 'Michigan': ['Kamela
+        Harris', 46.6, 'Donald Trump', 49.3, 'Jill Stein', 0.7, 'Robert Kennedy',
+        1.2, 'Chase Oliver', 2.2], 'Minnesota': ['Donald Trump', 44.6, 'Kamela Harris',
+        44.9, 'Jill Stein', 1.6, 'Robert Kennedy', 3.8, 'Chase Oliver', 5.1], 'Mississippi':
+        ['Kamela Harris', 45.5, 'Donald Trump', 53.3, 'Robert Kennedy', 1.2], 'Missouri':
+        ['Kamela Harris', 50.5, 'Donald Trump', 44.3, 'Chase Oliver', 2.8, 'Jill Stein',
+        0.6, 'Robert Kennedy', 1.8], 'Montana': ['Kamela Harris', 50.7, 'Donald Trump',
+        44.2, 'Chase Oliver', 1.3, 'Jill Stein', 1.9, 'Robert Kennedy', 1.9], 'Nebraska':
+        ['Donald Trump', 54.7, 'Kamela Harris', 44.2, 'Robert Kennedy', 1.1], 'Nevada':
+        ['Kamela Harris', 45.3, 'Donald Trump', 53.2, 'Chase Oliver', 0.1, 'Robert
+        Kennedy', 0.7, 'Jill Stein', 0.6], 'New Hampshire': ['Kamela Harris', 54.5,
+        'Donald Trump', 44.4, 'Chase Oliver', 0.4, 'Robert Kennedy', 0.3, 'Jill Stein',
+        0.3], 'New Jersey': ['Kamela Harris', 46.2, 'Donald Trump', 52.6, 'Chase Oliver',
+        0.5, 'Robert Kennedy', 0.7], 'New Mexico': ['Donald Trump', 50.7, 'Kamela
+        Harris', 47.9, 'Chase Oliver', 0.5, 'Jill Stein', 0.5, 'Robert Kennedy', 0.4],
+        'New York': ['Donald Trump', 55.9, 'Kamela Harris', 43.8, 'Chase Oliver',
+        0.0, 'Jill Stein', 0.1, 'Robert Kennedy', 0.1], 'North Carolina': ['Kamela
+        Harris', 44.8, 'Donald Trump', 52.0, 'Chase Oliver', 3.2], 'North Dakota':
+        ['Donald Trump', 47.8, 'Kamela Harris', 47.1, 'Robert Kennedy', 2.7, 'Chase
+        Oliver', 2.4], 'Ohio': ['Donald Trump', 46.4, 'Kamela Harris', 45.8, 'Robert
+        Kennedy', 7.8], 'Oklahoma': ['Kamela Harris', 44.8, 'Donald Trump', 49.7,
+        'Robert Kennedy', 4.3, 'Chase Oliver', 1.2], 'Oregon': ['Donald Trump', 48.4,
+        'Kamela Harris', 45.1, 'Robert Kennedy', 1.9, 'Jill Stein', 1.0, 'Chase Oliver',
+        3.7], 'Pennsylvania': ['Kamela Harris', 50.3, 'Donald Trump', 47.9, 'Jill
+        Stein', 0.5, 'Chase Oliver', 0.6, 'Robert Kennedy', 0.7], 'Rhode Island':
+        ['Kamela Harris', 45.2, 'Donald Trump', 45.0, 'Chase Oliver', 4.7, 'Robert
+        Kennedy', 5.1], 'South Carolina': ['Donald Trump', 47.3, 'Kamela Harris',
+        48.5, 'Robert Kennedy', 0.2, 'Chase Oliver', 2.3, 'Jill Stein', 1.6], 'South
+        Dakota': ['Kamela Harris', 47.5, 'Donald Trump', 51.3, 'Robert Kennedy', 0.6,
+        'Chase Oliver', 0.1, 'Jill Stein', 0.5], 'Tennessee': ['Donald Trump', 52.4,
+        'Kamela Harris', 45.0, 'Chase Oliver', 1.1, 'Jill Stein', 1.5], 'Texas': ['Kamela
+        Harris', 51.4, 'Donald Trump', 46.1, 'Robert Kennedy', 0.6, 'Jill Stein',
+        0.9, 'Chase Oliver', 1.0], 'Utah': ['Donald Trump', 50.4, 'Kamela Harris',
+        46.0, 'Robert Kennedy', 0.5, 'Jill Stein', 1.4, 'Chase Oliver', 1.7], 'Vermont':
+        ['Kamela Harris', 47.9, 'Donald Trump', 49.3, 'Robert Kennedy', 0.9, 'Jill
+        Stein', 1.3, 'Chase Oliver', 0.6], 'Virginia': ['Kamela Harris', 51.7, 'Donald
+        Trump', 44.1, 'Jill Stein', 2.4, 'Chase Oliver', 1.8], 'Washington': ['Donald
+        Trump', 54.4, 'Kamela Harris', 44.1, 'Robert Kennedy', 0.6, 'Jill Stein',
+        0.4, 'Chase Oliver', 0.4], 'West Virginia': ['Donald Trump', 53.3, 'Kamela
+        Harris', 45.2, 'Robert Kennedy', 0.3, 'Chase Oliver', 0.4, 'Jill Stein', 0.7],
+        'Wisconsin': ['Kamela Harris', 51.3, 'Donald Trump', 46.3, 'Jill Stein', 2.0,
+        'Robert Kennedy', 0.5], 'Wyoming': ['Donald Trump', 55.4, 'Kamela Harris',
+        43.8, 'Chase Oliver', 0.1, 'Jill Stein', 0.7, 'Robert Kennedy', 0.1]})"
+      return:
+        Kamela Harris: 284
+        Donald Trump: 254
+  - testcases:
+    - expression: "president({'Alabama': ['Kamela Harris', 50.4, 'Donald Trump', 45.2,
+        'Jill Stein', 3.0, 'Chase Oliver', 1.4], 'Alaska': ['Kamela Harris', 44.4,
+        'Donald Trump', 53.9, 'Jill Stein', 1.7], 'Arizona': ['Kamela Harris', 49.8,
+        'Donald Trump', 44.2, 'Chase Oliver', 6.0], 'Arkansas': ['Kamela Harris',
+        48.7, 'Donald Trump', 46.8, 'Chase Oliver', 4.5], 'California': ['Donald Trump',
+        47.0, 'Kamela Harris', 49.9, 'Jill Stein', 1.0, 'Robert Kennedy', 2.1], 'Colorado':
+        ['Donald Trump', 51.6, 'Kamela Harris', 45.1, 'Jill Stein', 3.3], 'Connecticut':
+        ['Donald Trump', 53.8, 'Kamela Harris', 44.4, 'Robert Kennedy', 1.2, 'Jill
+        Stein', 0.6], 'Delaware': ['Donald Trump', 49.0, 'Kamela Harris', 45.8, 'Jill
+        Stein', 1.3, 'Robert Kennedy', 3.9], 'District of Columbia': ['Kamela Harris',
+        46.8, 'Donald Trump', 48.1, 'Jill Stein', 4.6, 'Robert Kennedy', 0.2, 'Chase
+        Oliver', 0.3], 'Florida': ['Donald Trump', 47.0, 'Kamela Harris', 51.3, 'Chase
+        Oliver', 0.3, 'Jill Stein', 1.0, 'Robert Kennedy', 0.4], 'Georgia': ['Donald
+        Trump', 45.4, 'Kamela Harris', 44.5, 'Chase Oliver', 8.3, 'Robert Kennedy',
+        1.8], 'Hawaii': ['Donald Trump', 50.4, 'Kamela Harris', 44.2, 'Chase Oliver',
+        5.4], 'Idaho': ['Donald Trump', 50.1, 'Kamela Harris', 46.8, 'Chase Oliver',
+        2.0, 'Jill Stein', 1.1], 'Illinois': ['Kamela Harris', 47.8, 'Donald Trump',
+        51.1, 'Jill Stein', 0.3, 'Robert Kennedy', 0.3, 'Chase Oliver', 0.4], 'Indiana':
+        ['Donald Trump', 49.1, 'Kamela Harris', 46.8, 'Chase Oliver', 2.3, 'Robert
+        Kennedy', 1.8], 'Iowa': ['Kamela Harris', 46.7, 'Donald Trump', 51.1, 'Chase
+        Oliver', 0.2, 'Jill Stein', 2.0], 'Kansas': ['Kamela Harris', 50.8, 'Donald
+        Trump', 47.6, 'Robert Kennedy', 1.0, 'Chase Oliver', 0.0, 'Jill Stein', 0.6],
+        'Kentucky': ['Donald Trump', 48.0, 'Kamela Harris', 45.0, 'Chase Oliver',
+        3.0, 'Robert Kennedy', 2.9, 'Jill Stein', 1.1], 'Louisiana': ['Donald Trump',
+        49.7, 'Kamela Harris', 46.9, 'Jill Stein', 3.4], 'Maine': ['Donald Trump',
+        52.3, 'Kamela Harris', 46.7, 'Chase Oliver', 1.0], 'Maryland': ['Kamela Harris',
+        52.3, 'Donald Trump', 45.0, 'Chase Oliver', 1.2, 'Robert Kennedy', 1.5], 'Massachusetts':
+        ['Kamela Harris', 47.5, 'Donald Trump', 50.9, 'Chase Oliver', 0.5, 'Jill Stein',
+        1.1], 'Michigan': ['Donald Trump', 48.4, 'Kamela Harris', 45.1, 'Jill Stein',
+        5.6, 'Chase Oliver', 0.6, 'Robert Kennedy', 0.3], 'Minnesota': ['Donald Trump',
+        53.0, 'Kamela Harris', 44.3, 'Chase Oliver', 1.4, 'Robert Kennedy', 1.3],
+        'Mississippi': ['Kamela Harris', 44.1, 'Donald Trump', 53.4, 'Jill Stein',
+        1.5, 'Chase Oliver', 1.0], 'Missouri': ['Kamela Harris', 43.7, 'Donald Trump',
+        55.6, 'Robert Kennedy', 0.7], 'Montana': ['Kamela Harris', 49.3, 'Donald Trump',
+        46.4, 'Robert Kennedy', 3.6, 'Chase Oliver', 0.7], 'Nebraska': ['Kamela Harris',
+        48.8, 'Donald Trump', 49.7, 'Jill Stein', 0.2, 'Robert Kennedy', 0.9, 'Chase
+        Oliver', 0.4], 'Nevada': ['Donald Trump', 45.3, 'Kamela Harris', 52.2, 'Jill
+        Stein', 2.5], 'New Hampshire': ['Kamela Harris', 49.3, 'Donald Trump', 48.8,
+        'Robert Kennedy', 0.8, 'Chase Oliver', 0.9, 'Jill Stein', 0.2], 'New Jersey':
+        ['Kamela Harris', 48.4, 'Donald Trump', 44.5, 'Jill Stein', 7.1], 'New Mexico':
+        ['Donald Trump', 44.5, 'Kamela Harris', 48.7, 'Robert Kennedy', 6.8], 'New
+        York': ['Donald Trump', 44.1, 'Kamela Harris', 49.9, 'Jill Stein', 6.0], 'North
+        Carolina': ['Kamela Harris', 44.3, 'Donald Trump', 53.9, 'Chase Oliver', 1.8],
+        'North Dakota': ['Kamela Harris', 43.7, 'Donald Trump', 55.7, 'Chase Oliver',
+        0.2, 'Jill Stein', 0.4, 'Robert Kennedy', 0.0], 'Ohio': ['Donald Trump', 49.1,
+        'Kamela Harris', 45.2, 'Chase Oliver', 5.7], 'Oklahoma': ['Kamela Harris',
+        49.4, 'Donald Trump', 47.0, 'Chase Oliver', 1.4, 'Robert Kennedy', 0.6, 'Jill
+        Stein', 1.6], 'Oregon': ['Kamela Harris', 48.0, 'Donald Trump', 48.2, 'Jill
+        Stein', 3.8], 'Pennsylvania': ['Donald Trump', 47.1, 'Kamela Harris', 49.8,
+        'Jill Stein', 1.0, 'Robert Kennedy', 1.0, 'Chase Oliver', 1.1], 'Rhode Island':
+        ['Kamela Harris', 45.2, 'Donald Trump', 44.4, 'Jill Stein', 6.4, 'Robert Kennedy',
+        4.0], 'South Carolina': ['Donald Trump', 53.6, 'Kamela Harris', 44.7, 'Jill
+        Stein', 1.7], 'South Dakota': ['Donald Trump', 44.9, 'Kamela Harris', 46.6,
+        'Robert Kennedy', 4.1, 'Chase Oliver', 4.4], 'Tennessee': ['Donald Trump',
+        45.0, 'Kamela Harris', 46.9, 'Robert Kennedy', 5.4, 'Chase Oliver', 2.7],
+        'Texas': ['Kamela Harris', 46.3, 'Donald Trump', 48.4, 'Chase Oliver', 5.3],
+        'Utah': ['Donald Trump', 52.0, 'Kamela Harris', 46.6, 'Jill Stein', 0.3, 'Chase
+        Oliver', 1.1], 'Vermont': ['Donald Trump', 51.7, 'Kamela Harris', 46.4, 'Jill
+        Stein', 1.3, 'Chase Oliver', 0.6], 'Virginia': ['Kamela Harris', 47.3, 'Donald
+        Trump', 46.6, 'Chase Oliver', 2.1, 'Robert Kennedy', 1.1, 'Jill Stein', 2.8],
+        'Washington': ['Kamela Harris', 48.3, 'Donald Trump', 45.5, 'Chase Oliver',
+        6.2], 'West Virginia': ['Donald Trump', 53.4, 'Kamela Harris', 44.7, 'Robert
+        Kennedy', 1.9], 'Wisconsin': ['Donald Trump', 54.6, 'Kamela Harris', 44.0,
+        'Jill Stein', 1.4], 'Wyoming': ['Kamela Harris', 44.8, 'Donald Trump', 46.6,
+        'Jill Stein', 8.6]})"
+      return:
+        Kamela Harris: 257
+        Donald Trump: 281
+  - testcases:
+    - expression: "president({'Alabama': ['Donald Trump', 45.8, 'Kamela Harris', 44.8,
+        'Chase Oliver', 6.3, 'Robert Kennedy', 3.1], 'Alaska': ['Donald Trump', 55.9,
+        'Kamela Harris', 43.5, 'Robert Kennedy', 0.2, 'Chase Oliver', 0.4], 'Arizona':
+        ['Donald Trump', 46.7, 'Kamela Harris', 50.3, 'Chase Oliver', 1.4, 'Robert
+        Kennedy', 1.6], 'Arkansas': ['Kamela Harris', 50.7, 'Donald Trump', 46.2,
+        'Chase Oliver', 1.4, 'Jill Stein', 0.1, 'Robert Kennedy', 1.6], 'California':
+        ['Donald Trump', 52.3, 'Kamela Harris', 45.8, 'Chase Oliver', 0.8, 'Jill Stein',
+        0.8, 'Robert Kennedy', 0.3], 'Colorado': ['Donald Trump', 44.7, 'Kamela Harris',
+        51.7, 'Robert Kennedy', 0.4, 'Chase Oliver', 3.2], 'Connecticut': ['Kamela
+        Harris', 44.4, 'Donald Trump', 53.4, 'Chase Oliver', 0.6, 'Robert Kennedy',
+        1.2, 'Jill Stein', 0.4], 'Delaware': ['Kamela Harris', 44.6, 'Donald Trump',
+        50.0, 'Jill Stein', 2.4, 'Chase Oliver', 1.5, 'Robert Kennedy', 1.5], 'District
+        of Columbia': ['Kamela Harris', 45.2, 'Donald Trump', 53.6, 'Jill Stein',
+        0.3, 'Robert Kennedy', 0.9], 'Florida': ['Kamela Harris', 48.1, 'Donald Trump',
+        48.1, 'Chase Oliver', 3.8], 'Georgia': ['Donald Trump', 49.9, 'Kamela Harris',
+        47.5, 'Robert Kennedy', 2.6], 'Hawaii': ['Kamela Harris', 46.1, 'Donald Trump',
+        49.3, 'Jill Stein', 4.6], 'Idaho': ['Donald Trump', 45.1, 'Kamela Harris',
+        48.5, 'Chase Oliver', 6.4], 'Illinois': ['Kamela Harris', 45.8, 'Donald Trump',
+        45.1, 'Robert Kennedy', 9.1], 'Indiana': ['Donald Trump', 54.6, 'Kamela Harris',
+        44.1, 'Jill Stein', 1.3], 'Iowa': ['Donald Trump', 48.3, 'Kamela Harris',
+        45.8, 'Jill Stein', 4.3, 'Robert Kennedy', 1.6], 'Kansas': ['Donald Trump',
+        55.7, 'Kamela Harris', 43.8, 'Jill Stein', 0.1, 'Robert Kennedy', 0.4, 'Chase
+        Oliver', 0.1], 'Kentucky': ['Kamela Harris', 45.0, 'Donald Trump', 45.3, 'Chase
+        Oliver', 3.2, 'Robert Kennedy', 4.0, 'Jill Stein', 2.5], 'Louisiana': ['Kamela
+        Harris', 46.1, 'Donald Trump', 52.5, 'Chase Oliver', 1.1, 'Jill Stein', 0.0,
+        'Robert Kennedy', 0.2], 'Maine': ['Kamela Harris', 46.1, 'Donald Trump', 50.3,
+        'Jill Stein', 3.6], 'Maryland': ['Donald Trump', 45.0, 'Kamela Harris', 46.3,
+        'Jill Stein', 1.2, 'Robert Kennedy', 3.6, 'Chase Oliver', 3.8], 'Massachusetts':
+        ['Donald Trump', 46.4, 'Kamela Harris', 49.3, 'Jill Stein', 1.8, 'Robert Kennedy',
+        2.5], 'Michigan': ['Donald Trump', 48.0, 'Kamela Harris', 45.5, 'Chase Oliver',
+        6.5], 'Minnesota': ['Donald Trump', 49.4, 'Kamela Harris', 48.5, 'Jill Stein',
+        0.4, 'Chase Oliver', 1.7], 'Mississippi': ['Donald Trump', 55.7, 'Kamela Harris',
+        43.7, 'Jill Stein', 0.6], 'Missouri': ['Kamela Harris', 46.2, 'Donald Trump',
+        51.2, 'Jill Stein', 2.6], 'Montana': ['Kamela Harris', 48.9, 'Donald Trump',
+        48.9, 'Chase Oliver', 1.9, 'Jill Stein', 0.3], 'Nebraska': ['Donald Trump',
+        51.3, 'Kamela Harris', 46.5, 'Jill Stein', 2.2], 'Nevada': ['Kamela Harris',
+        46.1, 'Donald Trump', 52.7, 'Jill Stein', 1.2], 'New Hampshire': ['Kamela
+        Harris', 44.9, 'Donald Trump', 51.2, 'Robert Kennedy', 3.9], 'New Jersey':
+        ['Kamela Harris', 53.0, 'Donald Trump', 45.4, 'Jill Stein', 1.6], 'New Mexico':
+        ['Donald Trump', 53.2, 'Kamela Harris', 44.7, 'Jill Stein', 1.0, 'Chase Oliver',
+        0.4, 'Robert Kennedy', 0.7], 'New York': ['Donald Trump', 46.0, 'Kamela Harris',
+        47.2, 'Chase Oliver', 6.8], 'North Carolina': ['Kamela Harris', 45.3, 'Donald
+        Trump', 46.2, 'Chase Oliver', 7.5, 'Robert Kennedy', 1.0], 'North Dakota':
+        ['Kamela Harris', 45.1, 'Donald Trump', 53.3, 'Chase Oliver', 1.6], 'Ohio':
+        ['Kamela Harris', 46.6, 'Donald Trump', 50.6, 'Chase Oliver', 1.6, 'Jill Stein',
+        1.2], 'Oklahoma': ['Donald Trump', 46.4, 'Kamela Harris', 50.8, 'Jill Stein',
+        1.4, 'Chase Oliver', 0.8, 'Robert Kennedy', 0.7], 'Oregon': ['Kamela Harris',
+        46.3, 'Donald Trump', 50.6, 'Robert Kennedy', 0.6, 'Chase Oliver', 1.4, 'Jill
+        Stein', 1.1], 'Pennsylvania': ['Donald Trump', 47.9, 'Kamela Harris', 44.7,
+        'Robert Kennedy', 3.4, 'Chase Oliver', 4.0], 'Rhode Island': ['Donald Trump',
+        55.3, 'Kamela Harris', 43.9, 'Chase Oliver', 0.3, 'Jill Stein', 0.3, 'Robert
+        Kennedy', 0.2], 'South Carolina': ['Kamela Harris', 43.9, 'Donald Trump',
+        55.2, 'Robert Kennedy', 0.7, 'Jill Stein', 0.2], 'South Dakota': ['Kamela
+        Harris', 44.0, 'Donald Trump', 55.4, 'Robert Kennedy', 0.0, 'Jill Stein',
+        0.3, 'Chase Oliver', 0.3], 'Tennessee': ['Kamela Harris', 52.6, 'Donald Trump',
+        45.9, 'Jill Stein', 0.6, 'Robert Kennedy', 0.9], 'Texas': ['Donald Trump',
+        53.7, 'Kamela Harris', 45.0, 'Robert Kennedy', 0.6, 'Jill Stein', 0.7], 'Utah':
+        ['Donald Trump', 52.9, 'Kamela Harris', 44.7, 'Robert Kennedy', 1.9, 'Chase
+        Oliver', 0.5], 'Vermont': ['Kamela Harris', 52.9, 'Donald Trump', 45.6, 'Jill
+        Stein', 1.5], 'Virginia': ['Kamela Harris', 43.6, 'Donald Trump', 55.6, 'Jill
+        Stein', 0.8], 'Washington': ['Donald Trump', 54.4, 'Kamela Harris', 44.2,
+        'Robert Kennedy', 0.7, 'Chase Oliver', 0.7], 'West Virginia': ['Donald Trump',
+        52.3, 'Kamela Harris', 44.0, 'Robert Kennedy', 3.7], 'Wisconsin': ['Donald
+        Trump', 48.6, 'Kamela Harris', 47.8, 'Chase Oliver', 1.1, 'Jill Stein', 2.5],
+        'Wyoming': ['Donald Trump', 55.3, 'Kamela Harris', 44.0, 'Robert Kennedy',
+        0.7]})"
+      return:
+        Donald Trump: 371
+        Kamela Harris: 167
+  - testcases:
+    - expression: "president({'Alabama': ['Donald Trump', 48.1, 'Kamela Harris', 46.6,
+        'Jill Stein', 5.3], 'Alaska': ['Kamela Harris', 44.4, 'Donald Trump', 54.5,
+        'Jill Stein', 1.1], 'Arizona': ['Donald Trump', 44.7, 'Kamela Harris', 45.8,
+        'Jill Stein', 9.5], 'Arkansas': ['Kamela Harris', 44.7, 'Donald Trump', 52.8,
+        'Jill Stein', 1.0, 'Robert Kennedy', 1.5], 'California': ['Kamela Harris',
+        46.3, 'Donald Trump', 47.4, 'Robert Kennedy', 2.8, 'Chase Oliver', 2.9, 'Jill
+        Stein', 0.6], 'Colorado': ['Donald Trump', 50.2, 'Kamela Harris', 44.1, 'Robert
+        Kennedy', 2.2, 'Jill Stein', 3.5], 'Connecticut': ['Donald Trump', 53.0, 'Kamela
+        Harris', 44.6, 'Robert Kennedy', 1.0, 'Jill Stein', 1.4], 'Delaware': ['Donald
+        Trump', 54.7, 'Kamela Harris', 44.1, 'Chase Oliver', 0.2, 'Robert Kennedy',
+        0.5, 'Jill Stein', 0.5], 'District of Columbia': ['Donald Trump', 44.8, 'Kamela
+        Harris', 45.2, 'Robert Kennedy', 0.3, 'Chase Oliver', 4.7, 'Jill Stein', 4.9],
+        'Florida': ['Donald Trump', 47.4, 'Kamela Harris', 46.6, 'Robert Kennedy',
+        4.4, 'Jill Stein', 1.6], 'Georgia': ['Donald Trump', 51.1, 'Kamela Harris',
+        45.4, 'Chase Oliver', 0.6, 'Jill Stein', 2.5, 'Robert Kennedy', 0.4], 'Hawaii':
+        ['Kamela Harris', 50.5, 'Donald Trump', 45.8, 'Jill Stein', 3.7], 'Idaho':
+        ['Kamela Harris', 45.4, 'Donald Trump', 48.3, 'Chase Oliver', 5.8, 'Robert
+        Kennedy', 0.5], 'Illinois': ['Donald Trump', 47.6, 'Kamela Harris', 50.4,
+        'Robert Kennedy', 0.5, 'Jill Stein', 0.7, 'Chase Oliver', 0.9], 'Indiana':
+        ['Donald Trump', 48.7, 'Kamela Harris', 49.1, 'Jill Stein', 1.4, 'Robert Kennedy',
+        0.8], 'Iowa': ['Kamela Harris', 49.9, 'Donald Trump', 48.3, 'Robert Kennedy',
+        0.0, 'Jill Stein', 0.9, 'Chase Oliver', 0.9], 'Kansas': ['Kamela Harris',
+        44.4, 'Donald Trump', 48.5, 'Jill Stein', 7.1], 'Kentucky': ['Kamela Harris',
+        43.2, 'Donald Trump', 55.9, 'Chase Oliver', 0.9], 'Louisiana': ['Donald Trump',
+        44.8, 'Kamela Harris', 48.9, 'Robert Kennedy', 6.3], 'Maine': ['Donald Trump',
+        48.8, 'Kamela Harris', 46.7, 'Jill Stein', 4.5], 'Maryland': ['Kamela Harris',
+        44.7, 'Donald Trump', 48.9, 'Chase Oliver', 6.1, 'Jill Stein', 0.3], 'Massachusetts':
+        ['Donald Trump', 48.3, 'Kamela Harris', 47.0, 'Chase Oliver', 4.7], 'Michigan':
+        ['Kamela Harris', 44.2, 'Donald Trump', 52.6, 'Chase Oliver', 3.2], 'Minnesota':
+        ['Kamela Harris', 44.7, 'Donald Trump', 49.5, 'Jill Stein', 2.3, 'Robert Kennedy',
+        3.5], 'Mississippi': ['Kamela Harris', 44.1, 'Donald Trump', 54.7, 'Robert
+        Kennedy', 0.8, 'Chase Oliver', 0.4], 'Missouri': ['Donald Trump', 52.5, 'Kamela
+        Harris', 45.8, 'Jill Stein', 1.7], 'Montana': ['Donald Trump', 54.0, 'Kamela
+        Harris', 44.6, 'Robert Kennedy', 0.5, 'Chase Oliver', 0.6, 'Jill Stein', 0.3],
+        'Nebraska': ['Kamela Harris', 44.1, 'Donald Trump', 45.3, 'Robert Kennedy',
+        8.2, 'Jill Stein', 2.4], 'Nevada': ['Donald Trump', 45.4, 'Kamela Harris',
+        44.1, 'Jill Stein', 3.3, 'Chase Oliver', 3.0, 'Robert Kennedy', 4.2], 'New
+        Hampshire': ['Donald Trump', 47.1, 'Kamela Harris', 48.0, 'Chase Oliver',
+        4.9], 'New Jersey': ['Donald Trump', 53.9, 'Kamela Harris', 44.3, 'Chase Oliver',
+        0.6, 'Jill Stein', 1.2], 'New Mexico': ['Kamela Harris', 44.5, 'Donald Trump',
+        48.8, 'Robert Kennedy', 6.7], 'New York': ['Kamela Harris', 46.9, 'Donald
+        Trump', 49.2, 'Chase Oliver', 3.9], 'North Carolina': ['Donald Trump', 46.9,
+        'Kamela Harris', 45.1, 'Chase Oliver', 8.0], 'North Dakota': ['Kamela Harris',
+        44.0, 'Donald Trump', 54.8, 'Robert Kennedy', 1.2], 'Ohio': ['Donald Trump',
+        55.3, 'Kamela Harris', 43.8, 'Chase Oliver', 0.9], 'Oklahoma': ['Donald Trump',
+        52.1, 'Kamela Harris', 44.8, 'Chase Oliver', 0.7, 'Robert Kennedy', 1.7, 'Jill
+        Stein', 0.8], 'Oregon': ['Donald Trump', 45.9, 'Kamela Harris', 52.5, 'Robert
+        Kennedy', 1.6], 'Pennsylvania': ['Kamela Harris', 43.8, 'Donald Trump', 55.2,
+        'Jill Stein', 0.3, 'Robert Kennedy', 0.7], 'Rhode Island': ['Donald Trump',
+        48.1, 'Kamela Harris', 44.9, 'Jill Stein', 1.7, 'Chase Oliver', 1.5, 'Robert
+        Kennedy', 3.8], 'South Carolina': ['Kamela Harris', 48.0, 'Donald Trump',
+        45.6, 'Jill Stein', 6.2, 'Robert Kennedy', 0.2], 'South Dakota': ['Donald
+        Trump', 52.4, 'Kamela Harris', 44.3, 'Jill Stein', 1.1, 'Robert Kennedy',
+        1.4, 'Chase Oliver', 0.7], 'Tennessee': ['Kamela Harris', 46.7, 'Donald Trump',
+        48.9, 'Jill Stein', 4.4], 'Texas': ['Kamela Harris', 49.8, 'Donald Trump',
+        45.6, 'Chase Oliver', 2.0, 'Jill Stein', 2.6], 'Utah': ['Donald Trump', 55.2,
+        'Kamela Harris', 43.9, 'Robert Kennedy', 0.9], 'Vermont': ['Donald Trump',
+        49.1, 'Kamela Harris', 44.7, 'Robert Kennedy', 1.5, 'Chase Oliver', 4.6],
+        'Virginia': ['Kamela Harris', 44.1, 'Donald Trump', 53.8, 'Chase Oliver',
+        1.9, 'Jill Stein', 0.2], 'Washington': ['Kamela Harris', 43.8, 'Donald Trump',
+        55.3, 'Chase Oliver', 0.3, 'Robert Kennedy', 0.5, 'Jill Stein', 0.1], 'West
+        Virginia': ['Kamela Harris', 44.7, 'Donald Trump', 51.6, 'Jill Stein', 1.2,
+        'Chase Oliver', 1.9, 'Robert Kennedy', 0.6], 'Wisconsin': ['Kamela Harris',
+        44.9, 'Donald Trump', 52.3, 'Robert Kennedy', 2.8], 'Wyoming': ['Donald Trump',
+        50.7, 'Kamela Harris', 44.3, 'Chase Oliver', 2.3, 'Robert Kennedy', 0.6, 'Jill
+        Stein', 2.1]})"
+      return:
+        Donald Trump: 417
+        Kamela Harris: 121
+  - testcases:
+    - expression: "president({'Alabama': ['Donald Trump', 46.8, 'Kamela Harris', 45.9,
+        'Jill Stein', 2.5, 'Chase Oliver', 2.1, 'Robert Kennedy', 2.7], 'Alaska':
+        ['Kamela Harris', 44.4, 'Donald Trump', 53.0, 'Jill Stein', 1.5, 'Chase Oliver',
+        1.1], 'Arizona': ['Donald Trump', 44.1, 'Kamela Harris', 47.6, 'Jill Stein',
+        4.9, 'Robert Kennedy', 3.4], 'Arkansas': ['Donald Trump', 50.7, 'Kamela Harris',
+        46.8, 'Jill Stein', 2.5], 'California': ['Kamela Harris', 45.8, 'Donald Trump',
+        51.7, 'Robert Kennedy', 1.3, 'Chase Oliver', 1.0, 'Jill Stein', 0.2], 'Colorado':
+        ['Kamela Harris', 49.5, 'Donald Trump', 44.1, 'Chase Oliver', 2.2, 'Jill Stein',
+        2.8, 'Robert Kennedy', 1.5], 'Connecticut': ['Kamela Harris', 46.4, 'Donald
+        Trump', 49.7, 'Robert Kennedy', 1.1, 'Jill Stein', 0.8, 'Chase Oliver', 1.9],
+        'Delaware': ['Donald Trump', 52.7, 'Kamela Harris', 46.1, 'Chase Oliver',
+        0.1, 'Jill Stein', 0.6, 'Robert Kennedy', 0.5], 'District of Columbia': ['Donald
+        Trump', 54.3, 'Kamela Harris', 44.5, 'Jill Stein', 0.5, 'Chase Oliver', 0.7],
+        'Florida': ['Kamela Harris', 46.4, 'Donald Trump', 48.1, 'Robert Kennedy',
+        4.8, 'Chase Oliver', 0.7], 'Georgia': ['Donald Trump', 51.0, 'Kamela Harris',
+        46.9, 'Robert Kennedy', 1.1, 'Jill Stein', 1.0], 'Hawaii': ['Donald Trump',
+        52.7, 'Kamela Harris', 45.2, 'Chase Oliver', 2.1], 'Idaho': ['Kamela Harris',
+        45.2, 'Donald Trump', 52.5, 'Jill Stein', 0.8, 'Robert Kennedy', 0.7, 'Chase
+        Oliver', 0.8], 'Illinois': ['Donald Trump', 44.2, 'Kamela Harris', 46.5, 'Chase
+        Oliver', 6.3, 'Robert Kennedy', 3.0], 'Indiana': ['Donald Trump', 47.0, 'Kamela
+        Harris', 44.5, 'Jill Stein', 1.6, 'Robert Kennedy', 6.9], 'Iowa': ['Donald
+        Trump', 55.8, 'Kamela Harris', 43.2, 'Robert Kennedy', 0.5, 'Jill Stein',
+        0.5], 'Kansas': ['Kamela Harris', 44.1, 'Donald Trump', 54.1, 'Jill Stein',
+        0.9, 'Chase Oliver', 0.9], 'Kentucky': ['Kamela Harris', 51.9, 'Donald Trump',
+        45.0, 'Chase Oliver', 3.1], 'Louisiana': ['Kamela Harris', 44.8, 'Donald Trump',
+        50.3, 'Chase Oliver', 4.8, 'Robert Kennedy', 0.1], 'Maine': ['Kamela Harris',
+        44.1, 'Donald Trump', 48.4, 'Jill Stein', 6.6, 'Robert Kennedy', 0.9], 'Maryland':
+        ['Donald Trump', 44.9, 'Kamela Harris', 51.7, 'Jill Stein', 1.4, 'Chase Oliver',
+        1.6, 'Robert Kennedy', 0.4], 'Massachusetts': ['Kamela Harris', 44.0, 'Donald
+        Trump', 55.5, 'Robert Kennedy', 0.1, 'Jill Stein', 0.1, 'Chase Oliver', 0.2],
+        'Michigan': ['Kamela Harris', 50.2, 'Donald Trump', 44.3, 'Chase Oliver',
+        1.3, 'Jill Stein', 3.8, 'Robert Kennedy', 0.4], 'Minnesota': ['Donald Trump',
+        53.6, 'Kamela Harris', 44.5, 'Robert Kennedy', 1.9], 'Mississippi': ['Donald
+        Trump', 51.7, 'Kamela Harris', 45.4, 'Robert Kennedy', 0.9, 'Jill Stein',
+        2.0], 'Missouri': ['Kamela Harris', 46.1, 'Donald Trump', 50.7, 'Jill Stein',
+        0.3, 'Robert Kennedy', 1.7, 'Chase Oliver', 1.2], 'Montana': ['Kamela Harris',
+        48.8, 'Donald Trump', 49.6, 'Jill Stein', 1.6], 'Nebraska': ['Kamela Harris',
+        44.8, 'Donald Trump', 54.0, 'Jill Stein', 1.2], 'Nevada': ['Kamela Harris',
+        44.5, 'Donald Trump', 54.2, 'Robert Kennedy', 0.8, 'Jill Stein', 0.3, 'Chase
+        Oliver', 0.2], 'New Hampshire': ['Kamela Harris', 48.1, 'Donald Trump', 44.8,
+        'Robert Kennedy', 3.3, 'Jill Stein', 0.2, 'Chase Oliver', 3.5], 'New Jersey':
+        ['Kamela Harris', 44.0, 'Donald Trump', 55.0, 'Robert Kennedy', 0.2, 'Jill
+        Stein', 0.8], 'New Mexico': ['Kamela Harris', 47.9, 'Donald Trump', 49.4,
+        'Robert Kennedy', 1.2, 'Jill Stein', 1.5], 'New York': ['Donald Trump', 54.2,
+        'Kamela Harris', 44.3, 'Robert Kennedy', 0.6, 'Chase Oliver', 0.2, 'Jill Stein',
+        0.6], 'North Carolina': ['Donald Trump', 46.8, 'Kamela Harris', 44.3, 'Robert
+        Kennedy', 5.3, 'Jill Stein', 0.6, 'Chase Oliver', 3.1], 'North Dakota': ['Donald
+        Trump', 46.9, 'Kamela Harris', 47.2, 'Jill Stein', 0.2, 'Robert Kennedy',
+        5.7], 'Ohio': ['Kamela Harris', 47.5, 'Donald Trump', 47.0, 'Chase Oliver',
+        5.5], 'Oklahoma': ['Donald Trump', 53.1, 'Kamela Harris', 45.1, 'Jill Stein',
+        0.7, 'Chase Oliver', 0.4, 'Robert Kennedy', 0.7], 'Oregon': ['Donald Trump',
+        54.0, 'Kamela Harris', 44.3, 'Jill Stein', 1.6, 'Robert Kennedy', 0.1], 'Pennsylvania':
+        ['Kamela Harris', 47.0, 'Donald Trump', 46.8, 'Jill Stein', 6.2], 'Rhode Island':
+        ['Donald Trump', 52.0, 'Kamela Harris', 46.4, 'Jill Stein', 0.4, 'Chase Oliver',
+        0.4, 'Robert Kennedy', 0.8], 'South Carolina': ['Donald Trump', 55.0, 'Kamela
+        Harris', 44.0, 'Robert Kennedy', 0.4, 'Chase Oliver', 0.3, 'Jill Stein', 0.3],
+        'South Dakota': ['Donald Trump', 54.2, 'Kamela Harris', 44.0, 'Jill Stein',
+        1.8], 'Tennessee': ['Kamela Harris', 46.2, 'Donald Trump', 51.1, 'Jill Stein',
+        2.7], 'Texas': ['Kamela Harris', 44.7, 'Donald Trump', 52.9, 'Jill Stein',
+        1.7, 'Chase Oliver', 0.2, 'Robert Kennedy', 0.5], 'Utah': ['Kamela Harris',
+        44.2, 'Donald Trump', 52.4, 'Chase Oliver', 0.6, 'Jill Stein', 2.8], 'Vermont':
+        ['Kamela Harris', 49.0, 'Donald Trump', 44.8, 'Robert Kennedy', 0.4, 'Jill
+        Stein', 3.6, 'Chase Oliver', 2.1], 'Virginia': ['Kamela Harris', 44.7, 'Donald
+        Trump', 49.1, 'Jill Stein', 6.2], 'Washington': ['Kamela Harris', 44.6, 'Donald
+        Trump', 54.2, 'Chase Oliver', 0.3, 'Robert Kennedy', 0.9], 'West Virginia':
+        ['Kamela Harris', 44.7, 'Donald Trump', 44.3, 'Robert Kennedy', 11.0], 'Wisconsin':
+        ['Donald Trump', 44.5, 'Kamela Harris', 52.5, 'Robert Kennedy', 1.7, 'Jill
+        Stein', 1.3], 'Wyoming': ['Kamela Harris', 51.0, 'Donald Trump', 47.1, 'Robert
+        Kennedy', 1.9]})"
+      return:
+        Donald Trump: 398
+        Kamela Harris: 140
+  - testcases:
+    - expression: "president({'Alabama': ['Kamela Harris', 52.0, 'Donald Trump', 46.3,
+        'Robert Kennedy', 1.7, 'Chase Oliver', 0.0], 'Alaska': ['Kamela Harris', 45.7,
+        'Donald Trump', 49.9, 'Chase Oliver', 4.4], 'Arizona': ['Donald Trump', 47.8,
+        'Kamela Harris', 49.6, 'Robert Kennedy', 0.6, 'Jill Stein', 1.2, 'Chase Oliver',
+        0.8], 'Arkansas': ['Donald Trump', 52.3, 'Kamela Harris', 45.3, 'Chase Oliver',
+        2.4], 'California': ['Donald Trump', 50.8, 'Kamela Harris', 45.2, 'Chase Oliver',
+        0.9, 'Jill Stein', 3.1], 'Colorado': ['Kamela Harris', 43.6, 'Donald Trump',
+        55.9, 'Jill Stein', 0.2, 'Chase Oliver', 0.1, 'Robert Kennedy', 0.1], 'Connecticut':
+        ['Kamela Harris', 45.7, 'Donald Trump', 51.7, 'Robert Kennedy', 0.4, 'Jill
+        Stein', 1.3, 'Chase Oliver', 0.9], 'Delaware': ['Donald Trump', 45.6, 'Kamela
+        Harris', 51.2, 'Chase Oliver', 1.7, 'Jill Stein', 0.6, 'Robert Kennedy', 0.9],
+        'District of Columbia': ['Donald Trump', 48.4, 'Kamela Harris', 46.1, 'Robert
+        Kennedy', 3.3, 'Chase Oliver', 1.5, 'Jill Stein', 0.7], 'Florida': ['Kamela
+        Harris', 45.8, 'Donald Trump', 52.2, 'Jill Stein', 1.1, 'Chase Oliver', 0.9],
+        'Georgia': ['Donald Trump', 48.3, 'Kamela Harris', 45.9, 'Chase Oliver', 5.2,
+        'Jill Stein', 0.6], 'Hawaii': ['Donald Trump', 44.3, 'Kamela Harris', 51.6,
+        'Chase Oliver', 4.1], 'Idaho': ['Kamela Harris', 47.1, 'Donald Trump', 46.5,
+        'Chase Oliver', 1.6, 'Jill Stein', 4.8], 'Illinois': ['Donald Trump', 46.1,
+        'Kamela Harris', 50.9, 'Chase Oliver', 3.0], 'Indiana': ['Donald Trump', 55.3,
+        'Kamela Harris', 43.8, 'Robert Kennedy', 0.5, 'Jill Stein', 0.4], 'Iowa':
+        ['Donald Trump', 52.7, 'Kamela Harris', 45.3, 'Jill Stein', 2.0], 'Kansas':
+        ['Donald Trump', 52.2, 'Kamela Harris', 46.2, 'Jill Stein', 1.6], 'Kentucky':
+        ['Kamela Harris', 48.0, 'Donald Trump', 46.5, 'Robert Kennedy', 3.8, 'Chase
+        Oliver', 1.7], 'Louisiana': ['Kamela Harris', 43.5, 'Donald Trump', 55.9,
+        'Jill Stein', 0.4, 'Robert Kennedy', 0.2], 'Maine': ['Donald Trump', 54.2,
+        'Kamela Harris', 44.3, 'Jill Stein', 0.1, 'Chase Oliver', 1.4], 'Maryland':
+        ['Donald Trump', 51.9, 'Kamela Harris', 45.5, 'Chase Oliver', 1.5, 'Jill Stein',
+        1.1], 'Massachusetts': ['Donald Trump', 51.7, 'Kamela Harris', 46.5, 'Chase
+        Oliver', 0.8, 'Robert Kennedy', 0.3, 'Jill Stein', 0.7], 'Michigan': ['Donald
+        Trump', 53.6, 'Kamela Harris', 44.1, 'Jill Stein', 0.7, 'Chase Oliver', 0.3,
+        'Robert Kennedy', 1.3], 'Minnesota': ['Kamela Harris', 48.0, 'Donald Trump',
+        48.5, 'Robert Kennedy', 3.1, 'Jill Stein', 0.4], 'Mississippi': ['Kamela Harris',
+        48.9, 'Donald Trump', 45.3, 'Jill Stein', 2.9, 'Robert Kennedy', 2.9], 'Missouri':
+        ['Kamela Harris', 44.5, 'Donald Trump', 54.1, 'Chase Oliver', 0.2, 'Robert
+        Kennedy', 0.5, 'Jill Stein', 0.7], 'Montana': ['Donald Trump', 53.8, 'Kamela
+        Harris', 44.9, 'Jill Stein', 1.3], 'Nebraska': ['Donald Trump', 54.7, 'Kamela
+        Harris', 44.2, 'Jill Stein', 0.3, 'Chase Oliver', 0.3, 'Robert Kennedy', 0.4],
+        'Nevada': ['Kamela Harris', 45.2, 'Donald Trump', 52.8, 'Chase Oliver', 0.3,
+        'Jill Stein', 0.9, 'Robert Kennedy', 0.8], 'New Hampshire': ['Kamela Harris',
+        46.4, 'Donald Trump', 47.3, 'Robert Kennedy', 2.7, 'Jill Stein', 3.6], 'New
+        Jersey': ['Donald Trump', 49.6, 'Kamela Harris', 46.4, 'Jill Stein', 3.4,
+        'Chase Oliver', 0.6], 'New Mexico': ['Kamela Harris', 44.8, 'Donald Trump',
+        47.5, 'Chase Oliver', 7.7], 'New York': ['Donald Trump', 46.4, 'Kamela Harris',
+        49.8, 'Robert Kennedy', 2.7, 'Chase Oliver', 1.1], 'North Carolina': ['Donald
+        Trump', 52.7, 'Kamela Harris', 45.7, 'Robert Kennedy', 0.7, 'Chase Oliver',
+        0.1, 'Jill Stein', 0.8], 'North Dakota': ['Kamela Harris', 45.4, 'Donald Trump',
+        50.2, 'Robert Kennedy', 0.8, 'Chase Oliver', 3.0, 'Jill Stein', 0.6], 'Ohio':
+        ['Donald Trump', 49.4, 'Kamela Harris', 48.4, 'Jill Stein', 0.3, 'Chase Oliver',
+        1.2, 'Robert Kennedy', 0.7], 'Oklahoma': ['Donald Trump', 54.7, 'Kamela Harris',
+        44.2, 'Robert Kennedy', 0.6, 'Jill Stein', 0.5], 'Oregon': ['Donald Trump',
+        48.2, 'Kamela Harris', 45.6, 'Robert Kennedy', 6.2], 'Pennsylvania': ['Kamela
+        Harris', 47.4, 'Donald Trump', 50.7, 'Robert Kennedy', 0.4, 'Chase Oliver',
+        0.5, 'Jill Stein', 1.0], 'Rhode Island': ['Donald Trump', 45.0, 'Kamela Harris',
+        53.5, 'Chase Oliver', 0.5, 'Robert Kennedy', 1.0], 'South Carolina': ['Donald
+        Trump', 47.2, 'Kamela Harris', 50.5, 'Robert Kennedy', 2.3], 'South Dakota':
+        ['Kamela Harris', 44.0, 'Donald Trump', 55.8, 'Jill Stein', 0.1, 'Robert Kennedy',
+        0.1, 'Chase Oliver', 0.0], 'Tennessee': ['Donald Trump', 54.8, 'Kamela Harris',
+        44.1, 'Robert Kennedy', 1.1], 'Texas': ['Kamela Harris', 50.3, 'Donald Trump',
+        46.7, 'Jill Stein', 1.7, 'Chase Oliver', 0.3, 'Robert Kennedy', 1.0], 'Utah':
+        ['Kamela Harris', 49.2, 'Donald Trump', 47.1, 'Jill Stein', 0.2, 'Robert Kennedy',
+        2.2, 'Chase Oliver', 1.2], 'Vermont': ['Kamela Harris', 44.5, 'Donald Trump',
+        47.5, 'Jill Stein', 3.3, 'Chase Oliver', 2.3, 'Robert Kennedy', 2.4], 'Virginia':
+        ['Donald Trump', 55.7, 'Kamela Harris', 43.8, 'Jill Stein', 0.2, 'Chase Oliver',
+        0.2, 'Robert Kennedy', 0.1], 'Washington': ['Donald Trump', 56.0, 'Kamela
+        Harris', 43.1, 'Chase Oliver', 0.3, 'Jill Stein', 0.3, 'Robert Kennedy', 0.3],
+        'West Virginia': ['Kamela Harris', 49.7, 'Donald Trump', 44.3, 'Jill Stein',
+        4.0, 'Chase Oliver', 2.0], 'Wisconsin': ['Donald Trump', 55.0, 'Kamela Harris',
+        44.0, 'Jill Stein', 0.1, 'Chase Oliver', 0.5, 'Robert Kennedy', 0.4], 'Wyoming':
+        ['Donald Trump', 55.8, 'Kamela Harris', 43.8, 'Chase Oliver', 0.0, 'Jill Stein',
+        0.4]})"
+      return:
+        Kamela Harris: 156
+        Donald Trump: 382
+  - testcases:
+    - expression: "president({'Alabama': ['Donald Trump', 44.0, 'Kamela Harris', 53.1,
+        'Chase Oliver', 0.1, 'Robert Kennedy', 1.6, 'Jill Stein', 1.3], 'Alaska':
+        ['Kamela Harris', 44.2, 'Donald Trump', 47.4, 'Chase Oliver', 1.7, 'Robert
+        Kennedy', 1.2, 'Jill Stein', 5.5], 'Arizona': ['Kamela Harris', 51.3, 'Donald
+        Trump', 46.7, 'Chase Oliver', 0.5, 'Robert Kennedy', 1.5], 'Arkansas': ['Donald
+        Trump', 44.5, 'Kamela Harris', 52.1, 'Robert Kennedy', 2.1, 'Jill Stein',
+        1.1, 'Chase Oliver', 0.2], 'California': ['Kamela Harris', 49.6, 'Donald Trump',
+        44.9, 'Robert Kennedy', 1.4, 'Chase Oliver', 1.5, 'Jill Stein', 2.6], 'Colorado':
+        ['Donald Trump', 51.2, 'Kamela Harris', 46.1, 'Robert Kennedy', 1.9, 'Jill
+        Stein', 0.8], 'Connecticut': ['Kamela Harris', 44.9, 'Donald Trump', 52.3,
+        'Chase Oliver', 2.8], 'Delaware': ['Donald Trump', 51.6, 'Kamela Harris',
+        47.2, 'Robert Kennedy', 1.1, 'Jill Stein', 0.1, 'Chase Oliver', 0.0], 'District
+        of Columbia': ['Donald Trump', 47.2, 'Kamela Harris', 44.9, 'Robert Kennedy',
+        7.9], 'Florida': ['Kamela Harris', 46.1, 'Donald Trump', 52.0, 'Chase Oliver',
+        0.6, 'Jill Stein', 0.6, 'Robert Kennedy', 0.8], 'Georgia': ['Kamela Harris',
+        44.5, 'Donald Trump', 52.0, 'Robert Kennedy', 0.9, 'Chase Oliver', 0.0, 'Jill
+        Stein', 2.6], 'Hawaii': ['Donald Trump', 49.8, 'Kamela Harris', 46.8, 'Jill
+        Stein', 3.4], 'Idaho': ['Kamela Harris', 50.1, 'Donald Trump', 48.9, 'Jill
+        Stein', 0.2, 'Chase Oliver', 0.0, 'Robert Kennedy', 0.8], 'Illinois': ['Donald
+        Trump', 51.8, 'Kamela Harris', 44.1, 'Jill Stein', 4.1], 'Indiana': ['Donald
+        Trump', 52.2, 'Kamela Harris', 46.3, 'Jill Stein', 0.9, 'Robert Kennedy',
+        0.0, 'Chase Oliver', 0.5], 'Iowa': ['Kamela Harris', 50.4, 'Donald Trump',
+        48.6, 'Robert Kennedy', 0.4, 'Chase Oliver', 0.6], 'Kansas': ['Kamela Harris',
+        48.1, 'Donald Trump', 49.5, 'Jill Stein', 2.4], 'Kentucky': ['Donald Trump',
+        46.1, 'Kamela Harris', 50.1, 'Jill Stein', 3.8], 'Louisiana': ['Kamela Harris',
+        44.9, 'Donald Trump', 46.0, 'Jill Stein', 4.5, 'Robert Kennedy', 4.1, 'Chase
+        Oliver', 0.5], 'Maine': ['Kamela Harris', 44.0, 'Donald Trump', 45.3, 'Chase
+        Oliver', 4.4, 'Jill Stein', 6.3], 'Maryland': ['Donald Trump', 46.4, 'Kamela
+        Harris', 48.3, 'Jill Stein', 5.3], 'Massachusetts': ['Donald Trump', 49.4,
+        'Kamela Harris', 47.0, 'Jill Stein', 0.0, 'Chase Oliver', 0.2, 'Robert Kennedy',
+        3.4], 'Michigan': ['Kamela Harris', 46.4, 'Donald Trump', 49.9, 'Robert Kennedy',
+        3.7], 'Minnesota': ['Kamela Harris', 45.2, 'Donald Trump', 45.6, 'Jill Stein',
+        2.9, 'Chase Oliver', 2.1, 'Robert Kennedy', 4.2], 'Mississippi': ['Donald
+        Trump', 47.9, 'Kamela Harris', 44.4, 'Robert Kennedy', 7.7], 'Missouri': ['Kamela
+        Harris', 44.8, 'Donald Trump', 53.1, 'Robert Kennedy', 0.3, 'Chase Oliver',
+        0.9, 'Jill Stein', 0.9], 'Montana': ['Kamela Harris', 45.0, 'Donald Trump',
+        51.1, 'Chase Oliver', 1.1, 'Robert Kennedy', 1.5, 'Jill Stein', 1.3], 'Nebraska':
+        ['Kamela Harris', 46.1, 'Donald Trump', 45.6, 'Chase Oliver', 8.3], 'Nevada':
+        ['Donald Trump', 51.9, 'Kamela Harris', 46.1, 'Robert Kennedy', 0.9, 'Chase
+        Oliver', 1.1], 'New Hampshire': ['Donald Trump', 52.3, 'Kamela Harris', 45.3,
+        'Chase Oliver', 1.1, 'Jill Stein', 1.3], 'New Jersey': ['Donald Trump', 53.4,
+        'Kamela Harris', 45.0, 'Robert Kennedy', 0.1, 'Jill Stein', 1.5], 'New Mexico':
+        ['Donald Trump', 44.6, 'Kamela Harris', 45.8, 'Jill Stein', 9.6], 'New York':
+        ['Kamela Harris', 45.1, 'Donald Trump', 44.3, 'Jill Stein', 4.0, 'Chase Oliver',
+        3.9, 'Robert Kennedy', 2.7], 'North Carolina': ['Donald Trump', 45.8, 'Kamela
+        Harris', 51.2, 'Robert Kennedy', 3.0], 'North Dakota': ['Donald Trump', 44.2,
+        'Kamela Harris', 52.4, 'Jill Stein', 1.7, 'Chase Oliver', 1.7], 'Ohio': ['Donald
+        Trump', 50.6, 'Kamela Harris', 45.9, 'Chase Oliver', 3.5], 'Oklahoma': ['Donald
+        Trump', 45.1, 'Kamela Harris', 50.3, 'Jill Stein', 2.9, 'Robert Kennedy',
+        1.7], 'Oregon': ['Kamela Harris', 47.9, 'Donald Trump', 50.8, 'Chase Oliver',
+        1.3], 'Pennsylvania': ['Kamela Harris', 45.5, 'Donald Trump', 46.1, 'Robert
+        Kennedy', 4.4, 'Jill Stein', 0.2, 'Chase Oliver', 3.9], 'Rhode Island': ['Kamela
+        Harris', 45.3, 'Donald Trump', 52.2, 'Chase Oliver', 0.6, 'Jill Stein', 0.3,
+        'Robert Kennedy', 1.5], 'South Carolina': ['Kamela Harris', 43.7, 'Donald
+        Trump', 55.5, 'Chase Oliver', 0.5, 'Robert Kennedy', 0.3], 'South Dakota':
+        ['Donald Trump', 53.5, 'Kamela Harris', 45.2, 'Chase Oliver', 1.3], 'Tennessee':
+        ['Kamela Harris', 52.1, 'Donald Trump', 46.8, 'Chase Oliver', 0.0, 'Jill Stein',
+        0.4, 'Robert Kennedy', 0.6], 'Texas': ['Donald Trump', 45.6, 'Kamela Harris',
+        47.4, 'Robert Kennedy', 2.8, 'Chase Oliver', 1.9, 'Jill Stein', 2.2], 'Utah':
+        ['Donald Trump', 48.0, 'Kamela Harris', 48.8, 'Robert Kennedy', 3.2], 'Vermont':
+        ['Kamela Harris', 54.2, 'Donald Trump', 44.4, 'Jill Stein', 1.1, 'Robert Kennedy',
+        0.3], 'Virginia': ['Kamela Harris', 45.9, 'Donald Trump', 45.4, 'Jill Stein',
+        8.7], 'Washington': ['Kamela Harris', 46.6, 'Donald Trump', 46.0, 'Jill Stein',
+        2.9, 'Robert Kennedy', 2.8, 'Chase Oliver', 1.7], 'West Virginia': ['Donald
+        Trump', 49.7, 'Kamela Harris', 45.1, 'Jill Stein', 1.8, 'Chase Oliver', 0.7,
+        'Robert Kennedy', 2.8], 'Wisconsin': ['Kamela Harris', 49.7, 'Donald Trump',
+        48.4, 'Chase Oliver', 0.9, 'Robert Kennedy', 0.9, 'Jill Stein', 0.1], 'Wyoming':
+        ['Donald Trump', 49.3, 'Kamela Harris', 46.6, 'Robert Kennedy', 4.1]})"
+      return:
+        Kamela Harris: 266
+        Donald Trump: 272
+  - testcases:
+    - expression: "president({'Alabama': ['Kamela Harris', 47.7, 'Donald Trump', 50.2,
+        'Chase Oliver', 2.1], 'Alaska': ['Donald Trump', 44.5, 'Kamela Harris', 44.3,
+        'Chase Oliver', 5.0, 'Jill Stein', 6.2], 'Arizona': ['Donald Trump', 44.7,
+        'Kamela Harris', 51.3, 'Robert Kennedy', 0.2, 'Jill Stein', 3.8], 'Arkansas':
+        ['Donald Trump', 45.8, 'Kamela Harris', 48.1, 'Jill Stein', 6.1], 'California':
+        ['Donald Trump', 45.8, 'Kamela Harris', 45.4, 'Jill Stein', 3.9, 'Chase Oliver',
+        1.5, 'Robert Kennedy', 3.4], 'Colorado': ['Kamela Harris', 43.8, 'Donald Trump',
+        55.6, 'Jill Stein', 0.2, 'Chase Oliver', 0.4], 'Connecticut': ['Kamela Harris',
+        44.6, 'Donald Trump', 53.6, 'Jill Stein', 0.9, 'Chase Oliver', 0.3, 'Robert
+        Kennedy', 0.7], 'Delaware': ['Donald Trump', 53.8, 'Kamela Harris', 44.7,
+        'Chase Oliver', 1.5], 'District of Columbia': ['Kamela Harris', 44.9, 'Donald
+        Trump', 49.6, 'Robert Kennedy', 5.5], 'Florida': ['Kamela Harris', 44.9, 'Donald
+        Trump', 46.3, 'Robert Kennedy', 8.8], 'Georgia': ['Kamela Harris', 44.0, 'Donald
+        Trump', 54.8, 'Chase Oliver', 0.5, 'Robert Kennedy', 0.3, 'Jill Stein', 0.4],
+        'Hawaii': ['Kamela Harris', 44.9, 'Donald Trump', 53.6, 'Jill Stein', 0.4,
+        'Chase Oliver', 0.7, 'Robert Kennedy', 0.4], 'Idaho': ['Kamela Harris', 43.6,
+        'Donald Trump', 55.5, 'Robert Kennedy', 0.4, 'Chase Oliver', 0.5], 'Illinois':
+        ['Donald Trump', 47.2, 'Kamela Harris', 49.9, 'Robert Kennedy', 2.9], 'Indiana':
+        ['Kamela Harris', 47.1, 'Donald Trump', 47.3, 'Jill Stein', 5.6], 'Iowa':
+        ['Kamela Harris', 45.3, 'Donald Trump', 48.0, 'Robert Kennedy', 6.7], 'Kansas':
+        ['Kamela Harris', 45.7, 'Donald Trump', 52.6, 'Robert Kennedy', 0.7, 'Jill
+        Stein', 1.0], 'Kentucky': ['Donald Trump', 52.2, 'Kamela Harris', 46.3, 'Chase
+        Oliver', 0.7, 'Jill Stein', 0.8], 'Louisiana': ['Kamela Harris', 44.1, 'Donald
+        Trump', 50.1, 'Chase Oliver', 0.4, 'Robert Kennedy', 1.8, 'Jill Stein', 3.6],
+        'Maine': ['Kamela Harris', 44.4, 'Donald Trump', 44.0, 'Robert Kennedy', 3.2,
+        'Jill Stein', 5.0, 'Chase Oliver', 3.4], 'Maryland': ['Kamela Harris', 45.7,
+        'Donald Trump', 49.7, 'Jill Stein', 3.4, 'Robert Kennedy', 1.2], 'Massachusetts':
+        ['Donald Trump', 52.4, 'Kamela Harris', 45.4, 'Jill Stein', 2.2], 'Michigan':
+        ['Donald Trump', 54.9, 'Kamela Harris', 44.1, 'Chase Oliver', 1.0], 'Minnesota':
+        ['Donald Trump', 55.9, 'Kamela Harris', 43.4, 'Chase Oliver', 0.0, 'Robert
+        Kennedy', 0.3, 'Jill Stein', 0.4], 'Mississippi': ['Donald Trump', 46.3, 'Kamela
+        Harris', 45.2, 'Robert Kennedy', 4.9, 'Chase Oliver', 3.6], 'Missouri': ['Kamela
+        Harris', 46.5, 'Donald Trump', 51.8, 'Robert Kennedy', 0.2, 'Chase Oliver',
+        0.4, 'Jill Stein', 1.1], 'Montana': ['Donald Trump', 53.3, 'Kamela Harris',
+        44.8, 'Chase Oliver', 1.0, 'Robert Kennedy', 0.9], 'Nebraska': ['Kamela Harris',
+        45.6, 'Donald Trump', 44.6, 'Jill Stein', 5.9, 'Chase Oliver', 3.9], 'Nevada':
+        ['Kamela Harris', 44.1, 'Donald Trump', 50.3, 'Chase Oliver', 1.4, 'Jill Stein',
+        4.0, 'Robert Kennedy', 0.2], 'New Hampshire': ['Kamela Harris', 44.8, 'Donald
+        Trump', 54.1, 'Chase Oliver', 0.7, 'Jill Stein', 0.2, 'Robert Kennedy', 0.2],
+        'New Jersey': ['Kamela Harris', 44.5, 'Donald Trump', 54.1, 'Jill Stein',
+        0.7, 'Robert Kennedy', 0.1, 'Chase Oliver', 0.7], 'New Mexico': ['Donald Trump',
+        49.9, 'Kamela Harris', 47.6, 'Chase Oliver', 0.1, 'Robert Kennedy', 2.4],
+        'New York': ['Kamela Harris', 46.5, 'Donald Trump', 47.9, 'Jill Stein', 5.6],
+        'North Carolina': ['Kamela Harris', 48.7, 'Donald Trump', 46.9, 'Chase Oliver',
+        4.4], 'North Dakota': ['Donald Trump', 48.6, 'Kamela Harris', 47.2, 'Chase
+        Oliver', 4.2], 'Ohio': ['Donald Trump', 53.7, 'Kamela Harris', 44.2, 'Jill
+        Stein', 2.1], 'Oklahoma': ['Kamela Harris', 44.4, 'Donald Trump', 49.0, 'Robert
+        Kennedy', 6.6], 'Oregon': ['Donald Trump', 46.7, 'Kamela Harris', 52.2, 'Jill
+        Stein', 0.2, 'Chase Oliver', 0.9], 'Pennsylvania': ['Donald Trump', 46.3,
+        'Kamela Harris', 47.0, 'Robert Kennedy', 2.4, 'Chase Oliver', 2.7, 'Jill Stein',
+        1.5], 'Rhode Island': ['Kamela Harris', 50.5, 'Donald Trump', 46.4, 'Jill
+        Stein', 2.2, 'Chase Oliver', 0.9], 'South Carolina': ['Kamela Harris', 48.2,
+        'Donald Trump', 49.6, 'Jill Stein', 2.2], 'South Dakota': ['Kamela Harris',
+        48.0, 'Donald Trump', 50.5, 'Robert Kennedy', 0.4, 'Chase Oliver', 0.1, 'Jill
+        Stein', 1.0], 'Tennessee': ['Donald Trump', 53.5, 'Kamela Harris', 44.7, 'Chase
+        Oliver', 0.0, 'Jill Stein', 0.7, 'Robert Kennedy', 1.0], 'Texas': ['Donald
+        Trump', 47.8, 'Kamela Harris', 46.1, 'Jill Stein', 0.5, 'Chase Oliver', 5.6],
+        'Utah': ['Kamela Harris', 47.9, 'Donald Trump', 50.6, 'Jill Stein', 0.7, 'Chase
+        Oliver', 0.1, 'Robert Kennedy', 0.7], 'Vermont': ['Donald Trump', 49.5, 'Kamela
+        Harris', 44.3, 'Robert Kennedy', 6.2], 'Virginia': ['Kamela Harris', 44.0,
+        'Donald Trump', 54.8, 'Jill Stein', 1.2], 'Washington': ['Kamela Harris',
+        50.4, 'Donald Trump', 46.6, 'Jill Stein', 1.6, 'Robert Kennedy', 1.4], 'West
+        Virginia': ['Donald Trump', 52.9, 'Kamela Harris', 46.0, 'Robert Kennedy',
+        0.4, 'Jill Stein', 0.4, 'Chase Oliver', 0.4], 'Wisconsin': ['Kamela Harris',
+        44.8, 'Donald Trump', 51.9, 'Jill Stein', 1.3, 'Robert Kennedy', 1.0, 'Chase
+        Oliver', 1.0], 'Wyoming': ['Donald Trump', 54.0, 'Kamela Harris', 45.0, 'Robert
+        Kennedy', 1.0]})"
+      return:
+        Donald Trump: 434
+        Kamela Harris: 104
