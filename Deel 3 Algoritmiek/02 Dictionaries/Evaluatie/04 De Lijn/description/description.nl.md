@@ -11,7 +11,7 @@ de_lijn = {"40": ["Zuid", "Vijfwindgatenstraat", "Sint-Lievenspoort"],
            ...}
 ```
 
-Welke haltes zijn de **drukste haltes**? In het bovenstaande voorbeeld zie je al dat er minstens 4 buslijnen (40, 41, 16 en 42) stoppen aan de Dampoort. 
+Welke haltes zijn de **drukste haltes**? In het bovenstaande voorbeeld zie je al dat er minstens 4 buslijnen (40, 41, 16 en 42) stoppen aan het Zuid. 
 
 ![Foto door Geike Verniers op Unsplash.](media/geike-verniers.jpg "Foto door Geike Verniers op Unsplash."){:data-caption="Foto door Geike Verniers op Unsplash." width="35%"}
 
