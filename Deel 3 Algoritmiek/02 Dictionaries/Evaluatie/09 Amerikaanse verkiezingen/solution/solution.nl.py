@@ -10,13 +10,11 @@ def president(resultaten):
     
     resultaat = {}
     
-    for staat, cijfers in resultaten.items():
-        max = 0
+    for staat, resultaten in resultaten.items():
         winnaar = ""
-        for i in range(0, len(cijfers), 2):
-            if cijfers[i+1] > max:
-                max = cijfers[i+1]
-                winnaar = cijfers[i]
+        for i in range(0, len(resultaten), 2):
+            if resultaten[i+1] == "wint":
+                winnaar = resultaten[i]
         
         if winnaar in resultaat:
             resultaat[winnaar] += staten[staat]

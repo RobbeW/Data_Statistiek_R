@@ -51,23 +51,23 @@ while len(cases) < ntests:
     for staat in staten:
         cand = random.sample(candidates, k = random.randint(1,3))
         
-        s1 = round(random.uniform(44,56), 1)
-        s2 = round(random.uniform(44, 100-s1-1), 1)
-        rem = 100 - s1-s2
-        templist = [ random.randint(1,100) for _ in range(len(cand))]
-        remlist = [round(templist[i]/sum(templist)*rem, 1) for i in range(len(cand))]
+        cand = ["Kamela Harris", "Donald Trump"] + cand
+        cand = random.sample(cand, k = len(cand))
+        res = ["verliest"] * len(cand)
+
+        flag = True
+        i = 0
+        while flag:
+            if cand[i] in ["Kamela Harris", "Donald Trump"]:
+                res[i] = "wint"
+                flag = False
+            i+=1
         
-        
-        list1 = ["Donald Trump", s1]
-        list2 = ["Kamela Harris", s2]
-        if random.randint(0,1) == 1:
-            list = list1 + list2
-        else:
-            list = list2 + list1
-        for c in range(len(cand)):
-            list.append(cand[c])
-            list.append(remlist[c])
-            
+        list = []
+        for i in range(len(cand)):
+            list.append(cand[i])
+            list.append(res[i])
+                
         case[staat] = list
     
     if case not in cases:

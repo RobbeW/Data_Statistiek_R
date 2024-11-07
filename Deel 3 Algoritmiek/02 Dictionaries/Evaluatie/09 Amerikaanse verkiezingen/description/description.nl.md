@@ -15,7 +15,7 @@ staten = {
 
 Indien in een staat een bepaalde kandidaat wint, dan worden alle kiesmannen van die staat aan die kandidaat toegewezen. Indien Donald Trump in de staat Texas wint, dan krijgt hij alle 38 kiesmannen toegewezen.
 
-Stel dat je van alle staten telkens de percentages voor de verschillende kandidaten krijgt, bepaal dan het aantal kiesmannen dat elke kandidaat krijgt. Je krijgt de uitslag van de verkiezingen in een dictionary van de vorm `<staat>:<percentages>` waarbij `percentages` een lijst voorstelt met telkens de kandidaat en het behaalde percentage.
+Stel dat je van alle staten telkens de resultaten voor de verschillende kandidaten krijgt, bepaal dan het aantal kiesmannen dat elke kandidaat krijgt. Je krijgt de uitslag van de verkiezingen in een dictionary van de vorm `<staat>:<resultaten>` waarbij `resultaten` een lijst voorstelt met telkens de kandidaat en of deze `"wint"` of `"verliest"`.
 
 Hoewel de focus in Amerika steeds op twee kandidaten ligt, komen er soms nog andere kandidaten op. Meestal is het percentage dat deze kandidaten bemachten wel vrij klein.
 
@@ -27,8 +27,8 @@ Bestudeer grondig onderstaand voorbeeld.
 #### Voorbeelden
 
 ```python
->>> president({"Texas": ["Donald Trump", 56.3, "Kamela Harris", 42.4, "Jill Stein", 0.7, "Chase Oliver", 0.6],
-               "New Mexico": ["Donald Trump", 46.1, "Kamela Harris", 51.6, "Jill Stein", 0.5, "Robbert Kennedy", 1],
+>>> president({"Texas": ["Donald Trump", "wint" "Kamela Harris", "veriest", "Jill Stein", "verliest", "Chase Oliver", "verliest"],
+               "New Mexico": ["Donald Trump", "verliest",  "Kamela Harris", "wint", "Jill Stein", "verliest", "Robbert Kennedy", "verliest"],
                ...})
 {"Donald Trump": 295, 
  "Kamela Harris": 243}
@@ -36,4 +36,4 @@ Bestudeer grondig onderstaand voorbeeld.
 
 {: .callout.callout-info}
 >#### Tip
-> Gebruik de gegeven dictionary `staten`.
+> Gebruik de bovenstaande dictionary `staten`.
