@@ -15,5 +15,9 @@
     "evaluatie",
     "sorteeralgoritme"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "TX2c3_MWty3qQHhCydNNXg35HKKkETqUZAtR2jwxhJz2AK_QcH7pTTZgZJh_zWQj",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
