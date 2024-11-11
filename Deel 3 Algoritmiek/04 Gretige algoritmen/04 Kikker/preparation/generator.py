@@ -32,7 +32,7 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
-ntests = 1
+ntests = 20
 cases = [[[ -3,  7, -3, -6, -5, -4, -10], 
           [  2, 10,  5, -4,  9,  1,  -9], 
           [-10,  3, -4,  0, -6,  6,   4], 
@@ -40,16 +40,18 @@ cases = [[[ -3,  7, -3, -6, -5, -4, -10],
 ]
 
 while len(cases) < ntests:
-    e = random.randint(0,3)
-    n = random.randint(10**e, 10**(e+1))
-    row = [i for i in range(1, n+1)]
-    if random.randint(0,3) > 0:
-        random.shuffle(row)
+    nrows = random.randint(2,10)
+    ncols = random.randint(2,10)
     
-    if row not in cases:
-        cases.append(row)
+    mat = []
+    for _ in range(nrows):
+        row = [random.randint(-10,10) for _ in range(ncols)]
+        mat.append(row)
+    
+    if mat not in cases:
+        cases.append(mat)
 
-cases = sorted(cases, key=lambda x: len(x))
+cases = sorted(cases, key=lambda x: len(x)*len(x[0]))
 
 
 # generate unit tests for functions
