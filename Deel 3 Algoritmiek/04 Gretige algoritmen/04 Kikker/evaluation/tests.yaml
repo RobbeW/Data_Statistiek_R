@@ -1,0 +1,6 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: kleinste_pad([[-3, 7, -3, -6, -5, -4, -10], [2, 10, 5, -4, 9, 1,
+        -9], [-10, 3, -4, 0, -6, 6, 4], [-10, 10, -1, -7, -7, -5, -7]])
+      return: -38
