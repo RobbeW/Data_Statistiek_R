@@ -54,7 +54,7 @@ for i in range(len(cases)):
     yamldata[0]['contexts'].append( {'testcases' : []})
        
     # generate test expression
-    expression_name = f"is_isomorf({test[0]}, {test[1]})"
+    expression_name = f"is_isomorf(\"{test[0]}\", \"{test[1]}\")"
     print(expression_name)
     try:
         outputF = io.StringIO()
