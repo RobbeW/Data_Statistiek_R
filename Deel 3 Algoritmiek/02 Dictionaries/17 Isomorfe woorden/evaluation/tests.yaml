@@ -1,0 +1,77 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: is_isomorf(bal, pet)
+      return: true
+  - testcases:
+    - expression: is_isomorf(maan, mens)
+      return: false
+  - testcases:
+    - expression: is_isomorf(duwde, afdak)
+      return: true
+  - testcases:
+    - expression: is_isomorf(afkap, afdak)
+      return: true
+  - testcases:
+    - expression: is_isomorf(afdak, atlas)
+      return: true
+  - testcases:
+    - expression: is_isomorf(afdak, aaien)
+      return: false
+  - testcases:
+    - expression: is_isomorf(regen, leven)
+      return: true
+  - testcases:
+    - expression: is_isomorf(charmeer, charmeur)
+      return: false
+  - testcases:
+    - expression: is_isomorf(baggeren, baggeren)
+      return: true
+  - testcases:
+    - expression: is_isomorf(sudderen, sukkelen)
+      return: true
+  - testcases:
+    - expression: is_isomorf(sukkelen, sudderen)
+      return: true
+  - testcases:
+    - expression: is_isomorf(charmeerde, charmeur)
+      return: false
+  - testcases:
+    - expression: is_isomorf(korrelige, kopstenen)
+      return: false
+  - testcases:
+    - expression: is_isomorf(korrelige, lokkertje)
+      return: true
+  - testcases:
+    - expression: is_isomorf(levensloop, levensloop)
+      return: true
+  - testcases:
+    - expression: is_isomorf(tijdeenheid, verkoopboek)
+      return: true
+  - testcases:
+    - expression: is_isomorf(doorgeefluik, onnatuurlijk)
+      return: true
+  - testcases:
+    - expression: is_isomorf(baankapitein, doorgeefluik)
+      return: false
+  - testcases:
+    - expression: is_isomorf(productieband, kwantumwereld)
+      return: false
+  - testcases:
+    - expression: is_isomorf(zuigtabletten, thuisadressen)
+      return: true
+  - testcases:
+    - expression: is_isomorf(pistachebomen, opslagbeurten)
+      return: true
+  - testcases:
+    - expression: is_isomorf(burgerwachten, bandenlichter)
+      return: true
+  - testcases:
+    - expression: is_isomorf(bandenlichter, bankindustrie)
+      return: true
+  - testcases:
+    - expression: is_isomorf(bandenlichter, bandenlichters)
+      return: false
+  - testcases:
+    - expression: is_isomorf(bandenlichters, bandenlichter)
+      return: false
