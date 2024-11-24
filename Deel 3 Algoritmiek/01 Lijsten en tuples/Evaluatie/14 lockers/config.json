@@ -1,0 +1,18 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Lockers openen en sluiten"
+    }
+  },
+  "evaluation": {
+    "handler": "TESTed",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "lijsten",
+    "functies",
+    "evaluatie"
+  ],
+  "access": "public"
+}
