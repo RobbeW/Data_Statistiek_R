@@ -1,0 +1,83 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: langste_palindroom("a")
+      return: 1
+  - testcases:
+    - expression: langste_palindroom("zk")
+      return: 1
+  - testcases:
+    - expression: langste_palindroom("kko")
+      return: 3
+  - testcases:
+    - expression: langste_palindroom("dood")
+      return: 4
+  - testcases:
+    - expression: langste_palindroom("leelp")
+      return: 5
+  - testcases:
+    - expression: langste_palindroom("xsaqm")
+      return: 1
+  - testcases:
+    - expression: langste_palindroom("dccacc")
+      return: 5
+  - testcases:
+    - expression: langste_palindroom("redder")
+      return: 6
+  - testcases:
+    - expression: langste_palindroom("accearr")
+      return: 7
+  - testcases:
+    - expression: langste_palindroom("cbredderad")
+      return: 7
+  - testcases:
+    - expression: langste_palindroom("smmfbshnny")
+      return: 7
+  - testcases:
+    - expression: langste_palindroom("atarpteeprrr")
+      return: 12
+  - testcases:
+    - expression: langste_palindroom("opqaccearrbcmn")
+      return: 7
+  - testcases:
+    - expression: langste_palindroom("menomnnmeenoeeme")
+      return: 16
+  - testcases:
+    - expression: langste_palindroom("teyrotmsmotskreeoosestk")
+      return: 23
+  - testcases:
+    - expression: langste_palindroom("abcdefghijklmnopqrstuvwxyz")
+      return: 1
+  - testcases:
+    - expression: langste_palindroom("kmoieypwlubfrczdnthvqkjsgka")
+      return: 3
+  - testcases:
+    - expression: langste_palindroom("srjxavuzalocpppkudtlaxqlptxlwanuudaqngj")
+      return: 29
+  - testcases:
+    - expression: langste_palindroom("lzuagdryqlsomsgevynndnojmjypwumbssicltefexmtjhlzzxbc")
+      return: 39
+  - testcases:
+    - expression: 
+        langste_palindroom("immducdylsrrekkmlhqrpeghnwwhidvwgrxfrkfkfwfvgoudzlxptfhdmxfq")
+      return: 49
+  - testcases:
+    - expression: 
+        langste_palindroom("lcosdtarvqhejzrctpwblaahrfehfklmybuyubusdxvqbtfrafpirbjnkrqhtwtteyripshiuhitvb")
+      return: 65
+  - testcases:
+    - expression: 
+        langste_palindroom("hckgiozyfnnmiwtsmmaofadqvjcoyymbynemzphcibctukwbrevywafmlyloakveheashkldfddccaifffyqvjzbccfkqcnkbidtdwbwmfjrbgpttiwkcumppmtyfzihiqmekxnipkimkmmzcubglqsixktswahaoytjneqqertcnpmnbqblzppupqeprryeerufynckqhaztuswocmohbbcgetcauaktccoweftmqophxxdzyqxamrybdrcikrdjfssccvcmqhmwrahmasfcbahjhcozhdpfiqcgsrwdbxhcjalluzkavwmzfqscuqyvtifycftejuoviztvpfkxkqxrgrwhjphcjnwiwrz")
+      return: 345
+  - testcases:
+    - expression: 
+        langste_palindroom("fnmntqclvmnuyuuqwhvjenzhaopcowoxtldljqtoovcwvwxphqafvwkxvvabdizykhkmszhbhbtyaznnwfidvuokoxuycfwopbinzfbtorclupzyyiztgwxyckrktfpawqawwkbvgcrskvyxruhopffwelcdeysnmoiijkqknscnsxvgicpsmzsdltbawlnkbwfgusdydeprzwmlwlzunqezuplpzirespuotjrasdekbvbavhvpgplojlxmtkpjgpzhkgluwjfbsuweldjpnaacnzojzsmzodlwmwpsgknbtszwwyjhkedbhyiapgcrlqgoebmrhkjoujzyeaxooynprlnulyrlnenepvkpjghpyzjmzozdzhofgldaxyqjkoemuysfofofgyprjplujqpqmkqdwqrxdarpcpmjdwsojtwdefufiqeybtzuerejqabrxvwsfbbgpwqwqtqtvltzrolwfniuxikoefdxertgesvfozqfmzvregyfydyphbybnequgiir")
+      return: 511
+  - testcases:
+    - expression: 
+        langste_palindroom("morpcyxajtxmpgmsxtorbxcswytbslrghcnekyvxttahxooantpnbbfxahyjwyyefxeeybuivmnbrbcwbvptcixxekmzflhhmjwusewlwejdxkjlpeylqvswobdhmgiuumhkcgewafzwjvbsfcstyhgbzfrfndwwbibwqifvgxbrwzfdlzpgqvgsplixjtvxyiavjobzgqoyotyajuesrhrwlqebrsodvcgwkztqclanzjbicegalfrsinmkashkwkfspwvvhirtfpasemehnmpjvxwzigdfqauqaiwbduyyvaglesswrffeelohycodubfvklwbcfbptrcyolimzqwpxypdpixvpdjnbvniokdkzwassmtxcfemvkemgckyplzcubyybnigmtviamshhlnxbkocbiqhvulxncdlmozxawwndmubnvqsztyrkmscmslwpcshentgmucufusfygmeaaemfgtqzxafosgvjrcbosbyczjdvmtvrbpjblnmdcjqmllmhpaxjpoheoeusufgamahaaxmtsyimasyiplmbwdtafpjksqdqwdtmwowncjtoatavz")
+      return: 577
+  - testcases:
+    - expression: 
+        langste_palindroom("zztdncrvjeigcfwptphzqwqrtnitrhrkgbfeatjawbgwumngirxedkatcbdaqrubvkobefheovyvjtnyauwoevitvkezpzgtjkgusszipqtzrbwzandisfwhopujruoldyaskxtkbqcufanudqekmzcxvosdheoovkwavhjyebezchgmcneyanspwbbfmgeiljzxlaqsmlxpcpwnhoolgvyyydsgqtxktcntaymkxujtafrvpdadidlfwvhbaypyfgiliguwaqhuchrjmkepuhwkshbyrstlhmtlfkqogednjeleifthushorwmujgemkucnoxbopnbergtnaxvcgpuieuxglyanlylcuzycnujjnjwmacoqhmyudvthopmvntbvgrietqhpkgosptwiyhrahqruklufubbwlducclepammcskfdfivkjrxncqupusntjjuckpocscoxdoixfltwtbyhseduqvhfgvetmjynrhhjprxkbkqlupswbelnuowejdiykoismoojktqvrtvuykhgalrtewrxuqrdpkoubfsyxijqduutarmyhbehrdftplycgmc")
+      return: 575
