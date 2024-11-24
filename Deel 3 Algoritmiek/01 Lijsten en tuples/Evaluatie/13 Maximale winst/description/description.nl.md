@@ -7,7 +7,7 @@ Indien de koers van een aandeel bijvoorbeeld `[7, 1, 5, 3, 6, 4]` was en je hebt
 Je investeert altijd zoveel mogelijk van je kapitaal in aandelen en wanneer je verkoopt, dan verkoop je alles. Je koopt nooit delen van aandelen. Heb je bijvoorbeeld €100 en kosten de aandelen €14 per stuk, dan kan je er 7 kopen en hou je €2 over voor later. Tot je de aandelen verkocht hebt.
 
 ## Gevraagd
-Schrijf een functie `maximale_winst(bedrag, dagkoers)` dat gegeven een startbedrag en een lijst met de beurskoers de maximale winst bepaalt. Indien er geen winst te maken valt, dan geef je `0` terug.
+Schrijf een functie `maximale_winst(bedrag, dagkoers)` die gegeven een startbedrag en een lijst met de beurskoers de maximale winst bepaalt. Indien er geen winst te maken valt, dan geef je `0` terug.
 
 Bestudeer grondig onderstaande voorbeelden.
 
