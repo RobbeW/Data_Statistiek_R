@@ -1,8 +1,8 @@
 Niemand kan de beurs echt voorspellen, maar gegeven een beurskoers, kan je dan de winst maximaliseren?
 
-Indien de koers van een aandeel bijvoorbeeld `[7, 1, 5, 3, 6, 4]` was en je hebt €20 euro. Dan kan je 20 aandelen kopen op dag twee. Je kan deze de volgende dag verkopen aan €5 per aandeel (winst = €80). Met dat bedrag kan je op dag vier 33 aandelen van €3 kopen, die je dag erop opnieuw verkoopt aan €6 per aandeel (winst = €99). In het totaal heb je dan €179 euro winst. 
+Indien de koers van een aandeel bijvoorbeeld `[7, 1, 5, 3, 6, 4]` was en je hebt €20 euro. Dan kan je 20 aandelen kopen op dag twee. Je kan deze de volgende dag verkopen aan €5 per aandeel (winst = €80). Met het nieuwe bedrag kan je op dag vier 33 aandelen van €3 kopen, die je dag erop opnieuw verkoopt aan €6 per aandeel (winst = €99). In het totaal heb je dan €179 euro winst. 
 
-!["The wolf of Wallstreet bewondert je inspanningen."](media/wolf.gif "The wolf of Wallstreet bewondert je inspanningen."){:data-caption="The wolf of Wallstreet bewondert je inspanningen." width="150px"}
+!["The wolf of Wallstreet bewondert je inspanningen."](media/wolf.gif "The wolf of Wallstreet bewondert je inspanningen."){:data-caption="The wolf of Wallstreet bewondert je inspanningen." width="200px"}
 
 Je investeert altijd zoveel mogelijk van je kapitaal in aandelen en wanneer je verkoopt, dan verkoop je alles. Je koopt nooit delen van aandelen. Heb je bijvoorbeeld €100 en kosten de aandelen €14 per stuk, dan kan je er 7 kopen en hou je €2 over voor later. Tot je de aandelen verkocht hebt.
 
@@ -30,7 +30,7 @@ Bestudeer grondig onderstaande voorbeelden.
 
 ```python
 >>> maximale_winst(100, [1, 10, 10, 1])
-5600
+900
 ```
 
 
