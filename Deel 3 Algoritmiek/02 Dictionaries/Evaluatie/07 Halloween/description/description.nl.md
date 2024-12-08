@@ -24,6 +24,7 @@ Er zijn maar liefst vijf vrienden die zich als *zombie* gaan verkleden, vandaar 
 >>> halloween(["spook", "zombie", "spook"])
 ["zombie"]
 ```
+Het is logisch dat je je als *zombie* gaat verkleden, twee vrienden verkleden zich immers al als *spook*.
 
 
 {: .callout.callout-secondary}
