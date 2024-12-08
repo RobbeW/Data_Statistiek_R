@@ -1,7 +1,7 @@
 Alice heeft een hoeveelheid snoepjes van een bepaald type. Haar arts adviseert echter dat ze enkel de helft van al haar snoepjes mag eten. 
 Ze eet zeer graag snoep en wil zoveel mogelijk **verschillende soorten** snoep eten, terwijl ze toch het advies van haar arts volgt.
 
-!["Foto By Claudio Schwarz op Unsplash."](media/claudio-schwarz.jpg "Foto By Claudio Schwarz op Unsplash."){:data-caption="Foto By Claudio Schwarz op Unsplash." width="40%"}
+!["Foto By Claudio Schwarz op Unsplash."](media/claudio-schwarz.jpg "Foto By Claudio Schwarz op Unsplash."){:data-caption="Foto By Claudio Schwarz op Unsplash." width="45%"}
 
 ## Gevraagd
 Schrijf een functie `snoep_eten(snoeplijst)` dat gegeven een lijst met al haar snoepjes het maximale aantal **verschillende snoepjes** bepaalt dat Alice kan eten. De snoeplijst heeft steeds een even lengte.
