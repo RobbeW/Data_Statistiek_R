@@ -1,6 +1,6 @@
 Op een limonade standje wordt voor een glaasje vers geperst limonadesap €5 gevraagd. Klanten schuiven aan en kopen één per één telkens een glaasje limonadesap. Ze betalen telkens met €5, €10 of een briefje van €20. 
 
-!["Foto door RDNE Stock project."](media/rdne.jpg "Foto door RDNE Stock project."){:data-caption="Foto door RDNE Stock project." width="35%"}
+!["Foto door RDNE Stock project."](media/rdne.jpg "Foto door RDNE Stock project."){:data-caption="Foto door RDNE Stock project." width="40%"}
 
 Je start met een **kassa van €0** en kan maar teruggeven indien je reeds genoeg wisseldgeld hebt verzameld van voorbije klanten.
 
