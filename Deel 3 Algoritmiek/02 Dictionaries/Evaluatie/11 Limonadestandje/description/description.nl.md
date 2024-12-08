@@ -15,7 +15,7 @@ Bestudeer grondig onderstaande voorbeelden.
 >>> wisselgeld_mogelijk([5, 5, 5, 10, 20])
 True
 ```
-De eerste drie klanten zorgen ervoor dat er 3 biljetten van €5 in de kassa liggen. Voor de vierde klant kan je dus €5 teruggeven **en** ontvang je een biljet van €10. De laatste klant kan een biljet van €10 en van €5 terugkrijgen. Alle klanten krijgen dus het correcte wisselgeld.
+De eerste drie klanten zorgen ervoor dat er drie biljetten van €5 in de kassa liggen. Voor de vierde klant kan je dus €5 teruggeven **en** ontvang je een biljet van €10. De laatste klant kan een biljet van €10 en van €5 terugkrijgen. Alle klanten krijgen dus het correcte wisselgeld.
 
 
 ```python
