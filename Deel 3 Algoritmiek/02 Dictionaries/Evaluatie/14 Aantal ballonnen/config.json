@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Aantal ballonnen 🎈"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "dict",
+    "evaluatie"
+  ],
+  "access": "public"
+}

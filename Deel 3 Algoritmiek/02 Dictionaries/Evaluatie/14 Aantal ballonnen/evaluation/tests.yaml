@@ -1,0 +1,173 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: aantal_ballonnen("ballon")
+      return: 1
+  - testcases:
+    - expression: aantal_ballonnen("livinus")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("onbalans")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("kolibrie")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanhobbel")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanbevolen")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanbodlijn")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanbouwsel")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanhobbelt")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanbodmodel")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanbodtabel")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanbouwsels")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanhobbelde")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanhobbelen")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanloopbaan")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanbevolenen")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanbodbeleid")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aangehobbeld")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanhobbelden")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanlijngebod")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanmeldbonus")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("bpaplplpopnp")
+      return: 1
+  - testcases:
+    - expression: aantal_ballonnen("aanbeeldsblok")
+      return: 1
+  - testcases:
+    - expression: aantal_ballonnen("aanbodanalyse")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aandelenbonus")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aankoopbeleid")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanloopgebied")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanmaakblokje")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanbodprobleem")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aankoopbesluit")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanmaakblokjes")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanmeldingsbon")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanloopprobleem")
+      return: 1
+  - testcases:
+    - expression: aantal_ballonnen("aanloopsubsidie")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanbeeldsblokken")
+      return: 1
+  - testcases:
+    - expression: aantal_ballonnen("aanhoudingsbevel")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanloopproblemen")
+      return: 1
+  - testcases:
+    - expression: aantal_ballonnen("loonbalxballpoon")
+      return: 2
+  - testcases:
+    - expression: aantal_ballonnen("aanbiedingsfolder")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aankoopbeslissing")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanmeldingsbonnen")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanbevelingscomité")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanbiedingsfolders")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanhoudingsbevelen")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aankoopbegeleiding")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanbevelingscomités")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aankoopbeslissingen")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanloopprobleempjes")
+      return: 1
+  - testcases:
+    - expression: aantal_ballonnen("aanmoedigingsbeleid")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanpassingsprobleem")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aandeelhoudersbelang")
+      return: 1
+  - testcases:
+    - expression: aantal_ballonnen("aandeelhoudersbewijs")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("aanpassingsproblemen")
+      return: 0
+  - testcases:
+    - expression: aantal_ballonnen("ballonxnollabxballon")
+      return: 3
+  - testcases:
+    - expression: aantal_ballonnen("aandeelhoudersbelangen")
+      return: 1
+  - testcases:
+    - expression: aantal_ballonnen("aanmerkelijkbelanghouder")
+      return: 1
+  - testcases:
+    - expression: aantal_ballonnen("aanmerkelijkbelanghouders")
+      return: 1
