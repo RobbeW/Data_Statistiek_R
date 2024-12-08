@@ -1,0 +1,180 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: snoep_eten(['rode lippen', 'colaflesje'])
+      return: 1
+  - testcases:
+    - expression: snoep_eten(['colaflesje', 'banaantje'])
+      return: 1
+  - testcases:
+    - expression: snoep_eten(['groene kikker', 'dracula tanden'])
+      return: 1
+  - testcases:
+    - expression: snoep_eten(['zuur beertje', 'zuur beertje', 'kers', 'colaflesje'])
+      return: 2
+  - testcases:
+    - expression: snoep_eten(['colaflesje', 'colaflesje', 'colaflesje', 'colaflesje'])
+      return: 1
+  - testcases:
+    - expression: snoep_eten(['groene kikker', 'dracula tanden', 'banaantje', 'zuur
+        beertje'])
+      return: 2
+  - testcases:
+    - expression: snoep_eten(['dracula tanden', 'framboosje', 'framboosje', 'dracula
+        tanden'])
+      return: 2
+  - testcases:
+    - expression: snoep_eten(['zuur beertje', 'zuur beertje', 'kers', 'kers', 'colaflesje',
+        'colaflesje'])
+      return: 3
+  - testcases:
+    - expression: snoep_eten(['groene kikker', 'groene kikker', 'wilde aardbei', 'wilde
+        aardbei', 'groene kikker', 'groene kikker'])
+      return: 2
+  - testcases:
+    - expression: snoep_eten(['groene kikker', 'groene kikker', 'wilde aardbei', 'colaflesje',
+        'groene kikker', 'colaflesje'])
+      return: 3
+  - testcases:
+    - expression: snoep_eten(['dracula tanden', 'groene kikker', 'groene kikker',
+        'dracula tanden', 'colaflesje', 'colaflesje'])
+      return: 3
+  - testcases:
+    - expression: snoep_eten(['banaantje', 'colaflesje', 'dracula tanden', 'rode lippen',
+        'groene kikker', 'banaantje', 'dracula tanden', 'banaantje'])
+      return: 4
+  - testcases:
+    - expression: snoep_eten(['groene kikker', 'dracula tanden', 'blauwe haai', 'zuur
+        beertje', 'colaflesje', 'banaantje', 'colaflesje', 'colaflesje'])
+      return: 4
+  - testcases:
+    - expression: snoep_eten(['groene kikker', 'blauwe haai', 'dracula tanden', 'rode
+        lippen', 'colaflesje', 'colaflesje', 'dracula tanden', 'groene kikker'])
+      return: 4
+  - testcases:
+    - expression: snoep_eten(['colaflesje', 'colaflesje', 'rode lippen', 'groene kikker',
+        'banaantje', 'colaflesje', 'colaflesje', 'colaflesje', 'dracula tanden', 'zuur
+        beertje'])
+      return: 5
+  - testcases:
+    - expression: snoep_eten(['groene kikker', 'colaflesje', 'groene kikker', 'groene
+        kikker', 'colaflesje', 'rode lippen', 'colaflesje', 'groene kikker', 'dracula
+        tanden', 'colaflesje'])
+      return: 4
+  - testcases:
+    - expression: snoep_eten(['colaflesje', 'colaflesje', 'groene kikker', 'dracula
+        tanden', 'groene kikker', 'dracula tanden', 'zure worm', 'zure worm', 'groene
+        kikker', 'groene kikker'])
+      return: 4
+  - testcases:
+    - expression: snoep_eten(['colaflesje', 'groene kikker', 'colaflesje', 'dracula
+        tanden', 'dracula tanden', 'dracula tanden', 'dracula tanden', 'colaflesje',
+        'colaflesje', 'colaflesje'])
+      return: 3
+  - testcases:
+    - expression: snoep_eten(['dracula tanden', 'dracula tanden', 'dracula tanden',
+        'colaflesje', 'groene kikker', 'groene kikker', 'groene kikker', 'colaflesje',
+        'groene kikker', 'groene kikker', 'colaflesje', 'dracula tanden', 'wilde aardbei',
+        'groene kikker', 'dracula tanden', 'colaflesje'])
+      return: 4
+  - testcases:
+    - expression: snoep_eten(['groene kikker', 'colaflesje', 'dracula tanden', 'zure
+        worm', 'zuur beertje', 'dracula tanden', 'groene kikker', 'dracula tanden',
+        'colaflesje', 'groene kikker', 'dracula tanden', 'fruitella', 'groene kikker',
+        'dracula tanden', 'colaflesje', 'colaflesje', 'colaflesje', 'dracula tanden',
+        'colaflesje', 'colaflesje', 'colaflesje', 'groene kikker', 'colaflesje', 'groene
+        kikker', 'zure worm', 'framboosje', 'dracula tanden', 'colaflesje', 'dracula
+        tanden', 'colaflesje', 'dracula tanden', 'groene kikker', 'dracula tanden',
+        'dracula tanden', 'dracula tanden', 'zure worm'])
+      return: 7
+  - testcases:
+    - expression: snoep_eten(['colaflesje', 'framboosje', 'colaflesje', 'groene kikker',
+        'groene kikker', 'colaflesje', 'dracula tanden', 'dracula tanden', 'zure worm',
+        'kers', 'groene kikker', 'dracula tanden', 'colaflesje', 'dracula tanden',
+        'groene kikker', 'groene kikker', 'dracula tanden', 'wilde aardbei', 'colaflesje',
+        'zure worm', 'groene kikker', 'kers', 'wilde aardbei', 'zuur beertje', 'banaantje',
+        'colaflesje', 'banaantje', 'dracula tanden', 'zure worm', 'groene kikker',
+        'fruitella', 'groene kikker', 'blauwe haai', 'dracula tanden', 'kers', 'rode
+        lippen', 'groene kikker', 'wilde aardbei', 'groene kikker', 'colaflesje',
+        'colaflesje', 'framboosje', 'dracula tanden', 'framboosje'])
+      return: 12
+  - testcases:
+    - expression: snoep_eten(['colaflesje', 'groene kikker', 'dracula tanden', 'colaflesje',
+        'rode lippen', 'kers', 'colaflesje', 'colaflesje', 'dracula tanden', 'colaflesje',
+        'colaflesje', 'rode lippen', 'colaflesje', 'groene kikker', 'groene kikker',
+        'banaantje', 'groene kikker', 'colaflesje', 'colaflesje', 'colaflesje', 'dracula
+        tanden', 'banaantje', 'colaflesje', 'colaflesje', 'dracula tanden', 'dracula
+        tanden', 'dracula tanden', 'groene kikker', 'groene kikker', 'dracula tanden',
+        'groene kikker', 'banaantje', 'dracula tanden', 'groene kikker', 'zure worm',
+        'groene kikker', 'zuur beertje', 'groene kikker', 'fruitella', 'dracula tanden',
+        'colaflesje', 'wilde aardbei', 'colaflesje', 'groene kikker', 'groene kikker',
+        'groene kikker', 'colaflesje', 'groene kikker', 'zure worm', 'colaflesje',
+        'groene kikker', 'colaflesje', 'colaflesje', 'colaflesje', 'kers', 'groene
+        kikker', 'framboosje', 'blauwe haai', 'dracula tanden', 'rode lippen', 'zure
+        worm', 'dracula tanden', 'colaflesje', 'wilde aardbei', 'groene kikker', 'dracula
+        tanden', 'dracula tanden', 'zure worm', 'zuur beertje', 'wilde aardbei'])
+      return: 12
+  - testcases:
+    - expression: snoep_eten(['dracula tanden', 'colaflesje', 'dracula tanden', 'dracula
+        tanden', 'groene kikker', 'zure worm', 'colaflesje', 'kers', 'dracula tanden',
+        'dracula tanden', 'groene kikker', 'colaflesje', 'dracula tanden', 'colaflesje',
+        'colaflesje', 'dracula tanden', 'groene kikker', 'fruitella', 'dracula tanden',
+        'zure worm', 'colaflesje', 'groene kikker', 'zuur beertje', 'groene kikker',
+        'wilde aardbei', 'blauwe haai', 'kers', 'blauwe haai', 'colaflesje', 'colaflesje',
+        'colaflesje', 'kers', 'groene kikker', 'colaflesje', 'dracula tanden', 'dracula
+        tanden', 'colaflesje', 'groene kikker', 'groene kikker', 'groene kikker',
+        'kers', 'dracula tanden', 'colaflesje', 'groene kikker', 'dracula tanden',
+        'groene kikker', 'colaflesje', 'dracula tanden', 'groene kikker', 'dracula
+        tanden', 'dracula tanden', 'dracula tanden', 'colaflesje', 'colaflesje', 'dracula
+        tanden', 'dracula tanden', 'colaflesje', 'rode lippen', 'zuur beertje', 'dracula
+        tanden', 'colaflesje', 'groene kikker', 'colaflesje', 'colaflesje', 'groene
+        kikker', 'groene kikker', 'groene kikker', 'blauwe haai', 'dracula tanden',
+        'banaantje', 'dracula tanden', 'wilde aardbei', 'colaflesje', 'colaflesje',
+        'colaflesje', 'colaflesje', 'rode lippen', 'zuur beertje', 'dracula tanden',
+        'zure worm', 'zuur beertje', 'colaflesje', 'dracula tanden', 'kers'])
+      return: 11
+  - testcases:
+    - expression: snoep_eten(['kers', 'colaflesje', 'zuur beertje', 'groene kikker',
+        'banaantje', 'groene kikker', 'colaflesje', 'groene kikker', 'fruitella',
+        'colaflesje', 'zure worm', 'blauwe haai', 'colaflesje', 'colaflesje', 'colaflesje',
+        'colaflesje', 'banaantje', 'groene kikker', 'colaflesje', 'groene kikker',
+        'colaflesje', 'dracula tanden', 'colaflesje', 'fruitella', 'groene kikker',
+        'colaflesje', 'dracula tanden', 'fruitella', 'groene kikker', 'dracula tanden',
+        'fruitella', 'colaflesje', 'dracula tanden', 'colaflesje', 'fruitella', 'colaflesje',
+        'dracula tanden', 'groene kikker', 'framboosje', 'colaflesje', 'dracula tanden',
+        'colaflesje', 'dracula tanden', 'groene kikker', 'dracula tanden', 'rode lippen',
+        'colaflesje', 'groene kikker', 'colaflesje', 'dracula tanden', 'colaflesje',
+        'wilde aardbei', 'dracula tanden', 'dracula tanden', 'dracula tanden', 'groene
+        kikker', 'dracula tanden', 'fruitella', 'colaflesje', 'dracula tanden', 'wilde
+        aardbei', 'wilde aardbei', 'colaflesje', 'dracula tanden', 'groene kikker',
+        'fruitella', 'groene kikker', 'groene kikker', 'dracula tanden', 'groene kikker',
+        'colaflesje', 'groene kikker', 'fruitella', 'rode lippen', 'rode lippen',
+        'zuur beertje', 'groene kikker', 'groene kikker', 'colaflesje', 'dracula tanden',
+        'zuur beertje', 'colaflesje', 'colaflesje', 'dracula tanden', 'groene kikker',
+        'dracula tanden', 'colaflesje', 'rode lippen', 'groene kikker', 'dracula tanden',
+        'dracula tanden', 'zure worm', 'rode lippen', 'groene kikker', 'colaflesje',
+        'colaflesje', 'rode lippen', 'wilde aardbei'])
+      return: 12
+  - testcases:
+    - expression: snoep_eten(['wilde aardbei', 'dracula tanden', 'dracula tanden',
+        'colaflesje', 'colaflesje', 'framboosje', 'fruitella', 'zure worm', 'dracula
+        tanden', 'groene kikker', 'dracula tanden', 'dracula tanden', 'dracula tanden',
+        'dracula tanden', 'colaflesje', 'colaflesje', 'rode lippen', 'colaflesje',
+        'dracula tanden', 'banaantje', 'dracula tanden', 'zuur beertje', 'rode lippen',
+        'groene kikker', 'fruitella', 'dracula tanden', 'dracula tanden', 'colaflesje',
+        'groene kikker', 'groene kikker', 'colaflesje', 'dracula tanden', 'colaflesje',
+        'colaflesje', 'fruitella', 'groene kikker', 'dracula tanden', 'zure worm',
+        'dracula tanden', 'colaflesje', 'groene kikker', 'groene kikker', 'groene
+        kikker', 'groene kikker', 'colaflesje', 'zure worm', 'zure worm', 'groene
+        kikker', 'colaflesje', 'colaflesje', 'colaflesje', 'groene kikker', 'dracula
+        tanden', 'dracula tanden', 'colaflesje', 'colaflesje', 'colaflesje', 'dracula
+        tanden', 'dracula tanden', 'colaflesje', 'dracula tanden', 'dracula tanden',
+        'colaflesje', 'dracula tanden', 'groene kikker', 'colaflesje', 'groene kikker',
+        'colaflesje', 'dracula tanden', 'colaflesje', 'dracula tanden', 'colaflesje',
+        'groene kikker', 'dracula tanden', 'colaflesje', 'wilde aardbei', 'groene
+        kikker', 'framboosje', 'rode lippen', 'dracula tanden', 'colaflesje', 'colaflesje',
+        'colaflesje', 'groene kikker', 'banaantje', 'colaflesje', 'zure worm', 'zure
+        worm', 'groene kikker', 'groene kikker', 'dracula tanden', 'groene kikker',
+        'colaflesje', 'fruitella', 'banaantje', 'kers', 'blauwe haai', 'dracula tanden',
+        'banaantje', 'groene kikker'])
+      return: 12
