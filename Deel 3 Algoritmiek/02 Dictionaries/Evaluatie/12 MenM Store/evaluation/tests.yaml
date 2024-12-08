@@ -1,0 +1,1628 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['rood', 'rood', 'geel', 'oranje',
+        'rood'], 'verpakking 2': ['blauw', 'groen', 'groen', 'geel']})"
+      return:
+        rood: 3
+        geel: 2
+        oranje: 1
+        blauw: 1
+        groen: 2
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['oranje', 'bruin', 'blauw', 'blauw',
+        'lichtpaars', 'kiezelgrijs', 'groen', 'blauw', 'rood', 'rood', 'blauw', 'groen',
+        'rood', 'groen', 'geel', 'oranje', 'groen', 'geel', 'oranje', 'rood', 'groen'],
+        'verpakking 2': ['groen', 'rood', 'intens roze', 'kiezelgrijs', 'geel', 'geel',
+        'rood', 'blauw', 'oranje', 'groen', 'blauw', 'groen', 'lichtpaars', 'geel',
+        'bruin', 'rood', 'groen', 'oranje', 'rood', 'groen', 'groen', 'oranje', 'smaragdgroen',
+        'oranje']})"
+      return:
+        oranje: 7
+        bruin: 2
+        blauw: 6
+        lichtpaars: 2
+        kiezelgrijs: 2
+        groen: 11
+        rood: 8
+        geel: 5
+        intens roze: 1
+        smaragdgroen: 1
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['crème', 'blauw', 'groen', 'groen',
+        'blauw', 'oranje', 'bruin', 'groen', 'groen', 'groen', 'rood', 'kiezelgrijs',
+        'blauw', 'groen', 'oranje', 'groen', 'blauw', 'rood', 'bruin', 'blauw', 'rood',
+        'geel'], 'verpakking 2': ['oranje', 'groen', 'blauw', 'groen', 'geel', 'rood',
+        'blauw', 'geel', 'blauw', 'groen', 'blauw', 'oranje', 'bruin', 'rood', 'bruin',
+        'geel', 'geel', 'blauw', 'oranje', 'geel']})"
+      return:
+        crème: 1
+        blauw: 10
+        groen: 10
+        oranje: 5
+        bruin: 4
+        rood: 5
+        kiezelgrijs: 1
+        geel: 6
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['rood', 'blauw', 'blauw', 'blauw',
+        'groen', 'geel', 'blauw', 'oranje', 'kiezelgrijs', 'bruin', 'oranje', 'oranje',
+        'lichtpaars', 'rood', 'rood', 'blauw', 'groen', 'bruin', 'oranje', 'blauw',
+        'rood', 'geel', 'geel', 'oranje', 'rood'], 'verpakking 2': ['blauw', 'oranje',
+        'rood', 'blauw', 'rood', 'blauw', 'rood', 'blauw', 'blauw', 'blauw', 'oranje',
+        'bruin', 'lichtpaars', 'blauw', 'oranje', 'blauw', 'blauw', 'blauw', 'geel',
+        'blauw', 'oranje', 'rood'], 'verpakking 3': ['groen', 'blauw', 'bruin', 'blauw',
+        'blauw', 'blauw', 'bruin', 'blauw', 'bruin', 'oranje', 'oranje', 'geel', 'groen',
+        'blauw', 'oranje', 'bruin', 'groen', 'oranje', 'groen', 'oranje', 'blauw']})"
+      return:
+        rood: 9
+        blauw: 24
+        groen: 6
+        geel: 5
+        oranje: 14
+        kiezelgrijs: 1
+        bruin: 7
+        lichtpaars: 2
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['rood', 'blauw', 'geel', 'oranje',
+        'kiezelgrijs', 'oranje', 'geel', 'bruin', 'oranje', 'groen', 'kiezelgrijs',
+        'rood', 'blauw', 'lichtpaars', 'geel', 'geel', 'oranje', 'blauw', 'blauw',
+        'blauw', 'groen', 'intens roze', 'geel', 'groen', 'geel'], 'verpakking 2':
+        ['bruin', 'groen', 'groen', 'geel', 'blauw', 'oranje', 'groen', 'oranje',
+        'blauw', 'oranje', 'blauw', 'groen', 'rood', 'oranje', 'blauw', 'geel', 'groen',
+        'groen', 'groen', 'geel', 'crème', 'oranje', 'blauw', 'bruin', 'geel', 'blauw'],
+        'verpakking 3': ['blauw', 'oranje', 'blauw', 'bruin', 'groen', 'geel', 'groen',
+        'blauw', 'bruin', 'oranje', 'rood', 'oranje', 'oranje', 'kiezelgrijs', 'bruin',
+        'bruin', 'rood', 'blauw', 'geel', 'geel', 'bruin', 'blauw', 'oranje', 'blauw']})"
+      return:
+        rood: 5
+        blauw: 17
+        geel: 13
+        oranje: 14
+        kiezelgrijs: 3
+        bruin: 8
+        groen: 12
+        lichtpaars: 1
+        intens roze: 1
+        crème: 1
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['blauw', 'oranje', 'geel', 'blauw',
+        'oranje', 'bruin', 'groen', 'blauw', 'blauw', 'bruin', 'rood', 'blauw', 'groen',
+        'oranje', 'bruin', 'blauw', 'rood', 'geel', 'groen', 'rood'], 'verpakking
+        2': ['rood', 'geel', 'rood', 'oranje', 'bruin', 'bruin', 'bruin', 'geel',
+        'geel', 'rood', 'oranje', 'oranje', 'geel', 'oranje', 'oranje', 'blauw', 'blauw',
+        'groen', 'blauw', 'bruin'], 'verpakking 3': ['rood', 'oranje', 'groen', 'blauw',
+        'blauw', 'oranje', 'groen', 'rood', 'bruin', 'blauw', 'blauw', 'geel', 'bruin',
+        'groen', 'groen', 'rood', 'geel', 'oranje', 'oranje', 'oranje', 'smaragdgroen',
+        'geel', 'blauw'], 'verpakking 4': ['blauw', 'groen', 'oranje', 'oranje', 'rood',
+        'bruin', 'blauw', 'oranje', 'groen', 'bruin', 'blauw', 'groen', 'blauw', 'blauw',
+        'rood', 'blauw', 'oranje', 'lichtpaars', 'kiezelgrijs', 'geel', 'oranje',
+        'lichtpaars', 'geel', 'groen', 'blauw', 'groen']})"
+      return:
+        blauw: 21
+        oranje: 18
+        geel: 11
+        bruin: 11
+        groen: 13
+        rood: 11
+        smaragdgroen: 1
+        lichtpaars: 2
+        kiezelgrijs: 1
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['groen', 'crème', 'groen', 'bruin',
+        'bruin', 'geel', 'crème', 'oranje', 'blauw', 'blauw', 'crème', 'rood', 'oranje',
+        'oranje', 'geel', 'blauw', 'blauw', 'bruin', 'oranje', 'groen', 'oranje',
+        'geel', 'rood'], 'verpakking 2': ['blauw', 'oranje', 'blauw', 'blauw', 'blauw',
+        'rood', 'bruin', 'bruin', 'blauw', 'rood', 'bruin', 'groen', 'rood', 'geel',
+        'oranje', 'blauw', 'bruin', 'lichtpaars', 'oranje', 'oranje'], 'verpakking
+        3': ['rood', 'blauw', 'geel', 'geel', 'geel', 'intens roze', 'groen', 'groen',
+        'oranje', 'blauw', 'blauw', 'bruin', 'geel', 'blauw', 'blauw', 'oranje', 'bruin',
+        'blauw', 'bruin', 'blauw', 'geel', 'geel', 'blauw', 'oranje', 'blauw', 'bruin'],
+        'verpakking 4': ['oranje', 'groen', 'bruin', 'rood', 'rood', 'oranje', 'groen',
+        'blauw', 'groen', 'geel', 'rood', 'oranje', 'geel', 'oranje', 'intens roze',
+        'crème', 'geel', 'blauw', 'blauw', 'blauw'], 'verpakking 5': ['oranje', 'geel',
+        'crème', 'crème', 'kiezelgrijs', 'blauw', 'oranje', 'blauw', 'geel', 'oranje',
+        'oranje', 'blauw', 'groen', 'geel', 'oranje', 'blauw', 'oranje', 'bruin',
+        'rood', 'blauw'], 'verpakking 6': ['oranje', 'bruin', 'oranje', 'geel', 'blauw',
+        'rood', 'rood', 'oranje', 'oranje', 'blauw', 'bruin', 'groen', 'oranje', 'groen',
+        'geel', 'oranje', 'oranje', 'oranje', 'blauw', 'oranje', 'oranje', 'geel',
+        'geel']})"
+      return:
+        groen: 12
+        crème: 6
+        bruin: 15
+        geel: 20
+        oranje: 32
+        blauw: 31
+        rood: 12
+        lichtpaars: 1
+        intens roze: 2
+        kiezelgrijs: 1
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['rood', 'oranje', 'rood', 'rood',
+        'groen', 'rood', 'oranje', 'oranje', 'oranje', 'rood', 'bruin', 'blauw', 'geel',
+        'rood', 'groen', 'groen', 'blauw', 'groen', 'geel', 'oranje', 'kiezelgrijs'],
+        'verpakking 2': ['rood', 'blauw', 'rood', 'bruin', 'groen', 'blauw', 'rood',
+        'groen', 'oranje', 'geel', 'wolkenwit', 'oranje', 'oranje', 'geel', 'geel',
+        'geel', 'oranje', 'groen', 'oranje', 'rood', 'rood', 'groen', 'rood', 'geel',
+        'oranje', 'blauw'], 'verpakking 3': ['lichtpaars', 'blauw', 'geel', 'oranje',
+        'oranje', 'crème', 'oranje', 'rood', 'bruin', 'smaragdgroen', 'rood', 'geel',
+        'groen', 'blauw', 'oranje', 'groen', 'bruin', 'blauw', 'geel', 'geel', 'oranje',
+        'blauw'], 'verpakking 4': ['oranje', 'groen', 'rood', 'groen', 'groen', 'geel',
+        'rood', 'oranje', 'bruin', 'oranje', 'oranje', 'rood', 'intens roze', 'blauw',
+        'geel', 'bruin', 'rood', 'groen', 'bruin', 'bruin', 'bruin', 'oranje', 'oranje',
+        'crème', 'blauw'], 'verpakking 5': ['rood', 'bruin', 'bruin', 'geel', 'oranje',
+        'groen', 'blauw', 'groen', 'geel', 'geel', 'oranje', 'blauw', 'bruin', 'rood',
+        'bruin', 'blauw', 'blauw', 'bruin', 'groen', 'rood', 'groen', 'crème', 'rood',
+        'blauw'], 'verpakking 6': ['bruin', 'oranje', 'geel', 'blauw', 'rood', 'geel',
+        'blauw', 'groen', 'bruin', 'geel', 'groen', 'groen', 'blauw', 'oranje', 'oranje',
+        'groen', 'oranje', 'blauw', 'geel', 'oranje', 'geel', 'blauw'], 'verpakking
+        7': ['rood', 'oranje', 'oranje', 'geel', 'blauw', 'bruin', 'geel', 'rood',
+        'geel', 'bruin', 'geel', 'blauw', 'geel', 'geel', 'blauw', 'blauw', 'bruin',
+        'bruin', 'kiezelgrijs', 'bruin', 'groen', 'oranje', 'blauw']})"
+      return:
+        rood: 25
+        oranje: 32
+        groen: 23
+        bruin: 21
+        blauw: 26
+        geel: 27
+        kiezelgrijs: 2
+        wolkenwit: 1
+        lichtpaars: 1
+        crème: 3
+        smaragdgroen: 1
+        intens roze: 1
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['oranje', 'oranje', 'geel', 'oranje',
+        'geel', 'oranje', 'groen', 'kiezelgrijs', 'blauw', 'intens roze', 'bruin',
+        'rood', 'crème', 'blauw', 'bruin', 'geel', 'rood', 'groen', 'groen', 'rood',
+        'rood'], 'verpakking 2': ['blauw', 'bruin', 'crème', 'blauw', 'oranje', 'groen',
+        'groen', 'geel', 'geel', 'bruin', 'geel', 'oranje', 'blauw', 'groen', 'rood',
+        'groen', 'blauw', 'oranje', 'groen', 'blauw', 'groen', 'blauw', 'bruin', 'blauw',
+        'oranje', 'oranje'], 'verpakking 3': ['blauw', 'groen', 'oranje', 'blauw',
+        'crème', 'oranje', 'oranje', 'blauw', 'rood', 'bruin', 'kiezelgrijs', 'oranje',
+        'bruin', 'geel', 'bruin', 'oranje', 'oranje', 'oranje', 'groen', 'blauw',
+        'oranje', 'rood', 'bruin', 'bruin', 'oranje'], 'verpakking 4': ['oranje',
+        'oranje', 'intens roze', 'blauw', 'bruin', 'blauw', 'groen', 'rood', 'groen',
+        'groen', 'groen', 'bruin', 'crème', 'groen', 'bruin', 'blauw', 'groen', 'groen',
+        'bruin', 'blauw'], 'verpakking 5': ['geel', 'blauw', 'blauw', 'oranje', 'oranje',
+        'geel', 'groen', 'groen', 'blauw', 'geel', 'bruin', 'bruin', 'blauw', 'blauw',
+        'groen', 'bruin', 'bruin', 'groen', 'oranje', 'bruin', 'groen'], 'verpakking
+        6': ['intens roze', 'rood', 'bruin', 'bruin', 'bruin', 'bruin', 'oranje',
+        'geel', 'blauw', 'oranje', 'bruin', 'rood', 'groen', 'bruin', 'rood', 'geel',
+        'oranje', 'oranje', 'oranje', 'oranje', 'oranje', 'blauw', 'blauw', 'groen',
+        'geel'], 'verpakking 7': ['bruin', 'groen', 'blauw', 'groen', 'blauw', 'geel',
+        'groen', 'rood', 'rood', 'groen', 'groen', 'blauw', 'rood', 'bruin', 'blauw',
+        'geel', 'geel', 'blauw', 'oranje', 'oranje', 'oranje', 'rood', 'geel', 'oranje'],
+        'verpakking 8': ['oranje', 'rood', 'oranje', 'blauw', 'oranje', 'groen', 'blauw',
+        'rood', 'geel', 'groen', 'blauw', 'intens roze', 'bruin', 'bruin', 'oranje',
+        'oranje', 'rood', 'blauw', 'bruin', 'geel', 'geel', 'rood'], 'verpakking 9':
+        ['geel', 'blauw', 'smaragdgroen', 'blauw', 'blauw', 'rood', 'bruin', 'oranje',
+        'bruin', 'rood', 'oranje', 'bruin', 'rood', 'oranje', 'oranje', 'blauw', 'bruin',
+        'oranje', 'bruin', 'rood', 'bruin', 'oranje', 'groen', 'geel'], 'verpakking
+        10': ['geel', 'geel', 'rood', 'oranje', 'rood', 'rood', 'bruin', 'rood', 'oranje',
+        'geel', 'oranje', 'rood', 'blauw', 'bruin', 'bruin', 'groen', 'blauw', 'geel',
+        'crème', 'groen']})"
+      return:
+        oranje: 48
+        geel: 26
+        groen: 35
+        kiezelgrijs: 2
+        blauw: 40
+        intens roze: 4
+        bruin: 39
+        rood: 28
+        crème: 5
+        smaragdgroen: 1
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['blauw', 'rood', 'groen', 'blauw',
+        'blauw', 'oranje', 'rood', 'geel', 'rood', 'blauw', 'geel', 'rood', 'oranje',
+        'rood', 'geel', 'rood', 'blauw', 'geel', 'rood', 'geel', 'rood', 'groen'],
+        'verpakking 2': ['geel', 'rood', 'oranje', 'rood', 'bruin', 'oranje', 'oranje',
+        'geel', 'groen', 'bruin', 'oranje', 'smaragdgroen', 'rood', 'bruin', 'groen',
+        'wolkenwit', 'blauw', 'oranje', 'oranje', 'bruin', 'oranje'], 'verpakking
+        3': ['oranje', 'wolkenwit', 'oranje', 'groen', 'groen', 'oranje', 'groen',
+        'groen', 'bruin', 'geel', 'groen', 'oranje', 'rood', 'groen', 'groen', 'geel',
+        'oranje', 'bruin', 'oranje', 'oranje', 'groen', 'bruin', 'crème', 'geel',
+        'bruin'], 'verpakking 4': ['blauw', 'rood', 'oranje', 'blauw', 'rood', 'rood',
+        'rood', 'bruin', 'oranje', 'blauw', 'geel', 'oranje', 'oranje', 'groen', 'rood',
+        'oranje', 'oranje', 'geel', 'blauw', 'blauw', 'groen', 'geel', 'groen', 'geel',
+        'bruin'], 'verpakking 5': ['rood', 'groen', 'bruin', 'rood', 'blauw', 'kiezelgrijs',
+        'geel', 'groen', 'blauw', 'oranje', 'geel', 'bruin', 'groen', 'kiezelgrijs',
+        'oranje', 'oranje', 'geel', 'lichtpaars', 'geel', 'lichtpaars', 'rood', 'bruin',
+        'blauw', 'oranje'], 'verpakking 6': ['blauw', 'oranje', 'blauw', 'oranje',
+        'rood', 'blauw', 'groen', 'rood', 'groen', 'blauw', 'bruin', 'rood', 'wolkenwit',
+        'rood', 'rood', 'oranje', 'blauw', 'rood', 'oranje', 'bruin', 'groen', 'bruin'],
+        'verpakking 7': ['blauw', 'bruin', 'oranje', 'bruin', 'bruin', 'rood', 'bruin',
+        'bruin', 'rood', 'groen', 'wolkenwit', 'geel', 'rood', 'rood', 'geel', 'blauw',
+        'blauw', 'groen', 'groen', 'geel'], 'verpakking 8': ['oranje', 'geel', 'blauw',
+        'groen', 'blauw', 'geel', 'blauw', 'groen', 'blauw', 'blauw', 'oranje', 'oranje',
+        'blauw', 'oranje', 'geel', 'bruin', 'bruin', 'blauw', 'blauw', 'oranje', 'blauw',
+        'blauw', 'oranje', 'oranje'], 'verpakking 9': ['bruin', 'blauw', 'oranje',
+        'geel', 'groen', 'rood', 'blauw', 'oranje', 'geel', 'bruin', 'geel', 'blauw',
+        'oranje', 'rood', 'groen', 'geel', 'oranje', 'bruin', 'oranje', 'rood', 'rood',
+        'blauw', 'blauw', 'blauw'], 'verpakking 10': ['blauw', 'oranje', 'groen',
+        'groen', 'bruin', 'blauw', 'blauw', 'blauw', 'bruin', 'blauw', 'oranje', 'blauw',
+        'bruin', 'bruin', 'rood', 'blauw', 'groen', 'oranje', 'groen', 'bruin', 'oranje',
+        'bruin', 'oranje', 'oranje', 'bruin', 'geel']})"
+      return:
+        blauw: 45
+        rood: 35
+        groen: 32
+        oranje: 49
+        geel: 29
+        bruin: 33
+        smaragdgroen: 1
+        wolkenwit: 4
+        crème: 1
+        kiezelgrijs: 2
+        lichtpaars: 2
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['geel', 'groen', 'groen', 'oranje',
+        'rood', 'groen', 'blauw', 'blauw', 'geel', 'groen', 'geel', 'rood', 'bruin',
+        'groen', 'smaragdgroen', 'rood', 'bruin', 'bruin', 'rood', 'groen'], 'verpakking
+        2': ['blauw', 'blauw', 'bruin', 'bruin', 'oranje', 'rood', 'blauw', 'oranje',
+        'geel', 'intens roze', 'oranje', 'rood', 'blauw', 'oranje', 'rood', 'geel',
+        'geel', 'oranje', 'bruin', 'smaragdgroen', 'blauw', 'bruin'], 'verpakking
+        3': ['blauw', 'blauw', 'groen', 'blauw', 'bruin', 'blauw', 'geel', 'rood',
+        'oranje', 'rood', 'geel', 'blauw', 'geel', 'groen', 'oranje', 'oranje', 'groen',
+        'bruin', 'geel', 'groen', 'intens roze', 'blauw', 'wolkenwit', 'groen'], 'verpakking
+        4': ['intens roze', 'geel', 'blauw', 'geel', 'bruin', 'intens roze', 'oranje',
+        'geel', 'geel', 'oranje', 'rood', 'geel', 'geel', 'blauw', 'rood', 'oranje',
+        'blauw', 'blauw', 'geel', 'oranje', 'blauw'], 'verpakking 5': ['groen', 'geel',
+        'blauw', 'groen', 'oranje', 'blauw', 'oranje', 'oranje', 'bruin', 'blauw',
+        'geel', 'rood', 'lichtpaars', 'rood', 'kiezelgrijs', 'blauw', 'oranje', 'rood',
+        'oranje', 'geel', 'kiezelgrijs', 'groen', 'intens roze', 'blauw', 'blauw'],
+        'verpakking 6': ['groen', 'groen', 'rood', 'blauw', 'oranje', 'rood', 'oranje',
+        'groen', 'blauw', 'groen', 'lichtpaars', 'oranje', 'blauw', 'groen', 'bruin',
+        'blauw', 'blauw', 'blauw', 'oranje', 'rood', 'blauw', 'blauw', 'oranje', 'blauw'],
+        'verpakking 7': ['bruin', 'blauw', 'oranje', 'geel', 'oranje', 'lichtpaars',
+        'bruin', 'blauw', 'oranje', 'geel', 'blauw', 'blauw', 'rood', 'oranje', 'rood',
+        'blauw', 'geel', 'groen', 'blauw', 'blauw', 'rood', 'kiezelgrijs', 'oranje',
+        'groen', 'groen'], 'verpakking 8': ['oranje', 'blauw', 'rood', 'geel', 'crème',
+        'groen', 'oranje', 'blauw', 'groen', 'blauw', 'geel', 'oranje', 'blauw', 'groen',
+        'groen', 'oranje', 'blauw', 'blauw', 'bruin', 'bruin', 'geel', 'blauw', 'groen'],
+        'verpakking 9': ['blauw', 'oranje', 'blauw', 'groen', 'oranje', 'bruin', 'groen',
+        'oranje', 'blauw', 'wolkenwit', 'bruin', 'blauw', 'bruin', 'oranje', 'oranje',
+        'blauw', 'geel', 'bruin', 'rood', 'bruin', 'oranje', 'bruin', 'groen', 'blauw',
+        'groen', 'blauw'], 'verpakking 10': ['bruin', 'oranje', 'oranje', 'blauw',
+        'bruin', 'blauw', 'blauw', 'oranje', 'groen', 'smaragdgroen', 'bruin', 'groen',
+        'geel', 'groen', 'oranje', 'bruin', 'oranje', 'blauw', 'oranje', 'rood', 'blauw',
+        'rood', 'groen', 'wolkenwit', 'groen', 'blauw']})"
+      return:
+        geel: 28
+        groen: 36
+        oranje: 44
+        rood: 24
+        blauw: 60
+        bruin: 26
+        smaragdgroen: 3
+        intens roze: 5
+        wolkenwit: 3
+        lichtpaars: 3
+        kiezelgrijs: 3
+        crème: 1
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['bruin', 'geel', 'geel', 'oranje',
+        'blauw', 'geel', 'oranje', 'rood', 'oranje', 'oranje', 'geel', 'kiezelgrijs',
+        'geel', 'geel', 'rood', 'geel', 'bruin', 'bruin', 'bruin', 'bruin', 'rood'],
+        'verpakking 2': ['groen', 'oranje', 'geel', 'bruin', 'oranje', 'geel', 'rood',
+        'groen', 'rood', 'groen', 'groen', 'blauw', 'rood', 'geel', 'oranje', 'blauw',
+        'rood', 'groen', 'blauw', 'groen', 'bruin', 'geel'], 'verpakking 3': ['groen',
+        'kiezelgrijs', 'geel', 'blauw', 'oranje', 'blauw', 'geel', 'blauw', 'oranje',
+        'oranje', 'blauw', 'bruin', 'oranje', 'blauw', 'geel', 'oranje', 'blauw',
+        'rood', 'blauw', 'groen', 'geel', 'oranje', 'blauw', 'bruin'], 'verpakking
+        4': ['geel', 'groen', 'blauw', 'bruin', 'rood', 'oranje', 'blauw', 'oranje',
+        'geel', 'groen', 'lichtpaars', 'oranje', 'rood', 'rood', 'groen', 'groen',
+        'oranje', 'blauw', 'kiezelgrijs', 'rood', 'blauw', 'geel'], 'verpakking 5':
+        ['blauw', 'groen', 'lichtpaars', 'geel', 'blauw', 'oranje', 'blauw', 'blauw',
+        'wolkenwit', 'oranje', 'oranje', 'blauw', 'blauw', 'blauw', 'oranje', 'oranje',
+        'oranje', 'blauw', 'geel', 'groen'], 'verpakking 6': ['groen', 'oranje', 'kiezelgrijs',
+        'blauw', 'rood', 'geel', 'rood', 'blauw', 'groen', 'blauw', 'bruin', 'oranje',
+        'bruin', 'rood', 'oranje', 'bruin', 'intens roze', 'oranje', 'groen', 'groen',
+        'groen', 'groen', 'blauw', 'blauw', 'oranje'], 'verpakking 7': ['rood', 'oranje',
+        'crème', 'rood', 'blauw', 'geel', 'groen', 'oranje', 'blauw', 'smaragdgroen',
+        'oranje', 'crème', 'bruin', 'groen', 'geel', 'rood', 'oranje', 'groen', 'geel',
+        'bruin', 'blauw', 'blauw'], 'verpakking 8': ['geel', 'rood', 'oranje', 'blauw',
+        'geel', 'oranje', 'blauw', 'blauw', 'geel', 'bruin', 'oranje', 'geel', 'oranje',
+        'groen', 'blauw', 'geel', 'groen', 'rood', 'oranje', 'bruin', 'oranje', 'oranje',
+        'blauw', 'oranje'], 'verpakking 9': ['geel', 'geel', 'oranje', 'oranje', 'bruin',
+        'blauw', 'bruin', 'oranje', 'geel', 'bruin', 'blauw', 'groen', 'rood', 'oranje',
+        'bruin', 'crème', 'bruin', 'blauw', 'oranje', 'crème', 'rood', 'blauw', 'smaragdgroen'],
+        'verpakking 10': ['bruin', 'geel', 'blauw', 'blauw', 'blauw', 'oranje', 'oranje',
+        'rood', 'rood', 'blauw', 'oranje', 'crème', 'oranje', 'blauw', 'rood', 'blauw',
+        'geel', 'oranje', 'bruin', 'blauw', 'geel', 'geel', 'groen', 'blauw', 'blauw',
+        'oranje'], 'verpakking 11': ['bruin', 'oranje', 'groen', 'blauw', 'oranje',
+        'oranje', 'geel', 'bruin', 'rood', 'oranje', 'geel', 'oranje', 'oranje', 'groen',
+        'oranje', 'groen', 'groen', 'blauw', 'blauw', 'geel'], 'verpakking 12': ['rood',
+        'oranje', 'oranje', 'blauw', 'oranje', 'geel', 'blauw', 'crème', 'oranje',
+        'geel', 'blauw', 'bruin', 'oranje', 'bruin', 'bruin', 'geel', 'groen', 'oranje',
+        'oranje', 'kiezelgrijs', 'bruin', 'geel', 'bruin', 'geel'], 'verpakking 13':
+        ['rood', 'oranje', 'kiezelgrijs', 'groen', 'bruin', 'oranje', 'groen', 'rood',
+        'bruin', 'oranje', 'oranje', 'rood', 'geel', 'oranje', 'blauw', 'geel', 'wolkenwit',
+        'oranje', 'groen', 'groen', 'rood', 'bruin', 'geel'], 'verpakking 14': ['oranje',
+        'geel', 'bruin', 'blauw', 'bruin', 'oranje', 'groen', 'geel', 'rood', 'blauw',
+        'groen', 'geel', 'blauw', 'oranje', 'oranje', 'groen', 'rood', 'groen', 'oranje',
+        'oranje', 'groen', 'blauw', 'oranje', 'oranje', 'groen'], 'verpakking 15':
+        ['oranje', 'groen', 'groen', 'blauw', 'geel', 'bruin', 'oranje', 'smaragdgroen',
+        'lichtpaars', 'oranje', 'groen', 'oranje', 'blauw', 'oranje', 'oranje', 'kiezelgrijs',
+        'geel', 'groen', 'blauw', 'oranje', 'oranje', 'oranje', 'oranje'], 'verpakking
+        16': ['oranje', 'groen', 'oranje', 'blauw', 'bruin', 'groen', 'blauw', 'blauw',
+        'rood', 'blauw', 'rood', 'rood', 'bruin', 'oranje', 'groen', 'rood', 'groen',
+        'blauw', 'rood', 'geel', 'blauw', 'groen', 'bruin', 'oranje', 'oranje'], 'verpakking
+        17': ['groen', 'oranje', 'rood', 'oranje', 'geel', 'rood', 'blauw', 'rood',
+        'oranje', 'blauw', 'oranje', 'rood', 'bruin', 'oranje', 'rood', 'oranje',
+        'lichtpaars', 'rood', 'oranje', 'geel', 'blauw'], 'verpakking 18': ['oranje',
+        'groen', 'rood', 'oranje', 'blauw', 'kiezelgrijs', 'blauw', 'rood', 'bruin',
+        'bruin', 'blauw', 'geel', 'oranje', 'groen', 'oranje', 'rood', 'oranje', 'bruin',
+        'geel', 'geel', 'groen', 'rood', 'bruin', 'blauw', 'rood']})"
+      return:
+        bruin: 45
+        geel: 58
+        oranje: 106
+        blauw: 78
+        rood: 49
+        kiezelgrijs: 8
+        groen: 55
+        lichtpaars: 4
+        wolkenwit: 2
+        intens roze: 1
+        crème: 6
+        smaragdgroen: 3
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['geel', 'oranje', 'groen', 'blauw',
+        'oranje', 'blauw', 'bruin', 'blauw', 'intens roze', 'blauw', 'geel', 'oranje',
+        'oranje', 'oranje', 'blauw', 'oranje', 'oranje', 'blauw', 'groen', 'groen',
+        'bruin', 'oranje', 'blauw', 'geel', 'blauw', 'kiezelgrijs'], 'verpakking 2':
+        ['geel', 'bruin', 'blauw', 'geel', 'blauw', 'groen', 'groen', 'kiezelgrijs',
+        'geel', 'rood', 'blauw', 'bruin', 'bruin', 'wolkenwit', 'blauw', 'intens roze',
+        'groen', 'groen', 'bruin', 'oranje', 'oranje', 'blauw', 'bruin'], 'verpakking
+        3': ['geel', 'groen', 'bruin', 'oranje', 'blauw', 'crème', 'oranje', 'blauw',
+        'groen', 'geel', 'geel', 'oranje', 'blauw', 'geel', 'blauw', 'bruin', 'bruin',
+        'blauw', 'oranje', 'blauw', 'oranje'], 'verpakking 4': ['oranje', 'blauw',
+        'bruin', 'blauw', 'bruin', 'bruin', 'rood', 'blauw', 'oranje', 'groen', 'blauw',
+        'blauw', 'bruin', 'rood', 'bruin', 'rood', 'oranje', 'oranje', 'rood', 'groen',
+        'blauw', 'bruin'], 'verpakking 5': ['blauw', 'intens roze', 'oranje', 'groen',
+        'rood', 'blauw', 'rood', 'oranje', 'bruin', 'oranje', 'groen', 'blauw', 'geel',
+        'bruin', 'oranje', 'oranje', 'geel', 'intens roze', 'oranje', 'oranje'], 'verpakking
+        6': ['geel', 'blauw', 'blauw', 'groen', 'blauw', 'smaragdgroen', 'rood', 'groen',
+        'geel', 'intens roze', 'groen', 'groen', 'groen', 'groen', 'blauw', 'groen',
+        'blauw', 'bruin', 'oranje', 'rood', 'oranje', 'blauw', 'geel'], 'verpakking
+        7': ['crème', 'rood', 'groen', 'blauw', 'oranje', 'oranje', 'blauw', 'geel',
+        'oranje', 'groen', 'oranje', 'bruin', 'blauw', 'geel', 'rood', 'blauw', 'oranje',
+        'rood', 'blauw', 'blauw', 'blauw', 'bruin', 'oranje', 'groen'], 'verpakking
+        8': ['rood', 'bruin', 'rood', 'geel', 'blauw', 'blauw', 'blauw', 'blauw',
+        'rood', 'wolkenwit', 'blauw', 'geel', 'blauw', 'oranje', 'bruin', 'blauw',
+        'geel', 'geel', 'oranje', 'lichtpaars', 'blauw', 'bruin', 'bruin', 'bruin',
+        'oranje'], 'verpakking 9': ['groen', 'geel', 'groen', 'bruin', 'oranje', 'geel',
+        'blauw', 'rood', 'geel', 'blauw', 'oranje', 'oranje', 'bruin', 'oranje', 'groen',
+        'rood', 'blauw', 'oranje', 'groen', 'rood', 'groen', 'geel', 'oranje', 'rood',
+        'groen'], 'verpakking 10': ['oranje', 'oranje', 'kiezelgrijs', 'blauw', 'blauw',
+        'oranje', 'groen', 'oranje', 'groen', 'oranje', 'blauw', 'rood', 'blauw',
+        'groen', 'groen', 'geel', 'oranje', 'groen', 'oranje', 'rood', 'geel', 'groen',
+        'oranje', 'rood', 'bruin', 'wolkenwit'], 'verpakking 11': ['blauw', 'geel',
+        'oranje', 'blauw', 'oranje', 'geel', 'groen', 'blauw', 'oranje', 'groen',
+        'rood', 'blauw', 'oranje', 'blauw', 'geel', 'oranje', 'geel', 'geel', 'rood',
+        'blauw', 'bruin'], 'verpakking 12': ['bruin', 'groen', 'oranje', 'blauw',
+        'bruin', 'wolkenwit', 'oranje', 'oranje', 'oranje', 'bruin', 'geel', 'blauw',
+        'geel', 'blauw', 'geel', 'oranje', 'blauw', 'oranje', 'geel', 'oranje'], 'verpakking
+        13': ['geel', 'oranje', 'blauw', 'oranje', 'rood', 'oranje', 'geel', 'oranje',
+        'oranje', 'blauw', 'groen', 'oranje', 'rood', 'bruin', 'oranje', 'rood', 'rood',
+        'geel', 'kiezelgrijs', 'blauw', 'groen', 'groen', 'oranje'], 'verpakking 14':
+        ['geel', 'rood', 'blauw', 'geel', 'oranje', 'blauw', 'rood', 'geel', 'geel',
+        'rood', 'bruin', 'oranje', 'oranje', 'blauw', 'blauw', 'blauw', 'blauw', 'kiezelgrijs',
+        'rood', 'oranje', 'blauw', 'oranje'], 'verpakking 15': ['oranje', 'rood',
+        'oranje', 'bruin', 'bruin', 'oranje', 'groen', 'oranje', 'geel', 'oranje',
+        'bruin', 'blauw', 'rood', 'oranje', 'blauw', 'groen', 'rood', 'oranje', 'bruin',
+        'oranje', 'groen', 'crème', 'wolkenwit', 'blauw'], 'verpakking 16': ['groen',
+        'oranje', 'oranje', 'oranje', 'rood', 'rood', 'groen', 'oranje', 'geel', 'groen',
+        'bruin', 'blauw', 'oranje', 'blauw', 'geel', 'blauw', 'oranje', 'oranje',
+        'blauw', 'rood', 'oranje'], 'verpakking 17': ['groen', 'blauw', 'blauw', 'oranje',
+        'groen', 'oranje', 'rood', 'oranje', 'blauw', 'oranje', 'groen', 'smaragdgroen',
+        'oranje', 'oranje', 'blauw', 'geel', 'geel', 'blauw', 'lichtpaars', 'oranje',
+        'blauw', 'geel', 'groen', 'rood'], 'verpakking 18': ['oranje', 'geel', 'geel',
+        'groen', 'rood', 'oranje', 'oranje', 'rood', 'rood', 'oranje', 'groen', 'groen',
+        'rood', 'rood', 'oranje', 'groen', 'bruin', 'bruin', 'groen', 'smaragdgroen',
+        'groen', 'oranje', 'blauw', 'geel', 'rood', 'oranje']})"
+      return:
+        geel: 52
+        oranje: 106
+        groen: 57
+        blauw: 90
+        bruin: 42
+        intens roze: 5
+        kiezelgrijs: 5
+        rood: 46
+        wolkenwit: 5
+        crème: 3
+        smaragdgroen: 3
+        lichtpaars: 2
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['groen', 'groen', 'blauw', 'crème',
+        'groen', 'blauw', 'groen', 'groen', 'groen', 'groen', 'bruin', 'geel', 'rood',
+        'blauw', 'groen', 'oranje', 'oranje', 'groen', 'groen', 'oranje'], 'verpakking
+        2': ['geel', 'oranje', 'oranje', 'blauw', 'blauw', 'groen', 'rood', 'bruin',
+        'blauw', 'groen', 'geel', 'oranje', 'bruin', 'oranje', 'groen', 'blauw', 'groen',
+        'bruin', 'oranje', 'oranje', 'blauw', 'geel', 'groen', 'oranje', 'oranje'],
+        'verpakking 3': ['groen', 'blauw', 'rood', 'groen', 'oranje', 'blauw', 'crème',
+        'bruin', 'groen', 'blauw', 'bruin', 'oranje', 'blauw', 'groen', 'oranje',
+        'rood', 'geel', 'bruin', 'rood', 'blauw'], 'verpakking 4': ['blauw', 'oranje',
+        'blauw', 'groen', 'groen', 'rood', 'intens roze', 'blauw', 'groen', 'geel',
+        'geel', 'geel', 'groen', 'groen', 'oranje', 'rood', 'oranje', 'groen', 'blauw',
+        'rood', 'rood'], 'verpakking 5': ['bruin', 'oranje', 'bruin', 'blauw', 'oranje',
+        'oranje', 'blauw', 'blauw', 'groen', 'groen', 'kiezelgrijs', 'blauw', 'bruin',
+        'crème', 'bruin', 'oranje', 'geel', 'oranje', 'groen', 'oranje', 'bruin'],
+        'verpakking 6': ['rood', 'oranje', 'groen', 'oranje', 'blauw', 'oranje', 'oranje',
+        'bruin', 'geel', 'groen', 'bruin', 'geel', 'groen', 'blauw', 'rood', 'oranje',
+        'groen', 'rood', 'lichtpaars', 'geel', 'blauw', 'crème', 'oranje', 'oranje'],
+        'verpakking 7': ['groen', 'rood', 'geel', 'geel', 'oranje', 'oranje', 'groen',
+        'geel', 'geel', 'geel', 'groen', 'rood', 'blauw', 'blauw', 'oranje', 'bruin',
+        'smaragdgroen', 'rood', 'geel', 'geel', 'blauw', 'oranje', 'blauw'], 'verpakking
+        8': ['rood', 'rood', 'oranje', 'intens roze', 'rood', 'blauw', 'blauw', 'blauw',
+        'blauw', 'bruin', 'oranje', 'oranje', 'geel', 'bruin', 'groen', 'blauw', 'oranje',
+        'rood', 'blauw', 'oranje', 'groen', 'geel', 'blauw', 'groen', 'blauw'], 'verpakking
+        9': ['rood', 'oranje', 'rood', 'blauw', 'groen', 'blauw', 'blauw', 'groen',
+        'blauw', 'geel', 'rood', 'rood', 'geel', 'rood', 'oranje', 'bruin', 'groen',
+        'intens roze', 'blauw', 'groen', 'groen', 'blauw', 'bruin', 'oranje'], 'verpakking
+        10': ['oranje', 'oranje', 'oranje', 'blauw', 'blauw', 'geel', 'groen', 'rood',
+        'oranje', 'bruin', 'oranje', 'geel', 'groen', 'wolkenwit', 'rood', 'geel',
+        'geel', 'rood', 'geel', 'groen', 'blauw', 'bruin', 'geel', 'rood', 'geel',
+        'geel'], 'verpakking 11': ['blauw', 'rood', 'oranje', 'bruin', 'rood', 'geel',
+        'lichtpaars', 'kiezelgrijs', 'oranje', 'bruin', 'lichtpaars', 'geel', 'geel',
+        'groen', 'groen', 'oranje', 'oranje', 'blauw', 'groen', 'rood', 'blauw', 'blauw',
+        'oranje'], 'verpakking 12': ['groen', 'geel', 'groen', 'oranje', 'geel', 'rood',
+        'groen', 'blauw', 'bruin', 'geel', 'geel', 'blauw', 'oranje', 'bruin', 'groen',
+        'blauw', 'oranje', 'oranje', 'groen', 'crème', 'blauw', 'blauw', 'oranje',
+        'bruin', 'oranje', 'bruin'], 'verpakking 13': ['blauw', 'smaragdgroen', 'oranje',
+        'geel', 'groen', 'groen', 'smaragdgroen', 'oranje', 'bruin', 'oranje', 'blauw',
+        'rood', 'blauw', 'groen', 'oranje', 'bruin', 'blauw', 'bruin', 'groen', 'rood',
+        'rood', 'blauw', 'blauw', 'blauw'], 'verpakking 14': ['blauw', 'groen', 'groen',
+        'rood', 'oranje', 'rood', 'groen', 'geel', 'oranje', 'smaragdgroen', 'oranje',
+        'blauw', 'rood', 'blauw', 'rood', 'bruin', 'groen', 'groen', 'blauw', 'geel',
+        'rood', 'geel', 'oranje', 'rood'], 'verpakking 15': ['oranje', 'bruin', 'groen',
+        'groen', 'blauw', 'bruin', 'bruin', 'lichtpaars', 'oranje', 'oranje', 'geel',
+        'geel', 'groen', 'bruin', 'geel', 'blauw', 'groen', 'oranje', 'geel', 'geel',
+        'blauw', 'bruin', 'oranje', 'oranje', 'groen'], 'verpakking 16': ['groen',
+        'groen', 'geel', 'blauw', 'groen', 'geel', 'oranje', 'bruin', 'blauw', 'blauw',
+        'geel', 'blauw', 'groen', 'blauw', 'groen', 'blauw', 'groen', 'bruin', 'oranje',
+        'rood', 'oranje', 'geel'], 'verpakking 17': ['bruin', 'rood', 'oranje', 'geel',
+        'oranje', 'oranje', 'geel', 'lichtpaars', 'geel', 'groen', 'oranje', 'groen',
+        'bruin', 'blauw', 'geel', 'blauw', 'groen', 'crème', 'blauw', 'blauw'], 'verpakking
+        18': ['blauw', 'oranje', 'groen', 'intens roze', 'geel', 'groen', 'geel',
+        'intens roze', 'groen', 'rood', 'groen', 'oranje', 'rood', 'lichtpaars', 'groen',
+        'groen', 'geel', 'geel', 'rood', 'groen', 'groen', 'rood', 'oranje'], 'verpakking
+        19': ['oranje', 'oranje', 'blauw', 'oranje', 'blauw', 'intens roze', 'oranje',
+        'rood', 'groen', 'groen', 'groen', 'blauw', 'bruin', 'blauw', 'rood', 'geel',
+        'oranje', 'groen', 'bruin', 'bruin', 'groen', 'blauw', 'geel', 'groen', 'crème'],
+        'verpakking 20': ['oranje', 'geel', 'oranje', 'oranje', 'blauw', 'blauw',
+        'geel', 'rood', 'groen', 'intens roze', 'bruin', 'oranje', 'rood', 'blauw',
+        'oranje', 'blauw', 'oranje', 'groen', 'oranje', 'oranje', 'oranje', 'geel']})"
+      return:
+        groen: 93
+        blauw: 88
+        crème: 7
+        bruin: 44
+        geel: 64
+        rood: 51
+        oranje: 96
+        intens roze: 7
+        kiezelgrijs: 2
+        lichtpaars: 6
+        smaragdgroen: 4
+        wolkenwit: 1
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['blauw', 'blauw', 'groen', 'oranje',
+        'bruin', 'blauw', 'blauw', 'oranje', 'blauw', 'rood', 'kiezelgrijs', 'oranje',
+        'groen', 'blauw', 'blauw', 'geel', 'bruin', 'blauw', 'oranje', 'rood', 'rood',
+        'geel', 'rood', 'groen', 'rood', 'oranje'], 'verpakking 2': ['blauw', 'intens
+        roze', 'blauw', 'bruin', 'rood', 'geel', 'blauw', 'oranje', 'intens roze',
+        'smaragdgroen', 'groen', 'blauw', 'bruin', 'groen', 'oranje', 'oranje', 'bruin',
+        'groen', 'bruin', 'groen', 'rood', 'geel', 'geel', 'bruin', 'crème', 'bruin'],
+        'verpakking 3': ['geel', 'bruin', 'oranje', 'groen', 'rood', 'bruin', 'blauw',
+        'blauw', 'oranje', 'blauw', 'oranje', 'geel', 'groen', 'bruin', 'groen', 'smaragdgroen',
+        'crème', 'geel', 'kiezelgrijs', 'blauw', 'oranje', 'geel', 'oranje'], 'verpakking
+        4': ['blauw', 'oranje', 'oranje', 'oranje', 'groen', 'crème', 'geel', 'blauw',
+        'oranje', 'groen', 'blauw', 'blauw', 'geel', 'oranje', 'oranje', 'rood', 'oranje',
+        'oranje', 'rood', 'blauw', 'blauw', 'bruin', 'bruin'], 'verpakking 5': ['bruin',
+        'rood', 'groen', 'geel', 'oranje', 'groen', 'blauw', 'groen', 'blauw', 'oranje',
+        'wolkenwit', 'rood', 'geel', 'oranje', 'groen', 'geel', 'oranje', 'geel',
+        'oranje', 'blauw', 'bruin', 'groen', 'geel', 'oranje'], 'verpakking 6': ['geel',
+        'oranje', 'geel', 'oranje', 'oranje', 'rood', 'geel', 'geel', 'blauw', 'oranje',
+        'rood', 'oranje', 'groen', 'oranje', 'crème', 'blauw', 'oranje', 'oranje',
+        'geel', 'wolkenwit', 'oranje', 'bruin', 'bruin', 'groen', 'rood'], 'verpakking
+        7': ['geel', 'oranje', 'oranje', 'groen', 'oranje', 'blauw', 'groen', 'groen',
+        'blauw', 'bruin', 'oranje', 'rood', 'blauw', 'rood', 'groen', 'blauw', 'geel',
+        'rood', 'blauw', 'blauw', 'groen', 'oranje', 'oranje', 'oranje'], 'verpakking
+        8': ['oranje', 'geel', 'oranje', 'blauw', 'groen', 'blauw', 'oranje', 'blauw',
+        'geel', 'blauw', 'geel', 'rood', 'oranje', 'rood', 'oranje', 'rood', 'groen',
+        'oranje', 'oranje', 'geel', 'blauw', 'wolkenwit', 'rood', 'oranje', 'oranje',
+        'geel'], 'verpakking 9': ['groen', 'groen', 'wolkenwit', 'groen', 'bruin',
+        'groen', 'groen', 'rood', 'smaragdgroen', 'geel', 'blauw', 'geel', 'bruin',
+        'oranje', 'blauw', 'oranje', 'rood', 'blauw', 'bruin', 'rood', 'geel', 'oranje'],
+        'verpakking 10': ['intens roze', 'oranje', 'blauw', 'geel', 'blauw', 'blauw',
+        'blauw', 'blauw', 'bruin', 'geel', 'rood', 'groen', 'smaragdgroen', 'bruin',
+        'oranje', 'oranje', 'geel', 'rood', 'crème', 'blauw', 'bruin', 'intens roze'],
+        'verpakking 11': ['smaragdgroen', 'blauw', 'oranje', 'geel', 'blauw', 'rood',
+        'geel', 'blauw', 'geel', 'rood', 'oranje', 'oranje', 'geel', 'groen', 'oranje',
+        'geel', 'blauw', 'blauw', 'groen', 'oranje', 'bruin'], 'verpakking 12': ['bruin',
+        'oranje', 'bruin', 'bruin', 'oranje', 'oranje', 'blauw', 'oranje', 'oranje',
+        'lichtpaars', 'smaragdgroen', 'oranje', 'oranje', 'oranje', 'rood', 'rood',
+        'blauw', 'blauw', 'blauw', 'groen', 'rood', 'crème'], 'verpakking 13': ['blauw',
+        'rood', 'blauw', 'oranje', 'bruin', 'blauw', 'crème', 'groen', 'bruin', 'bruin',
+        'oranje', 'oranje', 'geel', 'blauw', 'oranje', 'blauw', 'blauw', 'geel', 'blauw',
+        'groen', 'rood', 'blauw', 'blauw', 'bruin', 'geel'], 'verpakking 14': ['geel',
+        'blauw', 'groen', 'geel', 'geel', 'oranje', 'oranje', 'rood', 'blauw', 'oranje',
+        'rood', 'blauw', 'oranje', 'rood', 'blauw', 'geel', 'oranje', 'rood', 'oranje',
+        'geel'], 'verpakking 15': ['oranje', 'smaragdgroen', 'groen', 'blauw', 'bruin',
+        'rood', 'rood', 'geel', 'oranje', 'rood', 'rood', 'blauw', 'geel', 'blauw',
+        'blauw', 'geel', 'rood', 'blauw', 'groen', 'lichtpaars'], 'verpakking 16':
+        ['rood', 'oranje', 'bruin', 'bruin', 'geel', 'blauw', 'groen', 'geel', 'blauw',
+        'smaragdgroen', 'bruin', 'oranje', 'geel', 'geel', 'rood', 'bruin', 'oranje',
+        'blauw', 'oranje', 'geel'], 'verpakking 17': ['geel', 'rood', 'geel', 'oranje',
+        'oranje', 'oranje', 'bruin', 'oranje', 'geel', 'oranje', 'oranje', 'oranje',
+        'blauw', 'rood', 'geel', 'bruin', 'bruin', 'groen', 'blauw', 'wolkenwit',
+        'blauw', 'groen', 'oranje'], 'verpakking 18': ['blauw', 'rood', 'oranje',
+        'blauw', 'oranje', 'oranje', 'bruin', 'oranje', 'groen', 'blauw', 'blauw',
+        'geel', 'groen', 'kiezelgrijs', 'groen', 'blauw', 'groen', 'blauw', 'groen',
+        'blauw', 'oranje', 'blauw'], 'verpakking 19': ['bruin', 'geel', 'lichtpaars',
+        'geel', 'groen', 'bruin', 'groen', 'blauw', 'rood', 'oranje', 'groen', 'bruin',
+        'groen', 'blauw', 'bruin', 'blauw', 'blauw', 'blauw', 'blauw', 'groen'], 'verpakking
+        20': ['geel', 'blauw', 'geel', 'blauw', 'bruin', 'rood', 'oranje', 'oranje',
+        'rood', 'oranje', 'groen', 'blauw', 'bruin', 'blauw', 'blauw', 'bruin', 'blauw',
+        'blauw', 'blauw', 'blauw', 'groen'], 'verpakking 21': ['oranje', 'blauw',
+        'geel', 'groen', 'blauw', 'bruin', 'geel', 'oranje', 'oranje', 'blauw', 'lichtpaars',
+        'oranje', 'rood', 'bruin', 'rood', 'geel', 'oranje', 'geel', 'blauw', 'bruin',
+        'rood'], 'verpakking 22': ['rood', 'oranje', 'oranje', 'bruin', 'blauw', 'geel',
+        'bruin', 'oranje', 'bruin', 'lichtpaars', 'rood', 'oranje', 'bruin', 'oranje',
+        'blauw', 'blauw', 'rood', 'blauw', 'geel', 'geel', 'blauw', 'oranje', 'rood'],
+        'verpakking 23': ['bruin', 'geel', 'blauw', 'geel', 'oranje', 'oranje', 'geel',
+        'rood', 'rood', 'groen', 'bruin', 'blauw', 'bruin', 'geel', 'oranje', 'oranje',
+        'bruin', 'rood', 'geel', 'rood', 'blauw', 'groen', 'blauw'], 'verpakking 24':
+        ['oranje', 'rood', 'rood', 'bruin', 'geel', 'oranje', 'rood', 'oranje', 'blauw',
+        'oranje', 'oranje', 'oranje', 'groen', 'oranje', 'oranje', 'oranje', 'bruin',
+        'geel', 'blauw', 'blauw', 'rood', 'geel', 'rood', 'oranje'], 'verpakking 25':
+        ['oranje', 'rood', 'blauw', 'groen', 'wolkenwit', 'geel', 'oranje', 'lichtpaars',
+        'blauw', 'oranje', 'geel', 'geel', 'groen', 'blauw', 'groen', 'oranje', 'geel',
+        'blauw', 'rood', 'blauw', 'blauw'], 'verpakking 26': ['geel', 'groen', 'bruin',
+        'geel', 'rood', 'oranje', 'blauw', 'geel', 'intens roze', 'blauw', 'oranje',
+        'bruin', 'groen', 'rood', 'blauw', 'groen', 'groen', 'bruin', 'rood', 'bruin',
+        'blauw', 'oranje', 'groen', 'oranje', 'oranje'], 'verpakking 27': ['bruin',
+        'geel', 'groen', 'blauw', 'groen', 'oranje', 'oranje', 'geel', 'geel', 'kiezelgrijs',
+        'geel', 'blauw', 'blauw', 'groen', 'blauw', 'blauw', 'oranje', 'blauw', 'geel',
+        'rood', 'bruin', 'groen', 'rood', 'intens roze', 'blauw', 'blauw'], 'verpakking
+        28': ['geel', 'oranje', 'blauw', 'oranje', 'geel', 'bruin', 'rood', 'blauw',
+        'blauw', 'bruin', 'blauw', 'blauw', 'oranje', 'groen', 'bruin', 'intens roze',
+        'groen', 'groen', 'bruin', 'blauw', 'blauw'], 'verpakking 29': ['blauw', 'rood',
+        'oranje', 'blauw', 'oranje', 'oranje', 'groen', 'blauw', 'groen', 'crème',
+        'blauw', 'groen', 'wolkenwit', 'blauw', 'oranje', 'oranje', 'blauw', 'bruin',
+        'oranje', 'oranje', 'oranje', 'blauw', 'blauw', 'blauw', 'intens roze', 'oranje'],
+        'verpakking 30': ['bruin', 'geel', 'blauw', 'oranje', 'rood', 'blauw', 'geel',
+        'blauw', 'oranje', 'oranje', 'crème', 'rood', 'oranje', 'oranje', 'oranje',
+        'oranje', 'geel', 'blauw', 'oranje', 'groen'], 'verpakking 31': ['oranje',
+        'groen', 'oranje', 'smaragdgroen', 'geel', 'bruin', 'oranje', 'blauw', 'oranje',
+        'geel', 'oranje', 'blauw', 'oranje', 'bruin', 'oranje', 'blauw', 'bruin',
+        'kiezelgrijs', 'groen', 'geel', 'rood', 'bruin', 'oranje', 'bruin'], 'verpakking
+        32': ['bruin', 'oranje', 'oranje', 'blauw', 'blauw', 'blauw', 'geel', 'geel',
+        'oranje', 'bruin', 'kiezelgrijs', 'groen', 'smaragdgroen', 'blauw', 'oranje',
+        'geel', 'rood', 'bruin', 'blauw', 'blauw', 'bruin', 'oranje', 'rood', 'groen'],
+        'verpakking 33': ['groen', 'groen', 'blauw', 'oranje', 'bruin', 'oranje',
+        'bruin', 'oranje', 'rood', 'groen', 'oranje', 'bruin', 'blauw', 'blauw', 'oranje',
+        'groen', 'rood', 'oranje', 'blauw', 'blauw', 'blauw', 'blauw', 'bruin']})"
+      return:
+        blauw: 173
+        groen: 86
+        oranje: 180
+        bruin: 86
+        rood: 83
+        kiezelgrijs: 6
+        geel: 102
+        intens roze: 8
+        smaragdgroen: 10
+        crème: 9
+        wolkenwit: 7
+        lichtpaars: 6
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['groen', 'blauw', 'bruin', 'oranje',
+        'oranje', 'rood', 'groen', 'geel', 'blauw', 'groen', 'groen', 'blauw', 'oranje',
+        'blauw', 'groen', 'blauw', 'blauw', 'smaragdgroen', 'oranje', 'rood', 'blauw',
+        'geel', 'oranje'], 'verpakking 2': ['groen', 'bruin', 'bruin', 'blauw', 'rood',
+        'rood', 'bruin', 'geel', 'kiezelgrijs', 'groen', 'groen', 'blauw', 'blauw',
+        'blauw', 'groen', 'oranje', 'bruin', 'rood', 'oranje', 'blauw', 'oranje',
+        'rood', 'blauw', 'oranje', 'blauw'], 'verpakking 3': ['rood', 'blauw', 'oranje',
+        'oranje', 'oranje', 'bruin', 'geel', 'groen', 'crème', 'geel', 'rood', 'blauw',
+        'blauw', 'geel', 'blauw', 'geel', 'rood', 'wolkenwit', 'kiezelgrijs', 'geel',
+        'oranje', 'bruin', 'bruin'], 'verpakking 4': ['blauw', 'groen', 'groen', 'geel',
+        'blauw', 'groen', 'blauw', 'groen', 'blauw', 'groen', 'oranje', 'blauw', 'oranje',
+        'oranje', 'blauw', 'geel', 'oranje', 'bruin', 'geel', 'oranje', 'blauw'],
+        'verpakking 5': ['geel', 'groen', 'oranje', 'bruin', 'bruin', 'bruin', 'oranje',
+        'bruin', 'groen', 'oranje', 'geel', 'groen', 'groen', 'wolkenwit', 'groen',
+        'geel', 'blauw', 'groen', 'groen', 'bruin', 'oranje', 'geel'], 'verpakking
+        6': ['groen', 'geel', 'oranje', 'blauw', 'groen', 'oranje', 'bruin', 'groen',
+        'blauw', 'bruin', 'rood', 'geel', 'blauw', 'bruin', 'blauw', 'rood', 'oranje',
+        'lichtpaars', 'kiezelgrijs', 'rood', 'geel', 'oranje', 'blauw', 'blauw', 'geel'],
+        'verpakking 7': ['oranje', 'oranje', 'rood', 'geel', 'bruin', 'geel', 'blauw',
+        'geel', 'bruin', 'blauw', 'rood', 'blauw', 'rood', 'oranje', 'groen', 'bruin',
+        'groen', 'crème', 'groen', 'oranje', 'crème', 'oranje', 'oranje'], 'verpakking
+        8': ['oranje', 'blauw', 'groen', 'oranje', 'oranje', 'blauw', 'geel', 'blauw',
+        'groen', 'geel', 'oranje', 'geel', 'oranje', 'bruin', 'blauw', 'bruin', 'blauw',
+        'oranje', 'rood', 'blauw'], 'verpakking 9': ['geel', 'oranje', 'geel', 'oranje',
+        'geel', 'bruin', 'blauw', 'blauw', 'blauw', 'oranje', 'intens roze', 'geel',
+        'bruin', 'oranje', 'wolkenwit', 'oranje', 'blauw', 'bruin', 'oranje', 'blauw',
+        'bruin', 'bruin', 'oranje', 'groen'], 'verpakking 10': ['groen', 'groen',
+        'groen', 'blauw', 'oranje', 'blauw', 'blauw', 'oranje', 'bruin', 'geel', 'rood',
+        'oranje', 'oranje', 'geel', 'oranje', 'oranje', 'geel', 'oranje', 'blauw',
+        'blauw', 'oranje', 'rood', 'blauw', 'geel'], 'verpakking 11': ['geel', 'bruin',
+        'rood', 'groen', 'blauw', 'blauw', 'oranje', 'bruin', 'oranje', 'rood', 'geel',
+        'geel', 'groen', 'blauw', 'groen', 'rood', 'oranje', 'rood', 'intens roze',
+        'bruin', 'bruin', 'oranje', 'groen', 'bruin'], 'verpakking 12': ['groen',
+        'blauw', 'bruin', 'groen', 'oranje', 'geel', 'blauw', 'bruin', 'geel', 'oranje',
+        'blauw', 'blauw', 'blauw', 'geel', 'oranje', 'bruin', 'blauw', 'rood', 'blauw',
+        'oranje', 'blauw', 'oranje', 'geel', 'oranje', 'bruin'], 'verpakking 13':
+        ['geel', 'geel', 'blauw', 'geel', 'geel', 'bruin', 'oranje', 'blauw', 'geel',
+        'groen', 'blauw', 'oranje', 'bruin', 'blauw', 'blauw', 'rood', 'oranje', 'intens
+        roze', 'groen', 'oranje'], 'verpakking 14': ['groen', 'blauw', 'oranje', 'geel',
+        'geel', 'oranje', 'blauw', 'groen', 'geel', 'groen', 'rood', 'blauw', 'oranje',
+        'oranje', 'oranje', 'rood', 'blauw', 'blauw', 'bruin', 'geel', 'geel', 'rood',
+        'oranje', 'oranje', 'rood', 'oranje'], 'verpakking 15': ['blauw', 'geel',
+        'blauw', 'geel', 'blauw', 'blauw', 'oranje', 'rood', 'geel', 'groen', 'oranje',
+        'rood', 'oranje', 'blauw', 'bruin', 'blauw', 'bruin', 'blauw', 'bruin', 'oranje'],
+        'verpakking 16': ['groen', 'groen', 'oranje', 'geel', 'blauw', 'intens roze',
+        'rood', 'blauw', 'geel', 'rood', 'oranje', 'groen', 'geel', 'blauw', 'geel',
+        'oranje', 'oranje', 'groen', 'blauw', 'oranje'], 'verpakking 17': ['geel',
+        'rood', 'oranje', 'geel', 'oranje', 'blauw', 'blauw', 'oranje', 'groen', 'oranje',
+        'blauw', 'oranje', 'oranje', 'bruin', 'oranje', 'bruin', 'blauw', 'rood',
+        'blauw', 'rood', 'geel', 'blauw', 'oranje'], 'verpakking 18': ['blauw', 'groen',
+        'blauw', 'blauw', 'oranje', 'oranje', 'geel', 'geel', 'bruin', 'rood', 'bruin',
+        'oranje', 'bruin', 'bruin', 'geel', 'blauw', 'oranje', 'rood', 'groen', 'bruin',
+        'bruin'], 'verpakking 19': ['geel', 'smaragdgroen', 'oranje', 'oranje', 'oranje',
+        'rood', 'bruin', 'blauw', 'blauw', 'groen', 'oranje', 'bruin', 'bruin', 'oranje',
+        'rood', 'geel', 'crème', 'groen', 'bruin', 'blauw', 'groen', 'lichtpaars',
+        'geel'], 'verpakking 20': ['geel', 'geel', 'bruin', 'groen', 'blauw', 'groen',
+        'bruin', 'oranje', 'geel', 'blauw', 'geel', 'bruin', 'oranje', 'bruin', 'rood',
+        'groen', 'bruin', 'geel', 'geel', 'rood', 'blauw', 'geel'], 'verpakking 21':
+        ['groen', 'rood', 'oranje', 'geel', 'oranje', 'rood', 'blauw', 'oranje', 'oranje',
+        'lichtpaars', 'intens roze', 'intens roze', 'blauw', 'crème', 'oranje', 'blauw',
+        'bruin', 'bruin', 'kiezelgrijs', 'rood', 'blauw', 'oranje', 'blauw', 'oranje',
+        'groen', 'oranje'], 'verpakking 22': ['bruin', 'oranje', 'groen', 'crème',
+        'blauw', 'rood', 'geel', 'rood', 'oranje', 'bruin', 'oranje', 'oranje', 'bruin',
+        'rood', 'blauw', 'blauw', 'blauw', 'smaragdgroen', 'geel', 'oranje'], 'verpakking
+        23': ['geel', 'groen', 'groen', 'bruin', 'groen', 'blauw', 'rood', 'groen',
+        'groen', 'kiezelgrijs', 'oranje', 'geel', 'blauw', 'geel', 'blauw', 'blauw',
+        'blauw', 'blauw', 'oranje', 'blauw', 'geel', 'oranje', 'rood'], 'verpakking
+        24': ['groen', 'blauw', 'geel', 'oranje', 'blauw', 'blauw', 'bruin', 'oranje',
+        'groen', 'geel', 'blauw', 'rood', 'geel', 'oranje', 'oranje', 'groen', 'blauw',
+        'rood', 'rood', 'geel', 'groen', 'geel', 'oranje', 'geel'], 'verpakking 25':
+        ['oranje', 'oranje', 'groen', 'bruin', 'groen', 'groen', 'geel', 'oranje',
+        'lichtpaars', 'bruin', 'geel', 'blauw', 'bruin', 'blauw', 'lichtpaars', 'oranje',
+        'geel', 'oranje', 'groen', 'wolkenwit', 'oranje', 'geel', 'blauw'], 'verpakking
+        26': ['geel', 'oranje', 'geel', 'groen', 'blauw', 'blauw', 'blauw', 'groen',
+        'groen', 'blauw', 'groen', 'groen', 'rood', 'rood', 'bruin', 'blauw', 'wolkenwit',
+        'blauw', 'geel', 'groen', 'geel', 'wolkenwit', 'blauw', 'blauw'], 'verpakking
+        27': ['groen', 'geel', 'blauw', 'geel', 'blauw', 'blauw', 'bruin', 'geel',
+        'oranje', 'blauw', 'geel', 'blauw', 'blauw', 'geel', 'wolkenwit', 'blauw',
+        'blauw', 'groen', 'blauw', 'oranje', 'bruin'], 'verpakking 28': ['blauw',
+        'blauw', 'geel', 'geel', 'kiezelgrijs', 'groen', 'rood', 'bruin', 'blauw',
+        'bruin', 'blauw', 'groen', 'rood', 'oranje', 'geel', 'blauw', 'oranje', 'groen',
+        'geel', 'groen', 'lichtpaars', 'groen'], 'verpakking 29': ['geel', 'groen',
+        'blauw', 'bruin', 'geel', 'bruin', 'geel', 'oranje', 'groen', 'blauw', 'geel',
+        'rood', 'oranje', 'oranje', 'wolkenwit', 'bruin', 'bruin', 'intens roze',
+        'blauw', 'blauw', 'blauw', 'groen', 'groen', 'rood'], 'verpakking 30': ['oranje',
+        'rood', 'oranje', 'oranje', 'groen', 'oranje', 'blauw', 'groen', 'kiezelgrijs',
+        'rood', 'blauw', 'oranje', 'geel', 'oranje', 'geel', 'bruin', 'bruin', 'geel',
+        'oranje', 'oranje', 'blauw', 'groen'], 'verpakking 31': ['intens roze', 'groen',
+        'rood', 'bruin', 'geel', 'geel', 'intens roze', 'geel', 'geel', 'oranje',
+        'blauw', 'geel', 'oranje', 'blauw', 'intens roze', 'oranje', 'blauw', 'geel',
+        'groen', 'geel', 'groen'], 'verpakking 32': ['blauw', 'blauw', 'blauw', 'geel',
+        'rood', 'bruin', 'kiezelgrijs', 'rood', 'smaragdgroen', 'bruin', 'blauw',
+        'intens roze', 'rood', 'oranje', 'rood', 'blauw', 'blauw', 'geel', 'blauw',
+        'geel', 'rood', 'rood', 'oranje', 'oranje'], 'verpakking 33': ['bruin', 'oranje',
+        'blauw', 'blauw', 'geel', 'groen', 'geel', 'oranje', 'bruin', 'oranje', 'groen',
+        'geel', 'groen', 'geel', 'groen', 'blauw', 'kiezelgrijs', 'geel', 'oranje',
+        'blauw'], 'verpakking 34': ['oranje', 'blauw', 'lichtpaars', 'oranje', 'blauw',
+        'rood', 'geel', 'groen', 'oranje', 'groen', 'groen', 'groen', 'blauw', 'bruin',
+        'lichtpaars', 'geel', 'oranje', 'blauw', 'oranje', 'kiezelgrijs', 'blauw',
+        'oranje', 'rood', 'oranje'], 'verpakking 35': ['oranje', 'geel', 'blauw',
+        'oranje', 'bruin', 'groen', 'groen', 'groen', 'oranje', 'groen', 'blauw',
+        'oranje', 'groen', 'intens roze', 'rood', 'oranje', 'smaragdgroen', 'oranje',
+        'groen', 'oranje', 'groen', 'blauw', 'oranje'], 'verpakking 36': ['rood',
+        'oranje', 'oranje', 'blauw', 'blauw', 'geel', 'bruin', 'bruin', 'oranje',
+        'groen', 'blauw', 'geel', 'blauw', 'oranje', 'rood', 'rood', 'bruin', 'rood',
+        'blauw', 'oranje'], 'verpakking 37': ['oranje', 'smaragdgroen', 'oranje',
+        'geel', 'blauw', 'bruin', 'groen', 'geel', 'blauw', 'oranje', 'bruin', 'blauw',
+        'blauw', 'geel', 'groen', 'groen', 'groen', 'bruin', 'groen', 'oranje', 'oranje',
+        'groen', 'groen'], 'verpakking 38': ['groen', 'geel', 'oranje', 'groen', 'groen',
+        'geel', 'bruin', 'geel', 'oranje', 'bruin', 'oranje', 'rood', 'rood', 'groen',
+        'rood', 'geel', 'oranje', 'groen', 'geel', 'rood', 'geel', 'groen', 'blauw',
+        'rood', 'blauw'], 'verpakking 39': ['oranje', 'blauw', 'blauw', 'blauw', 'oranje',
+        'oranje', 'oranje', 'groen', 'crème', 'rood', 'blauw', 'rood', 'smaragdgroen',
+        'bruin', 'blauw', 'groen', 'groen', 'blauw', 'geel', 'blauw', 'geel', 'bruin',
+        'bruin', 'groen', 'bruin', 'rood'], 'verpakking 40': ['oranje', 'groen', 'rood',
+        'geel', 'groen', 'bruin', 'rood', 'blauw', 'blauw', 'groen', 'oranje', 'blauw',
+        'bruin', 'geel', 'rood', 'bruin', 'rood', 'bruin', 'geel', 'oranje', 'blauw',
+        'groen', 'rood', 'geel', 'oranje', 'geel'], 'verpakking 41': ['wolkenwit',
+        'bruin', 'blauw', 'blauw', 'blauw', 'geel', 'blauw', 'rood', 'blauw', 'lichtpaars',
+        'oranje', 'rood', 'oranje', 'groen', 'bruin', 'oranje', 'rood', 'blauw', 'groen',
+        'blauw', 'oranje', 'blauw'], 'verpakking 42': ['oranje', 'blauw', 'blauw',
+        'geel', 'blauw', 'blauw', 'geel', 'rood', 'rood', 'rood', 'groen', 'geel',
+        'bruin', 'geel', 'geel', 'groen', 'oranje', 'oranje', 'blauw', 'blauw', 'blauw',
+        'oranje'], 'verpakking 43': ['bruin', 'geel', 'bruin', 'rood', 'groen', 'oranje',
+        'blauw', 'bruin', 'lichtpaars', 'oranje', 'blauw', 'oranje', 'blauw', 'blauw',
+        'groen', 'oranje', 'blauw', 'blauw', 'oranje', 'oranje', 'oranje', 'oranje',
+        'rood']})"
+      return:
+        groen: 141
+        blauw: 219
+        bruin: 110
+        oranje: 209
+        rood: 95
+        geel: 153
+        smaragdgroen: 7
+        kiezelgrijs: 10
+        crème: 7
+        wolkenwit: 9
+        lichtpaars: 10
+        intens roze: 12
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['blauw', 'blauw', 'blauw', 'bruin',
+        'oranje', 'oranje', 'groen', 'bruin', 'blauw', 'bruin', 'groen', 'blauw',
+        'groen', 'bruin', 'blauw', 'blauw', 'blauw', 'geel', 'groen', 'bruin', 'blauw',
+        'oranje'], 'verpakking 2': ['bruin', 'blauw', 'rood', 'oranje', 'oranje',
+        'oranje', 'geel', 'blauw', 'oranje', 'geel', 'bruin', 'oranje', 'geel', 'oranje',
+        'blauw', 'rood', 'blauw', 'intens roze', 'bruin', 'groen', 'smaragdgroen',
+        'groen', 'geel', 'blauw', 'geel', 'groen'], 'verpakking 3': ['groen', 'rood',
+        'oranje', 'oranje', 'bruin', 'blauw', 'blauw', 'rood', 'smaragdgroen', 'groen',
+        'oranje', 'groen', 'geel', 'groen', 'bruin', 'bruin', 'rood', 'blauw', 'rood',
+        'bruin', 'oranje', 'blauw', 'groen'], 'verpakking 4': ['oranje', 'geel', 'bruin',
+        'bruin', 'rood', 'geel', 'geel', 'geel', 'groen', 'oranje', 'oranje', 'rood',
+        'oranje', 'blauw', 'oranje', 'blauw', 'blauw', 'oranje', 'kiezelgrijs', 'geel',
+        'oranje', 'blauw', 'groen', 'groen', 'bruin', 'blauw'], 'verpakking 5': ['rood',
+        'bruin', 'blauw', 'geel', 'rood', 'wolkenwit', 'groen', 'oranje', 'geel',
+        'kiezelgrijs', 'geel', 'oranje', 'bruin', 'rood', 'blauw', 'oranje', 'groen',
+        'oranje', 'oranje', 'blauw', 'oranje'], 'verpakking 6': ['oranje', 'geel',
+        'bruin', 'geel', 'blauw', 'geel', 'blauw', 'blauw', 'blauw', 'bruin', 'geel',
+        'oranje', 'oranje', 'rood', 'bruin', 'groen', 'rood', 'rood', 'rood', 'oranje',
+        'blauw', 'oranje', 'geel', 'geel', 'bruin', 'blauw'], 'verpakking 7': ['groen',
+        'rood', 'blauw', 'groen', 'oranje', 'oranje', 'blauw', 'geel', 'geel', 'blauw',
+        'rood', 'oranje', 'blauw', 'blauw', 'bruin', 'blauw', 'groen', 'oranje', 'geel',
+        'bruin', 'bruin', 'oranje', 'blauw', 'blauw'], 'verpakking 8': ['bruin', 'blauw',
+        'bruin', 'bruin', 'blauw', 'groen', 'smaragdgroen', 'bruin', 'groen', 'oranje',
+        'blauw', 'rood', 'oranje', 'bruin', 'geel', 'blauw', 'oranje', 'oranje', 'blauw',
+        'geel', 'bruin', 'groen', 'groen', 'groen', 'oranje'], 'verpakking 9': ['rood',
+        'blauw', 'bruin', 'rood', 'groen', 'oranje', 'bruin', 'bruin', 'bruin', 'rood',
+        'blauw', 'blauw', 'groen', 'oranje', 'oranje', 'bruin', 'oranje', 'groen',
+        'groen', 'groen', 'groen'], 'verpakking 10': ['blauw', 'blauw', 'oranje',
+        'oranje', 'groen', 'groen', 'oranje', 'blauw', 'bruin', 'blauw', 'kiezelgrijs',
+        'geel', 'oranje', 'blauw', 'blauw', 'oranje', 'crème', 'geel', 'oranje', 'blauw',
+        'rood', 'rood', 'rood'], 'verpakking 11': ['blauw', 'blauw', 'geel', 'smaragdgroen',
+        'oranje', 'bruin', 'geel', 'bruin', 'kiezelgrijs', 'geel', 'groen', 'geel',
+        'blauw', 'bruin', 'oranje', 'geel', 'groen', 'blauw', 'geel', 'rood', 'bruin',
+        'geel', 'blauw'], 'verpakking 12': ['intens roze', 'geel', 'bruin', 'intens
+        roze', 'blauw', 'oranje', 'groen', 'intens roze', 'blauw', 'bruin', 'blauw',
+        'bruin', 'rood', 'bruin', 'groen', 'oranje', 'geel', 'oranje', 'oranje', 'blauw',
+        'blauw', 'groen', 'oranje', 'groen'], 'verpakking 13': ['oranje', 'bruin',
+        'oranje', 'geel', 'oranje', 'kiezelgrijs', 'groen', 'oranje', 'crème', 'smaragdgroen',
+        'blauw', 'oranje', 'geel', 'wolkenwit', 'geel', 'geel', 'oranje', 'geel',
+        'groen', 'blauw', 'kiezelgrijs', 'geel', 'oranje'], 'verpakking 14': ['blauw',
+        'geel', 'rood', 'rood', 'blauw', 'oranje', 'blauw', 'oranje', 'oranje', 'blauw',
+        'bruin', 'geel', 'rood', 'groen', 'blauw', 'blauw', 'geel', 'wolkenwit', 'bruin',
+        'rood'], 'verpakking 15': ['bruin', 'geel', 'groen', 'geel', 'oranje', 'rood',
+        'geel', 'bruin', 'oranje', 'oranje', 'smaragdgroen', 'oranje', 'bruin', 'oranje',
+        'blauw', 'geel', 'oranje', 'rood', 'geel', 'oranje', 'blauw', 'bruin', 'geel',
+        'rood'], 'verpakking 16': ['groen', 'bruin', 'oranje', 'groen', 'bruin', 'oranje',
+        'blauw', 'blauw', 'geel', 'bruin', 'bruin', 'blauw', 'groen', 'bruin', 'groen',
+        'rood', 'blauw', 'geel', 'oranje', 'geel', 'rood', 'oranje', 'blauw', 'wolkenwit',
+        'blauw'], 'verpakking 17': ['smaragdgroen', 'bruin', 'rood', 'groen', 'geel',
+        'oranje', 'groen', 'oranje', 'blauw', 'oranje', 'rood', 'rood', 'geel', 'oranje',
+        'rood', 'intens roze', 'rood', 'lichtpaars', 'blauw', 'groen'], 'verpakking
+        18': ['blauw', 'blauw', 'groen', 'geel', 'rood', 'bruin', 'oranje', 'oranje',
+        'rood', 'rood', 'smaragdgroen', 'oranje', 'groen', 'oranje', 'groen', 'oranje',
+        'rood', 'blauw', 'blauw', 'geel', 'smaragdgroen', 'groen', 'oranje', 'bruin',
+        'groen', 'blauw'], 'verpakking 19': ['blauw', 'groen', 'geel', 'groen', 'oranje',
+        'oranje', 'oranje', 'groen', 'blauw', 'rood', 'geel', 'rood', 'blauw', 'rood',
+        'rood', 'bruin', 'geel', 'oranje', 'oranje', 'bruin', 'blauw', 'blauw', 'rood',
+        'oranje', 'kiezelgrijs', 'blauw'], 'verpakking 20': ['rood', 'geel', 'groen',
+        'rood', 'bruin', 'oranje', 'geel', 'oranje', 'oranje', 'wolkenwit', 'blauw',
+        'groen', 'groen', 'rood', 'geel', 'geel', 'groen', 'rood', 'groen', 'blauw',
+        'geel', 'kiezelgrijs', 'rood', 'groen'], 'verpakking 21': ['blauw', 'oranje',
+        'geel', 'rood', 'oranje', 'rood', 'bruin', 'wolkenwit', 'smaragdgroen', 'oranje',
+        'smaragdgroen', 'blauw', 'intens roze', 'oranje', 'blauw', 'rood', 'geel',
+        'oranje', 'groen', 'oranje', 'rood', 'oranje'], 'verpakking 22': ['bruin',
+        'groen', 'oranje', 'blauw', 'blauw', 'rood', 'blauw', 'bruin', 'blauw', 'bruin',
+        'bruin', 'oranje', 'intens roze', 'blauw', 'bruin', 'bruin', 'groen', 'rood',
+        'bruin', 'blauw', 'blauw', 'geel', 'blauw', 'oranje', 'geel', 'geel'], 'verpakking
+        23': ['oranje', 'rood', 'oranje', 'oranje', 'groen', 'bruin', 'bruin', 'oranje',
+        'rood', 'oranje', 'groen', 'oranje', 'rood', 'groen', 'geel', 'blauw', 'oranje',
+        'rood', 'blauw', 'geel', 'blauw'], 'verpakking 24': ['blauw', 'bruin', 'bruin',
+        'oranje', 'blauw', 'bruin', 'geel', 'lichtpaars', 'oranje', 'geel', 'oranje',
+        'groen', 'groen', 'rood', 'geel', 'geel', 'oranje', 'groen', 'smaragdgroen',
+        'groen', 'groen', 'oranje', 'oranje', 'oranje', 'geel'], 'verpakking 25':
+        ['rood', 'oranje', 'blauw', 'geel', 'geel', 'bruin', 'bruin', 'groen', 'oranje',
+        'groen', 'blauw', 'geel', 'blauw', 'geel', 'oranje', 'bruin', 'blauw', 'oranje',
+        'blauw', 'smaragdgroen', 'oranje', 'blauw', 'bruin'], 'verpakking 26': ['geel',
+        'geel', 'rood', 'geel', 'groen', 'rood', 'groen', 'oranje', 'oranje', 'blauw',
+        'groen', 'geel', 'bruin', 'bruin', 'geel', 'rood', 'bruin', 'geel', 'groen',
+        'geel', 'lichtpaars', 'geel'], 'verpakking 27': ['geel', 'groen', 'rood',
+        'oranje', 'blauw', 'geel', 'oranje', 'bruin', 'oranje', 'geel', 'geel', 'rood',
+        'smaragdgroen', 'groen', 'blauw', 'bruin', 'blauw', 'bruin', 'blauw', 'blauw',
+        'blauw', 'groen'], 'verpakking 28': ['blauw', 'oranje', 'groen', 'blauw',
+        'groen', 'rood', 'oranje', 'blauw', 'blauw', 'blauw', 'groen', 'groen', 'groen',
+        'groen', 'groen', 'rood', 'rood', 'blauw', 'groen', 'groen', 'groen', 'bruin'],
+        'verpakking 29': ['groen', 'rood', 'bruin', 'oranje', 'blauw', 'blauw', 'blauw',
+        'oranje', 'groen', 'groen', 'blauw', 'bruin', 'intens roze', 'blauw', 'groen',
+        'geel', 'geel', 'oranje', 'rood', 'geel', 'blauw', 'oranje', 'rood', 'blauw'],
+        'verpakking 30': ['rood', 'blauw', 'geel', 'oranje', 'oranje', 'blauw', 'bruin',
+        'blauw', 'rood', 'oranje', 'geel', 'geel', 'geel', 'blauw', 'oranje', 'intens
+        roze', 'groen', 'lichtpaars', 'blauw', 'blauw', 'blauw', 'oranje', 'blauw',
+        'groen', 'blauw', 'bruin'], 'verpakking 31': ['bruin', 'oranje', 'geel', 'blauw',
+        'oranje', 'groen', 'oranje', 'bruin', 'geel', 'bruin', 'geel', 'oranje', 'groen',
+        'geel', 'oranje', 'blauw', 'geel', 'blauw', 'bruin', 'geel', 'geel', 'bruin',
+        'oranje', 'geel'], 'verpakking 32': ['rood', 'geel', 'bruin', 'oranje', 'blauw',
+        'geel', 'groen', 'oranje', 'oranje', 'groen', 'oranje', 'oranje', 'rood',
+        'geel', 'geel', 'geel', 'geel', 'rood', 'oranje', 'rood', 'blauw', 'smaragdgroen'],
+        'verpakking 33': ['geel', 'groen', 'rood', 'oranje', 'blauw', 'blauw', 'geel',
+        'groen', 'oranje', 'bruin', 'bruin', 'oranje', 'geel', 'groen', 'geel', 'geel',
+        'blauw', 'geel', 'groen', 'groen', 'bruin', 'geel', 'bruin', 'blauw'], 'verpakking
+        34': ['oranje', 'bruin', 'geel', 'rood', 'geel', 'geel', 'blauw', 'rood',
+        'rood', 'rood', 'groen', 'groen', 'oranje', 'rood', 'rood', 'oranje', 'rood',
+        'blauw', 'oranje', 'rood', 'rood', 'geel', 'bruin', 'groen', 'groen'], 'verpakking
+        35': ['blauw', 'oranje', 'bruin', 'rood', 'oranje', 'blauw', 'oranje', 'blauw',
+        'blauw', 'blauw', 'rood', 'bruin', 'geel', 'blauw', 'groen', 'blauw', 'oranje',
+        'oranje', 'blauw', 'blauw', 'blauw', 'groen', 'geel', 'blauw', 'bruin', 'rood'],
+        'verpakking 36': ['oranje', 'oranje', 'rood', 'rood', 'oranje', 'rood', 'geel',
+        'oranje', 'blauw', 'blauw', 'bruin', 'oranje', 'rood', 'blauw', 'geel', 'rood',
+        'oranje', 'groen', 'rood', 'rood', 'rood', 'blauw'], 'verpakking 37': ['blauw',
+        'groen', 'groen', 'oranje', 'blauw', 'oranje', 'bruin', 'oranje', 'oranje',
+        'oranje', 'bruin', 'geel', 'blauw', 'oranje', 'blauw', 'geel', 'oranje', 'geel',
+        'blauw', 'oranje', 'geel', 'bruin'], 'verpakking 38': ['oranje', 'bruin',
+        'oranje', 'oranje', 'crème', 'oranje', 'blauw', 'oranje', 'blauw', 'blauw',
+        'groen', 'blauw', 'geel', 'rood', 'blauw', 'oranje', 'oranje', 'rood', 'oranje',
+        'blauw', 'blauw', 'geel', 'bruin'], 'verpakking 39': ['oranje', 'groen', 'blauw',
+        'oranje', 'geel', 'oranje', 'blauw', 'crème', 'oranje', 'bruin', 'geel', 'groen',
+        'blauw', 'bruin', 'blauw', 'oranje', 'bruin', 'oranje', 'groen', 'oranje',
+        'bruin'], 'verpakking 40': ['groen', 'geel', 'blauw', 'bruin', 'blauw', 'geel',
+        'crème', 'rood', 'geel', 'groen', 'oranje', 'rood', 'oranje', 'blauw', 'blauw',
+        'wolkenwit', 'geel', 'bruin', 'oranje', 'groen', 'oranje', 'rood'], 'verpakking
+        41': ['blauw', 'oranje', 'geel', 'blauw', 'oranje', 'groen', 'groen', 'oranje',
+        'bruin', 'geel', 'geel', 'groen', 'geel', 'geel', 'blauw', 'geel', 'blauw',
+        'intens roze', 'geel', 'bruin', 'oranje', 'geel'], 'verpakking 42': ['oranje',
+        'groen', 'oranje', 'rood', 'bruin', 'groen', 'blauw', 'rood', 'blauw', 'geel',
+        'geel', 'oranje', 'groen', 'blauw', 'groen', 'geel', 'groen', 'groen', 'bruin',
+        'geel'], 'verpakking 43': ['blauw', 'oranje', 'oranje', 'blauw', 'bruin',
+        'rood', 'bruin', 'oranje', 'wolkenwit', 'rood', 'blauw', 'geel', 'rood', 'geel',
+        'geel', 'geel', 'blauw', 'oranje', 'groen', 'oranje', 'blauw', 'rood', 'bruin',
+        'oranje', 'blauw'], 'verpakking 44': ['oranje', 'blauw', 'bruin', 'blauw',
+        'groen', 'oranje', 'kiezelgrijs', 'groen', 'blauw', 'rood', 'kiezelgrijs',
+        'geel', 'oranje', 'blauw', 'geel', 'geel', 'oranje', 'oranje', 'blauw', 'blauw',
+        'groen', 'bruin', 'rood', 'rood'], 'verpakking 45': ['groen', 'blauw', 'groen',
+        'rood', 'groen', 'bruin', 'geel', 'oranje', 'geel', 'blauw', 'crème', 'oranje',
+        'bruin', 'oranje', 'oranje', 'oranje', 'geel', 'blauw', 'oranje', 'oranje'],
+        'verpakking 46': ['rood', 'blauw', 'blauw', 'intens roze', 'geel', 'oranje',
+        'geel', 'lichtpaars', 'groen', 'blauw', 'blauw', 'oranje', 'blauw', 'oranje',
+        'blauw', 'blauw', 'rood', 'oranje', 'oranje', 'rood', 'blauw', 'kiezelgrijs']})"
+      return:
+        blauw: 223
+        bruin: 128
+        oranje: 230
+        groen: 143
+        geel: 167
+        rood: 122
+        intens roze: 11
+        smaragdgroen: 15
+        kiezelgrijs: 11
+        wolkenwit: 8
+        crème: 6
+        lichtpaars: 5
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['groen', 'geel', 'rood', 'groen',
+        'groen', 'wolkenwit', 'rood', 'kiezelgrijs', 'geel', 'blauw', 'rood', 'oranje',
+        'rood', 'rood', 'geel', 'oranje', 'geel', 'blauw', 'geel', 'groen', 'intens
+        roze', 'rood', 'geel', 'geel', 'bruin', 'groen'], 'verpakking 2': ['geel',
+        'blauw', 'oranje', 'rood', 'blauw', 'groen', 'geel', 'bruin', 'geel', 'oranje',
+        'oranje', 'oranje', 'oranje', 'groen', 'groen', 'bruin', 'intens roze', 'blauw',
+        'groen', 'oranje', 'oranje', 'blauw', 'groen'], 'verpakking 3': ['geel', 'oranje',
+        'wolkenwit', 'kiezelgrijs', 'oranje', 'geel', 'geel', 'bruin', 'geel', 'oranje',
+        'bruin', 'groen', 'blauw', 'bruin', 'groen', 'oranje', 'oranje', 'groen',
+        'blauw', 'bruin', 'geel', 'oranje'], 'verpakking 4': ['bruin', 'groen', 'geel',
+        'oranje', 'bruin', 'oranje', 'blauw', 'rood', 'bruin', 'groen', 'groen', 'bruin',
+        'rood', 'blauw', 'oranje', 'oranje', 'blauw', 'geel', 'oranje', 'oranje',
+        'geel'], 'verpakking 5': ['rood', 'blauw', 'oranje', 'blauw', 'blauw', 'bruin',
+        'geel', 'groen', 'rood', 'oranje', 'bruin', 'blauw', 'intens roze', 'bruin',
+        'groen', 'bruin', 'geel', 'oranje', 'groen', 'blauw', 'geel', 'groen'], 'verpakking
+        6': ['rood', 'blauw', 'blauw', 'bruin', 'groen', 'rood', 'groen', 'oranje',
+        'rood', 'bruin', 'groen', 'blauw', 'geel', 'oranje', 'geel', 'oranje', 'blauw',
+        'blauw', 'groen', 'bruin', 'geel', 'geel', 'blauw', 'geel', 'bruin'], 'verpakking
+        7': ['blauw', 'blauw', 'bruin', 'rood', 'rood', 'groen', 'blauw', 'oranje',
+        'oranje', 'groen', 'geel', 'groen', 'oranje', 'oranje', 'blauw', 'oranje',
+        'oranje', 'bruin', 'geel', 'bruin', 'crème', 'groen', 'groen', 'groen', 'blauw',
+        'geel'], 'verpakking 8': ['blauw', 'blauw', 'groen', 'bruin', 'blauw', 'blauw',
+        'geel', 'blauw', 'oranje', 'oranje', 'groen', 'blauw', 'geel', 'blauw', 'oranje',
+        'blauw', 'blauw', 'groen', 'blauw', 'geel'], 'verpakking 9': ['blauw', 'oranje',
+        'groen', 'rood', 'oranje', 'blauw', 'rood', 'geel', 'rood', 'oranje', 'bruin',
+        'geel', 'geel', 'rood', 'blauw', 'groen', 'geel', 'blauw', 'oranje', 'oranje',
+        'oranje', 'bruin', 'oranje', 'groen', 'bruin'], 'verpakking 10': ['wolkenwit',
+        'rood', 'rood', 'oranje', 'oranje', 'blauw', 'blauw', 'oranje', 'groen', 'blauw',
+        'rood', 'blauw', 'bruin', 'oranje', 'groen', 'blauw', 'lichtpaars', 'groen',
+        'bruin', 'oranje'], 'verpakking 11': ['bruin', 'rood', 'geel', 'blauw', 'rood',
+        'oranje', 'groen', 'bruin', 'blauw', 'oranje', 'blauw', 'blauw', 'blauw',
+        'oranje', 'bruin', 'groen', 'blauw', 'blauw', 'blauw', 'geel', 'oranje', 'geel',
+        'geel', 'geel'], 'verpakking 12': ['blauw', 'smaragdgroen', 'blauw', 'oranje',
+        'lichtpaars', 'groen', 'rood', 'blauw', 'lichtpaars', 'oranje', 'geel', 'oranje',
+        'bruin', 'blauw', 'bruin', 'oranje', 'blauw', 'rood', 'geel', 'groen', 'geel',
+        'groen', 'oranje', 'groen', 'blauw'], 'verpakking 13': ['geel', 'groen', 'blauw',
+        'bruin', 'blauw', 'oranje', 'oranje', 'geel', 'groen', 'oranje', 'blauw',
+        'blauw', 'groen', 'blauw', 'oranje', 'oranje', 'geel', 'blauw', 'oranje',
+        'groen', 'blauw', 'groen'], 'verpakking 14': ['oranje', 'groen', 'bruin',
+        'groen', 'oranje', 'oranje', 'blauw', 'bruin', 'geel', 'geel', 'bruin', 'blauw',
+        'geel', 'geel', 'groen', 'oranje', 'geel', 'oranje', 'blauw', 'blauw', 'bruin',
+        'groen', 'blauw', 'groen', 'oranje'], 'verpakking 15': ['groen', 'blauw',
+        'oranje', 'blauw', 'blauw', 'lichtpaars', 'smaragdgroen', 'geel', 'oranje',
+        'blauw', 'oranje', 'oranje', 'kiezelgrijs', 'blauw', 'blauw', 'bruin', 'blauw',
+        'rood', 'blauw', 'oranje', 'blauw'], 'verpakking 16': ['geel', 'oranje', 'geel',
+        'geel', 'oranje', 'bruin', 'groen', 'blauw', 'kiezelgrijs', 'geel', 'groen',
+        'kiezelgrijs', 'blauw', 'blauw', 'groen', 'blauw', 'blauw', 'groen', 'geel',
+        'blauw'], 'verpakking 17': ['blauw', 'oranje', 'blauw', 'oranje', 'geel',
+        'oranje', 'blauw', 'oranje', 'oranje', 'smaragdgroen', 'rood', 'geel', 'geel',
+        'bruin', 'oranje', 'oranje', 'oranje', 'oranje', 'geel', 'oranje', 'geel',
+        'blauw'], 'verpakking 18': ['geel', 'rood', 'blauw', 'groen', 'oranje', 'oranje',
+        'lichtpaars', 'geel', 'blauw', 'rood', 'blauw', 'oranje', 'blauw', 'geel',
+        'geel', 'geel', 'groen', 'bruin', 'oranje', 'groen', 'blauw', 'blauw', 'oranje'],
+        'verpakking 19': ['blauw', 'blauw', 'geel', 'groen', 'blauw', 'oranje', 'bruin',
+        'blauw', 'blauw', 'bruin', 'rood', 'groen', 'oranje', 'geel', 'rood', 'groen',
+        'bruin', 'geel', 'groen', 'oranje', 'rood', 'oranje'], 'verpakking 20': ['geel',
+        'groen', 'oranje', 'oranje', 'oranje', 'oranje', 'blauw', 'lichtpaars', 'geel',
+        'oranje', 'blauw', 'rood', 'blauw', 'blauw', 'smaragdgroen', 'oranje', 'groen',
+        'intens roze', 'blauw', 'blauw', 'geel', 'blauw', 'oranje'], 'verpakking 21':
+        ['bruin', 'blauw', 'blauw', 'rood', 'blauw', 'groen', 'rood', 'oranje', 'crème',
+        'rood', 'rood', 'groen', 'oranje', 'oranje', 'groen', 'geel', 'oranje', 'crème',
+        'blauw', 'geel', 'intens roze'], 'verpakking 22': ['blauw', 'geel', 'groen',
+        'blauw', 'rood', 'oranje', 'bruin', 'bruin', 'rood', 'oranje', 'blauw', 'oranje',
+        'oranje', 'geel', 'oranje', 'blauw', 'groen', 'blauw', 'bruin', 'bruin', 'rood'],
+        'verpakking 23': ['rood', 'blauw', 'wolkenwit', 'blauw', 'oranje', 'blauw',
+        'groen', 'oranje', 'bruin', 'groen', 'groen', 'lichtpaars', 'geel', 'rood',
+        'rood', 'geel', 'oranje', 'oranje', 'blauw', 'oranje', 'blauw'], 'verpakking
+        24': ['intens roze', 'blauw', 'rood', 'blauw', 'oranje', 'intens roze', 'oranje',
+        'blauw', 'blauw', 'lichtpaars', 'blauw', 'blauw', 'groen', 'oranje', 'oranje',
+        'bruin', 'geel', 'intens roze', 'oranje', 'geel', 'geel', 'smaragdgroen',
+        'kiezelgrijs', 'bruin', 'oranje', 'geel'], 'verpakking 25': ['kiezelgrijs',
+        'blauw', 'blauw', 'rood', 'geel', 'oranje', 'oranje', 'oranje', 'geel', 'oranje',
+        'blauw', 'blauw', 'oranje', 'rood', 'kiezelgrijs', 'blauw', 'bruin', 'oranje',
+        'geel', 'crème', 'groen', 'rood', 'oranje', 'oranje', 'geel'], 'verpakking
+        26': ['geel', 'geel', 'oranje', 'oranje', 'bruin', 'oranje', 'rood', 'oranje',
+        'crème', 'rood', 'geel', 'kiezelgrijs', 'oranje', 'geel', 'oranje', 'blauw',
+        'rood', 'groen', 'bruin', 'geel', 'groen', 'blauw'], 'verpakking 27': ['geel',
+        'groen', 'bruin', 'rood', 'bruin', 'geel', 'bruin', 'rood', 'oranje', 'bruin',
+        'oranje', 'oranje', 'rood', 'oranje', 'oranje', 'rood', 'oranje', 'oranje',
+        'oranje', 'geel', 'rood', 'bruin', 'groen', 'rood', 'geel'], 'verpakking 28':
+        ['blauw', 'oranje', 'blauw', 'groen', 'geel', 'geel', 'blauw', 'kiezelgrijs',
+        'groen', 'geel', 'oranje', 'smaragdgroen', 'oranje', 'oranje', 'oranje', 'oranje',
+        'oranje', 'blauw', 'rood', 'intens roze', 'rood', 'blauw'], 'verpakking 29':
+        ['blauw', 'groen', 'blauw', 'blauw', 'bruin', 'blauw', 'groen', 'blauw', 'bruin',
+        'blauw', 'bruin', 'geel', 'groen', 'groen', 'oranje', 'oranje', 'groen', 'blauw',
+        'oranje', 'geel'], 'verpakking 30': ['oranje', 'groen', 'geel', 'geel', 'oranje',
+        'blauw', 'blauw', 'blauw', 'oranje', 'rood', 'rood', 'oranje', 'smaragdgroen',
+        'oranje', 'crème', 'groen', 'groen', 'oranje', 'oranje', 'rood'], 'verpakking
+        31': ['oranje', 'oranje', 'bruin', 'blauw', 'oranje', 'oranje', 'blauw', 'oranje',
+        'rood', 'rood', 'blauw', 'wolkenwit', 'rood', 'blauw', 'smaragdgroen', 'blauw',
+        'oranje', 'lichtpaars', 'geel', 'rood', 'blauw', 'oranje', 'blauw', 'groen',
+        'blauw'], 'verpakking 32': ['oranje', 'groen', 'intens roze', 'oranje', 'oranje',
+        'blauw', 'oranje', 'oranje', 'geel', 'rood', 'rood', 'smaragdgroen', 'oranje',
+        'rood', 'rood', 'bruin', 'oranje', 'rood', 'groen', 'geel', 'oranje', 'oranje',
+        'geel'], 'verpakking 33': ['blauw', 'blauw', 'blauw', 'rood', 'geel', 'blauw',
+        'rood', 'geel', 'oranje', 'rood', 'rood', 'bruin', 'blauw', 'groen', 'blauw',
+        'bruin', 'groen', 'blauw', 'groen', 'rood', 'bruin', 'rood', 'geel'], 'verpakking
+        34': ['groen', 'oranje', 'oranje', 'blauw', 'bruin', 'groen', 'oranje', 'oranje',
+        'bruin', 'geel', 'bruin', 'bruin', 'geel', 'groen', 'geel', 'geel', 'groen',
+        'oranje', 'bruin', 'oranje'], 'verpakking 35': ['blauw', 'rood', 'groen',
+        'bruin', 'blauw', 'geel', 'blauw', 'blauw', 'intens roze', 'oranje', 'geel',
+        'groen', 'blauw', 'blauw', 'oranje', 'groen', 'oranje', 'blauw', 'oranje',
+        'blauw'], 'verpakking 36': ['blauw', 'oranje', 'bruin', 'blauw', 'blauw',
+        'oranje', 'rood', 'rood', 'oranje', 'geel', 'groen', 'oranje', 'groen', 'oranje',
+        'groen', 'oranje', 'bruin', 'blauw', 'oranje', 'rood'], 'verpakking 37': ['geel',
+        'blauw', 'groen', 'geel', 'blauw', 'geel', 'bruin', 'oranje', 'kiezelgrijs',
+        'rood', 'oranje', 'bruin', 'crème', 'oranje', 'groen', 'blauw', 'bruin', 'geel',
+        'blauw', 'groen', 'rood', 'rood', 'oranje', 'blauw', 'oranje', 'bruin'], 'verpakking
+        38': ['bruin', 'groen', 'kiezelgrijs', 'bruin', 'oranje', 'oranje', 'geel',
+        'blauw', 'oranje', 'oranje', 'oranje', 'geel', 'intens roze', 'oranje', 'oranje',
+        'geel', 'rood', 'geel', 'bruin', 'groen'], 'verpakking 39': ['groen', 'oranje',
+        'blauw', 'bruin', 'groen', 'crème', 'kiezelgrijs', 'rood', 'oranje', 'oranje',
+        'rood', 'groen', 'groen', 'blauw', 'geel', 'blauw', 'bruin', 'blauw', 'rood',
+        'rood', 'oranje', 'blauw', 'blauw'], 'verpakking 40': ['rood', 'wolkenwit',
+        'blauw', 'groen', 'bruin', 'groen', 'groen', 'oranje', 'rood', 'geel', 'groen',
+        'smaragdgroen', 'blauw', 'rood', 'blauw', 'geel', 'rood', 'wolkenwit', 'blauw',
+        'kiezelgrijs', 'rood'], 'verpakking 41': ['groen', 'oranje', 'groen', 'blauw',
+        'geel', 'rood', 'blauw', 'bruin', 'oranje', 'oranje', 'rood', 'rood', 'blauw',
+        'blauw', 'blauw', 'rood', 'geel', 'oranje', 'blauw', 'blauw', 'blauw', 'bruin',
+        'bruin', 'geel'], 'verpakking 42': ['groen', 'rood', 'oranje', 'rood', 'wolkenwit',
+        'groen', 'blauw', 'geel', 'oranje', 'blauw', 'blauw', 'blauw', 'groen', 'groen',
+        'oranje', 'geel', 'blauw', 'geel', 'oranje', 'wolkenwit', 'blauw', 'groen',
+        'blauw'], 'verpakking 43': ['blauw', 'geel', 'oranje', 'blauw', 'geel', 'blauw',
+        'groen', 'oranje', 'geel', 'smaragdgroen', 'blauw', 'bruin', 'rood', 'blauw',
+        'groen', 'rood', 'geel', 'smaragdgroen', 'rood', 'oranje', 'groen', 'geel',
+        'oranje', 'rood', 'blauw'], 'verpakking 44': ['bruin', 'geel', 'geel', 'bruin',
+        'oranje', 'oranje', 'blauw', 'oranje', 'oranje', 'oranje', 'lichtpaars', 'oranje',
+        'oranje', 'oranje', 'blauw', 'oranje', 'oranje', 'groen', 'geel', 'lichtpaars'],
+        'verpakking 45': ['rood', 'rood', 'rood', 'groen', 'blauw', 'bruin', 'blauw',
+        'blauw', 'oranje', 'oranje', 'groen', 'blauw', 'groen', 'blauw', 'rood', 'rood',
+        'oranje', 'oranje', 'blauw', 'bruin', 'rood', 'blauw', 'blauw', 'blauw', 'oranje'],
+        'verpakking 46': ['blauw', 'oranje', 'crème', 'geel', 'geel', 'rood', 'rood',
+        'blauw', 'geel', 'smaragdgroen', 'geel', 'oranje', 'groen', 'groen', 'oranje',
+        'groen', 'oranje', 'oranje', 'geel', 'crème', 'rood', 'blauw', 'rood', 'geel'],
+        'verpakking 47': ['blauw', 'rood', 'bruin', 'oranje', 'geel', 'geel', 'bruin',
+        'oranje', 'bruin', 'oranje', 'oranje', 'oranje', 'blauw', 'oranje', 'oranje',
+        'bruin', 'blauw', 'blauw', 'groen', 'geel', 'oranje', 'bruin', 'oranje', 'groen'],
+        'verpakking 48': ['blauw', 'blauw', 'geel', 'blauw', 'bruin', 'geel', 'crème',
+        'groen', 'oranje', 'oranje', 'groen', 'oranje', 'oranje', 'groen', 'geel',
+        'oranje', 'blauw', 'oranje', 'geel', 'blauw', 'blauw'], 'verpakking 49': ['blauw',
+        'oranje', 'blauw', 'oranje', 'groen', 'oranje', 'geel', 'blauw', 'geel', 'rood',
+        'rood', 'rood', 'geel', 'blauw', 'bruin', 'bruin', 'geel', 'groen', 'groen',
+        'oranje', 'rood', 'bruin'], 'verpakking 50': ['oranje', 'oranje', 'rood',
+        'oranje', 'rood', 'blauw', 'bruin', 'oranje', 'geel', 'oranje', 'rood', 'blauw',
+        'blauw', 'rood', 'blauw', 'groen', 'geel', 'blauw', 'geel', 'smaragdgroen',
+        'groen', 'oranje', 'geel', 'oranje'], 'verpakking 51': ['geel', 'geel', 'geel',
+        'groen', 'oranje', 'blauw', 'rood', 'bruin', 'bruin', 'kiezelgrijs', 'rood',
+        'oranje', 'blauw', 'blauw', 'groen', 'intens roze', 'blauw', 'geel', 'oranje',
+        'bruin', 'geel', 'groen', 'blauw', 'oranje', 'blauw'], 'verpakking 52': ['blauw',
+        'blauw', 'intens roze', 'bruin', 'groen', 'rood', 'rood', 'blauw', 'oranje',
+        'bruin', 'rood', 'oranje', 'rood', 'geel', 'bruin', 'bruin', 'rood', 'blauw',
+        'oranje', 'wolkenwit', 'geel', 'blauw', 'geel'], 'verpakking 53': ['oranje',
+        'oranje', 'blauw', 'blauw', 'blauw', 'blauw', 'rood', 'blauw', 'blauw', 'geel',
+        'blauw', 'geel', 'bruin', 'rood', 'rood', 'groen', 'groen', 'blauw', 'rood',
+        'blauw', 'blauw', 'bruin', 'blauw'], 'verpakking 54': ['oranje', 'bruin',
+        'smaragdgroen', 'oranje', 'blauw', 'oranje', 'groen', 'oranje', 'geel', 'rood',
+        'groen', 'geel', 'geel', 'oranje', 'oranje', 'lichtpaars', 'smaragdgroen',
+        'bruin', 'oranje', 'blauw', 'bruin', 'blauw', 'rood', 'oranje', 'blauw', 'bruin'],
+        'verpakking 55': ['geel', 'groen', 'oranje', 'groen', 'geel', 'blauw', 'oranje',
+        'oranje', 'oranje', 'bruin', 'blauw', 'oranje', 'geel', 'blauw', 'oranje',
+        'rood', 'groen', 'oranje', 'blauw', 'groen', 'groen', 'blauw', 'geel', 'bruin',
+        'blauw', 'geel'], 'verpakking 56': ['blauw', 'groen', 'oranje', 'geel', 'bruin',
+        'oranje', 'bruin', 'blauw', 'oranje', 'blauw', 'oranje', 'blauw', 'blauw',
+        'blauw', 'oranje', 'bruin', 'rood', 'bruin', 'oranje', 'bruin', 'blauw', 'bruin'],
+        'verpakking 57': ['blauw', 'bruin', 'blauw', 'bruin', 'groen', 'groen', 'groen',
+        'groen', 'geel', 'rood', 'wolkenwit', 'kiezelgrijs', 'oranje', 'groen', 'oranje',
+        'rood', 'oranje', 'intens roze', 'bruin', 'blauw'], 'verpakking 58': ['groen',
+        'blauw', 'oranje', 'oranje', 'groen', 'bruin', 'geel', 'oranje', 'geel', 'rood',
+        'blauw', 'groen', 'groen', 'oranje', 'groen', 'rood', 'oranje', 'oranje',
+        'rood', 'groen'], 'verpakking 59': ['kiezelgrijs', 'blauw', 'geel', 'rood',
+        'blauw', 'oranje', 'blauw', 'oranje', 'geel', 'geel', 'oranje', 'groen', 'bruin',
+        'oranje', 'bruin', 'geel', 'oranje', 'groen', 'blauw', 'groen'], 'verpakking
+        60': ['bruin', 'bruin', 'geel', 'blauw', 'rood', 'blauw', 'blauw', 'geel',
+        'bruin', 'lichtpaars', 'blauw', 'blauw', 'rood', 'oranje', 'blauw', 'blauw',
+        'oranje', 'groen', 'oranje', 'rood'], 'verpakking 61': ['rood', 'oranje',
+        'geel', 'geel', 'groen', 'bruin', 'bruin', 'bruin', 'geel', 'oranje', 'rood',
+        'oranje', 'groen', 'smaragdgroen', 'rood', 'bruin', 'groen', 'geel', 'oranje',
+        'geel', 'lichtpaars', 'bruin', 'oranje', 'groen'], 'verpakking 62': ['bruin',
+        'groen', 'rood', 'rood', 'oranje', 'groen', 'rood', 'geel', 'groen', 'geel',
+        'oranje', 'groen', 'oranje', 'oranje', 'oranje', 'geel', 'geel', 'blauw',
+        'blauw', 'geel', 'blauw', 'geel', 'intens roze'], 'verpakking 63': ['oranje',
+        'oranje', 'oranje', 'blauw', 'geel', 'geel', 'geel', 'geel', 'intens roze',
+        'blauw', 'geel', 'blauw', 'geel', 'blauw', 'blauw', 'oranje', 'oranje', 'bruin',
+        'oranje', 'rood', 'oranje'], 'verpakking 64': ['oranje', 'oranje', 'blauw',
+        'geel', 'blauw', 'bruin', 'rood', 'blauw', 'bruin', 'rood', 'oranje', 'blauw',
+        'geel', 'groen', 'rood', 'oranje', 'blauw', 'groen', 'geel', 'groen', 'bruin',
+        'oranje', 'geel', 'blauw', 'blauw'], 'verpakking 65': ['oranje', 'bruin',
+        'geel', 'oranje', 'groen', 'blauw', 'blauw', 'oranje', 'blauw', 'blauw', 'bruin',
+        'rood', 'bruin', 'geel', 'blauw', 'blauw', 'blauw', 'groen', 'bruin', 'bruin',
+        'groen', 'blauw', 'groen'], 'verpakking 66': ['blauw', 'crème', 'blauw', 'bruin',
+        'groen', 'geel', 'oranje', 'geel', 'rood', 'rood', 'blauw', 'oranje', 'rood',
+        'bruin', 'geel', 'rood', 'lichtpaars', 'oranje', 'rood', 'wolkenwit', 'oranje',
+        'geel', 'oranje', 'bruin'], 'verpakking 67': ['geel', 'geel', 'groen', 'bruin',
+        'rood', 'bruin', 'rood', 'blauw', 'rood', 'blauw', 'crème', 'groen', 'intens
+        roze', 'crème', 'bruin', 'geel', 'rood', 'blauw', 'geel', 'crème', 'bruin',
+        'blauw'], 'verpakking 68': ['geel', 'groen', 'oranje', 'blauw', 'rood', 'blauw',
+        'groen', 'rood', 'blauw', 'rood', 'geel', 'blauw', 'smaragdgroen', 'rood',
+        'blauw', 'oranje', 'rood', 'rood', 'geel', 'rood', 'oranje'], 'verpakking
+        69': ['oranje', 'oranje', 'geel', 'groen', 'oranje', 'crème', 'rood', 'bruin',
+        'bruin', 'groen', 'geel', 'oranje', 'oranje', 'groen', 'geel', 'groen', 'bruin',
+        'blauw', 'rood', 'blauw', 'groen', 'oranje', 'oranje', 'oranje', 'geel']})"
+      return:
+        groen: 203
+        geel: 230
+        rood: 177
+        wolkenwit: 12
+        kiezelgrijs: 17
+        blauw: 342
+        oranje: 358
+        intens roze: 18
+        bruin: 160
+        crème: 16
+        lichtpaars: 15
+        smaragdgroen: 18
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['oranje', 'blauw', 'rood', 'oranje',
+        'bruin', 'bruin', 'blauw', 'oranje', 'rood', 'blauw', 'oranje', 'intens roze',
+        'oranje', 'blauw', 'oranje', 'groen', 'intens roze', 'smaragdgroen', 'groen',
+        'blauw', 'bruin', 'bruin', 'rood', 'bruin', 'rood', 'oranje'], 'verpakking
+        2': ['oranje', 'oranje', 'bruin', 'geel', 'rood', 'oranje', 'oranje', 'oranje',
+        'blauw', 'groen', 'geel', 'groen', 'rood', 'blauw', 'groen', 'bruin', 'bruin',
+        'geel', 'oranje', 'oranje', 'rood', 'geel', 'blauw', 'geel', 'rood', 'oranje'],
+        'verpakking 3': ['lichtpaars', 'oranje', 'blauw', 'oranje', 'geel', 'blauw',
+        'blauw', 'groen', 'oranje', 'rood', 'bruin', 'blauw', 'blauw', 'groen', 'blauw',
+        'blauw', 'groen', 'oranje', 'blauw', 'lichtpaars', 'groen', 'kiezelgrijs',
+        'rood', 'rood'], 'verpakking 4': ['blauw', 'bruin', 'blauw', 'blauw', 'geel',
+        'blauw', 'oranje', 'lichtpaars', 'rood', 'rood', 'groen', 'oranje', 'groen',
+        'geel', 'geel', 'geel', 'blauw', 'bruin', 'rood', 'blauw', 'oranje', 'oranje'],
+        'verpakking 5': ['geel', 'blauw', 'groen', 'geel', 'bruin', 'blauw', 'blauw',
+        'groen', 'blauw', 'blauw', 'rood', 'groen', 'bruin', 'rood', 'bruin', 'blauw',
+        'oranje', 'oranje', 'oranje', 'oranje', 'blauw', 'oranje'], 'verpakking 6':
+        ['geel', 'blauw', 'oranje', 'blauw', 'bruin', 'bruin', 'geel', 'oranje', 'blauw',
+        'blauw', 'oranje', 'geel', 'oranje', 'blauw', 'blauw', 'geel', 'rood', 'blauw',
+        'groen', 'smaragdgroen', 'rood', 'geel', 'blauw'], 'verpakking 7': ['rood',
+        'blauw', 'kiezelgrijs', 'oranje', 'intens roze', 'blauw', 'blauw', 'groen',
+        'groen', 'blauw', 'rood', 'oranje', 'bruin', 'oranje', 'blauw', 'blauw', 'bruin',
+        'rood', 'blauw', 'blauw', 'groen', 'oranje', 'bruin', 'bruin', 'oranje'],
+        'verpakking 8': ['groen', 'geel', 'geel', 'bruin', 'blauw', 'oranje', 'blauw',
+        'geel', 'bruin', 'smaragdgroen', 'oranje', 'geel', 'geel', 'bruin', 'oranje',
+        'oranje', 'groen', 'blauw', 'blauw', 'groen', 'oranje', 'geel', 'oranje'],
+        'verpakking 9': ['blauw', 'rood', 'blauw', 'rood', 'blauw', 'oranje', 'rood',
+        'geel', 'groen', 'geel', 'geel', 'oranje', 'geel', 'oranje', 'bruin', 'blauw',
+        'geel', 'blauw', 'oranje', 'geel', 'oranje', 'groen', 'blauw', 'groen'], 'verpakking
+        10': ['oranje', 'rood', 'rood', 'oranje', 'oranje', 'oranje', 'oranje', 'blauw',
+        'blauw', 'oranje', 'blauw', 'rood', 'geel', 'geel', 'rood', 'wolkenwit', 'blauw',
+        'groen', 'oranje', 'intens roze', 'groen'], 'verpakking 11': ['bruin', 'bruin',
+        'bruin', 'geel', 'oranje', 'bruin', 'geel', 'groen', 'rood', 'oranje', 'geel',
+        'rood', 'oranje', 'geel', 'geel', 'geel', 'groen', 'groen', 'bruin', 'oranje'],
+        'verpakking 12': ['blauw', 'geel', 'blauw', 'blauw', 'oranje', 'bruin', 'rood',
+        'blauw', 'bruin', 'groen', 'blauw', 'rood', 'oranje', 'geel', 'groen', 'geel',
+        'blauw', 'oranje', 'rood', 'oranje', 'blauw', 'geel', 'bruin'], 'verpakking
+        13': ['blauw', 'bruin', 'bruin', 'geel', 'groen', 'oranje', 'rood', 'oranje',
+        'smaragdgroen', 'blauw', 'blauw', 'rood', 'groen', 'blauw', 'blauw', 'oranje',
+        'lichtpaars', 'oranje', 'blauw', 'groen', 'geel', 'bruin'], 'verpakking 14':
+        ['oranje', 'blauw', 'geel', 'rood', 'blauw', 'rood', 'bruin', 'smaragdgroen',
+        'oranje', 'groen', 'rood', 'rood', 'intens roze', 'oranje', 'blauw', 'bruin',
+        'oranje', 'oranje', 'oranje', 'geel', 'groen', 'blauw', 'oranje', 'rood'],
+        'verpakking 15': ['groen', 'oranje', 'geel', 'blauw', 'rood', 'oranje', 'groen',
+        'oranje', 'oranje', 'rood', 'bruin', 'blauw', 'rood', 'rood', 'oranje', 'rood',
+        'blauw', 'oranje', 'blauw', 'rood', 'blauw', 'kiezelgrijs', 'rood', 'oranje',
+        'bruin', 'groen'], 'verpakking 16': ['groen', 'oranje', 'groen', 'bruin',
+        'groen', 'oranje', 'geel', 'groen', 'rood', 'rood', 'oranje', 'blauw', 'geel',
+        'rood', 'oranje', 'bruin', 'bruin', 'rood', 'rood', 'oranje', 'oranje', 'rood',
+        'crème', 'rood', 'rood', 'oranje'], 'verpakking 17': ['oranje', 'blauw', 'groen',
+        'geel', 'blauw', 'bruin', 'groen', 'bruin', 'geel', 'groen', 'crème', 'oranje',
+        'geel', 'rood', 'rood', 'oranje', 'blauw', 'geel', 'rood', 'oranje', 'groen',
+        'blauw', 'blauw', 'blauw', 'rood'], 'verpakking 18': ['oranje', 'oranje',
+        'bruin', 'blauw', 'oranje', 'groen', 'oranje', 'oranje', 'wolkenwit', 'blauw',
+        'oranje', 'intens roze', 'oranje', 'geel', 'oranje', 'oranje', 'oranje', 'oranje',
+        'geel', 'bruin', 'oranje', 'crème', 'groen', 'groen'], 'verpakking 19': ['geel',
+        'oranje', 'lichtpaars', 'groen', 'oranje', 'blauw', 'oranje', 'bruin', 'bruin',
+        'lichtpaars', 'bruin', 'blauw', 'blauw', 'geel', 'blauw', 'oranje', 'kiezelgrijs',
+        'blauw', 'groen', 'intens roze', 'crème', 'blauw', 'geel', 'groen'], 'verpakking
+        20': ['groen', 'blauw', 'rood', 'groen', 'kiezelgrijs', 'blauw', 'blauw',
+        'oranje', 'blauw', 'geel', 'oranje', 'oranje', 'blauw', 'oranje', 'blauw',
+        'bruin', 'bruin', 'geel', 'rood', 'bruin', 'rood', 'blauw', 'geel', 'oranje',
+        'intens roze'], 'verpakking 21': ['crème', 'geel', 'groen', 'kiezelgrijs',
+        'blauw', 'blauw', 'blauw', 'groen', 'rood', 'rood', 'blauw', 'bruin', 'groen',
+        'bruin', 'rood', 'geel', 'blauw', 'oranje', 'groen', 'oranje'], 'verpakking
+        22': ['geel', 'bruin', 'oranje', 'bruin', 'groen', 'oranje', 'blauw', 'oranje',
+        'wolkenwit', 'bruin', 'oranje', 'oranje', 'blauw', 'geel', 'blauw', 'groen',
+        'geel', 'geel', 'bruin', 'geel', 'blauw', 'blauw', 'oranje', 'blauw', 'blauw',
+        'blauw'], 'verpakking 23': ['oranje', 'rood', 'oranje', 'smaragdgroen', 'blauw',
+        'oranje', 'groen', 'geel', 'groen', 'blauw', 'kiezelgrijs', 'bruin', 'groen',
+        'oranje', 'geel', 'oranje', 'geel', 'groen', 'oranje', 'oranje', 'blauw',
+        'oranje'], 'verpakking 24': ['oranje', 'blauw', 'rood', 'groen', 'rood', 'groen',
+        'groen', 'geel', 'blauw', 'rood', 'oranje', 'groen', 'geel', 'blauw', 'blauw',
+        'blauw', 'groen', 'geel', 'blauw', 'bruin', 'groen', 'oranje', 'blauw'], 'verpakking
+        25': ['blauw', 'geel', 'rood', 'groen', 'rood', 'geel', 'groen', 'bruin',
+        'geel', 'rood', 'blauw', 'groen', 'blauw', 'blauw', 'groen', 'blauw', 'lichtpaars',
+        'geel', 'groen', 'oranje', 'blauw', 'geel', 'blauw', 'groen', 'oranje'], 'verpakking
+        26': ['geel', 'groen', 'blauw', 'blauw', 'blauw', 'bruin', 'blauw', 'blauw',
+        'groen', 'bruin', 'blauw', 'blauw', 'geel', 'oranje', 'blauw', 'blauw', 'oranje',
+        'rood', 'geel', 'oranje', 'bruin', 'bruin', 'geel', 'groen', 'groen', 'groen'],
+        'verpakking 27': ['blauw', 'blauw', 'smaragdgroen', 'groen', 'blauw', 'geel',
+        'rood', 'blauw', 'oranje', 'oranje', 'groen', 'blauw', 'wolkenwit', 'blauw',
+        'geel', 'geel', 'geel', 'kiezelgrijs', 'blauw', 'oranje', 'rood', 'geel',
+        'lichtpaars', 'groen', 'blauw', 'rood'], 'verpakking 28': ['oranje', 'blauw',
+        'blauw', 'geel', 'geel', 'blauw', 'geel', 'oranje', 'geel', 'oranje', 'rood',
+        'groen', 'rood', 'geel', 'blauw', 'bruin', 'oranje', 'rood', 'groen', 'oranje',
+        'rood', 'blauw', 'groen'], 'verpakking 29': ['oranje', 'groen', 'geel', 'rood',
+        'geel', 'geel', 'bruin', 'blauw', 'kiezelgrijs', 'oranje', 'blauw', 'bruin',
+        'geel', 'blauw', 'intens roze', 'rood', 'blauw', 'oranje', 'oranje', 'groen',
+        'blauw', 'blauw', 'geel', 'blauw'], 'verpakking 30': ['rood', 'blauw', 'blauw',
+        'oranje', 'rood', 'oranje', 'rood', 'geel', 'geel', 'bruin', 'oranje', 'groen',
+        'crème', 'geel', 'intens roze', 'wolkenwit', 'blauw', 'oranje', 'rood', 'oranje',
+        'groen'], 'verpakking 31': ['rood', 'geel', 'groen', 'groen', 'crème', 'oranje',
+        'kiezelgrijs', 'groen', 'oranje', 'oranje', 'oranje', 'geel', 'blauw', 'oranje',
+        'bruin', 'oranje', 'groen', 'groen', 'bruin', 'oranje', 'groen', 'groen',
+        'rood', 'bruin', 'geel', 'geel'], 'verpakking 32': ['geel', 'geel', 'bruin',
+        'bruin', 'blauw', 'bruin', 'geel', 'lichtpaars', 'groen', 'geel', 'oranje',
+        'oranje', 'groen', 'oranje', 'rood', 'blauw', 'rood', 'rood', 'rood', 'geel'],
+        'verpakking 33': ['blauw', 'oranje', 'geel', 'oranje', 'oranje', 'groen',
+        'bruin', 'groen', 'oranje', 'blauw', 'lichtpaars', 'geel', 'blauw', 'kiezelgrijs',
+        'oranje', 'groen', 'blauw', 'groen', 'rood', 'blauw', 'oranje', 'rood', 'groen',
+        'blauw', 'blauw', 'wolkenwit'], 'verpakking 34': ['geel', 'intens roze', 'blauw',
+        'geel', 'groen', 'rood', 'geel', 'bruin', 'blauw', 'blauw', 'crème', 'geel',
+        'geel', 'blauw', 'bruin', 'bruin', 'oranje', 'rood', 'rood', 'blauw', 'rood',
+        'geel', 'bruin', 'oranje'], 'verpakking 35': ['oranje', 'bruin', 'bruin',
+        'groen', 'groen', 'bruin', 'bruin', 'geel', 'blauw', 'groen', 'oranje', 'oranje',
+        'groen', 'groen', 'rood', 'groen', 'groen', 'blauw', 'blauw', 'oranje', 'bruin',
+        'blauw', 'bruin'], 'verpakking 36': ['groen', 'oranje', 'oranje', 'blauw',
+        'blauw', 'geel', 'bruin', 'oranje', 'oranje', 'geel', 'blauw', 'oranje', 'lichtpaars',
+        'blauw', 'geel', 'blauw', 'groen', 'bruin', 'bruin', 'oranje', 'oranje', 'bruin',
+        'smaragdgroen', 'groen', 'blauw'], 'verpakking 37': ['rood', 'groen', 'oranje',
+        'blauw', 'blauw', 'rood', 'bruin', 'rood', 'rood', 'groen', 'groen', 'rood',
+        'oranje', 'bruin', 'blauw', 'bruin', 'groen', 'groen', 'oranje', 'oranje',
+        'groen', 'oranje', 'groen', 'oranje', 'groen'], 'verpakking 38': ['geel',
+        'bruin', 'rood', 'groen', 'blauw', 'rood', 'bruin', 'blauw', 'geel', 'blauw',
+        'oranje', 'oranje', 'groen', 'oranje', 'blauw', 'geel', 'oranje', 'oranje',
+        'bruin', 'blauw', 'geel', 'oranje', 'oranje', 'geel', 'bruin', 'geel'], 'verpakking
+        39': ['oranje', 'groen', 'rood', 'oranje', 'bruin', 'oranje', 'blauw', 'geel',
+        'geel', 'blauw', 'oranje', 'oranje', 'oranje', 'bruin', 'groen', 'blauw',
+        'oranje', 'geel', 'geel', 'rood', 'oranje', 'bruin'], 'verpakking 40': ['groen',
+        'blauw', 'groen', 'smaragdgroen', 'geel', 'groen', 'rood', 'oranje', 'blauw',
+        'rood', 'oranje', 'groen', 'geel', 'oranje', 'rood', 'rood', 'blauw', 'blauw',
+        'blauw', 'oranje', 'groen', 'rood', 'blauw', 'groen', 'groen'], 'verpakking
+        41': ['rood', 'groen', 'groen', 'bruin', 'groen', 'rood', 'bruin', 'groen',
+        'geel', 'bruin', 'blauw', 'blauw', 'blauw', 'bruin', 'oranje', 'blauw', 'geel',
+        'wolkenwit', 'blauw', 'blauw'], 'verpakking 42': ['rood', 'oranje', 'groen',
+        'bruin', 'geel', 'oranje', 'rood', 'rood', 'rood', 'blauw', 'blauw', 'oranje',
+        'geel', 'oranje', 'smaragdgroen', 'blauw', 'groen', 'bruin', 'bruin', 'rood',
+        'oranje', 'bruin', 'groen', 'bruin', 'geel', 'blauw'], 'verpakking 43': ['bruin',
+        'oranje', 'geel', 'groen', 'rood', 'groen', 'oranje', 'blauw', 'blauw', 'blauw',
+        'groen', 'rood', 'geel', 'blauw', 'blauw', 'bruin', 'blauw', 'groen', 'oranje',
+        'intens roze', 'blauw', 'kiezelgrijs'], 'verpakking 44': ['blauw', 'oranje',
+        'oranje', 'blauw', 'kiezelgrijs', 'blauw', 'geel', 'bruin', 'oranje', 'geel',
+        'blauw', 'rood', 'geel', 'geel', 'blauw', 'groen', 'blauw', 'oranje', 'geel',
+        'blauw', 'oranje', 'oranje', 'rood'], 'verpakking 45': ['blauw', 'oranje',
+        'geel', 'blauw', 'crème', 'blauw', 'geel', 'blauw', 'bruin', 'rood', 'oranje',
+        'geel', 'groen', 'blauw', 'groen', 'bruin', 'groen', 'bruin', 'groen', 'intens
+        roze', 'geel'], 'verpakking 46': ['geel', 'geel', 'oranje', 'blauw', 'rood',
+        'blauw', 'groen', 'oranje', 'geel', 'geel', 'blauw', 'rood', 'blauw', 'geel',
+        'oranje', 'oranje', 'rood', 'groen', 'lichtpaars', 'bruin'], 'verpakking 47':
+        ['groen', 'oranje', 'oranje', 'kiezelgrijs', 'groen', 'blauw', 'oranje', 'blauw',
+        'geel', 'rood', 'bruin', 'oranje', 'oranje', 'bruin', 'oranje', 'geel', 'blauw',
+        'geel', 'blauw', 'bruin'], 'verpakking 48': ['smaragdgroen', 'bruin', 'geel',
+        'rood', 'geel', 'geel', 'bruin', 'geel', 'blauw', 'lichtpaars', 'bruin', 'smaragdgroen',
+        'rood', 'intens roze', 'blauw', 'rood', 'blauw', 'geel', 'oranje', 'oranje',
+        'blauw', 'kiezelgrijs'], 'verpakking 49': ['smaragdgroen', 'geel', 'blauw',
+        'groen', 'bruin', 'geel', 'bruin', 'blauw', 'rood', 'smaragdgroen', 'blauw',
+        'bruin', 'intens roze', 'rood', 'oranje', 'groen', 'groen', 'oranje', 'blauw',
+        'blauw', 'oranje', 'bruin'], 'verpakking 50': ['groen', 'groen', 'groen',
+        'bruin', 'blauw', 'blauw', 'bruin', 'groen', 'oranje', 'oranje', 'oranje',
+        'geel', 'blauw', 'rood', 'oranje', 'blauw', 'blauw', 'blauw', 'groen', 'bruin',
+        'rood', 'oranje', 'bruin', 'bruin', 'oranje', 'bruin'], 'verpakking 51': ['oranje',
+        'rood', 'rood', 'blauw', 'bruin', 'bruin', 'blauw', 'bruin', 'bruin', 'crème',
+        'oranje', 'wolkenwit', 'bruin', 'oranje', 'rood', 'blauw', 'blauw', 'oranje',
+        'blauw', 'geel', 'blauw', 'blauw', 'intens roze', 'kiezelgrijs', 'rood', 'geel'],
+        'verpakking 52': ['bruin', 'oranje', 'geel', 'groen', 'blauw', 'bruin', 'geel',
+        'blauw', 'groen', 'bruin', 'oranje', 'rood', 'groen', 'rood', 'groen', 'oranje',
+        'blauw', 'oranje', 'groen', 'oranje'], 'verpakking 53': ['blauw', 'geel',
+        'geel', 'groen', 'intens roze', 'blauw', 'oranje', 'geel', 'geel', 'groen',
+        'groen', 'blauw', 'oranje', 'oranje', 'oranje', 'geel', 'rood', 'oranje',
+        'blauw', 'geel', 'blauw', 'oranje', 'bruin', 'rood', 'bruin'], 'verpakking
+        54': ['blauw', 'oranje', 'groen', 'geel', 'geel', 'blauw', 'rood', 'rood',
+        'groen', 'groen', 'oranje', 'oranje', 'oranje', 'blauw', 'blauw', 'geel',
+        'blauw', 'groen', 'blauw', 'oranje', 'geel', 'blauw'], 'verpakking 55': ['blauw',
+        'groen', 'rood', 'bruin', 'bruin', 'oranje', 'rood', 'blauw', 'oranje', 'oranje',
+        'groen', 'geel', 'rood', 'rood', 'geel', 'oranje', 'rood', 'bruin', 'blauw',
+        'blauw'], 'verpakking 56': ['bruin', 'groen', 'blauw', 'blauw', 'blauw', 'bruin',
+        'blauw', 'oranje', 'geel', 'blauw', 'blauw', 'rood', 'geel', 'groen', 'oranje',
+        'blauw', 'geel', 'geel', 'bruin', 'groen', 'blauw', 'rood', 'blauw', 'oranje'],
+        'verpakking 57': ['smaragdgroen', 'bruin', 'blauw', 'oranje', 'rood', 'rood',
+        'geel', 'rood', 'rood', 'blauw', 'blauw', 'blauw', 'blauw', 'geel', 'oranje',
+        'blauw', 'groen', 'groen', 'rood', 'oranje', 'bruin', 'bruin', 'oranje', 'rood'],
+        'verpakking 58': ['rood', 'blauw', 'groen', 'bruin', 'oranje', 'rood', 'blauw',
+        'bruin', 'geel', 'bruin', 'oranje', 'groen', 'kiezelgrijs', 'rood', 'oranje',
+        'blauw', 'bruin', 'oranje', 'lichtpaars', 'groen', 'rood', 'blauw', 'blauw',
+        'rood', 'oranje', 'oranje'], 'verpakking 59': ['geel', 'bruin', 'oranje',
+        'bruin', 'oranje', 'oranje', 'blauw', 'oranje', 'oranje', 'geel', 'bruin',
+        'blauw', 'rood', 'bruin', 'rood', 'rood', 'blauw', 'rood', 'intens roze',
+        'bruin', 'blauw', 'geel', 'bruin', 'oranje', 'groen', 'rood'], 'verpakking
+        60': ['lichtpaars', 'oranje', 'geel', 'geel', 'blauw', 'wolkenwit', 'groen',
+        'geel', 'oranje', 'blauw', 'geel', 'oranje', 'blauw', 'blauw', 'oranje', 'geel',
+        'blauw', 'rood', 'groen', 'rood', 'bruin', 'groen', 'groen', 'geel'], 'verpakking
+        61': ['geel', 'groen', 'groen', 'groen', 'groen', 'blauw', 'bruin', 'bruin',
+        'groen', 'bruin', 'rood', 'blauw', 'smaragdgroen', 'oranje', 'oranje', 'kiezelgrijs',
+        'oranje', 'oranje', 'crème', 'oranje', 'groen'], 'verpakking 62': ['blauw',
+        'rood', 'wolkenwit', 'oranje', 'geel', 'blauw', 'bruin', 'groen', 'bruin',
+        'blauw', 'blauw', 'wolkenwit', 'blauw', 'groen', 'geel', 'oranje', 'oranje',
+        'oranje', 'oranje', 'blauw', 'blauw', 'groen', 'groen', 'bruin', 'groen'],
+        'verpakking 63': ['blauw', 'bruin', 'bruin', 'oranje', 'groen', 'blauw', 'blauw',
+        'geel', 'oranje', 'bruin', 'lichtpaars', 'bruin', 'oranje', 'groen', 'geel',
+        'blauw', 'blauw', 'bruin', 'blauw', 'blauw', 'bruin', 'oranje', 'smaragdgroen',
+        'geel', 'groen'], 'verpakking 64': ['blauw', 'geel', 'lichtpaars', 'rood',
+        'bruin', 'groen', 'blauw', 'blauw', 'bruin', 'blauw', 'groen', 'blauw', 'rood',
+        'groen', 'geel', 'oranje', 'blauw', 'blauw', 'oranje', 'rood', 'bruin', 'oranje',
+        'rood', 'groen'], 'verpakking 65': ['geel', 'blauw', 'blauw', 'groen', 'rood',
+        'blauw', 'bruin', 'bruin', 'oranje', 'smaragdgroen', 'oranje', 'groen', 'smaragdgroen',
+        'oranje', 'bruin', 'oranje', 'oranje', 'groen', 'oranje', 'blauw', 'oranje',
+        'geel', 'bruin', 'groen', 'oranje'], 'verpakking 66': ['oranje', 'groen',
+        'bruin', 'oranje', 'geel', 'geel', 'bruin', 'blauw', 'geel', 'oranje', 'blauw',
+        'geel', 'blauw', 'blauw', 'oranje', 'oranje', 'groen', 'blauw', 'blauw', 'blauw'],
+        'verpakking 67': ['rood', 'blauw', 'geel', 'bruin', 'blauw', 'bruin', 'geel',
+        'oranje', 'blauw', 'oranje', 'rood', 'oranje', 'oranje', 'geel', 'blauw',
+        'rood', 'geel', 'blauw', 'rood', 'rood', 'groen'], 'verpakking 68': ['blauw',
+        'oranje', 'geel', 'blauw', 'geel', 'blauw', 'blauw', 'kiezelgrijs', 'geel',
+        'oranje', 'blauw', 'oranje', 'bruin', 'groen', 'bruin', 'oranje', 'crème',
+        'blauw', 'bruin', 'oranje', 'bruin', 'geel', 'blauw', 'bruin', 'blauw'], 'verpakking
+        69': ['groen', 'rood', 'rood', 'rood', 'geel', 'oranje', 'oranje', 'blauw',
+        'oranje', 'groen', 'blauw', 'blauw', 'smaragdgroen', 'blauw', 'rood', 'oranje',
+        'geel', 'oranje', 'oranje', 'bruin', 'oranje', 'blauw'], 'verpakking 70':
+        ['groen', 'geel', 'oranje', 'groen', 'blauw', 'groen', 'groen', 'groen', 'oranje',
+        'rood', 'bruin', 'blauw', 'intens roze', 'crème', 'kiezelgrijs', 'blauw',
+        'geel', 'crème', 'smaragdgroen', 'geel', 'blauw', 'geel', 'bruin', 'groen',
+        'geel', 'rood']})"
+      return:
+        oranje: 341
+        blauw: 370
+        rood: 189
+        bruin: 193
+        intens roze: 19
+        groen: 225
+        smaragdgroen: 21
+        geel: 226
+        lichtpaars: 17
+        kiezelgrijs: 20
+        wolkenwit: 11
+        crème: 14
+  - testcases:
+    - expression: "kleuren_tellen({'verpakking 1': ['smaragdgroen', 'rood', 'wolkenwit',
+        'geel', 'oranje', 'blauw', 'groen', 'oranje', 'blauw', 'bruin', 'bruin', 'geel',
+        'bruin', 'blauw', 'oranje', 'groen', 'crème', 'blauw', 'oranje', 'blauw',
+        'geel'], 'verpakking 2': ['groen', 'crème', 'blauw', 'bruin', 'oranje', 'blauw',
+        'bruin', 'blauw', 'geel', 'geel', 'groen', 'oranje', 'geel', 'bruin', 'blauw',
+        'rood', 'blauw', 'bruin', 'rood', 'groen', 'lichtpaars', 'oranje', 'rood'],
+        'verpakking 3': ['blauw', 'geel', 'oranje', 'rood', 'blauw', 'oranje', 'blauw',
+        'bruin', 'rood', 'blauw', 'oranje', 'blauw', 'oranje', 'blauw', 'oranje',
+        'geel', 'blauw', 'groen', 'blauw', 'blauw', 'geel', 'groen', 'oranje', 'groen',
+        'rood', 'geel'], 'verpakking 4': ['rood', 'bruin', 'geel', 'geel', 'blauw',
+        'blauw', 'geel', 'rood', 'blauw', 'blauw', 'blauw', 'blauw', 'blauw', 'groen',
+        'groen', 'oranje', 'rood', 'oranje', 'groen', 'oranje', 'blauw', 'oranje',
+        'groen', 'blauw', 'bruin'], 'verpakking 5': ['blauw', 'bruin', 'blauw', 'bruin',
+        'oranje', 'wolkenwit', 'blauw', 'groen', 'oranje', 'groen', 'oranje', 'groen',
+        'oranje', 'rood', 'blauw', 'groen', 'rood', 'oranje', 'crème', 'oranje'],
+        'verpakking 6': ['groen', 'blauw', 'rood', 'bruin', 'groen', 'oranje', 'geel',
+        'rood', 'oranje', 'oranje', 'geel', 'crème', 'blauw', 'groen', 'geel', 'blauw',
+        'blauw', 'geel', 'geel', 'groen', 'oranje'], 'verpakking 7': ['blauw', 'blauw',
+        'groen', 'groen', 'oranje', 'bruin', 'oranje', 'bruin', 'blauw', 'bruin',
+        'groen', 'oranje', 'oranje', 'blauw', 'bruin', 'geel', 'crème', 'bruin', 'rood',
+        'bruin', 'geel', 'blauw'], 'verpakking 8': ['blauw', 'oranje', 'groen', 'bruin',
+        'blauw', 'oranje', 'oranje', 'blauw', 'bruin', 'oranje', 'geel', 'geel', 'bruin',
+        'oranje', 'oranje', 'geel', 'blauw', 'rood', 'geel', 'oranje', 'wolkenwit'],
+        'verpakking 9': ['oranje', 'blauw', 'bruin', 'bruin', 'blauw', 'oranje', 'geel',
+        'bruin', 'bruin', 'oranje', 'geel', 'lichtpaars', 'groen', 'kiezelgrijs',
+        'crème', 'groen', 'rood', 'oranje', 'oranje', 'bruin'], 'verpakking 10': ['rood',
+        'rood', 'oranje', 'geel', 'geel', 'oranje', 'blauw', 'groen', 'blauw', 'blauw',
+        'bruin', 'blauw', 'oranje', 'blauw', 'smaragdgroen', 'oranje', 'geel', 'rood',
+        'bruin', 'geel', 'blauw', 'oranje', 'rood'], 'verpakking 11': ['blauw', 'rood',
+        'bruin', 'blauw', 'bruin', 'oranje', 'blauw', 'blauw', 'geel', 'blauw', 'rood',
+        'geel', 'geel', 'blauw', 'rood', 'geel', 'groen', 'bruin', 'bruin', 'rood',
+        'blauw'], 'verpakking 12': ['geel', 'oranje', 'oranje', 'groen', 'blauw',
+        'bruin', 'blauw', 'blauw', 'blauw', 'kiezelgrijs', 'blauw', 'bruin', 'geel',
+        'oranje', 'groen', 'groen', 'groen', 'groen', 'rood', 'blauw', 'bruin', 'rood',
+        'oranje', 'oranje', 'intens roze'], 'verpakking 13': ['bruin', 'oranje', 'rood',
+        'blauw', 'blauw', 'bruin', 'intens roze', 'blauw', 'oranje', 'rood', 'bruin',
+        'bruin', 'wolkenwit', 'groen', 'oranje', 'groen', 'rood', 'rood', 'groen',
+        'groen', 'geel', 'geel', 'rood', 'bruin', 'crème', 'oranje'], 'verpakking
+        14': ['oranje', 'rood', 'blauw', 'groen', 'oranje', 'oranje', 'oranje', 'rood',
+        'geel', 'geel', 'blauw', 'geel', 'bruin', 'oranje', 'groen', 'geel', 'rood',
+        'kiezelgrijs', 'groen', 'rood', 'rood', 'groen', 'oranje', 'blauw', 'blauw',
+        'rood'], 'verpakking 15': ['oranje', 'crème', 'blauw', 'bruin', 'blauw', 'geel',
+        'blauw', 'geel', 'bruin', 'geel', 'oranje', 'blauw', 'bruin', 'oranje', 'blauw',
+        'groen', 'geel', 'bruin', 'oranje', 'blauw', 'blauw', 'groen', 'groen', 'blauw',
+        'blauw', 'groen'], 'verpakking 16': ['groen', 'blauw', 'geel', 'oranje', 'groen',
+        'blauw', 'blauw', 'oranje', 'oranje', 'groen', 'oranje', 'groen', 'geel',
+        'geel', 'rood', 'oranje', 'geel', 'groen', 'rood', 'kiezelgrijs', 'bruin',
+        'wolkenwit', 'oranje'], 'verpakking 17': ['groen', 'oranje', 'rood', 'rood',
+        'rood', 'rood', 'geel', 'geel', 'blauw', 'geel', 'groen', 'groen', 'rood',
+        'blauw', 'rood', 'groen', 'groen', 'oranje', 'geel', 'blauw', 'groen'], 'verpakking
+        18': ['rood', 'oranje', 'blauw', 'oranje', 'blauw', 'geel', 'oranje', 'intens
+        roze', 'oranje', 'oranje', 'geel', 'oranje', 'bruin', 'geel', 'oranje', 'bruin',
+        'oranje', 'blauw', 'blauw', 'rood', 'intens roze', 'oranje', 'bruin', 'blauw'],
+        'verpakking 19': ['groen', 'bruin', 'groen', 'geel', 'blauw', 'oranje', 'rood',
+        'rood', 'geel', 'groen', 'geel', 'oranje', 'oranje', 'blauw', 'oranje', 'groen',
+        'smaragdgroen', 'blauw', 'geel', 'blauw', 'blauw', 'oranje', 'blauw', 'blauw'],
+        'verpakking 20': ['oranje', 'kiezelgrijs', 'smaragdgroen', 'wolkenwit', 'crème',
+        'blauw', 'blauw', 'oranje', 'blauw', 'groen', 'bruin', 'oranje', 'oranje',
+        'rood', 'geel', 'geel', 'oranje', 'geel', 'groen', 'oranje', 'oranje', 'oranje'],
+        'verpakking 21': ['lichtpaars', 'blauw', 'bruin', 'oranje', 'groen', 'rood',
+        'rood', 'rood', 'lichtpaars', 'blauw', 'rood', 'oranje', 'oranje', 'blauw',
+        'rood', 'blauw', 'oranje', 'blauw', 'rood', 'bruin', 'rood', 'bruin', 'rood',
+        'blauw'], 'verpakking 22': ['geel', 'groen', 'oranje', 'bruin', 'intens roze',
+        'rood', 'oranje', 'blauw', 'blauw', 'oranje', 'blauw', 'oranje', 'groen',
+        'oranje', 'geel', 'blauw', 'bruin', 'groen', 'rood', 'oranje', 'bruin', 'rood'],
+        'verpakking 23': ['oranje', 'blauw', 'groen', 'geel', 'oranje', 'bruin', 'bruin',
+        'rood', 'oranje', 'bruin', 'groen', 'blauw', 'oranje', 'blauw', 'oranje',
+        'blauw', 'oranje', 'blauw', 'geel', 'bruin', 'oranje', 'lichtpaars', 'geel'],
+        'verpakking 24': ['groen', 'oranje', 'smaragdgroen', 'oranje', 'oranje', 'oranje',
+        'blauw', 'geel', 'oranje', 'geel', 'oranje', 'geel', 'geel', 'oranje', 'oranje',
+        'oranje', 'geel', 'blauw', 'geel', 'rood', 'geel', 'bruin', 'groen', 'rood',
+        'geel', 'rood'], 'verpakking 25': ['oranje', 'bruin', 'lichtpaars', 'crème',
+        'groen', 'groen', 'geel', 'blauw', 'groen', 'bruin', 'oranje', 'geel', 'blauw',
+        'rood', 'blauw', 'smaragdgroen', 'groen', 'geel', 'smaragdgroen', 'oranje',
+        'groen'], 'verpakking 26': ['groen', 'rood', 'groen', 'groen', 'oranje', 'bruin',
+        'blauw', 'rood', 'blauw', 'intens roze', 'lichtpaars', 'blauw', 'bruin', 'geel',
+        'rood', 'oranje', 'blauw', 'oranje', 'blauw', 'geel', 'bruin', 'bruin', 'rood',
+        'groen', 'groen', 'groen'], 'verpakking 27': ['blauw', 'bruin', 'oranje',
+        'bruin', 'groen', 'groen', 'rood', 'groen', 'groen', 'blauw', 'oranje', 'bruin',
+        'geel', 'oranje', 'blauw', 'oranje', 'blauw', 'geel', 'oranje', 'groen', 'bruin',
+        'blauw', 'oranje'], 'verpakking 28': ['geel', 'kiezelgrijs', 'groen', 'oranje',
+        'geel', 'geel', 'geel', 'oranje', 'rood', 'rood', 'blauw', 'geel', 'lichtpaars',
+        'blauw', 'geel', 'geel', 'oranje', 'blauw', 'blauw', 'oranje', 'geel'], 'verpakking
+        29': ['blauw', 'lichtpaars', 'oranje', 'groen', 'lichtpaars', 'bruin', 'oranje',
+        'oranje', 'geel', 'blauw', 'blauw', 'kiezelgrijs', 'bruin', 'lichtpaars',
+        'groen', 'geel', 'blauw', 'blauw', 'groen', 'blauw', 'groen', 'geel', 'oranje',
+        'bruin', 'oranje', 'oranje'], 'verpakking 30': ['bruin', 'bruin', 'bruin',
+        'bruin', 'oranje', 'geel', 'rood', 'oranje', 'blauw', 'oranje', 'oranje',
+        'bruin', 'blauw', 'geel', 'groen', 'geel', 'blauw', 'blauw', 'blauw', 'rood',
+        'blauw', 'rood'], 'verpakking 31': ['smaragdgroen', 'blauw', 'geel', 'rood',
+        'bruin', 'rood', 'blauw', 'groen', 'groen', 'oranje', 'groen', 'oranje', 'oranje',
+        'groen', 'oranje', 'oranje', 'geel', 'oranje', 'oranje', 'bruin', 'oranje'],
+        'verpakking 32': ['geel', 'groen', 'rood', 'oranje', 'oranje', 'rood', 'oranje',
+        'bruin', 'groen', 'groen', 'oranje', 'oranje', 'rood', 'oranje', 'oranje',
+        'geel', 'oranje', 'oranje', 'blauw', 'blauw', 'geel', 'geel', 'groen'], 'verpakking
+        33': ['groen', 'groen', 'oranje', 'geel', 'bruin', 'oranje', 'oranje', 'wolkenwit',
+        'oranje', 'blauw', 'blauw', 'bruin', 'geel', 'geel', 'rood', 'oranje', 'rood',
+        'blauw', 'blauw', 'lichtpaars', 'bruin', 'bruin', 'blauw', 'oranje'], 'verpakking
+        34': ['groen', 'blauw', 'bruin', 'blauw', 'geel', 'blauw', 'rood', 'blauw',
+        'groen', 'oranje', 'oranje', 'blauw', 'geel', 'geel', 'oranje', 'geel', 'blauw',
+        'bruin', 'bruin', 'oranje', 'bruin', 'groen', 'oranje', 'geel'], 'verpakking
+        35': ['blauw', 'rood', 'blauw', 'blauw', 'blauw', 'groen', 'groen', 'blauw',
+        'groen', 'bruin', 'rood', 'blauw', 'groen', 'rood', 'bruin', 'groen', 'bruin',
+        'bruin', 'rood', 'blauw', 'rood', 'bruin', 'blauw', 'lichtpaars', 'blauw',
+        'bruin'], 'verpakking 36': ['groen', 'oranje', 'oranje', 'blauw', 'intens
+        roze', 'groen', 'oranje', 'groen', 'oranje', 'oranje', 'oranje', 'oranje',
+        'oranje', 'crème', 'oranje', 'rood', 'geel', 'blauw', 'blauw', 'geel', 'bruin'],
+        'verpakking 37': ['smaragdgroen', 'blauw', 'groen', 'bruin', 'groen', 'geel',
+        'bruin', 'oranje', 'rood', 'oranje', 'geel', 'blauw', 'blauw', 'blauw', 'oranje',
+        'rood', 'groen', 'blauw', 'blauw', 'groen', 'bruin', 'oranje', 'rood', 'groen',
+        'groen'], 'verpakking 38': ['blauw', 'blauw', 'oranje', 'groen', 'oranje',
+        'blauw', 'geel', 'blauw', 'oranje', 'rood', 'oranje', 'oranje', 'blauw', 'rood',
+        'rood', 'oranje', 'oranje', 'groen', 'blauw', 'oranje', 'bruin', 'rood', 'oranje',
+        'bruin', 'blauw', 'blauw'], 'verpakking 39': ['bruin', 'blauw', 'geel', 'geel',
+        'bruin', 'bruin', 'intens roze', 'geel', 'oranje', 'oranje', 'oranje', 'groen',
+        'oranje', 'oranje', 'geel', 'geel', 'blauw', 'blauw', 'groen', 'bruin'], 'verpakking
+        40': ['blauw', 'geel', 'oranje', 'rood', 'geel', 'oranje', 'geel', 'blauw',
+        'blauw', 'bruin', 'blauw', 'geel', 'groen', 'oranje', 'blauw', 'geel', 'geel',
+        'blauw', 'smaragdgroen', 'blauw', 'bruin', 'groen'], 'verpakking 41': ['geel',
+        'oranje', 'oranje', 'geel', 'bruin', 'oranje', 'geel', 'geel', 'wolkenwit',
+        'bruin', 'oranje', 'blauw', 'rood', 'geel', 'groen', 'oranje', 'groen', 'blauw',
+        'groen', 'rood', 'lichtpaars', 'groen', 'geel', 'oranje', 'blauw'], 'verpakking
+        42': ['bruin', 'blauw', 'rood', 'smaragdgroen', 'oranje', 'blauw', 'blauw',
+        'blauw', 'geel', 'groen', 'blauw', 'blauw', 'groen', 'oranje', 'oranje', 'blauw',
+        'groen', 'groen', 'blauw', 'bruin', 'geel', 'geel', 'rood', 'geel', 'groen'],
+        'verpakking 43': ['smaragdgroen', 'oranje', 'bruin', 'blauw', 'rood', 'geel',
+        'geel', 'rood', 'geel', 'oranje', 'bruin', 'oranje', 'blauw', 'geel', 'bruin',
+        'oranje', 'geel', 'groen', 'oranje', 'blauw', 'blauw', 'groen', 'blauw', 'groen',
+        'blauw'], 'verpakking 44': ['geel', 'oranje', 'oranje', 'oranje', 'groen',
+        'bruin', 'blauw', 'geel', 'oranje', 'geel', 'geel', 'geel', 'bruin', 'geel',
+        'blauw', 'blauw', 'bruin', 'blauw', 'oranje', 'blauw'], 'verpakking 45': ['bruin',
+        'blauw', 'oranje', 'bruin', 'bruin', 'groen', 'rood', 'lichtpaars', 'oranje',
+        'geel', 'blauw', 'oranje', 'bruin', 'oranje', 'oranje', 'oranje', 'oranje',
+        'groen', 'bruin', 'bruin', 'oranje', 'geel', 'geel', 'blauw'], 'verpakking
+        46': ['geel', 'oranje', 'groen', 'rood', 'kiezelgrijs', 'geel', 'wolkenwit',
+        'oranje', 'rood', 'oranje', 'oranje', 'oranje', 'groen', 'rood', 'geel', 'groen',
+        'crème', 'bruin', 'blauw', 'groen', 'rood', 'oranje', 'blauw', 'groen', 'groen'],
+        'verpakking 47': ['kiezelgrijs', 'oranje', 'oranje', 'rood', 'rood', 'kiezelgrijs',
+        'bruin', 'oranje', 'geel', 'blauw', 'rood', 'bruin', 'groen', 'lichtpaars',
+        'bruin', 'blauw', 'oranje', 'groen', 'groen', 'oranje', 'lichtpaars', 'bruin',
+        'oranje', 'blauw'], 'verpakking 48': ['bruin', 'oranje', 'rood', 'groen',
+        'rood', 'groen', 'blauw', 'blauw', 'blauw', 'bruin', 'oranje', 'bruin', 'blauw',
+        'geel', 'bruin', 'oranje', 'blauw', 'oranje', 'rood', 'rood'], 'verpakking
+        49': ['oranje', 'blauw', 'groen', 'groen', 'geel', 'geel', 'bruin', 'blauw',
+        'bruin', 'oranje', 'groen', 'blauw', 'groen', 'blauw', 'oranje', 'bruin',
+        'groen', 'rood', 'blauw', 'rood', 'bruin', 'groen', 'rood'], 'verpakking 50':
+        ['oranje', 'geel', 'geel', 'bruin', 'oranje', 'geel', 'oranje', 'rood', 'oranje',
+        'oranje', 'rood', 'oranje', 'oranje', 'geel', 'oranje', 'blauw', 'geel', 'rood',
+        'groen', 'blauw'], 'verpakking 51': ['blauw', 'groen', 'oranje', 'oranje',
+        'blauw', 'blauw', 'blauw', 'rood', 'oranje', 'blauw', 'oranje', 'blauw', 'blauw',
+        'bruin', 'blauw', 'blauw', 'oranje', 'geel', 'oranje', 'bruin', 'geel', 'bruin',
+        'blauw', 'groen'], 'verpakking 52': ['lichtpaars', 'oranje', 'bruin', 'groen',
+        'oranje', 'oranje', 'blauw', 'groen', 'oranje', 'blauw', 'blauw', 'groen',
+        'oranje', 'blauw', 'bruin', 'groen', 'oranje', 'oranje', 'groen', 'bruin',
+        'groen', 'oranje', 'groen', 'geel', 'rood'], 'verpakking 53': ['blauw', 'blauw',
+        'blauw', 'rood', 'bruin', 'oranje', 'blauw', 'crème', 'bruin', 'bruin', 'oranje',
+        'oranje', 'oranje', 'oranje', 'blauw', 'oranje', 'oranje', 'blauw', 'blauw',
+        'rood', 'bruin', 'oranje', 'oranje', 'groen', 'geel'], 'verpakking 54': ['bruin',
+        'bruin', 'oranje', 'rood', 'oranje', 'groen', 'geel', 'blauw', 'blauw', 'blauw',
+        'bruin', 'rood', 'bruin', 'geel', 'kiezelgrijs', 'geel', 'blauw', 'geel',
+        'groen', 'blauw', 'groen', 'blauw', 'bruin'], 'verpakking 55': ['blauw', 'blauw',
+        'wolkenwit', 'rood', 'bruin', 'bruin', 'oranje', 'blauw', 'groen', 'blauw',
+        'groen', 'bruin', 'bruin', 'geel', 'oranje', 'geel', 'oranje', 'oranje', 'rood',
+        'blauw', 'oranje', 'oranje', 'oranje', 'oranje', 'blauw', 'groen'], 'verpakking
+        56': ['geel', 'bruin', 'groen', 'oranje', 'geel', 'rood', 'oranje', 'rood',
+        'wolkenwit', 'groen', 'rood', 'smaragdgroen', 'blauw', 'oranje', 'blauw',
+        'blauw', 'rood', 'rood', 'rood', 'blauw', 'groen'], 'verpakking 57': ['geel',
+        'oranje', 'bruin', 'blauw', 'oranje', 'bruin', 'oranje', 'groen', 'geel',
+        'intens roze', 'oranje', 'geel', 'geel', 'geel', 'groen', 'groen', 'oranje',
+        'bruin', 'blauw', 'geel', 'rood', 'blauw', 'blauw', 'blauw'], 'verpakking
+        58': ['rood', 'rood', 'blauw', 'oranje', 'blauw', 'rood', 'rood', 'oranje',
+        'groen', 'geel', 'bruin', 'blauw', 'oranje', 'oranje', 'groen', 'rood', 'bruin',
+        'blauw', 'geel', 'bruin', 'rood', 'geel', 'geel', 'geel'], 'verpakking 59':
+        ['rood', 'geel', 'blauw', 'rood', 'blauw', 'blauw', 'groen', 'rood', 'blauw',
+        'rood', 'kiezelgrijs', 'oranje', 'blauw', 'geel', 'crème', 'bruin', 'oranje',
+        'blauw', 'geel', 'blauw'], 'verpakking 60': ['oranje', 'bruin', 'oranje',
+        'oranje', 'geel', 'blauw', 'oranje', 'lichtpaars', 'oranje', 'oranje', 'bruin',
+        'blauw', 'oranje', 'groen', 'groen', 'geel', 'rood', 'groen', 'geel', 'intens
+        roze', 'geel'], 'verpakking 61': ['groen', 'oranje', 'groen', 'blauw', 'bruin',
+        'geel', 'groen', 'groen', 'geel', 'bruin', 'rood', 'oranje', 'rood', 'blauw',
+        'rood', 'rood', 'bruin', 'blauw', 'oranje', 'blauw', 'groen', 'bruin', 'rood',
+        'oranje', 'rood'], 'verpakking 62': ['blauw', 'rood', 'geel', 'blauw', 'geel',
+        'groen', 'blauw', 'bruin', 'blauw', 'blauw', 'blauw', 'groen', 'blauw', 'blauw',
+        'groen', 'oranje', 'blauw', 'oranje', 'bruin', 'geel', 'oranje', 'oranje',
+        'blauw', 'oranje'], 'verpakking 63': ['blauw', 'intens roze', 'blauw', 'groen',
+        'bruin', 'geel', 'blauw', 'blauw', 'rood', 'blauw', 'rood', 'blauw', 'bruin',
+        'bruin', 'oranje', 'bruin', 'wolkenwit', 'bruin', 'oranje', 'groen', 'groen',
+        'rood', 'bruin'], 'verpakking 64': ['geel', 'geel', 'blauw', 'rood', 'oranje',
+        'geel', 'blauw', 'rood', 'oranje', 'rood', 'rood', 'blauw', 'geel', 'oranje',
+        'rood', 'groen', 'oranje', 'groen', 'oranje', 'groen', 'oranje', 'rood', 'groen',
+        'blauw', 'blauw', 'blauw'], 'verpakking 65': ['blauw', 'groen', 'blauw', 'bruin',
+        'geel', 'bruin', 'geel', 'rood', 'oranje', 'bruin', 'oranje', 'geel', 'geel',
+        'crème', 'bruin', 'rood', 'groen', 'oranje', 'wolkenwit', 'oranje', 'geel',
+        'blauw', 'rood', 'blauw'], 'verpakking 66': ['oranje', 'geel', 'blauw', 'geel',
+        'bruin', 'rood', 'geel', 'geel', 'groen', 'geel', 'rood', 'geel', 'blauw',
+        'groen', 'blauw', 'smaragdgroen', 'groen', 'blauw', 'blauw', 'geel'], 'verpakking
+        67': ['smaragdgroen', 'geel', 'oranje', 'groen', 'bruin', 'geel', 'oranje',
+        'groen', 'geel', 'groen', 'geel', 'geel', 'groen', 'groen', 'oranje', 'blauw',
+        'oranje', 'rood', 'blauw', 'rood', 'oranje', 'blauw', 'blauw', 'groen', 'oranje'],
+        'verpakking 68': ['groen', 'oranje', 'smaragdgroen', 'bruin', 'blauw', 'groen',
+        'oranje', 'oranje', 'geel', 'wolkenwit', 'oranje', 'blauw', 'blauw', 'groen',
+        'groen', 'geel', 'oranje', 'geel', 'wolkenwit', 'groen', 'groen', 'bruin',
+        'blauw', 'oranje', 'groen'], 'verpakking 69': ['rood', 'bruin', 'rood', 'bruin',
+        'blauw', 'oranje', 'kiezelgrijs', 'blauw', 'blauw', 'groen', 'blauw', 'oranje',
+        'blauw', 'groen', 'groen', 'geel', 'blauw', 'geel', 'oranje', 'groen'], 'verpakking
+        70': ['wolkenwit', 'blauw', 'rood', 'rood', 'geel', 'rood', 'blauw', 'bruin',
+        'oranje', 'rood', 'blauw', 'rood', 'wolkenwit', 'oranje', 'oranje', 'oranje',
+        'groen', 'blauw', 'blauw', 'bruin', 'geel', 'oranje', 'blauw', 'oranje'],
+        'verpakking 71': ['blauw', 'groen', 'bruin', 'groen', 'oranje', 'blauw', 'blauw',
+        'rood', 'rood', 'bruin', 'bruin', 'blauw', 'groen', 'oranje', 'blauw', 'groen',
+        'blauw', 'oranje', 'groen', 'bruin'], 'verpakking 72': ['rood', 'crème', 'blauw',
+        'oranje', 'oranje', 'rood', 'rood', 'oranje', 'oranje', 'blauw', 'oranje',
+        'blauw', 'geel', 'blauw', 'geel', 'oranje', 'blauw', 'blauw', 'rood', 'oranje',
+        'wolkenwit', 'bruin'], 'verpakking 73': ['rood', 'groen', 'groen', 'geel',
+        'groen', 'oranje', 'bruin', 'oranje', 'blauw', 'geel', 'geel', 'rood', 'rood',
+        'rood', 'groen', 'bruin', 'groen', 'geel', 'oranje', 'oranje', 'rood', 'oranje'],
+        'verpakking 74': ['oranje', 'oranje', 'rood', 'bruin', 'intens roze', 'oranje',
+        'bruin', 'kiezelgrijs', 'oranje', 'blauw', 'blauw', 'geel', 'blauw', 'rood',
+        'geel', 'bruin', 'oranje', 'lichtpaars', 'blauw', 'oranje', 'blauw'], 'verpakking
+        75': ['geel', 'groen', 'groen', 'bruin', 'geel', 'blauw', 'geel', 'lichtpaars',
+        'oranje', 'geel', 'oranje', 'geel', 'geel', 'bruin', 'blauw', 'blauw', 'blauw',
+        'oranje', 'oranje', 'blauw', 'blauw', 'groen', 'blauw'], 'verpakking 76':
+        ['geel', 'oranje', 'rood', 'geel', 'rood', 'rood', 'blauw', 'blauw', 'oranje',
+        'groen', 'blauw', 'rood', 'groen', 'blauw', 'geel', 'oranje', 'oranje', 'bruin',
+        'blauw', 'oranje', 'oranje', 'bruin', 'geel'], 'verpakking 77': ['blauw',
+        'geel', 'blauw', 'oranje', 'bruin', 'geel', 'rood', 'oranje', 'blauw', 'rood',
+        'oranje', 'bruin', 'blauw', 'crème', 'blauw', 'wolkenwit', 'blauw', 'oranje',
+        'blauw', 'groen'], 'verpakking 78': ['bruin', 'groen', 'smaragdgroen', 'oranje',
+        'groen', 'bruin', 'blauw', 'blauw', 'blauw', 'groen', 'oranje', 'geel', 'geel',
+        'bruin', 'groen', 'rood', 'bruin', 'oranje', 'geel', 'oranje', 'blauw'], 'verpakking
+        79': ['geel', 'blauw', 'oranje', 'rood', 'geel', 'rood', 'blauw', 'rood',
+        'geel', 'oranje', 'blauw', 'groen', 'groen', 'oranje', 'oranje', 'groen',
+        'bruin', 'oranje', 'rood', 'rood', 'oranje'], 'verpakking 80': ['blauw', 'blauw',
+        'blauw', 'rood', 'blauw', 'rood', 'oranje', 'geel', 'groen', 'geel', 'oranje',
+        'geel', 'blauw', 'blauw', 'bruin', 'bruin', 'intens roze', 'geel', 'geel',
+        'groen', 'blauw', 'oranje', 'geel', 'blauw', 'oranje'], 'verpakking 81': ['blauw',
+        'rood', 'oranje', 'blauw', 'groen', 'groen', 'blauw', 'oranje', 'groen', 'rood',
+        'blauw', 'intens roze', 'smaragdgroen', 'oranje', 'smaragdgroen', 'rood',
+        'bruin', 'blauw', 'blauw', 'groen', 'oranje', 'rood', 'rood', 'rood', 'blauw'],
+        'verpakking 82': ['oranje', 'geel', 'blauw', 'oranje', 'geel', 'rood', 'geel',
+        'oranje', 'blauw', 'rood', 'oranje', 'groen', 'blauw', 'oranje', 'rood', 'oranje',
+        'bruin', 'groen', 'blauw', 'oranje', 'bruin'], 'verpakking 83': ['bruin',
+        'rood', 'lichtpaars', 'oranje', 'bruin', 'geel', 'bruin', 'blauw', 'oranje',
+        'intens roze', 'oranje', 'oranje', 'bruin', 'blauw', 'geel', 'rood', 'blauw',
+        'groen', 'blauw', 'oranje', 'lichtpaars', 'oranje'], 'verpakking 84': ['bruin',
+        'geel', 'blauw', 'oranje', 'groen', 'rood', 'rood', 'smaragdgroen', 'oranje',
+        'rood', 'blauw', 'oranje', 'rood', 'blauw', 'geel', 'lichtpaars', 'oranje',
+        'rood', 'bruin', 'groen', 'rood', 'groen', 'blauw', 'bruin', 'wolkenwit',
+        'oranje'], 'verpakking 85': ['oranje', 'blauw', 'oranje', 'geel', 'oranje',
+        'geel', 'rood', 'blauw', 'blauw', 'rood', 'groen', 'bruin', 'bruin', 'blauw',
+        'geel', 'blauw', 'rood', 'groen', 'kiezelgrijs', 'geel', 'oranje', 'rood'],
+        'verpakking 86': ['rood', 'blauw', 'geel', 'groen', 'groen', 'oranje', 'rood',
+        'groen', 'blauw', 'blauw', 'groen', 'blauw', 'crème', 'oranje', 'wolkenwit',
+        'oranje', 'geel', 'wolkenwit', 'rood', 'groen', 'smaragdgroen', 'oranje',
+        'geel', 'lichtpaars', 'geel'], 'verpakking 87': ['blauw', 'geel', 'oranje',
+        'groen', 'geel', 'groen', 'groen', 'geel', 'geel', 'blauw', 'geel', 'geel',
+        'blauw', 'blauw', 'bruin', 'groen', 'blauw', 'oranje', 'rood', 'bruin', 'bruin',
+        'rood']})"
+      return:
+        smaragdgroen: 21
+        rood: 232
+        wolkenwit: 22
+        geel: 281
+        oranje: 440
+        blauw: 437
+        groen: 270
+        bruin: 231
+        crème: 18
+        lichtpaars: 25
+        kiezelgrijs: 15
+        intens roze: 15
