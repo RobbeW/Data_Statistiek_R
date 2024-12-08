@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Monotoon stijgend"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "lijsten"
+  ],
+  "access": "public"
+}
