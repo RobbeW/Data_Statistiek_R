@@ -1,6 +1,6 @@
 def wisselgeld_mogelijk(biljetten):
     kassa = {5: 0,
-             10: 0} # eigenlijk niet nodig
+             10: 0}
     mogelijk = True
     
     i = 0
