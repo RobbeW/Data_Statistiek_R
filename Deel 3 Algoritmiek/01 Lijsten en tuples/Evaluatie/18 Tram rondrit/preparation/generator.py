@@ -32,7 +32,7 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
-ntests = 3
+ntests = 20
 cases = [ 
     ([1, 2, 3, 4], 0, 1),
     ([1, 2, 3, 4], 0, 2),
@@ -40,20 +40,16 @@ cases = [
 ]
 
 while len(cases) < ntests:
-    e = random.randint(0, 2)
-    n = random.randint(10**e, 10**(e+1))
+    e = random.randint(0, 1)
+    n = max(random.randint(10**e, 10**(e+1)), 3)
     
-    connector1 = [random.randint(0,1) for _ in range(n)]
-    connector2 = [(1 - connector1[i]) for i in range(n)]
+    afstanden = [random.randint(1,10) for _ in range(n)]
     
-    print(connector2)
-    if random.randint(0,1) == 0: #change some values
-        N = random.randint(1,n)
-        for _ in range(N):
-            i = random.randint(0,n-1)
-            connector2[i] = 1 - connector2[i]
-    
-    case = (connector1, connector2)
+    start = random.randint(0,n-1)
+    eind = random.randint(0,n-1)
+    while start == eind:
+        eind = random.randint(0,n-1)
+    case = (afstanden, start, eind)
     if case not in cases:
         cases.append(case)
 

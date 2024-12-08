@@ -10,16 +10,87 @@
 
 \tikzset{main/.style={draw=black, circle, color=black, node distance=5cm, inner sep=0pt,minimum size=1pt}}
 
+
+\usetikzlibrary{decorations,fit,fadings}
+\newcounter{tracks}
+% Layers
+\pgfdeclarelayer{sleeper}
+\pgfdeclarelayer{rail}
+\pgfsetlayers{sleeper,rail,main}
+
+\pgfdeclaredecoration{tracks}{final}{%
+	\state{final}{%
+		\pgftransformreset% <- I think is possibly vital.
+		%
+		% Get bounding box of decorated path as a node.
+		% Must do it this way using basic layer.
+		\pgftransformshift{\pgfpointanchor{current path bounding box}{south west}}%
+		\pgfcoordinate{@1}\pgfpointorigin%
+		\pgftransformshift{\pgfpointanchor{current path bounding box}{north east}}%
+		\pgfcoordinate{@2}\pgfpointorigin%
+		\node [fit=(@1)(@2), inner sep=\railsep+2*\railwidth] (@@) {};
+		%
+		% Create a fading for the track.
+		\pgfinterruptpicture%
+		\stepcounter{tracks}% 
+		\begin{tikzfadingfrompicture}[name=tracks\thetracks]
+			\path[draw=transparent!0, line width=\railsep+2*\railwidth,
+			postaction={draw=transparent!100, line width=\railsep}]
+			\pgfextra{\pgfsetpath\pgfdecoratedpath};
+			\useasboundingbox (@@.south west) (@@.north east);
+		\end{tikzfadingfrompicture}%
+		\endpgfinterruptpicture
+		%
+		% Draw sleepers.
+		\ifx\sleeperlayer\emptylayer\else\pgfonlayer{\sleeperlayer}\fi%
+		\draw [draw=\sleepercolor,line width=\sleeperlength, dash pattern=on \sleeperwidth off \sleepersep, every sleeper/.try]
+		\pgfextra{\pgfsetpath\pgfdecoratedpath};
+		\ifx\sleeperlayer\emptylayer\else\endpgfonlayer\fi%
+		%
+		% Draw the track
+		\ifx\raillayer\emptylayer\else\pgfonlayer{\raillayer}\fi%
+		\fill [path fading=tracks\thetracks, fit fading=false,
+		fading transform={shift=(@@.center)}, fill=\railcolor]
+		(@@.south west) rectangle (@@.north east);
+		\ifx\raillayer\emptylayer\else\endpgfonlayer\fi%
+	}
+}
+\def\emptylayer{}
+\tikzset{%
+	track/.style={
+		decoration=tracks, decorate
+	},
+	decorations/.cd,
+	rail sep/.store in=\railsep,
+	rail width/.store in=\railwidth,
+	rail color/.store in=\railcolor,
+	rail layer/.store in=\raillayer,
+	sleeper sep/.store in=\sleepersep,
+	sleeper width/.store in=\sleeperwidth,
+	sleeper length/.store in=\sleeperlength,
+	sleeper color/.store in=\sleepercolor,
+	sleeper layer/.store in=\sleeperlayer,
+	rail sep=4pt,
+	rail width=1pt,
+	rail color=black,
+	rail layer=rail,
+	sleeper sep=6pt,
+	sleeper width=1pt,
+	sleeper length=10pt,
+	sleeper color=gray,
+	sleeper layer=sleeper,
+}
+
 \begin{document}
 	\begin{tikzpicture}[main, line join=bevel]
-		\node[thick, main] (A) at (0,0) {\parbox{1.75cm}{\centering \texttt{0}\\starthalte}}; 
-		\node[thick, main] (B) [below right of=A]  {\parbox{1.75cm}{\centering \texttt{1}}}; 
-		\node[thick, main] (C) [below left of=B] {\parbox{1.75cm}{\centering \texttt{2}}}; 
-		\node[thick, main] (D) [above left of=C] {\parbox{1.75cm}{\centering \texttt{3}\\ eindhalte}}; 
+		\node[thick, main] (A) at (0,0) {\parbox{1.75cm}{\centering halte \texttt{0}\\starthalte}}; 
+		\node[thick, main] (B) [below right of=A]  {\parbox{1.75cm}{\centering halte \texttt{1}}}; 
+		\node[thick, main] (C) [below left of=B] {\parbox{1.75cm}{\centering halte \texttt{2}}}; 
+		\node[thick, main] (D) [above left of=C] {\parbox{1.75cm}{\centering halte \texttt{3}\\ eindhalte}}; 
 		
-		\draw [thick, main] (A) edge[bend left, double, double distance = 2pt] node [above right, xshift=0.25cm, yshift=0.25cm] {\textbf{1}} (B); 
-		\draw [thick, main] (B) edge[bend left, double, double distance = 2pt] node [below right, xshift=0.25cm, yshift=-0.25cm] {\textbf{2}} (C); 
-		\draw [thick, main] (C) edge[bend left, double, double distance = 2pt] node [above left, xshift=-0.25cm, yshift=-0.25cm] {\textbf{3}} (D); 
-		\draw [thick, main, BurntOrange] (D) edge[bend left, double, double distance = 2pt] node [above left, xshift=-0.25cm, yshift=0.25cm] {\textbf{4}} (A); 
+		\draw [thick, main] (A) edge[bend left, track] node [above right, xshift=0.25cm, yshift=0.25cm] {\textbf{1}} (B); 
+		\draw [thick, main] (B) edge[bend left, track] node [below right, xshift=0.25cm, yshift=-0.25cm] {\textbf{2}} (C); 
+		\draw [thick, main] (C) edge[bend left, track] node [above left, xshift=-0.25cm, yshift=-0.25cm] {\textbf{3}} (D); 
+		\draw [thick, main, BurntOrange] (D) edge[bend left, track] node [above left, xshift=-0.25cm, yshift=0.25cm] {\textbf{4}} (A); 
 	\end{tikzpicture}
 \end{document}

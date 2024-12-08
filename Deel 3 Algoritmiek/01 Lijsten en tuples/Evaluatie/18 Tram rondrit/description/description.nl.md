@@ -17,9 +17,9 @@ Indien de afstand tussen de eerste twee haltes 1, tussen de volgende twee haltes
 
 Dit stelt onderstaande situatie voor:
 
-![Voorbeeld 1.](media/image1.png "Voorbeeld 1."){:data-caption="Voorbeeld 1." .light-only width="40%"}
+![Voorbeeld 1.](media/image1.png "Voorbeeld 1."){:data-caption="Voorbeeld 1." .light-only width="35%"}
 
-![Voorbeeld 1.](media/image1_dark.png "Voorbeeld 1."){:data-caption="Voorbeeld 1." .dark-only width="40%"}
+![Voorbeeld 1.](media/image1_dark.png "Voorbeeld 1."){:data-caption="Voorbeeld 1." .dark-only width="35%"}
 
 Je merkt meteen dat de kortste afstand tussen begin- en eindhalte 1 bedraagd.
 
@@ -30,9 +30,9 @@ Je merkt meteen dat de kortste afstand tussen begin- en eindhalte 1 bedraagd.
 ```
 
 Dit stelt onderstaande situatie voor:
-![Voorbeeld 2.](media/image2.png "Voorbeeld 2."){:data-caption="Voorbeeld 2." .light-only width="40%"}
+![Voorbeeld 2.](media/image2.png "Voorbeeld 2."){:data-caption="Voorbeeld 2." .light-only width="35%"}
 
-![Voorbeeld 2.](media/image2_dark.png "Voorbeeld 2."){:data-caption="Voorbeeld 2." .dark-only width="40%"}
+![Voorbeeld 2.](media/image2_dark.png "Voorbeeld 2."){:data-caption="Voorbeeld 2." .dark-only width="35%"}
 
 
 ```python
@@ -41,8 +41,8 @@ Dit stelt onderstaande situatie voor:
 ```
 
 Dit stelt onderstaande situatie voor:
-![Voorbeeld 3.](media/image3.png "Voorbeeld 3."){:data-caption="Voorbeeld 3." .light-only width="40%"}
+![Voorbeeld 3.](media/image3.png "Voorbeeld 3."){:data-caption="Voorbeeld 3." .light-only width="35%"}
 
-![Voorbeeld 3.](media/image3_dark.png "Voorbeeld 3."){:data-caption="Voorbeeld 3." .dark-only width="40%"}
+![Voorbeeld 3.](media/image3_dark.png "Voorbeeld 3."){:data-caption="Voorbeeld 3." .dark-only width="35%"}
 
 De kortste route wordt nu gegeven door in de andere richting te reizen.
