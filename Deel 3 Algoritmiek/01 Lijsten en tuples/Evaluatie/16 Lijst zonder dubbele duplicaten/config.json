@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Lijst zonder dubbele duplicaten"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "lijsten"
+  ],
+  "access": "public"
+}
