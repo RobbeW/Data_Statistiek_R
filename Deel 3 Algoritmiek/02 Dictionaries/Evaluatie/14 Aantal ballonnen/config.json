@@ -12,5 +12,9 @@
     "dict",
     "evaluatie"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "9ziT9k9vzV8wecCZ2H2YRRYMhMey-2QDCnjNIrwespFtCautSqkseTijqzmZftjH",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
