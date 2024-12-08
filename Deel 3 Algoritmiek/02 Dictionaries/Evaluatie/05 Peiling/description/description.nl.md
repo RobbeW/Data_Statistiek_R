@@ -15,6 +15,12 @@ Bestudeer grondig onderstaand voorbeeld:
 #### Voorbeelden
 
 ```python
+>>> voorspelling({"S&D": 150,"Renew": 70, "EPP": 190, "ECR": 60}, ["EPP", "ECR"])
+"Correcte voorspelling"
+```
+Er zijn in het totaal 470 zetels. Een coalitie van meer dan 235 volstaat dus. Het aantal zelels dat `"EPP"` en `"ECR"` samen behalen is 250 wat dus ruimschoots volstaat.
+
+```python
 >>> voorspelling({"The Left": 46, "S&D": 136, "Greens/EFA": 53, "Renew": 77, "EPP": 188, "ECR": 78, "Patriots": 84, "ESN": 25, "NI": 32},
                  ["EPP", "S&D", "ECR"])
 "Correcte voorspelling"
@@ -25,3 +31,5 @@ Bestudeer grondig onderstaand voorbeeld:
                  ["The Left", "S&D"])
 "Foutieve voorspelling"
 ```
+
+
