@@ -1,6 +1,6 @@
 In de M&M store te Londen kan je zelf je verpakkingen M&M's samenstellen. Eet je graag rode, maar geen blauwe M&M's, dan kies je dat daar gewoon.
 
-!["Foto By John Fowler op WikiMedia Commons."](media/store.jpeg "Foto By John Fowler op WikiMedia Commons."){:data-caption="Foto By John Fowler op WikiMedia Commons." width="40%"}
+!["Foto By John Fowler op WikiMedia Commons."](media/store.jpeg "Foto By John Fowler op WikiMedia Commons."){:data-caption="Foto By John Fowler op WikiMedia Commons." width="75%"}
 
 Stel dat je met je vrienden telkens een verpakking vult, hoe vaak wordt elke kleur dan gekozen?
 
