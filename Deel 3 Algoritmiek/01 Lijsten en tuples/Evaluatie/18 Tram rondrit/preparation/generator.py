@@ -32,7 +32,7 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
-ntests = 20
+ntests = 25
 cases = [ 
     ([1, 2, 3, 4], 0, 1),
     ([1, 2, 3, 4], 0, 2),
@@ -40,7 +40,7 @@ cases = [
 ]
 
 while len(cases) < ntests:
-    e = random.randint(0, 1)
+    e = random.randint(0, 2)
     n = max(random.randint(10**e, 10**(e+1)), 3)
     
     afstanden = [random.randint(1,10) for _ in range(n)]

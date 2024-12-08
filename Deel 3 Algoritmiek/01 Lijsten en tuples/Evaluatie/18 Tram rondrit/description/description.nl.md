@@ -1,4 +1,4 @@
-Een tram heeft `n` haltes die genummerd zijn van `0` tot en met `n - 1`. De haltes vormen een cirkel zodat de tram na de laatste halte meteen naar de eerste halte door kan sporen. Op dit cirkelvormig tramnetwerk rijdt in **beiden richtingen** een tram.
+Een tram heeft `n` haltes die genummerd zijn van `0` tot en met `n - 1`. Het tramnetwerk vormt een cirkel zodat de tram na de laatste halte meteen naar de eerste halte door kan sporen. Op dit cirkelvormig tramnetwerk rijdt in **beiden richtingen** een tram.
 
 ## Gevraagd
 
@@ -21,7 +21,7 @@ Dit stelt onderstaande situatie voor:
 
 ![Voorbeeld 1.](media/image1_dark.png "Voorbeeld 1."){:data-caption="Voorbeeld 1." .dark-only width="35%"}
 
-Je merkt meteen dat de kortste afstand tussen begin- en eindhalte 1 bedraagd.
+Je merkt meteen dat de kortste afstand tussen begin- en eindhalte 1 bedraagt.
 
 
 ```python
