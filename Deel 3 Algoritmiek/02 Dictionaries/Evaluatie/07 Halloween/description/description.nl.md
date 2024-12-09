@@ -4,7 +4,7 @@ Tijdens Halloween worden vaak verkleedwedstrijden gehouden. Een lokale organisat
 
 De jury is echter lui en kiest in elke categorie **willekeurig een winnaar**.
 
-Dit jaar wil je je winstkansen optimaliseren. Je hebt op voorhand aan al je vrienden gevraagd hoe ze zich gaan verkleden, kan je op basis van die info bepalen welk(e) kostuumtype(s) je kansen maximaliseren?
+Dit jaar wil je je kans op een prijs vergroten door de concurrentie in te schatten. Je hebt op voorhand aan al je vrienden gevraagd hoe ze zich gaan verkleden. Uit welke categorie van kostuums kan je vervolgens kiezen zodat je het meest kans maakt op een prijs?
 
 ## Gevraagd
 Schrijf een functie `halloween(bevraging)` dat gegeven een lijst met kostuums de kostuumtypes retourneert die je kansen maximaliseert. Je weet dat voor elke categorie die beoordeeld zal worden, er minstens één vriend zich zo zal verkleden. De kostuumcategorieën worden in een lijst geretourneerd.
@@ -25,6 +25,13 @@ Er zijn maar liefst vijf vrienden die zich als *zombie* gaan verkleden, vandaar 
 ["zombie"]
 ```
 Het is logisch dat je je als *zombie* gaat verkleden, twee vrienden verkleden zich immers al als *spook*.
+
+
+```python
+>>> halloween(["mummie", "vampier", "spook"])
+["mummie", "vampier", "spook"]
+```
+Of je je nu verkleedt als mummie, vampier of spook, je winstkansen blijven hetzelfde.
 
 
 {: .callout.callout-secondary}
