@@ -1,3 +1,4 @@
+import collections
 from evaluation_utils import EvaluationResult, ConvertedOracleContext
 
 def pretty_print_dict(dictio):
@@ -6,7 +7,7 @@ def pretty_print_dict(dictio):
     for key, value in dictio.items():
         i += 1
         txt += f"{key} : {repr(value)}"
-        if i != len(dictio):
+        if i != len(dictio) - 1:
             txt += ",\n"
             txt += " "
     txt += "}"
@@ -16,7 +17,7 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
     # expected as defined in the value field of the test suit
     # actual as given by running the file
     
-    if isinstance(context.actual, dict):
+    if isinstance(context.actual, collections.Mapping):
         value = context.expected == context.actual
     else:
         value = False
@@ -25,7 +26,5 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
     readable_actual = pretty_print_dict(context.actual)
     
     obj = EvaluationResult(
-        result = value,
-        readable_expected = readable_expected,
-        readable_actual = readable_actual)
+        result = value)
     return obj
