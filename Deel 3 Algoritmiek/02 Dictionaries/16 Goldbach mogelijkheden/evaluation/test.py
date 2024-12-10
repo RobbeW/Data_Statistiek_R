@@ -1,4 +1,3 @@
-import collections
 from evaluation_utils import EvaluationResult, ConvertedOracleContext
 
 def pretty_print_dict(dictio):
@@ -17,7 +16,7 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
     # expected as defined in the value field of the test suit
     # actual as given by running the file
     
-    if isinstance(context.actual, collections.Mapping):
+    if isinstance(context.actual, dict):
         value = context.expected == context.actual
     else:
         value = False
