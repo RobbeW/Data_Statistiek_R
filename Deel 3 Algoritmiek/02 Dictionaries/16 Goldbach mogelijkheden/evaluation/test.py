@@ -3,7 +3,7 @@ from evaluation_utils import EvaluationResult, ConvertedOracleContext
 def pretty_print_dict(dictio):
     txt = "\{"
     i = 1
-    for key, value in dictio:
+    for key, value in dictio.items():
         i += 1
         txt += f"{key} : {repr(value)}"
         if i != len(dictio):
