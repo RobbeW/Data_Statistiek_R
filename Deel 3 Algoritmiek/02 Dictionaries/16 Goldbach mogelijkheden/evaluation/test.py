@@ -17,7 +17,7 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
     # actual as given by running the file
     
     if isinstance(context.actual, dict):
-        value = context.expected == context.actual
+        value = dict(context.expected) == dict(context.actual)
     else:
         value = False
     
