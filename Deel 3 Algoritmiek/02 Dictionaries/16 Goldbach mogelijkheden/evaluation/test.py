@@ -1,14 +1,15 @@
 from evaluation_utils import EvaluationResult, ConvertedOracleContext
 
 def pretty_print_dict(dictio):
-    txt = "\{"
+    txt = "{"
     i = 1
     for key, value in dictio.items():
         i += 1
         txt += f"{key} : {repr(value)}"
         if i != len(dictio):
             txt += ",\n"
-        txt += "\}"
+            txt += " "
+    txt += "}"
     return txt
 
 def check_function(context: ConvertedOracleContext) -> EvaluationResult:
