@@ -166,8 +166,8 @@
     - expression: aantal_ballonnen("aandeelhoudersbelangen")
       return: 1
   - testcases:
-    - expression: aantal_ballonnen("aanmerkelijkbelanghouder")
-      return: 1
+    - expression: aantal_ballonnen("ballonballonballonballonballonballonballonballonballonballon")
+      return: 10
   - testcases:
     - expression: aantal_ballonnen("aanmerkelijkbelanghouders")
       return: 1
