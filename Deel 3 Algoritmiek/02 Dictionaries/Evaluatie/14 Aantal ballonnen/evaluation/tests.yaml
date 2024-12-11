@@ -1,6 +1,9 @@
 - tab: Feedback
   contexts:
   - testcases:
+    - expression: aantal_ballonnen("circus")
+      return: 0
+  - testcases:
     - expression: aantal_ballonnen("ballon")
       return: 1
   - testcases:
