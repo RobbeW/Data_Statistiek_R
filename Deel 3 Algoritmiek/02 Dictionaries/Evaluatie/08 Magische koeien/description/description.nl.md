@@ -5,7 +5,7 @@ De *Enlightened Dairy Co.* is een melkveebedrijf met magische koeien. Elke morge
 De *Enlightened Dairy Co.* heeft een onbeperkt aantal weilanden tot zijn beschikking, waarvan de maximale capaciteit telkens C is. Op elk weiland, om middernacht, verdubbelt het aantal koeien. Om te voldoen aan de regels van de overheid controleert de landbouwer 's ochtens elk weiland en onderneemt telkens één van de volgende acties:
 
 - indien het aantal koeien in de wei nog steeds voldoet aan de regels, dan gebeurt er niets;
-- indien het aantal koeien in de wei (voorgesteld door D) meer is dan de toegelaten capaciteit C, dan blijven $$\mathsf{\left \lceil \frac{d}{2} \right \rceil}$$ op het veld, terwijl $$\mathsf{\left \lfloor \frac{d}{2} \right \rfloor}$$ naar een nieuwe wei verhuizen. Hierbij stellen $$\lceil \quad\rceil$$ en $$\lfloor\quad \rfloor$$ de `math.ceil()` en `math.floor()` operatoren voor. (afronden naar boven en naar beneden)
+- indien het aantal koeien in de wei (voorgesteld door D) meer is dan de toegelaten capaciteit C, dan blijft de helft op het veld, terwijl de andere helft naar een nieuwe wei verhuizen.
 
 Op een willekeurige dag kan de overheid langskomen voor een controle. Deze persoon wil op voorhand weten hoeveel weilanden er gecontroleerd moeten worden, dat zal jouw programma berekenen.
 
