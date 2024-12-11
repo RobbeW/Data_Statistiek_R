@@ -17,7 +17,7 @@
       return: true
   - testcases:
     - expression: is_monotoon([3, 4, 4, 4, 4, 3])
-      return: fakse
+      return: false
   - testcases:
     - expression: is_monotoon([3, 4, 2, 2, 4, 3])
       return: false
