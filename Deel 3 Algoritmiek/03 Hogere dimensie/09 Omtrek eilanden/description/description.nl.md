@@ -16,7 +16,7 @@ Schrijf een functie `omtrek_eiland(kaart)` dat gegeven een rooster als twee dime
 16
 ```
 De kaart staat hieronder getekend als een figuur. De omtrek van het eiland bedraagt 16 eenheden.
-![Een eerste eiland.](media/image1.png "Een eerste eiland."){:data-caption="Een eerste eiland." width="30%"}
+![Een eerste eiland.](media/image1.png "Een eerste eiland."){:data-caption="Een eerste eiland." width="20%"}
 
 ```python
 >>> omtrek_eiland([[1,0]])

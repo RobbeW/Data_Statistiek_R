@@ -33,17 +33,43 @@ spec.loader.exec_module(module)
 
 # generate test data
 ntests = 2
-cases = [[[0,1,0,0], [1,1,1,0], [0,1,0,0], [1,1,0,0]],
-         [[1,0]]]
+cases = [[[0,1,0,0], 
+          [1,1,1,0], 
+          [0,1,0,0], 
+          [1,1,0,0]],
+         [[1,1,1,1], 
+          [1,1,1,1], 
+          [1,1,1,1], 
+          [1,1,1,1]],
+         [[0,1,0,1,0,1], 
+          [0,1,1,1,1,1],
+          [0,1,0,1,0,1],
+          [0,1,0,1,0,1]],
+         [[1,0]],
+         [[1]],
+         [[0,0,0,0,0,0], 
+          [0,1,1,1,1,0],
+          [0,1,1,1,1,0],
+          [0,0,0,0,0,0]],
+         [[0,1,0], 
+          [1,1,1],
+          [0,1,0],
+          [1,1,1],
+          [1,1,1],
+          [0,1,0],
+          [1,1,1],
+          [1,1,0]]]
 
 while len(cases) < ntests:
-    R = random.randint(2, 10)
-    C = random.randint(2, 10)
+    R = random.randint(1, 10)
+    C = random.randint(1, 10)
     
-    veld = []
+    kaart = []
     
-    if veld not in cases:
-        cases.append(veld)
+    # automatic generator not yet implemented
+    
+    if kaart not in cases:
+        cases.append(kaart)
     
 cases = sorted(cases, key = lambda x: len(x)*len(x[0]))
 

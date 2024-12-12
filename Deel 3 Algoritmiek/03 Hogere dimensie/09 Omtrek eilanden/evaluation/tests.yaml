@@ -1,9 +1,28 @@
 - tab: Feedback
   contexts:
   - testcases:
+    - expression: omtrek_eiland([[1]])
+      return: 4
+  - testcases:
     - expression: omtrek_eiland([[1, 0]])
       return: 4
   - testcases:
     - expression: omtrek_eiland([[0, 1, 0, 0], [1, 1, 1, 0], [0, 1, 0, 0], [1, 1,
         0, 0]])
       return: 16
+  - testcases:
+    - expression: omtrek_eiland([[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1,
+        1, 1]])
+      return: 16
+  - testcases:
+    - expression: omtrek_eiland([[0, 1, 0, 1, 0, 1], [0, 1, 1, 1, 1, 1], [0, 1, 0,
+        1, 0, 1], [0, 1, 0, 1, 0, 1]])
+      return: 30
+  - testcases:
+    - expression: omtrek_eiland([[0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 1, 0], [0, 1, 1,
+        1, 1, 0], [0, 0, 0, 0, 0, 0]])
+      return: 12
+  - testcases:
+    - expression: omtrek_eiland([[0, 1, 0], [1, 1, 1], [0, 1, 0], [1, 1, 1], [1, 1,
+        1], [0, 1, 0], [1, 1, 1], [1, 1, 0]])
+      return: 30
