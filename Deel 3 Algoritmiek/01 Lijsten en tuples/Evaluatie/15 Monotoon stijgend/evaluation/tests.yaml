@@ -16,6 +16,12 @@
     - expression: is_monotoon([3, 3, 3, 3, 3, 2])
       return: true
   - testcases:
+    - expression: is_monotoon([3, 4, 4, 4, 4, 3])
+      return: false
+  - testcases:
+    - expression: is_monotoon([3, 4, 2, 2, 4, 3])
+      return: false
+  - testcases:
     - expression: is_monotoon([1, 3, 3, 3, 3, 3])
       return: true
   - testcases:
