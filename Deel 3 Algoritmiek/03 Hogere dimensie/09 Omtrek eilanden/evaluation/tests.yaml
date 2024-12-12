@@ -1,0 +1,9 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: omtrek_eiland([[1, 0]])
+      return: 4
+  - testcases:
+    - expression: omtrek_eiland([[0, 1, 0, 0], [1, 1, 1, 0], [0, 1, 0, 0], [1, 1,
+        0, 0]])
+      return: 16
