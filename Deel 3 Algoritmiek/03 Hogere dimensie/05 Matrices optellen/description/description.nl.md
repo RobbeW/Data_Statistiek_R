@@ -3,7 +3,7 @@ Schrijf een functie `som(matrix1, matrix2)` die gegeven twee matrices met dezelf
 
 #### Voorbeeld
 
-```
+```python
 >>> som([[1, 2], [8, 9]], [[0, -2], [-7, 1]])
 [[1, 0],
  [1, 10]]
