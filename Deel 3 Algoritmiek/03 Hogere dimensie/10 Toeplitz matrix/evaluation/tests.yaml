@@ -1,0 +1,11 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: is_toeplitz([[1, 2, 3, 4], [5, 1, 2, 3], [9, 5, 1, 2]])
+      return: true
+  - testcases:
+    - expression: is_toeplitz([[1, 2, 3, 4], [5, 1, 2, 3], [9, 4, 1, 2]])
+      return: false
+  - testcases:
+    - expression: is_toeplitz([[3, 3, 3, 3], [3, 1, 3, 3], [3, 3, 3, 3]])
+      return: false
