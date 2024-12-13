@@ -1,6 +1,7 @@
 Een matrix is een Toeplitz-matrix indien elke diagonaal van linksboven naar rechtsonder uit identieke elementen bestaat.
 
 Onderstaande matrix is bijvoorbeeld een Toeplitz-matrix.
+
 $$
 \mathsf{\begin{pmatrix}\sf 1 & \sf 2 & \sf 3 & \sf 4\\ \sf 5 & \sf 1 & \sf 2& \sf 3\\ \sf 9& \sf 5& \sf 1 & \sf 2\end{pmatrix}}
 $$
