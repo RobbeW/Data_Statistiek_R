@@ -3,7 +3,7 @@ Schrijf een functie `transponeer(matrix)` die een gegeven matrix gaat **transpon
 
 #### Voorbeeld
 
-```
+```python
 >>> transponeer([[1, 2],
                  [8, 9]])
 [[1, 8],
