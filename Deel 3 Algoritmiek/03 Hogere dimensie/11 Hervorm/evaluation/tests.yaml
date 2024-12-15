@@ -34,6 +34,9 @@
             - 4
   - testcases:
     - expression: hervorm([[1, 2], [3, 4]], 2, 2)
+      description:
+        description: "hervorm([[1, 2],\n         [3, 4]], 2, 2)"
+        format: "code"
       return: !oracle
         oracle: "custom_check"
         file: "test.py"
@@ -56,6 +59,9 @@
             - 4
   - testcases:
     - expression: hervorm([[4], [1], [10], [6]], 1, 4)
+      description:
+        description: "hervorm([[4],\n         [1],\n         [10],\n         [6]], 1, 4)"
+        format: "code"
       return: !oracle
         oracle: "custom_check"
         file: "test.py"
