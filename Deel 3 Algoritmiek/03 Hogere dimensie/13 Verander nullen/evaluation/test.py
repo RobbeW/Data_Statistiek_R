@@ -10,6 +10,7 @@ def find_longest(matrix):
     return longest
 
 def prettify_matrix_num(matrix):
+    # quick and dirty but pretty(ier)
     dist = find_longest(matrix)
     
     txt = "["
