@@ -1,0 +1,77 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: oxo([['X', ' ', ' '], [' ', 'X', ' '], ['O', 'O', 'X']])
+      return: Speler X wint.
+  - testcases:
+    - expression: oxo([['X', 'X', 'O'], ['O', 'O', 'X'], ['X', 'O', 'X']])
+      return: Gelijkspel.
+  - testcases:
+    - expression: oxo([['X', ' ', 'O'], ['X', 'O', ' '], ['O', ' ', 'X']])
+      return: Gelijkspel.
+  - testcases:
+    - expression: oxo([[' ', 'O', 'O'], ['O', ' ', 'X'], ['X', 'X', 'X']])
+      return: Speler X wint.
+  - testcases:
+    - expression: oxo([['O', 'X', 'X'], ['O', 'X', 'O'], ['O', 'X', 'X']])
+      return: Speler X wint.
+  - testcases:
+    - expression: oxo([['X', 'O', 'O'], ['X', 'O', 'X'], ['X', 'O', 'X']])
+      return: Speler X wint.
+  - testcases:
+    - expression: oxo([['X', ' ', 'X'], ['X', 'O', 'O'], ['X', 'O', ' ']])
+      return: Speler X wint.
+  - testcases:
+    - expression: oxo([['X', 'O', 'X'], ['X', 'O', 'O'], ['O', 'X', 'X']])
+      return: Gelijkspel.
+  - testcases:
+    - expression: oxo([['X', 'X', ' '], ['O', ' ', 'X'], ['O', 'O', 'X']])
+      return: Gelijkspel.
+  - testcases:
+    - expression: oxo([['O', 'O', 'X'], ['X', ' ', 'O'], ['X', 'X', ' ']])
+      return: Gelijkspel.
+  - testcases:
+    - expression: oxo([[' ', 'O', 'O'], ['X', ' ', 'O'], ['X', 'X', 'X']])
+      return: Speler X wint.
+  - testcases:
+    - expression: oxo([['O', 'O', 'O'], ['X', ' ', 'X'], ['X', ' ', ' ']])
+      return: Speler O wint.
+  - testcases:
+    - expression: oxo([[' ', ' ', 'X'], [' ', 'X', 'X'], ['O', 'O', 'O']])
+      return: Speler O wint.
+  - testcases:
+    - expression: oxo([['O', 'X', 'O'], ['X', ' ', 'X'], ['O', ' ', 'X']])
+      return: Gelijkspel.
+  - testcases:
+    - expression: oxo([['X', 'X', ' '], ['X', 'X', 'O'], ['O', ' ', 'O']])
+      return: Gelijkspel.
+  - testcases:
+    - expression: oxo([['X', 'O', 'X'], ['O', 'X', 'X'], ['O', 'X', 'O']])
+      return: Gelijkspel.
+  - testcases:
+    - expression: oxo([['X', 'X', 'X'], ['O', 'O', ' '], ['X', 'O', ' ']])
+      return: Speler X wint.
+  - testcases:
+    - expression: oxo([['O', 'X', 'O'], ['O', ' ', 'X'], ['X', ' ', 'X']])
+      return: Gelijkspel.
+  - testcases:
+    - expression: oxo([['O', ' ', 'X'], ['O', 'X', 'X'], ['X', 'O', ' ']])
+      return: Speler X wint.
+  - testcases:
+    - expression: oxo([[' ', 'O', 'O'], ['X', ' ', 'X'], ['O', 'X', 'X']])
+      return: Gelijkspel.
+  - testcases:
+    - expression: oxo([['O', 'O', 'O'], ['X', ' ', ' '], ['X', 'X', ' ']])
+      return: Speler O wint.
+  - testcases:
+    - expression: oxo([['O', ' ', ' '], ['X', 'X', 'X'], ['X', 'O', 'O']])
+      return: Speler X wint.
+  - testcases:
+    - expression: oxo([[' ', ' ', 'O'], ['X', 'X', 'X'], ['O', 'O', 'X']])
+      return: Speler X wint.
+  - testcases:
+    - expression: oxo([['O', 'X', 'X'], ['X', 'O', 'X'], [' ', 'O', ' ']])
+      return: Gelijkspel.
+  - testcases:
+    - expression: oxo([['X', ' ', 'O'], ['X', 'X', ' '], ['O', 'O', 'X']])
+      return: Speler X wint.
