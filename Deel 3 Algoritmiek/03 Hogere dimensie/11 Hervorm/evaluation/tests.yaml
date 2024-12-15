@@ -20,6 +20,8 @@
           - - 3
   - testcases:
     - expression: hervorm([[1, 2], [3, 4]], 1, 4)
+      description: "hervorm([[1, 2],\n         [3, 4]], 1, 4)"
+      format: "console"
       return: !oracle
         oracle: "custom_check"
         file: "test.py"
