@@ -19,6 +19,11 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
     obj = EvaluationResult(
         result = value,
         readable_actual = readable_actual,
-        readable_expected = readable_expected
+        readable_expected = readable_expected,
+        messages = [Message(
+            description = "Testje, kan je dit lezen?",
+            format = "html",
+            permission = "student"
+        )]
         )
     return obj
