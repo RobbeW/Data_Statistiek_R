@@ -1,8 +1,30 @@
 from evaluation_utils import EvaluationResult, ConvertedOracleContext, Message
 
-def prettify_matrix(data):
+def find_longest(matrix):
+    longest = 0
+    for r in range(len(matrix)):
+        for c in range(len(matrix[0])):
+            el = str(matrix[r][c])
+            if len(el) > longest:
+                longest = len(el)
+    return longest
+
+def prettify_matrix_num(matrix):
+    dist = find_longest(matrix)
     
-    return data
+    txt = "["
+    for r in range(len(matrix)):
+        txt += "["
+        for c in range(len(matrix[0])):
+            el = matrix[r][c]
+            txt += f"{el:>dist}"
+            if c < len(matrix[0]) - 1:
+                txt += ", "
+        txt += "]"
+        if r < len(matrix) - 1:
+            txt += ",\n"
+    txt += "]"
+    return txt
     
 
 def check_function(context: ConvertedOracleContext) -> EvaluationResult:
@@ -14,16 +36,11 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
         value = False
 
 
-    readable_expected = "test"
+    readable_expected = prettify_matrix_num(list(context.expected))
     readable_actual = "test"
     obj = EvaluationResult(
         result = value,
         readable_actual = readable_actual,
-        readable_expected = readable_expected,
-        messages = [Message(
-            description = "Testje, kan je dit lezen?",
-            format = "html",
-            permission = "student"
-        )]
+        readable_expected = readable_expected
         )
     return obj
