@@ -14,10 +14,12 @@ def prettify_matrix_num(matrix):
     
     txt = "["
     for r in range(len(matrix)):
+        if r > 0:
+            txt += " "
         txt += "["
         for c in range(len(matrix[0])):
             el = matrix[r][c]
-            txt += f"{el:>dist}"
+            txt += f"{el:>{dist}}"
             if c < len(matrix[0]) - 1:
                 txt += ", "
         txt += "]"
