@@ -40,7 +40,7 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
 
 
     readable_expected = prettify_matrix_num(list(context.expected))
-    readable_actual = "test"
+    readable_actual = prettify_matrix_num(list(context.actual))
     obj = EvaluationResult(
         result = value,
         readable_actual = readable_actual,
