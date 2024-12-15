@@ -22,7 +22,7 @@
     - expression: hervorm([[1, 2], [3, 4]], 1, 4)
       description:
         description: "hervorm([[1, 2],\n         [3, 4]], 1, 4)"
-        format: "console"
+        format: "code"
       return: !oracle
         oracle: "custom_check"
         file: "test.py"
