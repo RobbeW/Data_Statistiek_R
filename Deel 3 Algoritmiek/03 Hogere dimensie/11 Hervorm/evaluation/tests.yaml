@@ -22,7 +22,7 @@
     - expression: hervorm([[1, 2], [3, 4]], 1, 4)
       description:
         description: "hervorm([[1, 2],\n         [3, 4]], 1, 4)"
-        format: "code"
+        format: "python"
       return: !oracle
         oracle: "custom_check"
         file: "test.py"
@@ -36,7 +36,7 @@
     - expression: hervorm([[1, 2], [3, 4]], 2, 2)
       description:
         description: "hervorm([[1, 2],\n         [3, 4]], 2, 2)"
-        format: "code"
+        format: "python"
       return: !oracle
         oracle: "custom_check"
         file: "test.py"
@@ -61,7 +61,7 @@
     - expression: hervorm([[4], [1], [10], [6]], 1, 4)
       description:
         description: "hervorm([[4],\n         [1],\n         [10],\n         [6]], 1, 4)"
-        format: "code"
+        format: "python"
       return: !oracle
         oracle: "custom_check"
         file: "test.py"
@@ -91,7 +91,7 @@
     - expression: hervorm([[5, 0], [6, 4], [8, 10], [4, 6], [2, 0]], 2, 5)
       description:
         description: "hervorm([[5,  0],\n         [6,  4],\n         [9, 10],\n         [4,  6],\n         [2,  0]], 2, 5)"
-        format: "code"
+        format: "python"
       return: !oracle
         oracle: "custom_check"
         file: "test.py"
