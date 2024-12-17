@@ -26,6 +26,6 @@ def oxo(rooster):
     elif owint == 1:
         result = "Speler O wint."
     else:
-        result = "Gelijkspel."
+        result = "Geen winnaar."
     
     return result
