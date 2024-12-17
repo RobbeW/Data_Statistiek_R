@@ -2,27 +2,57 @@
   contexts:
   - testcases:
     - expression: omtrek_eiland([[1]])
+      description:
+        description: omtrek_eiland([[1]])
+        format: python
       return: 4
   - testcases:
     - expression: omtrek_eiland([[1, 0]])
+      description:
+        description: omtrek_eiland([[1, 0]])
+        format: python
       return: 4
   - testcases:
     - expression: omtrek_eiland([[0, 1, 0, 0], [1, 1, 1, 0], [0, 1, 0, 0], [1, 1,
         0, 0]])
+      description:
+        description: "omtrek_eiland([[0, 1, 0, 0],\n               [1, 1, 1, 0],\n\
+          \               [0, 1, 0, 0],\n               [1, 1, 0, 0]])"
+        format: python
       return: 16
   - testcases:
     - expression: omtrek_eiland([[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1,
         1, 1]])
+      description:
+        description: "omtrek_eiland([[1, 1, 1, 1],\n               [1, 1, 1, 1],\n\
+          \               [1, 1, 1, 1],\n               [1, 1, 1, 1]])"
+        format: python
       return: 16
   - testcases:
     - expression: omtrek_eiland([[0, 1, 0, 1, 0, 1], [0, 1, 1, 1, 1, 1], [0, 1, 0,
         1, 0, 1], [0, 1, 0, 1, 0, 1]])
+      description:
+        description: "omtrek_eiland([[0, 1, 0, 1, 0, 1],\n               [0, 1, 1,
+          1, 1, 1],\n               [0, 1, 0, 1, 0, 1],\n               [0, 1, 0,
+          1, 0, 1]])"
+        format: python
       return: 30
   - testcases:
     - expression: omtrek_eiland([[0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 1, 0], [0, 1, 1,
         1, 1, 0], [0, 0, 0, 0, 0, 0]])
+      description:
+        description: "omtrek_eiland([[0, 0, 0, 0, 0, 0],\n               [0, 1, 1,
+          1, 1, 0],\n               [0, 1, 1, 1, 1, 0],\n               [0, 0, 0,
+          0, 0, 0]])"
+        format: python
       return: 12
   - testcases:
     - expression: omtrek_eiland([[0, 1, 0], [1, 1, 1], [0, 1, 0], [1, 1, 1], [1, 1,
         1], [0, 1, 0], [1, 1, 1], [1, 1, 0]])
+      description:
+        description: "omtrek_eiland([[0, 1, 0],\n               [1, 1, 1],\n     \
+          \          [0, 1, 0],\n               [1, 1, 1],\n               [1, 1,
+          1],\n               [0, 1, 0],\n               [1, 1, 1],\n            \
+          \   [1, 1, 0]])"
+        format: python
       return: 30
