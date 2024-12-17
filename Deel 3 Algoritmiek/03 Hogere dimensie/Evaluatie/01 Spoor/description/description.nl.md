@@ -2,9 +2,9 @@ Het **spoor** van een matrix (ook wel *trace* genoemd) is de som van de elemente
 
 Voor onderstaande matrix geldt bijvoorbeeld dat het spoor gelijk is aan 7.
 
-$$
-    \begin{pmatrix} \sf 3 &\sf 0 & \sf 1 \\ \sf 0 & \sf 4 & \sf 4 \\\sf 0 & \sf 1 & \sf 0\end{pmatrix} 
-$$
+![Het spoor van een vierkante matrix.](media/image.png "Het spoor van een vierkante matrix."){:data-caption="Het spoor van een vierkante matrix." .light-only height="110px"}
+
+![Het spoor van een vierkante matrix.](media/image_dark.png "Het spoor van een vierkante matrix."){:data-caption="Het spoor van een vierkante matrix." .dark-only height="110px"}
 
 ## Gevraagd
 Schrijf een functie `spoor(matrix)` dat gegeven een matrix als een twee dimensionale lijst het spoor uitrekent.
