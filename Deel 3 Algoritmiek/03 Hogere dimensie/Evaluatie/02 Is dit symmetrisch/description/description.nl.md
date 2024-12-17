@@ -1,8 +1,8 @@
 Een vierkante matrix is **symmetrisch** indien je deze kan spiegelen ten opzichte van de hoofdiagonaal. Onderstaande matrix is een voorbeeld van een symmetrische matrix.
 
-$$
-    \mathsf{\begin{pmatrix}\sf 3 & \sf 0 & \sf 1 \\ \sf 0 & \sf 4 & \sf 5 \\\sf 1 & \sf 5 & \sf 2\end{pmatrix}}
-$$
+![Een symmetrische matrix.](media/image.png "Een symmetrische matrix."){:data-caption="Een symmetrische matrix." .light-only height="100px"}
+
+![Een symmetrische matrix.](media/image_dark.png "Een symmetrische matrix."){:data-caption="Een symmetrische matrix." .dark-only height="100px"}
 
 ## Gevraagd
 Schrijf een functie `is_symmetrisch(matrix)` dat controleert of een gegeven matrix al dan niet symmetrisch is.
