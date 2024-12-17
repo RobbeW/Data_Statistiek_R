@@ -29,17 +29,24 @@
         format: python
       return: Speler X wint.
   - testcases:
-    - expression: oxo([['O', 'X', 'X'], ['O', 'X', 'O'], ['O', 'X', 'X']])
+    - expression: oxo([['O', 'X', 'X'], ['O', ' ', 'O'], ['O', 'X', 'X']])
       description:
-        description: "oxo([[\"O\", \"X\", \"X\"],\n     [\"O\", \"X\", \"O\"],\n \
+        description: "oxo([[\"O\", \"X\", \"X\"],\n     [\"O\", \" \", \"O\"],\n \
           \    [\"O\", \"X\", \"X\"]])"
         format: python
-      return: Speler X wint.
+      return: Speler O wint.
   - testcases:
-    - expression: oxo([['X', 'O', 'O'], ['X', 'O', 'X'], ['X', 'O', 'X']])
+    - expression: oxo([['O', 'X', 'O'], ['X', ' ', 'X'], ['X', 'O', ' ']])
       description:
-        description: "oxo([[\"X\", \"O\", \"O\"],\n     [\"X\", \"O\", \"X\"],\n \
-          \    [\"X\", \"O\", \"X\"]])"
+        description: "oxo([[\"O\", \"X\", \"O\"],\n     [\"X\", \" \", \"X\"],\n \
+          \    [\"X\", \"O\", \" \"]])"
+        format: python
+      return: Geen winnaar.
+  - testcases:
+    - expression: oxo([['X', 'X', 'X'], ['O', 'O', 'X'], ['O', 'X', 'O']])
+      description:
+        description: "oxo([[\"X\", \"X\", \"X\"],\n     [\"O\", \"O\", \"X\"],\n \
+          \    [\"O\", \"X\", \"O\"]])"
         format: python
       return: Speler X wint.
   - testcases:
@@ -168,10 +175,3 @@
           \    [\" \", \"O\", \" \"]])"
         format: python
       return: Geen winnaar.
-  - testcases:
-    - expression: oxo([['X', ' ', 'O'], ['X', 'X', ' '], ['O', 'O', 'X']])
-      description:
-        description: "oxo([[\"X\", \" \", \"O\"],\n     [\"X\", \"X\", \" \"],\n \
-          \    [\"O\", \"O\", \"X\"]])"
-        format: python
-      return: Speler X wint.
