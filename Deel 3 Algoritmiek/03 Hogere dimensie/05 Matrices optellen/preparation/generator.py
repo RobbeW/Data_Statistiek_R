@@ -64,7 +64,7 @@ def generate_expression_double(name, matrix, natrix):
         txt += "]"
         if r < len(matrix) - 1:
             txt += ",\n"
-    txt += ",\n"
+    txt += "],\n"
     txt += f"{' ':>{name_length+1}}["
     for r in range(len(natrix)):
         # insert leading spaces
