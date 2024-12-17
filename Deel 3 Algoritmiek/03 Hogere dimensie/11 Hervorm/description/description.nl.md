@@ -20,7 +20,7 @@ Bestudeer nauwkeurig onderstaande voorbeelden.
 ```
 
 ```python
->>> is_toeplitz([[1, 2, 3, 4]], 2, 2)
+>>> hervorm([[1, 2, 3, 4]], 2, 2)
 [[1, 2],
  [3, 4]]
 ```
