@@ -11,7 +11,9 @@ De diagonalen zijn hier `[9]`, `[5, 5]`, `[1, 1, 1]`, `[2, 2, 2]`, `[3, 3]`, `[4
 ## Gevraagd
 Schrijf een functie `is_toeplitz(matrix)` die gegeven een matrix met gehele getallen onderzoekt of deze al dan niet Toeplitz is. Retourneer `True` indien dit het geval is, en `False` anders.
 
-#### Voorbeeld
+Bestudeer grondig onderstaande voorbeelden:
+
+#### Voorbeelden
 
 ```python
 >>> is_toeplitz([[1, 2, 3, 4], 
