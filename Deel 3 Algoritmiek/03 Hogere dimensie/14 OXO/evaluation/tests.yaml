@@ -20,7 +20,7 @@
         description: "oxo([[\"X\", \" \", \"O\"],\n     [\"X\", \"O\", \" \"],\n \
           \    [\"O\", \" \", \"X\"]])"
         format: python
-      return: Geen winnaar.
+      return: Speler O wint.
   - testcases:
     - expression: oxo([[' ', 'O', 'O'], ['O', ' ', 'X'], ['X', 'X', 'X']])
       description:
