@@ -2,9 +2,9 @@ Een matrix is een Toeplitz-matrix indien elke diagonaal van linksboven naar rech
 
 Onderstaande matrix is bijvoorbeeld een Toeplitz-matrix.
 
-![Een Toeplitz-matrix.](media/image.png "Een Toeplitz-matrix."){:data-caption="Een Toeplitz-matrix." .light-only width="20%"}
+![Een Toeplitz-matrix.](media/image.png "Een Toeplitz-matrix."){:data-caption="Een Toeplitz-matrix." .light-only width="140px"}
 
-![Een Toeplitz-matrix.](media/image_dark.png "Een Toeplitz-matrix."){:data-caption="Een Toeplitz-matrix." .dark-only width="20%"}
+![Een Toeplitz-matrix.](media/image_dark.png "Een Toeplitz-matrix."){:data-caption="Een Toeplitz-matrix." .dark-only width="140px"}
 
 De diagonalen zijn hier `[9]`, `[5, 5]`, `[1, 1, 1]`, `[2, 2, 2]`, `[3, 3]`, `[4]`.
 
