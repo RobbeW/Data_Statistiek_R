@@ -1,9 +1,9 @@
-from evaluation_utils import EvaluationResult, ConvertedOracleContext
+from evaluation_utils import EvaluationResult, ConvertedOracleContext, Message
 
 def find_longest(matrix):
     longest = 0
     for r in range(len(matrix)):
-        for c in range(len(matrix[0])):
+        for c in range(len(matrix[r])):
             el = str(matrix[r][c])
             if len(el) > longest:
                 longest = len(el)
@@ -18,10 +18,10 @@ def prettify_matrix_num(matrix):
         if r > 0:
             txt += " "
         txt += "["
-        for c in range(len(matrix[0])):
+        for c in range(len(matrix[r])):
             el = matrix[r][c]
             txt += f"{el:>{dist}}"
-            if c < len(matrix[0]) - 1:
+            if c < len(matrix[r]) - 1:
                 txt += ", "
         txt += "]"
         if r < len(matrix) - 1:
