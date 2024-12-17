@@ -1,10 +1,15 @@
-Verander de rijen en kolommen met nullen door allemaal nullen.
-
+Gegeven een m × n matrix, als een element 0 is, wijzig dan de ganse rij en kolom naar 0.
 
 ## Gevraagd
-Schrijf een functie `nullen(matrix)` die gegeven een vierkante matrix een rij retourneert waarbij de getallen spiraalgewijs doorlopen werden.
+Schrijf een functie `nullen(matrix)` die gegeven een matrix voor elk getal `0` de ganse rij en kolom met `0` opvult. Retourneer de uiteindelijke matrix.
 
-#### Voorbeeld
+Bestudeer grondig onderstaande voorbeelden:
+
+#### Voorbeelden
+
+![Toepassing van het algoritme op een matrix.](media/image1.png "Toepassing van het algoritme op een matrix."){:data-caption=Toepassing van het algoritme op een matrix." .light-only height="110px"}
+
+![Toepassing van het algoritme op een matrix.](media/image1_dark.png "Toepassing van het algoritme op een matrix."){:data-caption="Toepassing van het algoritme op een matrix." .dark-only height="110px"}
 
 ```python
 >>> nullen([[1, 2, 3], 
@@ -14,6 +19,10 @@ Schrijf een functie `nullen(matrix)` die gegeven een vierkante matrix een rij re
  [0, 0, 0],
  [7, 0, 9]]
 ```
+
+![Toepassing van het algoritme op een matrix.](media/image2.png "Toepassing van het algoritme op een matrix."){:data-caption=Toepassing van het algoritme op een matrix." .light-only height="110px"}
+
+![Toepassing van het algoritme op een matrix.](media/image2_dark.png "Toepassing van het algoritme op een matrix."){:data-caption="Toepassing van het algoritme op een matrix." .dark-only height="110px"}
 
 ```python
 >>> nullen([[0, 2, 3, 0], 
