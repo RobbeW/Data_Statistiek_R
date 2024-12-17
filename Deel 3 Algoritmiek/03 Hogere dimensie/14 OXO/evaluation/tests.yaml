@@ -3,150 +3,175 @@
   - testcases:
     - expression: oxo([['X', ' ', ' '], [' ', 'X', ' '], ['O', 'O', 'X']])
       description:
-        description: "oxo([[X,  ,  ],\n     [ , X,  ],\n     [O, O, X]])"
+        description: "oxo([[\"X\", \" \", \" \"],\n     [\" \", \"X\", \" \"],\n \
+          \    [\"O\", \"O\", \"X\"]])"
         format: python
       return: Speler X wint.
   - testcases:
     - expression: oxo([['X', 'X', 'O'], ['O', 'O', 'X'], ['X', 'O', 'X']])
       description:
-        description: "oxo([[X, X, O],\n     [O, O, X],\n     [X, O, X]])"
+        description: "oxo([[\"X\", \"X\", \"O\"],\n     [\"O\", \"O\", \"X\"],\n \
+          \    [\"X\", \"O\", \"X\"]])"
         format: python
       return: Gelijkspel.
   - testcases:
     - expression: oxo([['X', ' ', 'O'], ['X', 'O', ' '], ['O', ' ', 'X']])
       description:
-        description: "oxo([[X,  , O],\n     [X, O,  ],\n     [O,  , X]])"
+        description: "oxo([[\"X\", \" \", \"O\"],\n     [\"X\", \"O\", \" \"],\n \
+          \    [\"O\", \" \", \"X\"]])"
         format: python
       return: Gelijkspel.
   - testcases:
     - expression: oxo([[' ', 'O', 'O'], ['O', ' ', 'X'], ['X', 'X', 'X']])
       description:
-        description: "oxo([[ , O, O],\n     [O,  , X],\n     [X, X, X]])"
+        description: "oxo([[\" \", \"O\", \"O\"],\n     [\"O\", \" \", \"X\"],\n \
+          \    [\"X\", \"X\", \"X\"]])"
         format: python
       return: Speler X wint.
   - testcases:
     - expression: oxo([['O', 'X', 'X'], ['O', 'X', 'O'], ['O', 'X', 'X']])
       description:
-        description: "oxo([[O, X, X],\n     [O, X, O],\n     [O, X, X]])"
+        description: "oxo([[\"O\", \"X\", \"X\"],\n     [\"O\", \"X\", \"O\"],\n \
+          \    [\"O\", \"X\", \"X\"]])"
         format: python
       return: Speler X wint.
   - testcases:
     - expression: oxo([['X', 'O', 'O'], ['X', 'O', 'X'], ['X', 'O', 'X']])
       description:
-        description: "oxo([[X, O, O],\n     [X, O, X],\n     [X, O, X]])"
+        description: "oxo([[\"X\", \"O\", \"O\"],\n     [\"X\", \"O\", \"X\"],\n \
+          \    [\"X\", \"O\", \"X\"]])"
         format: python
       return: Speler X wint.
   - testcases:
     - expression: oxo([['X', ' ', 'X'], ['X', 'O', 'O'], ['X', 'O', ' ']])
       description:
-        description: "oxo([[X,  , X],\n     [X, O, O],\n     [X, O,  ]])"
+        description: "oxo([[\"X\", \" \", \"X\"],\n     [\"X\", \"O\", \"O\"],\n \
+          \    [\"X\", \"O\", \" \"]])"
         format: python
       return: Speler X wint.
   - testcases:
     - expression: oxo([['X', 'O', 'X'], ['X', 'O', 'O'], ['O', 'X', 'X']])
       description:
-        description: "oxo([[X, O, X],\n     [X, O, O],\n     [O, X, X]])"
+        description: "oxo([[\"X\", \"O\", \"X\"],\n     [\"X\", \"O\", \"O\"],\n \
+          \    [\"O\", \"X\", \"X\"]])"
         format: python
       return: Gelijkspel.
   - testcases:
     - expression: oxo([['X', 'X', ' '], ['O', ' ', 'X'], ['O', 'O', 'X']])
       description:
-        description: "oxo([[X, X,  ],\n     [O,  , X],\n     [O, O, X]])"
+        description: "oxo([[\"X\", \"X\", \" \"],\n     [\"O\", \" \", \"X\"],\n \
+          \    [\"O\", \"O\", \"X\"]])"
         format: python
       return: Gelijkspel.
   - testcases:
     - expression: oxo([['O', 'O', 'X'], ['X', ' ', 'O'], ['X', 'X', ' ']])
       description:
-        description: "oxo([[O, O, X],\n     [X,  , O],\n     [X, X,  ]])"
+        description: "oxo([[\"O\", \"O\", \"X\"],\n     [\"X\", \" \", \"O\"],\n \
+          \    [\"X\", \"X\", \" \"]])"
         format: python
       return: Gelijkspel.
   - testcases:
     - expression: oxo([[' ', 'O', 'O'], ['X', ' ', 'O'], ['X', 'X', 'X']])
       description:
-        description: "oxo([[ , O, O],\n     [X,  , O],\n     [X, X, X]])"
+        description: "oxo([[\" \", \"O\", \"O\"],\n     [\"X\", \" \", \"O\"],\n \
+          \    [\"X\", \"X\", \"X\"]])"
         format: python
       return: Speler X wint.
   - testcases:
     - expression: oxo([['O', 'O', 'O'], ['X', ' ', 'X'], ['X', ' ', ' ']])
       description:
-        description: "oxo([[O, O, O],\n     [X,  , X],\n     [X,  ,  ]])"
+        description: "oxo([[\"O\", \"O\", \"O\"],\n     [\"X\", \" \", \"X\"],\n \
+          \    [\"X\", \" \", \" \"]])"
         format: python
       return: Speler O wint.
   - testcases:
     - expression: oxo([[' ', ' ', 'X'], [' ', 'X', 'X'], ['O', 'O', 'O']])
       description:
-        description: "oxo([[ ,  , X],\n     [ , X, X],\n     [O, O, O]])"
+        description: "oxo([[\" \", \" \", \"X\"],\n     [\" \", \"X\", \"X\"],\n \
+          \    [\"O\", \"O\", \"O\"]])"
         format: python
       return: Speler O wint.
   - testcases:
     - expression: oxo([['O', 'X', 'O'], ['X', ' ', 'X'], ['O', ' ', 'X']])
       description:
-        description: "oxo([[O, X, O],\n     [X,  , X],\n     [O,  , X]])"
+        description: "oxo([[\"O\", \"X\", \"O\"],\n     [\"X\", \" \", \"X\"],\n \
+          \    [\"O\", \" \", \"X\"]])"
         format: python
       return: Gelijkspel.
   - testcases:
     - expression: oxo([['X', 'X', ' '], ['X', 'X', 'O'], ['O', ' ', 'O']])
       description:
-        description: "oxo([[X, X,  ],\n     [X, X, O],\n     [O,  , O]])"
+        description: "oxo([[\"X\", \"X\", \" \"],\n     [\"X\", \"X\", \"O\"],\n \
+          \    [\"O\", \" \", \"O\"]])"
         format: python
       return: Gelijkspel.
   - testcases:
     - expression: oxo([['X', 'O', 'X'], ['O', 'X', 'X'], ['O', 'X', 'O']])
       description:
-        description: "oxo([[X, O, X],\n     [O, X, X],\n     [O, X, O]])"
+        description: "oxo([[\"X\", \"O\", \"X\"],\n     [\"O\", \"X\", \"X\"],\n \
+          \    [\"O\", \"X\", \"O\"]])"
         format: python
       return: Gelijkspel.
   - testcases:
     - expression: oxo([['X', 'X', 'X'], ['O', 'O', ' '], ['X', 'O', ' ']])
       description:
-        description: "oxo([[X, X, X],\n     [O, O,  ],\n     [X, O,  ]])"
+        description: "oxo([[\"X\", \"X\", \"X\"],\n     [\"O\", \"O\", \" \"],\n \
+          \    [\"X\", \"O\", \" \"]])"
         format: python
       return: Speler X wint.
   - testcases:
     - expression: oxo([['O', 'X', 'O'], ['O', ' ', 'X'], ['X', ' ', 'X']])
       description:
-        description: "oxo([[O, X, O],\n     [O,  , X],\n     [X,  , X]])"
+        description: "oxo([[\"O\", \"X\", \"O\"],\n     [\"O\", \" \", \"X\"],\n \
+          \    [\"X\", \" \", \"X\"]])"
         format: python
       return: Gelijkspel.
   - testcases:
     - expression: oxo([['O', ' ', 'X'], ['O', 'X', 'X'], ['X', 'O', ' ']])
       description:
-        description: "oxo([[O,  , X],\n     [O, X, X],\n     [X, O,  ]])"
+        description: "oxo([[\"O\", \" \", \"X\"],\n     [\"O\", \"X\", \"X\"],\n \
+          \    [\"X\", \"O\", \" \"]])"
         format: python
       return: Speler X wint.
   - testcases:
     - expression: oxo([[' ', 'O', 'O'], ['X', ' ', 'X'], ['O', 'X', 'X']])
       description:
-        description: "oxo([[ , O, O],\n     [X,  , X],\n     [O, X, X]])"
+        description: "oxo([[\" \", \"O\", \"O\"],\n     [\"X\", \" \", \"X\"],\n \
+          \    [\"O\", \"X\", \"X\"]])"
         format: python
       return: Gelijkspel.
   - testcases:
     - expression: oxo([['O', 'O', 'O'], ['X', ' ', ' '], ['X', 'X', ' ']])
       description:
-        description: "oxo([[O, O, O],\n     [X,  ,  ],\n     [X, X,  ]])"
+        description: "oxo([[\"O\", \"O\", \"O\"],\n     [\"X\", \" \", \" \"],\n \
+          \    [\"X\", \"X\", \" \"]])"
         format: python
       return: Speler O wint.
   - testcases:
     - expression: oxo([['O', ' ', ' '], ['X', 'X', 'X'], ['X', 'O', 'O']])
       description:
-        description: "oxo([[O,  ,  ],\n     [X, X, X],\n     [X, O, O]])"
+        description: "oxo([[\"O\", \" \", \" \"],\n     [\"X\", \"X\", \"X\"],\n \
+          \    [\"X\", \"O\", \"O\"]])"
         format: python
       return: Speler X wint.
   - testcases:
     - expression: oxo([[' ', ' ', 'O'], ['X', 'X', 'X'], ['O', 'O', 'X']])
       description:
-        description: "oxo([[ ,  , O],\n     [X, X, X],\n     [O, O, X]])"
+        description: "oxo([[\" \", \" \", \"O\"],\n     [\"X\", \"X\", \"X\"],\n \
+          \    [\"O\", \"O\", \"X\"]])"
         format: python
       return: Speler X wint.
   - testcases:
     - expression: oxo([['O', 'X', 'X'], ['X', 'O', 'X'], [' ', 'O', ' ']])
       description:
-        description: "oxo([[O, X, X],\n     [X, O, X],\n     [ , O,  ]])"
+        description: "oxo([[\"O\", \"X\", \"X\"],\n     [\"X\", \"O\", \"X\"],\n \
+          \    [\" \", \"O\", \" \"]])"
         format: python
       return: Gelijkspel.
   - testcases:
     - expression: oxo([['X', ' ', 'O'], ['X', 'X', ' '], ['O', 'O', 'X']])
       description:
-        description: "oxo([[X,  , O],\n     [X, X,  ],\n     [O, O, X]])"
+        description: "oxo([[\"X\", \" \", \"O\"],\n     [\"X\", \"X\", \" \"],\n \
+          \    [\"O\", \"O\", \"X\"]])"
         format: python
       return: Speler X wint.

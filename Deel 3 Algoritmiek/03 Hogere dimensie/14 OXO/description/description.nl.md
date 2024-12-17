@@ -17,12 +17,12 @@ Bestudeer grondig onderstaande voorbeelden.
 >>> oxo([["X", " ", " "], 
          [" ", "X", " "],
          ["O", "O", "X"]])
-Speler X wint.
+"Speler X wint."
 ```
 
 ```python
 >>> oxo([["X", "X", "O"], 
          ["O", "O", "X"],
          ["X", "O", "X"]])
-Gelijkspel.
+"Gelijkspel."
 ```

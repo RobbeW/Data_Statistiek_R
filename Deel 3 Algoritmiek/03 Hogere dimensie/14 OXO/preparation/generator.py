@@ -81,7 +81,11 @@ def generate_expression(name, matrix):
         txt += "["
         for c in range(len(matrix[0])):
             el = matrix[r][c]
-            txt += f"{el:>{dist}}"
+            if isinstance(el, str):
+                string_el = f"\"{el}\""
+                txt += f"{string_el:>{dist}}"
+            else:
+                txt += f"{el:>{dist}}"
             if c < len(matrix[0]) - 1:
                 txt += ", "
         txt += "]"
