@@ -1,6 +1,7 @@
 <a href="https://en.wikipedia.org/wiki/Lights_Out_(game)" target="_blank">Lights Out</a> is een spel bedacht in 1995. Ongetwijfeld heb je dit al eens gespeeld. Bij de start van het spel worden een willekeurig aantal lichten in een rooster aangezet. Telkens je op één van de lichten drukt, wissel je de status van dit licht **en** alle omliggende lichten. Het doel van het spel is om alle lichten uit te schakelen.
 
-![Lights Out gemaakt door L op Wikimedia Commons.](media/Lights_Out.svg "Lights Out gemaakt door L op Wikimedia Commons."){:data-caption="Lights Out gemaakt door L op Wikimedia Commons" width="30%"}
+![Lights Out gemaakt door L op Wikimedia Commons.](media/Lights_Out.svg)
+<img src="media/Lights_Out.svg">
 
 ## Gevraagd
 Schrijf een functie `lights(rooster)` die gegeven een uiteindelijk oxo speelveld bepaalt wie de winnaar (of geen winnaar) is.
