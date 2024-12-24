@@ -2,6 +2,8 @@
 
 <iframe width="279" height="449" src="https://www.puzzle-binairo.com/binairo-6x6-easy/?e=MDo2NjksNDkw" frameborder="0" />
 
+Different test
+
 ## Gevraagd
 Schrijf een functie `lights(rooster)` die gegeven een uiteindelijk oxo speelveld bepaalt wie de winnaar (of geen winnaar) is.
 
