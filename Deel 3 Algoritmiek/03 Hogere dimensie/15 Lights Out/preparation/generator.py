@@ -103,18 +103,32 @@ def generate_expression(name, matrix, add=None):
     return txt
 
 # generate test data
-ntests = 2
+ntests = 20
 cases = [([[0, 0, 1, 0], [0, 1, 1, 1], [0, 0 ,1 ,0], [0, 0 ,0 ,0]], [(1, 2)]),
          ([[1, 0, 0, 1, 0], [0, 1, 1, 0, 0], [1, 0 ,0 ,0, 0], [1, 1 ,0 ,1, 0], [1, 1 ,1 ,1, 1]], [(0, 1), (4, 2)])]
 
 while len(cases) < ntests:
     matrix = []
 
+    n = random.randint(3,20)
+    m = random.randint(3,20)
+    for _ in range(n):
+        row = [random.randint(0,1) for _ in range(m)]
+        matrix.append(row)
         
-    if matrix not in cases:
-        cases.append(matrix)
+    kliks = []
+    k = random.randint(1,6)
+    for _ in range(k):
+        r = random.randint(0, n - 1)
+        c = random.randint(0, m - 1)
+        kliks.append( (r,c) )
+    
+    case = (matrix, kliks)
+        
+    if case not in cases:
+        cases.append(case)
 
-cases = sorted(cases, key = lambda x: len(x[0]))
+cases = sorted(cases, key = lambda x: len(x[0])*len(x[0][0]))
 
 # generate unit tests for functions
 yamldata = []

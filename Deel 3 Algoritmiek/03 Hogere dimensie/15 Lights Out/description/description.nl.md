@@ -5,7 +5,7 @@ Telkens je op één van de lichten drukt, wissel je de status van dit licht **en
 <iframe width="100%" height="210" src="https://dieterpi.github.io/dodona-lights-out/" frameborder="0" ></iframe>
 
 ## Gevraagd
-Schrijf een functie `lights(rooster, kliks)` die gegeven een rooster en een **lijst** met coordinaten van lichten die in deze volgorde aangeklikt worden, het uiteindelijke rooster bepaalt.
+Schrijf een functie `lights(rooster, kliks)` die gegeven een rooster en een **lijst** met coordinaten (tupels) van lichten die in deze volgorde aangeklikt worden, het uiteindelijke rooster bepaalt.
 
 Bestudeer grondig onderstaande voorbeelden.
 
