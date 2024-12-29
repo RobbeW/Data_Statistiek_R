@@ -2,7 +2,7 @@
 Ongetwijfeld heb je dit al eens gespeeld. Bij de start van het spel worden een willekeurig aantal lichten in een rooster aangezet.
 Telkens je op één van de lichten drukt, wissel je de status van dit licht **en** alle omliggende lichten. Het doel van het spel is om alle lichten uit te schakelen.
 
-<iframe width="100%" height="220" src="https://dieterpi.github.io/dodona-lights-out/" frameborder="0" ></iframe>
+<iframe width="100%" height="220" src="https://dieterpi.github.io/dodona-lights-out/" frameborder="0" style="color-scheme: auto;"></iframe>
 
 ## Gevraagd
 Schrijf een functie `lights(rooster, kliks)` die gegeven een rooster en een **lijst** met coordinaten (tupels) van lichten die in deze volgorde aangeklikt worden, het uiteindelijke rooster bepaalt.
