@@ -4,7 +4,7 @@ Lijsten laten zich gemakkelijk combineren tot hogere dimensies. Beschouw bijvoor
 matrix = [[1, 2], [3, 4]]
 ```
 
-Dit is een lijst die bestaat uit twee andere lijsten, namelijk `[1,2]` en `[3, 4]`, vaak wordt deze op een andere manier genoteerd.
+Dit is een lijst die bestaat uit twee andere lijsten, namelijk `[1, 2]` en `[3, 4]`, vaak wordt deze op een andere manier genoteerd.
 
 ```python
 matrix = [[1, 2], 
