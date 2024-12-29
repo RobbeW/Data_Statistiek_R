@@ -1,0 +1,31 @@
+\documentclass[dvipsnames]{standalone}
+\usepackage{xskak}
+\usepackage{chessboard}
+\usepackage{xcolor}
+
+
+\usepackage{tikz}
+\begin{document}	
+	\newchessgame
+	\def\mycol{black}
+
+	
+	\setchessboard{
+		fieldcolor=\mycol,
+		setfontcolors,
+		border = false,
+		linewidth=1pt,
+		padding=0.4pt,
+		color=\mycol,
+		pgfborder,
+		linewidth=0.5ex,
+		labelleftformat={\color{\mycol}\arabic{ranklabel}},
+		labelbottomformat={\color{\mycol}\alph{filelabel}},
+		largeboard,
+		showmover=false,
+		setpieces={Rd6,pd7,ph6,pd3}}
+	\chessboard[
+		color=BrickRed,
+		markstyle=circle,linewidth=2pt,opacity=0.5,markfields={d7,h6,d3}]
+		
+\end{document}

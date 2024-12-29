@@ -1,0 +1,17 @@
+{
+  "description": {
+    "names": {
+      "nl": "Aantal schaakstukken"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "2D lijsten",
+    "for-lus",
+    "evaluatie"
+  ],
+  "access": "public"
+}
