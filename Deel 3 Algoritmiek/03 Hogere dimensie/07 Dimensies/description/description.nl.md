@@ -1,4 +1,4 @@
-Bij het rekenen met matrices spreekt men vaak over een n x m matrix. Deze heeft n rijen en m kolommen, men spreekt ook wel over de dimensies van de matrix.
+Bij het rekenen met matrices spreekt men vaak over een n × m matrix. Deze heeft n rijen en m kolommen, men spreekt ook wel over de dimensies van de matrix.
 
 Hieronder zie je een voorbeeld van een 2 × 3 matrix:
 
