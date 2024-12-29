@@ -76,7 +76,7 @@ def generate_expression(name, matrix, add=None):
     return txt
 
 # generate test data
-ntests = 3
+ntests = 25
 cases = [[[" ", " ", " ", " ", " ", " ", " ", " "],
           [" ", " ", " ", "p", " ", " ", " ", " "],
           [" ", " ", " ", "T", " ", " ", " ", "p"],
@@ -103,20 +103,30 @@ cases = [[[" ", " ", " ", " ", " ", " ", " ", " "],
            [" ", " ", " ", " ", " ", " ", " ", " "]]]
 
 while len(cases) < ntests:
-    matrix = []
-    n = random.randint(1,20)
-    m = random.randint(1,20)
+    board = []
+    for _ in range(8):
+        row = [" "] * 8
+        board.append(row)
     
-    for _ in range(n):
-        rij = [random.randint(-10,10) for _ in range(m)]
-        matrix.append(rij)
+    r, c = [random.randint(0,7) for _ in range(2)]
+    board[r][c] = "T"
     
-    case = matrix
+    k = random.randint(0,16)
+    for _ in range(k):
+        R, C = [random.randint(0,7) for _ in range(2)]
+        if (R,C) != (r,c):
+            board[R][C] = "p"
+    
+    k = random.randint(0,4)
+    for _ in range(k):
+        R, C = [random.randint(0,7) for _ in range(2)]
+        if (R,C) != (r,c):
+            board[R][C] = "L"
+    
+    case = board
     if case not in cases:
         cases.append(case)
     
-cases = sorted(cases, key = lambda x: len(x)*len(x[0]) )
-
 # generate unit tests for functions
 yamldata = []
 tabtitle = "Feedback"
