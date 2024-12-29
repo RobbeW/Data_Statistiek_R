@@ -9,9 +9,9 @@ Bestudeer grondig onderstaande voorbeelden:
 
 #### Voorbeelden
 
-![Schaakbord](media/image1.png "Schaakbord"){:data-caption="Voorbeeld 1." .light-only width="45%"}
+![Schaakbord](media/image1.png "Schaakbord"){:data-caption="Voorbeeld 1." .light-only width="35%"}
 
-![Schaakbord](media/image1_dark.png "Schaakbord"){:data-caption="Voorbeeld 1." .dark-only width="45%"}
+![Schaakbord](media/image1_dark.png "Schaakbord"){:data-caption="Voorbeeld 1." .dark-only width="35%"}
 
 In deze situatie kan de toren drie pionnen nemen.
 
@@ -29,9 +29,9 @@ In deze situatie kan de toren drie pionnen nemen.
 
 
 
-![Schaakbord](media/image2.png "Schaakbord"){:data-caption="Voorbeeld 2." .light-only width="45%"}
+![Schaakbord](media/image2.png "Schaakbord"){:data-caption="Voorbeeld 2." .light-only width="35%"}
 
-![Schaakbord](media/image2_dark.png "Schaakbord"){:data-caption="Voorbeeld 2." .dark-only width="45%"}
+![Schaakbord](media/image2_dark.png "Schaakbord"){:data-caption="Voorbeeld 2." .dark-only width="35%"}
 
 In deze situatie kan de toren **geen enkele pion** nemen. Alle pionnen worden geblokkeerd door een loper.
 
@@ -48,9 +48,9 @@ In deze situatie kan de toren **geen enkele pion** nemen. Alle pionnen worden ge
 ```
 
 
-![Schaakbord](media/image3.png "Schaakbord"){:data-caption="Voorbeeld 3." .light-only width="45%"}
+![Schaakbord](media/image3.png "Schaakbord"){:data-caption="Voorbeeld 3." .light-only width="35%"}
 
-![Schaakbord](media/image3_dark.png "Schaakbord"){:data-caption="Voorbeeld 3." .dark-only width="45%"}
+![Schaakbord](media/image3_dark.png "Schaakbord"){:data-caption="Voorbeeld 3." .dark-only width="35%"}
 
 In deze situatie kan de toren drie pionnen nemen. De bovenste pion wordt geblokkeerd door de pion eronder. De laagste pion wordt geblokkeerd door de loper erboven.
 
