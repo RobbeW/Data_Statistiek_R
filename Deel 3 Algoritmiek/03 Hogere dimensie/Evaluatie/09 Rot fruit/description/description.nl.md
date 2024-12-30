@@ -10,11 +10,11 @@ Het doel is om het minimaal aantal stappen te zoeken opdat de fruitschaal enkel 
 ## Gevraagd
 Dit probleem pak je best gestructureerd aan, door meerdere aparte functies aan te maken. In elke functie focus je je op één aspect van het probleem.
 
-Schrijf een functie `aantal_vers(rooster)` dat nagaat **hoeveel** vers fruit er nog in het rooster zit.
+1. Schrijf een functie `aantal_vers(rooster)` dat nagaat **hoeveel** vers fruit er nog in het rooster zit.
 
-Schrijf een functie `stap(rooster)` die één enkele stap implementeert. 
+2. Schrijf een functie `stap(rooster)` die één enkele stap implementeert. 
 
-Schrijf een functie `rot_fruit(rooster)` dat gegeven het rooster het minimaal aantal dagen bepaalt zodat het rooster enkel rot fruit bevat. Indien dit onmogelijk is, retourneer dan -1.
+3. Schrijf een functie `rot_fruit(rooster)` dat gegeven het rooster het minimaal aantal dagen bepaalt zodat het rooster enkel rot fruit bevat. Indien dit onmogelijk is, retourneer dan -1.
 
 Bestudeer zorgvuldig onderstaande voorbeelden.
 
