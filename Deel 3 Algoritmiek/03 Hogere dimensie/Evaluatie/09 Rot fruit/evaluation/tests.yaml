@@ -1,0 +1,20 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: rot([[0, 2]])
+      description:
+        description: rot([[0, 2]])
+        format: python
+      return: 0
+  - testcases:
+    - expression: rot([[2, 1, 1], [1, 1, 0], [0, 1, 1]])
+      description:
+        description: "rot([[2, 1, 1],\n     [1, 1, 0],\n     [0, 1, 1]])"
+        format: python
+      return: 4
+  - testcases:
+    - expression: rot([[2, 1, 1], [0, 1, 1], [1, 0, 1]])
+      description:
+        description: "rot([[2, 1, 1],\n     [0, 1, 1],\n     [1, 0, 1]])"
+        format: python
+      return: -1
