@@ -1,17 +1,17 @@
-Stel dat je een muur hebt in de vorm van een driehoek, zoals hieronder weergegeven. Deze muur heeft 9 rijen en rij i heeft exact i bakstenen.
+Stel dat je een muur hebt in de vorm van een driehoek, zoals hieronder weergegeven. 
 
 Sommige bakstenen bevatten een getal en andere zijn blanco. De bakstenen met een getal komen enkel voor op de onevenrijen en telkens op de oneven plaatsen binnen die rij. 
 
 Vul alle blanco waarden in zodat het getal op elke baksteen de som is van de getallen op de twee bakstenen eronder.
 
-![Another Brick in the Wall.](media/image.png "Another Brick in the Wall."){:data-caption=Another Brick in the Wall." .light-only width="35%"}
+![Another Brick in the Wall.](media/image.png "Another Brick in the Wall."){:data-caption=Another Brick in the Wall." .light-only width="45%"}
 
-![Another Brick in the Wall.](media/image_dark.png "Another Brick in the Wall."){:data-caption=Another Brick in the Wall." .dark-only width="35%"}
+![Another Brick in the Wall.](media/image_dark.png "Another Brick in the Wall."){:data-caption=Another Brick in the Wall." .dark-only width="45%"}
 
 ## Gevraagd
 Schrijf een functie `bakstenen(muur)` die gegeven een muur (als een tweedimensionale lijst) de ontbrekende waarden invult en daarna deze lijst retourneert. Je mag ervan uitgaan dat elke *muur* een oplossing heeft.
 
-De gegeven muur (als een tweedimensionale lijst) bevat steeds een oneven aantal rijen.
+De gegeven muur (als een tweedimensionale lijst) bevat steeds een oneven aantal rijen. De blanco waarden worden voorlopig voorgesteld met behulp van een `0`.
 
 Bestudeer grondig onderstaand voorbeeld.
 
