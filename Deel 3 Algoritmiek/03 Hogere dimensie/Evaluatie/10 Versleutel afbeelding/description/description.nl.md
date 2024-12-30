@@ -23,9 +23,9 @@ Net zo, in elke toepassing van de V-bewerking:
 
 Hier is hoe de reeks HVHV kan worden gebruikt om een 25 x 25 afbeelding van de Mona Lisa te versleutelen:
 
-![HVHV toegepast op de Mona Lisa.](media/monalisa.png "HVHV toegepast op de Mona Lisa."){:data-caption="HVHV toegepast op de Mona Lisa." .light-only width="380px"}
+![HVHV toegepast op de Mona Lisa.](media/monalisa.png "HVHV toegepast op de Mona Lisa."){:data-caption="HVHV toegepast op de Mona Lisa." .light-only width="45%"}
 
-![HVHV toegepast op de Mona Lisa.](media/monalisa_dark.png "HVHV toegepast op de Mona Lisa."){:data-caption="HVHV toegepast op de Mona Lisa." .dark-only width="380px"}
+![HVHV toegepast op de Mona Lisa.](media/monalisa_dark.png "HVHV toegepast op de Mona Lisa."){:data-caption="HVHV toegepast op de Mona Lisa." .dark-only width="45%"}
 
 ## Gevraagd
 
