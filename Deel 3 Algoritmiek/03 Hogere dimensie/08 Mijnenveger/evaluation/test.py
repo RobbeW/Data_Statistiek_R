@@ -4,7 +4,10 @@ def find_longest(matrix):
     longest = 0
     for r in range(len(matrix)):
         for c in range(len(matrix[r])):
-            el = str(matrix[r][c])
+            if isinstance(matrix[r][c], str):
+                el = f"\"{matrix[r][c]}\""
+            else:
+                el = str(matrix[r][c])
             if len(el) > longest:
                 longest = len(el)
     return longest
@@ -20,6 +23,8 @@ def prettify_matrix_num(matrix):
         txt += "["
         for c in range(len(matrix[r])):
             el = matrix[r][c]
+            if isinstance(el, str):
+                el = f"\"{el}\""
             txt += f"{el:>{dist}}"
             if c < len(matrix[r]) - 1:
                 txt += ", "

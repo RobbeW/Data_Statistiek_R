@@ -34,8 +34,11 @@ spec.loader.exec_module(module)
 def find_longest(matrix):
     longest = 0
     for r in range(len(matrix)):
-        for c in range(len(matrix[0])):
-            el = str(matrix[r][c])
+        for c in range(len(matrix[r])):
+            if isinstance(matrix[r][c], str):
+                el = f"\"{matrix[r][c]}\""
+            else:
+                el = str(matrix[r][c])
             if len(el) > longest:
                 longest = len(el)
     return longest
