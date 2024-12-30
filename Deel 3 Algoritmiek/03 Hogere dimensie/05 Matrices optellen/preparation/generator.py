@@ -71,17 +71,17 @@ def generate_expression_double(name, matrix, natrix):
         if r > 0:
             txt += f"{' ':>{name_length+2}}"
         txt += "["
-        for c in range(len(matrix[0])):
-            el = matrix[r][c]
+        for c in range(len(natrix[0])):
+            el = natrix[r][c]
             if isinstance(el, str):
                 string_el = f"\"{el}\""
                 txt += f"{string_el:>{dist}}"
             else:
                 txt += f"{el:>{dist}}"
-            if c < len(matrix[0]) - 1:
+            if c < len(natrix[0]) - 1:
                 txt += ", "
         txt += "]"
-        if r < len(matrix) - 1:
+        if r < len(natrix) - 1:
             txt += ",\n"
             
     txt += "])"
@@ -103,6 +103,7 @@ while len(cases) < ntests:
         matrix2.append(row)
     cases.append( (matrix1, matrix2) )
 
+cases = sorted(cases, key = lambda x: len(x[0])*len(x[0][0]))
 
 # generate unit tests for functions
 yamldata = []
