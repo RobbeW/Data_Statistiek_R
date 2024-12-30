@@ -1,6 +1,6 @@
 <a href="https://nl.wikipedia.org/wiki/Mijnenveger_(spel)" target="_blank">Mijnenveger</a> is een klassiek computerspel dat standaard meegeleverd werd met het Windows besturingssyteem. 
 
-In het spel moet je alle bommen terugvinden. Door op een vakje te klikken krijg je een getal dat weergeeft hoeveel bommen er aanpalend zijn aan dat ene vakje. Dit mag zowel horizontaal, verticaal als diagonaal aanpalend zijn.
+In <a href="https://minesweeperonline.com/#beginner" target="_blank">het spel</a> moet je alle bommen terugvinden. Door op een vakje te klikken krijg je een getal dat weergeeft hoeveel bommen er aanpalend zijn aan dat ene vakje. Dit mag zowel horizontaal, verticaal als diagonaal aanpalend zijn. De bommen kan je markeren en mag je niet aanklikken. 
 
 ![Mijnenveger. Alle vlaggetjes stellen bommen voor.](media/minesweeper.png "Mijnenveger. Alle vlaggetjes stellen bommen voor."){:data-caption="Mijnenveger. Alle vlaggetjes stellen bommen voor." width="160px"}
 
