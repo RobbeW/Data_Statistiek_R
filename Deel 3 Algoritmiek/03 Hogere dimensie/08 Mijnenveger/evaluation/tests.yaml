@@ -3,8 +3,8 @@
   - testcases:
     - expression: mijnenveger([[0, 0, 'X'], ['X', 0, 0], [0, 0, 0]])
       description:
-        description: "mijnenveger([[  0,   0, \"X\"],\n             [\"X\",   0, \
-          \  0],\n             [  0,   0,   0]])"
+        description: "mijnenveger([[ 0 ,  0 , \"X\"],\n             [\"X\",  0 , \
+          \ 0 ],\n             [ 0 ,  0 ,  0 ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -23,9 +23,9 @@
   - testcases:
     - expression: mijnenveger([['X', 0], [0, 'X'], ['X', 0], [0, 0], ['X', 0]])
       description:
-        description: "mijnenveger([[\"X\",   0],\n             [  0, \"X\"],\n   \
-          \          [\"X\",   0],\n             [  0,   0],\n             [\"X\"\
-          ,   0]])"
+        description: "mijnenveger([[\"X\",  0 ],\n             [ 0 , \"X\"],\n   \
+          \          [\"X\",  0 ],\n             [ 0 ,  0 ],\n             [\"X\"\
+          ,  0 ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -45,8 +45,8 @@
   - testcases:
     - expression: mijnenveger([[0, 0, 0], [0, 0, 0], [0, 'X', 'X'], [0, 0, 'X']])
       description:
-        description: "mijnenveger([[  0,   0,   0],\n             [  0,   0,   0],\n\
-          \             [  0, \"X\", \"X\"],\n             [  0,   0, \"X\"]])"
+        description: "mijnenveger([[ 0 ,  0 ,  0 ],\n             [ 0 ,  0 ,  0 ],\n\
+          \             [ 0 , \"X\", \"X\"],\n             [ 0 ,  0 , \"X\"]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -69,8 +69,8 @@
     - expression: mijnenveger([[0, 0, 0, 0, 0], [0, 'X', 0, 'X', 'X'], [0, 'X', 0,
         'X', 0]])
       description:
-        description: "mijnenveger([[  0,   0,   0,   0,   0],\n             [  0,
-          \"X\",   0, \"X\", \"X\"],\n             [  0, \"X\",   0, \"X\",   0]])"
+        description: "mijnenveger([[ 0 ,  0 ,  0 ,  0 ,  0 ],\n             [ 0 ,
+          \"X\",  0 , \"X\", \"X\"],\n             [ 0 , \"X\",  0 , \"X\",  0 ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -96,9 +96,9 @@
     - expression: mijnenveger([[0, 'X', 0], [0, 0, 'X'], [0, 0, 0], [0, 0, 0], [0,
         0, 0]])
       description:
-        description: "mijnenveger([[  0, \"X\",   0],\n             [  0,   0, \"\
-          X\"],\n             [  0,   0,   0],\n             [  0,   0,   0],\n  \
-          \           [  0,   0,   0]])"
+        description: "mijnenveger([[ 0 , \"X\",  0 ],\n             [ 0 ,  0 , \"\
+          X\"],\n             [ 0 ,  0 ,  0 ],\n             [ 0 ,  0 ,  0 ],\n  \
+          \           [ 0 ,  0 ,  0 ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -124,10 +124,10 @@
     - expression: mijnenveger([['X', 0], [0, 'X'], [0, 0], [0, 0], [0, 0], [0, 'X'],
         ['X', 0], [0, 0]])
       description:
-        description: "mijnenveger([[\"X\",   0],\n             [  0, \"X\"],\n   \
-          \          [  0,   0],\n             [  0,   0],\n             [  0,   0],\n\
-          \             [  0, \"X\"],\n             [\"X\",   0],\n             [\
-          \  0,   0]])"
+        description: "mijnenveger([[\"X\",  0 ],\n             [ 0 , \"X\"],\n   \
+          \          [ 0 ,  0 ],\n             [ 0 ,  0 ],\n             [ 0 ,  0
+          ],\n             [ 0 , \"X\"],\n             [\"X\",  0 ],\n           \
+          \  [ 0 ,  0 ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -154,9 +154,9 @@
     - expression: mijnenveger([[0, 0, 'X', 'X'], [0, 'X', 'X', 0], [0, 'X', 0, 0],
         [0, 'X', 'X', 'X'], [0, 'X', 0, 0]])
       description:
-        description: "mijnenveger([[  0,   0, \"X\", \"X\"],\n             [  0, \"\
-          X\", \"X\",   0],\n             [  0, \"X\",   0,   0],\n             [\
-          \  0, \"X\", \"X\", \"X\"],\n             [  0, \"X\",   0,   0]])"
+        description: "mijnenveger([[ 0 ,  0 , \"X\", \"X\"],\n             [ 0 , \"\
+          X\", \"X\",  0 ],\n             [ 0 , \"X\",  0 ,  0 ],\n             [
+          0 , \"X\", \"X\", \"X\"],\n             [ 0 , \"X\",  0 ,  0 ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -187,9 +187,9 @@
     - expression: mijnenveger([['X', 0, 0, 0, 'X'], [0, 0, 'X', 0, 'X'], ['X', 0,
         'X', 0, 'X'], [0, 'X', 0, 0, 'X']])
       description:
-        description: "mijnenveger([[\"X\",   0,   0,   0, \"X\"],\n             [\
-          \  0,   0, \"X\",   0, \"X\"],\n             [\"X\",   0, \"X\",   0, \"\
-          X\"],\n             [  0, \"X\",   0,   0, \"X\"]])"
+        description: "mijnenveger([[\"X\",  0 ,  0 ,  0 , \"X\"],\n             [
+          0 ,  0 , \"X\",  0 , \"X\"],\n             [\"X\",  0 , \"X\",  0 , \"X\"\
+          ],\n             [ 0 , \"X\",  0 ,  0 , \"X\"]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -220,9 +220,9 @@
     - expression: mijnenveger([[0, 0, 'X'], ['X', 0, 0], [0, 0, 0], ['X', 0, 0], [0,
         0, 0], [0, 0, 0], ['X', 'X', 'X']])
       description:
-        description: "mijnenveger([[  0,   0, \"X\"],\n             [\"X\",   0, \
-          \  0],\n             [  0,   0,   0],\n             [\"X\",   0,   0],\n\
-          \             [  0,   0,   0],\n             [  0,   0,   0],\n        \
+        description: "mijnenveger([[ 0 ,  0 , \"X\"],\n             [\"X\",  0 , \
+          \ 0 ],\n             [ 0 ,  0 ,  0 ],\n             [\"X\",  0 ,  0 ],\n\
+          \             [ 0 ,  0 ,  0 ],\n             [ 0 ,  0 ,  0 ],\n        \
           \     [\"X\", \"X\", \"X\"]])"
         format: python
       return: !oracle
@@ -255,10 +255,10 @@
     - expression: mijnenveger([[0, 'X', 0, 0, 0, 0], ['X', 0, 0, 'X', 0, 0], [0, 0,
         0, 'X', 0, 0], ['X', 'X', 0, 0, 'X', 'X'], [0, 'X', 0, 'X', 'X', 0]])
       description:
-        description: "mijnenveger([[  0, \"X\",   0,   0,   0,   0],\n           \
-          \  [\"X\",   0,   0, \"X\",   0,   0],\n             [  0,   0,   0, \"\
-          X\",   0,   0],\n             [\"X\", \"X\",   0,   0, \"X\", \"X\"],\n\
-          \             [  0, \"X\",   0, \"X\", \"X\",   0]])"
+        description: "mijnenveger([[ 0 , \"X\",  0 ,  0 ,  0 ,  0 ],\n           \
+          \  [\"X\",  0 ,  0 , \"X\",  0 ,  0 ],\n             [ 0 ,  0 ,  0 , \"\
+          X\",  0 ,  0 ],\n             [\"X\", \"X\",  0 ,  0 , \"X\", \"X\"],\n\
+          \             [ 0 , \"X\",  0 , \"X\", \"X\",  0 ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -299,11 +299,11 @@
     - expression: mijnenveger([['X', 0, 0], [0, 0, 'X'], [0, 0, 0], [0, 0, 0], [0,
         0, 0], [0, 0, 0], [0, 0, 0], [0, 'X', 'X'], [0, 0, 'X'], ['X', 'X', 0]])
       description:
-        description: "mijnenveger([[\"X\",   0,   0],\n             [  0,   0, \"\
-          X\"],\n             [  0,   0,   0],\n             [  0,   0,   0],\n  \
-          \           [  0,   0,   0],\n             [  0,   0,   0],\n          \
-          \   [  0,   0,   0],\n             [  0, \"X\", \"X\"],\n             [\
-          \  0,   0, \"X\"],\n             [\"X\", \"X\",   0]])"
+        description: "mijnenveger([[\"X\",  0 ,  0 ],\n             [ 0 ,  0 , \"\
+          X\"],\n             [ 0 ,  0 ,  0 ],\n             [ 0 ,  0 ,  0 ],\n  \
+          \           [ 0 ,  0 ,  0 ],\n             [ 0 ,  0 ,  0 ],\n          \
+          \   [ 0 ,  0 ,  0 ],\n             [ 0 , \"X\", \"X\"],\n             [
+          0 ,  0 , \"X\"],\n             [\"X\", \"X\",  0 ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -345,11 +345,11 @@
         ['X', 0, 'X', 'X'], [0, 0, 0, 'X'], [0, 0, 0, 'X'], ['X', 0, 'X', 0], [0,
         'X', 0, 0]])
       description:
-        description: "mijnenveger([[\"X\", \"X\", \"X\", \"X\"],\n             [ \
-          \ 0,   0,   0,   0],\n             [\"X\", \"X\",   0,   0],\n         \
-          \    [\"X\",   0, \"X\", \"X\"],\n             [  0,   0,   0, \"X\"],\n\
-          \             [  0,   0,   0, \"X\"],\n             [\"X\",   0, \"X\",\
-          \   0],\n             [  0, \"X\",   0,   0]])"
+        description: "mijnenveger([[\"X\", \"X\", \"X\", \"X\"],\n             [ 0
+          ,  0 ,  0 ,  0 ],\n             [\"X\", \"X\",  0 ,  0 ],\n            \
+          \ [\"X\",  0 , \"X\", \"X\"],\n             [ 0 ,  0 ,  0 , \"X\"],\n  \
+          \           [ 0 ,  0 ,  0 , \"X\"],\n             [\"X\",  0 , \"X\",  0
+          ],\n             [ 0 , \"X\",  0 ,  0 ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -393,10 +393,11 @@
         ['X', 0, 0, 0, 0, 0, 'X'], [0, 0, 0, 0, 0, 'X', 'X'], [0, 0, 'X', 0, 0, 'X',
         'X']])
       description:
-        description: "mijnenveger([[  0, \"X\",   0,   0,   0,   0,   0],\n      \
-          \       [  0,   0,   0, \"X\",   0,   0, \"X\"],\n             [\"X\", \
-          \  0,   0,   0,   0,   0, \"X\"],\n             [  0,   0,   0,   0,   0,
-          \"X\", \"X\"],\n             [  0,   0, \"X\",   0,   0, \"X\", \"X\"]])"
+        description: "mijnenveger([[ 0 , \"X\",  0 ,  0 ,  0 ,  0 ,  0 ],\n      \
+          \       [ 0 ,  0 ,  0 , \"X\",  0 ,  0 , \"X\"],\n             [\"X\", \
+          \ 0 ,  0 ,  0 ,  0 ,  0 , \"X\"],\n             [ 0 ,  0 ,  0 ,  0 ,  0
+          , \"X\", \"X\"],\n             [ 0 ,  0 , \"X\",  0 ,  0 , \"X\", \"X\"\
+          ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -443,11 +444,11 @@
         0, 0], [0, 0, 'X', 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 'X', 0], ['X', 0, 0,
         0, 0]])
       description:
-        description: "mijnenveger([[  0,   0, \"X\",   0, \"X\"],\n             [\
-          \  0,   0, \"X\",   0, \"X\"],\n             [  0,   0, \"X\",   0,   0],\n\
-          \             [  0,   0, \"X\",   0,   0],\n             [  0,   0,   0,\
-          \   0,   0],\n             [  0,   0,   0, \"X\",   0],\n             [\"\
-          X\",   0,   0,   0,   0]])"
+        description: "mijnenveger([[ 0 ,  0 , \"X\",  0 , \"X\"],\n             [
+          0 ,  0 , \"X\",  0 , \"X\"],\n             [ 0 ,  0 , \"X\",  0 ,  0 ],\n\
+          \             [ 0 ,  0 , \"X\",  0 ,  0 ],\n             [ 0 ,  0 ,  0 ,\
+          \  0 ,  0 ],\n             [ 0 ,  0 ,  0 , \"X\",  0 ],\n             [\"\
+          X\",  0 ,  0 ,  0 ,  0 ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -494,11 +495,11 @@
         0, 'X'], ['X', 0, 0, 0, 0], ['X', 0, 0, 0, 0], [0, 0, 0, 0, 'X'], [0, 'X',
         'X', 'X', 0]])
       description:
-        description: "mijnenveger([[  0,   0,   0,   0,   0],\n             [  0,
-          \"X\",   0, \"X\",   0],\n             [  0, \"X\", \"X\",   0, \"X\"],\n\
-          \             [\"X\",   0,   0,   0,   0],\n             [\"X\",   0,  \
-          \ 0,   0,   0],\n             [  0,   0,   0,   0, \"X\"],\n           \
-          \  [  0, \"X\", \"X\", \"X\",   0]])"
+        description: "mijnenveger([[ 0 ,  0 ,  0 ,  0 ,  0 ],\n             [ 0 ,
+          \"X\",  0 , \"X\",  0 ],\n             [ 0 , \"X\", \"X\",  0 , \"X\"],\n\
+          \             [\"X\",  0 ,  0 ,  0 ,  0 ],\n             [\"X\",  0 ,  0
+          ,  0 ,  0 ],\n             [ 0 ,  0 ,  0 ,  0 , \"X\"],\n             [
+          0 , \"X\", \"X\", \"X\",  0 ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -545,11 +546,11 @@
         0, 0, 'X', 0, 0], ['X', 0, 0, 0, 0, 'X'], ['X', 0, 'X', 0, 0, 'X'], [0, 0,
         0, 0, 0, 0]])
       description:
-        description: "mijnenveger([[  0,   0, \"X\",   0,   0, \"X\"],\n         \
-          \    [  0,   0, \"X\",   0, \"X\",   0],\n             [  0,   0,   0, \"\
-          X\",   0,   0],\n             [\"X\",   0,   0,   0,   0, \"X\"],\n    \
-          \         [\"X\",   0, \"X\",   0,   0, \"X\"],\n             [  0,   0,\
-          \   0,   0,   0,   0]])"
+        description: "mijnenveger([[ 0 ,  0 , \"X\",  0 ,  0 , \"X\"],\n         \
+          \    [ 0 ,  0 , \"X\",  0 , \"X\",  0 ],\n             [ 0 ,  0 ,  0 , \"\
+          X\",  0 ,  0 ],\n             [\"X\",  0 ,  0 ,  0 ,  0 , \"X\"],\n    \
+          \         [\"X\",  0 , \"X\",  0 ,  0 , \"X\"],\n             [ 0 ,  0 ,\
+          \  0 ,  0 ,  0 ,  0 ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -597,11 +598,11 @@
         0, 0, 0, 'X', 0], ['X', 'X', 'X', 'X', 0, 0, 0, 'X', 0], [0, 0, 0, 'X', 0,
         0, 'X', 'X', 'X'], [0, 'X', 0, 'X', 0, 'X', 0, 0, 0]])
       description:
-        description: "mijnenveger([[  0, \"X\",   0, \"X\",   0, \"X\",   0, \"X\"\
-          ,   0],\n             [\"X\",   0,   0,   0,   0,   0,   0, \"X\",   0],\n\
-          \             [\"X\", \"X\", \"X\", \"X\",   0,   0,   0, \"X\",   0],\n\
-          \             [  0,   0,   0, \"X\",   0,   0, \"X\", \"X\", \"X\"],\n \
-          \            [  0, \"X\",   0, \"X\",   0, \"X\",   0,   0,   0]])"
+        description: "mijnenveger([[ 0 , \"X\",  0 , \"X\",  0 , \"X\",  0 , \"X\"\
+          ,  0 ],\n             [\"X\",  0 ,  0 ,  0 ,  0 ,  0 ,  0 , \"X\",  0 ],\n\
+          \             [\"X\", \"X\", \"X\", \"X\",  0 ,  0 ,  0 , \"X\",  0 ],\n\
+          \             [ 0 ,  0 ,  0 , \"X\",  0 ,  0 , \"X\", \"X\", \"X\"],\n \
+          \            [ 0 , \"X\",  0 , \"X\",  0 , \"X\",  0 ,  0 ,  0 ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -659,13 +660,13 @@
         0, 'X', 0, 0], ['X', 0, 'X', 0, 0, 0, 0], [0, 'X', 0, 0, 0, 0, 'X'], ['X',
         0, 0, 0, 0, 0, 0]])
       description:
-        description: "mijnenveger([[\"X\",   0, \"X\",   0, \"X\", \"X\", \"X\"],\n\
-          \             [\"X\", \"X\", \"X\", \"X\",   0,   0,   0],\n           \
-          \  [  0, \"X\",   0, \"X\", \"X\",   0,   0],\n             [  0, \"X\"\
-          ,   0,   0,   0,   0,   0],\n             [  0,   0,   0,   0, \"X\",  \
-          \ 0,   0],\n             [\"X\",   0, \"X\",   0,   0,   0,   0],\n    \
-          \         [  0, \"X\",   0,   0,   0,   0, \"X\"],\n             [\"X\"\
-          ,   0,   0,   0,   0,   0,   0]])"
+        description: "mijnenveger([[\"X\",  0 , \"X\",  0 , \"X\", \"X\", \"X\"],\n\
+          \             [\"X\", \"X\", \"X\", \"X\",  0 ,  0 ,  0 ],\n           \
+          \  [ 0 , \"X\",  0 , \"X\", \"X\",  0 ,  0 ],\n             [ 0 , \"X\"\
+          ,  0 ,  0 ,  0 ,  0 ,  0 ],\n             [ 0 ,  0 ,  0 ,  0 , \"X\",  0
+          ,  0 ],\n             [\"X\",  0 , \"X\",  0 ,  0 ,  0 ,  0 ],\n       \
+          \      [ 0 , \"X\",  0 ,  0 ,  0 ,  0 , \"X\"],\n             [\"X\",  0
+          ,  0 ,  0 ,  0 ,  0 ,  0 ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -734,13 +735,13 @@
         'X', 'X', 0, 'X'], ['X', 'X', 0, 0, 0, 'X', 0], [0, 0, 0, 0, 'X', 0, 0], [0,
         0, 0, 0, 0, 'X', 0]])
       description:
-        description: "mijnenveger([[\"X\",   0, \"X\",   0,   0,   0,   0],\n    \
-          \         [\"X\",   0, \"X\",   0, \"X\", \"X\", \"X\"],\n             [\
-          \  0, \"X\", \"X\",   0,   0,   0,   0],\n             [  0,   0, \"X\"\
-          ,   0,   0, \"X\",   0],\n             [\"X\",   0, \"X\", \"X\", \"X\"\
-          ,   0, \"X\"],\n             [\"X\", \"X\",   0,   0,   0, \"X\",   0],\n\
-          \             [  0,   0,   0,   0, \"X\",   0,   0],\n             [  0,\
-          \   0,   0,   0,   0, \"X\",   0]])"
+        description: "mijnenveger([[\"X\",  0 , \"X\",  0 ,  0 ,  0 ,  0 ],\n    \
+          \         [\"X\",  0 , \"X\",  0 , \"X\", \"X\", \"X\"],\n             [
+          0 , \"X\", \"X\",  0 ,  0 ,  0 ,  0 ],\n             [ 0 ,  0 , \"X\", \
+          \ 0 ,  0 , \"X\",  0 ],\n             [\"X\",  0 , \"X\", \"X\", \"X\",\
+          \  0 , \"X\"],\n             [\"X\", \"X\",  0 ,  0 ,  0 , \"X\",  0 ],\n\
+          \             [ 0 ,  0 ,  0 ,  0 , \"X\",  0 ,  0 ],\n             [ 0 ,\
+          \  0 ,  0 ,  0 ,  0 , \"X\",  0 ]])"
         format: python
       return: !oracle
         oracle: "custom_check"
@@ -810,15 +811,15 @@
         0], [0, 'X', 0, 0, 0, 0, 0, 'X', 'X', 0], [0, 0, 0, 0, 'X', 0, 0, 0, 0, 0],
         ['X', 'X', 'X', 0, 'X', 0, 'X', 'X', 0, 'X']])
       description:
-        description: "mijnenveger([[  0, \"X\",   0, \"X\", \"X\", \"X\", \"X\", \
-          \  0, \"X\",   0],\n             [  0, \"X\",   0,   0, \"X\",   0, \"X\"\
-          ,   0, \"X\", \"X\"],\n             [\"X\", \"X\",   0, \"X\",   0,   0,
-          \"X\",   0,   0,   0],\n             [  0, \"X\",   0,   0, \"X\", \"X\"\
-          , \"X\", \"X\", \"X\", \"X\"],\n             [\"X\",   0,   0,   0,   0,
-          \"X\", \"X\",   0,   0,   0],\n             [  0, \"X\",   0,   0,   0,\
-          \   0,   0, \"X\", \"X\",   0],\n             [  0,   0,   0,   0, \"X\"\
-          ,   0,   0,   0,   0,   0],\n             [\"X\", \"X\", \"X\",   0, \"\
-          X\",   0, \"X\", \"X\",   0, \"X\"]])"
+        description: "mijnenveger([[ 0 , \"X\",  0 , \"X\", \"X\", \"X\", \"X\", \
+          \ 0 , \"X\",  0 ],\n             [ 0 , \"X\",  0 ,  0 , \"X\",  0 , \"X\"\
+          ,  0 , \"X\", \"X\"],\n             [\"X\", \"X\",  0 , \"X\",  0 ,  0 ,
+          \"X\",  0 ,  0 ,  0 ],\n             [ 0 , \"X\",  0 ,  0 , \"X\", \"X\"\
+          , \"X\", \"X\", \"X\", \"X\"],\n             [\"X\",  0 ,  0 ,  0 ,  0 ,
+          \"X\", \"X\",  0 ,  0 ,  0 ],\n             [ 0 , \"X\",  0 ,  0 ,  0 ,\
+          \  0 ,  0 , \"X\", \"X\",  0 ],\n             [ 0 ,  0 ,  0 ,  0 , \"X\"\
+          ,  0 ,  0 ,  0 ,  0 ,  0 ],\n             [\"X\", \"X\", \"X\",  0 , \"\
+          X\",  0 , \"X\", \"X\",  0 , \"X\"]])"
         format: python
       return: !oracle
         oracle: "custom_check"

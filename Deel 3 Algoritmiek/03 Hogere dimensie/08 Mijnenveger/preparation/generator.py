@@ -58,9 +58,9 @@ def generate_expression(name, matrix, add=None):
             el = matrix[r][c]
             if isinstance(el, str):
                 string_el = f"\"{el}\""
-                txt += f"{string_el:>{dist}}"
+                txt += f"{string_el:^{dist}}"
             else:
-                txt += f"{el:>{dist}}"
+                txt += f"{el:^{dist}}"
             if c < len(matrix[0]) - 1:
                 txt += ", "
         txt += "]"
