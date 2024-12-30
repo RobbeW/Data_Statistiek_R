@@ -74,17 +74,43 @@ def generate_expression(name, matrix, add=None):
     txt += "])"
     return txt
 
+def aantal_niet_rot(matrix):
+    aantal = 0
+    for r in range(len(matrix)):
+        for c in range(len(matrix[0])):
+            el = matrix[r][c]
+            if el == 1:
+                aantal += 1
+    return aantal
+
 # generate test data
-ntests = 3
+ntests = 20
 cases = [[[2,1,1],[1,1,0],[0,1,1]],
          [[2,1,1],[0,1,1],[1,0,1]],
+         [[2,1,0],[1,0,0],[0,0,1]],
          [[0,2]]]
 
 while len(cases) < ntests:
-    r = random.randint(1, 10)
-    c = random.randint(1, 10)
+    n = random.randint(1, 25)
+    m = random.randint(1, 25)
     mat = []
-
+    for _ in range(n):
+        row = [0] * m
+        mat.append(row)
+    
+    # add fresh
+    k = random.randint(n*m*8//10, n*m)
+    while aantal_niet_rot(mat) != k:
+        i = random.randint(0,n-1)
+        j = random.randint(0,m-1)
+        mat[i][j] = 1
+    
+    # make some rotten
+    k = random.randint(1,5)
+    for _ in range(k):
+        i = random.randint(0,n-1)
+        j = random.randint(0,m-1)
+        mat[i][j] = 2
     
     if mat not in cases:
         cases.append(mat)
