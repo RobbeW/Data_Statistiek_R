@@ -5,9 +5,10 @@ In elke toepassing van de H-bewerking:
 - Blijft elke pixel in de 1e rij op zijn plaats (d.w.z. ze bewegen niet).
 - Schuift elke pixel in de 2e rij 1 plaats naar rechts.
 - Schuift elke pixel in de 3e rij 2 plaatsen naar rechts.
+- ...
 - Schuift elke pixel in de n-de rij n−1 plaatsen naar rechts.
 
-Wanneer pixels in een rij voorbij de rechterrand van de afbeelding worden geschoven, worden ze op volgorde gehouden en als een groep verplaatst naar de beschikbare ruimte aan de linkerkant van de rij. Hier is een voorbeeld van een afbeelding van 3 x 3 met kleuren gelabeld van 1 tot 9:
+Wanneer pixels in een rij voorbij de rechterrand van de afbeelding worden geschoven, worden ze op volgorde gehouden en als een groep verplaatst naar de beschikbare ruimte aan de linkerkant van de rij. Hier is een voorbeeld van een afbeelding van 3 × 3 met kleuren gelabeld van 1 tot 9:
 
 ![H-bewerking toegepast op een rooster.](media/image1.png "H-bewerking toegepast op een rooster."){:data-caption="H-bewerking toegepast op een rooster." .light-only width="45%"}
 
@@ -21,7 +22,7 @@ Net zo, in elke toepassing van de V-bewerking:
 
 ![V-bewerking toegepast op een rooster.](media/image2_dark.png "V-bewerking toegepast op een rooster."){:data-caption="V-bewerking toegepast op een rooster." .dark-only width="45%"}
 
-Hier is hoe de reeks HVHV kan worden gebruikt om een 25 x 25 afbeelding van de Mona Lisa te versleutelen:
+Hier is hoe de reeks HVHV kan worden gebruikt om een 25 × 25 afbeelding van de Mona Lisa te versleutelen:
 
 ![HVHV toegepast op de Mona Lisa.](media/monalisa.png "HVHV toegepast op de Mona Lisa."){:data-caption="HVHV toegepast op de Mona Lisa." .light-only width="45%"}
 
