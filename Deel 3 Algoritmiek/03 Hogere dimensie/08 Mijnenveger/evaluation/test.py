@@ -25,7 +25,7 @@ def prettify_matrix_num(matrix):
             el = matrix[r][c]
             if isinstance(el, str):
                 el = f"\"{el}\""
-            txt += f"{el:>{dist}}"
+            txt += f"{el:^{dist}}"
             if c < len(matrix[r]) - 1:
                 txt += ", "
         txt += "]"
