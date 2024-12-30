@@ -20,9 +20,9 @@ Bestudeer zorgvuldig onderstaande voorbeelden.
 
 #### Voorbeelden
 
-![Evolutie van een fruitschaal.](media/image1.png "Evolutie van een fruitschaal."){:data-caption="Evolutie van een fruitschaal." .light-only height="3%"}
+![Evolutie van een fruitschaal.](media/image1.png "Evolutie van een fruitschaal."){:data-caption="Evolutie van een fruitschaal." .light-only height="150px"}
 
-![Evolutie van een fruitschaal.](media/image1_dark.png "Evolutie van een fruitschaal."){:data-caption="Evolutie van een fruitschaal." .dark-only height="3%"}
+![Evolutie van een fruitschaal.](media/image1_dark.png "Evolutie van een fruitschaal."){:data-caption="Evolutie van een fruitschaal." .dark-only height="150px"}
 
 Bij deze fruitschaal duurt het 4 stappen, tot de ganse schaal enkel rot fruit bevat.
 
@@ -50,9 +50,9 @@ De hulpfuncties `aantal_vers(rooster)` en `stap(rooster)` werken als volgt:
  [0, 1, 1]]
 ```
 
-![Evolutie van een fruitschaal.](media/image2.png "Evolutie van een fruitschaal."){:data-caption="Evolutie van een fruitschaal." .light-only height="5%"}
+![Evolutie van een fruitschaal.](media/image2.png "Evolutie van een fruitschaal."){:data-caption="Evolutie van een fruitschaal." .light-only height="150px"}
 
-![Evolutie van een fruitschaal.](media/image2_dark.png "Evolutie van een fruitschaal."){:data-caption="Evolutie van een fruitschaal." .dark-only height="5%"}
+![Evolutie van een fruitschaal.](media/image2_dark.png "Evolutie van een fruitschaal."){:data-caption="Evolutie van een fruitschaal." .dark-only height="150px"}
 
 Elk stuk fruit rot maken is onmogelijk in deze fruitschaal. Het stuk fruit rechtsonder grenst immers nooit aan ander stuk rot fruit.
 
