@@ -1,4 +1,4 @@
-def aantal_niet_rot(matrix):
+def aantal_vers(matrix):
     aantal = 0
     for r in range(len(matrix)):
         for c in range(len(matrix[0])):
@@ -32,14 +32,14 @@ def stap(matrix):
                 new[r][c] = 2
     return new
 
-def rot(rooster):
-    count = aantal_niet_rot(rooster)
+def rot_fruit(rooster):
+    count = aantal_vers(rooster)
     i = 0
     if count > 0:
         while True:
             new = stap(rooster)
             i += 1
-            count = aantal_niet_rot(new)
+            count = aantal_vers(new)
             if count == 0: # none remaining
                 break
             elif new == rooster: # no change after a step

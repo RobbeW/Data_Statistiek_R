@@ -119,23 +119,24 @@ cases = sorted(cases, key = lambda x: len(x) * len(x[0]))
 
 # generate unit tests for functions
 yamldata = []
-tabtitle = "Feedback"
+tabtitle = "Feedback aantal_vers"
 
 yamldata.append( {'tab': tabtitle, 'contexts': []})
+k = len(yamldata)
 
 for i in range(len(cases)):
     test = cases[i]
-    yamldata[0]['contexts'].append( {'testcases' : []})
+    yamldata[k-1]['contexts'].append( {'testcases' : []})
        
     # generate test expression
-    expression_name = f"rot({test})"
-    description_name = generate_expression("rot", test)
+    expression_name = f"aantal_vers({test})"
+    description_name = generate_expression("aantal_vers", test)
     description = {"description": description_name, "format": "python"}
 
     try:
         outputF = io.StringIO()
         with contextlib.redirect_stdout(outputF):
-            result = module.rot(test)
+            result = module.aantal_vers(test)
         stdout = outputF.getvalue() ##printed value
 
         print(stdout)
@@ -144,7 +145,37 @@ for i in range(len(cases)):
         testcase = {"expression": expression_name, 
                     "description": description,
                     "return" : result }
-        yamldata[0]['contexts'][i]["testcases"].append( testcase)
+        yamldata[k-1]['contexts'][i]["testcases"].append( testcase)
+    except Exception as e:
+        print(e)    
+        
+tabtitle = "Feedback rot_fruit"
+
+yamldata.append( {'tab': tabtitle, 'contexts': []})
+k = len(yamldata)
+
+for i in range(len(cases)):
+    test = cases[i]
+    yamldata[k-1]['contexts'].append( {'testcases' : []})
+       
+    # generate test expression
+    expression_name = f"rot_fruit({test})"
+    description_name = generate_expression("rot_fruit", test)
+    description = {"description": description_name, "format": "python"}
+
+    try:
+        outputF = io.StringIO()
+        with contextlib.redirect_stdout(outputF):
+            result = module.rot_fruit(test)
+        stdout = outputF.getvalue() ##printed value
+
+        print(stdout)
+        print(result)
+        # setup for return expressions
+        testcase = {"expression": expression_name, 
+                    "description": description,
+                    "return" : result }
+        yamldata[k-1]['contexts'][i]["testcases"].append( testcase)
     except Exception as e:
         print(e)    
 
