@@ -2,9 +2,9 @@ De <a href="https://nl.wikipedia.org/wiki/Driehoek_van_Pascal" target="_blank">d
 
 Meestal wordt deze rangschikking in deze driehoekige structuur getekend:
 
-![De driehoek van Pascal.](media/image.png "De driehoek van Pascal."){:data-caption=De driehoek van Pascal." .light-only height="35%"}
+![De driehoek van Pascal.](media/image.png "De driehoek van Pascal."){:data-caption=De driehoek van Pascal." .light-only width="35%"}
 
-![De driehoek van Pascal.](media/image_dark.png "De driehoek van Pascal."){:data-caption=De driehoek van Pascal." .dark-only height="35%"}
+![De driehoek van Pascal.](media/image_dark.png "De driehoek van Pascal."){:data-caption=De driehoek van Pascal." .dark-only width="35%"}
 
 <a href="https://nl.wikipedia.org/wiki/Blaise_Pascal" target="_blank">Blaise Pascal</a> ordende de getallen echter als volgt:
 
@@ -18,13 +18,20 @@ Meestal wordt deze rangschikking in deze driehoekige structuur getekend:
 ```
 
 ## Gevraagd
-Schrijf een functie `driehoek(zijde)` die gegeven de horizontale (of vertical) zijde van de driehoek een twee-dimensionale lijst maakt met de getallen uit de driehoek van Pascal.
+Schrijf een functie `driehoek(zijde)` die gegeven de horizontale (of vertical) zijde van de driehoek een twee-dimensionale lijst maakt met de getallen uit de driehoek van Pascal. 
 
-Bestudeer grondig onderstaande voorbeelden.
+Let op, deze keer heeft niet elke rij eenzelfde lengte!
 
-#### Voorbeelden
+Bestudeer grondig onderstaand voorbeeld.
+
+#### Voorbeeld
 
 ```python
 >>> driehoek(6)
-[[1]]
+[[ 1,  1,  1,  1,  1,  1],
+ [ 1,  2,  3,  4,  5],
+ [ 1,  3,  6, 10],
+ [ 1,  4, 10],
+ [ 1,  5],
+ [ 1]]
 ```
