@@ -24,6 +24,4 @@ def kleinste_pad(matrix):
 
     result = temp[nrow - 1][ncol - 1]
 
-    for r in range(nrow):
-        print(temp[r])
     return result
