@@ -19,3 +19,7 @@ Schrijf een functie `kleinste_pad(tabel)` die gegeven een matrix met gehele geta
 -38
 ```
 Hierbij neemt de kikker de route volledig tot de onderste rij, waarna deze naar rechts beweegt.
+
+{: .callout.callout-info}
+>#### Merk op
+> Dit is niet de het *kleinste* pad. Er kan namelijk een pad gevonden worden met een *niet iets kleinere som*. Vind je dit betere pad?
