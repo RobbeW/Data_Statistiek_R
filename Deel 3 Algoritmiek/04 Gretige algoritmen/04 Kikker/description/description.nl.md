@@ -22,4 +22,5 @@ Hierbij neemt de kikker de route volledig tot de onderste rij, waarna deze naar 
 
 {: .callout.callout-info}
 >#### Merk op
-> Dit is niet de het *kleinste* pad. Er kan namelijk een pad gevonden worden met een *niet iets kleinere som*. Vind je dit betere pad?
+> Dit is **niet** de het pad met de *kleinste* som. 
+> Er kan namelijk een pad gevonden worden met een *niet iets kleinere som*. Vind je dit betere pad?
