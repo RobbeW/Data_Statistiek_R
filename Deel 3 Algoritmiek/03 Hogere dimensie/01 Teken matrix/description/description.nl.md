@@ -32,3 +32,7 @@ Schrijf een functie `print_matrix(matrix)` die gegeven een tweedimensionale lijs
 2 8 9
 7 0 5
 ```
+
+{: .callout.callout-info}
+>#### Tip
+> Concateneer elk element tot een volledige regel en print die daarna af. De eerste regel van het voorbeeld komt bijvoorbeeld overeen met `str(6) + " " + str(2) + " " + str(0) + " "`.

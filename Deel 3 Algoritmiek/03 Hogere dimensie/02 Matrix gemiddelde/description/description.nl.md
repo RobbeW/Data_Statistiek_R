@@ -1,5 +1,5 @@
 ## Gevraagd
-Schrijf een functie `gemiddelde_matrix(matrix)` die het gemiddelde van alle matrixwaarden retourneert. Dit gemiddelde wordt afgerond op twee decimalen.
+Schrijf een functie `gemiddelde_matrix(matrix)` die het rekenkundig gemiddelde van alle matrixwaarden retourneert. Dit gemiddelde wordt afgerond op twee decimalen.
 
 #### Voorbeeld
 
