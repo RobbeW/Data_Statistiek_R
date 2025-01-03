@@ -1,4 +1,4 @@
-Een matrix is een Toeplitz-matrix indien elke diagonaal van linksboven naar rechtsonder uit identieke elementen bestaat.
+Een matrix is een Toeplitz-matrix (naar <a href="https://en.wikipedia.org/wiki/Otto_Toeplitz" target="_blank">Otto Toeplitz</a>) indien **elke diagonaal** van linksboven naar rechtsonder uit identieke elementen bestaat. 
 
 Onderstaande matrix is bijvoorbeeld een Toeplitz-matrix.
 
