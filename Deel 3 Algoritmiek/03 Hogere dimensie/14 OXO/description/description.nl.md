@@ -5,9 +5,10 @@ OXO is een spel dat door twee spelers gespeeld wordt in een 3 op 3 rooster. De r
 - De eerste speler die drie dezelfde telkens naast elkaar, onder elkaar of diagonaal kan plaatsen wint het spel. 
 - Het kan ook zijn dat er geen winnaar is.
 
+![Deze robot denkt buiten de lijntjes.](media/tic-tac-toe-robot.gif "Deze robot denkt buiten de lijntjes."){:data-caption=Deze robot denkt buiten de lijntjes." .light-only height="35%"}
 
 ## Gevraagd
-Schrijf een functie `oxo(rooster)` die gegeven een uiteindelijk oxo speelveld bepaalt wie de winnaar (of geen winnaar) is.
+Schrijf een functie `oxo(rooster)` die gegeven een oxo speelveld bepaalt of er een winnaar is.
 
 Bestudeer grondig onderstaande voorbeelden.
 
