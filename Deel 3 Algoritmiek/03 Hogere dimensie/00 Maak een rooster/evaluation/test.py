@@ -53,6 +53,11 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
         obj = EvaluationResult(
             result = value,
             readable_actual = readable_actual,
-            readable_expected = readable_actual
+            readable_expected = readable_actual,
+            messages=[Message(
+                description="Je resultaat is geen lijst of de dimensies zijn foutief.",
+                format="html",
+                permission="student"
+            )]
         )
     return obj
