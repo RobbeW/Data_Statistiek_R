@@ -54,6 +54,7 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
         obj = EvaluationResult(
             result = value,
             readable_actual = readable_actual,
+            readable_expected = readable_actual,
             messages=[Message(
                 description="Je uitvoer is geen lijst of de dimensies zijn foutief.",
                 format="html",
