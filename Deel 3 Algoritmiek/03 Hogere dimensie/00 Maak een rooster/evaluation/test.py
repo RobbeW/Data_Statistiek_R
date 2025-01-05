@@ -51,7 +51,7 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
             readable_expected = readable_actual
         )
     else:
-        readable_expected = prettify_matrix_num([[".",".","."],[".",".","."],[".",".","."]])
+        readable_expected = prettify_matrix_num([["?","?","?"],["?","?","?"],["?","?","?"]])
         obj = EvaluationResult(
             result = value,
             readable_expected = readable_expected,
