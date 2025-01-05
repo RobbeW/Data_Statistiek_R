@@ -49,11 +49,16 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
             readable_expected = readable_actual
         )
     else:
-        readable_actual = context.actual
+        readable_actual = list(context.actual)
         
         obj = EvaluationResult(
             result = value,
             readable_actual = readable_actual,
-            readable_expected = readable_actual
+            readable_expected = readable_actual,
+            messages=[Message(
+                description="Je uitvoer is geen lijst of de dimensies zijn foutief.",
+                format="html",
+                permission="student"
+            )]
         )
     return obj
