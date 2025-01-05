@@ -34,16 +34,25 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
     # expected as defined in the value field of the test suite
     # actual as given by running the file
     if isinstance(context.actual, list) and isinstance(context.expected, list):
-        value = (len(context.actual) == len(context.actual[0]) == 3)
+        if isinstance(context.actual[0], list):
+            value = (len(context.actual) == len(context.actual[0]) == 3)
+        else: 
+            value = False
     else:
         value = False
 
-
-    readable_expected = prettify_matrix_num(list(context.expected))
-    readable_actual = prettify_matrix_num(list(context.actual))
-    obj = EvaluationResult(
-        result = value,
-        readable_actual = readable_actual,
-        readable_expected = readable_actual
+    if value:
+        readable_actual = prettify_matrix_num(list(context.actual))
+        obj = EvaluationResult(
+            result = value,
+            readable_actual = readable_actual
         )
+    else:
+        readable_actual = context.actual
+        
+        obj = EvaluationResult(
+            result = value,
+            readable_actual = readable_actual,
+            messages=["Je hebt de lijst niet met de correcte syntax opgebouwd, of de dimensies zijn foutief."]
+            )
     return obj
