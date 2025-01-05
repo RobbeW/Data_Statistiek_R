@@ -49,10 +49,10 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
             readable_expected = readable_actual
         )
     else:
-        readable_actual = prettify_matrix_num(list(context.actual))
+        readable_expected = prettify_matrix_num([[".",".","."],[".",".","."],[".",".","."]])
         obj = EvaluationResult(
             result = value,
-            readable_actual = readable_actual,
+            readable_expected = readable_expected,
             messages=[Message(
                 description="Je resultaat is geen lijst of de dimensies zijn foutief.",
                 format="html",
