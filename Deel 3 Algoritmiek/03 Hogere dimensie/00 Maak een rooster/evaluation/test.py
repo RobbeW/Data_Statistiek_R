@@ -36,6 +36,8 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
     if isinstance(context.actual, list) and isinstance(context.expected, list):
         if isinstance(context.actual[0], list):
             value = (len(context.actual) == len(context.actual[0]) == 3)
+            for i in range(len(context.actual)):
+                value &= len(context.actual[i]) == 3
         else: 
             value = False
     else:
