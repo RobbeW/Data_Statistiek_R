@@ -1,0 +1,690 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: vandermonde([4, 6], 1)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+          - - 1
+  - testcases:
+    - expression: vandermonde([1, 2, 3], 4)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 1
+            - 1
+            - 1
+          - - 1
+            - 2
+            - 4
+            - 8
+          - - 1
+            - 3
+            - 9
+            - 27
+  - testcases:
+    - expression: vandermonde([5, 2, 7, 4], 3)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 5
+            - 25
+          - - 1
+            - 2
+            - 4
+          - - 1
+            - 7
+            - 49
+          - - 1
+            - 4
+            - 16
+  - testcases:
+    - expression: vandermonde([4, 5, 9, 9], 1)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+          - - 1
+          - - 1
+          - - 1
+  - testcases:
+    - expression: vandermonde([4, 8, 2, 6], 2)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 4
+          - - 1
+            - 8
+          - - 1
+            - 2
+          - - 1
+            - 6
+  - testcases:
+    - expression: vandermonde([3, 3, 8, 5], 6)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 3
+            - 9
+            - 27
+            - 81
+            - 243
+          - - 1
+            - 3
+            - 9
+            - 27
+            - 81
+            - 243
+          - - 1
+            - 8
+            - 64
+            - 512
+            - 4096
+            - 32768
+          - - 1
+            - 5
+            - 25
+            - 125
+            - 625
+            - 3125
+  - testcases:
+    - expression: vandermonde([8, 6, 4, 7], 6)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 8
+            - 64
+            - 512
+            - 4096
+            - 32768
+          - - 1
+            - 6
+            - 36
+            - 216
+            - 1296
+            - 7776
+          - - 1
+            - 4
+            - 16
+            - 64
+            - 256
+            - 1024
+          - - 1
+            - 7
+            - 49
+            - 343
+            - 2401
+            - 16807
+  - testcases:
+    - expression: vandermonde([6, 5, 4, 3, 7], 1)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+          - - 1
+          - - 1
+          - - 1
+          - - 1
+  - testcases:
+    - expression: vandermonde([7, 1, 9, 4, 5], 6)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 7
+            - 49
+            - 343
+            - 2401
+            - 16807
+          - - 1
+            - 1
+            - 1
+            - 1
+            - 1
+            - 1
+          - - 1
+            - 9
+            - 81
+            - 729
+            - 6561
+            - 59049
+          - - 1
+            - 4
+            - 16
+            - 64
+            - 256
+            - 1024
+          - - 1
+            - 5
+            - 25
+            - 125
+            - 625
+            - 3125
+  - testcases:
+    - expression: vandermonde([8, 2, 8, 4, 3, 4], 2)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 8
+          - - 1
+            - 2
+          - - 1
+            - 8
+          - - 1
+            - 4
+          - - 1
+            - 3
+          - - 1
+            - 4
+  - testcases:
+    - expression: vandermonde([4, 3, 7, 8, 7, 4], 4)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 4
+            - 16
+            - 64
+          - - 1
+            - 3
+            - 9
+            - 27
+          - - 1
+            - 7
+            - 49
+            - 343
+          - - 1
+            - 8
+            - 64
+            - 512
+          - - 1
+            - 7
+            - 49
+            - 343
+          - - 1
+            - 4
+            - 16
+            - 64
+  - testcases:
+    - expression: vandermonde([7, 4, 4, 9, 4, 6, 3], 1)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+          - - 1
+          - - 1
+          - - 1
+          - - 1
+          - - 1
+          - - 1
+  - testcases:
+    - expression: vandermonde([9, 3, 5, 2, 6, 1, 7, 5], 5)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 9
+            - 81
+            - 729
+            - 6561
+          - - 1
+            - 3
+            - 9
+            - 27
+            - 81
+          - - 1
+            - 5
+            - 25
+            - 125
+            - 625
+          - - 1
+            - 2
+            - 4
+            - 8
+            - 16
+          - - 1
+            - 6
+            - 36
+            - 216
+            - 1296
+          - - 1
+            - 1
+            - 1
+            - 1
+            - 1
+          - - 1
+            - 7
+            - 49
+            - 343
+            - 2401
+          - - 1
+            - 5
+            - 25
+            - 125
+            - 625
+  - testcases:
+    - expression: vandermonde([8, 8, 9, 4, 6, 2, 3, 5], 5)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 8
+            - 64
+            - 512
+            - 4096
+          - - 1
+            - 8
+            - 64
+            - 512
+            - 4096
+          - - 1
+            - 9
+            - 81
+            - 729
+            - 6561
+          - - 1
+            - 4
+            - 16
+            - 64
+            - 256
+          - - 1
+            - 6
+            - 36
+            - 216
+            - 1296
+          - - 1
+            - 2
+            - 4
+            - 8
+            - 16
+          - - 1
+            - 3
+            - 9
+            - 27
+            - 81
+          - - 1
+            - 5
+            - 25
+            - 125
+            - 625
+  - testcases:
+    - expression: vandermonde([7, 3, 1, 3, 4, 4, 9, 7, 8, 3], 5)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 7
+            - 49
+            - 343
+            - 2401
+          - - 1
+            - 3
+            - 9
+            - 27
+            - 81
+          - - 1
+            - 1
+            - 1
+            - 1
+            - 1
+          - - 1
+            - 3
+            - 9
+            - 27
+            - 81
+          - - 1
+            - 4
+            - 16
+            - 64
+            - 256
+          - - 1
+            - 4
+            - 16
+            - 64
+            - 256
+          - - 1
+            - 9
+            - 81
+            - 729
+            - 6561
+          - - 1
+            - 7
+            - 49
+            - 343
+            - 2401
+          - - 1
+            - 8
+            - 64
+            - 512
+            - 4096
+          - - 1
+            - 3
+            - 9
+            - 27
+            - 81
+  - testcases:
+    - expression: vandermonde([9, 7, 1, 4, 5, 4, 1, 8, 6, 7], 3)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 9
+            - 81
+          - - 1
+            - 7
+            - 49
+          - - 1
+            - 1
+            - 1
+          - - 1
+            - 4
+            - 16
+          - - 1
+            - 5
+            - 25
+          - - 1
+            - 4
+            - 16
+          - - 1
+            - 1
+            - 1
+          - - 1
+            - 8
+            - 64
+          - - 1
+            - 6
+            - 36
+          - - 1
+            - 7
+            - 49
+  - testcases:
+    - expression: vandermonde([2, 3, 6, 1, 8, 1, 6, 4, 8, 9, 1], 4)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 2
+            - 4
+            - 8
+          - - 1
+            - 3
+            - 9
+            - 27
+          - - 1
+            - 6
+            - 36
+            - 216
+          - - 1
+            - 1
+            - 1
+            - 1
+          - - 1
+            - 8
+            - 64
+            - 512
+          - - 1
+            - 1
+            - 1
+            - 1
+          - - 1
+            - 6
+            - 36
+            - 216
+          - - 1
+            - 4
+            - 16
+            - 64
+          - - 1
+            - 8
+            - 64
+            - 512
+          - - 1
+            - 9
+            - 81
+            - 729
+          - - 1
+            - 1
+            - 1
+            - 1
+  - testcases:
+    - expression: vandermonde([7, 7, 5, 6, 5, 5, 4, 6, 7, 2, 9], 3)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 7
+            - 49
+          - - 1
+            - 7
+            - 49
+          - - 1
+            - 5
+            - 25
+          - - 1
+            - 6
+            - 36
+          - - 1
+            - 5
+            - 25
+          - - 1
+            - 5
+            - 25
+          - - 1
+            - 4
+            - 16
+          - - 1
+            - 6
+            - 36
+          - - 1
+            - 7
+            - 49
+          - - 1
+            - 2
+            - 4
+          - - 1
+            - 9
+            - 81
+  - testcases:
+    - expression: vandermonde([8, 7, 5, 8, 5, 4, 7, 4, 4, 5, 9, 8, 1, 5, 8, 5], 2)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 8
+          - - 1
+            - 7
+          - - 1
+            - 5
+          - - 1
+            - 8
+          - - 1
+            - 5
+          - - 1
+            - 4
+          - - 1
+            - 7
+          - - 1
+            - 4
+          - - 1
+            - 4
+          - - 1
+            - 5
+          - - 1
+            - 9
+          - - 1
+            - 8
+          - - 1
+            - 1
+          - - 1
+            - 5
+          - - 1
+            - 8
+          - - 1
+            - 5
+  - testcases:
+    - expression: vandermonde([8, 1, 6, 4, 3, 2, 8, 3, 7, 4, 4, 9, 5, 4, 2, 7, 4,
+        8, 1], 6)
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 1
+            - 8
+            - 64
+            - 512
+            - 4096
+            - 32768
+          - - 1
+            - 1
+            - 1
+            - 1
+            - 1
+            - 1
+          - - 1
+            - 6
+            - 36
+            - 216
+            - 1296
+            - 7776
+          - - 1
+            - 4
+            - 16
+            - 64
+            - 256
+            - 1024
+          - - 1
+            - 3
+            - 9
+            - 27
+            - 81
+            - 243
+          - - 1
+            - 2
+            - 4
+            - 8
+            - 16
+            - 32
+          - - 1
+            - 8
+            - 64
+            - 512
+            - 4096
+            - 32768
+          - - 1
+            - 3
+            - 9
+            - 27
+            - 81
+            - 243
+          - - 1
+            - 7
+            - 49
+            - 343
+            - 2401
+            - 16807
+          - - 1
+            - 4
+            - 16
+            - 64
+            - 256
+            - 1024
+          - - 1
+            - 4
+            - 16
+            - 64
+            - 256
+            - 1024
+          - - 1
+            - 9
+            - 81
+            - 729
+            - 6561
+            - 59049
+          - - 1
+            - 5
+            - 25
+            - 125
+            - 625
+            - 3125
+          - - 1
+            - 4
+            - 16
+            - 64
+            - 256
+            - 1024
+          - - 1
+            - 2
+            - 4
+            - 8
+            - 16
+            - 32
+          - - 1
+            - 7
+            - 49
+            - 343
+            - 2401
+            - 16807
+          - - 1
+            - 4
+            - 16
+            - 64
+            - 256
+            - 1024
+          - - 1
+            - 8
+            - 64
+            - 512
+            - 4096
+            - 32768
+          - - 1
+            - 1
+            - 1
+            - 1
+            - 1
+            - 1

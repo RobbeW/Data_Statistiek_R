@@ -1,0 +1,17 @@
+{
+  "description": {
+    "names": {
+      "nl": "Matrix van Vandermonde"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "2D lijsten",
+    "for-lus",
+    "evaluatie"
+  ],
+  "access": "public"
+}
