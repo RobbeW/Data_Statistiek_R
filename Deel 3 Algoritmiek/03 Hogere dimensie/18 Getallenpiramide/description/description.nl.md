@@ -1,6 +1,6 @@
 Stel dat je een muur hebt in de vorm van een driehoek, zoals hieronder weergegeven. 
 
-Sommige bakstenen bevatten een getal en andere zijn blanco. De bakstenen met een getal komen enkel voor op de onevenrijen en telkens op de oneven plaatsen binnen die rij. 
+Sommige bakstenen bevatten een getal en andere zijn blanco. De bakstenen met een getal komen enkel voor op de oneven rijen en telkens op de oneven plaatsen binnen die rij. 
 
 Vul alle blanco waarden in zodat het getal op elke baksteen de som is van de getallen op de twee bakstenen eronder.
 
