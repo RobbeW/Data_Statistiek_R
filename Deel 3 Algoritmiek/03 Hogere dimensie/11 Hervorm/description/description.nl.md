@@ -2,16 +2,9 @@ Een hervormde matrix bevat dezelfde elementen als de de oorspronkelijke matrix, 
 
 Hieronder zie je een voorbeeld van een 3 × 4 matrix die hervormd werd naar een 2 × 6 matrix:
 
-$$
-\begin{pmatrix}
-\sf 1 & \sf 2 & \sf 0 & \sf 5\\ 
-\sf 3 & \sf 4 & \sf 2 & \sf 2\\
-\sf 1 & \sf 5 & \sf 7 & \sf 0\end{pmatrix} \qquad \rightarrow \qquad 
-\begin{pmatrix}
-\sf 1 & \sf 2 & \sf 0 & \sf 5 & \sf 3 & \sf 4\\
-\sf 2 & \sf 2 & \sf 1 & \sf 5 & \sf 7 & \sf 0
-\end{pmatrix}
-$$
+![Toepassing van het algoritme op een matrix.](media/image.png "Toepassing van het algoritme op een matrix."){:data-caption=Toepassing van het algoritme op een matrix." .light-only height="100px"}
+
+![Toepassing van het algoritme op een matrix.](media/image_dark.png "Toepassing van het algoritme op een matrix."){:data-caption="Toepassing van het algoritme op een matrix." .dark-only height="100px"}
 
 ## Gevraagd
 Schrijf een functie `hervorm(matrix, R, K)` die gegeven een matrix met gehele getallen deze hervormt naar een matrix met dimensies `R` × `K`.
@@ -19,6 +12,15 @@ Schrijf een functie `hervorm(matrix, R, K)` die gegeven een matrix met gehele ge
 Bestudeer nauwkeurig onderstaande voorbeelden.
 
 #### Voorbeelden
+
+
+```python
+>>> hervorm([[1, 2, 0, 5],
+             [3, 4, 2, 2],
+             [1, 5, 7, 0]], 2, 6)
+[[1, 2, 0, 5, 3, 4],
+ [2, 2, 1, 5, 7, 0]]
+```
 
 ```python
 >>> hervorm([[1, 2],
