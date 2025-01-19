@@ -1,4 +1,4 @@
-Gegeven een m × n matrix opgebouwd uit verschillende getallen, bepaal dan alle **gelukstgetallen** in deze matrix.
+Gegeven een m × n matrix opgebouwd uit verschillende getallen, bepaal dan alle **geluksgetallen** in deze matrix.
 
 Een **geluksgetal** is een element van de matrix dat het kleinste element in zijn rij en het grootste in zijn kolom is.
 
