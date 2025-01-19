@@ -1,6 +1,6 @@
 In de gravure **Melencolia I** (1514) van <a href="https://nl.wikipedia.org/wiki/Albrecht_D%C3%BCrer" target="_blank">Albrecht Dürer</a> vindt men een <a href="https://nl.wikipedia.org/wiki/Magisch_vierkant" target="_blank">magisch vierkant</a> terug.
 
-![Melencolia I (1514) - Albrecht Dürer.](media/Melancholia_I.jpeg "Melencolia I (1514) - Albrecht Dürer."){:data-caption=Melencolia I (1514) - Albrecht Dürer." widht="50%"}
+![Melencolia I (1514) - Albrecht Dürer.](media/Melancholia_I.jpeg "Melencolia I (1514) - Albrecht Dürer."){:data-caption=Melencolia I (1514) - Albrecht Dürer." widht="35%"}
 
 Een magisch vierkant is opgebouwd uit getallen met de bijzondere eigenschap dat de som op elke rij, elke kolom en elke diagonaal hetzelfde is. Dit getal noemt men de **magische constante**.
 
