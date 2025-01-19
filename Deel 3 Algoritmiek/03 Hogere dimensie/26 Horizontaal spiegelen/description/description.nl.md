@@ -1,4 +1,4 @@
-Bij het werken met afbeeldingen moet men frequent de afbeelding horizontaal (of verticaal) spiegelen. Hieronder zie je een voorbeeld toegepast op een vereenvoudigde vorm van de *Mona Lisa*.
+Bij het werken met afbeeldingen moet men frequent een afbeelding horizontaal (of verticaal) spiegelen. Hieronder zie je een voorbeeld toegepast op een vereenvoudigde vorm van de *Mona Lisa*.
 
 ![Horizontaal spiegelen toegepast op de Mona Lisa.](media/monalisa.png "Horizontaal spiegelen toegepast op de Mona Lisa."){:data-caption="Horizontaal spiegelen toegepast op de Mona Lisa." .light-only width="45%"}
 
