@@ -40,7 +40,7 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
 
 
     readable_expected = prettify_matrix_num(list(context.expected))
-    if isinstance(context.actual, list) and isinstance(context.actual[0], list):
+    if isinstance(context.actual, list) and isinstance(context.actual[0], list) and isinstance(context.actual[0][0], int):
         readable_actual = prettify_matrix_num(list(context.actual))
     else:
         readable_actual = context.actual
