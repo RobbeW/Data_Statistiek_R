@@ -2,22 +2,10 @@ Men hervormt een vierkante matrix naar een homothetisch vierkant met factor 3 do
 
 Er geldt bijvoorbeeld
 
-$$
-\cdot \begin{pmatrix}
-\sf 4 & \sf 9 & \sf 2\\
-\sf 3 & \sf 5 & \sf 7\\
-\sf 8 & \sf 1 & \sf 6\\
-\end{pmatrix} \qquad \rightarrow \qquad \begin{pmatrix}
-\sf 4 & \sf 4 & \sf 4 & \sf 9 & \sf 9 & \sf 9 & \sf 2 & \sf 2 & \sf 2\\
-\sf 4 & \sf 4 & \sf 4 & \sf 9 & \sf 9 & \sf 9 & \sf 2 & \sf 2 & \sf 2\\
-\sf 4 & \sf 4 & \sf 4 & \sf 9 & \sf 9 & \sf 9 & \sf 2 & \sf 2 & \sf 2\\
-\sf 3 & \sf 3 & \sf 3 & \sf 5 & \sf 5 & \sf 5 & \sf 7 & \sf 7 & \sf 7\\
-\sf 3 & \sf 3 & \sf 3 & \sf 5 & \sf 5 & \sf 5 & \sf 7 & \sf 7 & \sf 7\\
-\sf 3 & \sf 3 & \sf 3 & \sf 5 & \sf 5 & \sf 5 & \sf 7 & \sf 7 & \sf 7\\
-\sf 8 & \sf 8 & \sf 8 & \sf 1 & \sf 1 & \sf 1 & \sf 6 & \sf 6 & \sf 6\\
-\sf 8 & \sf 8 & \sf 8 & \sf 1 & \sf 1 & \sf 1 & \sf 6 & \sf 6 & \sf 6\\
-\sf 8 & \sf 8 & \sf 8 & \sf 1 & \sf 1 & \sf 1 & \sf 6 & \sf 6 & \sf 6\\
-\end{pmatrix}$$
+
+![Homothetie met factor 3.](media/image.png "Homothetie met factor 3."){:data-caption=Homothetie met factor 3." .light-only height="300px"}
+
+![Homothetie met factor 3.](media/image_dark.png "Homothetie met factor 3."){:data-caption=Homothetie met factor 3." .dark-only height="300px"}
 
 ## Gevraagd
 Schrijf een functie `homothetie(matrix, k)` die de homothetische (vierkante) matrix met factor `k` (`k` ⩾ 1) gaat bepalen.
