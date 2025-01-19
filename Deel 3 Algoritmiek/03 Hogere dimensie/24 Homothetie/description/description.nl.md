@@ -3,9 +3,9 @@ Men hervormt een vierkante matrix naar een homothetisch vierkant met factor 3 do
 Er geldt bijvoorbeeld
 
 
-![Homothetie met factor 3.](media/image.png "Homothetie met factor 3."){:data-caption=Homothetie met factor 3." .light-only height="300px"}
+![Homothetie met factor 3.](media/image.png "Homothetie met factor 3."){:data-caption=Homothetie met factor 3." .light-only height="280px"}
 
-![Homothetie met factor 3.](media/image_dark.png "Homothetie met factor 3."){:data-caption=Homothetie met factor 3." .dark-only height="300px"}
+![Homothetie met factor 3.](media/image_dark.png "Homothetie met factor 3."){:data-caption=Homothetie met factor 3." .dark-only height="280px"}
 
 ## Gevraagd
 Schrijf een functie `homothetie(matrix, k)` die de homothetische (vierkante) matrix met factor `k` (`k` ⩾ 1) gaat bepalen.
