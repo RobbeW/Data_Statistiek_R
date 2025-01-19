@@ -29,7 +29,10 @@ def prettify_matrix_num(matrix):
     txt += "]"
     return txt
     
-
+def is_num_matrix(actual):
+    value = isinstance(actual, list) and isinstance(actual[0], list) and isinstance(actual[0][0], int)
+    return value
+    
 def check_function(context: ConvertedOracleContext) -> EvaluationResult:
     # expected as defined in the value field of the test suite
     # actual as given by running the file
@@ -40,7 +43,7 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
 
 
     readable_expected = prettify_matrix_num(list(context.expected))
-    if isinstance(context.actual, list) and isinstance(context.actual[0], list) and isinstance(context.actual[0][0], int):
+    if is_num_matrix(context.actual):
         readable_actual = prettify_matrix_num(list(context.actual))
         obj = EvaluationResult(
             result = value,
