@@ -76,28 +76,27 @@ def generate_expression(name, matrix, add=None):
     return txt
 
 # generate test data
-ntests = 20
+ntests = 25
 cases = [[[16,  3,  2, 13], [ 5, 10, 11,  8], [ 9,  6,  7, 12], [ 4, 15, 14, 1]], 
          [[8, 3, 4], [1, 5, 9], [6, 7, 2]], 
          [[8, 3, 4], [6, 5, 9], [1, 7, 2]]]
 
-
-# magic square generation
-import random
 
 def generate_magic_square(n):
     if n < 3:
         raise ValueError("Magic squares are not possible for n < 3.")
 
     if n % 2 == 1:
-        return generate_odd_magic_square(n)
+        magic_square = generate_odd_magic_square(n)
     elif n % 4 == 0:
-        return generate_doubly_even_magic_square(n)
+        magic_square = generate_doubly_even_magic_square(n)
     else:
-        return generate_singly_even_magic_square(n)
+        magic_square = generate_singly_even_magic_square(n)
+
+    return apply_random_transformation(magic_square)
 
 def generate_odd_magic_square(n):
-    """Generates an odd-sized magic square using the Siamese method and randomizes the placement."""
+    """Generates an odd-sized magic square using the Siamese method."""
     magic_square = [[0] * n for _ in range(n)]
 
     num = 1
@@ -115,10 +114,10 @@ def generate_odd_magic_square(n):
         else:
             i, j = new_i, new_j
 
-    return randomize_magic_square(magic_square)
+    return magic_square
 
 def generate_doubly_even_magic_square(n):
-    """Generates a doubly even-sized magic square using the Strachey method and randomizes the placement."""
+    """Generates a doubly even-sized magic square using the Strachey method."""
     magic_square = [[(i * n + j + 1) for j in range(n)] for i in range(n)]
 
     for i in range(n):
@@ -126,10 +125,10 @@ def generate_doubly_even_magic_square(n):
             if (i % 4 == j % 4) or (i % 4 + j % 4 == 3):
                 magic_square[i][j] = n * n + 1 - magic_square[i][j]
 
-    return randomize_magic_square(magic_square)
+    return magic_square
 
 def generate_singly_even_magic_square(n):
-    """Generates a singly even-sized magic square using the divide and conquer method and randomizes the placement."""
+    """Generates a singly even-sized magic square using the divide and conquer method."""
     half_n = n // 2
     sub_square_size = half_n * half_n
 
@@ -151,28 +150,28 @@ def generate_singly_even_magic_square(n):
     k = half_n // 2
     for i in range(half_n):
         for j in range(k):
-            if j < k or (i == k and j == k):
-                magic_square[i][j], magic_square[i + half_n][j] = magic_square[i + half_n][j], magic_square[i][j]
+            magic_square[i][j], magic_square[i + half_n][j] = magic_square[i + half_n][j], magic_square[i][j]
 
         for j in range(n - k, n):
             magic_square[i][j], magic_square[i + half_n][j] = magic_square[i + half_n][j], magic_square[i][j]
 
-    return randomize_magic_square(magic_square)
+    return magic_square
 
-def randomize_magic_square(square):
-    """Randomizes the magic square by shuffling its rows and columns."""
-    n = len(square)
-    rows = list(range(n))
-    cols = list(range(n))
-    random.shuffle(rows)
-    random.shuffle(cols)
+def apply_random_transformation(square):
+    """Applies a random rotation or reflection to the magic square."""
+    transformations = [
+        lambda s: s,  # No change
+        lambda s: [list(row) for row in zip(*s[::-1])],  # 90-degree rotation
+        lambda s: [row[::-1] for row in s],  # Horizontal reflection
+        lambda s: s[::-1],  # Vertical reflection
+        lambda s: [list(row) for row in zip(*s)],  # Transpose
+    ]
+    transform = random.choice(transformations)
+    return transform(square)
 
-    randomized_square = [[0] * n for _ in range(n)]
-    for i in range(n):
-        for j in range(n):
-            randomized_square[i][j] = square[rows[i]][cols[j]]
-
-    return randomized_square
+def print_magic_square(square):
+    for row in square:
+        print(" ".join(f"{num:3}" for num in row))
 
 
 while len(cases) < ntests:
@@ -180,6 +179,15 @@ while len(cases) < ntests:
     
     mat = generate_magic_square(n)
     
+    if random.randint(0,2) == 1: #switch an item
+        co_1 = [ random.randint(0, n-1) for _ in range(2)]
+        co_2 = [ random.randint(0, n-1) for _ in range(2)]
+
+        
+        el = mat[co_1[0]][co_1[1]]
+        mat[co_1[0]][co_1[1]] = mat[co_2[0]][co_2[1]]
+        mat[co_2[0]][co_2[1]] = el
+        
     case = mat
         
     if case not in cases:
