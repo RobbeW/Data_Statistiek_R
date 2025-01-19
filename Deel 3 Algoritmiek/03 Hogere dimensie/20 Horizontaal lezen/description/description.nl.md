@@ -1,5 +1,5 @@
 ## Gevraagd
-Schrijf een functie `horizontaal(matrix)` die gegeven een rechthoekige `matrix` deze omvormt naar een lijst, zodat alle elementen er rij per rij van links naar rechts in voorkomen.
+Schrijf een functie `horizontaal(matrix)` die gegeven een rechthoekige `matrix` deze omvormt naar een lijst, zodat alle elementen er rij per rij, van **links naar rechts**, in voorkomen.
 
 Bestudeer grondig onderstaande voorbeelden.
 
