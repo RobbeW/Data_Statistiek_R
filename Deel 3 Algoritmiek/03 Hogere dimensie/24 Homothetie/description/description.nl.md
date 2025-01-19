@@ -7,7 +7,7 @@ $$
 \sf 4 & \sf 9 & \sf 2\\
 \sf 3 & \sf 5 & \sf 7\\
 \sf 8 & \sf 1 & \sf 6\\
-\end{pmatrix} \qquad \rightarro \qquad \begin{pmatrix}
+\end{pmatrix} \qquad \rightarrow \qquad \begin{pmatrix}
 \sf 4 & \sf 4 & \sf 4 & \sf 9 & \sf 9 & \sf 9 & \sf 2 & \sf 2 & \sf 2\\
 \sf 4 & \sf 4 & \sf 4 & \sf 9 & \sf 9 & \sf 9 & \sf 2 & \sf 2 & \sf 2\\
 \sf 4 & \sf 4 & \sf 4 & \sf 9 & \sf 9 & \sf 9 & \sf 2 & \sf 2 & \sf 2\\
