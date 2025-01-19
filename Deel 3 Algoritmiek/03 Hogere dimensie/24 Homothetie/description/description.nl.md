@@ -1,6 +1,6 @@
 Men hervormt een vierkante matrix naar een homothetisch vierkant met factor 3 door elk element te vervangen door een 3 × 3 matrix.
 
-Er geldt bijvoorbeeld
+Voor onderstaande matrix geldt er bijvoorbeeld:
 
 
 ![Homothetie met factor 3.](media/image.png "Homothetie met factor 3."){:data-caption=Homothetie met factor 3." .light-only height="280px"}
