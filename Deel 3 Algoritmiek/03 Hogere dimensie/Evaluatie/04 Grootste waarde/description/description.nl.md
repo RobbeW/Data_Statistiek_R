@@ -14,8 +14,8 @@ Geef de coördinaten van het maximum weer als een tupel. Bestudeer zorgvuldig on
 Immers op rij 1, kolom 2 staat de hoogste waarde `5`.
 
 ```python
->>> spoor([[9, 0, 1, 5], 
-           [0, 4, 5, 8], 
+>>> spoor([[9,  0, 1,  5], 
+           [0,  4, 5,  8], 
            [0, -1, 0, 10]])
 (2, 3)
 ```
