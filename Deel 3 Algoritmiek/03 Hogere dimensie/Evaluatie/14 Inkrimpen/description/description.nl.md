@@ -7,9 +7,9 @@ Je kan een homothetische matrix ook terug gaan inkrimpen. Onderstaande kan je te
 ## Gevraagd
 Om deze oefening op te lossen schrijf je **twee functies**.
 
-Schrijf eerst een functie `bepaal_factor(matrix)` die gegeven een matrix op zoek gaat naar de factor (`k` ⩾ 1) waarmee de matrix vergroot werd. Je retourneert dus het gehele getal `k`. Je mag ervan uit gaan dat de oorspronkelijke matrix uit verschillende gehele getallen werd opgebouwd, er zijn dus geen gelijke 'blokken' zijn.
+* Schrijf eerst een functie `bepaal_factor(matrix)` die gegeven een matrix op zoek gaat naar de factor (`k` ⩾ 1) waarmee de matrix vergroot werd. Je retourneert dus het gehele getal `k`. Je mag ervan uit gaan dat de oorspronkelijke matrix uit verschillende gehele getallen werd opgebouwd, er zijn dus geen gelijke 'blokken' zijn.
 
-Schrijf een functie `inkrimpen(matrix)` die de homothetische matrix gaat inkrimpen. Maak in deze functie gebruik van de vorige functie.
+* Schrijf een functie `inkrimpen(matrix)` die de homothetische matrix gaat inkrimpen. Maak in deze functie gebruik van de vorige functie.
 
 Bestudeer grondig onderstaande voorbeelden.
 
