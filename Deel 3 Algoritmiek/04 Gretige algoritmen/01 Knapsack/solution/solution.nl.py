@@ -11,7 +11,7 @@ def knapsack(max, lijst):
         item = lijst[i]
         aantal = (max - massa) // item[0]
         if aantal > 0:
-            keuze[item] = aantal
+            keuze[str(item)] = aantal
         massa += aantal * item[0]
     
     return keuze
