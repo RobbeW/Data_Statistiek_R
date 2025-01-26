@@ -1,5 +1,164 @@
 - tab: Feedback
   contexts:
   - testcases:
-    - expression: knapsack(15, [(12, 4), (1, 2), (1, 1), (2, 2), (4, 10)])
-      return: !expression "{(4, 10): 3, (1, 2): 3}"
+    - expression: knapsack(15, [(4, 10), (1, 2), (2, 2), (1, 1), (12, 4)])
+      return:
+        ? - 4
+          - 10
+        : 3
+        ? - 1
+          - 2
+        : 3
+  - testcases:
+    - expression: knapsack(4, [(3, 5), (2, 3)])
+      return:
+        ? - 3
+          - 5
+        : 1
+  - testcases:
+    - expression: knapsack(22, [(1, 2), (2, 2), (1, 1), (2, 1)])
+      return:
+        ? - 1
+          - 2
+        : 22
+  - testcases:
+    - expression: knapsack(18, [(2, 4), (1, 2), (2, 3), (2, 2), (1, 1)])
+      return:
+        ? - 2
+          - 4
+        : 9
+  - testcases:
+    - expression: knapsack(32, [(3, 4), (3, 3), (2, 2), (1, 1), (3, 2), (3, 1)])
+      return:
+        ? - 3
+          - 4
+        : 10
+        ? - 2
+          - 2
+        : 1
+  - testcases:
+    - expression: knapsack(94, [(4, 8), (2, 4), (1, 2), (15, 29), (10, 19)])
+      return:
+        ? - 4
+          - 8
+        : 23
+        ? - 2
+          - 4
+        : 1
+  - testcases:
+    - expression: knapsack(91, [(9, 18), (6, 12), (5, 6), (7, 7), (4, 4), (6, 4),
+        (7, 4)])
+      return:
+        ? - 9
+          - 18
+        : 10
+  - testcases:
+    - expression: knapsack(93, [(8, 16), (4, 8), (14, 27), (12, 17), (14, 10)])
+      return:
+        ? - 8
+          - 16
+        : 11
+        ? - 4
+          - 8
+        : 1
+  - testcases:
+    - expression: knapsack(46, [(3, 6), (2, 4), (1, 2), (5, 8), (4, 4), (1, 1), (3,
+        2)])
+      return:
+        ? - 3
+          - 6
+        : 15
+        ? - 1
+          - 2
+        : 1
+  - testcases:
+    - expression: knapsack(40, [(2, 4), (6, 7), (2, 2), (1, 1), (6, 5)])
+      return:
+        ? - 2
+          - 4
+        : 20
+  - testcases:
+    - expression: knapsack(95, [(8, 11), (3, 4), (8, 10), (4, 5), (7, 7)])
+      return:
+        ? - 8
+          - 11
+        : 11
+        ? - 3
+          - 4
+        : 2
+  - testcases:
+    - expression: knapsack(67, [(5, 10), (4, 8), (3, 6), (2, 4), (1, 2), (5, 6), (4,
+        4), (2, 2)])
+      return:
+        ? - 5
+          - 10
+        : 13
+        ? - 2
+          - 4
+        : 1
+  - testcases:
+    - expression: knapsack(50, [(3, 6), (2, 4), (2, 3), (2, 2), (1, 1), (4, 2), (2,
+        1)])
+      return:
+        ? - 3
+          - 6
+        : 16
+        ? - 2
+          - 4
+        : 1
+  - testcases:
+    - expression: knapsack(25, [(1, 2), (2, 3), (2, 2), (1, 1), (2, 1)])
+      return:
+        ? - 1
+          - 2
+        : 25
+  - testcases:
+    - expression: knapsack(71, [(8, 15), (10, 16), (5, 7), (1, 1), (5, 3)])
+      return:
+        ? - 8
+          - 15
+        : 8
+        ? - 5
+          - 7
+        : 1
+        ? - 1
+          - 1
+        : 2
+  - testcases:
+    - expression: knapsack(16, [(1, 2), (1, 1)])
+      return:
+        ? - 1
+          - 2
+        : 16
+  - testcases:
+    - expression: knapsack(78, [(2, 4), (1, 2), (6, 11), (7, 12), (2, 2), (1, 1),
+        (5, 3), (7, 4)])
+      return:
+        ? - 2
+          - 4
+        : 39
+  - testcases:
+    - expression: knapsack(19, [(1, 2), (1, 1)])
+      return:
+        ? - 1
+          - 2
+        : 19
+  - testcases:
+    - expression: knapsack(19, [(2, 4), (1, 2), (2, 2), (1, 1)])
+      return:
+        ? - 2
+          - 4
+        : 9
+        ? - 1
+          - 2
+        : 1
+  - testcases:
+    - expression: knapsack(78, [(8, 16), (9, 17), (5, 9), (5, 6), (4, 4), (5, 4),
+        (3, 2)])
+      return:
+        ? - 8
+          - 16
+        : 9
+        ? - 5
+          - 9
+        : 1

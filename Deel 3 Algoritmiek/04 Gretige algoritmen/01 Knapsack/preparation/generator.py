@@ -34,8 +34,27 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
-ntests = 1
-cases = [ (15, [(12, 4), (1, 2), (1, 1), (2, 2), (4, 10)])]
+ntests = 20
+cases = [(15, [(4, 10), (1, 2), (2, 2), (1, 1), (12, 4)]),
+         (4, [(3,5), (2,3)])]
+
+while len(cases) < ntests:
+    max_weight = random.randint(10, 100)
+    lijst = []
+    n = random.randint(4, 10)
+    for _ in range(n):
+        w = random.randint(1,max_weight // (n + 1))
+        w_low = max(1, w // 2)
+        w_high = 2 * w
+        c = random.randint(w_low, w_high)
+        if (w,c) not in lijst:
+            lijst.append( (w, c))
+    
+    lijst = sorted(lijst, key=lambda x: (x[1]/x[0], x[0]),  reverse=True)
+
+    case = (max_weight, lijst)
+    if case not in cases:
+        cases.append(case)
 
 # generate unit tests for functions
 yamldata = []

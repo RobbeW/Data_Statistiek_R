@@ -1,21 +1,14 @@
 def knapsack(max, lijst):
     # bepaal gemiddelde kostprijzen
-    # lijst is van de vorm (m, kostprijs)
-    kostprijzen = {}
+    gemiddeldes = []
     for item in lijst:
         gem = round(item[1] / item[0], 2)
-        if gem in kostprijzen:
-            if kostprijzen[gem][1] > item[1]:
-                kostprijzen[gem] = item
-        else:
-            kostprijzen[gem] = item
-    
-    gesorteerd = sorted(list(kostprijzen.keys()), reverse=True)
+        gemiddeldes.append(gem)
     
     keuze = {}
     massa = 0
-    for rel_massa in gesorteerd:
-        item = kostprijzen[rel_massa]
+    for i in range(len(gemiddeldes)):
+        item = lijst[i]
         aantal = (max - massa) // item[0]
         if aantal > 0:
             keuze[item] = aantal
