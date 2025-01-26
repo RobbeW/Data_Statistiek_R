@@ -12,5 +12,9 @@
     "2D lijsten",
     "evaluatie"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "x_ExkJ-gTMKVtgw-77JWtq7Z7WgHgZ6F-9FBDEK85N3MAV8ydhrVi3JH9NudPuyG",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
