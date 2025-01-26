@@ -1,6 +1,6 @@
 Een Vandermonde-matrix, vernoemd naar de Franse wiskundige Alexandre-Théophile Vandermonde, is een matrix waarbij elke rij in deze matrix een meetkundige rij vormt.
 
-Dat wil zeggen dat het een een m × n matrix is van de vorm:
+Dat wil zeggen dat het een m × n matrix is van de vorm:
 
 $$
 \begin{pmatrix}
