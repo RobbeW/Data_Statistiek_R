@@ -1,0 +1,16 @@
+{
+  "description": {
+    "names": {
+      "nl": "Homothetische matrix laten inkrimpen"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "2D lijsten",
+    "evaluatie"
+  ],
+  "access": "public"
+}
