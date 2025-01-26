@@ -1,5 +1,5 @@
 ## Gevraagd
-Schrijf een functie `index_grootste_waarde(matrix)` dat gegeven een matrix op zoekt gaat naar de coördinaten van het maximum uit deze matrix. Je mag ervan uitgaan dat elke matrix exact één enkel haximum heeft.
+Schrijf een functie `index_grootste_waarde(matrix)` dat gegeven een matrix op zoekt gaat naar de coördinaten van het maximum uit deze matrix. Je mag ervan uitgaan dat elke matrix exact één enkel maximum heeft.
 
 Geef de coördinaten van het maximum weer als een tupel. Bestudeer zorgvuldig onderstaande voorbeelden.
 
