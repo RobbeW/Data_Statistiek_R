@@ -31,7 +31,7 @@ def prettify_matrix_num(matrix):
     
 
 def is_num_matrix(actual):
-    value = isinstance(actual, list) and isinstance(actual[0], list) and isinstance(actual[0][0], int)
+    value = isinstance(actual, list) and len(actual) > 0 and isinstance(actual[0], list) and len(actual[0]) > 0 and isinstance(actual[0][0], int)
     return value
     
 def check_function(context: ConvertedOracleContext) -> EvaluationResult:
