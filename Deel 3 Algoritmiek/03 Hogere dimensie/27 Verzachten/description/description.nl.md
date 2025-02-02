@@ -2,7 +2,7 @@ Een afbeelding met te scherpe contouren kan je soms verbeteren door deze te gaan
 
 Een vereenvoudigde versie van deze 'vervaging', bestaat erin elke cel te vervangen door het gemiddelde van alle cellen erom heen. Dit noemt men de **gemiddelde vervaging**, hieronder zie je een afbeelding waarop dit werd toegepast.
 
-![Een gemiddelde vervaging.](media/mean_blur.png "Een gemiddelde vervaging."){:data-caption="Een gemiddelde vervaging." width="397px"}
+![Een gemiddelde vervaging.](media/mean_blur.png "Een gemiddelde vervaging."){:data-caption="Een gemiddelde vervaging." width="300px"}
 
 ## Gevraagd
 
