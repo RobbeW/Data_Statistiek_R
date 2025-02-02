@@ -8,7 +8,7 @@ Een vereenvoudigde versie van deze 'vervaging', bestaat erin elke cel te vervang
 
 Om een gemiddelde vervaging te programmeren werk je best in twee stappen.
 
-- Programmeer een functie `stap(matrix, r, c)` die gegeven een matrix (denk aan een afbeelding met RGB waarden) en een rij `r` en kolomnummer `c` de gemiddelde waarde op die exacte plaats uitrekent. **Rond** hierbij **af** op 2 cijferS.
+- Programmeer een functie `stap(matrix, r, c)` die gegeven een matrix (denk aan een afbeelding met RGB waarden) en een rij `r` en kolomnummer `c` de gemiddelde waarde op **die exacte plaats** uitrekent. **Rond** hierbij **af** op 2 cijfers.
 
 - Programmeer daarna een functie `vervagen(matrix)` die een nieuwe matrix bepaalt, waarbij elk element vervangen werd door de gemiddelde waarde met behulp van de vorige functie.
 
@@ -22,11 +22,13 @@ Bestudeer grondig onderstaande voorbeelden.
           [7, 8, 9, 0]], 0, 1)
 3.5
 ```
-want `(1+2+3+4+5+6) / 6 = 3.5`
+want $$\mathsf{(1 + 2 + 3 + 4 + 5 + 6) : 6 = 3,5}$$
 
 ```python
 >>> vervagen([[1, 2, 3, 5],
               [4, 5, 6, 7],
               [7, 8, 9, 0]])
-3.5
+[[3.0 , 3.5 , 4.67, 5.25],
+ [4.5 , 5.0 , 5.0 , 5.0 ],
+ [6.0 , 6.5 , 5.83, 5.5 ]]
 ```
