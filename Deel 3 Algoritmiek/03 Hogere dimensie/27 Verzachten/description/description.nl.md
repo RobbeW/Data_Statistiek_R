@@ -14,7 +14,7 @@ Om een gemiddelde vervaging te programmeren werk je best in twee stappen.
 
 Bestudeer grondig onderstaande voorbeelden.
 
-#### Voorbeelden
+#### Voorbeeld
 
 ```python
 >>> stap([[1, 2, 3, 5],
@@ -22,7 +22,7 @@ Bestudeer grondig onderstaande voorbeelden.
           [7, 8, 9, 0]], 0, 1)
 3.5
 ```
-want $$\mathsf{(1 + 2 + 3 + 4 + 5 + 6) : 6 = 3,5}$$
+want rondom cijfer 2 geldt: (1 + 2 + 3 + 4 + 5 + 6) : 6 = 3,5.
 
 ```python
 >>> vervagen([[1, 2, 3, 5],
