@@ -9,7 +9,7 @@ Eén van de mechanismes is het toevoegen van zogenaamde **pariteitsbits**. In on
 ## Gevraagd
 In deze oefening wordt de afbeelding voorgesteld met behulp van een vierkante matrix. Deze matrix wordt opgebouwd uit `0` en `1` waarden. 
 
-Schrijf een functie `detecteer(matrix)` die gegeven een matrix de plaats van de foutieve bit bepaalt. De coördinaat van de foutieve bit wordt vervolgens geretourneerd.
+Schrijf een functie `detecteer(matrix)` die gegeven een matrix de plaats van de foutieve bit bepaalt. De coördinaat van de foutieve bit wordt vervolgens geretourneerd. Je mag ervan uitgaan dat elke matrix exact één fout bevat.
 
 #### Voorbeelden
 
