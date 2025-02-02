@@ -81,7 +81,7 @@ cases = [([[1, 2, 3, 5], [4, 5, 6, 7], [7, 8, 9, 0]], 0, 1)]
 
 while len(cases) < ntests:
     r = random.randint(1, 20)
-    c = random.randint(1, 20)
+    c = random.randint(1, 16)
     
     mat = []
     for _ in range(r):
