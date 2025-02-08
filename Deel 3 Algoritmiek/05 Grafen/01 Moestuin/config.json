@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Moestuin"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "Graph"
+  ],
+  "access": "public"
+}
