@@ -3,6 +3,7 @@ import importlib.util
 import random
 import ruamel.yaml
 import contextlib, io
+import math
 
 yaml = ruamel.yaml.YAML()
 
@@ -89,6 +90,13 @@ def generate_expression_double(name, matrix, natrix):
     txt += "])"
     return txt
 
+def has_empty(mat):
+    flag = False
+    for r in range(len(mat)):
+        for c in range(len(mat[0])):
+            if mat[r][c] == 0:
+                return True
+
 # generate test data
 ntests = 1
 cases = [([["🍅", "🥕", "🥕", "🥦"],
@@ -97,11 +105,29 @@ cases = [([["🍅", "🥕", "🥕", "🥦"],
            ["🍅", "🍅", "🥕", "🧄"]],
           [["🥦", "🥕", "🍅"],
            ["🥦", "🥕", "🍅"],
-           ["🧄", "🥕", "🍅"]])]
+           ["🧄", "🥕", "🍅"]]),
+         ([["🍅", "🫛", "🥕", "🥕", "🥦"],
+           ["🍅", "🫛", "🥕", "🥦", "🥦"],
+           ["🧅", "🧅", "🥕", "🥕", "🧄"],
+           ["🧅", "🧅", "🧄", "🧄", "🧄"]],
+          [["🍅", "🫛", "🥕", "🥕"],
+           ["🍅", "🫛", "🥕", "🥦"],
+           ["🧅", "🧅", "🥕", "🥕"],
+           ["🧅", "🧅", "🧄", "🧄"]])]
+
+veggies = ["🍅", "🥦", "🥕", "🧄", "🍆", "🌶️", "🧅", "🫛", "🫑", "🌽"]
 
 while len(cases) < ntests:
+    random.shuffle(veggies)
+    size1, size2 = [random.randint(2,15) for _ in range(2)]
+    mat1 = [([0] * size2) for _ in range(size1)]
     
-    case = ([[]], [[]])
+    regions = random.randint(3,min(len(veggies), math.ceil(math.sqrt(size1*size2))))
+    
+    
+    
+    
+    case = (mat1, [[]])
     if case not in cases:
         cases.append(case)
 
