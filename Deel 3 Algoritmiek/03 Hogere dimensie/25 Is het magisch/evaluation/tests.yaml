@@ -30,11 +30,11 @@
         format: python
       return: true
   - testcases:
-    - expression: is_magisch([[4, 9, 5, 16], [14, 7, 11, 2], [15, 6, 10, 3], [1, 12,
-        8, 13]])
+    - expression: is_magisch([[16, 2, 3, 13], [5, 11, 10, 8], [9, 7, 6, 12], [4, 14,
+        15, 1]])
       description:
-        description: "is_magisch([[ 4,  9,  5, 16],\n            [14,  7, 11,  2],\n\
-          \            [15,  6, 10,  3],\n            [ 1, 12,  8, 13]])"
+        description: "is_magisch([[16,  2,  3, 13],\n            [ 5, 11, 10,  8],\n\
+          \            [ 9,  7,  6, 12],\n            [ 4, 14, 15,  1]])"
         format: python
       return: true
   - testcases:
