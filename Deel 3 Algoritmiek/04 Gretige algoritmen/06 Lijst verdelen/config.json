@@ -16,5 +16,9 @@
     "functies",
     "lijsten"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "h8MKf-C2s7JEzPBDqfTcRYkAKXMWA9_2JU7wPMSjCBik8IqXptWchEWa3-AivUxG",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
