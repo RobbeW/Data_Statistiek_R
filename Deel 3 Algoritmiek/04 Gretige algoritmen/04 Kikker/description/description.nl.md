@@ -24,4 +24,4 @@ Hierbij neemt de kikker de route volledig tot de onderste rij, waarna deze naar 
 >#### Merk op
 > Dit is **niet** de het pad met de *kleinste* som. 
 >
-> Er kan namelijk een pad gevonden worden met een *niet iets kleinere som*. Vind je dit betere pad?
+> Er kan namelijk een pad gevonden worden met een *net iets kleinere som*. Vind je dit betere pad?
