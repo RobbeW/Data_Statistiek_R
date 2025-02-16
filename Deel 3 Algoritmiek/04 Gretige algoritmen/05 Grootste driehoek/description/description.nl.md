@@ -22,4 +22,6 @@ Met deze zijden kan je nooit een driehoek vormen. De zijden 1, 2 en 1 vormen gee
 
 {: .callout.callout-info}
 >#### Tip
-> Je zal de **driehoeksongelijkheid** nodig hebben. Drie zijden a, b en c vormen enkel een driehoek indien a + b > c, a + c > b en b + c > a.
+> Je zal de **driehoeksongelijkheid** nodig hebben. 
+>
+> Drie zijden a, b en c vormen enkel een driehoek indien a + b > c, a + c > b en b + c > a.
