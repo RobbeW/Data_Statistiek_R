@@ -1,6 +1,6 @@
 ## Gevraagd
 
-Gegeven een lijst met een aantal natuurlijke getallen, zoek dan naar het minimale aantal toevoegingen dat uitgevoerd moet worden om de lijst **strikt stijgend** te maken. Een toevoeging betekent dat je het getal met één verhoogt. Strikt stijgend betekent dat elke volgend element groter is dan het vorige element. (en dus niet gelijk aan)
+Gegeven een lijst met een aantal natuurlijke getallen, zoek dan naar het minimale aantal toevoegingen dat uitgevoerd moet worden om de lijst **strikt stijgend** te maken. Een toevoeging betekent dat je het getal met één verhoogt. Strikt stijgend betekent dat elk volgend element groter is dan het vorige element. (en dus niet gelijk aan)
 
 Schrijf een functie `minimale_toevoegingen(getallen)` die gegeven een lijst met getallen dit minimale aantal toevoegen retourneert.
 
