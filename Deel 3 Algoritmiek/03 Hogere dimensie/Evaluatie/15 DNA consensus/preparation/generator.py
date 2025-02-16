@@ -77,18 +77,32 @@ def generate_expression(name, matrix, add=None):
 
 
 # generate test data
-ntests = 2
+ntests = 10
 cases = [[["A", "G", "C", "A", "T"], ["A", "G", "A", "C", "T"], ["G", "G", "A", "A", "T"]],
          [["G", "C", "A", "T", "A", "T", "G", "G", "C", "T", "G", "T", "G", "C", "A"],
-               ["G", "C", "A", "A", "A", "T", "G", "G", "C", "T", "G", "T", "G", "C", "A"],
-               ["G", "C", "T", "A", "A", "T", "G", "G", "G", "T", "G", "T", "C", "C", "A"],
-               ["G", "C", "A", "A", "A", "T", "G", "G", "C", "T", "G", "T", "G", "C", "A"],
-               ["G", "C", "A", "A", "A", "T", "C", "G", "G", "T", "G", "A", "G", "C", "A"]]]
+          ["G", "C", "A", "A", "A", "T", "G", "G", "C", "T", "G", "T", "G", "C", "A"],
+          ["G", "C", "T", "A", "A", "T", "G", "G", "G", "T", "G", "T", "C", "C", "A"],
+          ["G", "C", "A", "A", "A", "T", "G", "G", "C", "T", "G", "T", "G", "C", "A"],
+          ["G", "C", "A", "A", "A", "T", "C", "G", "G", "T", "G", "A", "G", "C", "A"]]]
 
+nucleos = "ATGC"
 while len(cases) < ntests:
-
-        
-    case = []
+    count = random.randint(3,10)
+    length = random.randint(4,20)
+    # initial string
+    mat = []
+    first = random.choices(nucleos, k = length)
+    mat.append(first)
+    
+    for _ in range(count):
+        new = []
+        for char in first:
+            if random.randint(0,4) == 0:
+                char = random.choice(nucleos)
+            new.append(char)
+        mat.append(new)
+    
+    case = mat
         
     if case not in cases:
         cases.append(case)
