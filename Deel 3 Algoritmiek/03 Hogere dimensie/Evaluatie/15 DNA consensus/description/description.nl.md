@@ -1,4 +1,4 @@
-DNA (Desoxyribonucleïnezuur) is een molecule die genetische informatie bevat. Het bestaat uit vier verschillende nucleobasen, namelijk adenine, thymine, guanine of cytosine.
+DNA (<a href="https://nl.wikipedia.org/wiki/DNA_(biologie)" target="_blank">Desoxyribonucleïnezuur</a>) is een molecule die genetische informatie bevat. Het bestaat uit vier verschillende nucleobasen, namelijk adenine, thymine, guanine of cytosine.
 
 ![Afbeelding door digitale.de op Unsplash.](media/digitale-de.jpg "Afbeelding door digitale.de op Unsplash."){:data-caption=Afbeelding door digitale.de op Unsplash." width="35%"}
 
@@ -15,7 +15,7 @@ De bioloog prof. Ahn vond dat een bepaald gen in verschillende dieren teruggevon
 | Aap   | <span style="font-family=monospace;">GCAAATCGGTGAGCA</span>   |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
-Prof. Ahn denkt dat mensen dit gen ook hebben en wil dit gaan zoeken in het menselijk genoom. Maar voor het zoeken naar een *gelijkaardige* DNA string, moet hij definieren wat *gelijkaardig* betekent. Hij besluit de **Hamming afstand** te gebruiken. De Hamming afstand wordt gedefinieerd als het aantal posities met een verschillend teken bij twee strings met eenzelfde lengte.
+Prof. Ahn denkt dat mensen dit gen ook hebben en wil dit gaan zoeken in het menselijk genoom. Maar voor het zoeken naar een *gelijkaardige* DNA string, moet hij definieren wat *gelijkaardig* betekent. Hij besluit de **Hamming afstand** te gebruiken. De Hamming afstand wordt gedefinieerd als het aantal posities met een verschillend teken bij twee strings van dezelfde lengte.
 
 Zo is de Hamming afstand van <span style="font-family=monospace;"><span style="color:#FF8E27">A</span>G<span style="color:#A9D19B">C</span>AT</span> en <span style="font-family=monospace;"><span style="color:#FF8E27">G</span>G<span style="color:#A9D19B">A</span>AT</span> gelijk aan 2. Op 2 plaatsen verschilen deze strings van teken. 
 
