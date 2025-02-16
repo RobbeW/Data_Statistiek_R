@@ -15,11 +15,12 @@ De bioloog prof. Ahn vond dat een bepaald gen in verschillende dieren teruggevon
 | Aap   | <span style="font-family=monospace;">GCAAATCGGTGAGCA</span>   |
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
-Prof. Ahn denkt dat mensen dit gen ook hebben en wil dit gaan zoeken in het menselijk genoom. Maar voor het zoeken naar een *gelijkaardige* DNA string, moet hij definieren wat *gelijkaardig* betekent. Hij besluit de **Hamming afstand** te gebruiken. De Hamming afstand wordt gedefinieerd als het aantal posities met een verschillend teken bij twee strings van dezelfde lengte.
 
-Zo is de Hamming afstand van <span style="font-family=monospace;"><span style="color:#FF8E27">A</span>G<span style="color:#A9D19B">C</span>AT</span> en <span style="font-family=monospace;"><span style="color:#FF8E27">G</span>G<span style="color:#A9D19B">A</span>AT</span> gelijk aan 2. Op 2 plaatsen verschilen deze strings van teken. 
+Prof. Ahn denkt dat mensen dit gen ook hebben en wil dit gaan zoeken in het menselijk genoom. Maar voor het zoeken naar een *gelijkaardige* DNA string, moet hij definieren wat *gelijkaardig* betekent. Hij besluit de **Hamming afstand** te gebruiken. De Hamming afstand wordt gedefinieerd als het aantal posities met een verschillende letter bij twee strings van dezelfde lengte.
 
-Op deze manier kan je een **consensus** DNA string maken. Je bepaalt de DNA string die op het minst aantal plaatsen verschilt van de gegeven strings.  Beschouw bijvoorbeeld de strings <span style="font-family=monospace;">AGCAT</span>, <span style="font-family=monospace;">AGACT</span> en <span style="font-family=monospace;">GGAAT</span> dan is de consensus DNA string <span style="font-family=monospace;">AGAAT</span>. Want de soms van de Hamming afstanden van deze consensus DNA string tot de andere drie strings is minimaal.
+Zo is de Hamming afstand van <span style="font-family=monospace;"><span style="color:#FF8E27">A</span>G<span style="color:#A9D19B">C</span>AT</span> en <span style="font-family=monospace;"><span style="color:#FF8E27">G</span>G<span style="color:#A9D19B">A</span>AT</span> gelijk aan 2. Op twee plaatsen verschillen deze strings van letter. 
+
+Op deze manier kan je een **consensus** DNA string maken. Je bepaalt de DNA string die op het minst aantal plaatsen verschilt van de gegeven strings.  Beschouw bijvoorbeeld de strings <span style="font-family=monospace;">AGCAT</span>, <span style="font-family=monospace;">AGACT</span> en <span style="font-family=monospace;">GGAAT</span> dan is de consensus DNA string <span style="font-family=monospace;">AGAAT</span>. Want de som van de Hamming afstanden van deze consensus DNA string tot de andere drie strings is minimaal.
 
 Voor bovenstaande tabel zou <span style="font-family=Courier, monospace">GCAAATGGCTGTGCA</span> de consensus DNA string zijn.
 
