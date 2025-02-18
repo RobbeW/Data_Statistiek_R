@@ -4,7 +4,7 @@ DNA (<a href="https://nl.wikipedia.org/wiki/DNA_(biologie)" target="_blank">Deso
 
 Als we elke nucleobase voorstellen met behulp van de eerste letter A, T, G en C, dan kan men een DNA molecuul voorstellen als een lange opeenvolging van deze vier letters.
 
-De biologe prof. Naessens vond dat een bepaald gen in verschillende dieren teruggevonden kon worden. Ze kon bovendien vaststellen dat de opeenvolging van de nucleobasen, de DNA string, zeer gelijkaardig was bij deze dieren. 
+De biologe prof. Naessens vond dat een bepaald gen in verschillende dieren teruggevonden kan worden. Ze kon bovendien vaststellen dat de opeenvolging van de nucleobasen, de DNA string, zeer gelijkaardig was bij deze dieren. 
 
 | Dier  | DNA string        |
 |------:|-------------------|
