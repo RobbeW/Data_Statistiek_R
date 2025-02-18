@@ -4,7 +4,7 @@ DNA (<a href="https://nl.wikipedia.org/wiki/DNA_(biologie)" target="_blank">Deso
 
 Als we elke nucleobase voorstellen met behulp van de eerste letter A, T, G en C, dan kan men een DNA molecuul voorstellen als een lange opeenvolging van deze vier letters.
 
-De bioloog prof. Ahn vond dat een bepaald gen in verschillende dieren teruggevonden kon worden. Hij kon bovendien vaststellen dat de opeenvolging van de nucleobasen, de DNA string, zeer gelijkaardig was bij deze dieren. 
+De bioloog prof. Naessens vond dat een bepaald gen in verschillende dieren teruggevonden kon worden. Ze kon bovendien vaststellen dat de opeenvolging van de nucleobasen, de DNA string, zeer gelijkaardig was bij deze dieren. 
 
 | Dier  | DNA string        |
 |------:|-------------------|
@@ -16,7 +16,7 @@ De bioloog prof. Ahn vond dat een bepaald gen in verschillende dieren teruggevon
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 
-Prof. Ahn denkt dat mensen dit gen ook hebben en wil dit gaan zoeken in het menselijk genoom. Maar voor het zoeken naar een *gelijkaardige* DNA string, moet hij definieren wat *gelijkaardig* betekent. Hij besluit de **Hamming afstand** te gebruiken. De Hamming afstand wordt gedefinieerd als het aantal posities met een verschillende letter bij twee strings van dezelfde lengte.
+Prof. Naessens denkt dat mensen dit gen ook hebben en wil dit gaan zoeken in het menselijk genoom. Maar voor het zoeken naar een *gelijkaardige* DNA string, moet ze definieren wat *gelijkaardig* betekent. Ze besluit de **Hamming afstand** te gebruiken. De Hamming afstand wordt gedefinieerd als het aantal posities met een verschillende letter bij twee strings van dezelfde lengte.
 
 Zo is de Hamming afstand van <span style="font-family=monospace;"><span style="color:#FF8E27">A</span>G<span style="color:#A9D19B">C</span>AT</span> en <span style="font-family=monospace;"><span style="color:#FF8E27">G</span>G<span style="color:#A9D19B">A</span>AT</span> gelijk aan 2. Op twee plaatsen verschillen deze strings van letter. 
 
