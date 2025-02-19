@@ -91,13 +91,15 @@ while len(cases) < ntests:
     
     lijst = [ i + 1 for i in range(n*m)]
     random.shuffle(lijst)
-    print(lijst)
+    
+    incr = random.randint(0,20)
+    
     mat = []
     for i in range(n):
         rij = []
         for j in range(m):
             el = lijst[i * m + j]
-            rij.append(el)
+            rij.append(incr + el)
         mat.append(rij)
     
     startx = random.randint(0,n-1)
