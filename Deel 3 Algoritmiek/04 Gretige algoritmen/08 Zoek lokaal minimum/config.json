@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Lokaal minimum zoeken"
+    }
+  },
+  "evaluation": {
+    "handler": "TESTed",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "for-lus",
+    "begrensde herhaling",
+    "greedy",
+    "functies",
+    "2D lijsten"
+  ],
+  "access": "public"
+}
