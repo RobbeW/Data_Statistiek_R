@@ -4,21 +4,21 @@ Dit wordt 'gespeeld' op een tweedimensionaal rooster, met vierkante cellen die '
 
 - Als een cel door 2 of 3 levende buurcellen omgeven wordt, blijft deze cel zelf ook levend, zoals in het voorbeeld hieronder.
 
-![Regel 1](media/image1.png "Regel 1"){:data-caption=Regel 1" .light-only height="100px"}
+![Regel 1](media/image1.png "Regel 1"){:data-caption=Regel 1" .light-only height="110px"}
 
-![Regel 1](media/image1_dark.png "Regel 1"){:data-caption=Regel 1" .dark-only height="100px"}
+![Regel 1](media/image1_dark.png "Regel 1"){:data-caption=Regel 1" .dark-only height="110px"}
 
-- Als een cel door 4 meer levende buurcellen omgeven wordt, dan is er sprake van overbevolking en *sterft* de cel. Zijn er minder dan 2 levende buurcellen dan sterft de cel ook door eenzaamheid.
+- Als een cel door 4 meer levende buurcellen omgeven wordt, dan is er sprake van *overbevolking* en *sterft* de cel. Zijn er minder dan 2 levende buurcellen dan sterft de cel ook door *eenzaamheid*.
 
-![Regel 2](media/image2.png "Regel 2"){:data-caption=Regel 2" .light-only height="100px"}
+![Regel 2](media/image2.png "Regel 2"){:data-caption=Regel 2" .light-only height="110px"}
 
-![Regel 2](media/image2_dark.png "Regel 2"){:data-caption=Regel 2" .dark-only height="100px"}
+![Regel 2](media/image2_dark.png "Regel 2"){:data-caption=Regel 2" .dark-only height="110px"}
 
-- Als een dode cel wordt omgeven door **exact 3 gekleurde** buurcellen, wordt deze dode cel ook gekleurd.
+- Als een dode cel wordt omgeven door **exact 3** levende buurcellen, wordt er een cel *geboren*.
 
-![Regel 3](media/image3.png "Regel 3"){:data-caption=Regel 3" .light-only height="100px"}
+![Regel 3](media/image3.png "Regel 3"){:data-caption=Regel 3" .light-only height="110px"}
 
-![Regel 3](media/image3_dark.png "Regel 3"){:data-caption=Regel 3" .dark-only height="100px"}
+![Regel 3](media/image3_dark.png "Regel 3"){:data-caption=Regel 3" .dark-only height="110px"}
 
 Als je dit proces uitvoert, vertrekkende van een bepaalde startsituatie dan kunnen er zich interessante patronen ontwikkelen.
 
