@@ -1,0 +1,33 @@
+- tab: Feedback aantal_levend
+  contexts:
+  - testcases:
+    - expression: aantal_levend([[0, 0, 1, 0], [1, 1, 1, 0], [0, 1, 0, 0]])
+      description:
+        description: "aantal_levend([[0, 0, 1, 0],\n               [1, 1, 1, 0],\n\
+          \               [0, 1, 0, 0], 1, 1])"
+        format: python
+      return: 4
+- tab: Feedback game
+  contexts:
+  - testcases:
+    - expression: game([[0, 0, 1, 0], [1, 1, 1, 0], [0, 1, 0, 0]])
+      description:
+        description: "game([[0, 0, 1, 0],\n      [1, 1, 1, 0],\n      [0, 1, 0, 0]])"
+        format: python
+      return: !oracle
+        oracle: "custom_check"
+        file: "test.py"
+        name: "check_function"
+        value:
+          - - 0
+            - 0
+            - 1
+            - 0
+          - - 1
+            - 0
+            - 1
+            - 0
+          - - 0
+            - 1
+            - 0
+            - 1
