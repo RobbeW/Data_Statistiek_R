@@ -65,7 +65,7 @@ def generate_expression(name, matrix, add=None):
         if r < len(matrix) - 1:
             txt += ",\n"
     if add != None:
-        txt += ", "
+        txt += "], "
         for i in range(len(add)):
             el = add[i]
             txt += f"{el}"
@@ -77,14 +77,23 @@ def generate_expression(name, matrix, add=None):
 
 
 # generate test data
-ntests = 1
+ntests = 30
 cases = [([[0, 0, 1, 0],
            [1, 1, 1, 0],
            [0, 1, 0, 0]], 1, 1)]
 
 while len(cases) < ntests:
-    nieuw = (1, 1)
-    case = nieuw
+    R = random.randint(3,50)
+    C = random.randint(3,50)
+    
+    mat = []
+    for _ in range(R):
+        rij = [ random.randint(0,1) for _ in range(C)]
+        mat.append(rij)
+    
+    r = random.randint(0, R - 1)
+    c = random.randint(0, C - 1)
+    case = (mat, r, c)
         
     if case not in cases:
         cases.append(case)
@@ -102,7 +111,7 @@ for i in range(len(cases)):
     yamldata[0]['contexts'].append( {'testcases' : []})
        
     # generate test expression
-    expression_name = f"aantal_levend({test[0]})"
+    expression_name = f"aantal_levend({test[0]}, {test[1]}, {test[2]})"
     description_name = generate_expression("aantal_levend", test[0], [test[1], test[2]] )
     description = {"description": description_name, "format": "python"}
 
