@@ -84,11 +84,11 @@ cases = [([[0, 0, 1, 0],
 
 while len(cases) < ntests:
     R = random.randint(3,50)
-    C = random.randint(3,50)
+    C = random.randint(3,45)
     
     mat = []
     for _ in range(R):
-        rij = [ random.randint(0,1) for _ in range(C)]
+        rij = [ random.randint(0,2) % 2 for _ in range(C)]
         mat.append(rij)
     
     r = random.randint(0, R - 1)

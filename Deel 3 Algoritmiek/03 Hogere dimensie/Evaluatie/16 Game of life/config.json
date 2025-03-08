@@ -5,8 +5,7 @@
     }
   },
   "evaluation": {
-    "memory_limit": 500000000,
-    "time_limit": 4,
+    "memory_limit": 200000000,
     "handler": "tested",
     "test_suite": "tests.yaml"
   },
