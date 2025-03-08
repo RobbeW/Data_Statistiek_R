@@ -83,8 +83,8 @@ cases = [([[0, 0, 1, 0],
            [0, 1, 0, 0]], 1, 1)]
 
 while len(cases) < ntests:
-    R = random.randint(3,50)
-    C = random.randint(3,35)
+    R = random.randint(3,40)
+    C = random.randint(3,30)
     
     mat = []
     for _ in range(R):
