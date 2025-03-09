@@ -86,7 +86,7 @@ cases = [
 
 while len(cases) < ntests:
     R = random.randint(2, 25)
-    C = random.randint(2, 20)
+    C = random.randint(2, 15)
     
     d = random.randint(0,4)
     
