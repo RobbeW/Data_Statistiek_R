@@ -84,7 +84,7 @@ cases = [
 
 
 while len(cases) < ntests:
-    n = random.randint(2, 25)
+    n = random.randint(2, 20)
     
     mat = []
     for r in range(n):
