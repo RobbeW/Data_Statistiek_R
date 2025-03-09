@@ -183,7 +183,7 @@ while len(cases) < ntests:
     mat = generate_magic_square(n)
     
     nieuw = []
-    x = random.randint(2,math.ceil(10/n) +1)
+    x = random.randint(2,math.ceil(6/n) +1)
     for r in range(len(mat)):
         rij = []
         for c in range(len(mat[0])):
