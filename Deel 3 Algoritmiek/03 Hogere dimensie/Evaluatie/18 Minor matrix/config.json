@@ -13,5 +13,9 @@
     "for-lus",
     "evaluatie"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "ek_6xVuzWcDq9EJkmtaZyWhy2PfvM8DRw2I6UEXgfRvHFHauwDKuMvDbxEPJPjws",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
