@@ -76,14 +76,14 @@ def generate_expression(name, matrix, add=None):
     return txt
 
 # generate test data
-ntests = 30
+ntests = 25
 cases = [([[1,  2,  3,  4],
            [5,  6,  7,  8],
            [9, 10, 11, 12]], 1, 2)]
 
 while len(cases) < ntests:
     R = random.randint(3,40)
-    C = random.randint(3,30)
+    C = random.randint(3,25)
     
     mat = []
     for _ in range(R):
