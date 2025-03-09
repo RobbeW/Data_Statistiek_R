@@ -178,7 +178,7 @@ def print_magic_square(square):
 
 
 while len(cases) < ntests:
-    n = random.randint(3, 5)
+    n = random.randint(3, 6)
     
     mat = generate_magic_square(n)
     
