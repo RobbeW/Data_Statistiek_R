@@ -76,9 +76,9 @@ def generate_expression_double(name, matrix, natrix):
             el = natrix[r][c]
             if isinstance(el, str):
                 string_el = f"\"{el}\""
-                txt += f"{string_el:>{dist}}"
+                txt += f"{string_el:>{dist2}}"
             else:
-                txt += f"{el:>{dist}}"
+                txt += f"{el:>{dist2}}"
             if c < len(natrix[0]) - 1:
                 txt += ", "
         txt += "]"
@@ -105,7 +105,7 @@ cases = [([[4, 7, 8],
 
 while len(cases) < ntests:
     R = random.randint(3, 30)
-    C = random.randint(3, 25)
+    C = random.randint(3, 20)
     
 
     nums = list(range(R*C))
