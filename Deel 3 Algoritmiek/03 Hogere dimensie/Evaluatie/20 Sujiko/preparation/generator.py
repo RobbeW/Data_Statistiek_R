@@ -104,7 +104,7 @@ cases = [([[4, 7, 8],
 
 
 while len(cases) < ntests:
-    R = random.randint(3, 40)
+    R = random.randint(3, 30)
     C = random.randint(3, 25)
     
 
