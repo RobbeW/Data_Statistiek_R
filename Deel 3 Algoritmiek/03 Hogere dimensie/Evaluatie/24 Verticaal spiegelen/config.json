@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Verticaal spiegelen"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "2D lijsten"
+  ],
+  "access": "public"
+}
