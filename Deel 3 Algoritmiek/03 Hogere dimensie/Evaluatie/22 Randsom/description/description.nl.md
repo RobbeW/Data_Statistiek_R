@@ -1,6 +1,6 @@
 De buitenrand van een matrix bevat alle elementen van de eerste en laatste rij en de eerste en laatste kolom.
 
-Voor onderstaande matrix is de som van de randen gelijk aan 40.
+Voor onderstaande matrix is de som van alle elementen op de **buitenranden** gelijk aan 40.
 
 $$
 \begin{pmatrix}
