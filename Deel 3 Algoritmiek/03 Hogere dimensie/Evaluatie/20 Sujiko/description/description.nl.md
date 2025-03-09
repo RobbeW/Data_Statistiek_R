@@ -2,9 +2,9 @@ Sujiko is een logische puzzel voor het plaatsen van getallen, bedacht door Jai G
 
 Het doel is de getallen van 1 tot en met 9 in een vakje te plaatsen zodat de som van elk vierkant gelijk is aan de bovenliggende waarden.
 
-![Een Sojiko puzzel.](media/image.png "Een Sojiko puzzel."){:data-caption=Een Sojiko puzzel." .light-only height="110px"}
+![Een Sojiko puzzel.](media/image.png "Een Sojiko puzzel."){:data-caption=Een Sojiko puzzel." .light-only height="140px"}
 
-![Een Sojiko puzzel.](media/image_dark.png "Een Sojiko puzzel."){:data-caption="Een Sojiko puzzel." .dark-only height="110px"}
+![Een Sojiko puzzel.](media/image_dark.png "Een Sojiko puzzel."){:data-caption="Een Sojiko puzzel." .dark-only height="140px"}
 
 Hier geldt bijvoorbeeld dat $$\mathsf{4+7+5+1 = 17}$$, $$\mathsf{7+8+1+2 = 18}$$, $$\mathsf{5+1+6+3 = 15}$$ en $$\mathsf{1+2+3+9 = 15}$$.
 
@@ -33,4 +33,4 @@ True
             [15, 15]])
 False
 ```
-Want onderaan rechts geldt $$\mathsf{5 + 7 + 3 + 6 \not = 15}$$.
+Want onderaan links geldt $$\mathsf{5 + 7 + 3 + 6 \not = 15}$$.
