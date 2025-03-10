@@ -1,4 +1,4 @@
-def bepaal_laagste(kolom):
+def bepaal_hoogste(kolom):
     # omvormen naar een dictionary
     telling = {}
     for char in kolom:
@@ -7,13 +7,13 @@ def bepaal_laagste(kolom):
         else:
             telling[char] = 1
     
-    laagste_aantal = len(kolom)
-    laagste = "X"
+    hoogste_aantal = telling[char]
+    hoogste = char
     for char, aantal in telling.items():
-        if aantal <= laagste_aantal:
-            laagste_aantal = aantal
-            laagste = char
-    return laagste
+        if aantal > hoogste_aantal:
+            hoogste_aantal = aantal
+            hoogste = char
+    return hoogste
     
 
 def consensus(rooster):
@@ -24,7 +24,7 @@ def consensus(rooster):
         for r in range(len(rooster)):
             element = rooster[r][c]
             kol.append(element)
-        char = bepaal_laagste(kol)
+        char = bepaal_hoogste(kol)
         resultaat.append(char)
     
     

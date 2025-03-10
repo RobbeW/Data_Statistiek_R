@@ -9,10 +9,10 @@
           , \"A\", \"T\"]])"
         format: python
       return:
+      - A
       - G
-      - G
-      - C
-      - C
+      - A
+      - A
       - T
   - testcases:
     - expression: consensus([['C', 'G', 'A', 'C', 'T'], ['C', 'G', 'A', 'C', 'T'],
@@ -27,10 +27,10 @@
         format: python
       return:
       - C
-      - C
-      - C
-      - C
       - G
+      - A
+      - C
+      - T
   - testcases:
     - expression: consensus([['C', 'A', 'C', 'A', 'C', 'C', 'G', 'T', 'C'], ['C',
         'A', 'C', 'A', 'A', 'C', 'G', 'T', 'C'], ['C', 'A', 'G', 'A', 'C', 'G', 'C',
@@ -45,11 +45,11 @@
       return:
       - C
       - A
-      - G
-      - A
-      - A
-      - G
       - C
+      - A
+      - C
+      - C
+      - G
       - T
       - C
   - testcases:
@@ -67,16 +67,16 @@
           \"A\", \"C\", \"T\", \"G\", \"C\"]])"
         format: python
       return:
-      - G
+      - C
       - C
       - G
       - G
+      - G
       - C
-      - T
       - A
       - C
+      - T
       - C
-      - G
       - C
   - testcases:
     - expression: consensus([['A', 'G', 'A', 'C', 'C'], ['A', 'G', 'A', 'C', 'C'],
@@ -95,11 +95,11 @@
           ],\n           [\"A\", \"G\", \"C\", \"G\", \"A\"]])"
         format: python
       return:
-      - C
-      - T
-      - C
+      - A
       - G
       - A
+      - C
+      - C
   - testcases:
     - expression: consensus([['A', 'C', 'C', 'C', 'C', 'A', 'T', 'T', 'A', 'G', 'G',
         'C', 'G', 'A', 'A', 'A', 'A'], ['A', 'C', 'C', 'C', 'C', 'T', 'T', 'T', 'C',
@@ -117,23 +117,23 @@
           A\", \"G\", \"A\", \"A\", \"A\", \"A\"]])"
         format: python
       return:
+      - A
+      - C
+      - C
+      - C
       - C
       - A
+      - T
+      - T
       - A
       - G
-      - C
-      - T
-      - T
-      - T
-      - C
+      - G
       - C
       - G
       - A
-      - G
       - A
       - A
-      - C
-      - T
+      - A
   - testcases:
     - expression: consensus([['C', 'C', 'T', 'G', 'A', 'C', 'T'], ['C', 'A', 'T',
         'G', 'A', 'C', 'T'], ['C', 'C', 'T', 'G', 'A', 'C', 'T'], ['T', 'C', 'T',
@@ -153,13 +153,13 @@
           \           [\"C\", \"C\", \"T\", \"A\", \"A\", \"C\", \"C\"]])"
         format: python
       return:
-      - G
-      - G
       - C
-      - A
-      - A
+      - C
+      - T
+      - G
       - A
       - C
+      - T
   - testcases:
     - expression: consensus([['G', 'C', 'A', 'T', 'A', 'T', 'G', 'G', 'C', 'T', 'G',
         'T', 'G', 'C', 'A'], ['G', 'C', 'A', 'A', 'A', 'T', 'G', 'G', 'C', 'T', 'G',
@@ -181,17 +181,17 @@
       return:
       - G
       - C
-      - T
-      - T
+      - A
+      - A
       - A
       - T
-      - C
       - G
+      - G
+      - C
+      - T
       - G
       - T
       - G
-      - A
-      - C
       - C
       - A
   - testcases:
@@ -221,18 +221,18 @@
           \"G\", \"C\", \"T\", \"G\", \"T\", \"A\", \"A\", \"C\"]])"
         format: python
       return:
-      - G
       - T
       - G
-      - C
       - G
-      - C
-      - T
-      - T
-      - T
-      - T
       - T
       - C
+      - A
+      - T
+      - G
+      - T
+      - A
+      - A
+      - G
   - testcases:
     - expression: consensus([['G', 'T', 'A', 'A', 'C', 'A', 'A', 'G', 'C', 'G', 'A',
         'T', 'G', 'G', 'T', 'G', 'G', 'A', 'C', 'C'], ['G', 'T', 'A', 'A', 'C', 'A',
@@ -277,22 +277,22 @@
         format: python
       return:
       - G
+      - T
       - A
+      - A
+      - C
       - A
       - A
       - G
       - C
       - G
+      - A
+      - T
       - G
-      - C
-      - A
-      - A
-      - A
       - G
       - T
       - G
       - G
       - A
-      - T
       - C
-      - A
+      - C
