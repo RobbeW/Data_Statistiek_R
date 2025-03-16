@@ -11,5 +11,9 @@
   "labels": [
     "2D lijsten"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "7pQT_AkK_eDGghXsdPfAs2HvvgJxVBHIkCxpNmA4fEfIBIvJGAAUkNaBR3HyIE6h",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
