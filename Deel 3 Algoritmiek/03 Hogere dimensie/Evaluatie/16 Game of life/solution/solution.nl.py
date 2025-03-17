@@ -18,9 +18,11 @@ def game(rooster):
         for c in range(len(rooster[0])):
             aantal = aantal_levend(rooster, r, c)
             if aantal <= 1:
-                waarde = 1
+                waarde = 0
             elif aantal >= 4:
                 waarde = 0
+            elif aantal == 3:
+                waarde = 1
             else:
                 waarde = rooster[r][c]
             rij.append(waarde)
