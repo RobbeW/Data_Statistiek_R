@@ -8,7 +8,7 @@ Dit wordt 'gespeeld' op een tweedimensionaal rooster, met vierkante cellen die '
 
 ![Regel 1](media/image1_dark.png "Regel 1"){:data-caption=Regel 1" .dark-only height="110px"}
 
-- Als een cel door 4 meer levende buurcellen omgeven wordt, dan is er sprake van *overbevolking* en *sterft* de cel. Zijn er minder dan 2 levende buurcellen dan sterft de cel ook door *eenzaamheid*.
+- Als een cel door 4 of meer levende buurcellen omgeven wordt, dan is er sprake van *overbevolking* en *sterft* de cel. Zijn er minder dan 2 levende buurcellen dan sterft de cel ook door *eenzaamheid*.
 
 ![Regel 2](media/image2.png "Regel 2"){:data-caption=Regel 2" .light-only height="110px"}
 
@@ -50,5 +50,5 @@ Bestudeer grondig onderstaande voorbeelden.
           [0, 1, 0, 0]])
 [[0, 0, 1, 0],
  [1, 0, 1, 0],
- [0, 1, 0, 1]]
+ [0, 1, 1, 0]]
 ```
