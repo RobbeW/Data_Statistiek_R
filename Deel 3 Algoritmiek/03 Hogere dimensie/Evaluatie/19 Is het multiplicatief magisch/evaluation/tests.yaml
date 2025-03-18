@@ -59,6 +59,22 @@
         format: python
       return: false
   - testcases:
+    - expression: is_magisch([[1, 24, 15, 14], [12, 28, 3, 5], [21, 6, 10, 4], [20,
+        2, 7, 18]])
+      description:
+        description: "is_magisch([[ 1, 24, 15, 14],\n            [12, 28,  3,  5],\n\
+          \            [21,  6, 10,  4],\n            [20,  2,  7, 18]])"
+        format: python
+      return: false
+  - testcases:
+    - expression: is_magisch([[12, 28, 3, 5], [1, 15, 24, 14], [21, 6, 10, 4], [20,
+        2, 7, 18]])
+      description:
+        description: "is_magisch([[12, 28,  3,  5],\n            [ 1, 15, 24, 14],\n\
+          \            [21,  6, 10,  4],\n            [20,  2,  7, 18]])"
+        format: python
+      return: false
+  - testcases:
     - expression: is_magisch([[43046721, 243, 4782969, 81], [9, 177147, 2187, 19683],
         [27, 59049, 729, 14348907], [1594323, 6561, 531441, 3]])
       description:
