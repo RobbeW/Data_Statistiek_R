@@ -77,7 +77,7 @@ def generate_expression(name, matrix, add=None):
     return txt
 
 # generate test data
-ntests = 15
+ntests = 16
 cases = [k for k in range(1,ntests)]
 
 # generate unit tests for functions
