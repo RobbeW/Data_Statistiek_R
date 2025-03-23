@@ -1,0 +1,24 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Kleinste pad"
+    }
+  },
+  "evaluation": {
+    "handler": "TESTed",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "for-lus",
+    "begrensde herhaling",
+    "dynamisch",
+    "functies",
+    "lijsten"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "4WZMB2vWN-c8AFGrD3mEqhZiYdCRpM_SCbe4dVxYcP_Ufe9G3txtetuqgWy3gZgg",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
