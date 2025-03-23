@@ -1,6 +1,6 @@
 Om het absolute minimum uit een rooster te halen dient men **elk** element te overlopen. Misschien kan het korter door een klein element in de buurt van een willekeurig startelement te zoeken.
 
-Indien men in onderstaand rooster begint vanaf een willekeurig element, bijvoorbeeld rij 1 en kolom 2, dan kan door telkens op te schuiven naar het kleinste element uiteindelijk op het element rechtsonder belanden. Dit getal beandert het echte minimum.
+Indien men in onderstaand rooster begint vanaf een willekeurig element, bijvoorbeeld rij 1 en kolom 2, dan kan door telkens op te schuiven naar het kleinste element uiteindelijk op het element rechtsonder belanden. Dit getal benadert het echte minimum.
 
 Beschouw enkel de elementen die direct grenzen aan het startelement. Werk dus **niet** diagonaal.
 
