@@ -74,8 +74,39 @@ def generate_expression(name, matrix, add=None):
     txt += "])"
     return txt
 
+def generate_grid(rows, cols):
+    # Maak een rooster gevuld met obstakels (1)
+    grid = [[1] * cols for _ in range(rows)]
+    
+    # Genereer een pad met alleen 0'en
+    r, c = 0, 0
+    grid[r][c] = 0
+    path = [(r, c)]
+    
+    while r < rows - 1 or c < cols - 1:
+        if r == rows - 1:
+            c += 1  # Kan alleen naar rechts
+        elif c == cols - 1:
+            r += 1  # Kan alleen naar beneden
+        else:
+            if random.random() < 0.5:
+                c += 1  # Beweeg naar rechts
+            else:
+                r += 1  # Beweeg naar beneden
+        grid[r][c] = 0
+        path.append((r, c))
+    
+    # Vul de rest van het rooster willekeurig met 0'en en 1'en
+    for i in range(rows):
+        for j in range(cols):
+            if (i, j) not in path:  # Zorg dat het pad niet wordt overschreven
+                grid[i][j] = random.choice([0, 1])
+    
+    return grid
+
+
 # generate test data
-ntests = 2
+ntests = 20
 cases = [[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
           [1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1], 
           [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
@@ -95,14 +126,10 @@ cases = [[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 ]
 
 while len(cases) < ntests:
-    nrows = random.randint(2,10)
-    ncols = random.randint(2,10)
+    nrows = random.randint(3,15)
+    ncols = random.randint(3,15)
     
-    mat = []
-    for _ in range(nrows):
-        row = [random.randint(-10,10) for _ in range(ncols)]
-        mat.append(row)
-    
+    mat = generate_grid(nrows, ncols)
     if mat not in cases:
         cases.append(mat)
 
