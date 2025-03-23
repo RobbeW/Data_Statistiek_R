@@ -24,10 +24,10 @@
         file: "test.py"
         name: "check_function"
         value:
-          - - X
-            - X
+          - - 👣
+            - 👣
           - - 1
-            - X
+            - 👣
   - testcases:
     - expression: teken_kleinste_pad([[-8, -10, -6], [-2, -5, 10]])
       description:
@@ -39,12 +39,12 @@
         file: "test.py"
         name: "check_function"
         value:
-          - - X
-            - X
-            - X
+          - - 👣
+            - 👣
+            - 👣
           - - -2
             - -5
-            - X
+            - 👣
   - testcases:
     - expression: teken_kleinste_pad([[-6, 3], [-9, 9], [6, -4], [-1, -7]])
       description:
@@ -56,14 +56,14 @@
         file: "test.py"
         name: "check_function"
         value:
-          - - X
+          - - 👣
             - 3
-          - - X
+          - - 👣
             - 9
-          - - X
-            - X
+          - - 👣
+            - 👣
           - - -1
-            - X
+            - 👣
   - testcases:
     - expression: teken_kleinste_pad([[-8, 4, -5, 9, -3, -10, -6], [3, -4, -4, -8,
         8, -4, 0]])
@@ -76,20 +76,20 @@
         file: "test.py"
         name: "check_function"
         value:
-          - - X
-            - X
-            - X
-            - X
-            - X
-            - X
-            - X
+          - - 👣
+            - 👣
+            - 👣
+            - 👣
+            - 👣
+            - 👣
+            - 👣
           - - 3
             - -4
             - -4
             - -8
             - 8
             - -4
-            - X
+            - 👣
   - testcases:
     - expression: teken_kleinste_pad([[-2, 9, 6, 8, 6], [-8, 0, -7, -6, 1], [-10,
         5, -9, 1, -3]])
