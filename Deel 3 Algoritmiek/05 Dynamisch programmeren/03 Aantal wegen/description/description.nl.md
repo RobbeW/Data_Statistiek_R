@@ -1,8 +1,8 @@
 Gegeven is een rooster waarbij je van het aantal wegen in een rooster moet tellen van linksboven naar rechtsonder. Je mag hierbij enkel naar rechts en naar onder bewegen. De grijze blokjes stellen obstakels voor.
 
-![Aantal wegen in een rooster.](media/image.png "Aantal wegen in een rooster."){:data-caption="Aantal wegen in een rooster." .light-only width="60%"}
+![Aantal wegen in een rooster.](media/image.png "Aantal wegen in een rooster."){:data-caption="Aantal wegen in een rooster." .light-only width="40%"}
 
-![Aantal wegen in een rooster.](media/image_dark.png "Aantal wegen in een rooster."){:data-caption="Aantal wegen in een rooster." .dark-only width="60%"}
+![Aantal wegen in een rooster.](media/image_dark.png "Aantal wegen in een rooster."){:data-caption="Aantal wegen in een rooster." .dark-only width="40%"}
 
 Dergelijk rooster wordt voorgesteld met behulp van een twee-dimensionale lijst bestaande uit de getallen `0` of `1`. Een `1` stelt een obstakel voor.
 
