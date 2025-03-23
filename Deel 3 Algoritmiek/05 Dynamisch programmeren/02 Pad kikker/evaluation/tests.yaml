@@ -10,10 +10,10 @@
         file: "test.py"
         name: "check_function"
         value:
-          - - X
+          - - 👣
             - 9
-          - - X
-            - X
+          - - 👣
+            - 👣
   - testcases:
     - expression: teken_kleinste_pad([[7, -2], [1, 6]])
       description:
@@ -1117,8 +1117,8 @@
             - -9
             - -4
             - -2
-            - X
-            - X
+            - 👣
+            - 👣
           - - 9
             - 5
             - 0
@@ -1128,4 +1128,4 @@
             - 5
             - -7
             - 4
-            - X
+            - 👣
