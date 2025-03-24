@@ -74,6 +74,21 @@ def generate_expression(name, matrix, add=None):
     txt += "])"
     return txt
 
+def generate_matrix(nrow, ncol):
+
+    mat = []
+    for _ in range(nrows):
+        row = [random.randint(-10,10) for _ in range(ncols)]
+        mat.append(row)
+
+    for r in range(nrow-1):
+        for c in range(ncol-1):
+            if mat[r+1][c] == mat[r][c+1]:
+                mat[r+1][c] = mat[r+1][c] + (-1)**(random.randint(0,1))
+    
+    return mat
+
+
 # generate test data
 ntests = 20
 cases = [[[ -3,  7, -3, -6, -5, -4, -10], 
@@ -86,10 +101,7 @@ while len(cases) < ntests:
     nrows = random.randint(2,10)
     ncols = random.randint(2,10)
     
-    mat = []
-    for _ in range(nrows):
-        row = [random.randint(-10,10) for _ in range(ncols)]
-        mat.append(row)
+    mat = generate_matrix(nrows, ncols)
     
     if mat not in cases:
         cases.append(mat)
