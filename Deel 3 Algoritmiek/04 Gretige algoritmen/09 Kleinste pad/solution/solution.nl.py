@@ -12,10 +12,10 @@ def kleinste_pad_tekenen(matrix):
         elif c == ncol -1:
             r += 1
         else:
-            if matrix[r + 1][c] < val:
-                r +=1
+            if matrix[r][c+1] < matrix[r+1][c]:
+                c +=1
             else:
-                c += 1
+                r += 1
     matrix[nrow-1][ncol-1] = "X"
         
     return matrix
