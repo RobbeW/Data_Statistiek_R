@@ -98,8 +98,8 @@ cases = [[[ -3,  7, -3, -6, -5, -4, -10],
 ]
 
 while len(cases) < ntests:
-    nrows = random.randint(2,10)
-    ncols = random.randint(2,10)
+    nrows = random.randint(2,20)
+    ncols = random.randint(2,18)
     
     mat = generate_matrix(nrows, ncols)
     
