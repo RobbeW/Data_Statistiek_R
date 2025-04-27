@@ -17,3 +17,7 @@ Programmeer een functie `maximale_korting(prijzen)` die gegeven een lijst met ko
 >>> maximale_korting([100, 150, 200, 250, 300, 350, 400])
 450
 ```
+
+{: .callout.callout-secondary}
+>#### Bron
+> Gebaseerd op probleem *Shopaholic*, Universiteit van Valladolid (UVa). 
