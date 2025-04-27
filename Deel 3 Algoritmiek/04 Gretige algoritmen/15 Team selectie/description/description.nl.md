@@ -5,7 +5,7 @@ Uit ervaring weet de coach dat de elk team even goed presteert als de mediane le
 Stel nu dat je de resultaten van een aantal leerlingen krijgt, zoek dan een verdeling zodat de verwachte score op de wedstrijd gemaximaliseerd wordt.
 
 ## Gevraagd
-Programmeer een functie `samenstelling_team(scores)` die gegeven een lijst met de individuele scores van een groep leerlingen de maximale verwacht score op de wedstrijd retourneert. Je mag ervan uit gaan dat het aantal leerlingen in de lijst steeds deelbaar door 3 is.
+Programmeer een functie `samenstelling_team(scores)` die gegeven een lijst met de individuele scores van een groep leerlingen de maximale verwachte score op de wedstrijd retourneert. Je mag ervan uit gaan dat het aantal leerlingen in de lijst steeds deelbaar is door 3.
 
 Bestudeer onderstaande voorbeelden grondig.
 
