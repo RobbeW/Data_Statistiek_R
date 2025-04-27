@@ -1,6 +1,6 @@
 Eieren koken in de microgolfoven, dat is niet evident. De microgolven zorgen ervoor dat het water binnen het ei snel gaat koken en omgezet wordt naar stoom, waarna de eischaal deze uitzetting niet aan kan en het ei ontploft.
 
-![Eieren in een microgolfoven, niet evident!](media/eggs.gif "Eieren in een microgolfoven, niet evident!"){:data-caption="Eieren in een microgolfoven, niet evident!" width="200px"}
+![Eieren in een microgolfoven, niet evident!](media/eggs.gif "Eieren in een microgolfoven, niet evident!"){:data-caption="Eieren in een microgolfoven, niet evident!" width="300px"}
 
 Er werden speciale speciale kommen ontwikkeld zodat je een ei wel kan koken in de microgolf. Deze kommen kunnen een bepaalde hoeveelheid eieren bevatten en een maximale massa. Indien je drie eieren hebt, met massas van 50 g, 60 g en 80 g, en de kom kan maximaal 2 eieren bevatten zodat de maximale massa kleiner is dan 120 g, dan kan je de eerste twee eieren klaarkoken in de microgolf.
 
