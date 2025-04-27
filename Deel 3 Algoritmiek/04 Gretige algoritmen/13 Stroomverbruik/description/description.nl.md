@@ -1,6 +1,6 @@
 Een bedrijf wil de belasting op de stroomvoorziening beperken. Elk van de apparaten binnen het bedrijf gebruikt een bepaalde hoeveelheid stroom. Men voert de volgende beperking in, als er apparaten van verschillende stroomsterktes gemengd worden, dan werken ze steeds op de laagste stroomsterkte. De stroomsterktes worden aangeduid via een bepaald rangnummer.
 
-Stel dat drie verschillende apparaten met de rangen 3, 5 en 7 tegelijkertijd aangeschakeld worden, dan wijzigt de stroomsterkte naar rang 3 en wordt een stroomsterkte van 3 · 3 = 9 gebruikt. Indien men echter enkel de apparaten met range 5 en 7 aanschakelt, dan wordt een stroomsterkte van 2 · 5 = 10 gebruikt, wat beter is dan de vorige schakeling.
+Stel dat drie verschillende apparaten met de rangen 3, 5 en 7 tegelijkertijd aangeschakeld worden, dan wijzigt de stroomsterkte naar rang 3 en wordt een stroomsterkte van 3 · 3 = 9 gebruikt. Indien men echter enkel de apparaten met rang 5 en 7 inschakelt, dan wordt een stroomsterkte van 2 · 5 = 10 gebruikt, wat beter is dan de vorige schakeling.
 
 ![Foto door Andrey Matveev op Unsplash.](media/andrey-matveev.jpg "Foto door Andrey Matveev op Unsplash."){:data-caption="Foto door Andrey Matveev op Unsplash." width="35%"}
 
