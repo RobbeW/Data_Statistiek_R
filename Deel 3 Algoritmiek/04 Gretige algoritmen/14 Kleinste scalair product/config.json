@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Kleinste scalair product"
+    }
+  },
+  "evaluation": {
+    "handler": "TESTed",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "for-lus",
+    "begrensde herhaling",
+    "greedy",
+    "functies",
+    "lijsten"
+  ],
+  "access": "public"
+}
