@@ -30,4 +30,4 @@ Bestudeer onderstaande voorbeelden grondig.
 
 {: .callout.callout-secondary}
 >#### Bron
-> Gebaseerd op *Fridge*, United Kingdom and Ireland Programming Contest 2016
+> United Kingdom and Ireland Programming Contest 2016

@@ -30,4 +30,4 @@ Bij deze zaailingen lukt het ten vroegste pas na 42 dagen om het feest te organi
 
 {: .callout.callout-secondary}
 >#### Bron
-> Gebaseerd op *Planting Trees*, Nordic Collegiate Programming Contest 2013
+> Nordic Collegiate Programming Contest 2013

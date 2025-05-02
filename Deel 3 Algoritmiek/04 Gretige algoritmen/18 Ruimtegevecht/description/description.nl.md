@@ -30,4 +30,4 @@ Met de beste strategie kan je hier drie planetenstelsels veroveren.
 
 {: .callout.callout-secondary}
 >#### Bron
-> Gebaseerd op *Planetaris*, Lokakeppni TÖL607G HÍ 2019 
+> Lokakeppni TÖL607G HÍ 2019 
