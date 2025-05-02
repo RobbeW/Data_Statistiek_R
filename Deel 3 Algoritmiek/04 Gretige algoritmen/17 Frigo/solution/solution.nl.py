@@ -14,7 +14,7 @@ def frigo(cijfers):
         if val < min_val:
             min_val = val
             min_key = digit
-        if val == min_val and digit < min_key and digit != 0:
+        elif val == min_val and digit < min_key:
             min_key = digit
 
     if aantal_0 + 1 <= min_val:
