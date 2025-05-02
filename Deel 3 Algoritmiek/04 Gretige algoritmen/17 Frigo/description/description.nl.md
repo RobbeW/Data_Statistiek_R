@@ -2,7 +2,7 @@ De technologie die een frigo doet werken is sinds zijn uitvinding gelijkaardig g
 
 Wat niet gewijzigd is, is het gebruik van magneten op de frigodeur. Een eenvoudige, maar leerrijke manier, om een kind bezig te houden, is door die van een set magnetische cijfers te voorzien en te vragen om met deze cijfers te tellen, '1', '2', ..., tot '10', '11', enz... 
 
-![Foto door tap78 op FreeImages.](media/frige_magnet.jpg "Foto door tap78 op FreeImages."){:data-caption="Foto door tap78 op FreeImages." width="35%"}
+![Foto door tap78 op FreeImages.](media/fridge_magnet.jpg "Foto door tap78 op FreeImages."){:data-caption="Foto door tap78 op FreeImages." width="35%"}
 
 De mogelijkheden zijn schier eindeloos, of dat zouden ze zijn indien je van elk cijfer een oneindig aantal stuks krijgt. Gegeven een lijst met cijfers, wat is kleinste (strikt) positieve getal dat je hier niet mee kan vormen?
 
