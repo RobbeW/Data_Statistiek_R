@@ -25,6 +25,9 @@ Het eerste planetenstelsel wordt door één enkel schip verdedigd, het tweede pl
 3
 ```
 
+Met de beste strategie kan je hier drie planetenstelsels veroveren.
+
+
 {: .callout.callout-secondary}
 >#### Bron
 > Gebaseerd op *Planetaris*, Lokakeppni TÖL607G HÍ 2019 
