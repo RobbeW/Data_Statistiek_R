@@ -4,10 +4,10 @@ Wat niet gewijzigd is, is het gebruik van magneten op de frigodeur. Een eenvoudi
 
 ![Foto door tap78 op FreeImages.](media/fridge_magnet.jpg "Foto door tap78 op FreeImages."){:data-caption="Foto door tap78 op FreeImages." width="35%"}
 
-De mogelijkheden zijn schier eindeloos, of dat zouden ze zijn indien je van elk cijfer een oneindig aantal stuks krijgt. Gegeven een lijst met cijfers, wat is kleinste (strikt) positieve getal dat je hier niet mee kan vormen?
+De mogelijkheden zijn schier eindeloos, of dat zouden ze zijn indien je van elk cijfer een oneindig aantal stuks krijgt. Gegeven een lijst met cijfers, wat is kleinste (strikt) positieve getal dat je hier **niet** mee kan vormen?
 
 ## Gevraagd
-Programmeer een functie `frigo(cijfers)` die gegeven een lijst met cijfers, het kleinste (strikt) positieve getal retourneert dat je met deze cijfers niet meer kan vormen. Elk cijfer uit de lijst mag je hoogstens één keer gebruiken.
+Programmeer een functie `frigo(cijfers)` die gegeven een lijst met cijfers, het kleinste (strikt) positieve getal retourneert dat je met deze cijfers **niet** meer kan vormen. Elk cijfer uit de lijst mag je hoogstens één keer gebruiken.
 
 Bestudeer onderstaande voorbeelden grondig.
 
