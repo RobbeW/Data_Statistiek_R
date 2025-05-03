@@ -1,0 +1,337 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: beste_rangschikking([('Team Twijfel', 1), ('De Kwissers', 1), ('Team
+        Goed Gegokt', 1)])
+      return: 3
+  - testcases:
+    - expression: beste_rangschikking([('404 Team Not Found', 4), ('Ctrl+Alt+Win',
+        1), ('Syntax Terror', 2), ('Codebrekers', 3)])
+      return: 0
+  - testcases:
+    - expression: beste_rangschikking([('Slimme Koppen', 1), ('W1nn3rs', 2), ("Puntje
+        van m'n Tong", 2), ('Weetnix', 1), ('Breinstorm', 5), ('Vragenvuur', 7), ('Wie
+        Weet', 7)])
+      return: 5
+  - testcases:
+    - expression: beste_rangschikking([('Knikkende Neuronen', 3), ('Pauzevolk', 3),
+        ('Denkraam', 1), ('De Brossers', 1), ('Geen Idee Maar Wel Gezellig', 5), ('Goed
+        Gegokt', 2), ('Weetnix', 3)])
+      return: 10
+  - testcases:
+    - expression: beste_rangschikking([('Tussenin', 4), ('Watte?', 6), ('Knikkende
+        Neuronen', 10), ('De Waanzinnige Weetjes', 7), ('Domme Pech', 10), ('Wiskundig
+        Fout', 2), ('Foutloos', 7), ('Team Toch Nog Gelijk', 5), ('De Breinbrekers',
+        1), ('Huiswerkloos', 4), ('De Kwissers', 5)])
+      return: 7
+  - testcases:
+    - expression: beste_rangschikking([('Team Twijfel', 1), ('De Oplossers', 11),
+        ('De Herkansers', 1), ('Watte?', 10), ('Boekentasbende', 9), ('De Klaskanjers',
+        5), ('Slimme Koppen', 4), ('De Kwissers', 6), ("Puntje van m'n Tong", 13),
+        ('Team Toch Nog Gelijk', 12), ('Slimmeriken', 14), ('Tussendoortje', 4), ('Vragenvuur',
+        9), ('Wiskundig Fout', 4), ('Denkraam', 5), ('Pauzevolk', 1)])
+      return: 27
+  - testcases:
+    - expression: beste_rangschikking([('Krijtbordje', 15), ('De Leerkinderen', 27),
+        ('De Lettervreters', 24), ('Team Twijfel', 20), ('De Antwoordzoekers', 17),
+        ('De Afkijkers', 17), ('Denkraam', 22), ('Slimme Koppen', 4), ('Geen Idee
+        Maar Wel Gezellig', 20), ('De Strevers', 17), ('Dikke Punten', 14), ('Quizuur',
+        18), ('De Klasbakken', 3), ('Traag maar Zeker', 13), ('Bijna Goed', 21), ('Het
+        Raadselachtige Regiment', 16), ('Breinstorm', 24), ('Pauzevolk', 12), ('Kliktwel',
+        16), ('Geen Idee', 20), ('Weetnix', 20), ('Boekentasbende', 20), ('Wiskundig
+        Fout', 12), ('De Tafeldenkers', 26), ('Goed Gegokt', 2), ('Huiswerkloos',
+        16), ('De Denktanks', 2)])
+      return: 68
+  - testcases:
+    - expression: beste_rangschikking([('Watte?', 17), ('Domme Pech', 10), ('QuizMeNiet',
+        21), ('Breinstorm', 13), ('Opgelet!', 14), ('Tussenin', 3), ('Weetnietjes',
+        1), ('Knikkende Neuronen', 8), ("Puntje van m'n Tong", 14), ('Het Raadselachtige
+        Regiment', 6), ('Team Twijfel', 28), ('Quizuur', 28), ('Juist Ja', 1), ('De
+        Strevers', 7), ('Krijtbordje', 7), ('Team Toch Nog Gelijk', 5), ('De Leerkinderen',
+        28), ('De Klasbakken', 19), ('De Foute Antwoorders', 12), ('Handopstekers',
+        14), ('Weetnix', 26), ('Vragenvuur', 18), ('Eindtermers', 2), ('Team Toets',
+        5), ('Goed Gegokt', 23), ('Wiskundig Fout', 14), ('Geen Idee', 7), ('Tussendoortje',
+        21)])
+      return: 42
+  - testcases:
+    - expression: beste_rangschikking([('Foutloos', 29), ('De Wisselvalligen', 18),
+        ('Vragenvuur', 32), ('De Foute Antwoorders', 32), ('Tussendoortje', 32), ('Pauzevolk',
+        2), ('De Waanzinnige Weetjes', 14), ('Weetnix', 13), ('Huiswerkloos', 2),
+        ('De Leerkinderen', 10), ('De Kwissers', 19), ('Opgelet!', 5), ('QuizMeNiet',
+        25), ('Traag maar Zeker', 8), ('Team Zwijgplicht', 28), ('Geen Idee Maar Wel
+        Gezellig', 15), ('De Vraagtekenbende', 32), ('Team Toets', 5), ('De Denktanks',
+        15), ('Gokwerk', 22), ('Wiskundig Fout', 11), ('Quizuur', 32), ('Krijtbordje',
+        20), ('Het Raadselachtige Regiment', 7), ('De Strevers', 11), ('Geen Idee',
+        21), ('Van Horen Zeggen', 6), ('Toch Juist', 4), ('De Afkijkers', 6), ('De
+        Kansers', 24), ('Team Twijfel', 31), ('De Zoekers Zonder Google', 25)])
+      return: 38
+  - testcases:
+    - expression: beste_rangschikking([('Quizuur', 33), ('De Brossers', 21), ('Weetnietjes',
+        33), ('Boekentasbende', 2), ('Team Toch Nog Gelijk', 31), ('De Foute Antwoorders',
+        19), ('De Denktanks', 16), ('De Leerkinderen', 19), ('De Zoekers Zonder Google',
+        29), ('Geen Idee Maar Wel Gezellig', 28), ('QuizMeNiet', 3), ('De Klasbakken',
+        2), ('Denkraam', 26), ('Gokwerk', 31), ('Team Toets', 7), ('Bijna Goed', 17),
+        ('Vragenvuur', 3), ('De Vraagtekenbende', 23), ('Goed Gegokt', 2), ('Breinstorm',
+        8), ('De Waanzinnige Weetjes', 19), ('Knikkende Neuronen', 5), ('Huiswerkloos',
+        30), ('De Tafeldenkers', 18), ('De Kansers', 7), ('Wie Weet', 27), ('Quizt
+        het of Quizt het niet', 10), ('Juist Ja', 30), ('Watte?', 30), ('De Lettervreters',
+        26), ('Krijtbordje', 18), ('Geen Idee', 3), ('De Afkijkers', 5)])
+      return: 64
+  - testcases:
+    - expression: beste_rangschikking([('Opgelet!', 12), ('Weetnix', 6), ('De Antwoordzoekers',
+        12), ('Juist Ja', 24), ('De Waanzinnige Weetjes', 23), ('Watte?', 35), ('Domme
+        Pech', 31), ('Traag maar Zeker', 15), ('Breinstorm', 21), ('Team Zwijgplicht',
+        14), ('Team Twijfel', 26), ('Eindtermers', 3), ('De Brossers', 8), ('Team
+        Toets', 26), ('Quizt het of Quizt het niet', 6), ('Geen Idee Maar Wel Gezellig',
+        29), ('Bijna Goed', 16), ('Tussendoortje', 19), ('Het Raadselachtige Regiment',
+        15), ('De Oplossers', 31), ('De Wisselvalligen', 20), ('Goed Gegokt', 15),
+        ('De Strevers', 24), ('De Klasbakken', 34), ('De Kwissers', 19), ('Team Toch
+        Nog Gelijk', 20), ('De Leerkinderen', 6), ('De Afkijkers', 29), ('Slimme Koppen',
+        24), ('Tussenin', 36), ('De Kansers', 33), ('Denkraam', 3), ('Wie Weet', 22),
+        ('Huiswerkloos', 35), ('Wiskundig Fout', 8), ('QuizMeNiet', 6)])
+      return: 44
+  - testcases:
+    - expression: beste_rangschikking([('Pauzevolk', 13), ('Domme Pech', 6), ('Denkraam',
+        37), ('Het Raadselachtige Regiment', 14), ('De Tafeldenkers', 22), ('Gokwerk',
+        26), ('Quizuur', 35), ('Dikke Punten', 31), ('Tussenin', 28), ('Geen Idee
+        Maar Wel Gezellig', 3), ('Wiskundig Fout', 20), ('De Afkijkers', 19), ('Huiswerkloos',
+        27), ('De Breinbrekers', 26), ('Tussendoortje', 27), ('Knikkende Neuronen',
+        32), ('Juist Ja', 15), ('Quizt het of Quizt het niet', 38), ('Handopstekers',
+        24), ('De Brossers', 16), ('Toch Juist', 34), ('Slimme Koppen', 18), ('De
+        Strevers', 22), ('Geen Idee', 18), ('Krijtbordje', 14), ('De Oplossers', 2),
+        ('De Kwissers', 20), ('De Leerkinderen', 10), ('De Lettervreters', 11), ('De
+        Waanzinnige Weetjes', 32), ('Team Twijfel', 11), ('Foutloos', 9), ('De Antwoordzoekers',
+        19), ('De Klasbakken', 34), ('Bijna Goed', 27), ('De Kansers', 30), ('Van
+        Horen Zeggen', 1), ('Team Toch Nog Gelijk', 24)])
+      return: 64
+  - testcases:
+    - expression: beste_rangschikking([('Wiskundig Fout', 5), ('Domme Pech', 5), ('Tussenin',
+        12), ('Foutloos', 35), ('Gokwerk', 38), ('De Breinbrekers', 7), ('Weetnix',
+        8), ('De Herkansers', 21), ('De Waanzinnige Weetjes', 19), ('Van Horen Zeggen',
+        34), ('Tussendoortje', 12), ('Traag maar Zeker', 20), ('De Vraagtekenbende',
+        26), ('Team Toch Nog Gelijk', 35), ('Juist Ja', 31), ('Huiswerkloos', 38),
+        ('Handopstekers', 9), ('De Kansers', 14), ('De Leerkinderen', 29), ("Puntje
+        van m'n Tong", 19), ('Toch Juist', 19), ('De Wisselvalligen', 18), ('De Zoekers
+        Zonder Google', 30), ('Bijna Goed', 16), ('Dikke Punten', 24), ('De Foute
+        Antwoorders', 36), ('De Klaskanjers', 17), ('De Lettervreters', 40), ('De
+        Brossers', 12), ('Vragenvuur', 4), ('Team Twijfel', 5), ('Geen Idee Maar Wel
+        Gezellig', 28), ('De Oplossers', 12), ('De Afkijkers', 11), ('Pauzevolk',
+        11), ('Geen Idee', 23), ('Slimme Koppen', 11), ('Wie Weet', 10), ('Denkraam',
+        40), ('Slimmeriken', 7)])
+      return: 69
+  - testcases:
+    - expression: beste_rangschikking([('De Herkansers', 30), ('Opgelet!', 38), ('Vragenvuur',
+        23), ('Quizt het of Quizt het niet', 1), ('De Oplossers', 37), ('Team Twijfel',
+        19), ('De Tafeldenkers', 32), ('Pauzevolk', 1), ('Slimmeriken', 4), ('De Breinbrekers',
+        40), ('De Kansers', 15), ('Team Toets', 6), ('Gokwerk', 37), ('Handopstekers',
+        5), ('Huiswerkloos', 37), ('De Waanzinnige Weetjes', 2), ('De Lettervreters',
+        34), ('De Strevers', 20), ('De Afkijkers', 26), ('Eindtermers', 24), ('Tussenin',
+        23), ('Breinstorm', 18), ('Dikke Punten', 8), ('Quizuur', 6), ('Bijna Goed',
+        13), ('De Wisselvalligen', 35), ('Geen Idee Maar Wel Gezellig', 27), ('De
+        Antwoordzoekers', 20), ('Het Raadselachtige Regiment', 8), ('Team Toch Nog
+        Gelijk', 38), ('De Vraagtekenbende', 15), ('Boekentasbende', 23), ('De Brossers',
+        42), ('Tussendoortje', 6), ('Denkraam', 31), ('QuizMeNiet', 16), ('Kliktwel',
+        29), ('Goed Gegokt', 31), ('Wie Weet', 36), ('De Kwissers', 10), ('De Klaskanjers',
+        40), ('De Klasbakken', 4)])
+      return: 45
+  - testcases:
+    - expression: beste_rangschikking([('De Denktanks', 43), ('Handopstekers', 16),
+        ('Wie Weet', 12), ('QuizMeNiet', 26), ('Eindtermers', 29), ('Team Toets',
+        27), ('Krijtbordje', 16), ('De Strevers', 31), ('Wiskundig Fout', 31), ('Team
+        Toch Nog Gelijk', 29), ('Huiswerkloos', 28), ('De Oplossers', 19), ('Goed
+        Gegokt', 29), ('De Vraagtekenbende', 41), ('De Kwissers', 19), ('Bijna Goed',
+        42), ('Gokwerk', 15), ('De Foute Antwoorders', 37), ('De Leerkinderen', 25),
+        ('Weetnix', 13), ('De Wisselvalligen', 16), ('Slimme Koppen', 39), ('Team
+        Zwijgplicht', 18), ('Vragenvuur', 40), ('De Lettervreters', 34), ('Tussendoortje',
+        29), ('Kliktwel', 3), ('De Zoekers Zonder Google', 39), ('Tussenin', 19),
+        ('De Herkansers', 29), ('Team Twijfel', 20), ('Dikke Punten', 14), ('De Breinbrekers',
+        9), ('Foutloos', 21), ('Denkraam', 17), ('Quizuur', 43), ('Pauzevolk', 41),
+        ('Weetnietjes', 15), ('Domme Pech', 10), ('De Klaskanjers', 43), ('Knikkende
+        Neuronen', 25), ('Het Raadselachtige Regiment', 5), ('De Waanzinnige Weetjes',
+        14)])
+      return: 129
+  - testcases:
+    - expression: beste_rangschikking([('De Herkansers', 35), ('De Wisselvalligen',
+        23), ('Bijna Goed', 22), ('De Kwissers', 14), ('Wie Weet', 12), ('Knikkende
+        Neuronen', 22), ('Quizuur', 20), ('Huiswerkloos', 12), ('De Foute Antwoorders',
+        3), ('Kliktwel', 5), ('De Lettervreters', 35), ('De Kansers', 24), ('Quizt
+        het of Quizt het niet', 16), ('Opgelet!', 36), ('Juist Ja', 29), ('Traag maar
+        Zeker', 3), ('Het Raadselachtige Regiment', 41), ('De Denktanks', 15), ('Team
+        Zwijgplicht', 43), ('Handopstekers', 41), ('Tussenin', 15), ('De Breinbrekers',
+        37), ('De Klasbakken', 11), ('Foutloos', 36), ('Vragenvuur', 38), ('Van Horen
+        Zeggen', 2), ('Boekentasbende', 25), ('Dikke Punten', 43), ('Goed Gegokt',
+        42), ('Team Twijfel', 13), ('Slimme Koppen', 27), ('De Tafeldenkers', 38),
+        ('De Oplossers', 44), ('De Strevers', 18), ('De Afkijkers', 44), ('Weetnietjes',
+        33), ('De Brossers', 30), ('QuizMeNiet', 35), ('De Leerkinderen', 42), ('Gokwerk',
+        11), ('Denkraam', 38), ('De Vraagtekenbende', 3), ('Tussendoortje', 22), ('De
+        Zoekers Zonder Google', 43)])
+      return: 153
+  - testcases:
+    - expression: beste_rangschikking([('Juist Ja', 35), ('Van Horen Zeggen', 45),
+        ('De Foute Antwoorders', 20), ('Opgelet!', 40), ('Team Twijfel', 4), ('Gokwerk',
+        43), ('De Klasbakken', 5), ('Kliktwel', 6), ('Watte?', 7), ('Tussenin', 16),
+        ('De Wisselvalligen', 23), ('De Breinbrekers', 12), ('Bijna Goed', 2), ('De
+        Leerkinderen', 3), ('Weetnix', 6), ("Puntje van m'n Tong", 10), ('Breinstorm',
+        1), ('Eindtermers', 6), ('Denkraam', 3), ('Geen Idee Maar Wel Gezellig', 3),
+        ('Pauzevolk', 26), ('De Zoekers Zonder Google', 37), ('De Brossers', 43),
+        ('Team Toets', 7), ('Goed Gegokt', 6), ('Huiswerkloos', 7), ('De Kwissers',
+        36), ('Weetnietjes', 27), ('De Waanzinnige Weetjes', 10), ('Vragenvuur', 2),
+        ('De Herkansers', 13), ('Team Toch Nog Gelijk', 36), ('Het Raadselachtige
+        Regiment', 28), ('Dikke Punten', 30), ('Knikkende Neuronen', 40), ('Slimme
+        Koppen', 36), ('Handopstekers', 7), ('Domme Pech', 38), ('Tussendoortje',
+        19), ('De Oplossers', 18), ('De Afkijkers', 24), ('Wiskundig Fout', 9), ('De
+        Klaskanjers', 17), ('Foutloos', 18), ('De Vraagtekenbende', 2)])
+      return: 209
+  - testcases:
+    - expression: beste_rangschikking([('De Lettervreters', 17), ('De Kwissers', 33),
+        ('Handopstekers', 30), ('Juist Ja', 42), ('Weetnietjes', 22), ('Toch Juist',
+        47), ('Team Toch Nog Gelijk', 39), ('Pauzevolk', 21), ('Tussendoortje', 21),
+        ('Foutloos', 25), ('QuizMeNiet', 35), ('Tussenin', 35), ('Domme Pech', 45),
+        ('De Afkijkers', 47), ('Team Twijfel', 2), ('Weetnix', 37), ('De Waanzinnige
+        Weetjes', 19), ('De Oplossers', 17), ('Van Horen Zeggen', 1), ('Het Raadselachtige
+        Regiment', 20), ('De Vraagtekenbende', 37), ('De Leerkinderen', 23), ('De
+        Klasbakken', 47), ('Bijna Goed', 23), ('Quizuur', 10), ('Geen Idee', 34),
+        ('De Denktanks', 47), ('Gokwerk', 12), ('De Herkansers', 40), ('De Kansers',
+        17), ('Krijtbordje', 42), ('Boekentasbende', 17), ('De Antwoordzoekers', 10),
+        ('Team Zwijgplicht', 19), ('De Brossers', 43), ('Knikkende Neuronen', 8),
+        ('De Zoekers Zonder Google', 8), ('Vragenvuur', 7), ('Goed Gegokt', 34), ('De
+        Strevers', 41), ('Breinstorm', 39), ('Slimmeriken', 14), ('Eindtermers', 32),
+        ('Wiskundig Fout', 15), ('De Foute Antwoorders', 34), ('Quizt het of Quizt
+        het niet', 5), ('De Breinbrekers', 5)])
+      return: 92
+  - testcases:
+    - expression: beste_rangschikking([('Team Toch Nog Gelijk', 34), ('Juist Ja',
+        38), ('Kliktwel', 30), ('De Wisselvalligen', 48), ('De Brossers', 4), ('Geen
+        Idee Maar Wel Gezellig', 24), ('Eindtermers', 39), ('Tussenin', 15), ('Foutloos',
+        10), ('De Klaskanjers', 7), ('Team Zwijgplicht', 29), ('Quizuur', 10), ('De
+        Breinbrekers', 26), ('Opgelet!', 16), ('De Lettervreters', 46), ('Dikke Punten',
+        14), ('Knikkende Neuronen', 34), ('De Oplossers', 18), ('Traag maar Zeker',
+        43), ('Vragenvuur', 14), ('Quizt het of Quizt het niet', 5), ('Slimmeriken',
+        26), ('Boekentasbende', 15), ('QuizMeNiet', 40), ('Geen Idee', 30), ('Wie
+        Weet', 45), ('Team Twijfel', 3), ('Bijna Goed', 42), ('De Tafeldenkers', 21),
+        ('De Herkansers', 41), ('Team Toets', 26), ("Puntje van m'n Tong", 27), ('De
+        Klasbakken', 17), ('Van Horen Zeggen', 24), ('Breinstorm', 40), ('De Kwissers',
+        45), ('Weetnix', 17), ('Het Raadselachtige Regiment', 46), ('De Strevers',
+        20), ('De Denktanks', 47), ('De Waanzinnige Weetjes', 48), ('Watte?', 13),
+        ('De Kansers', 21), ('Tussendoortje', 28), ('De Leerkinderen', 8), ('Pauzevolk',
+        35), ('Goed Gegokt', 21), ('Denkraam', 7)])
+      return: 83
+  - testcases:
+    - expression: beste_rangschikking([('Vragenvuur', 23), ('De Kansers', 3), ('Traag
+        maar Zeker', 7), ('Quizt het of Quizt het niet', 1), ('De Herkansers', 21),
+        ('Kliktwel', 20), ('De Strevers', 32), ('Slimmeriken', 27), ('Krijtbordje',
+        48), ('De Foute Antwoorders', 46), ('Slimme Koppen', 34), ('Team Twijfel',
+        44), ('Tussendoortje', 22), ('Foutloos', 30), ('QuizMeNiet', 53), ('Wie Weet',
+        2), ('De Tafeldenkers', 55), ('De Wisselvalligen', 46), ('De Waanzinnige Weetjes',
+        10), ('De Oplossers', 21), ('Pauzevolk', 21), ('Juist Ja', 40), ('De Afkijkers',
+        5), ('Team Toch Nog Gelijk', 28), ('Toch Juist', 39), ('De Antwoordzoekers',
+        32), ('Breinstorm', 11), ('Bijna Goed', 4), ('Wiskundig Fout', 6), ('Denkraam',
+        55), ('Dikke Punten', 8), ('Eindtermers', 45), ('Gokwerk', 48), ('Opgelet!',
+        31), ("Puntje van m'n Tong", 1), ('De Breinbrekers', 40), ('De Vraagtekenbende',
+        13), ('De Denktanks', 48), ('Weetnix', 40), ('Knikkende Neuronen', 25), ('Weetnietjes',
+        23), ('Team Zwijgplicht', 25), ('Handopstekers', 13), ('De Klasbakken', 45),
+        ('Domme Pech', 8), ('De Leerkinderen', 41), ('Tussenin', 5), ('Geen Idee Maar
+        Wel Gezellig', 9), ('De Lettervreters', 36), ('De Kwissers', 41), ('Quizuur',
+        31), ('Het Raadselachtige Regiment', 16), ('De Brossers', 9), ('Boekentasbende',
+        4), ('Van Horen Zeggen', 49)])
+      return: 106
+  - testcases:
+    - expression: beste_rangschikking([('Gokwerk', 20), ('Team Toets', 37), ('De Denktanks',
+        49), ('Handopstekers', 37), ('De Herkansers', 37), ('Boekentasbende', 22),
+        ('De Klaskanjers', 45), ('Team Zwijgplicht', 51), ('Quizuur', 3), ('Watte?',
+        48), ('Goed Gegokt', 57), ('De Oplossers', 41), ('Denkraam', 7), ('De Strevers',
+        4), ('Knikkende Neuronen', 47), ('Traag maar Zeker', 36), ('De Tafeldenkers',
+        57), ('Breinstorm', 48), ('Quizt het of Quizt het niet', 21), ('Tussenin',
+        49), ('De Kwissers', 48), ('Huiswerkloos', 3), ('De Antwoordzoekers', 30),
+        ('Dikke Punten', 47), ('Team Twijfel', 28), ('De Afkijkers', 30), ('Van Horen
+        Zeggen', 55), ('Pauzevolk', 44), ('De Wisselvalligen', 15), ('QuizMeNiet',
+        15), ('Vragenvuur', 20), ('Toch Juist', 42), ('Weetnix', 7), ('Foutloos',
+        32), ('De Lettervreters', 34), ('Team Toch Nog Gelijk', 3), ('Bijna Goed',
+        11), ('De Zoekers Zonder Google', 25), ('De Klasbakken', 1), ('De Breinbrekers',
+        55), ('Wiskundig Fout', 16), ('Kliktwel', 57), ('Opgelet!', 49), ('Weetnietjes',
+        49), ("Puntje van m'n Tong", 48), ('De Foute Antwoorders', 42), ('Slimme Koppen',
+        1), ('Wie Weet', 32), ('De Leerkinderen', 20), ('De Kansers', 35), ('Geen
+        Idee Maar Wel Gezellig', 37), ('Geen Idee', 23), ('De Waanzinnige Weetjes',
+        36), ('Eindtermers', 43), ('Krijtbordje', 1), ('Het Raadselachtige Regiment',
+        4), ('Domme Pech', 34)])
+      return: 185
+  - testcases:
+    - expression: beste_rangschikking([('Krijtbordje', 8), ('Kliktwel', 50), ('Boekentasbende',
+        51), ('QuizMeNiet', 27), ('De Herkansers', 5), ('De Strevers', 57), ('Opgelet!',
+        15), ('De Lettervreters', 23), ('Weetnix', 53), ('Goed Gegokt', 26), ('De
+        Kwissers', 32), ('Dikke Punten', 28), ('Van Horen Zeggen', 52), ('Eindtermers',
+        57), ('Bijna Goed', 30), ('De Denktanks', 4), ('Traag maar Zeker', 30), ('De
+        Leerkinderen', 8), ('Juist Ja', 42), ('Wie Weet', 14), ("Puntje van m'n Tong",
+        3), ('Team Toets', 34), ('Denkraam', 38), ('De Antwoordzoekers', 50), ('Quizt
+        het of Quizt het niet', 48), ('Breinstorm', 27), ('De Tafeldenkers', 44),
+        ('De Wisselvalligen', 4), ('De Foute Antwoorders', 7), ('De Klasbakken', 6),
+        ('Foutloos', 2), ('Tussenin', 36), ('Watte?', 28), ('Domme Pech', 29), ('Geen
+        Idee', 57), ('Tussendoortje', 22), ('De Waanzinnige Weetjes', 30), ('Knikkende
+        Neuronen', 31), ('De Oplossers', 16), ('Slimmeriken', 26), ('Team Toch Nog
+        Gelijk', 42), ('Pauzevolk', 56), ('Handopstekers', 13), ('De Klaskanjers',
+        38), ('Gokwerk', 41), ('Huiswerkloos', 24), ('Quizuur', 12), ('De Brossers',
+        38), ('De Vraagtekenbende', 21), ('Wiskundig Fout', 10), ('Team Twijfel',
+        9), ('Het Raadselachtige Regiment', 38), ('De Breinbrekers', 8), ('Vragenvuur',
+        20), ('Geen Idee Maar Wel Gezellig', 57), ('Toch Juist', 37), ('De Afkijkers',
+        53)])
+      return: 76
+  - testcases:
+    - expression: beste_rangschikking([('Team Toets', 43), ('Krijtbordje', 11), ('De
+        Breinbrekers', 40), ('Watte?', 12), ('De Klasbakken', 54), ('De Kwissers',
+        5), ('De Zoekers Zonder Google', 25), ('De Waanzinnige Weetjes', 43), ('Quizuur',
+        5), ('De Wisselvalligen', 29), ('Gokwerk', 6), ('Quizt het of Quizt het niet',
+        28), ('De Denktanks', 7), ('De Lettervreters', 20), ('Team Twijfel', 13),
+        ('Breinstorm', 49), ('De Brossers', 25), ('Tussendoortje', 16), ('Wiskundig
+        Fout', 41), ('Domme Pech', 14), ('Denkraam', 6), ('Eindtermers', 22), ('Traag
+        maar Zeker', 34), ('Het Raadselachtige Regiment', 26), ('De Kansers', 5),
+        ('Vragenvuur', 23), ('De Foute Antwoorders', 23), ("Puntje van m'n Tong",
+        15), ('Weetnix', 10), ('De Oplossers', 32), ('Knikkende Neuronen', 48), ('Toch
+        Juist', 38), ('Slimme Koppen', 8), ('Pauzevolk', 44), ('Slimmeriken', 57),
+        ('De Tafeldenkers', 5), ('Team Toch Nog Gelijk', 5), ('Van Horen Zeggen',
+        34), ('Huiswerkloos', 56), ('De Vraagtekenbende', 22), ('Boekentasbende',
+        32), ('QuizMeNiet', 45), ('De Klaskanjers', 14), ('De Strevers', 6), ('Juist
+        Ja', 24), ('Foutloos', 21), ('Geen Idee', 44), ('Bijna Goed', 51), ('Wie Weet',
+        3), ('Opgelet!', 25), ('Handopstekers', 18), ('Goed Gegokt', 51), ('Weetnietjes',
+        39), ('Geen Idee Maar Wel Gezellig', 28), ('Kliktwel', 48), ('Team Zwijgplicht',
+        10), ('Tussenin', 48)])
+      return: 163
+  - testcases:
+    - expression: beste_rangschikking([('Bijna Goed', 11), ('Handopstekers', 38),
+        ('De Kwissers', 2), ('Eindtermers', 45), ('Dikke Punten', 2), ('De Leerkinderen',
+        36), ('QuizMeNiet', 12), ('Team Toets', 6), ('Boekentasbende', 31), ('Denkraam',
+        51), ('De Foute Antwoorders', 13), ('De Tafeldenkers', 27), ('Foutloos', 15),
+        ('Watte?', 49), ('Knikkende Neuronen', 20), ('Juist Ja', 42), ('Team Twijfel',
+        3), ('Het Raadselachtige Regiment', 58), ('De Kansers', 46), ('Vragenvuur',
+        2), ('Weetnietjes', 6), ('De Wisselvalligen', 14), ('Huiswerkloos', 13), ('De
+        Waanzinnige Weetjes', 36), ('Team Toch Nog Gelijk', 41), ('De Herkansers',
+        46), ('Domme Pech', 55), ('Wiskundig Fout', 17), ('Breinstorm', 18), ('Slimme
+        Koppen', 53), ('Kliktwel', 23), ('Quizt het of Quizt het niet', 7), ('Quizuur',
+        44), ('De Oplossers', 29), ('De Breinbrekers', 7), ('De Afkijkers', 24), ('Tussenin',
+        4), ('Pauzevolk', 37), ('Geen Idee Maar Wel Gezellig', 37), ('Opgelet!', 6),
+        ('Wie Weet', 45), ('Goed Gegokt', 11), ('Team Zwijgplicht', 3), ('De Denktanks',
+        55), ('Tussendoortje', 39), ('Slimmeriken', 5), ('De Klasbakken', 6), ('Van
+        Horen Zeggen', 54), ('De Vraagtekenbende', 23), ('Gokwerk', 23), ("Puntje
+        van m'n Tong", 9), ('Krijtbordje', 9), ('Weetnix', 54), ('De Zoekers Zonder
+        Google', 17), ('De Klaskanjers', 31), ('De Strevers', 28), ('Geen Idee', 49),
+        ('De Antwoordzoekers', 16)])
+      return: 210
+  - testcases:
+    - expression: beste_rangschikking([('De Kansers', 39), ('Quizuur', 20), ('Huiswerkloos',
+        22), ('Juist Ja', 39), ('De Tafeldenkers', 43), ('Weetnix', 8), ('Krijtbordje',
+        3), ('De Zoekers Zonder Google', 15), ('Gokwerk', 23), ('De Oplossers', 19),
+        ('Slimmeriken', 35), ('De Waanzinnige Weetjes', 8), ('De Klasbakken', 27),
+        ('Breinstorm', 25), ('De Afkijkers', 44), ('Toch Juist', 22), ('Tussenin',
+        40), ('De Foute Antwoorders', 54), ('Team Twijfel', 19), ('Quizt het of Quizt
+        het niet', 58), ('Weetnietjes', 49), ('De Leerkinderen', 41), ('De Antwoordzoekers',
+        57), ('Dikke Punten', 26), ('De Denktanks', 49), ('Slimme Koppen', 59), ('Kliktwel',
+        49), ('Bijna Goed', 36), ('De Herkansers', 10), ('Van Horen Zeggen', 54),
+        ('De Lettervreters', 43), ('Watte?', 33), ('Geen Idee Maar Wel Gezellig',
+        23), ('Foutloos', 53), ('Knikkende Neuronen', 39), ('De Wisselvalligen', 13),
+        ('Goed Gegokt', 46), ('Traag maar Zeker', 13), ('De Vraagtekenbende', 20),
+        ('Wiskundig Fout', 4), ('De Kwissers', 22), ('Domme Pech', 33), ('QuizMeNiet',
+        50), ('Team Zwijgplicht', 36), ('Het Raadselachtige Regiment', 18), ('De Breinbrekers',
+        44), ('De Brossers', 21), ('Tussendoortje', 9), ('Eindtermers', 49), ('De
+        Klaskanjers', 54), ('Denkraam', 9), ('Vragenvuur', 4), ("Puntje van m'n Tong",
+        14), ('Pauzevolk', 11), ('Boekentasbende', 40), ('Geen Idee', 46), ('Opgelet!',
+        51), ('Handopstekers', 30), ('Team Toch Nog Gelijk', 44)])
+      return: 109
