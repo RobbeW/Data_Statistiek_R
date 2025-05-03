@@ -32,14 +32,14 @@ Hier was maar één klant en het duurt 12 tijdseenheden voordat de zaagopdrachte
 11.0
 ```
 
-Denk zelf na in welke volgorde knutselsmurf dit kan aanpakken...
+Denk zelf na in welke volgorde Knutselsmurf dit kan aanpakken...
 
 ```python
 >>> gemiddelde_wachttijd([[5], [6, 5], [5, 5, 5]])
 17.333333
 ```
 
-Denk zelf na in welke volgorde knutselsmurf dit kan aanpakken...
+Denk zelf na in welke volgorde Knutselsmurf dit kan aanpakken...
 
 {: .callout.callout-secondary}
 >#### Bron
