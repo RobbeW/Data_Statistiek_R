@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Vallende appels 🍏"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "2D lijsten"
+  ],
+  "access": "public"
+}
