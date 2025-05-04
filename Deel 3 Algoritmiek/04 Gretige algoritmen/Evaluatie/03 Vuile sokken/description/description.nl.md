@@ -29,7 +29,7 @@ Elke kleur (`0`, `1` en `2`) moet hier apart, vandaar er 3 machines nodig zijn.
 2
 ```
 
-Je kan hier bijvoorbeeld de kleuren `0`, `0` en `1` in de eerste wasmachine steken en `1` en `2` in de tweede wasmachine.
+Je kan hier bijvoorbeeld de kleuren `0`, `1` en `0` in de eerste wasmachine steken en `2` en `1` in de tweede wasmachine.
 
 {: .callout.callout-secondary}
 >#### Bron
