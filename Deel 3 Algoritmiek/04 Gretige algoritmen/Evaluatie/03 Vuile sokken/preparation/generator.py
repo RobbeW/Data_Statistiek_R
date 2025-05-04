@@ -101,12 +101,12 @@ def fix_notes(notes):
 
 # generate test data
 ntests = 20
-cases = [(3, 0, [0, 0, 1, 1, 2]),
-         (3, 1, [0, 0, 1, 1, 2])
+cases = [(3, 0, [0, 2, 1, 1, 0]),
+         (3, 1, [0, 2, 1, 1, 0])
          ]
 
 while len(cases) < ntests:
-    e = random.randint(0,3)
+    e = random.randint(0,2)
     n = random.randint(10**e, 10**(e+1))
     
     sokken = []
@@ -119,8 +119,7 @@ while len(cases) < ntests:
     e = random.randint(0,5)
     v = random.randint(0, 10**(e+1))
     
-    e = random.randint(0,3)
-    n = random.randint(10**e, 10**(e+1))
+    n = random.randint(1, 100)
     
                 
     case = (n, v, sokken)
@@ -154,6 +153,9 @@ for i in range(len(cases)):
 
         print(stdout)
         print(result)
+        
+        #testing testcase
+        print(len(test[2]), len(test[2]) / test[0])
         # setup for return expressions
         testcase = {"expression": expression_name,
                     #"description": description,
