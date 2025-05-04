@@ -4,7 +4,8 @@ Hij wil dit voorkomen door verschillende kleuren aparte te wassen. Omdat hij ech
 
 ![Foto door Nick Page op Unsplash.](media/nick-page.jpg "Foto door Nick Page op Unsplash."){:data-caption="Foto door Nick Page op Unsplash." width="35%"}
 
-Lukas geeft elk van zijn sokken een bepaalde kleurcode $$\mathsf{k_i}$$ tussen 0 en 10⁹, na wat experimenteren vond hij dat hij sokken samen kan wassen indien het maximale absolute kleurverschil kleiner is dan een bepaald getal $$\mathsf{v}$$. Het kleurverschil tussen twee sokken i en j kan je uitdrukken via $$\mathsf{|d_i - d_j|}$$.
+Lukas geeft elk van zijn sokken een bepaalde kleurcode $$\mathsf{k_i}$$ tussen 0 en 10⁹, na wat experimenteren vond hij dat hij sokken samen kan wassen indien het maximale absolute kleurverschil kleiner is dan een bepaald getal $$\mathsf{v}$$. Het kleurverschil tussen twee sokken i en j kan je uitdrukken via 
+$$\mathsf{\mid k_i - k_j\mid}$$.
 
 Lukas wil weten hoeveel wasmachines hij minimaal nodig heeft, indien elke machine hoogstens `n` sokken kan wassen.
 
