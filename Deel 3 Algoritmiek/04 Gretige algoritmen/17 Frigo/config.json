@@ -7,8 +7,7 @@
   },
   "evaluation": {
     "handler": "TESTed",
-    "test_suite": "tests.yaml",
-    "time_limit": 120
+    "test_suite": "tests.yaml"
   },
   "labels": [
     "for-lus",

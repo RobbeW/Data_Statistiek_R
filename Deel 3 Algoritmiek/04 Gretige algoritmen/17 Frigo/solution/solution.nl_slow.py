@@ -1,4 +1,4 @@
-# This solution is too slow...
+# This solution is slooooow...
 
 def frigo(cijfers):
     dict = {}
@@ -21,9 +21,7 @@ def frigo(cijfers):
     
         for digit, value in new_dict.items():
             if digit not in dict or dict[digit] < value:
-                not_possible = True
+                return i
 
-        if not_possible:
-            return i
         i += 1
     
