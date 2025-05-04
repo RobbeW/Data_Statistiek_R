@@ -10,7 +10,6 @@ def frigo(cijfers):
     
     i = 1
     while True:
-        not_possible = False
         num = list(map(int, str(i)))
         new_dict = {}
         for digit in num:
