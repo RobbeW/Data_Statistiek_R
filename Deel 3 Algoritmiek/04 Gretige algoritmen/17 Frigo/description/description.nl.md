@@ -28,6 +28,12 @@ Bestudeer onderstaande voorbeelden grondig.
 11
 ```
 
+{: .callout.callout-info}
+>#### Tip
+> Gebruik een dictionary...
+
+
+
 {: .callout.callout-secondary}
 >#### Bron
 > United Kingdom and Ireland Programming Contest 2016
