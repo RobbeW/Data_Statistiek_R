@@ -15,7 +15,7 @@ Bestudeer onderstaande voorbeelden grondig.
 
 ```python
 >>> saboteur([2, 1, 1, 2, 3, 2], 3)
-[5, 3, 3]
+[5, 4, 2]
 ```
 
 ```python
