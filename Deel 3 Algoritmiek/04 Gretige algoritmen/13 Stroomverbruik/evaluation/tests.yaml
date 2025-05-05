@@ -13,7 +13,7 @@
     - expression: maximale_stroom([(28, 10), (7, 6), (5, 7)])
       return: 280
   - testcases:
-    - expression: maximale_stroom([(10, 6), (3, 3), (4, 1), (1, 4)])
+    - expression: maximale_stroom([(10, 6), (4, 1), (3, 3), (1, 4)])
       return: 60
   - testcases:
     - expression: maximale_stroom([(7, 14), (4, 9), (2, 13), (1, 11)])

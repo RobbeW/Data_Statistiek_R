@@ -25,7 +25,7 @@ Als er één toestel van rang 7, van rang 5 en rang 3 is, dan kan je door de eer
 In dit geval is er één toestel van rang 9, twee toestellen van rang 5 en één toestel van rang 3. Door de twee toestellen van rang 5 en het toestel van rang 9 aan te schakelen gebruikt men stroomsterkte van 15. 
 
 ```python
->>> maximale_stroom([(10, 6), (3, 3), (4, 1), (1, 4)])
+>>> maximale_stroom([(10, 6), (4, 1), (3, 3), (1, 4)])
 60
 ```
 
