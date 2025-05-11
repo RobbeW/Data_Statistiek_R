@@ -25,7 +25,7 @@ Er zijn verschillende mogelijkheden om deze lijst te verdelen:
 >>> lijst_verdelen([6, 2, 6, 5, 1, 2])
 9
 ```
-Je kan de lijst immers als volgt verdelen: `(1, 2)`, `(2, 5)` en `(6, 6)`. Dan is de som van alle minima gelijk aan `9`.
+Zoek zelf de beste verdeling van de lijst in koppels zodat de som van alle minima gelijk is aan `9`.
 
 
 {: .callout.callout-info}
