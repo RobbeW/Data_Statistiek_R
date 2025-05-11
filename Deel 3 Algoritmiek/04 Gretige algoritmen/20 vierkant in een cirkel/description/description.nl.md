@@ -1,6 +1,6 @@
 Een aannemer bouwt graag huizen, hij bouwt die zo graag dat er al een aantal prefab huizen in de werkplaats werden opgebouwd.
 
-Onlangs kon hij een aantal cirkelvormen stukken grond aankopen, de lokale overheid nam het besluit dat er slechts één enkel huis op elk stuk grond gebouwd mag worden en dat het huis de grens van het stuk grond niet mag raken.
+Onlangs kon hij een aantal cirkelvormige stukken grond aankopen. De lokale overheid nam het besluit dat er slechts één enkel huis op elk stuk grond gebouwd mag worden en dat het huis de grens van het stuk grond niet mag raken.
 
 Als de aannemer een aantal cirkelvormige en een aantal vierkante woningen heeft, kan je dan bepalen hoeveel stukken grond bebouwd kunnen worden de investering maximaal rendeert?
 
