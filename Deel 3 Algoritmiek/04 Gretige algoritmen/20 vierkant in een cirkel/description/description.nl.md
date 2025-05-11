@@ -1,10 +1,8 @@
-Een aannemer bouw graag huizen, hij bouwt die zo graag dat er al een aantal prefab huizen in de werkplaats werden opgebouwd.
+Een aannemer bouwt graag huizen, hij bouwt die zo graag dat er al een aantal prefab huizen in de werkplaats werden opgebouwd.
 
 Onlangs kon hij een aantal cirkelvormen stukken grond aankopen, de lokale overheid nam het besluit dat er slechts één enkel huis op elk stuk grond gebouwd mag worden en dat het huis de grens van het stuk grond niet mag raken.
 
 Als de aannemer een aantal cirkelvormige en een aantal vierkante woningen heeft, kan je dan bepalen hoeveel stukken grond bebouwd kunnen worden de investering maximaal rendeert?
-
-![Square peg in a round hole.](media/peg.gif "Square peg in a round hole."){:data-caption="Square peg in a round hole." width="240px"}
 
 ## Gevraagd
 Programmeer een functie `maximale_bebouwing(gronden, huizen_cirkel, huizen_vierkant)` de gegeven een lijst met stralen van de cirkelvormige stukken grond, een lijst met stralen van de cirkelvormige huizen en een lijst met de zijden van de vierkantvormige huizen het maximale aantal stukken grond die bebouwd kunnen worden retourneert.
