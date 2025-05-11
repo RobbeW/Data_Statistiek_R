@@ -7,13 +7,18 @@ Als de aannemer een aantal cirkelvormige en een aantal vierkante woningen heeft,
 ## Gevraagd
 Programmeer een functie `maximale_bebouwing(gronden, huizen_cirkel, huizen_vierkant)` de gegeven een lijst met stralen van de cirkelvormige stukken grond, een lijst met stralen van de cirkelvormige huizen en een lijst met de zijden van de vierkantvormige huizen het maximale aantal stukken grond die bebouwd kunnen worden retourneert.
 
-Bestudeer onderstaand voorbeeld grondig.
+Bestudeer onderstaande voorbeelden grondig.
 
-#### Voorbeeld
+#### Voorbeelden
 
 ```python
 >>> maximale_bebouwing([1, 2, 6, 7, 8], [2, 6, 7], [4, 8, 9])
 3
+```
+
+```python
+>>> maximale_bebouwing([1, 2], [4, 5, 3], [4, 6, 3])
+0
 ```
 
 {: .callout.callout-secondary}
