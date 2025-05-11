@@ -102,7 +102,10 @@ def fix_notes(notes):
 
 # generate test data
 ntests = 25
-cases = [([1, 2, 6, 7, 8], [2, 6, 7], [4, 8, 9])]
+cases = [([1, 2, 6, 7, 8], [2, 6, 7], [4, 8, 9]),
+         ([1, 2], [2], [2]),
+         ([1, 2], [4, 5, 3], [4, 6, 3]),
+         ([4, 4], [2], [2])]
 
 while len(cases) < ntests:
     N, M, K = [random.randint(1,100) for _ in range(3)]
