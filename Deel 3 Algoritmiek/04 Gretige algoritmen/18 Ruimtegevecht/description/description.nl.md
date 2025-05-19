@@ -2,7 +2,7 @@ Bij het spelen van een computerspel over ruimtegevechten slaag je erin het verde
 
 ![Afbeelding door robokoboto op Alpha Coders.](media/14919.gif "Afbeelding door robokoboto op Alpha Coders."){:data-caption="Afbeelding door robokoboto op Alpha Coders." width="400px"}
 
-In de beginfase van het spel zijn alle ruimteschepen evenwaardig. Het doel van het spel is verschillende planetenstelsels te gaan veroveren. Als je meer ruimteschepen dan je tegenstander stuurt, dan is het planetenstelsel van jou. Stuur je er evenveel dan is er geen winnaar en stuur je er minder dan je tegenstander dan verlies het planetenstelsel.
+In de beginfase van het spel zijn alle ruimteschepen evenwaardig. Het doel van het spel is verschillende planetenstelsels te gaan veroveren. Als je meer ruimteschepen dan je tegenstander stuurt, dan is het planetenstelsel van jou. Stuur je er evenveel dan is er geen winnaar en stuur je er minder dan je tegenstander dan verlies je het planetenstelsel.
 
 ## Gevraagd
 Programmeer een functie `ruimte(schepen, plan)` die gegeven, `schepen`, het aantal ruimteschepen waarover je bezit en het verdedigingsplan, `plan`, van je tegenstander het **grootste aantal** planetenstelsel dat je kan winnen retourneert.

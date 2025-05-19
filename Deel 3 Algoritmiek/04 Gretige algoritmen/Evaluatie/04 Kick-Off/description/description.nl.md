@@ -7,7 +7,7 @@ Gelukkig zijn de organisatoren zeer precies en ze voorzien alle omwonenden van d
 Elke taak die Bruno uitvoert moet vervolledigt worden binnen een stil interval, hij kan een taak dus niet pauzeren als er muziek begint te spelen. Bruno wil ook wat ontspannen en pauzeert na elke taak om te genieten van het volgende muzikale intermezzo. Hij werkt dus **maximaal één taak** af per interval.
 
 ## Gevraagd
-Programmeer een functie `maximale_taken(studiewerk, stiltetijden)` die gegeven een lijst met de tijden die Bruno nodig heeft voor zijn `studiewerk` en een lijst met de lengtes van de intervallen `stiltetijden` waarbij er **geen muziek** speelt, zoek dan naar het maximale aantal taken dat Bruno kan afwerken.
+Programmeer een functie `maximale_taken(studiewerk, stiltetijden)` die gegeven een lijst met de tijden die Bruno nodig heeft voor zijn `studiewerk` en een lijst met de lengtes van de intervallen `stiltetijden` waarbij er **geen muziek** speelt op zoek gaat naar het maximale aantal taken dat Bruno kan afwerken.
 
 Bestudeer onderstaande voorbeelden grondig.
 

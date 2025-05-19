@@ -18,7 +18,7 @@ Bestudeer onderstaande voorbeelden grondig.
 8.5
 ```
 
-Het duurt in het beste geval gemiddelde 8,5 tijdseenheden voordat de opdrachten van de beide smurfen werd afgewerkt.
+Knutselsmurf zou bijvoorbeeld eerst de eerste opdracht kunnen verzagen, wat 5 tijdseenheden kost. Nadien begint hij aan de tweede opdracht die na 12 tijdseenheden sinds het begin afgewerkt is. De gemiddelde wachttijd per klant is dus 8,5 (17 / 2) tijdseenheden.
 
 ```python
 >>> gemiddelde_wachttijd([[7, 5]])
