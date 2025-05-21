@@ -39,6 +39,11 @@ Denk zelf na in welke volgorde Knutselsmurf dit kan aanpakken...
 17.333333
 ```
 
+```python
+>>> gemiddelde_wachttijd([[5, 5, 5], [6, 5], [5]])
+17.333333
+```
+
 Denk zelf na in welke volgorde Knutselsmurf dit kan aanpakken...
 
 {: .callout.callout-secondary}

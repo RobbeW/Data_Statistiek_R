@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Bloemen planten"
+    }
+  },
+  "evaluation": {
+    "handler": "TESTed",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "for-lus",
+    "begrensde herhaling",
+    "greedy",
+    "functies",
+    "lijsten",
+    "evaluatie"
+  ],
+  "access": "public"
+}
