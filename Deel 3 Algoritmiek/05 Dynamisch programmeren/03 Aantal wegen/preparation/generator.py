@@ -106,7 +106,7 @@ def generate_grid(rows, cols):
 
 
 # generate test data
-ntests = 20
+ntests = 25
 cases = [[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
           [1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1], 
           [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
@@ -126,8 +126,8 @@ cases = [[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 ]
 
 while len(cases) < ntests:
-    nrows = random.randint(3,15)
-    ncols = random.randint(3,15)
+    nrows = random.randint(3,25)
+    ncols = random.randint(3,25)
     
     mat = generate_grid(nrows, ncols)
     if mat not in cases:
