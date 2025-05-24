@@ -1,6 +1,6 @@
 Gegeven is een rooster waarbij je van het aantal wegen in een rooster moet tellen van linksboven naar rechtsonder. Je mag hierbij enkel naar rechts en naar onder bewegen. De grijze blokjes stellen obstakels voor.
 
-Sommige vakjes zijn mogelijks onbereikbaar indien een robot van linksboven naar rechtsonder beweegt. Hoeveel van deze vakjes zijn onbereikbaar?
+Sommige vakjes zijn mogelijks onbereikbaar indien een robot volgens deze regels beweegt. Hoeveel van deze vakjes zijn onbereikbaar?
 
 ![Er zijn 2 vakjes onbereikbaar.](media/image.png "Er zijn 2 vakjes onbereikbaar."){:data-caption="Er zijn 2 vakjes onbereikbaar." .light-only width="40%"}
 
