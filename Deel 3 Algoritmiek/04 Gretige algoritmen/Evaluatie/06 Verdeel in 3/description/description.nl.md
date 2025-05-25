@@ -2,9 +2,9 @@ Gegeven een lijst van gehele getallen, kan je deze dan in 3 partities onderverde
 
 Hieronder zie je zo'n lijst waar dit mogelijk is. De drie gebieden hebben namelijk telkens eenzelfde som.
 
-![Verdeel in 3 partities.](media/image.png "Verdeel in 3 partities."){:data-caption="Verdeel in 3 partities." .light-only height="35px"}
+![Verdeel in 3 partities.](media/image.png "Verdeel in 3 partities."){:data-caption="Verdeel in 3 partities." .light-only height="45px"}
 
-![Verdeel in 3 partities.](media/image_dark.png "Verdeel in 3 partities."){:data-caption="Verdeel in 3 partities." .dark-only height="200px"}
+![Verdeel in 3 partities.](media/image_dark.png "Verdeel in 3 partities."){:data-caption="Verdeel in 3 partities." .dark-only height="45px"}
 
 ## Gevraagd
 Programmeer een functie `partitie(lijst)` die gegeven een lijst nagaat of deze te verdelen valt in drie partities met eenzelfde som. Je mag de getallen uit de lijst **niet** verplaatsen en de partities moeten aansluitend zijn. Je retourneert `True` indien het lukt en `False` indien het niet lukt.
