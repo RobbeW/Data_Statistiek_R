@@ -40,7 +40,7 @@ def aantal_via(rooster, co):
         rij = []
         for c in range(C, len(rooster[0])):
             rij.append(rooster[r][c])
-        tweede.append(rooster)
+        tweede.append(rij)
 
     eerste_aantal = aantal_wegen(eerste)
     tweede_aantal = aantal_wegen(tweede)
