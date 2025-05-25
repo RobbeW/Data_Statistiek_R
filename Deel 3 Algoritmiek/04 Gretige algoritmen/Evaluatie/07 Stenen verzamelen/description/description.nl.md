@@ -30,4 +30,4 @@ Plaats bijvoorbeeld:
 3
 ```
 
-Hier kan je 8 stenen in de eerste tas plaatsen en daanrna 2 stenen in de laatste tas. Daarna zitten alle tassen vol en blijven er zelfs nog stenen over. (die niet allemaal gebruikt zijn.)
+Hier kan je 8 stenen in de eerste tas plaatsen en daarna 2 stenen in de laatste tas. Daarna zitten alle tassen vol en blijven er zelfs nog stenen over. (die niet allemaal gebruikt zijn.)
