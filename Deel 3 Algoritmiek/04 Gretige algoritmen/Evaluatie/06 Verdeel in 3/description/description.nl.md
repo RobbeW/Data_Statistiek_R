@@ -1,6 +1,4 @@
-Gegeven een lijst van gehele getallen, kan je deze dan in 3 partities onderverdelen zodat de som van elke partitie aan elkaar gelijk is?
-
-Hieronder zie je zo'n lijst waar dit mogelijk is. De drie gebieden hebben namelijk telkens eenzelfde som.
+Gegeven een lijst van gehele getallen, kan je deze dan in 3 partities onderverdelen zodat de som van elke partitie aan elkaar gelijk is Hieronder zie je zo'n lijst waar dit mogelijk is. De drie gebieden hebben namelijk telkens eenzelfde som.
 
 ![Verdeel in 3 partities.](media/image.png "Verdeel in 3 partities."){:data-caption="Verdeel in 3 partities." .light-only height="45px"}
 
