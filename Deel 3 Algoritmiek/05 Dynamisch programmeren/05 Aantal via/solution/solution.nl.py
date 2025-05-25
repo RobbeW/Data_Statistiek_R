@@ -29,9 +29,9 @@ def aantal_via(rooster, co):
     
     R, C = co
     eerste = []
-    for r in range(R):
+    for r in range(R + 1):
         rij = []
-        for c in range(C):
+        for c in range(C + 1):
             rij.append(rooster[r][c])
         eerste.append(rij)
     
