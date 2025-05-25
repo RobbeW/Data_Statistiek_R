@@ -1,4 +1,4 @@
-Rajshahi is één van de oudste steden in Bangladesh. Het land is gekend voor de mango export. De mango's uit Rajshahi zijn wereldberoemd omwille van hun unieke en lekkere smaak. Er groeit ook een veelheid aan verschillende soorten mango's en de lokale inwoners eten wel drie maal daags deze fruitsoort.
+Rajshahi (রাজশাহী) is één van de oudste steden in Bangladesh. Het land is gekend voor de mango export. De mango's uit Rajshahi zijn wereldberoemd omwille van hun unieke en lekkere smaak. Er groeit ook een veelheid aan verschillende soorten mango's en de lokale inwoners eten wel drie maal daags deze fruitsoort.
 
 ![Foto door Desirae Hayes-Vitor op Unsplash.](media/desirae-hayes-vitor.jpg "Foto door Desirae Hayes-Vitor op Unsplash."){:data-caption="Foto door Desirae Hayes-Vitor op Unsplash." width="40%"}
 
