@@ -27,9 +27,15 @@ Schrijf een functie `aantal_via(rooster, coordinaat)` die gegeven een rooster en
                 [1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1], 
                 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
                 [1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1],
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]])
-9
+                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], (2,3))
+3
 ```
+
+{: .callout.callout-info}
+>#### Tip
+> Bereken het aantal wegen van A naar X en van X naar B... (Gebruik hierbij de functie `aantal_wegen()` uit een vorige oefening)
+> Nadien is het antwoord gemakkelijk te bepalen.
+
 
 {: .callout.callout-secondary}
 >#### Bron
