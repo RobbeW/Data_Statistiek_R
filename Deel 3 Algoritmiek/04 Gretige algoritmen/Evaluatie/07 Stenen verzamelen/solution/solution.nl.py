@@ -9,7 +9,7 @@ def maximale_tassen(capaciteit, stenen, extra):
     
     i = 0
     aantal_vol = 0
-    while i < n and extra > 0:
+    while i < n and extra >= 0:
         if verschil[i] == 0:
             aantal_vol += 1
         elif verschil[i] <= extra: # we kunnen de tas opvullen met stenen

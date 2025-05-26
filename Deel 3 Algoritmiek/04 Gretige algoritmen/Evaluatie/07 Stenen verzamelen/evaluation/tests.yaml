@@ -2,7 +2,7 @@
   contexts:
   - testcases:
     - expression: maximale_tassen([6], [6], 0)
-      return: 0
+      return: 1
   - testcases:
     - expression: maximale_tassen([7, 70], [7, 5], 76)
       return: 2
