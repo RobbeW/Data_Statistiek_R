@@ -35,7 +35,7 @@ Schrijf een functie `aantal_via(rooster, coordinaat)` die gegeven een rooster en
 >#### Tips
 > * Kopieer de functie `aantal_wegen()` uit de vorige oefening.
 > * Bereken het aantal wegen van A naar X en van X naar B... 
-> Maak dus twee aparte roosters, `linksboven`: van linksboven tot en met X, `rechtsboven` van X tot en met rechtsonder en gebruik dan `aantal_wegen(linksboven)` en  `aantal_wegen(rechtsonder)`.> 
+> Maak dus twee aparte roosters, `linksboven` (van linksboven tot en met X), `rechtsboven` (van X tot en met rechtsonder) en gebruik dan `aantal_wegen(linksboven)` en  `aantal_wegen(rechtsonder)`.
 >
 > * Nadien is het antwoord gemakkelijk te bepalen.
 
