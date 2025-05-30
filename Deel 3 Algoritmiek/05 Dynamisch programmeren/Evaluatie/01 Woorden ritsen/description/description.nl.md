@@ -2,9 +2,9 @@ Gegeven zijn twee aparte woorden en een doelwoord. Er wordt gevraagd naar het **
 
 Hieronder zie je hoe het woord `"ballast"` gevormd kan worden uit de woorden `"bas"` en `"llat"`.
 
-![Woorden ritsen.](media/image.png "Woorden ritsen."){:data-caption="Woorden ritsen." .light-only height="72px"}
+![Woorden ritsen.](media/image.png "Woorden ritsen."){:data-caption="Woorden ritsen." .light-only height="120px"}
 
-![Woorden ritsen.](media/image_dark.png "Woorden ritsen."){:data-caption="Woorden ritsen." .dark-only height="72px"}
+![Woorden ritsen.](media/image_dark.png "Woorden ritsen."){:data-caption="Woorden ritsen." .dark-only height="120px"}
 
 Het is hierbij **niet toegestaan** om de volgorde van de letters in de aparte woorden te wijzigen.
 
