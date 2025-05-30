@@ -97,12 +97,13 @@ cases = [[[1, 0, 1, 0, 0],
          ]
 
 while len(cases) < ntests:
-    nrows = random.randint(3,25)
-    ncols = random.randint(3,25)
+    nrows = random.randint(3,30)
+    ncols = random.randint(3,30)
     
+    choices = [0,1]
     case = []
     for r in range(nrows):
-        row = [random.randint(0, 1) for _ in range(ncols)]
+        row = list(random.choices(choices, weights=(1,6), k=ncols))
         case.append(row)
     
     if case not in cases:
