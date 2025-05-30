@@ -1,0 +1,8 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: woorden_ritsen("bas", "llat", "ballast")
+      return: 0
+  - testcases:
+    - expression: woorden_ritsen("bsa", "llat", "ballast")
+      return: 0
