@@ -108,19 +108,69 @@ def generate_grid(rows, cols):
     
     return (grid, tuple(co))
 
+woorden = [
+    "schaap",
+    "roomboter",
+    "aangelegd",
+    "troosteloos",
+    "onmiddellijk",
+    "spannend",
+    "aannemen",
+    "stroomversnelling",
+    "glimmend",
+    "droomwereld",
+    "aangenaam",
+    "loopbaan",
+    "voorraad",
+    "toegankelijk",
+    "officieel",
+    "druppelen",
+    "onbevangen",
+    "binnenkort",
+    "spookachtig",
+    "tussenstand",
+    "doorstroming",
+    "vriendschappelijk"
+]
+
 
 # generate test data
 ntests = 2
 cases = [("bas", "llat", "ballast"),
-         ("bsa", "llat", "ballast")]
+         ("bsa", "llat", "ballast"),
+         ("aab", "aac", "aaabac")]
 
-while len(cases) < ntests:
-    nrows = random.randint(3,25)
-    ncols = random.randint(3,25)
+for woord in woorden:
+    woord1 = []
+    woord2 = []
     
-    case = generate_grid(nrows, ncols)
-    if case not in cases:
-        cases.append(case)
+    for letter in woord:
+        if random.randint(0,1) == 0:
+            woord1.append(letter)
+        else:
+            woord2.append(letter)
+    
+    flag = random.randint(0,2)
+    if  flag == 0:
+        # flip in woord 1
+        i, j = [random.randint(0, len(woord1) - 1) for _ in range(2)]
+        temp = woord1[i]
+        woord1[i] = woord1[j]
+        woord1[j] = temp
+    elif flag == 1:
+        # flip in woord 1
+        i, j = [random.randint(0, len(woord2) - 1) for _ in range(2)]
+        temp = woord1[i]
+        woord2[i] = woord2[j]
+        woord2[j] = temp
+    
+    woord1_txt = "".join(woord1)
+    woord2_txt = "".join(woord2)
+    
+    if len(woord1_txt) > 0 and len(woord2_txt) > 0:
+        case = (woord1_txt, woord2_txt, woord)
+        if case not in cases:
+            cases.append(case)
 
 cases = sorted(cases, key=lambda x: len(x[2]))
 
