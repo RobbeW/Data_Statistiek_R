@@ -18,5 +18,9 @@
     "evaluatie",
     "knapsack"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "_INx4gxtiUzJ7-wGuC9VkgD4GYX58v4jxf_BT749KRkuMCpC2FThxJkWaz2rPqbx",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
