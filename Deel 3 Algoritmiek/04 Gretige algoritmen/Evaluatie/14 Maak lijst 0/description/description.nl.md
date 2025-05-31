@@ -24,4 +24,4 @@ Bestudeer onderstaande voorbeelden grondig.
 0
 ```
 
-Elke element is namelijk al gelijk aan `0`.
+Elk element is namelijk al gelijk aan `0`.
