@@ -1,4 +1,4 @@
-Stel dat je een lijst met verschillende getallen van `0` tot `n` krijgt. Dan kan je die lijst omzetten naar een opeenvolging van 👍️ en 👎️. Indien twee opeenvolgende getallen stijgen, vervang deze door 👍️. En anders, vervang ze door 👎️.
+Stel dat je een lijst met **verschillende** getallen van `0` tot `n` krijgt. Dan kan je die lijst omzetten naar een opeenvolging van 👍️ en 👎️. Indien twee opeenvolgende getallen **stijgen**, vervang deze door 👍️. En anders **dalen** ze en vervang je ze door 👎️.
 
 Zo kan je `[0, 4, 1, 3, 2]` vervangen door `["👍️", "👎️", "👍️", "👎️"]`. Immers van `0` naar `4` is stijgend, van `4` naar `1` is dalend, enz..
 
