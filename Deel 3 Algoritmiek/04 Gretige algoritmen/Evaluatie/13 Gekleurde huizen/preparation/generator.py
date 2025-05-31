@@ -113,12 +113,15 @@ while len(cases) < ntests:
     n = random.randint(10**e, 10**(e+1))
     n = max(n, 2)
    
-    case = [random.randint(1,10)]
+    colors = random.sample(range(1,15), k = max(n // 66, 3) )
+    
+    print(colors)
+    case = [random.choice(colors)]
     for _ in range(n - 1):
         if random.randint(0,1) == 0:
             new = case[-1]
         else:
-            new = random.randint(1,10)
+            new = random.choice(colors)
         case.append(new)
     
     if min(case) == max(case):
