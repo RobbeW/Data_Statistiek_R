@@ -1,6 +1,6 @@
 Een stapeling van blokken met zijde 1 kan in een rooster weergegeven worden. Elke waarde in het rooster stelt hierbij een toren, opgebouwd uit evenveel blokjes voor.
 
-Zo zie je dat dit rooster nevenstaande stapeling voorstelt.
+Zo stelt dit rooster nevenstaande stapeling voor.
 
 ![Een blokkentoren.](media/image1.png "Een blokkentoren."){:data-caption=Een blokkentoren." .light-only height="200px"}
 
@@ -9,7 +9,7 @@ Zo zie je dat dit rooster nevenstaande stapeling voorstelt.
 Als de blokken aan elkaar worden gelijmd, wat is dan de totale oppervlakte van de zichtbare vlakken? Het grondvlak telt hierbij mee.
 
 ## Gevraagd
-Schrijf een functie `oppervlakte(blokken)` die gegeven een rooster met hoogtes van de verschillende torens, de totale oppervlakte van de constructie bepaalt.
+Schrijf een functie `oppervlakte(blokken)` die gegeven een rooster met hoogtes van de verschillende torens, de totale oppervlakte van de zichtbare vlakken bepaalt.
 
 Bestudeer grondig onderstaande voorbeelden.
 
