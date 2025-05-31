@@ -92,10 +92,10 @@ def homothetie(mat, k):
 
 
 # generate test data
-ntests = 20
+ntests = 25
 cases = []
 
-for n in range(20):
+for n in range(ntests):
     r = random.randint(1, 7)
     lijst = [ i for i in range(r*r)]
     lijst = random.sample(lijst, k = r*r)
@@ -111,7 +111,7 @@ for n in range(20):
             rij.append(el)
         mat.append(rij)
     
-    k = random.randint(1, 26 // r)
+    k = random.randint(1, 27 // r)
     
     nieuw = homothetie(mat, k)
         
