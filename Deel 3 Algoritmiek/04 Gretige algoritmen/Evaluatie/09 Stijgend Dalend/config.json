@@ -1,0 +1,22 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Stijgen 👍️ of dalen 👎️"
+    }
+  },
+  "evaluation": {
+    "handler": "TESTed",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "for-lus",
+    "begrensde herhaling",
+    "greedy",
+    "functies",
+    "lijsten",
+    "twee pointers",
+    "evaluatie"
+  ],
+  "access": "public"
+}
