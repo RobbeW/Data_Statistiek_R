@@ -38,7 +38,7 @@
       return: 8
   - testcases:
     - expression: maximale_afstand([4, 4, 4, 4, 4, 11, 4, 4, 11, 4, 4, 4])
-      return: 6
+      return: 8
   - testcases:
     - expression: maximale_afstand([5, 5, 2, 2, 2, 2, 7, 7, 5, 10, 10, 4, 8, 8, 10,
         10])
