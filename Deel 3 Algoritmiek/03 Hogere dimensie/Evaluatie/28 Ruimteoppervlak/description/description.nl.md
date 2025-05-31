@@ -31,6 +31,6 @@ Bestudeer grondig onderstaande voorbeelden.
 
 Dit stelt deze constructie voor:
 
-![Een blokkentoren.](media/image2.png "Een blokkentoren."){:data-caption=Een blokkentoren." .light-only height="200px"}
+![Een blokkentoren.](media/image2.png "Een blokkentoren."){:data-caption=Een blokkentoren." .light-only height="150px"}
 
-![Een blokkentoren.](media/image2_dark.png "Een blokkentoren."){:data-caption=Een blokkentoren." .dark-only height="200px"}
+![Een blokkentoren.](media/image2_dark.png "Een blokkentoren."){:data-caption=Een blokkentoren." .dark-only height="150px"}
