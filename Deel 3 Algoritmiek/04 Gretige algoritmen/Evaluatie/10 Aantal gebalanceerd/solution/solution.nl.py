@@ -1,5 +1,4 @@
 def maximale_gebalanceerd(lijst):
-    n = len(lijst)
     aantal_L = 0
     aantal_R = 0
     result = 0

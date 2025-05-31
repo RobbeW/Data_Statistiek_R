@@ -2,7 +2,7 @@ We noemen een lijst gebalanceerd indien deze evenveel keer `"L"` als `"R"` bevat
 
 ## Gevraagd
 
-Programmeer nu een functie `maximale_gebalanceerd(lijst)` die gegeven een lijst met `"L"` en `"R"` op zoek gaat naar het **maximale aantal deellijsten** die ook gebalanceerd zijn. De deellijsten vormen een opsplitings van de oorspronkelijke lijst, mag de elementen dus niet van plaats veranderen.
+Programmeer een functie `maximale_gebalanceerd(lijst)` die gegeven een lijst met `"L"` en `"R"` op zoek gaat naar het **maximale aantal deellijsten** die ook gebalanceerd zijn. De deellijsten vormen een opsplitings van de oorspronkelijke lijst, mag de elementen dus niet van plaats veranderen.
 
 Bestudeer onderstaande voorbeelden grondig.
 
