@@ -96,7 +96,7 @@ ntests = 25
 cases = []
 
 for n in range(ntests):
-    r = random.randint(1, 7)
+    r = random.randint(1, 6)
     lijst = [ i for i in range(r*r)]
     lijst = random.sample(lijst, k = r*r)
 
