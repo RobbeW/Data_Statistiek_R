@@ -19,9 +19,9 @@ Bestudeer onderstaande voorbeelden grondig.
 3
 ```
 
-![Een lijst met 7 huizen.](media/image1.png "Een lijst met 7 huizen."){:data-caption="Een lijst met 7 huizen." .light-only height="45px"}
+![Een lijst met 7 huizen.](media/image1.png "Een lijst met 7 huizen."){:data-caption="Een lijst met 7 huizen." .light-only height="55px"}
 
-![Een lijst met 7 huizen.](media/image1_dark.png "Een lijst met 7 huizen."){:data-caption="Een lijst met 7 huizen." .dark-only height="45px"}
+![Een lijst met 7 huizen.](media/image1_dark.png "Een lijst met 7 huizen."){:data-caption="Een lijst met 7 huizen." .dark-only height="55px"}
 
 Bovenstaande lijst kan je beschouwen als een lijst met zeven huizen waarvan de middelste een andere kleur heeft. De afstand tussen het eerste huis, met index `0`, en het huis op index `3` bedraagt 3. Je zou ook de afstand tussen het laatste huis, met index `6` en het middelste huis, met index `3` kunnen beschouwen.
 
@@ -33,9 +33,9 @@ Bovenstaande lijst kan je beschouwen als een lijst met zeven huizen waarvan de m
 4
 ```
 
-![Een lijst met 5 huizen.](media/image2.png "Een lijst met 5 huizen."){:data-caption="Een lijst met 5 huizen." .light-only height="45px"}
+![Een lijst met 5 huizen.](media/image2.png "Een lijst met 5 huizen."){:data-caption="Een lijst met 5 huizen." .light-only height="55px"}
 
-![Een lijst met 5 huizen.](media/image2_dark.png "Een lijst met 5 huizen."){:data-caption="Een lijst met 5 huizen." .dark-only height="45px"}
+![Een lijst met 5 huizen.](media/image2_dark.png "Een lijst met 5 huizen."){:data-caption="Een lijst met 5 huizen." .dark-only height="55px"}
 
 Het huis op index `0` en het huis op index `4` zijn van een verschillende kleur en de afstand tussen deze bedraagt 4.
 
