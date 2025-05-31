@@ -96,7 +96,7 @@ ntests = 20
 cases = []
 
 for n in range(20):
-    r = random.randint(1, 6)
+    r = random.randint(1, 7)
     lijst = [ i for i in range(r*r)]
     lijst = random.sample(lijst, k = r*r)
 
@@ -111,7 +111,7 @@ for n in range(20):
             rij.append(el)
         mat.append(rij)
     
-    k = random.randint(1, 20 // r)
+    k = random.randint(1, 26 // r)
     
     nieuw = homothetie(mat, k)
         
