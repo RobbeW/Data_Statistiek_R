@@ -13,10 +13,24 @@ Schrijf een functie `oppervlakte(blokken)` die gegeven een rooster met hoogtes v
 
 Bestudeer grondig onderstaande voorbeelden.
 
-#### Voorbeeld
+#### Voorbeelden
 
 ```python
 >>> oppervlakte([[3, 4],
                  [1, 2]])
 34
 ```
+
+
+```python
+>>> oppervlakte([[1, 1, 1],
+                 [1, 0, 1],
+                 [1, 1, 1]])
+32
+```
+
+Dit stelt deze constructie voor:
+
+![Een blokkentoren.](media/image2.png "Een blokkentoren."){:data-caption=Een blokkentoren." .light-only height="200px"}
+
+![Een blokkentoren.](media/image2_dark.png "Een blokkentoren."){:data-caption=Een blokkentoren." .dark-only height="200px"}
