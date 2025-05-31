@@ -138,7 +138,10 @@ woorden = [
 ntests = 2
 cases = [("bas", "llat", "ballast"),
          ("bsa", "llat", "ballast"),
-         ("aab", "aac", "aaabac")]
+         ("aab", "aac", "aaabac"),
+         ("aanna", "geam", "aangenaam"),
+         ("aaaabb", "aabbaa", "aaaabbaaaabb"),
+         ("vora", "orad", "voorraad")]
 
 for woord in woorden:
     woord1 = []
@@ -150,7 +153,7 @@ for woord in woorden:
         else:
             woord2.append(letter)
     
-    flag = random.randint(0,2)
+    flag = random.randint(0,4)
     if  flag == 0:
         # flip in woord 1
         i, j = [random.randint(0, len(woord1) - 1) for _ in range(2)]

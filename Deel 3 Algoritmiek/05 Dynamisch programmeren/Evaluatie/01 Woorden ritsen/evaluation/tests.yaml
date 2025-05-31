@@ -4,7 +4,7 @@
     - expression: woorden_ritsen("aab", "aac", "aaabac")
       return: 3
   - testcases:
-    - expression: woorden_ritsen("acsp", "ha", "schaap")
+    - expression: woorden_ritsen("scap", "ch", "schaap")
       return: 0
   - testcases:
     - expression: woorden_ritsen("bas", "llat", "ballast")
@@ -13,65 +13,65 @@
     - expression: woorden_ritsen("bsa", "llat", "ballast")
       return: 0
   - testcases:
-    - expression: woorden_ritsen("aed", "spnnn", "spannend")
-      return: 1
+    - expression: woorden_ritsen("vora", "orad", "voorraad")
+      return: 8
   - testcases:
-    - expression: woorden_ritsen("aenn", "anme", "aannemen")
+    - expression: woorden_ritsen("nn", "spaned", "spannend")
+      return: 2
+  - testcases:
+    - expression: woorden_ritsen("anme", "nnea", "aannemen")
       return: 0
   - testcases:
-    - expression: woorden_ritsen("limd", "gmed", "glimmend")
-      return: 0
+    - expression: woorden_ritsen("m", "glimend", "glimmend")
+      return: 2
   - testcases:
-    - expression: woorden_ritsen("oobaa", "lpn", "loopbaan")
+    - expression: woorden_ritsen("loobaa", "pn", "loopbaan")
       return: 1
   - testcases:
-    - expression: woorden_ritsen("voorad", "ra", "voorraad")
+    - expression: woorden_ritsen("voad", "orra", "voorraad")
       return: 4
   - testcases:
-    - expression: woorden_ritsen("omoer", "boot", "roomboter")
-      return: 0
-  - testcases:
-    - expression: woorden_ritsen("aledg", "ange", "aangelegd")
-      return: 0
-  - testcases:
-    - expression: woorden_ritsen("geam", "aanna", "aangenaam")
+    - expression: woorden_ritsen("aanna", "geam", "aangenaam")
       return: 2
   - testcases:
-    - expression: woorden_ritsen("oficie", "eol", "officieel")
+    - expression: woorden_ritsen("omoer", "robt", "roomboter")
+      return: 2
+  - testcases:
+    - expression: woorden_ritsen("angd", "anele", "aangelegd")
       return: 0
   - testcases:
-    - expression: woorden_ritsen("uppl", "dpeen", "druppelen")
+    - expression: woorden_ritsen("aaenam", "nga", "aangenaam")
+      return: 2
+  - testcases:
+    - expression: woorden_ritsen("ppln", "nrude", "druppelen")
       return: 0
   - testcases:
-    - expression: woorden_ritsen("nevnge", "vbon", "onbevangen")
+    - expression: woorden_ritsen("onann", "bevge", "onbevangen")
+      return: 1
+  - testcases:
+    - expression: woorden_ritsen("binnnor", "nke", "binnenkort")
       return: 0
   - testcases:
-    - expression: woorden_ritsen("bnnrok", "inet", "binnenkort")
-      return: 0
-  - testcases:
-    - expression: woorden_ritsen("rotelo", "tosos", "troosteloos")
+    - expression: woorden_ritsen("oselos", "troto", "troosteloos")
       return: 4
   - testcases:
-    - expression: woorden_ritsen("merd", "droowel", "droomwereld")
-      return: 1
-  - testcases:
-    - expression: woorden_ritsen("spokachtg", "po", "spookachtig")
-      return: 0
-  - testcases:
-    - expression: woorden_ritsen("ussenstan", "du", "tussenstand")
-      return: 0
-  - testcases:
-    - expression: woorden_ritsen("nmde", "oidllijk", "onmiddellijk")
+    - expression: woorden_ritsen("omwe", "droerld", "droomwereld")
       return: 2
   - testcases:
-    - expression: woorden_ritsen("eaeij", "tognklk", "toegankelijk")
+    - expression: woorden_ritsen("spooatg", "kchi", "spookachtig")
       return: 1
   - testcases:
-    - expression: woorden_ritsen("ori", "dostromng", "doorstroming")
-      return: 2
-  - testcases:
-    - expression: woorden_ritsen("smesnellin", "troovrg", "stroomversnelling")
+    - expression: woorden_ritsen("tusset", "nsand", "tussenstand")
       return: 1
   - testcases:
-    - expression: woorden_ritsen("vrindahspk", "ecpelij", "vriendschappelijk")
+    - expression: woorden_ritsen("aaaabb", "aabbaa", "aaaabbaaaabb")
+      return: 36
+  - testcases:
+    - expression: woorden_ritsen("onidel", "mdlijk", "onmiddellijk")
+      return: 4
+  - testcases:
+    - expression: woorden_ritsen("ogakeijk", "tenl", "toegankelijk")
+      return: 1
+  - testcases:
+    - expression: woorden_ritsen("dnoog", "orstrmi", "doorstroming")
       return: 0
