@@ -21,7 +21,7 @@ def V(rooster):
     for r in range(m):
         rij = []
         for c in range(n):
-            new_r = (r + n - c) % m
+            new_r = (r + m - c) % m
             el = rooster[new_r][c]
             rij.append(el)
         new.append(rij)
