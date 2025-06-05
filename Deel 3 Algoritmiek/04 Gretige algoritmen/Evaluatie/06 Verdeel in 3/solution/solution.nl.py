@@ -1,4 +1,4 @@
-def partitie(lijst):
+def deellijst(lijst):
     if sum(lijst) % 3 != 0:
         return False
     
