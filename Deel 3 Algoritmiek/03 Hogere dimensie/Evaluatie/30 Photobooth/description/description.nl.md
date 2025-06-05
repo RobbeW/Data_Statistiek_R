@@ -4,9 +4,9 @@ Deze filter zal een afbeelding splitsen in 4 identieke maar kleinere afbeeldinge
 
 Hieronder zie je het proces werkt bij een 8 × 8 afbeelding. De pixel `D` op positie `[1][1]` wordt verplaatst naar positie `[4][4]`.
 
-![De Photobooth filter.](media/image.png "De Photobooth filter."){:data-caption=De Photobooth filter." .light-only height="200px"}
+![De Photobooth filter.](media/image.png "De Photobooth filter."){:data-caption=De Photobooth filter." .light-only height="230px"}
 
-![De Photobooth filter.](media/image_dark.png "De Photobooth filter."){:data-caption=De Photobooth filter." .dark-only height="200px"}
+![De Photobooth filter.](media/image_dark.png "De Photobooth filter."){:data-caption=De Photobooth filter." .dark-only height="230px"}
 
 De nieuwe posities van elke pixel worden berekend op de volgende manier:
 
