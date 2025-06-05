@@ -26,7 +26,7 @@
 			%right delimiter=),
 			column sep=1pt,
 			row sep=1pt,
-			nodes={draw=black!10}, % Uncoment to see the square nodes.
+			nodes={draw=black!20}, % Uncoment to see the square nodes.
 			nodes in empty cells,
 		},
 		DA/.style={
@@ -70,16 +70,14 @@
 			\null & \null &  \null&  \null&  \null& \null &\null & \null \\
 		};
 		
-		\draw[main] (3.89,0) --++ (4.22,0);
-		
-		\draw[main] (6,2.11) --++ (0,-4.22);
+		\draw[main, black!20] (3.89,0) --++ (4.22,0) (6,2.11) --++ (0,-4.22);
 		
 		\begin{scope}[on background layer] 
 			%To delimit internal area groups
-			\node[DA,PineGreen!50,fit=(M-1-1)(M-4-4)](subM-1){};
-			\node[DA,RoyalPurple!50,fit=(M-1-5)(M-4-8)](subM-2){};
-			\node[DA,CornflowerBlue!50,fit=(M-5-1)(M-8-4)](subM-3){};
-			\node[DA,BrickRed!50,fit=(M-5-5)(M-8-8)](subM-4){};
+			%\node[DA,PineGreen!50,fit=(M-1-1)(M-4-4)](subM-1){};
+			%\node[DA,RoyalPurple!50,fit=(M-1-5)(M-4-8)](subM-2){};
+			%\node[DA,CornflowerBlue!50,fit=(M-5-1)(M-8-4)](subM-3){};
+			%\node[DA,BrickRed!50,fit=(M-5-5)(M-8-8)](subM-4){};
 			
 			\draw[main, -stealth] (2.7,0) --++ (0.6,0);
 			
