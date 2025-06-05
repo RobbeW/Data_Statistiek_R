@@ -1,11 +1,12 @@
-Misschien heb je ooit al eens de *Photobooth* filter gebruikt op je smartphone. Deze filter zal een afbeeldingen splitsen in 4 identieke maar kleinere afbeeldingen.
-De afbeelding wordt hierbij opgesplitst in 2 × 2 vierkanten. De pixels van deze vierkanten worden vervolgens op nieuwe locaties gezet in de 4 kleinere afbeeldingen.
+Heb je ooit al de **Photobooth filter** gebruikt op je smartphone? 
+
+Deze filter zal een afbeelding splitsen in 4 identieke maar kleinere afbeeldingen. Hierbij wordt de afbeelding opgesplitst in 2 × 2 vierkanten. De pixels van deze vierkanten worden vervolgens op nieuwe locaties gezet in de 4 kleinere afbeeldingen.
 
 Hieronder zie je het proces werkt bij een 8 × 8 afbeelding. De pixel `D` op positie `[1][1]` wordt verplaatst naar positie `[4][4]`.
 
-![De Photobooth filter.](media/image.png "De Photobooth filter."){:data-caption=De Photobooth filter." .light-only width="35%"}
+![De Photobooth filter.](media/image.png "De Photobooth filter."){:data-caption=De Photobooth filter." .light-only height="200px"}
 
-![De Photobooth filter.](media/image_dark.png "De Photobooth filter."){:data-caption=De Photobooth filter." .dark-only width="35%"}
+![De Photobooth filter.](media/image_dark.png "De Photobooth filter."){:data-caption=De Photobooth filter." .dark-only height="200px"}
 
 De nieuwe posities van elke pixel worden berekend op de volgende manier:
 
@@ -16,7 +17,7 @@ De nieuwe posities van elke pixel worden berekend op de volgende manier:
 
 Hierbij stelt `n` de lengte (en breedte) van de vierkante afbeeldingen voor. Indien je deze filter meerdere keren na elkaar toepast wordt deze eerst meer en meer wazig, maar na een aantal keer wordt dit terug de originele afbeelding!
 
-![De Photobooth filter in actie.](media/judith_anim.png "De Photobooth filter in actie."){:data-caption=De Photobooth filter in actie."  width="150px"}
+![De Photobooth filter in actie.](media/judith_anim.png "De Photobooth filter in actie."){:data-caption=De Photobooth filter in actie."  width="200px"}
 
 ## Gevraagd
 
