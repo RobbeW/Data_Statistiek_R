@@ -5,7 +5,7 @@ def zoek_lijst(stijgend_dalend):
     j = n
     
     for k in range(n):
-        if stijgend_dalend[k] == "👍️":
+        if stijgend_dalend[k] == "👍":
             result.append(i)
             i += 1
         else:
