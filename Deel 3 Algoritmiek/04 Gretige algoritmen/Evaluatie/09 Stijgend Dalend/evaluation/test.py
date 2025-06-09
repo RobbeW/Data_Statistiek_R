@@ -1,15 +1,16 @@
 from evaluation_utils import EvaluationResult, ConvertedOracleContext, Message
 
-def make_di_str(list):
-    txt = ""
-    for i in range(len(list)-1):
-        if list[i] < list[i+1]:
-            txt += "I"
-        else:
-            txt += "D"
-    return txt
 
 def check_function(context: ConvertedOracleContext) -> EvaluationResult:
+    def make_di_str(list):
+        txt = ""
+        for i in range(len(list)-1):
+            if list[i] < list[i+1]:
+                txt += "I"
+            else:
+                txt += "D"
+        return txt
+    
     # expected as defined in the value field of the test suite
     # actual as given by running the file
     if isinstance(context.actual, list) and isinstance(context.expected, list):
