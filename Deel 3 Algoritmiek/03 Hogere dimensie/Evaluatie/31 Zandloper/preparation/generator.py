@@ -89,7 +89,7 @@ cases = [[[ 1, 2, 3],
 
 while len(cases) < ntests:
     R = random.randint(3, 35)
-    K = random.randint(3, 30)
+    K = random.randint(3, 29)
     
     mat = []
     for r in range(R):
