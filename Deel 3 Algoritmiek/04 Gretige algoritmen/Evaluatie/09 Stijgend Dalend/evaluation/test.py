@@ -24,8 +24,6 @@ def check_function(context: ConvertedOracleContext) -> EvaluationResult:
     else:
         value = False
 
-    value = True
-
     obj = EvaluationResult(
         result = value,
         readable_actual = str(context.actual),
