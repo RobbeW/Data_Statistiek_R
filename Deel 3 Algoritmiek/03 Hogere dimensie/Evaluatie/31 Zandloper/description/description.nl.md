@@ -1,14 +1,14 @@
 Men definieert een zandlopervorm in een rooster als volgt:
 
-![Zandlopervorm in een 3 × 3 matrix.](media/image.png "Zandlopervorm in een 3 × 3 matrix."){:data-caption=Zandlopervorm in een 3 × 3 matrix." .light-only height="150px"}
+![Zandlopervorm in een 3 × 3 matrix.](media/image.png "Zandlopervorm in een 3 × 3 matrix."){:data-caption=Zandlopervorm in een 3 × 3 matrix." .light-only height="130px"}
 
-![Zandlopervorm in een 3 × 3 matrix.](media/image_dark.png "Zandlopervorm in een 3 × 3 matrix."){:data-caption=Zandlopervorm in een 3 × 3 matrix." .dark-only height="150px"}
+![Zandlopervorm in een 3 × 3 matrix.](media/image_dark.png "Zandlopervorm in een 3 × 3 matrix."){:data-caption=Zandlopervorm in een 3 × 3 matrix." .dark-only height="130px"}
 
 Gegeven een m × n rooster, zoek dan de zandlopervorm met de grootste som.
 
 ## Gevraagd
 
-Schrijf een functie `zandloper(rooster)` dat gegeven een m × n de grootste som van alle zandlopervormen bepaalt.
+Schrijf een functie `zandloper(rooster)` dat gegeven een m × n de grootste som van alle zandlopervormen bepaalt. Dit rooster bevat minimaal 3 rijen en 3 kolommen.
 
 Bestudeer grondig onderstaande voorbeelden.
 
@@ -30,4 +30,5 @@ Dit rooster bevat immers maar één zandlopervorm, met als som 1 + 2 + 3 + 5 + 7
                [ 4, 1, 2, 9]])
 30
 ```
+De zandlopervorm met de grootste som is 6 + 2 + 1 + 2 + 9 + 2 + 8.
 
