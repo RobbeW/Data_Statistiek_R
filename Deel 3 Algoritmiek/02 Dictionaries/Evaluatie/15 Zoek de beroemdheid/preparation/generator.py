@@ -48,7 +48,7 @@ while len(cases) < ntests:
     flag = random.randint(0, 2) == 0
     lijst = []
     
-    celeb = random.randint(1, n + 1)
+    celeb = random.randint(1, n)
     for i in range(1, n + 1):
         if i != celeb:
             templijst = []
