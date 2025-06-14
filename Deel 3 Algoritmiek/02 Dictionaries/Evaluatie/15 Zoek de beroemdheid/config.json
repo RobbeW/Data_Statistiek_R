@@ -1,0 +1,17 @@
+{
+  "description": {
+    "names": {
+      "nl": "Paparazzi"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "dict",
+    "evaluatie",
+    "lijsten"
+  ],
+  "access": "public"
+}
