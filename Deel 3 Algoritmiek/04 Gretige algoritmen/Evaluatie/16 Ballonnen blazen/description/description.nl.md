@@ -30,7 +30,7 @@ In dit geval zijn er 6 kannen (en dus ook 6 ballonnen). Als je elke ballon zovee
 
 ```python
 >>> ballon([2, 2])
-knal!
+"knal!"
 ```
 
 De ballon met capaciteit van 1 dℓ zal je moeten opvullen met een kan die 2 dℓ helium bevat. Dat zal leiden tot een luide `"knal!"`.
