@@ -1,0 +1,19 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Ballonnen opblazen 🎈"
+    }
+  },
+  "evaluation": {
+    "handler": "TESTed",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "greedy",
+    "functies",
+    "lijsten",
+    "evaluatie"
+  ],
+  "access": "public"
+}
