@@ -42,3 +42,7 @@ De ballon met capaciteit van 1 dℓ zal je moeten opvullen met een kan die 2 d�
 ```
 
 De vijf ballonnen wil je opvullen, maar sowieso zal één ballon leeg blijven...
+
+{: .callout.callout-secondary}
+>#### Bron
+> Northwestern Europe Regional Contest 2018
