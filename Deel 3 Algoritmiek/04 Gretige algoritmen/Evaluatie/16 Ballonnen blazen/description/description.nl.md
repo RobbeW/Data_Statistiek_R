@@ -12,7 +12,7 @@ Indien een ballon boven de capaciteit gevuld word, dan ontploft deze. En ontplof
 
 ## Gevraagd
 
-Programmeer een functie `ballon(kannen)` dat gegeven een lijst met de hoeveelheden helium gus in een aantal kannen op zoek gaat naar hoeveel de minst opgeblazen ballon gevuld is. Dit retourneer je als een kommagetal met 6 decimalen.
+Programmeer een functie `ballon(kannen)` dat gegeven een lijst met de hoeveelheden helium gas in een aantal kannen op zoek gaat naar hoeveel de minst opgeblazen ballon gevuld is. Dit retourneer je als een kommagetal met 6 decimalen.
 
 Is het niet mogelijk alle ballonnen op te blazen zonder een ontploffing, dan retourneer je `"knal!"`.
 
