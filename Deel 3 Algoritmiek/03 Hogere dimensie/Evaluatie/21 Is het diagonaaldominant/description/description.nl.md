@@ -38,3 +38,7 @@ True
 False
 ```
 Want het tweede diagonaal element 3 is niet groter dan de soms van de (absolute waarden van de) andere elementen uit die rij. 
+
+{: .callout.callout-info}
+>#### Tip
+> Gebruik de functie `abs()` om de absolute waarde te bepalen.
