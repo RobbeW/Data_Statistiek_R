@@ -15,10 +15,10 @@
         format: python
       return: 2
   - testcases:
-    - expression: bepaal_factor([[0, 0, 1, 1], [0, 0, 1, 1], [3, 3, 2, 2], [3, 3,
+    - expression: bepaal_factor([[5, 5, 1, 1], [5, 5, 1, 1], [3, 3, 2, 2], [3, 3,
         2, 2]])
       description:
-        description: "bepaal_factor([[0, 0, 1, 1],\n               [0, 0, 1, 1],\n\
+        description: "bepaal_factor([[5, 5, 1, 1],\n               [5, 5, 1, 1],\n\
           \               [3, 3, 2, 2],\n               [3, 3, 2, 2]])"
         format: python
       return: 2
@@ -730,9 +730,9 @@
           - - 3
             - 0
   - testcases:
-    - expression: inkrimpen([[0, 0, 1, 1], [0, 0, 1, 1], [3, 3, 2, 2], [3, 3, 2, 2]])
+    - expression: inkrimpen([[5, 5, 1, 1], [5, 5, 1, 1], [3, 3, 2, 2], [3, 3, 2, 2]])
       description:
-        description: "inkrimpen([[0, 0, 1, 1],\n           [0, 0, 1, 1],\n       \
+        description: "inkrimpen([[5, 5, 1, 1],\n           [5, 5, 1, 1],\n       \
           \    [3, 3, 2, 2],\n           [3, 3, 2, 2]])"
         format: python
       return: !oracle
@@ -740,7 +740,7 @@
         file: "test.py"
         name: "check_function"
         value:
-          - - 0
+          - - 5
             - 1
           - - 3
             - 2
