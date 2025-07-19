@@ -9,7 +9,7 @@
     "test_suite": "tests.yaml"
   },
   "labels": [
-    "2D lijsten"
+    "2D lijsten", "python", "Robbe Wulgaert", "Dieter Vanderfaeillie", "Judith De Vocht", "Python in de Klas" 
   ],
   "access": "public",
   "internals": {
