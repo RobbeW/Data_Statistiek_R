@@ -9,7 +9,7 @@
     "test_suite": "tests.yaml"
   },
   "labels": [
-    "Greedy"
+    "Greedy", "python", "Robbe Wulgaert", "Dieter Vanderfaeillie", "Python in de Klas" 
   ],
   "access": "public",
   "internals": {
