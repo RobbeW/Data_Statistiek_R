@@ -1,5 +1,5 @@
 ## Gegeven
-Fluvius houdt het vermogen en het aantal lokale productie-installaties bij per gemeente en publiceert deze data op hun open data portaal</a>. 
+Fluvius houdt het vermogen en het aantal lokale productie-installaties bij per gemeente en publiceert deze data op hun open data portaal. 
 
 ![Lokale zonne-energie.](media/groene_stroom.jpg "Lokale zonne-energie."){:data-caption="Lokale zonne-energie." width="45%"}
 
@@ -16,26 +16,27 @@ data$vermogen <- as.numeric(data$vermogen)
 rownames(data) <- seq_len(nrow(data))
 ```
 
-Het resultaat is onderstaande dataframe. Hier merken we bijvoorbeeld dat er in Antwerpen 20 061 installaties van zonnepanelen zijn, met een totaal **vermogen** van 141367.1 kVA (kilo voltampère). Door deze getallen te delen kan je besluiten dat elke lokale productie in Antwerpen een vermogen van ongeveer 7,05 kVA heeft.
+Het resultaat is onderstaande dataframe. Hier merken we bijvoorbeeld dat er in Gent 28 505 installaties van zonnepanelen zijn, met een totaal **vermogen** van 205083.1 kVA (kilo voltampère). Door deze getallen te delen kan je besluiten dat elke lokale productie in Gent een vermogen van ongeveer 7.19 kVA heeft.
 
 ```
-       netbeheerder   gemeente         technologie aantal vermogen
-1 FLUVIUS ANTWERPEN AARTSELAAR        BRANDSTOFCEL      5     15.5
-2 FLUVIUS ANTWERPEN  ANTWERPEN     NOODGROEP TYPE2      2    940.0
-3 FLUVIUS ANTWERPEN  ANTWERPEN         WINDENERGIE     25 107150.0
-4 FLUVIUS ANTWERPEN  ANTWERPEN WKK BIOMASSA/BIOGAS      2  13232.0
-5 FLUVIUS ANTWERPEN  ANTWERPEN       ZONNE-ENERGIE  20061 141367.1
-6 FLUVIUS ANTWERPEN   BORSBEEK         WKK AARDGAS      2   3120.0
+   netbeheerder      gemeente      technologie       aantal    vermogen
+1 FLUVIUS IMEWO      EEKLO         ZONNE-ENERGIE       3648     24918.8
+2 FLUVIUS IMEWO      EVERGEM       WKK AARDGAS            4      9289.0
+3 FLUVIUS IMEWO      GENT          DIESEL (GEEN WKK)      4     11650.0
+4 FLUVIUS IMEWO      GENT          ZONNE-ENERGIE      28505    205083.1
+5 FLUVIUS IMEWO      JABBEKE       WINDENERGIE            2        31.5
+6 FLUVIUS IMEWO      JABBEKE       WKK AARDGAS            5      3574.2
 ```
 
 ## Gevraagd
 
-Is er een groot verschil tussen deze gemiddelde vermogens per netbeheerder? Of met andere woorden, plaatst men in de provincie Antwerpen (waar vooral Fluvius Antwerpen actief is) gemiddeld gesproken meer zonnenpanelen per installatie?
+Is er een groot verschil tussen deze gemiddelde vermogens in Gent en andere Gemeentes?
 
 - Maak variabele `gemiddeld_vermogen` waar je voor alle technologieën het gemiddeld vermogen per individuele installatie berekent. **Rond** dit **af** op 2 cijfers na de komma.
+- Bereken het gemiddelde van al deze **individuele** installaties over heel België. Sla dit resultaat op in de variabele `gemiddelde_belgie`
 - Maak een **booleaanse** vector `gent` waar je enkel de installaties uit Gent in opslaat.
 - Hoeveel installaties kan je in het totaal dan vinden in Gent? Sla dit resultaat op in de variabele `aantal_installaties_gent`
-- Schrijf naar het scherm wat het gemiddelde vermogen van alle **individuele** installaties in Gent bedraagt? 
+- Bereken nu het gemiddelde vermogen van alle **individuele** installaties in Gent bedraagt. Maak hierbij gebruik van de variabele `gemiddelde_gent`
 
 {: .callout.callout-info}
 >#### Ter info

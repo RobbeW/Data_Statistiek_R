@@ -9,6 +9,7 @@ rownames(data) <- seq_len(nrow(data))
 
 # Plot
 gemiddeld_vermogen <- round( data$vermogen/data$aantal, 2)
+gemiddelde_belgie <- mean(gemiddeld_vermogen)
 gent <- data$gemeente == "GENT"
 aantal_installaties_gent <- sum(data$aantal[gent])
 gemiddelde_gent <- mean(gemiddeld_vermogen[gent])
@@ -22,6 +23,18 @@ context({
       env$gemiddeld_vermogen
     }, gemiddeld_vermogen)
     testFunctionUsedInVar("round", "gemiddeld_vermogen")
+  })
+})
+
+context({
+  testcaseAssert("De variabele gemiddelde_belgie bestaat.", function(env) {
+    isTRUE(exists("gemiddelde_belgie", env))
+  })
+  testcase("De variabele werd gemiddelde_belgie correct berekend:", {
+    testEqual("gemiddelde_belgie", function(env) {
+      env$gemiddelde_belgie
+    }, gemiddelde_belgie)
+    testFunctionUsedInVar("mean", "gemiddelde_belgie")
   })
 })
 
