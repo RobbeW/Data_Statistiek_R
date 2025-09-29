@@ -15,5 +15,7 @@
     "network_enabled": true
   },
   "internals": {
+    "token": "ZZZMKimnVFc_Zh959HqiA4GS9QAkT_zcnbTZJhw4ND9FZ3IZ9382eH6ScnkDq3mP",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }
