@@ -7,9 +7,9 @@ data <- data[complete.cases(data),]
 data <- data[data$price < 10000,]
 
 # Antwoord op de vragen
-gemiddelde_prijs <- mean(data$price)
+gemiddelde_prijs <- round(mean(data$price), 2)
 thema_star_wars <- data$theme == "Star Wars™"
-gemiddelde_prijs_star_wars <- mean(data$price[thema_star_wars])
+gemiddelde_prijs_star_wars <- round(mean(data$price[thema_star_wars]), 2)
 prijs_per_stuk <- data$price / data$pieces
-gemiddelde_prijs_per_stuk <- mean(prijs_per_stuk)
-gemiddelde_prijs_per_stuk_star_wars <- mean(prijs_per_stuk[thema_star_wars])
+gemiddelde_prijs_per_stuk <- round(mean(prijs_per_stuk), 2)
+gemiddelde_prijs_per_stuk_star_wars <- round(mean(prijs_per_stuk[thema_star_wars]), 2)
