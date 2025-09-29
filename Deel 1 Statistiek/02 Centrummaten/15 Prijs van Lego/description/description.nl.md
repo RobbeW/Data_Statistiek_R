@@ -33,7 +33,9 @@ Je vindt er de naam van de set, `theme` stelt het thema voor, `pieces` het aanta
 
 Zorgen merknamen bij de themas voor duurdere sets?
 
-- Wat was de gemiddelde prijs van alle lego sets? Sla dit op in de variabele `gemiddelde_prijs`.
-- Analyseer nu ook de LEGO sets uit het *thema* `Marvel`. Maak een **booleaanse** vector `thema_marvel` aan, waarin je bewaart welke sets dit *thema* hadden.
-- Maak nu ook een variabele `gemiddelde_prijs_marvel` waarin je de gemiddelde kost van de Marvel-sets bepaalt.
+- Wat was de gemiddelde prijs van alle lego sets? Sla dit op in de variabele `gemiddelde_prijs`. Rond dit getal af op 2 cijfers na de komma.
+- Analyseer nu ook de LEGO sets uit het *thema* `Star Wars™`. **Kopieer zeker ook het ™ logo**. Maak een **booleaanse** vector `thema_star_wars` aan, waarin je bewaart welke sets dit *thema* hadden.
+- Maak nu ook een variabele `gemiddelde_prijs_star_wars` waarin je de gemiddelde kost van de Star-Wars-sets bepaalt.
+- Ligt dit prijs verschil mogelijks aan het aantal stukken in deze dozen? Maak een variabele `prijs_per_stuk` waarin je berekent hoeveel je betaalt per stuk in de doos.
+- Bereken nu ook `gemiddelde_prijs_per_stuk` en `gemiddelde_prijs_per_stuk_star_wars`.
 
