@@ -47,3 +47,8 @@ Via `head(data)` om een **voorsmaakje** van de gegevens te verkrijgen.
 >#### Denkvragen
 > - Hoe blijkt uit dit gemiddelde dat er atleten zijn met een *veel hoger* of *veel lager* BMI? Welke van de twee is het, hoger of lager?
 > - De mediaan is per definitie het middelste getal uit de vrij gegevens, waarom is het antwoord op de laatste vraag dan toch geen 50%?
+
+{: .callout.callout-info}
+>#### Tip
+>
+> Om het **procent** van atleten te berekenen die aan een voorwaarde voldoen, neem je het **gemiddelde** van de booleaanse vector van deze voorwaarde.
