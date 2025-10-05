@@ -1,3 +1,5 @@
+library(dplyr)
+
 # Data inlezen:
 url  <- "https://raw.githubusercontent.com/RobbeW/Data_Statistiek_R/main/bronnen/BRAINSIZE.txt"
 data <- read.table(url, header=TRUE, sep="\t", na.strings=c(".", "NA", ""), stringsAsFactors=FALSE)
