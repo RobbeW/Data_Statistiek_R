@@ -8,8 +8,10 @@
     }
   },
   "labels": [
-    "R",
-    "statistiek"
+    "statistiek",
+    "r",
+    "robbe wulgaert",
+    "dieter vanderfaeillie"
   ],
   "evaluation": {
     "network_enabled": true,
