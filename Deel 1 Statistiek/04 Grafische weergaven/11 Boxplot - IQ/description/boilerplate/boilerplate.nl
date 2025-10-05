@@ -1,8 +1,12 @@
 library(dplyr)
 
 # Data inlezen:
-url  <- "https://raw.githubusercontent.com/RobbeW/Data_Statistiek_R/main/bronnen/BRAINSIZE.csv"
-data <- read.table(url, header=TRUE, sep="\t", na.strings=c(".", "NA", ""), stringsAsFactors=FALSE)
+data <- read.csv(
+  "https://raw.githubusercontent.com/RobbeW/Data_Statistiek_R/main/bronnen/BRAINSIZE.csv",
+  na.strings = c(".", "NA", ""),
+  strip.white = TRUE,
+  stringsAsFactors = FALSE
+)
 
 # Kolommen hernoemen (Engelse begrippen naar NL):
 names(data)[names(data)=="Gender"]   <- "geslacht"
