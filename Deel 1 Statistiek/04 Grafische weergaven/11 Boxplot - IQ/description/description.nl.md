@@ -10,9 +10,11 @@ Je kan de resultaten van het onderzoek inladen via onderstaande code:
 library(dplyr)
 
 # Data inlezen:
-data <- read.table(
-  "https://raw.githubusercontent.com/RobbeW/Data_Statistiek_R/main/bronnen/BRAINSIZE.txt",
-  header = TRUE, sep = "\t", na.strings = c(".", "NA", ""), stringsAsFactors = FALSE
+data <- read.csv(
+  "https://raw.githubusercontent.com/RobbeW/Data_Statistiek_R/main/bronnen/BRAINSIZE.csv",
+  na.strings = c(".", "NA", ""),
+  strip.white = TRUE,
+  stringsAsFactors = FALSE
 )
 
 # NL kolomnamen + eenheden (lbs→kg, inch→cm):
