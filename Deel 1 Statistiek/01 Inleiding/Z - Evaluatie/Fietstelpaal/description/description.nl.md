@@ -6,13 +6,18 @@ Ongetwijfeld ben je al één van de vele telpalen voorbij gefietst in Gent. Lang
 Gebruik onderstaande code om de gegevens op te halen.
 
 ```R
-# Gegevens ophalen van het Open Data portaal
-data <- read.csv("https://data.stad.gent/api/explore/v2.1/catalog/datasets/fietstelpaal-visserij-2023-gent/exports/csv",
-                 sep = ";", header = TRUE)
-# Het onderstaande bepaalt de totalen per dag
-data <- data.frame(aggregate(totaal ~ datum, data, sum),
-                   tegenrichting = aggregate(tegenrichting ~ datum, data, sum)$tegenrichting,
-                   hoofdrichting = aggregate(hoofdrichting ~ datum, data, sum)$hoofdrichting)
+# Gegevens ophalen van GitHub: 
+data <- read.csv(
+  "https://raw.githubusercontent.com/RobbeW/Data_Statistiek_R/main/bronnen/fietstelpaal-visserij-2023-gent.csv",
+  sep = ";", header = TRUE, stringsAsFactors = FALSE
+)
+
+# Totalen per dag berekenen
+data <- data.frame(
+  aggregate(totaal ~ datum, data, sum),
+  tegenrichting = aggregate(tegenrichting ~ datum, data, sum)$tegenrichting,
+  hoofdrichting = aggregate(hoofdrichting ~ datum, data, sum)$hoofdrichting
+)
 ```
 
 ## Gegeven
