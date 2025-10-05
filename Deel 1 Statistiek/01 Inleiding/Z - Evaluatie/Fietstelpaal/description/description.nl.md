@@ -52,7 +52,7 @@ drukke_dagen <- data$datum[is_druk]
 drukke_dagen
 ```
 
-### Richting binnenstad
+### B) Richting binnenstad
 * De kolom **hoofdrichting** telde het aantal fietsers richting de Gentse binnenstad, **tegenrichting** is met andere woorden richting het Keizerspark. 
 * Bepaal de dagen waarop **hoofdrichting minus tegenrichting ≥ 1000**. 
 * Bepaal eerst een variabele `verschil` waar je dit verschil uitrekent:
