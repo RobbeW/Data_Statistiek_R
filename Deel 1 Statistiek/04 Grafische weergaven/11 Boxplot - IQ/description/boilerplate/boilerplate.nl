@@ -1,11 +1,16 @@
-library(dplyr)  
-# Data inlezen
-data <- read.csv2("https://github.com/RobbeW/Data_Statistiek_R/blob/main/bronnen/BRAINSIZE.txt",
-                  sep="\t")
-data <- data %>% mutate(across(where(is.character), ~na_if(., ".")))
-data <- as.data.frame(data)
-data$Weight <- as.numeric(data$Weight)*0.45359237
-data$Height <- as.numeric(data$Height)*2.54
-colnames(data) <- c("geslacht", "FSIQ", "VIQ", "PIQ", "massa", "lengte", "MRI")
+# Data inlezen:
+url  <- "https://raw.githubusercontent.com/RobbeW/Data_Statistiek_R/main/bronnen/BRAINSIZE.txt"
+data <- read.table(url, header=TRUE, sep="\t", na.strings=c(".", "NA", ""), stringsAsFactors=FALSE)
 
-# Beantwoord hieronder de vragen
+# Kolommen hernoemen (Engelse begrippen naar NL):
+names(data)[names(data)=="Gender"]   <- "geslacht"
+names(data)[names(data)=="MRICount"] <- "MRI"
+
+# Eenheden omzetten: lbs→kg, inch→cm:
+data$massa  <- as.numeric(data$Weight) * 0.45359237
+data$lengte <- as.numeric(data$Height) * 2.54
+
+# Alleen gewenste kolommen:
+data <- data[c("geslacht","FSIQ","VIQ","PIQ","massa","lengte","MRI")]
+
+# Beantwoord hieronder de vragen:
