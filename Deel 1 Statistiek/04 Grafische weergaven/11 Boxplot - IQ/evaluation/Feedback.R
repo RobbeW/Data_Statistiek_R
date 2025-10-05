@@ -1,23 +1,51 @@
-library(dplyr)  
-# Data inlezen
+suppressPackageStartupMessages(library(dplyr))
+
+# ── Data inlezen
 data <- read.table(
   "https://raw.githubusercontent.com/RobbeW/Data_Statistiek_R/main/bronnen/BRAINSIZE.txt",
   header = TRUE, sep = "\t", na.strings = c(".", "NA", ""),
-  stringsAsFactors = FALSE
+  stringsAsFactors = FALSE, check.names = FALSE
 )
 
-# ── NL kolomnamen + eenheden
-names(data)[names(data) == "Gender"]   <- "geslacht"
-names(data)[names(data) == "MRICount"] <- "MRI"
-data$massa  <- as.numeric(data$Weight) * 0.45359237   # lbs → kg
-data$lengte <- as.numeric(data$Height) * 2.54          # inch → cm
-data <- data[c("geslacht","FSIQ","VIQ","PIQ","massa","lengte","MRI")]
+# ── Kolomnamen normaliseren (trim + case-insensitief match) ──────────────────
+nm <- trimws(names(data))
+names(data) <- nm
+tolower_nms <- tolower(nm)
 
-# ── Referentie-oplossing voor de tests 
-gemiddeld_MRI       <- mean(data$MRI, na.rm = TRUE)
-bovengemiddeld_MRI  <- data$MRI > gemiddeld_MRI  # NA's blijven NA (OK voor vergelijking)
+req <- function(name) {
+  i <- match(tolower(name), tolower_nms)
+  if (is.na(i)) stop(sprintf("Kolom '%s' niet gevonden in data.", name), call. = FALSE)
+  i
+}
 
-# ── Tests
+i_gender   <- req("Gender")
+i_fsiq     <- req("FSIQ")
+i_viq      <- req("VIQ")
+i_piq      <- req("PIQ")
+i_weight   <- req("Weight")
+i_height   <- req("Height")
+i_mricount <- req("MRICount")
+
+# ── Eenheden + NL kolomnamen ─────────────────────────────────────────────────
+massa  <- as.numeric(data[[i_weight]]) * 0.45359237   # lbs → kg
+lengte <- as.numeric(data[[i_height]]) * 2.54         # inch → cm
+
+data <- data.frame(
+  geslacht = data[[i_gender]],
+  FSIQ     = data[[i_fsiq]],
+  VIQ      = data[[i_viq]],
+  PIQ      = data[[i_piq]],
+  massa    = massa,
+  lengte   = lengte,
+  MRI      = data[[i_mricount]],
+  check.names = FALSE
+)
+
+# ── Referentie-oplossing voor de tests ───────────────────────────────────────
+gemiddeld_MRI      <- mean(data$MRI, na.rm = TRUE)
+bovengemiddeld_MRI <- data$MRI > gemiddeld_MRI
+
+# ── Tests ────────────────────────────────────────────────────────────────────
 context({
   testcaseAssert("De variabele gemiddeld_MRI bestaat.", function(env) {
     isTRUE(exists("gemiddeld_MRI", env))
@@ -42,7 +70,3 @@ contextWithImage({
     testFunctionUsed("boxplot")
   })
 })
-
-
-
-  
