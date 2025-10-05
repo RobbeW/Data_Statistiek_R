@@ -1,6 +1,6 @@
 library(dplyr)  
 # Data inlezen
-data <- read.csv2("http://bcs.whfreeman.com/WebPub/Statistics/shared_resources/EESEE/BrainSize/Data_Files/BRAINSZE.TXT",
+data <- read.csv2("https://github.com/RobbeW/Data_Statistiek_R/blob/main/bronnen/BRAINSIZE.txt",
                   sep="\t")
 data <- data %>% mutate(across(where(is.character), ~na_if(., ".")))
 data <- as.data.frame(data)
