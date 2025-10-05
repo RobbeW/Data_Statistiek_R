@@ -40,11 +40,31 @@ Er zijn met dus **vier vectoren** terug te vinden in de data frame `data`.
 
 Er zijn evemenenten in de Gentse binnenstad waar veel bezoekers met de fiets naar toe komen, kan je dit in deze data opmerken?
 
-- Zoek de dagen waarop er meer dan 8500 fieters de telpaal passeerden. Bepaal dus eerst een booleaanse vector en gebruik die om nadien uit `data$datum` te **selecteren**. Sla het resultaat op als `drukke_dagen`. 
+### A) Drukke dagen
+* Bepaal eerst wat een drukke dag is. Gebruik een booleaanse vector. 
+  ```
+  is_druk <- data$totaal > 8500
+  ```
+* Gebruik die om nadien uit `data$datum` te **selecteren**. Zo behouden we enkel de drukke dagen. 
+* Sla het resultaat op in variabelen `drukke_dagen`.
+```
+drukke_dagen <- data$datum[is_druk]
+drukke_dagen
+```
 
-- De kolom **hoofdrichting** telde het aantal fietsers richting de Gentse binnenstad, **tegenrichting** is met andere woorden richting het Keizerspark. Zijn er dagen waarop het verschil tussen hoofdrichting en tegenrichting minimaal 1000 bedroeg?
+### Richting binnenstad
+* De kolom **hoofdrichting** telde het aantal fietsers richting de Gentse binnenstad, **tegenrichting** is met andere woorden richting het Keizerspark. 
+* Bepaal de dagen waarop **hoofdrichting minus tegenrichting ≥ 1000**. 
+* Bepaal eerst een variabele `verschil` waar je dit verschil uitrekent:
+```
+verschil <- data$hoofdrichting - data$tegenrichting
+```
+* **Selecteer** vervolgens uit `data$datum` de dagen waarop vooral richting binnenstad gefietst werd. Geef deze dag(en) weer.
+```
+richting_binnenstad <- data$datum[...]
+richting_binnenstad
+```
 
-  Bepaal eerst een variabele `verschil` waar je dit verschil uitrekent en **selecteer** vervolgens uit `data$datum` de dagen waarop vooral richting binnenstad gefietst werd. Geef deze dag(en) weer.
 
 {: .callout.callout-warning}
 >#### Opgelet!
