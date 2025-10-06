@@ -4,6 +4,14 @@ Op de Olympische spelen bestaat de discipline <a href="https://nl.wikipedia.org/
 
 Hoe zit het met de *verdeling* van <a href="https://www.gezondleven.be/themas/voeding/obesitas-en-overgewicht/body-mass-index-bmi" target="_blank">het BMI</a> van de Olympische atleten uit deze discipline?
 
+De formule om een $$\mathsf{\text{BMI}}$$ te bepalen werkt dan als volgt:
+
+$$
+\mathsf{\text{BMI} = \text{m} \cdot (\text{l} \cdot \text{l})}
+$$
+
+Hierbij stelt $$\mathsf{\text{m}}$$ het gewicht **in kg** voor en $$\mathsf{\text{l}}$$ de lengte **in meter**.
+
 ## Gegeven
 
 Importeer <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-07-27/olympics.csv" target="_blank">deze dataset</a> met behulp van de volgende code.
