@@ -16,7 +16,7 @@ data$vermogen <- as.numeric(data$vermogen)
 rownames(data) <- seq_len(nrow(data))
 ```
 
-Het resultaat is onderstaande dataframe. Hier merken we bijvoorbeeld dat er in Gent 28 505 installaties van zonnepanelen zijn, met een totaal **vermogen** van 205083.1 kVA (kilo voltampère). Door deze getallen te delen kan je besluiten dat elke lokale productie in Gent een vermogen van ongeveer 7.19 kVA heeft.
+Het resultaat is onderstaande dataframe. Hier merken we bijvoorbeeld dat er in Gent 28 505 installaties van zonnepanelen zijn, met een totaal **vermogen** van 205083.1 kVA (kilo voltampère). Door deze getallen te delen kan je besluiten dat elke individuele installatie in Gent een vermogen van ongeveer 7.19 kVA heeft.
 
 ```
    netbeheerder      gemeente      technologie       aantal    vermogen
@@ -32,11 +32,11 @@ Het resultaat is onderstaande dataframe. Hier merken we bijvoorbeeld dat er in G
 
 Is er een groot verschil tussen deze gemiddelde vermogens in Gent en andere Gemeentes?
 
-- Maak variabele `gemiddeld_vermogen` waar je voor alle technologieën het gemiddeld vermogen per individuele installatie berekent. **Rond** dit **af** op 2 cijfers na de komma.
-- Bereken het gemiddelde van al deze **individuele** installaties over heel België. Sla dit resultaat op in de variabele `gemiddelde_belgie`
+- Maak variabele `individueel_vermogen` waar je voor alle technologieën het (gemiddeld) vermogen per individuele installatie berekent. **Rond** dit **af** op 2 cijfers na de komma.
+- Bereken het gemiddelde van al deze individuele installaties over heel België. Sla dit resultaat op in de variabele `gemiddelde_belgie`
 - Maak een **booleaanse** vector `gent` waar je enkel de installaties uit Gent in opslaat.
 - Hoeveel installaties kan je in het totaal dan vinden in Gent? Sla dit resultaat op in de variabele `aantal_installaties_gent`
-- Bereken nu het gemiddelde vermogen van alle **individuele** installaties in Gent bedraagt. Maak hierbij gebruik van de variabele `gemiddelde_gent`
+- Bereken nu het gemiddelde vermogen van alle individuele installaties in Gent bedraagt. Maak hierbij gebruik van de variabele `gemiddelde_gent`
 
 {: .callout.callout-info}
 >#### Ter info

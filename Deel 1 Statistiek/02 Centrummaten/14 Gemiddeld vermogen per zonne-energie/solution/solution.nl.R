@@ -8,8 +8,8 @@ data$vermogen <- as.numeric(data$vermogen)
 rownames(data) <- seq_len(nrow(data))
 
 # Plot
-gemiddeld_vermogen <- round(data$vermogen / data$aantal, 2)
-gemiddelde_belgie <- mean(gemiddeld_vermogen)
+individueel_vermogen <- round(data$vermogen / data$aantal, 2)
+gemiddelde_belgie <- mean(individueel_vermogen)
 gent <- data$gemeente == "GENT"
 aantal_installaties_gent <- sum(data$aantal[gent])
-gemiddelde_gent <- mean(gemiddeld_vermogen[gent])
+gemiddelde_gent <- mean(individueel_vermogen[gent])
