@@ -1,14 +1,17 @@
-# Gegevens ophalen van het Open Data portaal
-data <- read.csv(paste0("https://data.stad.gent/api/explore/v2.1/catalog/da",
-                        "tasets/fietstelpaal-visserij-2023-gent/exports/csv"),
-                  sep = ";", header = TRUE)
-data <- data.frame(aggregate(totaal ~ datum, data, sum),
-                    tegenrichting = aggregate(tegenrichting ~ datum,
-                                              data, sum)$tegenrichting,
-                    hoofdrichting = aggregate(hoofdrichting ~ datum,
-                                              data, sum)$hoofdrichting)
+# Gegevens ophalen van Github (na problemen met data portal): 
+data <- read.csv(
+  "https://raw.githubusercontent.com/RobbeW/Data_Statistiek_R/main/bronnen/fietstelpaal-visserij-2023-gent.csv",
+  sep = ";", header = TRUE, stringsAsFactors = FALSE
+)
 
-# Bepaal het gevraagde
+# Totalen per dag
+data <- data.frame(
+  aggregate(totaal ~ datum, data, sum),
+  tegenrichting = aggregate(tegenrichting ~ datum, data, sum)$tegenrichting,
+  hoofdrichting = aggregate(hoofdrichting ~ datum, data, sum)$hoofdrichting
+)
+
+# Antwoorden: 
 drukke_dagen <- data$datum[data$totaal > 8500]
 
 verschil <- data$hoofdrichting - data$tegenrichting
@@ -19,9 +22,7 @@ context({
     isTRUE(exists("drukke_dagen", env))
   })
   testcase("De variabelen werden correct bepaald:", {
-    testEqual("drukke_dagen", function(env) {
-      env$drukke_dagen
-    }, drukke_dagen)
+    testEqual("drukke_dagen", function(env) env$drukke_dagen, drukke_dagen)
   })
 })
 
@@ -30,9 +31,7 @@ context({
     isTRUE(exists("verschil", env))
   })
   testcase("De variabele werd correct bepaald:", {
-    testEqual("verschil", function(env) {
-      env$verschil
-    }, verschil)
+    testEqual("verschil", function(env) env$verschil, verschil)
   })
 })
 

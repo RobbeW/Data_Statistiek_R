@@ -1,14 +1,17 @@
-# Gegevens ophalen van het Open Data portaal
-data <- read.csv(paste0("https://data.stad.gent/api/explore/v2.1/catalog/data",
-                        "sets/fietstelpaal-visserij-2023-gent/exports/csv"),
-                 sep = ";", header = TRUE)
-data <- data.frame(aggregate(totaal ~ datum, data, sum),
-                   tegenrichting = aggregate(tegenrichting ~ datum,
-                                             data, sum)$tegenrichting,
-                   hoofdrichting = aggregate(hoofdrichting ~ datum,
-                                             data, sum)$hoofdrichting)
+# Gegevens ophalen van GitHub: 
+data <- read.csv(
+  "https://raw.githubusercontent.com/RobbeW/Data_Statistiek_R/main/bronnen/fietstelpaal-visserij-2023-gent.csv",
+  sep = ";", header = TRUE, stringsAsFactors = FALSE
+)
 
-# Bepaal het gevraagde
+# Totalen per dag berekenen: 
+data <- data.frame(
+  aggregate(totaal ~ datum, data, sum),
+  tegenrichting = aggregate(tegenrichting ~ datum, data, sum)$tegenrichting,
+  hoofdrichting = aggregate(hoofdrichting ~ datum, data, sum)$hoofdrichting
+)
+
+# Bepaal het gevraagde: 
 drukke_dagen <- data$datum[data$totaal > 8500]
 
 verschil <- data$hoofdrichting - data$tegenrichting

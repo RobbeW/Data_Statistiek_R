@@ -7,15 +7,22 @@ Is er een verband tussen hersengrootte en IQ? Wetenschapper Willerman voerde in 
 Je kan de resultaten van het onderzoek inladen via onderstaande code:
 
 ```R
-library(dplyr)  
-# Data inlezen
-data <- read.csv2("http://bcs.whfreeman.com/WebPub/Statistics/shared_resources/EESEE/BrainSize/Data_Files/BRAINSZE.TXT",
-                  sep="\t")
-data <- data %>% mutate(across(where(is.character), ~na_if(., ".")))
-data <- as.data.frame(data)
-data$Weight <- as.numeric(data$Weight)*0.45359237
-data$Height <- as.numeric(data$Height)*2.54
-colnames(data) <- c("geslacht", "FSIQ", "VIQ", "PIQ", "massa", "lengte", "MRI")
+library(dplyr)
+
+# Data inlezen:
+data <- read.csv(
+  "https://raw.githubusercontent.com/RobbeW/Data_Statistiek_R/main/bronnen/BRAINSIZE.csv",
+  na.strings = c(".", "NA", ""),
+  strip.white = TRUE,
+  stringsAsFactors = FALSE
+)
+
+# NL kolomnamen + eenheden (lbs→kg, inch→cm):
+names(data)[names(data)=="Gender"]   <- "geslacht"
+names(data)[names(data)=="MRICount"] <- "MRI"
+data$massa  <- as.numeric(data$Weight) * 0.45359237
+data$lengte <- as.numeric(data$Height) * 2.54
+data <- data[c("geslacht","FSIQ","VIQ","PIQ","massa","lengte","MRI")]
 ```
 
 In de uiteindelijke dataframe vind je heel wat informatie, via `head(data)` bekomt men bijvoorbeeld als voorsmaakje:
