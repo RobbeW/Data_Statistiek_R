@@ -7,7 +7,7 @@ Hoe zit het met de *verdeling* van <a href="https://www.gezondleven.be/themas/vo
 De formule om een $$\mathsf{\text{BMI}}$$ te bepalen werkt dan als volgt:
 
 $$
-\mathsf{\text{BMI} = \text{m} \cdot (\text{l} \cdot \text{l})}
+\mathsf{\text{BMI} = \dfrac{\text{m}}{\text{l} \cdot \text{l}}}
 $$
 
 Hierbij stelt $$\mathsf{\text{m}}$$ het gewicht **in kg** voor en $$\mathsf{\text{l}}$$ de lengte **in meter**.
