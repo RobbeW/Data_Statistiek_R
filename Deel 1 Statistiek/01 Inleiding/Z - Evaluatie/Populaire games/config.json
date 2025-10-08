@@ -1,0 +1,15 @@
+{
+  "type": "exercise",
+  "description": {
+    "names": {
+      "nl": "Populaire videogames"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "access": "public",
+  "internals": {
+  }
+}
