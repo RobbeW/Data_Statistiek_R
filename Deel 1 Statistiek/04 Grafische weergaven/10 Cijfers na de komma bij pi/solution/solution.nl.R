@@ -2,7 +2,7 @@
 library(readr)
 
 # downloading 100 000 digits of pi
-url <- "https://www.angio.net/pi/digits/100000.txt"
+url <- "https://raw.githubusercontent.com/RobbeW/Data_Statistiek_R/refs/heads/main/bronnen/100000.txt"
 getalpi.raw <- readr::read_file(url)
 
 # splitting string into single characters
