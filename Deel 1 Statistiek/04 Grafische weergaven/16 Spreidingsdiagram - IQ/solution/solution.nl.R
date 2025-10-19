@@ -1,14 +1,23 @@
-library(dplyr)  
-# Data inlezen
-data <- read.csv2("http://bcs.whfreeman.com/WebPub/Statistics/shared_resources/EESEE/BrainSize/Data_Files/BRAINSZE.TXT",
-                  sep="\t")
-data <- data %>% mutate(across(where(is.character), ~na_if(., ".")))
-data <- as.data.frame(data)
-data$Weight <- as.numeric(data$Weight)*0.45359237
-data$Height <- as.numeric(data$Height)*2.54
-colnames(data) <- c("geslacht", "FSIQ", "VIQ", "PIQ", "massa", "lengte", "MRI")
+library(dplyr)
 
-# Beantwoord hieronder de vragen
+# 1) We lezen de data in: 
+data <- read.csv(
+  "https://raw.githubusercontent.com/RobbeW/Data_Statistiek_R/main/bronnen/BRAINSIZE.csv",
+  na.strings = c(".", "NA", ""),
+  strip.white = TRUE,
+  stringsAsFactors = FALSE
+)
+
+# 2) NL kolomnamen + eenheden
+data <- data %>%
+  rename(geslacht = Gender, MRI = MRICount) %>%
+  mutate(
+    massa  = as.numeric(Weight) * 0.45359237,
+    lengte = as.numeric(Height) * 2.54
+  ) %>%
+  select(geslacht, FSIQ, VIQ, PIQ, massa, lengte, MRI)
+
+# 3) Indicator en plot
 vrouwen <- data$geslacht ==  "Female"
 
 plot(data$VIQ[vrouwen]~data$MRI[vrouwen],
