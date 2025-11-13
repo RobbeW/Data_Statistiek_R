@@ -23,6 +23,6 @@ We onderzoeken of meer slaap een positieve invloed heeft op examenresultaten bij
 
 - Maak nu een boxplot waar je de scores van de leerlingen met bovengemiddelde slaap vergelijkt met de scores van de leerlingen met minder nachtrust. Kies zelf een kleur en zorg dat de titels overeenkomen met onderstaand voorbeeld.
 
-![Speeltijd versus metascore.](media/plot.png "Speeltijd versus metascore."){:data-caption="Speeltijd versus metascore." .light-only width="480px"}
+![Resultaten versus Slaapduur.](media/plot.png "Resultaten versus Slaapduur."){:data-caption="Resultaten versus Slaapduur." .light-only width="480px"}
 
-![Speeltijd versus metascore.](media/plot_dark.png "Speeltijd versus metascore."){:data-caption="Speeltijd versus metascore." .dark-only width="480px"}
+![Resultaten versus Slaapduur.](media/plot_dark.png "Resultaten versus Slaapduur."){:data-caption="SResultaten versus Slaapduur." .dark-only width="480px"}
