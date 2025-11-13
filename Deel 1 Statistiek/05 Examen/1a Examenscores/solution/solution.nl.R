@@ -23,6 +23,6 @@ bovengemiddelde_studieuren <- data$hours_studied > gemiddelde_studieuren
 boxplot(data$exam_score~bovengemiddelde_slaap,
      col = c("cadetblue", "coral"),
      xlab = "Slaapduur",
-     names = c("Bovengemiddeld, Ondergemiddeld"),
+     names = c("Ondergemiddeld", "Bovengemiddeld"),
      ylab = "Resultaten (op 20)",
      main = "Resultaten versus Slaapduur")
