@@ -25,4 +25,4 @@ We onderzoeken of meer slaap een positieve invloed heeft op examenresultaten bij
 
 ![Resultaten versus Slaapduur.](media/plot.png "Resultaten versus Slaapduur."){:data-caption="Resultaten versus Slaapduur." .light-only width="480px"}
 
-![Resultaten versus Slaapduur.](media/plot_dark.png "Resultaten versus Slaapduur."){:data-caption="SResultaten versus Slaapduur." .dark-only width="480px"}
+![Resultaten versus Slaapduur.](media/plot_dark.png "Resultaten versus Slaapduur."){:data-caption="Resultaten versus Slaapduur." .dark-only width="480px"}
