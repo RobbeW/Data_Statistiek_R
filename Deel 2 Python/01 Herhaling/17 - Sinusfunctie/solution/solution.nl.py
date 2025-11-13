@@ -10,7 +10,6 @@ if x_b < x_a:
     x_b = temp
 
 # controle op nulpunten
-print()
 if abs(x_b - x_a) > math.pi:
     print("Er ligt minstens één nulpunt tussen", x_a, "en", x_b) 
 else:
