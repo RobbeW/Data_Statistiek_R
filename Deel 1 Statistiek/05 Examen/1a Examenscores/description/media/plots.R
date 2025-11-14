@@ -1,13 +1,25 @@
-# Data inlezen van de IMDB
-data <- read.csv2("https://raw.githubusercontent.com/LearnDataSci/articles/master/Python%20Pandas%20Tutorial%20A%20Complete%20Introduction%20for%20Beginners/IMDB-Movie-Data.csv",
-                  sep=",",dec=".",
-                  colClasses = c("NULL", "character", rep("NULL",4), "character", rep("numeric", 5)))
-data <- na.omit(data)
-colnames(data) <- c("title", "year", "runtime", "rating", "votes", "revenue_millions","metascore")
-rownames(data) <- seq_len(nrow(data))
+library(dplyr)
 
-# Beantwoord hieronder de vragen
-metascore_afgerond <- round(data$metascore / 10) * 10
+# Data inlezen:
+data <- read.csv(
+  "https://raw.githubusercontent.com/RobbeW/Data_Statistiek_R/main/bronnen/student_exam_scores.csv",
+  na.strings = c(".", "NA", ""),
+  strip.white = TRUE,
+  stringsAsFactors = FALSE
+)
+
+# Scores herberekenen op 20
+data$exam_score <- round(data$exam_score / max(data$exam_score) * 20, 1)
+
+# Alleen gewenste kolommen:
+data <- data[c("student_id","hours_studied","sleep_hours","exam_score")]
+
+gemiddelde_slaap <- mean(data$sleep_hours)
+bovengemiddelde_slaap <- data$sleep_hours > gemiddelde_slaap
+
+gemiddelde_studieuren <- mean(data$hours_studied)
+bovengemiddelde_studieuren <- data$hours_studied > gemiddelde_studieuren
+
 
 res <- 300
 # Plot
@@ -18,11 +30,12 @@ png("plot.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "black")
-boxplot(data$runtime~metascore_afgerond,
-     col = "cadetblue",
-     xlab = "Metascore",
-     ylab = "Speeltijd (in minuten)",
-     main = "Speeltijd versus Metascore")
+boxplot(data$exam_score~bovengemiddelde_slaap,
+     col = c("cadetblue", "coral"),
+     xlab = "Slaapduur",
+     names = c("Ondergemiddeld", "Bovengemiddeld"),
+     ylab = "Resultaten (op 20)",
+     main = "Resultaten versus Slaapduur")
 dev.off()
 
 # Plot
@@ -33,11 +46,12 @@ png("plot_dark.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "white")
-boxplot(data$runtime~metascore_afgerond,
-     col = "cadetblue",
-     xlab = "Metascore",
-     ylab = "Speeltijd (in minuten)",
-     main = "Speeltijd versus Metascore",
+boxplot(data$exam_score~bovengemiddelde_slaap,
+     col = c("cadetblue", "coral"),
+     xlab = "Slaapduur",
+     names = c("Ondergemiddeld", "Bovengemiddeld"),
+     ylab = "Resultaten (op 20)",
+     main = "Resultaten versus Slaapduur",
      border = "white",
      col.main = "white",
      col.lab = "white",

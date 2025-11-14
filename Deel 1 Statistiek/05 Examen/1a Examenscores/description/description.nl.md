@@ -1,5 +1,9 @@
 ## Gegeven
-Er werd recentelijk een onderzoek gedaan om te zien of de hoeveelheid slaap die leerlingen hebben een direct gevolg heeft op hun resultaten op school. Hieronder zien we het eerste deel van de resultaten van deze ondervraging.
+Er werd recentelijk een onderzoek gedaan om te zien of de hoeveelheid slaap die leerlingen hebben een direct gevolg heeft op hun resultaten op school. 
+
+![Slaaponderzoek.](media/slapende_persoon.jpg "Slaaponderzoek."){:data-caption="Slaaponderzoek." width="40%"}
+
+Hieronder zien we het eerste deel van de resultaten van deze ondervraging.
 
 ```
    student_id hours_studied sleep_hours exam_score
