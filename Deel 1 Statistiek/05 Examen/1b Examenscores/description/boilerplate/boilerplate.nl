@@ -12,6 +12,6 @@ data <- read.csv(
 data$exam_score <- round(data$exam_score / max(data$exam_score) * 20, 1)
 
 # Alleen gewenste kolommen:
-data <- data[c("student_id","hours_studied","sleep_hours","attendance_percentage","exam_score")]
+data <- data[c("student_id","hours_studied","sleep_hours","attendance_percent","exam_score")]
 
 # Beantwoord hieronder de vragen

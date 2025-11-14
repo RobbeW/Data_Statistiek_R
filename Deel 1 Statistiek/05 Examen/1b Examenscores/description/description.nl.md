@@ -30,3 +30,7 @@ We onderzoeken welke factoren een positieve invloed heeft op examenresultaten bi
 - Bereken de variabelen `bovengemiddelde_student` waarin we de leerlingen zoeken die aan **minstens 2 van deze 3 voorwaarden voldoen**.
 
 - Maak nu een boxplot waar je de scores van de bovengemiddelde leerlingen vergelijkt met andere leerlingen. Kies zelf een kleur en zorg dat de titels overeenkomen met onderstaand voorbeeld.
+
+![Vergelijking resultaten Studenten.](media/plot.png "Vergelijking resultaten Studenten."){:data-caption="Vergelijking resultaten Studenten." .light-only width="480px"}
+
+![Vergelijking resultaten Studenten.](media/plot_dark.png "Vergelijking resultaten Studenten."){:data-caption="Vergelijking resultaten Studenten." .dark-only width="480px"}

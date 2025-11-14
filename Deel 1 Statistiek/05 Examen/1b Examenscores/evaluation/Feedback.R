@@ -12,7 +12,7 @@ data <- read.csv(
 data$exam_score <- round(data$exam_score / max(data$exam_score) * 20, 1)
 
 # Alleen gewenste kolommen:
-data <- data[c("student_id","hours_studied","sleep_hours","exam_score")]
+data <- data[c("student_id","hours_studied","sleep_hours","attendance_percent","exam_score")]
 
 gemiddelde_slaap <- mean(data$sleep_hours)
 bovengemiddelde_slaap <- data$sleep_hours > gemiddelde_slaap
@@ -20,8 +20,8 @@ bovengemiddelde_slaap <- data$sleep_hours > gemiddelde_slaap
 gemiddelde_studieuren <- mean(data$hours_studied)
 bovengemiddelde_studieuren <- data$hours_studied > gemiddelde_studieuren
 
-gemiddelde_aanwezigheid <- mean(data$attendance_percentage)
-bovengemiddelde_aanwezigheid <- data$attendance_percentage > gemiddelde_aanwezigheid
+gemiddelde_aanwezigheid <- mean(data$attendance_percent)
+bovengemiddelde_aanwezigheid <- data$attendance_percent > gemiddelde_aanwezigheid
 
 bovengemiddelde_leerlingen <- bovengemiddelde_aanwezigheid + bovengemiddelde_slaap + bovengemiddelde_studieuren >= 2
 
