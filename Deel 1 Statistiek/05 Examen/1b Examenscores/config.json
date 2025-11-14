@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "programming_language": "r",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "Examenscores - Versie B"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "evaluation": {
+    "network_enabled": true,
+    "time_limit": 200
+  },
+  "internals": {
+  
+  }
+}
