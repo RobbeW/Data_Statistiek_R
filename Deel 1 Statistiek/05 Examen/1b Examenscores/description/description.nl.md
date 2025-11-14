@@ -6,13 +6,13 @@ Er werd recentelijk een onderzoek gedaan om te zien welke factoren de grootste g
 Hieronder zien we het eerste deel van de resultaten van deze ondervraging.
 
 ```
-   student_id hours_studied sleep_hours attendance_percentage exam_score
-1        S001           8.0         8.8                    72       11.8
-2        S002           1.3         8.6                    60        9.7
-3        S003           4.0         8.2                    73       14.0
-4        S004           3.5         4.8                    95       13.3
-5        S005           9.1         6.4                    89       15.7
-6        S006           8.4         5.1                    58       13.9
+   student_id hours_studied sleep_hours attendance_percent exam_score
+1        S001           8.0         8.8                 72       11.8
+2        S002           1.3         8.6                 60        9.7
+3        S003           4.0         8.2                 73       14.0
+4        S004           3.5         4.8                 95       13.3
+5        S005           9.1         6.4                 89       15.7
+6        S006           8.4         5.1                 58       13.9
 ```
 
 Deze resultaten zijn natuurlijk niet visueel aantrekkelijk, dus wordt het onze taak om hier een grafiek van te tekenen.
