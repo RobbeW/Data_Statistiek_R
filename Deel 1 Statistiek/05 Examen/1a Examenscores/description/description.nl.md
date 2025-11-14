@@ -1,15 +1,17 @@
 ## Gegeven
-...
+Er werd recentelijk een onderzoek gedaan om te zien of de hoeveelheid slaap die leerlingen hebben een direct gevolg heeft op hun resultaten op school. Hieronder zien we het eerste deel van de resultaten van deze ondervraging.
 
 ```
-                    title year runtime rating  votes revenue_millions metascore
-1 Guardians of the Galaxy 2014     121    8.1 757074           333.13        76
-2              Prometheus 2012     124    7.0 485820           126.46        65
-3                   Split 2016     117    7.3 157606           138.12        62
-4                    Sing 2016     108    7.2  60545           270.32        59
-5           Suicide Squad 2016     123    6.2 393727           325.02        40
-6          The Great Wall 2016     103    6.1  56036            45.13        42
+   student_id hours_studied sleep_hours exam_score
+1        S001           8.0         8.8       11.8
+2        S002           1.3         8.6        9.7
+3        S003           4.0         8.2       14.0
+4        S004           3.5         4.8       13.3
+5        S005           9.1         6.4       15.7
+6        S006           8.4         5.1       13.9
 ```
+
+Deze resultaten zijn natuurlijk niet visueel aantrekkelijk, dus wordt het onze taak om hier een grafiek van te tekenen.
 
 ## Gevraagd
 
