@@ -1,4 +1,5 @@
 library(dplyr)
+set.seed(19845)
 
 # Data inlezen:
 data <- read.csv(
@@ -9,17 +10,17 @@ data <- read.csv(
 )
 
 # Alleen gewenste kolommen:
-data <- data[c("User_ID","Stress_Level(1-10)","Exercise_Frequency(week)","Happiness_Index(1-10)")]
+data <- data[c("User_ID","Stress_Level.1.10.","Exercise_Frequency.week.","Happiness_Index.1.10.")]
 
 # Kolommen hernoemen
 names(data)[names(data)=="User_ID"] <- "user_id"
-names(data)[names(data)=="Stress_Level(1-10)"]   <- "stress_level"
-names(data)[names(data)=="Exercise_Frequency(week)"] <- "exercise_frequency"
-names(data)[names(data)=="Happiness_Index(1-10)"] <- "happiness_index"
+names(data)[names(data)=="Stress_Level.1.10."]   <- "stress_level"
+names(data)[names(data)=="Exercise_Frequency.week."] <- "exercise_frequency"
+names(data)[names(data)=="Happiness_Index.1.10."] <- "happiness_index"
 
 # Scores omvormen naar integers
-data$stress_level <- as.integer(data$stress_level)
-data$exercise_frequency <- as.integer(data$exercise_frequency)
-data$happiness_index <- as.integer(data$happiness_index)
+data$stress_level <- as.numeric(data$stress_level) + runif(length(data$user_id), -0.5, 0.5)
+data$exercise_frequency <- as.numeric(data$exercise_frequency) + runif(length(data$user_id), -0.5, 0.5)
+data$happiness_index <- as.numeric(data$happiness_index) + runif(length(data$user_id), -0.5, 0.5)
 
 # Beantwoord hieronder de vragen
