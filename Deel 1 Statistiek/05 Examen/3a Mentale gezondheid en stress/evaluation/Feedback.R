@@ -9,13 +9,13 @@ data <- read.csv(
 )
 
 # Alleen gewenste kolommen:
-data <- data[c("User_ID","Stress_Level","Exercise_Frequency","Happiness_Index")]
+data <- data[c("User_ID","Stress_Level(1-10)","Exercise_Frequency(week)","Happiness_Index(1-10)")]
 
 # Kolommen hernoemen
 names(data)[names(data)=="User_ID"] <- "user_id"
-names(data)[names(data)=="Stress_Level"]   <- "stress_level"
-names(data)[names(data)=="Exercise_Frequency"] <- "exercise_frequency"
-names(data)[names(data)=="Happiness_Index"] <- "happiness_index"
+names(data)[names(data)=="Stress_Level(1-10)"]   <- "stress_level"
+names(data)[names(data)=="Exercise_Frequency(week)"] <- "exercise_frequency"
+names(data)[names(data)=="Happiness_Index(1-10)"] <- "happiness_index"
 
 # Scores omvormen naar integers
 data$stress_level <- as.integer(data$stress_level)
