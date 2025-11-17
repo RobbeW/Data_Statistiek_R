@@ -19,7 +19,8 @@ names(data)[names(data)=="released_year"] <- "release_year"
 data$streams <- as.numeric(data$streams) / 1000000
 
 # Beantwoord hieronder de vragen
+totaal <- sum(data$streams)
 n <- length(data$streams)
-aantal_staven <- sqrt(n)
+aantal_staven <- floor(sqrt(n))
 
 hist(data$streams, breaks = aantal_staven, col = "coral", main = "Aantal Spotify streams in 2023", xlab = "Aantal Streams (x 1.000.000)", ylab = "Aantal Nummers", xlim = c(0, 4000))

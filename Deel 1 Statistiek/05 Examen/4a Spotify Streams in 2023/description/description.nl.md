@@ -21,7 +21,7 @@ Hoeveel werden de top 1000 nummers effectief gestreamed?
 
 - Bereken het totaal aantal streams van deze liedjes in de variabele `totaal`.
 
-- Teken een histogram van het aantal streams van alle nummers. Voor het aantal staven gebruiken we de wortel van het aantal liedjes in ons dataframe. Bereken hiervoor eerst de variabele `aantal_staven`.
+- Teken een histogram van het aantal streams van alle nummers. Voor het aantal staven gebruiken we de wortel van het aantal liedjes in ons dataframe. Bereken hiervoor eerst de variabele `aantal_staven`. Vergeet hierbij niet om af te ronden naar beneden met de `floor`-functie.
 
 - Voeg de nodige parameters toe om jouw grafiek te laten overeenkomen met het voorbeeld. Kies zelf een kleur voor de grafiek.
 

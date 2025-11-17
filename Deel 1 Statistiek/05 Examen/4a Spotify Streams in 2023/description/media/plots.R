@@ -20,7 +20,7 @@ data$streams <- as.numeric(data$streams) / 1000000
 
 # Beantwoord hieronder de vragen
 n <- length(data$streams)
-aantal_staven <- sqrt(n)
+aantal_staven <- floor(sqrt(n))
 
 res <- 300
 # Plot

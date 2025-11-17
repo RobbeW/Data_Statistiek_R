@@ -19,8 +19,20 @@ names(data)[names(data)=="released_year"] <- "release_year"
 data$streams <- as.numeric(data$streams) / 1000000
 
 # Beantwoord hieronder de vragen
+totaal <- sum(data$streams)
 n <- length(data$streams)
-aantal_staven <- sqrt(n)
+aantal_staven <- floor(sqrt(n))
+
+context({
+  testcaseAssert("De variabele totaal bestaat.", function(env) {
+    isTRUE(exists("totaal", env))
+  })
+  testcase("De variabele werd correct berekend:", {
+    testEqual("totaal", function(env) {
+      env$totaal
+    }, totaal)
+  })
+})
 
 context({
   testcaseAssert("De variabele aantal_staven bestaat.", function(env) {
