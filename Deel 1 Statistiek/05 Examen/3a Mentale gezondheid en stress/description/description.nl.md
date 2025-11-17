@@ -1,5 +1,5 @@
 ## Gegeven
-In een onderzoek naar mentale gezondheid werden een aantal factoren zoals leeftijd, stress, sportgewoontes en sociale media onderzocht. Wij bekijken hier de stress & sportgewoontes.
+In een onderzoek naar mentale gezondheid werden een aantal factoren zoals stress en sportgewoontes onderzocht. 
 
 ![Stress op het werk.](media/stress_op_werk.jpg "Stress op het werk."){:data-caption="Stress op het werk." width="40%"}
 
@@ -25,7 +25,7 @@ Vinden sporters die zichzelf als gestresseerd benoemen zichzelf ook minder geluk
 
 - Voeg de nodige parameters toe om jouw grafiek te laten overeenkomen met het voorbeeld.
 
-- Teken een regressierechte voor deze grafiek.
+- Teken een regressierechte voor deze grafiek, met de kleur `red`.
 
 ![Stressniveau versus Mentale gezondheid.](media/plot.png "Stressniveau versus Mentale gezondheid."){:data-caption="Stressniveau versus Mentale gezondheid." .light-only width="480px"}
 

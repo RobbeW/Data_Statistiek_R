@@ -1,5 +1,5 @@
 ## Gegeven
-In een onderzoek naar mentale gezondheid werden een aantal factoren zoals leeftijd, stress, sportgewoontes en sociale media onderzocht. Wij bekijken hier de stress, leeftijd en de meestgebruikte sociale media.
+In een onderzoek naar mentale gezondheid werden een aantal factoren zoals leeftijd, stress en meestgebruikte sociale media onderzocht.
 
 ![Stress op het werk.](media/stress_op_werk.jpg "Stress op het werk."){:data-caption="Stress op het werk." width="40%"}
 
@@ -21,13 +21,13 @@ Vinden mensen boven de 30 die zichzelf als gestresseerd benoemen zichzelf ook mi
 
 - Maak een booleaanse vector `plus30`, die bepaalt welke mensen er ouder zijn dan 30 jaar.
 
-- Teken een spreidingsdiagram waarin je de happiness index van de sporters vergelijkt met hun stressniveau.
-
 - We kunnen aan elke individuele bol in de grafiek een kleur toekennen op basis van de sociale media. Er zijn in deze dataset 6 verschillende sociale media, die we elk een andere kleur willen toekennen. Maak een vector `colors` met de kleuren `dodgerblue`, `deeppink2`, `deepskyblue4`, `pink2`, `black` en `red`.
 
-- Voeg als parameter van de grafiek de parameter `col` toe die we gelijkstellen aan deze nieuwe vector met als **factor** het meestgebruikte sociale mediaplatform `col = colors[factor(data$social_media_platform)]`
+- Teken een spreidingsdiagram waarin je de happiness index van de sporters vergelijkt met hun stressniveau.
 
-- Teken de regressierechte van deze grafiek (in de juiste kleur).
+- Voeg als parameter van de grafiek de parameter `col` toe die we gelijkstellen aan de vector `colors`, met als **factor** het meestgebruikte sociale mediaplatform `col = colors[factor(data$social_media_platform)]`
+
+- Teken de regressierechte van deze grafiek (in het **groen**).
 
 - Aangezien we nu meerdere kleuren in onze grafiek hebben, kunnen we een legende toevoegen voor de leesbaarheid. We gebruiken hiervoor de functie `legend` met 4 argumenten: 
    - De locatie van de legende (als string). Je mag `bottomleft` gebruiken.
@@ -35,8 +35,8 @@ Vinden mensen boven de 30 die zichzelf als gestresseerd benoemen zichzelf ook mi
    - Een plot character. De legende is het best leesbaar met `pch = 19`
    - Dezelfde groepering als de grafiek zelf. We gebruiken het argument `legend`, en stellen dit gelijk aan `levels(...)` van dezelfde **factor** als de grafiek.
 
-![Stressniveau versus Mentale gezondheid.](media/plot.png "Stressniveau versus Mentale gezondheid."){:data-caption="Stressniveau versus Mentale gezondheid." .light-only width="480px"}
+![Stressniveau versus Geluksindex.](media/plot.png "Stressniveau versus Geluksindex."){:data-caption="Stressniveau versus Geluksindex." .light-only width="480px"}
 
-![Stressniveau versus Mentale gezondheid.](media/plot_dark.png "Stressniveau versus Mentale gezondheid."){:data-caption="Stressniveau versus Mentale gezondheid." .dark-only width="480px"}
+![Stressniveau versus Geluksindex.](media/plot_dark.png "Stressniveau versus Geluksindex."){:data-caption="Stressniveau versus Geluksindex." .dark-only width="480px"}
 
 
