@@ -20,8 +20,9 @@ names(data)[names(data)=="streams"] <- "mil_streams"
 data$mil_streams <- as.numeric(data$mil_streams) / 1000000
 
 # Beantwoord hieronder de vragen
-n <- length(data$mil_streams)
-aantal_staven <- floor(sqrt(n))
+taylor_swift <- grepl("Taylor Swift", data$artists_name)
+totaal <- sum(data$mil_streams[taylor_swift])
+aantal_staven <- floor(sqrt(length(data$mil_streams[taylor_swift])))
 
 res <- 300
 # Plot
@@ -32,13 +33,12 @@ png("plot.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "black")
-hist(data$mil_streams,
+hist(data$mil_streams[taylor_swift],
     breaks = aantal_staven,
     col = "coral",
     main = "Aantal Spotify streams in 2023",
     xlab = "Aantal Streams (x 1.000.000)",
-    ylab = "Aantal Nummers",
-    xlim = c(0, 4000))
+    ylab = "Aantal Nummers")
 dev.off()
 
 # Plot
@@ -49,13 +49,12 @@ png("plot_dark.png",
     antialias = "none")
 par(bg = NA)
 par(fg = "white")
-hist(data$mil_streams,
+hist(data$mil_streams[taylor_swift],
     breaks = aantal_staven,
     col = "coral",
     main = "Aantal Spotify streams in 2023",
     xlab = "Aantal Streams (x 1.000.000)",
     ylab = "Aantal Nummers",
-    xlim = c(0, 4000),
      border = "white",
      col.main = "white",
      col.lab = "white",
