@@ -38,7 +38,7 @@ par(fg = "black")
 plot(data$stress_level[sporters]~data$happiness_index[sporters],
      xlab = "Happiness Index",
      ylab = "Stress Level",
-     main = "Stressniveau versus Mentale gezondheid bij sporters")
+     main = "Stressniveau versus Happiness Index bij sporters")
 abline(lm(data$stress_level[sporters]~data$happiness_index[sporters]), col = "red")
 dev.off()
 
@@ -53,7 +53,7 @@ par(fg = "white")
 plot(data$stress_level[sporters]~data$happiness_index[sporters],
      xlab = "Happiness Index",
      ylab = "Stress Level",
-     main = "Stressniveau versus Mentale gezondheid bij sporters",
+     main = "Stressniveau versus Happiness Index bij sporters",
      border = "white",
      col.main = "white",
      col.lab = "white",

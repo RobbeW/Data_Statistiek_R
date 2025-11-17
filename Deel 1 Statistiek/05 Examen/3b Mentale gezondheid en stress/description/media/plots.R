@@ -40,7 +40,7 @@ par(fg = "black")
 plot(data$stress_level[plus30]~data$happiness_index[plus30],
      xlab = "Happiness Index",
      ylab = "Stress Level",
-     main = "Stressniveau versus Mentale gezondheid bij sporters",
+     main = "Stressniveau versus Happiness Index bij 30-plussers",
      col = colors[factor(data$social_media_platform)])
 abline(lm(data$stress_level[plus30]~data$happiness_index[plus30]), col = "green")
 legend("bottomleft", legend = levels(factor(data$social_media_platform)), col = colors, pch = 19)
@@ -57,7 +57,7 @@ par(fg = "white")
 plot(data$stress_level[plus30]~data$happiness_index[plus30],
      xlab = "Happiness Index",
      ylab = "Stress Level",
-     main = "Stressniveau versus Mentale gezondheid bij sporters",
+     main = "Stressniveau versus Happiness Index bij 30-plussers",
      col = colors[factor(data$social_media_platform)],
      border = "white",
      col.main = "white",

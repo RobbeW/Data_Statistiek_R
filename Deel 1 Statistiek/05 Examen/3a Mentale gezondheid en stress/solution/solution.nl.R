@@ -29,5 +29,5 @@ sporters <- data$exercise_frequency >= 3
 plot(data$stress_level[sporters]~data$happiness_index[sporters],
      xlab = "Happiness Index",
      ylab = "Stress Level",
-     main = "Stressniveau versus Mentale gezondheid bij sporters")
+     main = "Stressniveau versus Happiness Index bij sporters")
 abline(lm(data$stress_level[sporters]~data$happiness_index[sporters]), col = "red")
