@@ -27,8 +27,8 @@ Vinden sporters die zichzelf als gestresseerd benoemen zichzelf ook minder geluk
 
 - Teken een regressierechte voor deze grafiek, met de kleur `red`.
 
-![Stressniveau versus Mentale gezondheid.](media/plot.png "Stressniveau versus Mentale gezondheid."){:data-caption="Stressniveau versus Mentale gezondheid." .light-only width="480px"}
+![Stressniveau versus Happiness Index.](media/plot.png "Stressniveau versus Happiness Index."){:data-caption="Stressniveau versus Happiness Index." .light-only width="480px"}
 
-![Stressniveau versus Mentale gezondheid.](media/plot_dark.png "Stressniveau versus Mentale gezondheid."){:data-caption="Stressniveau versus Mentale gezondheid." .dark-only width="480px"}
+![Stressniveau versus Happiness Index.](media/plot_dark.png "Stressniveau versus Happiness Index."){:data-caption="Stressniveau versus Happiness Index." .dark-only width="480px"}
 
 
