@@ -14,8 +14,9 @@ data <- data[c("track_name","artist.s._name","released_year","streams")]
 # Kolommen hernoemen
 names(data)[names(data)=="artist.s._name"] <- "artists_name"
 names(data)[names(data)=="released_year"] <- "release_year"
+names(data)[names(data)=="streams"] <- "mil_streams"
 
 # Scores omvormen naar integers
-data$streams <- as.numeric(data$streams) / 1000000
+data$mil_streams <- as.numeric(data$mil_streams) / 1000000
 
 # Beantwoord hieronder de vragen

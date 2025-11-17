@@ -6,13 +6,13 @@ Spotify is een populaire app om muziek te kunnen streamen. Jaarlijks worden er m
 In onderstaande dataframe staan de top 1000 meest-gestreamde liedjes uit 2023.
 
 ```
-                            track_name       artists_name  release_year  streams (mil)
-1  Seven (feat. Latto) (Explicit Ver.)   Latto, Jung Kook          2023     141.381703
-2                                 LALA        Myke Towers          2023     133.716286
-3                              vampire     Olivia Rodrigo          2023     140.003974
-4                         Cruel Summer       Taylor Swift          2019     800.840817
-5                       WHERE SHE GOES          Bad Bunny          2023     303.236322
-6                             Sprinter  Dave, Central Cee          2023     183.706234
+                            track_name       artists_name  release_year  mil_streams
+1  Seven (feat. Latto) (Explicit Ver.)   Latto, Jung Kook          2023   141.381703
+2                                 LALA        Myke Towers          2023   133.716286
+3                              vampire     Olivia Rodrigo          2023   140.003974
+4                         Cruel Summer       Taylor Swift          2019   800.840817
+5                       WHERE SHE GOES          Bad Bunny          2023   303.236322
+6                             Sprinter  Dave, Central Cee          2023   183.706234
 ```
 
 ## Gevraagd
