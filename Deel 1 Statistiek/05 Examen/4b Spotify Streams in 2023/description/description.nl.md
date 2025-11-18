@@ -19,7 +19,7 @@ In onderstaande dataframe staan de top 1000 meest-gestreamde liedjes uit 2023.
 
 Een aantal nummers in deze lijst werden gemaakt door Taylor Swift. Hoeveel streams kregen de nummers van Taylor Swift in 2023?
 
-- Maak een booleaanse vector `taylor_swift` die bijhoudt of Taylor aan deze nummers meewerkte. Er zijn in deze lijst natuurlijk een paar nummers die enkel door Taylor Swift gemaakt werden, maar ook nummers zoals `The Joker And The Queen`, waaraan zowel Taylor Swift als Ed Sheeran meewerkten. We kunnen voor een booleaanse vector dus niet gewoon `artists_name == "Taylor Swift"` schrijven. De `grepl`-functie wordt gebruikt om te controleren of een string **deel** is van een andere string. Zo zijn `grepl("laugh", "manslaughter")` en `grepl("kat", "kat")` TRUE en `grepl("You Lost", "The Game")` FALSE.
+- Maak een booleaanse vector `taylor_swift` die bijhoudt of Taylor aan deze nummers meewerkte.  We kunnen voor deze booleaanse vector niet gewoon `artists_name == "Taylor Swift"` schrijven, omdat er nummers zijn waaraan meerdere artiesten meewerkten. De `grepl`-functie wordt gebruikt om te controleren of een string **deel** is van een andere string. Zo zijn `grepl("laugh", "manslaughter")` en `grepl("kat", "kat")` TRUE en `grepl("You Lost", "The Game")` FALSE.
 
 - Bereken het totaal aantal streams (in miljoenen) van de nummers van Taylor Swift in de variabele `totaal`.
 
