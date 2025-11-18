@@ -9,12 +9,11 @@ data <- read.csv(
 )
 
 # Alleen gewenste kolommen:
-data <- data[c("brand","model","model_year","milage","price")]
+data <- data[c("brand","model","model_year","milage")]
 
 # Scores omvormen naar integers
 data$model_year <- as.numeric(data$model_year)
 data$milage <- as.numeric(gsub(',', '',substr(data$milage,1,nchar(data$milage)-3)))
-data$price <- as.numeric(gsub(',', '', sub('.', '', data$price))) / 1000
 
 # Beantwoord hieronder de vragen
 merk <- data$brand == "Ferrari"
