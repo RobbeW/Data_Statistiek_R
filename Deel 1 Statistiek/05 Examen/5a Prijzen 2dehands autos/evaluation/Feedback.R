@@ -11,14 +11,17 @@ data <- read.csv(
 # Alleen gewenste kolommen:
 data <- data[c("brand","model","model_year","milage")]
 
+# Kolommen hernoemen
+names(data)[names(data)=="milage"] <- "milage_mile"
+
 # Scores omvormen naar integers
 data$model_year <- as.numeric(data$model_year)
-data$milage <- as.numeric(gsub(',', '',substr(data$milage,1,nchar(data$milage)-3)))
+data$milage_mile <- as.numeric(gsub(',', '',substr(data$milage_mile,1,nchar(data$milage_mile)-3)))
 
 # Beantwoord hieronder de vragen
 merk <- data$brand == "Ferrari"
 standaard_ferrari <- 250000
-prijs_per_wagen <- standaard_ferrari - (2025 - data$model_year) * 5000 - (data$milage * 1.61)
+prijs_per_wagen <- standaard_ferrari - (2025 - data$model_year) * 5000 - (data$milage_mile * 1.61)
 
 context({
   testcaseAssert("De variabele merk bestaat.", function(env) {
