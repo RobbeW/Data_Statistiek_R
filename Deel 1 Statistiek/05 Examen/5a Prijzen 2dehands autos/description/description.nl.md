@@ -42,7 +42,9 @@ Hoeveel moet je momenteel betalen voor de beschikbare Ferrari's?
 ![Prijzen van 2dehands Ferrari's](media/plot_dark.png "Prijzen van 2dehands Ferrari's"){:data-caption="Prijzen van 2dehands Ferrari's" .dark-only width="480px"}
 
 {: .callout.callout-info}
->#### Tip
+>#### Tips
 >
-> 1 mijl komt (ongeveer) overeen met 1.61 km.
+> - 1 mijl komt (ongeveer) overeen met 1.61 km.
+>
+> - Hier is een euro-symbool om te kunnen kopiëren: `€`
 

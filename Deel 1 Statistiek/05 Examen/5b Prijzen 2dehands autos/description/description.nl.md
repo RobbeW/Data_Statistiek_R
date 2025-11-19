@@ -58,4 +58,6 @@ Hoeveel moet je momenteel betalen voor de beschikbare Aston Martins?
 > - 1 mijl komt (ongeveer) overeen met 1.61 km.
 >
 > - We hebben nu meerdere dataframes om data uit te halen. Let dus op de naamgeving van alle dataframes!
+>
+> - Hier is een euro-symbool om te kunnen kopiëren: `€`
 
