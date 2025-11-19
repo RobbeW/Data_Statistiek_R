@@ -21,7 +21,7 @@ data$milage_mile <- as.numeric(gsub(',', '',substr(data$milage_mile,1,nchar(data
 # Beantwoord hieronder de vragen
 merk <- data$brand == "Ferrari"
 standaard_ferrari <- 250000
-prijs_per_wagen <- standaard_ferrari - (2025 - data$model_year) * 5000 - (data$milage_mile * 1.61)
+prijzen_ferrari <- standaard_ferrari - (2025 - data$model_year[merk]) * 5000 - (data$milage_mile[merk] * 1.61)
 
 context({
   testcaseAssert("De variabele merk bestaat.", function(env) {
@@ -46,13 +46,13 @@ context({
 })
 
 context({
-  testcaseAssert("De variabele prijs_per_wagen bestaat.", function(env) {
-    isTRUE(exists("prijs_per_wagen", env))
+  testcaseAssert("De variabele prijzen_ferrari bestaat.", function(env) {
+    isTRUE(exists("prijzen_ferrari", env))
   })
   testcase("De variabele werd correct berekend:", {
-    testEqual("prijs_per_wagen", function(env) {
-      env$prijs_per_wagen
-    }, prijs_per_wagen)
+    testEqual("prijzen_ferrari", function(env) {
+      env$prijzen_ferrari
+    }, prijzen_ferrari)
   })
 })
 

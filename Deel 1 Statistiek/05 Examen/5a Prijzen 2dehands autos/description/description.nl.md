@@ -31,7 +31,7 @@ Hoeveel moet je momenteel betalen voor de beschikbare Ferrari's?
 
 - Je mag ervan uitgaan dat Ferrari's allemaal standaard 250000 euro kosten. Sla dit op in de variabele `standaard_ferrari`.
 
-- Bereken op basis van de formule in de opgave de prijs van alle 2dehandswagens. Sla dit op in de variabele `prijs_per_wagen`. Om de leeftijd te berekenen mag je voor het huidige jaar gewoon `2025` gebruiken.
+- Bereken op basis van de formule in de opgave de prijs van alle beschikbare ferrari's. Sla dit op in de variabele `prijzen_ferrari`. Om de leeftijd te berekenen mag je voor het huidige jaar gewoon `2025` gebruiken.
 
 - Teken een staafdiagram van de prijzen van alle beschikbare 2dehands Ferrari's. Voor de leesbaarheid van de grafiek voeg je de regel `par(mar = c(10, 6, 4.1, 2.1), mgp = c(5, 1, 0))` in **voordat** je de grafiek tekent.
 

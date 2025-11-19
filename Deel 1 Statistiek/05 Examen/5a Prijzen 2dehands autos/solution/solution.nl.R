@@ -21,7 +21,7 @@ data$milage_mile <- as.numeric(gsub(',', '',substr(data$milage_mile,1,nchar(data
 # Beantwoord hieronder de vragen
 merk <- data$brand == "Ferrari"
 standaard_ferrari <- 250000
-prijs_per_wagen <- standaard_ferrari - (2025 - data$model_year) * 5000 - (data$milage_mile * 1.61)
+prijzen_ferrari <- standaard_ferrari - (2025 - data$model_year[merk]) * 5000 - (data$milage_mile[merk] * 1.61)
 
 par(mar = c(10, 6, 4.1, 2.1), mgp = c(5, 1, 0))
-barplot(prijs_per_wagen[ferrari], names.arg = data$model[ferrari], las = 2, col = "darkolivegreen1", main = "Prijzen van 2dehands Ferrari's", ylab = "Prijs (in €)", ylim = c(0, 250000))
+barplot(prijzen_ferrari, names.arg = data$model[ferrari], las = 2, col = "darkolivegreen1", main = "Prijzen van 2dehands Ferrari's", ylab = "Prijs (in €)", ylim = c(0, 250000))
