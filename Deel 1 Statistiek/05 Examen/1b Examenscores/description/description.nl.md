@@ -27,7 +27,7 @@ We onderzoeken welke factoren een positieve invloed heeft op examenresultaten bi
 
 - Bereken analoog de variabelen `gemiddelde_studieuren`, `bovengemiddelde_studieuren`, `gemiddelde_aanwezigheid` en `bovengemiddelde_aanwezigheid`.
 
-- Bereken de variabelen `bovengemiddelde_student` waarin we de leerlingen zoeken die aan **minstens 2 van deze 3 voorwaarden voldoen**.
+- Bereken de variabelen `bovengemiddelde_leerlingen` waarin we de leerlingen zoeken die aan **minstens 2 van deze 3 voorwaarden voldoen**.
 
 - Maak nu een boxplot waar je de scores van de bovengemiddelde leerlingen vergelijkt met andere leerlingen. Kies zelf een kleur en zorg dat de titels overeenkomen met onderstaand voorbeeld.
 
