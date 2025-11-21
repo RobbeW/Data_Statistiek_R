@@ -6,10 +6,10 @@ Dagelijks worden er in België ongeveer 2000 2dehandswagens verkocht. Als je op 
 Om de prijs van een tweedehandswagen te berekenen gebruiken we volgende formule:
 
 $$
-    \mathsf{\text{prijsWagen} = \text{standaard} - \sqrt{\text{leeftijd}} \cdot 3000 - \sqrt{\text{aantalKm}} \cdot 100}
+    \mathsf{\text{prijsWagen} = \text{nieuwe_prijs} - \sqrt{\text{leeftijd}} \cdot 3000 - \sqrt{\text{aantalKm}} \cdot 100}
 $$
 
-Hierbij stelt `standaard` een standaardprijs van het model voor, `leeftijd` het aantal jaren sinds het productiejaar en `aantalKm` het aantal **km** dat al gereden werd met de auto.
+Hierbij stelt `nieuwe_prijs` de aankoopprijs van het model voor, `leeftijd` het aantal jaren sinds het productiejaar en `aantalKm` het aantal **km** dat al gereden werd met de auto.
 
 In onderstaande dataframe staan een hele reeks (onverkochte) 2dehandswagens.
 
