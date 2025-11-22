@@ -28,6 +28,6 @@ Bereken het basaal metabolisme van de vrouwelijke atleten in deze dataset.
 
 - Maak een booleaanse vector `vrouwen`, die bepaalt welke atleten van het vrouwelijke geslacht zijn.
 
-- Bereken, aan de hand van de gegeven formule, de variabele `basaal_metabolisme_vrouwen` **voor de vrouwen**.
+- Bereken, aan de hand van de gegeven formule, de variabele `basaal_metabolisme_vrouwen` **voor de vrouwen**. Rond dit resultaat af op 2 cijfers na de komma.
 
-- Welke vrouwelijke atleet staat dan in het midden? Wie is, met andere woorden, de mediaan? Sla dit op in de variabele `mediaan_metabolisme`
+- Welk aantal kilocalorieën staat dan in het midden? Wat is, met andere woorden, de mediaan? Sla dit op in de variabele `mediaan_metabolisme`
