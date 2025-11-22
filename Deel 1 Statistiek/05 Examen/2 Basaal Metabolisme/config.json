@@ -1,0 +1,19 @@
+{
+  "type": "exercise",
+  "programming_language": "r",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "Basaal Metabolisme"
+    }
+  },
+  "labels": [
+    "R",
+    "statistiek"
+  ],
+  "evaluation": {
+    "network_enabled": true,
+    "time_limit": 200
+  },
+  "internals": {}
+}
