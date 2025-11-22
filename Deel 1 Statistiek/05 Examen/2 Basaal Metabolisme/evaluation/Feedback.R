@@ -16,7 +16,7 @@ gewicht <- data$weight / 2.204
 lengte <- data$height * 100
 vrouwen <- data$sex == "F"
 basaal_metabolisme_vrouwen <- round(10 * gewicht[vrouwen] + 6.25 * lengte[vrouwen] - 5 * data$age[vrouwen] - 161, 2)
-mediaan_metabolisme <- data$name[basaal_metabolisme_vrouwen == median(basaal_metabolisme_vrouwen)]
+mediaan_metabolisme <- median(basaal_metabolisme_vrouwen)
 
 context({
   testcaseAssert("De variabele gewicht bestaat.", function(env) {
