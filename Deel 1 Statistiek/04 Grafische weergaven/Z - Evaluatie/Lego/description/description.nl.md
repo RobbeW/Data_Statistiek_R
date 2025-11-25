@@ -28,8 +28,6 @@ via `head(data)` krijgen we een (beperkt) overzicht van deze gegevens:
 
 Je vindt er de naam van de set, `theme` stelt het thema voor, `pieces` het aantal stukken in een doos, `price` de verkoopprijs (in $), `year` het jaar van uitgave en `ages` de doelgroep.
 
-`~`
-
 ## Gevraagd
 
 In welke mate voorspelt het aantal stukken de verkoopprijs?
