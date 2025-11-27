@@ -4,7 +4,7 @@ Vorig jaar lanceerde de **Vlaamse Stichting Verkeerskunde** (VSV) daarom nog de 
 
 ![Groot gelijk, door VSV.](media/groot_gelijk.jpg "Groot gelijk, door VSV."){:data-caption="Groot gelijk, door VSV." width="35%"}
 
-Je kan de formule van <a href="https://www.lgcstandards.com/ES/en/Resources/Articles/Logical-Erik-Widmark" target="_blank">Widmark</a> gebruiken om de BAC (Bloed Alcohol Concentratie) te voorspellen. De formule werkt als volgt:
+Als je iets gedronken hebt, dan kan je de formule van <a href="https://www.lgcstandards.com/ES/en/Resources/Articles/Logical-Erik-Widmark" target="_blank">Widmark</a> gebruiken om de BAC (Bloed Alcohol Concentratie) te voorspellen. De formule werkt als volgt:
 
 $$
  \mathsf{\text{BAC} \approx \dfrac{n \cdot V \cdot p \cdot 8 \cdot 1,055}{r\cdot m} - t\cdot 0,17}
@@ -22,6 +22,6 @@ Is deze schatting **hoger** dan de **wettelijke** grenswaarde, dan verschijnt de
 #### Voorbeeld
 Voor iemand van het vrouwelijke geslacht met een massa van `67`kg die gedurende `1.3` uur `3` pintjes dronk verschijnt er:
 ```
-Je bloed acohol concentratie wordt geschat op: 0.913 promille.
+Je bloed alcohol concentratie wordt geschat op: 0.913 promille.
 Je mag NIET rijden!
 ```
