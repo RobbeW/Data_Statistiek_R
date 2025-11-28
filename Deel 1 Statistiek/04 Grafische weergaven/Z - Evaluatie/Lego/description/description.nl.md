@@ -1,6 +1,6 @@
 ## Gegeven
 
-Via <a href="https://rebrickable.com/" target="_blank">Rebrickable</a> kan je de waarde van je oude Lego blokken inschatten. Achter de website zit een databank met alle sets die LEGO ooit heeft in de markt gezet.
+Via Rebrickable kan je de waarde van je oude Lego blokken inschatten. Achter de website zit een databank met alle sets die LEGO ooit heeft in de markt gezet.
 
 ![LEGO.](media/lego.gif "LEGO."){:data-caption="LEGO." width="450px"}
 

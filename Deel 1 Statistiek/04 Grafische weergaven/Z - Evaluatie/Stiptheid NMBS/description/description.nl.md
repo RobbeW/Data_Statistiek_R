@@ -1,6 +1,6 @@
 ## Gegeven
 
-Begin februari kon je in de <a href="https://www.nieuwsblad.be/cnt/dmf20240209_93685873" target="_blank">krant</a> lezen: *"Stiptheid bij NMBS blijft historisch laag: meer dan 6000 treinen afgeschaft in januari"*. Gelukkig biedt Infrabel een kijkje in hun gegevens via hun <a href="https://opendata.infrabel.be/explore/dataset/nationale-stiptheid-per-moment-en-per-maand" target="_blank">open data portaal</a>.
+Begin februari kon je in de krant lezen: *"Stiptheid bij NMBS blijft historisch laag: meer dan 6000 treinen afgeschaft in januari"*. Gelukkig biedt Infrabel een kijkje in hun gegevens via hun open data portaal.
 
 ![Foto door Danny De Vylder op Unsplash.](media/danny-de-vylder.jpg "Foto door Danny De Vylder op Unsplash."){:data-caption="Foto door Danny De Vylder op Unsplash." width="45%"}
 
@@ -37,7 +37,7 @@ Maak onderstaand histogram met de gemiddelde vertraging.
 - Maak een vector `trein_vertraging` aan, waarin je per maand berekent hoeveel treinen er **wel** (noemenswaardige) vertraging hadden.
 - Je kan nu gaan *inschatten* hoeveel minuten deze treinen gemiddelde gesproken te laat kwamen. Je kent immers het totale aantal minuten vertraging. Sla dit op in de variabele `minuten_vertraging` en rond af op 2 cijfers na de komma.
 - Om de grenswaarden van het histogram te bepalen maak je twee variabelen `xmin` en `xmax`. In `xmin` bewaar je de kleinste waarde van dit gemiddeld aantal minuten vertraging. Rond hierbij naar beneden af via `floor()`. Doe hetzelfde voor `xmax`, maar rond daarbij naar boven af via `ceiling()`.
-- Maak het histogram, kies zelf een kleur uit deze <a href="https://r-charts.com/colors/" target="_blank">website</a>. Gebruik `xlim = c(xmin - 1, xmax + 1)` om voldoende marge te hebben op de x-as.
+- Maak het histogram, gebruik `cadetblue` als kleur. Gebruik `xlim = c(xmin - 1, xmax + 1)` om voldoende marge te hebben op de x-as.
 
 ![Gemiddeld aantal minuten vertraging.](media/plot.png "Gemiddeld aantal minuten vertraging."){:data-caption="Gemiddeld aantal minuten vertraging." .light-only width="480px"}
 
