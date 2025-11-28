@@ -20,6 +20,6 @@ if bac <= 0:
     bac = 0
 
 # Uitvoer
-print( 'Je bloed acohol concentratie wordt geschat op:', round(bac, 3), 'promille.')
+print( 'Je bloed alcohol concentratie wordt geschat op:', round(bac, 3), 'promille.')
 if bac >= 0.5:
     print( 'Je mag NIET rijden!' )
