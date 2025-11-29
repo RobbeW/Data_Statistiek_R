@@ -13,7 +13,7 @@ if geslacht == "M":
 else:
     r = 0.55
 
-bac = n * 33 * 0.05 * 8 * 1.055 / ( r * m ) - t * 0.17
+bac = n * V * p * 8 * 1.055 / ( r * m ) - t * 0.17
 
 # Kan niet negatief zijn
 if bac <= 0:
