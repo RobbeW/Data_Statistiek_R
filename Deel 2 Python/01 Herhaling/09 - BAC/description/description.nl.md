@@ -4,7 +4,7 @@ Vorig jaar lanceerde de **Vlaamse Stichting Verkeerskunde** (VSV) daarom nog de 
 
 ![Groot gelijk, door VSV.](media/groot_gelijk.jpg "Groot gelijk, door VSV."){:data-caption="Groot gelijk, door VSV." width="35%"}
 
-Als je iets gedronken hebt, dan kan je de formule van <a href="https://www.lgcstandards.com/ES/en/Resources/Articles/Logical-Erik-Widmark" target="_blank">Widmark</a> gebruiken om de BAC (Bloed Alcohol Concentratie) te voorspellen. De formule werkt als volgt:
+Je kan de formule van <a href="https://www.lgcstandards.com/ES/en/Resources/Articles/Logical-Erik-Widmark" target="_blank">Widmark</a> gebruiken om de BAC (Bloed Alcohol Concentratie) te voorspellen. De formule werkt als volgt:
 
 $$
  \mathsf{\text{BAC} \approx \dfrac{n \cdot V \cdot p \cdot 8 \cdot 1,055}{r\cdot m} - t\cdot 0,17}
@@ -15,7 +15,7 @@ Hierbij stelt $$\mathsf{n}$$ het aantal consumpties voor, $$\mathsf{V}$$ het vol
 ## Opgave
 Je mag in deze opgave ervan uitgaan dat er telkens gewone pintjes gedronken worden, met een alcoholpercentage $$\mathsf{p = 0,05}$$ en $$\mathsf{V = 33 \text{c}\ell}$$.
 
-Vraag nu **in volgorde** naar het aantal consumpties, de massa, de tijd in uren en het geslacht `V` of `M`. Bepaal vervolgens de schatting van de BAC. Rond deze waarde af op 3 cijfers.
+Vraag nu **in volgorde** naar het aantal consumpties, de massa, de tijd in uren en het geslacht `V` of `M`. Bepaal vervolgens de schatting van de BAC indien dit zinvol is. Rond deze waarde af op 3 cijfers.
 
 Is deze schatting **hoger** dan de **wettelijke** grenswaarde, dan verschijnt de boodschap `Je mag NIET rijden!`
 
