@@ -13,6 +13,7 @@ Indien de gebruiker de getallen `12` intikt, dan verschijnt er:
 4 heeft een deler groter dan 1 gemeenschappelijk met 12
 6 heeft een deler groter dan 1 gemeenschappelijk met 12
 8 heeft een deler groter dan 1 gemeenschappelijk met 12
+9 heeft een deler groter dan 1 gemeenschappelijk met 12
 10 heeft een deler groter dan 1 gemeenschappelijk met 12
 ```
 
